@@ -12,7 +12,7 @@ public int MoveEnd(Windows.UI.Text.TextRangeUnit unit, System.Int32 count)
 ## -description
 Moves the end position of the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.MoveEnd](/windows/winui/api/microsoft.ui.text.itextrange.moveend).
+
 
 ## -parameters
 ### -param unit

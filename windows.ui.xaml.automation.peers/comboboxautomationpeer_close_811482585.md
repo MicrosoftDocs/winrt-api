@@ -12,7 +12,7 @@ public void Close()
 ## -description
 Attempts to close the [ComboBox](../windows.ui.xaml.controls/combobox.md) control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Close](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.close).
+
 
 ## -remarks
 

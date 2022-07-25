@@ -13,7 +13,7 @@ public Windows.UI.Color ForestGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF228B22.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.ForestGreen](/windows/winui/api/microsoft.ui.colors.forestgreen).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public bool AllowDrop { get;  set; }
 ## -description
 Gets or sets a value that determines whether this [UIElement](uielement.md) can be a drop target for purposes of drag-and-drop operations.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.AllowDrop](/windows/winui/api/microsoft.ui.xaml.uielement.allowdrop).
+
 
 ## -xaml-syntax
 ```xaml

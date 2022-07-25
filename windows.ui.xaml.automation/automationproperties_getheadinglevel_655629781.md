@@ -13,7 +13,7 @@ public AutomationHeadingLevel AutomationProperties.GetHeadingLevel(DependencyObj
 
 Gets the value of the [AutomationProperties.HeadingLevel](automationproperties_headinglevel.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getheadinglevel).
+
 
 ## -parameters
 

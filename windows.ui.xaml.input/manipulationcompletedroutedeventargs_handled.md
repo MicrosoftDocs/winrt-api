@@ -12,7 +12,7 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that marks the routed event as handled. Setting to **true** prevents most handlers along the event route from handling the same event again.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs.handled).
+
 
 ## -property-value
 **true** to mark the routed event handled; **false** to leave the routed event unhandled, which permits the event to potentially route further. The default is **false**.

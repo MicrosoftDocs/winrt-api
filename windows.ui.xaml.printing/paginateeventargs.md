@@ -12,7 +12,7 @@ public class PaginateEventArgs : Windows.UI.Xaml.Printing.IPaginateEventArgs
 ## -description
 Provides event data for the [Paginate](printdocument_paginate.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Printing.PaginateEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.paginateeventargs).
+
 
 ## -remarks
 

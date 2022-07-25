@@ -14,7 +14,7 @@ public void XamlLight.AddTargetBrush(String lightId, Brush brush)
 
 Sets a [Brush](/uwp/api/Windows.UI.Xaml.Media.Brush) as a target of a [XamlLight](XamlLight.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.AddTargetBrush](/windows/winui/api/microsoft.ui.xaml.media.xamllight.addtargetbrush).
+
 
 ## -parameters
 

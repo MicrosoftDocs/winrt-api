@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MonthYearItemFontFamilyProperty { get;
 ## -description
 Identifies the [MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontFamilyProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontfamilyproperty).
+
 
 ## -property-value
 The identifier for the [MonthYearItemFontFamily](calendarview_monthyearitemfontfamily.md)   dependency property.

@@ -12,7 +12,7 @@ public interface ICollectionView : Windows.Foundation.Collections.IIterable<Syst
 ## -description
 Enables collections to support current record management, grouping, and incremental loading (data virtualization).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ICollectionView](/windows/winui/api/microsoft.ui.xaml.data.icollectionview).
+
 
 ## -remarks
 ICollectionView is an interface used to represent a collection. It serves to maintain currency for properties like item selection.

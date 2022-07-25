@@ -12,7 +12,7 @@ public int DecodePixelHeight { get;  set; }
 ## -description
 Gets or sets the height to use for image decoding operations.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeight](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.decodepixelheight).
+
 
 ## -xaml-syntax
 ```xaml

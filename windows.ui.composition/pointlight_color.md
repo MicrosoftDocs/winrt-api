@@ -12,7 +12,7 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 Color of the light.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.PointLight.Color](/windows/winui/api/microsoft.ui.composition.pointlight.color).
+
 
 ## -property-value
 Color of the light.

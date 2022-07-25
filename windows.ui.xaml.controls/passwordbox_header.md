@@ -12,7 +12,7 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the control's header.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.Header](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.header).
+
 
 ## -xaml-syntax
 ```xaml
@@ -38,4 +38,4 @@ You can set a data template for the Header value by using the [HeaderTemplate](p
 ## -examples
 
 ## -see-also
-[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md), [PasswordBox styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)
+[Password](passwordbox_password.md), [HeaderTemplate](passwordbox_headertemplate.md)

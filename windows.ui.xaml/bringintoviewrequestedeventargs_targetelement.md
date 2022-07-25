@@ -13,7 +13,7 @@ public UIElement TargetElement { get;  set; }
 
 Gets or sets the element that should be made visible in response to the event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetElement](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.targetelement).
+
 
 ## -property-value
 

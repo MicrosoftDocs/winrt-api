@@ -12,7 +12,7 @@ virtual protected string GetClassNameCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetClassName](automationpeer_getclassname_614238974.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClassNameCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getclassnamecore).
+
 
 ## -returns
 The class name.

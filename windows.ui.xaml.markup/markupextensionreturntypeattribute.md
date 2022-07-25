@@ -13,7 +13,7 @@ public class MarkupExtensionReturnTypeAttribute : Attribute, Attribute
 
 Reports the type that a markup extension can return.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.MarkupExtensionReturnTypeAttribute](/windows/winui/api/microsoft.ui.xaml.markup.markupextensionreturntypeattribute).
+
 
 ## -remarks
 

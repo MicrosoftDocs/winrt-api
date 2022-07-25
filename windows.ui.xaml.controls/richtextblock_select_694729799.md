@@ -12,7 +12,7 @@ public void Select(Windows.UI.Xaml.Documents.TextPointer start, Windows.UI.Xaml.
 ## -description
 Selects a range of text in the [RichTextBlock](richtextblock.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RichTextBlock.Select](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.select).
+
 
 ## -parameters
 ### -param start

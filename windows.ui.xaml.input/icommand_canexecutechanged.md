@@ -13,7 +13,7 @@ abstract public event Windows.Foundation.EventHandler CanExecuteChanged<object>
 
 Occurs whenever something happens that affects whether the command can execute.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.ICommand.CanExecuteChanged](/windows/winui/api/microsoft.ui.xaml.input.icommand.canexecutechanged).
+
 
 ## -remarks
 

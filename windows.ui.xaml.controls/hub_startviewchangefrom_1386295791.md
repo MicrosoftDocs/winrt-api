@@ -12,7 +12,7 @@ public void StartViewChangeFrom(Windows.UI.Xaml.Controls.SemanticZoomLocation so
 ## -description
 Initializes item-wise operations that are related to a view change when the [Hub](hub.md) instance is the source view and the pending destination view is a potentially different implementing view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.StartViewChangeFrom](/windows/winui/api/microsoft.ui.xaml.controls.hub.startviewchangefrom).
+
 
 ## -parameters
 ### -param source

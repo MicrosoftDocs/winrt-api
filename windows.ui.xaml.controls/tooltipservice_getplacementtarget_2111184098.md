@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement GetPlacementTarget(Windows.UI.Xaml.DependencyOb
 ## -description
 Gets the [ToolTipService.PlacementTarget](tooltipservice_placementtarget.md) XAML attached property value for the specified target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ToolTipService.GetPlacementTarget](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice.getplacementtarget).
+
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public void InvalidatePreview()
 ## -description
 References the low-level print preview dialog API and invalidates the current print preview.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Printing.PrintDocument.InvalidatePreview](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.invalidatepreview).
+
 
 ## -remarks
 

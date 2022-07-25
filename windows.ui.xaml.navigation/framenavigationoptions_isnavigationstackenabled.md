@@ -14,7 +14,7 @@ public bool IsNavigationStackEnabled { get;  set; }
 
 Gets or sets a value that indicates whether navigation is recorded in the Frame's ForwardStack or BackStack.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.IsNavigationStackEnabled](/windows/winui/api/microsoft.ui.xaml.navigation.framenavigationoptions.isnavigationstackenabled).
+
 
 ## -property-value
 

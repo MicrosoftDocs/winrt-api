@@ -13,7 +13,7 @@ public class FontWeights : Windows.UI.Text.IFontWeights
 
 Provides a set of predefined font weights as static property values.
 
-Equivalent WinUI class: [Microsoft.UI.Text.FontWeights](/windows/winui/api/microsoft.ui.text.fontweights).
+
 
 ## -xaml-syntax
 

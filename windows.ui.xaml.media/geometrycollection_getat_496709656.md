@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Geometry GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.getat).
+
 
 ## -parameters
 ### -param index

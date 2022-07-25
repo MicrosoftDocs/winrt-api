@@ -14,7 +14,7 @@ public Windows.UI.Xaml.Documents.TextPointer SelectionStart { get; }
 
 Gets the starting position of the text selected in the [TextBlock](textblock.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.SelectionStart](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectionstart).
+
 
 ## -property-value
 

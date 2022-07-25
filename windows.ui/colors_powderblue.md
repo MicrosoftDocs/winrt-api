@@ -13,7 +13,7 @@ public Windows.UI.Color PowderBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FFB0E0E6.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.PowderBlue](/windows/winui/api/microsoft.ui.colors.powderblue).
+
 
 ## -property-value
 

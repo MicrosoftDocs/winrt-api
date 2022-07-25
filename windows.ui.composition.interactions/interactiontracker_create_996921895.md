@@ -14,7 +14,7 @@ Creates an instance of [InteractionTracker](interactiontracker.md).
 
 This Create method will instantiate an [InteractionTracker](interactiontracker.md). After creating the [InteractionTracker](interactiontracker.md) setting the properties, attaching a [VisualInteractionSource](visualinteractionsource.md), and referencing position or scale in an [ExpressionAnimation](../windows.ui.composition/expressionanimation.md), active input can drive the [ExpressionAnimation](../windows.ui.composition/expressionanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.Create](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.create).
+
 
 ## -parameters
 ### -param compositor

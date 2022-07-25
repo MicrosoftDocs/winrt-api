@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StyleProperty { get; }
 ## -description
 Identifies the [Style](frameworkelement_style.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.StyleProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.styleproperty).
+
 
 ## -property-value
 The identifier for the [Style](frameworkelement_style.md) dependency property.

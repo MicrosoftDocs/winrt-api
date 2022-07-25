@@ -12,7 +12,7 @@ public class ThumbAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkEle
 ## -description
 Exposes [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ThumbAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.thumbautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class creates a new ThumbAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) is sealed, so the normal scenario of deriving from the [Thumb](../windows.ui.xaml.controls.primitives/thumb.md) class and its existing peer isn't applicable to ThumbAutomationPeer.

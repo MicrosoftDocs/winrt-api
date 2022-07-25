@@ -12,7 +12,7 @@ public Windows.Foundation.Point Value { get;  set; }
 ## -description
 Gets or sets the key frame's target value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrame.Value](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframe.value).
+
 
 ## -xaml-syntax
 ```xaml

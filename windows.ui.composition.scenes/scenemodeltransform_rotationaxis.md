@@ -14,7 +14,7 @@ public Vector3 RotationAxis { get;  set; }
 
 Gets or sets the axes around which the node is rotated.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneModelTransform.RotationAxis](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.rotationaxis).
+
 
 ## -property-value
 

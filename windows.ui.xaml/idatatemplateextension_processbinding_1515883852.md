@@ -12,7 +12,7 @@ public bool ProcessBinding(System.UInt32 phase)
 ## -description
 Provides phased rendering of bound data in a data template.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.IDataTemplateExtension.ProcessBinding](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension.processbinding).
+
 
 ## -parameters
 ### -param phase

@@ -12,7 +12,7 @@ public class VisualTreeHelper : Windows.UI.Xaml.Media.IVisualTreeHelper
 ## -description
 Provides utility methods that can be used to traverse object relationships (along child-object or parent-object axes) in the visual tree of your app.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.VisualTreeHelper](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper).
+
 
 ## -remarks
 ### The visual tree

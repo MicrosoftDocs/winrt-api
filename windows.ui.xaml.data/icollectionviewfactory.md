@@ -12,7 +12,7 @@ public interface ICollectionViewFactory :
 ## -description
 Supports creation of the relevant [ICollectionView](icollectionview.md) implementation.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.ICollectionViewFactory](/windows/winui/api/microsoft.ui.xaml.data.icollectionviewfactory).
+
 
 ## -remarks
 The [CreateView](icollectionviewfactory_createview_164792513.md) method is called when you set the [CollectionViewSource.Source](collectionviewsource_source.md) property to an ICollectionViewFactory implementation. The returned [ICollectionView](icollectionview.md) implementation is used to manage sorting, filtering, grouping, and currency for the bound collection. When using the [CollectionViewSource](collectionviewsource.md) class, you can access the [View](collectionviewsource_view.md) property to retrieve the [ICollectionView](icollectionview.md) implementation.

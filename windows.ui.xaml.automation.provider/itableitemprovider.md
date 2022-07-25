@@ -12,7 +12,7 @@ public interface ITableItemProvider :
 ## -description
 Exposes methods and properties to support Microsoft UI Automation client access to child controls of containers that implement [ITableProvider](itableprovider.md). Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.TableItem](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITableItemProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itableitemprovider).
+
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [TableItem Control Pattern](/windows/desktop/WinAuto/uiauto-implementingtableitem).

@@ -12,7 +12,7 @@ public double CenterX { get;  set; }
 ## -description
 Gets or sets the x-coordinate of the center point for all transforms specified by the [CompositeTransform](compositetransform.md) in device-independent pixel (DIP) relative to the upper left-hand corner of the element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.CenterX](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.centerx).
+
 
 ## -xaml-syntax
 ```xaml

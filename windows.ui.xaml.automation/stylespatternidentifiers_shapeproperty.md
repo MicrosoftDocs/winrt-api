@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty ShapeProperty { get; }
 ## -description
 Identifies the [Shape](../windows.ui.xaml.automation.provider/istylesprovider_shape.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.ShapeProperty](/windows/winui/api/microsoft.ui.xaml.automation.stylespatternidentifiers.shapeproperty).
+
 
 ## -property-value
 The automation property identifier.

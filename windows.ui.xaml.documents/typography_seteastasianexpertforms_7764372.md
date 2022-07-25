@@ -12,7 +12,7 @@ public void SetEastAsianExpertForms(Windows.UI.Xaml.DependencyObject element, Sy
 ## -description
 Sets the value of the [EastAsianExpertForms](typography_eastasianexpertforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetEastAsianExpertForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.seteastasianexpertforms).
+
 
 ## -parameters
 ### -param element

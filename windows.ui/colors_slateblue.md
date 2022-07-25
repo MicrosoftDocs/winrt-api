@@ -13,7 +13,7 @@ public Windows.UI.Color SlateBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF6A5ACD.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.SlateBlue](/windows/winui/api/microsoft.ui.colors.slateblue).
+
 
 ## -property-value
 

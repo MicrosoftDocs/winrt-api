@@ -14,7 +14,7 @@ public SceneWrappingMode WrappingUMode { get;  set; }
 
 Gets or sets a value that indicates how wrapping occurs on the U axis.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneSurfaceMaterialInput.WrappingUMode](/windows/winui/api/microsoft.ui.composition.scenes.scenesurfacematerialinput.wrappingumode).
+
 
 ## -property-value
 

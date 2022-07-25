@@ -12,7 +12,7 @@ public Windows.UI.Input.PointerPoint GetCurrentPoint(Windows.UI.Xaml.UIElement r
 ## -description
 Retrieves a [PointerPoint](../windows.ui.input/pointerpoint.md) object that provides basic info on the pointer associated with the event.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.GetCurrentPoint](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.getcurrentpoint).
+
 
 ## -parameters
 ### -param relativeTo

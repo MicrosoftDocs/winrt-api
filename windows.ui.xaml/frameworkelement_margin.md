@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness Margin { get;  set; }
 ## -description
 Gets or sets the outer margin of a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Margin](/windows/winui/api/microsoft.ui.xaml.frameworkelement.margin).
+
 
 ## -xaml-syntax
 ```xaml

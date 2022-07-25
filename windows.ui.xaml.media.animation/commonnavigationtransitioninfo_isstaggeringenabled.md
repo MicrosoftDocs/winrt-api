@@ -12,7 +12,7 @@ public bool IsStaggeringEnabled { get;  set; }
 ## -description
 Gets or sets a Boolean value indicating if staggering is enabled for the navigation transition.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo.IsStaggeringEnabled](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo.isstaggeringenabled).
+
 
 ## -xaml-syntax
 ```xaml

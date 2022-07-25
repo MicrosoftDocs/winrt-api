@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SnapPointsType HorizontalSnapPointsType { get;  
 ## -description
 Gets or sets a value that declares how manipulation behavior reacts to the snap points along the horizontal axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalSnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointstype).
+
 
 ## -xaml-syntax
 ```xaml

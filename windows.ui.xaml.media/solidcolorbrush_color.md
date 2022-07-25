@@ -12,7 +12,7 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 Gets or sets the color of this [SolidColorBrush](solidcolorbrush.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SolidColorBrush.Color](/windows/winui/api/microsoft.ui.xaml.media.solidcolorbrush.color).
+
 
 ## -xaml-syntax
 ```xaml

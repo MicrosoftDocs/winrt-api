@@ -12,7 +12,7 @@ public void SetValue(System.Object target, System.Object value)
 ## -description
 Sets the custom property value on a specified instance.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomProperty.SetValue](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.setvalue).
+
 
 ## -parameters
 ### -param target

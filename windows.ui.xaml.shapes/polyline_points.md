@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PointCollection Points { get;  set; }
 ## -description
 Gets or sets a collection that contains the vertex points of the [Polyline](polyline.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Polyline.Points](/windows/winui/api/microsoft.ui.xaml.shapes.polyline.points).
+
 
 ## -xaml-syntax
 ```xaml

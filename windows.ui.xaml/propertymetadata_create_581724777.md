@@ -12,8 +12,6 @@ public Windows.UI.Xaml.PropertyMetadata Create(Windows.UI.Xaml.CreateDefaultValu
 ## -description
 Creates a [PropertyMetadata](propertymetadata.md) value, specifying a callback that establishes a default value for a dependency property.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.PropertyMetadata.Create](/windows/winui/api/microsoft.ui.xaml.propertymetadata.create).
-
 ## -parameters
 ### -param createDefaultValueCallback
 A reference to the callback method that provides a default property value.

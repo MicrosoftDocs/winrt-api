@@ -12,7 +12,6 @@ public Windows.Foundation.Uri NavigateUri { get;  set; }
 ## -description
 Gets or sets the Uniform Resource Identifier (URI) to navigate to when the [HyperlinkButton](hyperlinkbutton.md) is clicked.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.HyperlinkButton.NavigateUri](/windows/winui/api/microsoft.ui.xaml.controls.hyperlinkbutton.navigateuri).
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler TextChanged<Windows.UI.Xaml.Co
 ## -description
 Raised after the text content of the editable control component is updated.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.TextChanged](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.textchanged).
+
 
 ## -xaml-syntax
 ```xaml

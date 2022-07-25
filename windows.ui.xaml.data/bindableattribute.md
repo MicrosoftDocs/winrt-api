@@ -12,7 +12,7 @@ public class BindableAttribute : System.Attribute
 ## -description
 Specifies that a type defined in C++ can be used for binding.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Data.BindableAttribute](/windows/winui/api/microsoft.ui.xaml.data.bindableattribute).
+
 
 ## -remarks
 Apply this attribute to C++-based data classes to enable their use as binding sources. Common language runtime (CLR) types, including all types defined in C# and Microsoft Visual Basic, are bindable by default. You can also make a type bindable by implementing [ICustomPropertyProvider](icustompropertyprovider.md). For more info, see [Data binding in depth](/windows/uwp/data-binding/data-binding-in-depth).

@@ -12,7 +12,7 @@ public double StrokeThickness { get;  set; }
 ## -description
 Gets or sets the width of the [Shape](shape.md) stroke outline.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeThickness](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokethickness).
+
 
 ## -xaml-syntax
 ```xaml

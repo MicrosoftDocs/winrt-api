@@ -13,7 +13,7 @@ public enum Windows.UI.Composition.CompositionBitmapInterpolationMode : int
 ## -description
 Specifies the algorithm used for interpolating pixels from ICompositionSurface when they do not form a one-to-one mapping to pixels on screen.
 
-Equivalent WinUI enum: [CompositionBitmapInterpolationMode](/windows/winui/api/microsoft.ui.composition.compositionbitmapinterpolationmode).
+
 
 ## -enum-fields
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextReadingOrder TextReadingOrder { get;  set; }
 ## -description
 Gets or sets a value that indicates how the reading order is determined for the [TextBox](textbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.TextReadingOrder](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textreadingorder).
+
 
 ## -xaml-syntax
 ```xaml

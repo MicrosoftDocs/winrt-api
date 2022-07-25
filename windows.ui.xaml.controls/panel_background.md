@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets a [Brush](../windows.ui.xaml.media/brush.md) that fills the panel content area.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.Background](/windows/winui/api/microsoft.ui.xaml.controls.panel.background).
+
 
 ## -xaml-syntax
 ```xaml

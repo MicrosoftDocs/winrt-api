@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight Medium { get; }
 
 Specifies a font weight value of 500.
 
-Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.Medium](/windows/winui/api/microsoft.ui.text.fontweights.medium).
+
 
 ## -property-value
 

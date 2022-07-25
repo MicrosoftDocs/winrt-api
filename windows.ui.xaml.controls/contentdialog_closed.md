@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Closed<Windows.UI.Xaml.Control
 ## -description
 Occurs after the dialog is closed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ContentDialog.Closed](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closed).
+
 
 ## -xaml-syntax
 ```xaml

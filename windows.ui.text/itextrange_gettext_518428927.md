@@ -12,7 +12,7 @@ public void GetText(Windows.UI.Text.TextGetOptions options, System.String value)
 ## -description
 Retrieves the text in a text range according to the specified conversion flags.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetText](/windows/winui/api/microsoft.ui.text.itextrange.gettext).
+
 
 ## -parameters
 ### -param options

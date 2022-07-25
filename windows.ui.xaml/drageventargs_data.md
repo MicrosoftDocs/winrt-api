@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackage Data { get;  set; }
 ## -description
 Gets or sets a data object ([DataPackage](../windows.applicationmodel.datatransfer/datapackage.md)) that contains the data associated with the corresponding drag event. This value is not useful in all event cases; specifically, the event must be handled by a valid drop target.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DragEventArgs.Data](/windows/winui/api/microsoft.ui.xaml.drageventargs.data).
+
 
 ## -property-value
 The data object that contains data payload that is associated with the corresponding drag event.

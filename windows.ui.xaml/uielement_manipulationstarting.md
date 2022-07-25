@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationStartingEventHandler Manipulation
 
 Occurs when the manipulation processor is first created.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ManipulationStarting](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationstarting).
+
 
 ## -xaml-syntax
 

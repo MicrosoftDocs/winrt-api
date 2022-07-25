@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PressedForegroundProperty { get; }
 ## -description
 Identifies the [PressedForeground](calendarview_pressedforeground.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.PressedForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.pressedforegroundproperty).
+
 
 ## -property-value
 The identifier for the [PressedForeground](calendarview_pressedforeground.md)   dependency property.

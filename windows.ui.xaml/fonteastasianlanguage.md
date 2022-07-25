@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.FontEastAsianLanguage : int
 ## -description
 Provides a mechanism for selecting font-specific versions of glyphs for a specified East Asian writing system or language.
 
-Equivalent WinUI enum: [FontEastAsianLanguage](/windows/winui/api/microsoft.ui.xaml.fonteastasianlanguage).
+
 
 ## -xaml-syntax
 ```xaml

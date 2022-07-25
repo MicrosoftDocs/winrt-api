@@ -12,7 +12,7 @@ public class ScaleTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.M
 ## -description
 Scales an object in the two-dimensional x-y coordinate system.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ScaleTransform](/windows/winui/api/microsoft.ui.xaml.media.scaletransform).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void Hide()
 ## -description
 Hides the dialog.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentDialog.Hide](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.hide).
+
 
 ## -remarks
 

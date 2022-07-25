@@ -12,7 +12,7 @@ public void SetReferenceParameter(System.String key, Windows.UI.Composition.Comp
 ## -description
 Sets a reference to a Composition object for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.SetReferenceParameter](/windows/winui/api/microsoft.ui.composition.compositionanimation.setreferenceparameter).
+
 
 ## -parameters
 ### -param key

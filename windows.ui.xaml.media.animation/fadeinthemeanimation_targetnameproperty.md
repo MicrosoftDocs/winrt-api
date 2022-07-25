@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](fadeinthemeanimation_targetname.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.FadeInThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeinthemeanimation.targetnameproperty).
+
 
 ## -property-value
 The identifier for the [TargetName](fadeinthemeanimation_targetname.md) dependency property.

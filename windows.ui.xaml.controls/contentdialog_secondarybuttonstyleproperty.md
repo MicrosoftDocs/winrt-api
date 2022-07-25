@@ -12,7 +12,7 @@ public DependencyProperty SecondaryButtonStyleProperty { get; }
 ## -description
 Gets the identifier of the SecondaryButtonStyle dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.SecondaryButtonStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.secondarybuttonstyleproperty).
+
 
 ## -property-value
 The identifier of the SecondaryButtonStyle dependency property.

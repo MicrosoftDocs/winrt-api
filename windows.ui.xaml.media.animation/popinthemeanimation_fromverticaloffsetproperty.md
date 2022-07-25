@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromVerticalOffsetProperty { get; }
 ## -description
 Identifies the [FromVerticalOffset](popinthemeanimation_fromverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.fromverticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [FromVerticalOffset](popinthemeanimation_fromverticaloffset.md) dependency property.

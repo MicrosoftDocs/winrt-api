@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty FlowsToProperty { get; }
 
 Identifies the [FlowsTo](automationproperties_flowsto.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FlowsToProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.flowstoproperty).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public class EasingPointKeyFrame : Windows.UI.Xaml.Media.Animation.PointKeyFrame
 ## -description
 Associates an easing function with a [PointAnimationUsingKeyFrames](pointanimationusingkeyframes.md) key-frame animation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EasingPointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.easingpointkeyframe).
+
 
 ## -xaml-syntax
 ```xaml

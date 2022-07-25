@@ -12,7 +12,7 @@ public class ResourceDictionary : Windows.UI.Xaml.DependencyObject, Windows.Foun
 ## -description
 Defines a repository for XAML resources, such as styles, that your app uses. You define the resources in XAML and can then retrieve them in XAML using the [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) and [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) s. You can also access resources with code, but that is less common.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ResourceDictionary](/windows/winui/api/microsoft.ui.xaml.resourcedictionary).
+
 
 ## -xaml-syntax
 ```xaml
@@ -29,7 +29,7 @@ Equivalent WinUI class: [Microsoft.UI.Xaml.ResourceDictionary](/windows/winui/ap
 
 
 ## -remarks
-A resource dictionary is a repository for XAML resources, such as styles, that your app uses. You define the resources in XAML and can then retrieve them in XAML using the [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) and [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) s. You can also access resources with code, but that is less common. You can use resources to enforce that certain values such as brush colors or pixel measurements are used consistently throughout your app. For more info on using resource dictionaries effectively, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+A resource dictionary is a repository for XAML resources, such as styles, that your app uses. You define the resources in XAML and can then retrieve them in XAML using the [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension) and [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) s. You can also access resources with code, but that is less common. You can use resources to enforce that certain values such as brush colors or pixel measurements are used consistently throughout your app. For more info on using resource dictionaries effectively, see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 ### Uses of **ResourceDictionary** elements
 
@@ -156,7 +156,7 @@ Now suppose there is another file, Common/Styles2.xaml that similarly defines [S
 </Application>
 ```
 
-For info on how merged dictionary resources are resolved, see the "Merged resource dictionaries" section of [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+For info on how merged dictionary resources are resolved, see the "Merged resource dictionaries" section of [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 ### The x:Key property
 
@@ -196,7 +196,7 @@ For the implicit collection usage, the placeholder as appropriate for the proper
 
 ### Shareable types and UIElement types
 
-A resource dictionary is a technique for defining shareable types and values of these types in XAML. Not all types or values are suitable for usage from a ResourceDictionary. Examples of types where sharing is supported include [Style](style.md), any [FrameworkTemplate](frameworktemplate.md) subclass, the [XAML intrinsic data types](/windows/uwp/xaml-platform/xaml-intrinsic-data-types), brushes, colors, and transforms. For more info on which types are considered shareable, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references). Generally, [UIElement](uielement.md)-derived types are not shareable unless they come from templates and application of a template on a specific control instance. Excluding the template case, a [UIElement](uielement.md) is expected to exist in only one place in an object tree after it is instantiated, and having a [UIElement](uielement.md) be shareable would potentially violate this principle.
+A resource dictionary is a technique for defining shareable types and values of these types in XAML. Not all types or values are suitable for usage from a ResourceDictionary. Examples of types where sharing is supported include [Style](style.md), any [FrameworkTemplate](frameworktemplate.md) subclass, the [XAML intrinsic data types](/windows/uwp/xaml-platform/xaml-intrinsic-data-types), brushes, colors, and transforms. For more info on which types are considered shareable, see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary). Generally, [UIElement](uielement.md)-derived types are not shareable unless they come from templates and application of a template on a specific control instance. Excluding the template case, a [UIElement](uielement.md) is expected to exist in only one place in an object tree after it is instantiated, and having a [UIElement](uielement.md) be shareable would potentially violate this principle.
 
 
 In practice, the vast majority of the resources defined in a ResourceDictionary will be one of these:
@@ -218,7 +218,7 @@ The API that your code uses to access the resources in a ResourceDictionary depe
 + API that aren't part of collection support, like [Source](resourcedictionary_source.md), are the same in all languages.
 
 
-For more info on how to use ResourceDictionary in code, see "Using a ResourceDictionary from code" section of [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+For more info on how to use ResourceDictionary in code, see "Using a ResourceDictionary from code" section of [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 ### System resources
 
@@ -240,4 +240,4 @@ For more info on performance and XAML resource factoring, see [Optimize your XAM
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension), [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension), [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute)
+[ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary), [Application resources and localization sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources), [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension), [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension), [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute)

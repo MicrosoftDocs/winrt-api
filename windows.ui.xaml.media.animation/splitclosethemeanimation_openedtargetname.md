@@ -12,7 +12,7 @@ public string OpenedTargetName { get;  set; }
 ## -description
 Gets or sets the identifying name of the UI element that will be clipped.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.OpenedTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.openedtargetname).
+
 
 ## -xaml-syntax
 ```xaml

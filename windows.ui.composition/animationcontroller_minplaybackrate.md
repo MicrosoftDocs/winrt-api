@@ -13,7 +13,7 @@ public float MinPlaybackRate { get; }
 
 Gets the minimum allowed playback rate.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.AnimationController.MinPlaybackRate](/windows/winui/api/microsoft.ui.composition.animationcontroller.minplaybackrate).
+
 
 ## -property-value
 

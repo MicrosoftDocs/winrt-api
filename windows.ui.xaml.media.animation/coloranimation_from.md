@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.UI.Color> From { get;  set; }
 ## -description
 Gets or sets the animation's starting value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation.From](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation.from).
+
 
 ## -xaml-syntax
 ```xaml

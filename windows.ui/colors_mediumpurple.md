@@ -13,7 +13,7 @@ public Windows.UI.Color MediumPurple { get; }
 
 Gets the system-defined color that has an ARGB value of #FF9370DB.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.MediumPurple](/windows/winui/api/microsoft.ui.colors.mediumpurple).
+
 
 ## -property-value
 

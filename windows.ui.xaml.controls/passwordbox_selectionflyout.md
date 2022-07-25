@@ -14,7 +14,7 @@ public FlyoutBase SelectionFlyout { get;  set; }
 
 Gets or sets the flyout that is shown when text is selected, or **null** if no flyout is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.SelectionFlyout](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.selectionflyout).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Controls.HubSection value, System.UInt32 ind
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.indexof).
+
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public double MinHeight { get;  set; }
 ## -description
 Gets or sets the minimum height constraint of a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MinHeight](/windows/winui/api/microsoft.ui.xaml.frameworkelement.minheight).
+
 
 ## -xaml-syntax
 ```xaml

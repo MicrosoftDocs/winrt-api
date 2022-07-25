@@ -13,7 +13,7 @@ public uint CompositionStrokeDashArray.GetMany(UInt32 startIndex, Single[] items
 
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.GetMany](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.getmany).
+
 
 ## -parameters
 ### -param startIndex

@@ -14,7 +14,7 @@ public uint Size { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.Size](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.size).
+
 
 ## -property-value
 

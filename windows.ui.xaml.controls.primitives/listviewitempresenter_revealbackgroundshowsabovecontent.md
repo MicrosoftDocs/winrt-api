@@ -13,7 +13,7 @@ public bool RevealBackgroundShowsAboveContent { get;  set; }
 
 Gets or sets a value that indicates whether the reveal backgound is shown on top of the content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContent](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealbackgroundshowsabovecontent).
+
 
 ## -property-value
 

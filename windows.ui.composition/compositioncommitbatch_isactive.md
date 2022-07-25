@@ -12,7 +12,7 @@ public bool IsActive { get; }
 ## -description
 Indicates whether the [CompositionCommitBatch](compositioncommitbatch.md) is currently opened for objects to be aggregated.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionCommitBatch.IsActive](/windows/winui/api/microsoft.ui.composition.compositioncommitbatch.isactive).
+
 
 ## -property-value
 Boolean indicating whether the [CompositionCommitBatch](compositioncommitbatch.md) is currently opened for objects to be aggregated.

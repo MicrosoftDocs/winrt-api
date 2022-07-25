@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty EntranceTargetProperty { get; }
 ## -description
 Identifies the [EntranceTarget](drilloutthemeanimation_entrancetarget.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DrillOutThemeAnimation.EntranceTargetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.drilloutthemeanimation.entrancetargetproperty).
+
 
 ## -property-value
 The identifier for the [EntranceTarget](drilloutthemeanimation_entrancetarget.md) dependency property.

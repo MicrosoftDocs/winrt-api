@@ -13,7 +13,7 @@ public Windows.UI.Color MediumTurquoise { get; }
 
 Gets the system-defined color that has an ARGB value of #FF48D1CC.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.MediumTurquoise](/windows/winui/api/microsoft.ui.colors.mediumturquoise).
+
 
 ## -property-value
 

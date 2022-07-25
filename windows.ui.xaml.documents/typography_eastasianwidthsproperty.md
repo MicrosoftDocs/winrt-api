@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty EastAsianWidthsProperty { get; }
 ## -description
 Identifies the [EastAsianWidths](typography_eastasianwidths.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.EastAsianWidthsProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.eastasianwidthsproperty).
+
 
 ## -property-value
 The identifier for the [EastAsianWidths](typography_eastasianwidths.md) attached property.

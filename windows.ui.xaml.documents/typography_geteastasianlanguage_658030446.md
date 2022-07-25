@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FontEastAsianLanguage GetEastAsianLanguage(Windows.UI.Xam
 ## -description
 Returns the value of the [EastAsianLanguage](typography_eastasianlanguage.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetEastAsianLanguage](/windows/winui/api/microsoft.ui.xaml.documents.typography.geteastasianlanguage).
+
 
 ## -parameters
 ### -param element

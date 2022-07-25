@@ -12,7 +12,7 @@ public bool AreKeyTipsEnabled { get;  set; }
 ## -description
 Gets or sets a value that specifies whether KeyTips are shown for access keys.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.AccessKeyManager.AreKeyTipsEnabled](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager.arekeytipsenabled).
+
 
 ## -property-value
 **true** to show KeyTips; otherwise, **false**. The default is **true**.

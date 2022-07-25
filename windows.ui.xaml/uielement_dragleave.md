@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.DragEventHandler DragLeave
 
 Occurs when the input system reports an underlying drag event with this element as the origin.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DragLeave](/windows/winui/api/microsoft.ui.xaml.uielement.dragleave).
+
 
 ## -xaml-syntax
 

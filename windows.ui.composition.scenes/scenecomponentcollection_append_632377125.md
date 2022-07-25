@@ -14,7 +14,7 @@ public void SceneComponentCollection.Append(SceneComponent value)
 
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.Append](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.append).
+
 
 ## -parameters
 ### -param value

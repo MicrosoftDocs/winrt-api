@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler CandidateWindowBoundsChanged<W
 
 Occurs when the Input Method Editor (IME) window open, updates, or closes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.CandidateWindowBoundsChanged](/windows/winui/api/microsoft.ui.xaml.controls.textbox.candidatewindowboundschanged).
+
 
 ## -xaml-syntax
 

@@ -14,7 +14,7 @@ public IReference<Color> ListLow { get;  set; }
 
 Gets or sets the ListLow color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ListLow](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.listlow).
+
 
 ## -property-value
 

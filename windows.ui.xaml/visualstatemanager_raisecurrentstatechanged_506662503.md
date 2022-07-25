@@ -12,7 +12,7 @@ protected void RaiseCurrentStateChanged(Windows.UI.Xaml.VisualStateGroup stateGr
 ## -description
 When overridden in a derived class, fires the [CurrentStateChanged](visualstategroup_currentstatechanged.md) event on the specified [VisualStateGroup](visualstategroup.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.RaiseCurrentStateChanged](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.raisecurrentstatechanged).
+
 
 ## -parameters
 ### -param stateGroup

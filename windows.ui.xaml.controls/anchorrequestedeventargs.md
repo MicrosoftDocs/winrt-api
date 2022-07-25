@@ -14,7 +14,7 @@ public class AnchorRequestedEventArgs
 
 Provides data for the [ScrollViewer.AnchorRequested](scrollviewer_anchorrequested.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.AnchorRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.anchorrequestedeventargs).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.ColorKeyFrame GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.getat).
+
 
 ## -parameters
 ### -param index

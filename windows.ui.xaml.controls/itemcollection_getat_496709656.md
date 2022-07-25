@@ -12,7 +12,7 @@ public object GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.getat).
+
 
 ## -parameters
 ### -param index

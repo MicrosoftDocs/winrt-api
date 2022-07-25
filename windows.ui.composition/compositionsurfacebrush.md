@@ -12,7 +12,7 @@ public class CompositionSurfaceBrush : Windows.UI.Composition.CompositionBrush, 
 ## -description
 Paints a [SpriteVisual](spritevisual.md) with pixels from an ICompositionSurface.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionSurfaceBrush](/windows/winui/api/microsoft.ui.composition.compositionsurfacebrush).
+
 
 ## -remarks
 

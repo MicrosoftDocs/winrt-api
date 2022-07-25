@@ -14,7 +14,7 @@ public XamlRoot XamlRoot { get;  set; }
 
 Gets or sets the XamlRoot in which this element is being viewed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.XamlRoot](/windows/winui/api/microsoft.ui.xaml.documents.textelement.xamlroot).
+
 
 ## -property-value
 

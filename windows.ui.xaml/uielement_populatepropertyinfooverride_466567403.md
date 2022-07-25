@@ -14,7 +14,7 @@ virtual protected void UIElement.PopulatePropertyInfoOverride(String propertyNam
 
 When overridden in a derived class, defines a property that can be animated.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.PopulatePropertyInfoOverride](/windows/winui/api/microsoft.ui.xaml.uielement.populatepropertyinfooverride).
+
 
 ## -parameters
 ### -param propertyName

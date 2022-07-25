@@ -12,7 +12,7 @@ public Windows.UI.Text.FontStyle UndefinedFontStyle { get; }
 ## -description
 Gets the undefined font style.
 
-Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.UndefinedFontStyle](/windows/winui/api/microsoft.ui.text.textconstants.undefinedfontstyle).
+
 
 ## -property-value
 The undefined font style.

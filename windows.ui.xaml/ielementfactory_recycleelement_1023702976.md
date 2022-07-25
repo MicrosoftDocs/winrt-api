@@ -14,7 +14,7 @@ public void IElementFactory.RecycleElement(ElementFactoryRecycleArgs args)
 
 Recycles a [UIElement](../windows.ui.xaml/uielement.md) that was previously retrieved using [GetElement](ielementfactory_getelement_92222689.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.IElementFactory.RecycleElement](/windows/winui/api/microsoft.ui.xaml.ielementfactory.recycleelement).
+
 
 ## -parameters
 

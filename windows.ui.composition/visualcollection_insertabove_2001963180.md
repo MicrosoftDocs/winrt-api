@@ -12,7 +12,7 @@ public void InsertAbove(Windows.UI.Composition.Visual newChild, Windows.UI.Compo
 ## -description
 Inserts a visual above the specified sibling visual in the visual collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.VisualCollection.InsertAbove](/windows/winui/api/microsoft.ui.composition.visualcollection.insertabove).
+
 
 ## -parameters
 ### -param newChild

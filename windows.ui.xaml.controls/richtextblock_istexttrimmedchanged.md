@@ -13,7 +13,7 @@ public event TypedEventHandler IsTextTrimmedChanged<RichTextBlock, IsTextTrimmed
 
 Occurs when the [IsTextTrimmed](richtextblock_istexttrimmed.md) property value has changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichTextBlock.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.istexttrimmedchanged).
+
 
 ## -xaml-syntax
 

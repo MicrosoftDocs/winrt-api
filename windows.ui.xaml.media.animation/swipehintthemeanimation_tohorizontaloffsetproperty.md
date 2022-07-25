@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ToHorizontalOffsetProperty { get; }
 ## -description
 Identifies the [ToHorizontalOffset](swipehintthemeanimation_tohorizontaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.ToHorizontalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.tohorizontaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [ToHorizontalOffset](swipehintthemeanimation_tohorizontaloffset.md) dependency property.

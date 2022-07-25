@@ -14,7 +14,7 @@ public class BooleanKeyFrameAnimation : KeyFrameAnimation, KeyFrameAnimation
 
 A time-based animation that targets a Boolean property with one or more key frames.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.BooleanKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.booleankeyframeanimation).
+
 
 ## -remarks
 

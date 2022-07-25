@@ -12,7 +12,7 @@ public class PopOutThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Wi
 ## -description
 Represents the preconfigured animation that applies to pop-in components of controls (for example, tooltip-like UI on an object) as they are closed/removed. This animation combines opacity and translation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PopOutThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.popoutthemeanimation).
+
 
 ## -xaml-syntax
 ```xaml

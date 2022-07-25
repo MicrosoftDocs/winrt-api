@@ -12,7 +12,7 @@ public class SineEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Wind
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using a sine formula.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SineEase](/windows/winui/api/microsoft.ui.xaml.media.animation.sineease).
+
 
 ## -xaml-syntax
 ```xaml

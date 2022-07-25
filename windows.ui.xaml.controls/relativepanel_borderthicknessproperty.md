@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BorderThicknessProperty { get; }
 ## -description
 Identifies the [BorderThickness](relativepanel_borderthickness.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.BorderThicknessProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.borderthicknessproperty).
+
 
 ## -property-value
 The identifier for the [BorderThickness](relativepanel_borderthickness.md) dependency property.

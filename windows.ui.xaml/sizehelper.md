@@ -13,7 +13,7 @@ public class SizeHelper : Windows.UI.Xaml.ISizeHelper
 
 Provides helper methods to evaluate or set [Size](../windows.foundation/size.md) values. C# and Microsoft Visual Basic code should use members of [Size](../windows.foundation/size.md) instead.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.SizeHelper](/windows/winui/api/microsoft.ui.xaml.sizehelper).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void SetLocalizedControlType(Windows.UI.Xaml.DependencyObject element, Sy
 ## -description
 Sets a localized string that indicates the type of the specified control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetLocalizedControlType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setlocalizedcontroltype).
+
 
 ## -parameters
 ### -param element

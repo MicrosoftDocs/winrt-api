@@ -12,7 +12,7 @@ public string GetItemType()
 ## -description
 Gets a string that describes what kind of item an element represents.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetItemType](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getitemtype).
+
 
 ## -returns
 The kind of item.

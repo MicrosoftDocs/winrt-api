@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty LocalizedLandmarkTypeProper
 ## -description
 Gets the identifier for the localized landmark type automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LocalizedLandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.localizedlandmarktypeproperty).
+
 
 ## -property-value
 The identifier for the localized landmark type automation property.

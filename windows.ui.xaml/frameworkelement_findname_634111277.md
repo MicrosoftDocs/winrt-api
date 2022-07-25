@@ -12,7 +12,7 @@ public object FindName(System.String name)
 ## -description
 Retrieves an object that has the specified identifier name.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.FindName](/windows/winui/api/microsoft.ui.xaml.frameworkelement.findname).
+
 
 ## -parameters
 ### -param name

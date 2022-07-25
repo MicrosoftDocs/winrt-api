@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ExitElementContainerProperty { get; }
 ## -description
 Identifies the [ContinuumNavigationTransitionInfo.ExitElementContainer](continuumnavigationtransitioninfo_exitelementcontainer.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ContinuumNavigationTransitionInfo.ExitElementContainerProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.continuumnavigationtransitioninfo.exitelementcontainerproperty).
+
 
 ## -property-value
 The identifier for the [ContinuumNavigationTransitionInfo.ExitElementContainer](continuumnavigationtransitioninfo_exitelementcontainer.md) attached property.

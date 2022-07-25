@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CenterXProperty { get; }
 ## -description
 Identifies the [CenterX](skewtransform_centerx.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SkewTransform.CenterXProperty](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.centerxproperty).
+
 
 ## -property-value
 The identifier for the [CenterX](skewtransform_centerx.md) dependency property.

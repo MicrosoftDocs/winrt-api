@@ -13,7 +13,7 @@ public RoutedEvent PreviewKeyUpEvent { get; }
 
 Gets the identifier for the PreviewKeyUp routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PreviewKeyUpEvent](/windows/winui/api/microsoft.ui.xaml.uielement.previewkeyupevent).
+
 
 ## -property-value
 

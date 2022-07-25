@@ -12,7 +12,7 @@ public Windows.Foundation.DateTime OldDate { get; }
 ## -description
 Gets the previous date.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickedEventArgs.OldDate](/windows/winui/api/microsoft.ui.xaml.controls.datepickedeventargs.olddate).
+
 
 ## -property-value
 The previous date.

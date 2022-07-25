@@ -12,8 +12,6 @@ public Windows.UI.Xaml.CreateDefaultValueCallback CreateDefaultValueCallback { g
 ## -description
 Gets a reference to the callback method that provides a default property value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.PropertyMetadata.CreateDefaultValueCallback](/windows/winui/api/microsoft.ui.xaml.propertymetadata.createdefaultvaluecallback).
-
 ## -property-value
 A reference to the callback method that provides a default property value.
 

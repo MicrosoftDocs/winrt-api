@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationDeltaEventHandler ManipulationDel
 
 Occurs when the input device changes position during a manipulation.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ManipulationDelta](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationdelta).
+
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<float> GetIrregularSnapPoints(
 ## -description
 This property is reserved for internal use and is not intended to be used in your code.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.PivotPanel.GetIrregularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.primitives.pivotpanel.getirregularsnappoints).
+
 
 ## -parameters
 ### -param orientation

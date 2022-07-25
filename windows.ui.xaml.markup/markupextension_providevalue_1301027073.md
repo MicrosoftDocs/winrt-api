@@ -13,7 +13,7 @@ virtual protected object MarkupExtension.ProvideValue()
 
 When implemented in a derived class, returns an object that is provided as the value of the target property for this markup extension.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.MarkupExtension.ProvideValue](/windows/winui/api/microsoft.ui.xaml.markup.markupextension.providevalue).
+
 
 ## -returns
 

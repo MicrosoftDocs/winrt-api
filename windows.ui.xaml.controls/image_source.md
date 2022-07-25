@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.ImageSource Source { get;  set; }
 ## -description
 Gets or sets the source for the image.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Image.Source](/windows/winui/api/microsoft.ui.xaml.controls.image.source).
+
 
 ## -xaml-syntax
 ```xaml

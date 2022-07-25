@@ -13,7 +13,7 @@ public int RichEditTextRange.FindText(String value, Int32 scanLength, FindOption
 
 Searches for a particular text string in a range and, if found, selects the string.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.FindText](/windows/winui/api/microsoft.ui.text.richedittextrange.findtext).
+
 
 ## -parameters
 ### -param value

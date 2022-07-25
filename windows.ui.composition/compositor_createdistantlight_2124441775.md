@@ -12,7 +12,7 @@ public Windows.UI.Composition.DistantLight CreateDistantLight()
 ## -description
 Creates an instance of [DistantLight](distantlight.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateDistantLight](/windows/winui/api/microsoft.ui.composition.compositor.createdistantlight).
+
 
 ## -returns
 Returns the created [DistantLight](distantlight.md) object.

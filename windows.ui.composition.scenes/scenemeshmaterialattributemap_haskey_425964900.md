@@ -14,7 +14,7 @@ public bool SceneMeshMaterialAttributeMap.HasKey(String key)
 
 Determines whether the map contains the specified key.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.HasKey](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.haskey).
+
 
 ## -parameters
 ### -param key

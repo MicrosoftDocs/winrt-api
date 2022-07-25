@@ -12,7 +12,7 @@ public void Cancel()
 ## -description
 Cancels listening for input.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISynchronizedInputProvider.Cancel](/windows/winui/api/microsoft.ui.xaml.automation.provider.isynchronizedinputprovider.cancel).
+
 
 ## -remarks
 

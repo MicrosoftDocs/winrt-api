@@ -14,7 +14,7 @@ public void SceneNodeCollection.RemoveAt(UInt32 index)
 
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.RemoveAt](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.removeat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.Clear](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.clear).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public object Group { get; }
 ## -description
 Gets the data group associated with this [GroupHeaderContainer](choosinggroupheadercontainereventargs_groupheadercontainer.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs.Group](/windows/winui/api/microsoft.ui.xaml.controls.choosinggroupheadercontainereventargs.group).
+
 
 ## -property-value
 The data group associated with this [GroupHeaderContainer](choosinggroupheadercontainereventargs_groupheadercontainer.md).

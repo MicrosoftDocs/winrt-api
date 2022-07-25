@@ -12,7 +12,7 @@ public int MaxLength { get;  set; }
 ## -description
 Gets or sets the value that specifies the maximum number of characters allowed for user input.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.MaxLength](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.maxlength).
+
 
 ## -xaml-syntax
 ```xaml

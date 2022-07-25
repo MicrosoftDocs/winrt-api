@@ -12,7 +12,7 @@ public int RowCount { get; }
 ## -description
 Gets the total number of rows in a grid.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IGridProvider.RowCount](/windows/winui/api/microsoft.ui.xaml.automation.provider.igridprovider.rowcount).
+
 
 ## -property-value
 The total number of rows in a grid.

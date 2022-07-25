@@ -12,7 +12,7 @@ public DependencyProperty RasterizePixelHeightProperty { get; }
 ## -description
 Identifies the **RasterizePixelHeight** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeightProperty](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.rasterizepixelheightproperty).
+
 
 ## -property-value
 The identifier for the **RasterizePixelHeight** dependency property.

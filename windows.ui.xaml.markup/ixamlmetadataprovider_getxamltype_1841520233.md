@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Markup.IXamlType GetXamlType(Windows.UI.Xaml.Interop.Type
 ## -description
 Implements XAML schema context access to underlying type mapping, based on providing a helper value that describes a type.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMetadataProvider.GetXamlType](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmetadataprovider.getxamltype).
+
 
 ## -parameters
 ### -param type

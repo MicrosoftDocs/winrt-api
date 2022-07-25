@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.ColorInterpolationMode : int
 ## -description
 Determines how the colors in a gradient are interpolated.
 
-Equivalent WinUI enum: [ColorInterpolationMode](/windows/winui/api/microsoft.ui.xaml.media.colorinterpolationmode).
+
 
 ## -xaml-syntax
 ```xaml

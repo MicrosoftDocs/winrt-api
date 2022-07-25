@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.SplitViewDisplayMode : int
 ## -description
 Defines constants that specify how the pane is shown in a [SplitView](splitview.md).
 
-Equivalent WinUI enum: [SplitViewDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.splitviewdisplaymode).
+
 
 ## -enum-fields
 ### -field Overlay:0

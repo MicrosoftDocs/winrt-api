@@ -14,7 +14,7 @@ public interface IElementFactory
 
 Supports the creation and recycling of [UIElement](uielement.md) objects.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.IElementFactory](/windows/winui/api/microsoft.ui.xaml.ielementfactory).
+
 
 ## -remarks
 

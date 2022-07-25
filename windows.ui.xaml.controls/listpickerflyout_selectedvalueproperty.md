@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectedValueProperty { get; }
 ## -description
 Identifies the [SelectedValue](listpickerflyout_selectedvalue.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedValueProperty](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selectedvalueproperty).
+
 
 ## -property-value
 The identifier for the [SelectedValue](listpickerflyout_selectedvalue.md) dependency property.

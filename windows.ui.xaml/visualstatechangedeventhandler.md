@@ -10,7 +10,7 @@ public delegate void VisualStateChangedEventHandler(System.Object sender, Window
 ## -description
 Represents the method that will handle the [CurrentStateChanging](visualstategroup_currentstatechanging.md) and [CurrentStateChanged](visualstategroup_currentstatechanged.md) events.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.VisualStateChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.visualstatechangedeventhandler).
+
 
 ## -parameters
 ### -param sender

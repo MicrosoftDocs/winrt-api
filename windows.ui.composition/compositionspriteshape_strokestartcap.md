@@ -13,7 +13,7 @@ public CompositionStrokeCap StrokeStartCap { get;  set; }
 
 Gets or sets a [CompositionStrokeCap](compositionstrokecap.md) enumeration value that specifies how the start of a line is drawn.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeStartCap](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokestartcap).
+
 
 ## -property-value
 

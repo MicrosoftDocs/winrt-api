@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromVerticalOffsetProperty { get; }
 ## -description
 Identifies the [FromVerticalOffset](popupthemetransition_fromverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopupThemeTransition.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.popupthemetransition.fromverticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [FromVerticalOffset](popupthemetransition_fromverticaloffset.md) dependency property.

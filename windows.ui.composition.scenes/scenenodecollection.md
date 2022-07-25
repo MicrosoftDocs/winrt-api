@@ -14,7 +14,7 @@ public class SceneNodeCollection : SceneObject, SceneObject, IIterable<SceneNode
 
 Represents a collection of SceneNode objects that can be individually accessed by index.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneNodeCollection](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection).
+
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public class ElementFactoryGetArgs
 
 Represents the optional arguments to use when calling an implementation of the [IElementFactory](ielementfactory.md)'s [GetElement](ielementfactory_getelement_92222689.md) method.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ElementFactoryGetArgs](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs).
+
 
 ## -remarks
 

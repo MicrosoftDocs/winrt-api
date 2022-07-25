@@ -12,7 +12,7 @@ public double DataFetchSize { get;  set; }
 ## -description
 Gets or sets the amount of data to fetch for virtualizing/prefetch operations.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSize](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.datafetchsize).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void SetDisplayDate(Windows.Foundation.DateTime date)
 ## -description
 Shows the specified date in the calendar.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.CalendarView.SetDisplayDate](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.setdisplaydate).
+
 
 ## -parameters
 ### -param date

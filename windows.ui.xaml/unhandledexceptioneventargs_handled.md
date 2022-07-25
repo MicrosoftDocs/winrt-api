@@ -12,7 +12,7 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the exception is handled.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.unhandledexceptioneventargs.handled).
+
 
 ## -property-value
 **true** to mark the exception as handled, which indicates that the event system should not process it further; otherwise, **false**.

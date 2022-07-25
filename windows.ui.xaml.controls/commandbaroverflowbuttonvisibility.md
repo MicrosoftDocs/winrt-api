@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CommandBarOverflowButtonVisibility : int
 ## -description
 Defines constants that specify when a command bar's overflow button is shown.
 
-Equivalent WinUI enum: [CommandBarOverflowButtonVisibility](/windows/winui/api/microsoft.ui.xaml.controls.commandbaroverflowbuttonvisibility).
+
 
 ## -enum-fields
 ### -field Auto:0

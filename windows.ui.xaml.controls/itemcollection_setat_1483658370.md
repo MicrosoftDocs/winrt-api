@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, System.Object value)
 ## -description
 Sets the value at the specified index to the item value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.setat).
+
 
 ## -parameters
 ### -param index

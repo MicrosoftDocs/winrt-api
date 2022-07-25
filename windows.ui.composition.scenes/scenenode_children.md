@@ -14,7 +14,7 @@ public SceneNodeCollection Children { get; }
 
 Gets the collection of children of this node.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneNode.Children](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.children).
+
 
 ## -property-value
 

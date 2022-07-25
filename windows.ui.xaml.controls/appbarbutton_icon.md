@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.IconElement Icon { get;  set; }
 ## -description
 Gets or sets the graphic content of the app bar button.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.Icon](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.icon).
+
 
 ## -xaml-syntax
 ```xaml

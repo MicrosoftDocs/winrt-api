@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationStyleId : int
 ## -description
 Defines the style of the text.
 
-Equivalent WinUI enum: [AutomationStyleId](/windows/winui/api/microsoft.ui.xaml.automation.automationstyleid).
+
 
 ## -enum-fields
 ### -field Heading1:70001

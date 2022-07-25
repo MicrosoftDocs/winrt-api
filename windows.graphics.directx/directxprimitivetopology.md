@@ -14,8 +14,6 @@ public enum DirectXPrimitiveTopology : int
 
 Values that indicate how the pipeline interprets vertex data that is bound to the input-assembler stage. These primitive topology values determine how the vertex data is rendered on screen. This is a Windows Runtime equivalent of the [D3D_PRIMITIVE_TOPOLOGY](/windows/win32/api/d3dcommon/ne-d3dcommon-d3d_primitive_topology) enumeration.
 
-Equivalent WinUI enum: [Microsoft.Graphics.DirectX.DirectXPrimitiveTopology](/windows/winui/api/microsoft.graphics.directx.directxprimitivetopology).
-
 ## -enum-fields
 
 ### -field Undefined:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode Placement { get; 
 ## -description
 Gets or sets the default placement to be used for the flyout, in relation to its placement target.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Placement](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.placement).
+
 
 ## -xaml-syntax
 ```xaml

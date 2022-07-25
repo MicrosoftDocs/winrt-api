@@ -12,7 +12,7 @@ public Windows.UI.Xaml.ElementSoundMode ElementSoundMode { get;  set; }
 ## -description
 Gets or sets a value that specifies the control's preference for whether it plays sounds.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.elementsoundmode).
+
 
 ## -property-value
 An enumeration value that specifies the control's preference for whether it plays sounds. The default is **Default**.

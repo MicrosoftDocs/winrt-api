@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](passwordbox_header.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.headerproperty).
+
 
 ## -property-value
 The identifier for the [Header](passwordbox_header.md) dependency property.

@@ -12,7 +12,7 @@ public double DayItemFontSize { get;  set; }
 ## -description
 Gets or sets the font size used to display day values in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontSize](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontsize).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public Windows.UI.Color MediumSlateBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF7B68EE.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.MediumSlateBlue](/windows/winui/api/microsoft.ui.colors.mediumslateblue).
+
 
 ## -property-value
 

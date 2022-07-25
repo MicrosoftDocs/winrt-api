@@ -12,7 +12,7 @@ public float BlurRadius { get;  set; }
 ## -description
 The radius of the Gaussian blur used to generate the shadow. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.BlurRadius](/windows/winui/api/microsoft.ui.composition.dropshadow.blurradius).
+
 
 ## -property-value
 The radius of the Gaussian blur used to generate the shadow. Defaults to 9.0f. Specifying a value of 0 will result in no blur occurring.

@@ -12,7 +12,7 @@ public bool GetIsScrollInertiaEnabled(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [IsScrollInertiaEnabled](scrollviewer_isscrollinertiaenabled.md) dependency property / `ScrollViewer.IsScrollInertiaEnabled` XAML attached property from a specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetIsScrollInertiaEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.getisscrollinertiaenabled).
+
 
 ## -parameters
 ### -param element

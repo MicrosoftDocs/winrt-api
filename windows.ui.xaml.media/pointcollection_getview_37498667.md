@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Foundation.Point> GetV
 ## -description
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PointCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.getview).
+
 
 ## -returns
 An object representing the immutable collection view.

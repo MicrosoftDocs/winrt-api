@@ -12,7 +12,7 @@ public object GetValue(System.Object instance)
 ## -description
 Provides a get-value utility for this [IXamlMember](ixamlmember.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMember.GetValue](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.getvalue).
+
 
 ## -parameters
 ### -param instance

@@ -13,7 +13,7 @@ public class DurationHelper : Windows.UI.Xaml.IDurationHelper
 
 Provides basic utility methods for processing [Duration](duration.md) values. C# and Microsoft Visual Basic code should use methods of [Duration](duration.md) instead.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DurationHelper](/windows/winui/api/microsoft.ui.xaml.durationhelper).
+
 
 ## -remarks
 

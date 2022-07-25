@@ -14,7 +14,7 @@ public Vector2 GradientOriginOffset { get;  set; }
 
 Gets or sets the two-dimensional coordinates of the origin of the gradient.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionRadialGradientBrush.GradientOriginOffset](/windows/winui/api/microsoft.ui.composition.compositionradialgradientbrush.gradientoriginoffset).
+
 
 ## -property-value
 

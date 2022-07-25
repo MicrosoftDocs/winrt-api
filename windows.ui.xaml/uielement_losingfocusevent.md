@@ -13,7 +13,7 @@ public RoutedEvent LosingFocusEvent { get; }
 
 Gets the identifier for the [LosingFocus](uielement_losingfocus.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.LosingFocusEvent](/windows/winui/api/microsoft.ui.xaml.uielement.losingfocusevent).
+
 
 ## -property-value
 

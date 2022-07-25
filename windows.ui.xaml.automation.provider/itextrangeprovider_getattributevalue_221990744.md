@@ -12,7 +12,7 @@ public object GetAttributeValue(System.Int32 attributeId)
 ## -description
 Retrieves the value of the specified attribute ID across the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.GetAttributeValue](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.getattributevalue).
+
 
 ## -parameters
 ### -param attributeId

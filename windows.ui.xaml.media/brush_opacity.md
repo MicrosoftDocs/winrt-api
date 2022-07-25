@@ -12,7 +12,7 @@ public double Opacity { get;  set; }
 ## -description
 Gets or sets the degree of opacity of a [Brush](brush.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Brush.Opacity](/windows/winui/api/microsoft.ui.xaml.media.brush.opacity).
+
 
 ## -xaml-syntax
 ```xaml

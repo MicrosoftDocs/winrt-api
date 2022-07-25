@@ -12,7 +12,7 @@ public class SwipeBackThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline,
 ## -description
 Represents the preconfigured animation that applies to controls when an element slides back into its layout slot after a **Swipe** interaction.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation).
+
 
 ## -xaml-syntax
 ```xaml

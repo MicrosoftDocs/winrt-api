@@ -12,7 +12,7 @@ public void SetDataTemplateComponent(Windows.UI.Xaml.DependencyObject element, W
 ## -description
 Sets the value of the [DataTemplateComponent](xamlbindinghelper_datatemplatecomponent.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetDataTemplateComponent](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setdatatemplatecomponent).
+
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler HorizontalSnapPointsChanged<object>
 ## -description
 Occurs when the measurements for horizontal snap points change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.HorizontalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.horizontalsnappointschanged).
+
 
 ## -xaml-syntax
 ```xaml

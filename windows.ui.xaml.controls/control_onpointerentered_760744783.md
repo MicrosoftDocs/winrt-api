@@ -12,7 +12,7 @@ virtual protected void OnPointerEntered(Windows.UI.Xaml.Input.PointerRoutedEvent
 ## -description
 Called before the [PointerEntered](../windows.ui.xaml/uielement_pointerentered.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerEntered](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointerentered).
+
 
 ## -parameters
 ### -param e

@@ -14,7 +14,7 @@ public void XamlLight.AddTargetElement(String lightId, UIElement element)
 
 Sets a [UIElement](/uwp/api/Windows.UI.Xaml.UIElement) as a target of a [XamlLight](XamlLight.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.AddTargetElement](/windows/winui/api/microsoft.ui.xaml.media.xamllight.addtargetelement).
+
 
 ## -parameters
 

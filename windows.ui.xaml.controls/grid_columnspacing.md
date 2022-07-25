@@ -13,7 +13,7 @@ public double ColumnSpacing { get;  set; }
 
 Gets or sets the uniform distance (in pixels) between grid columns.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.ColumnSpacing](/windows/winui/api/microsoft.ui.xaml.controls.grid.columnspacing).
+
 
 ## -xaml-syntax
 

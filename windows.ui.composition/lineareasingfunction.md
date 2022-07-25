@@ -19,7 +19,7 @@ The linear function of another supported easing function that can be used with K
 
 To create a new instance of `LinearEasingFunction`, call [CompositionEasingFunction.CreateLinearEasingFunction.md](compositioneasingfunction_createlineareasingfunction_64116208.md) or [Compositor.CreateLinearEasingFunction](compositor_createlineareasingfunction_957807217.md).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.LinearEasingFunction](/windows/winui/api/microsoft.ui.composition.lineareasingfunction).
+
 
 ## -examples
 

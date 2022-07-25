@@ -12,7 +12,7 @@ public class GridViewItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.S
 ## -description
 Exposes [GridView](../windows.ui.xaml.controls/gridview.md) items to Microsoft UI Automation, using a data representation of the item so that the peer supports scrolling to that item with data awareness.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.GridViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewitemdataautomationpeer).
+
 
 ## -remarks
  GridViewItemDataAutomationPeer is generated from [GridViewAutomationPeer](gridviewautomationpeer.md) logic, not an associated control class.

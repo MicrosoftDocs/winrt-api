@@ -12,7 +12,7 @@ public void SetTop(Windows.UI.Xaml.UIElement element, System.Double length)
 ## -description
 Sets the value of the [Canvas.Top](canvas_top.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.SetTop](/windows/winui/api/microsoft.ui.xaml.controls.canvas.settop).
+
 
 ## -parameters
 ### -param element

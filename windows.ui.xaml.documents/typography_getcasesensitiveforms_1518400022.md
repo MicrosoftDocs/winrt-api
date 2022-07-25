@@ -12,7 +12,7 @@ public bool GetCaseSensitiveForms(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [CaseSensitiveForms](typography_casesensitiveforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetCaseSensitiveForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.getcasesensitiveforms).
+
 
 ## -parameters
 ### -param element

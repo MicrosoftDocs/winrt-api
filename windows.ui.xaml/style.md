@@ -12,7 +12,7 @@ public class Style : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.IStyle
 ## -description
 Contains property setters that can be shared between instances of a type. A Style is usually declared in a resources collection so that it can be shared and used for applying control templates and other styles.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Style](/windows/winui/api/microsoft.ui.xaml.style).
+
 
 ## -xaml-syntax
 ```xaml
@@ -46,7 +46,7 @@ A Style is almost always defined in XAML as a resource in a [ResourceDictionary]
 
 A Style defined element in a [ResourceDictionary](resourcedictionary.md) is not required to have an [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute) or [x:Name attribute](/windows/uwp/xaml-platform/x-name-attribute), which is normally a requirement of being a XAML resource. A Style that's defined this way uses its [TargetType](style_targettype.md) property value as the implicit key and is known as an implicit style.
 
-For more info on how to use XAML resource dictionaries, see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+For more info on how to use XAML resource dictionaries, see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 ### Styles and templates
 
@@ -158,4 +158,4 @@ This example creates a Style named InheritedStyle that is based on a Style named
 
 ## -see-also
 
-[DependencyObject](dependencyobject.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[DependencyObject](dependencyobject.md), [ControlTemplate](../windows.ui.xaml.controls/controltemplate.md), [Setter](setter.md), [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary), [Styling controls](/windows/uwp/controls-and-patterns/styling-controls), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

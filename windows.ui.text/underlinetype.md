@@ -12,7 +12,7 @@ public enum Windows.UI.Text.UnderlineType : int
 ## -description
 Specifies the type of character underlining.
 
-Equivalent WinUI enum: [UnderlineType](/windows/winui/api/microsoft.ui.text.underlinetype).
+
 
 ## -enum-fields
 ### -field Undefined:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SemanticZoom SemanticZoomOwner { get;  set; }
 ## -description
 Gets or sets the [SemanticZoom](semanticzoom.md) instance that hosts the [Hub](hub.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.SemanticZoomOwner](/windows/winui/api/microsoft.ui.xaml.controls.hub.semanticzoomowner).
+
 
 ## -property-value
 The [SemanticZoom](semanticzoom.md) instance that hosts this [Hub](hub.md), or **null** if the [Hub](hub.md) is not hosted in a [SemanticZoom](semanticzoom.md) control.

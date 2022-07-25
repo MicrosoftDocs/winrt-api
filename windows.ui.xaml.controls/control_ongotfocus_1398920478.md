@@ -12,7 +12,7 @@ virtual protected void OnGotFocus(Windows.UI.Xaml.RoutedEventArgs e)
 ## -description
 Called before the [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnGotFocus](/windows/winui/api/microsoft.ui.xaml.controls.control.ongotfocus).
+
 
 ## -parameters
 ### -param e

@@ -12,7 +12,7 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the header for the [PivotItem](pivotitem.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PivotItem.Header](/windows/winui/api/microsoft.ui.xaml.controls.pivotitem.header).
+
 
 ## -xaml-syntax
 ```xaml

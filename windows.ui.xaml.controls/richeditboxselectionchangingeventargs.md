@@ -14,7 +14,7 @@ public class RichEditBoxSelectionChangingEventArgs
 
 Provides event data for the [RichEditBox.SelectionChanging](richeditbox_selectionchanging.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RichEditBoxSelectionChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.richeditboxselectionchangingeventargs).
+
 
 ## -remarks
 

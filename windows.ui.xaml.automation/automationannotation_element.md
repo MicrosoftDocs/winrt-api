@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement Element { get;  set; }
 ## -description
 Gets or sets the element that implements the annotation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationAnnotation.Element](/windows/winui/api/microsoft.ui.xaml.automation.automationannotation.element).
+
 
 ## -property-value
 The element that implements the annotation.

@@ -12,7 +12,7 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 Gets or sets the color of the gradient stop.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientStop.Color](/windows/winui/api/microsoft.ui.xaml.media.gradientstop.color).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.ElementSoundMode ElementSoundMode { get;  set; }
 ## -description
 Get or sets a value that specifies a control's preference for whether sounds are played.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.ElementSoundMode](/windows/winui/api/microsoft.ui.xaml.controls.control.elementsoundmode).
+
 
 ## -xaml-syntax
 ```xaml

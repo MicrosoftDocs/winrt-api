@@ -12,7 +12,7 @@ public double Amplitude { get;  set; }
 ## -description
 Gets or sets the amplitude of retraction associated with a [BackEase](backease.md) animation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.BackEase.Amplitude](/windows/winui/api/microsoft.ui.xaml.media.animation.backease.amplitude).
+
 
 ## -xaml-syntax
 ```xaml

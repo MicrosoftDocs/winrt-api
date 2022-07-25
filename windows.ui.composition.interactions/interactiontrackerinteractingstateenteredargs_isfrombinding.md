@@ -14,7 +14,7 @@ public bool IsFromBinding { get; }
 
 Gets a value that indicates whether this state was entered through interaction with a tracker that this one is bound to.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInteractingStateEnteredArgs.IsFromBinding](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinteractingstateenteredargs.isfrombinding).
+
 
 ## -property-value
 

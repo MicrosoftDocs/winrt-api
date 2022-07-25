@@ -14,7 +14,7 @@ public uint UIElementWeakCollection.GetMany(UInt32 startIndex, UIElement[] items
 
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

@@ -12,7 +12,7 @@ public string GetAccessKey()
 ## -description
 Gets the access key for the element that is associated with the automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAccessKey](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getaccesskey).
+
 
 ## -returns
 The access key.

@@ -14,7 +14,7 @@ public CompositionGeometry Geometry { get;  set; }
 
 Gets or sets CompositionGeometry that defines the shape of the clip.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGeometricClip.Geometry](/windows/winui/api/microsoft.ui.composition.compositiongeometricclip.geometry).
+
 
 ## -property-value
 

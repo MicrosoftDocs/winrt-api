@@ -12,7 +12,7 @@ public class Brush : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.IBr
 ## -description
 Defines objects used to paint graphical objects. Classes that derive from Brush describe how the area is painted.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Brush](/windows/winui/api/microsoft.ui.xaml.media.brush).
+
 
 ## -xaml-syntax
 ```xaml
@@ -37,11 +37,11 @@ For examples and further explanation of the UI drawing concepts represented by B
 
 ### Brushes as XAML resources
 
-Each of the Brush types that can be declared in XAML ([SolidColorBrush](solidcolorbrush.md), [LinearGradientBrush](lineargradientbrush.md), [ImageBrush](imagebrush.md)) is intended to be defined as a resource, so that you can reuse that brush as a resource throughout your app. The XAML syntax shown for Brush types is appropriate for defining the brush as a resource. When you declare a brush as a resource, you also need an [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute) that you'll later use to refer to that resource from other UI definitions. For more info on XAML resources and how to use [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute), see [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references).
+Each of the Brush types that can be declared in XAML ([SolidColorBrush](solidcolorbrush.md), [LinearGradientBrush](lineargradientbrush.md), [ImageBrush](imagebrush.md)) is intended to be defined as a resource, so that you can reuse that brush as a resource throughout your app. The XAML syntax shown for Brush types is appropriate for defining the brush as a resource. When you declare a brush as a resource, you also need an [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute) that you'll later use to refer to that resource from other UI definitions. For more info on XAML resources and how to use [x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute), see [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary).
 
 The advantage of declaring brushes as resources is that it reduces the number of runtime objects that are needed to construct a UI: the brush is now shared as a common resource that's providing values for multiple parts of the object graph.
 
-If you look at the existing control template definitions for Windows Runtime XAML controls, you'll see that the templates use brush resources extensively. Many of these resources are system resources, and they use the [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) for the resource reference rather than [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension). For more info on how to use system resource brushes in your own control template XAML, see [XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources).
+If you look at the existing control template definitions for Windows Runtime XAML controls, you'll see that the templates use brush resources extensively. Many of these resources are system resources, and they use the [{ThemeResource} markup extension](/windows/uwp/xaml-platform/themeresource-markup-extension) for the resource reference rather than [{StaticResource} markup extension](/windows/uwp/xaml-platform/staticresource-markup-extension). For more info on how to use system resource brushes in your own control template XAML, see [XAML theme resources](/windows/apps/design/style/xaml-theme-resources).
 
 ### **Brush** derived classes
 
@@ -61,4 +61,4 @@ Brush is the parent class for several derived classes that either implement prac
 ## -examples
 
 ## -see-also
-[DependencyObject](../windows.ui.xaml/dependencyobject.md), [SolidColorBrush](solidcolorbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Use brushes](/windows/uwp/graphics/using-brushes), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[DependencyObject](../windows.ui.xaml/dependencyobject.md), [SolidColorBrush](solidcolorbrush.md), [Color](../windows.ui/color.md), [Colors](../windows.ui/colors.md), [Use brushes](/windows/uwp/graphics/using-brushes), [Image and ImageBrush](/windows/uwp/controls-and-patterns/images-imagebrushes), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

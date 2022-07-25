@@ -12,7 +12,7 @@ public Windows.UI.Text.FontStretch UndefinedFontStretch { get; }
 ## -description
 Gets the undefined font stretch value.
 
-Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.UndefinedFontStretch](/windows/winui/api/microsoft.ui.text.textconstants.undefinedfontstretch).
+
 
 ## -property-value
 The undefined font stretch value.

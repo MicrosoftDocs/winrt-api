@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Navigation.NavigationCacheMode NavigationCacheMode { get;
 ## -description
 Gets or sets the navigation mode that indicates whether this [Page](page.md) is cached, and the period of time that the cache entry should persist.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Page.NavigationCacheMode](/windows/winui/api/microsoft.ui.xaml.controls.page.navigationcachemode).
+
 
 ## -xaml-syntax
 ```xaml

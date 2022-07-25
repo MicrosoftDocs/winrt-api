@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.SplitViewPanePlacement : int
 ## -description
 Defines constants that specify whether the pane is to the left or right of the content in a [SplitView](splitview.md).
 
-Equivalent WinUI enum: [SplitViewPanePlacement](/windows/winui/api/microsoft.ui.xaml.controls.splitviewpaneplacement).
+
 
 ## -enum-fields
 ### -field Left:0

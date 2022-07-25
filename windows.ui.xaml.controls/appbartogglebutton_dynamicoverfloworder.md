@@ -12,7 +12,7 @@ public int DynamicOverflowOrder { get;  set; }
 ## -description
 Gets or sets the order in which this item is moved to the [CommandBar](commandbar.md) overflow menu.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrder](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.dynamicoverfloworder).
+
 
 ## -xaml-syntax
 ```xaml

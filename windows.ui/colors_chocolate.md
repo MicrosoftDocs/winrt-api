@@ -13,7 +13,7 @@ public Windows.UI.Color Chocolate { get; }
 
 Gets the system-defined color that has an ARGB value of #FFD2691E.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Chocolate](/windows/winui/api/microsoft.ui.colors.chocolate).
+
 
 ## -property-value
 

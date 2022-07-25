@@ -12,7 +12,7 @@ public Windows.Foundation.Rect GetRectFromCharacterIndex(System.Int32 charIndex,
 ## -description
 Returns a rectangular region for the leading or trailing edge of a character at a specific character index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.GetRectFromCharacterIndex](/windows/winui/api/microsoft.ui.xaml.controls.textbox.getrectfromcharacterindex).
+
 
 ## -parameters
 ### -param charIndex

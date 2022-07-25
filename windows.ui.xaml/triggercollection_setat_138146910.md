@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.TriggerBase value)
 ## -description
 Sets the value at the specified index to the [TriggerBase](triggerbase.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.triggercollection.setat).
+
 
 ## -parameters
 ### -param index

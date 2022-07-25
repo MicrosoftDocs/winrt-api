@@ -13,7 +13,7 @@ public bool TryMoveFocus(Windows.UI.Xaml.Input.FocusNavigationDirection focusNav
 
 Attempts to change focus from the element with focus to the next focusable element in the specified direction.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.TryMoveFocus](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.trymovefocus).
+
 
 ## -parameters
 

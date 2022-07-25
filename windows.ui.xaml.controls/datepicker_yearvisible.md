@@ -13,7 +13,7 @@ public bool YearVisible { get;  set; }
 
 Gets or sets a value that indicates whether the year selector is shown.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.YearVisible](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.yearvisible).
+
 
 ## -xaml-syntax
 

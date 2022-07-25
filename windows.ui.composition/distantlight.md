@@ -12,7 +12,7 @@ public class DistantLight : Windows.UI.Composition.CompositionLight, Windows.UI.
 ## -description
 An infinitely large distant light source that emits light in a single direction. For example, a distant light could be used to represent sunlight.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.DistantLight](/windows/winui/api/microsoft.ui.composition.distantlight).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler SelectedDatesChanged<Windows.U
 ## -description
 Occurs when the collection of selected dates is changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedDatesChanged](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selecteddateschanged).
+
 
 ## -xaml-syntax
 ```xaml

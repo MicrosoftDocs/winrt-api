@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<float> GetIrregularSnapPoints(
 ## -description
 Returns the set of distances between irregular snap points for a specified orientation and alignment.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.GetIrregularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.primitives.iscrollsnappointsinfo.getirregularsnappoints).
+
 
 ## -parameters
 ### -param orientation

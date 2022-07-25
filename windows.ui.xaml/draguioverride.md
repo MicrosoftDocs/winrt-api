@@ -13,7 +13,7 @@ public class DragUIOverride : Windows.UI.Xaml.IDragUIOverride
 
 Provides the visual representation of the data being dragged during a drag-and-drop operation, including feedback from the drop target.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DragUIOverride](/windows/winui/api/microsoft.ui.xaml.draguioverride).
+
 
 ## -remarks
 

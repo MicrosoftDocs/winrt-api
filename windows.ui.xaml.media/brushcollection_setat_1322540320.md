@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Brush value)
 ## -description
 Sets the value at the specified index to the [Brush](brush.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.BrushCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.brushcollection.setat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public event TypedEventHandler Opened<SvgImageSource, SvgImageSourceOpenedEventA
 ## -description
 Occurs when the SVG source is downloaded and decoded with no failure.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.Opened](/windows/winui/api/microsoft.ui.xaml.media.imaging.svgimagesource.opened).
+
 
 ## -xaml-syntax
 ```xaml

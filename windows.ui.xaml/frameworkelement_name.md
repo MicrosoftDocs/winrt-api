@@ -12,7 +12,7 @@ public string Name { get;  set; }
 ## -description
 Gets or sets the identifying name of the object. When a XAML processor creates the object tree from XAML markup, run-time code can refer to the XAML-declared object by this name.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Name](/windows/winui/api/microsoft.ui.xaml.frameworkelement.name).
+
 
 ## -xaml-syntax
 ```xaml

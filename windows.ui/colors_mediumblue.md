@@ -13,7 +13,7 @@ public Windows.UI.Color MediumBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF0000CD.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.MediumBlue](/windows/winui/api/microsoft.ui.colors.mediumblue).
+
 
 ## -property-value
 

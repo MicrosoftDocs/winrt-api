@@ -12,7 +12,7 @@ public enum Windows.UI.Text.TextSetOptions : uint
 ## -description
 Specifies options for setting the text in a text range.
 
-Equivalent WinUI enum: [TextSetOptions](/windows/winui/api/microsoft.ui.text.textsetoptions).
+
 
 ## -enum-fields
 ### -field None:0

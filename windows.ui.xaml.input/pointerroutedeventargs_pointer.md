@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Input.Pointer Pointer { get; }
 ## -description
 Gets a reference to a pointer token.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.PointerRoutedEventArgs.Pointer](/windows/winui/api/microsoft.ui.xaml.input.pointerroutedeventargs.pointer).
+
 
 ## -property-value
 A pointer token.

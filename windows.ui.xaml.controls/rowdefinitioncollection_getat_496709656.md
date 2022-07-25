@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.RowDefinition GetAt(System.UInt32 index)
 ## -description
 Returns the [RowDefinition](rowdefinition.md) located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.getat).
+
 
 ## -parameters
 ### -param index

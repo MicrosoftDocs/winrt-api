@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.GeneralTransform Inverse { get; }
 ## -description
 Gets the inverse transformation of this [GeneralTransform](generaltransform.md), if possible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GeneralTransform.Inverse](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.inverse).
+
 
 ## -property-value
 An inverse of this instance, if possible; otherwise null.

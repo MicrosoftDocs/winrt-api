@@ -7,7 +7,9 @@
 
 ## -description
 
-Provides UI controls and classes that support existing and custom controls.
+Provides UI controls and classes that support existing and custom UWP controls.
+
+
 
 ## -remarks
 

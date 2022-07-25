@@ -13,7 +13,7 @@ public class EdgeUIThemeTransition : Windows.UI.Xaml.Media.Animation.Transition,
 Provides the animated transition behavior for an edge UI transition. 
 <!--such as app bar appear disappear?-->
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EdgeUIThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.edgeuithemetransition).
+
 
 ## -xaml-syntax
 ```xaml

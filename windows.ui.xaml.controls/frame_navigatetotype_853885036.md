@@ -14,7 +14,7 @@ public bool Frame.NavigateToType(TypeName sourcePageType, Object parameter, Fram
 
 Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md), also passing a parameter to be interpreted by the target of the navigation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.NavigateToType](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigatetotype).
+
 
 ## -parameters
 ### -param sourcePageType

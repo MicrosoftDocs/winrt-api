@@ -13,7 +13,7 @@ public InitialValueExpressions InitialValueExpressions { get; }
 
 Gets the initial values for the animation.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionAnimation.InitialValueExpressions](/windows/winui/api/microsoft.ui.composition.compositionanimation.initialvalueexpressions).
+
 
 ## -property-value
 

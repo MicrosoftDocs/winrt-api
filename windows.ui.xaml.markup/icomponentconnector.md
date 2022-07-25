@@ -12,7 +12,7 @@ public interface IComponentConnector :
 ## -description
 Provides infrastructure support for event wiring and build actions.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Markup.IComponentConnector](/windows/winui/api/microsoft.ui.xaml.markup.icomponentconnector).
+
 
 ## -remarks
 

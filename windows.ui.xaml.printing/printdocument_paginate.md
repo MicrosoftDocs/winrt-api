@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Printing.PaginateEventHandler Paginate
 ## -description
 Occurs when the [PrintManager](../windows.graphics.printing/printmanager.md) requests the collection of print pages to be shown in the preview window.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Printing.PrintDocument.Paginate](/windows/winui/api/microsoft.ui.xaml.printing.printdocument.paginate).
+
 
 ## -remarks
 

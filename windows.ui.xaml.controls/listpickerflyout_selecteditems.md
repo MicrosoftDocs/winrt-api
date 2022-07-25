@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<object> SelectedItems { get; }
 ## -description
 Gets the list of currently selected items.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedItems](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selecteditems).
+
 
 ## -property-value
 The list of currently selected items.

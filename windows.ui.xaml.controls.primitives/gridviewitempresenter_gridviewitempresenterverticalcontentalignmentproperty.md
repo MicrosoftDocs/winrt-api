@@ -15,7 +15,7 @@ public Windows.UI.Xaml.DependencyProperty GridViewItemPresenterVerticalContentAl
 
 Identifies the [GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter.GridViewItemPresenterVerticalContentAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter.gridviewitempresenterverticalcontentalignmentproperty).
+
 
 ## -property-value
 The identifier for the [GridViewItemPresenterVerticalContentAlignment](gridviewitempresenter_gridviewitempresenterverticalcontentalignment.md) dependency property.

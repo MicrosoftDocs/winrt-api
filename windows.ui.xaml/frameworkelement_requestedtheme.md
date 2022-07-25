@@ -12,7 +12,7 @@ public Windows.UI.Xaml.ElementTheme RequestedTheme { get;  set; }
 ## -description
 Gets or sets the UI theme that is used by the [UIElement](uielement.md) (and its child elements) for resource determination. The UI theme you specify with RequestedTheme can override the app-level [RequestedTheme](application_requestedtheme.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.RequestedTheme](/windows/winui/api/microsoft.ui.xaml.frameworkelement.requestedtheme).
+
 
 ## -xaml-syntax
 ```xaml

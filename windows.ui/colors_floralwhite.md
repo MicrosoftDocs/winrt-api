@@ -13,7 +13,7 @@ public Windows.UI.Color FloralWhite { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFFAF0.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.FloralWhite](/windows/winui/api/microsoft.ui.colors.floralwhite).
+
 
 ## -property-value
 

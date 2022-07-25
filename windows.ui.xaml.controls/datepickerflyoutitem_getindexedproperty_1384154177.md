@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICustomProperty GetIndexedProperty(System.String nam
 ## -description
 Retrieves a custom property's [ICustomProperty](../windows.ui.xaml.data/icustomproperty.md) support object by specifying a property name and the type of the indexed collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.GetIndexedProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.getindexedproperty).
+
 
 ## -parameters
 ### -param name

@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Controls.HubSectio
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

@@ -12,7 +12,7 @@ public class Binding : Windows.UI.Xaml.Data.BindingBase, Windows.UI.Xaml.Data.IB
 ## -description
 Defines a binding that connects the properties of binding targets and data sources.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Data.Binding](/windows/winui/api/microsoft.ui.xaml.data.binding).
+
 
 ## -xaml-syntax
 ```xaml

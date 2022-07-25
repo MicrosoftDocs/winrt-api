@@ -14,7 +14,7 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](richeditbox_description.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.descriptionproperty).
+
 
 ## -property-value
 

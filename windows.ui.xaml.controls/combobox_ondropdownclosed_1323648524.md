@@ -12,7 +12,7 @@ virtual protected void OnDropDownClosed(System.Object e)
 ## -description
 Invoked when the [DropDownClosed](combobox_dropdownclosed.md) event is raised.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ComboBox.OnDropDownClosed](/windows/winui/api/microsoft.ui.xaml.controls.combobox.ondropdownclosed).
+
 
 ## -parameters
 ### -param e

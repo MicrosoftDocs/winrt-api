@@ -13,7 +13,7 @@ public bool Equals(Windows.UI.Xaml.Duration target, Windows.UI.Xaml.Duration val
 
 Determines whether two [Duration](duration.md) values have equivalent values. C# and Microsoft Visual Basic code should use the [Equality](/dotnet/api/windows.ui.xaml.duration.op_equality?view=dotnet-uwp-10.0&preserve-view=true) (=) operator or [Duration.Equals](/dotnet/api/windows.ui.xaml.duration.equals?view=dotnet-uwp-10.0&preserve-view=true) method instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DurationHelper.Equals](/windows/winui/api/microsoft.ui.xaml.durationhelper.equals).
+
 
 ## -parameters
 

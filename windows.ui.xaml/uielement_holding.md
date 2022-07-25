@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.HoldingEventHandler Holding
 
 Occurs when an otherwise unhandled **Hold** interaction occurs over the hit test area of this element.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.Holding](/windows/winui/api/microsoft.ui.xaml.uielement.holding).
+
 
 ## -xaml-syntax
 

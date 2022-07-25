@@ -14,7 +14,7 @@ public Guid CorrelationId { get; }
 
 Gets the unique ID generated when a focus movement event is initiated.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.FocusManagerLostFocusEventArgs.CorrelationId](/windows/winui/api/microsoft.ui.xaml.input.focusmanagerlostfocuseventargs.correlationid).
+
 
 ## -property-value
 

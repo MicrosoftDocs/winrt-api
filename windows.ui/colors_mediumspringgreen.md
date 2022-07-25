@@ -13,7 +13,7 @@ public Windows.UI.Color MediumSpringGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF00FA9A.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.MediumSpringGreen](/windows/winui/api/microsoft.ui.colors.mediumspringgreen).
+
 
 ## -property-value
 

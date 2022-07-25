@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush PaneBackground { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the background of the [Pane](splitview_pane.md) area of the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.PaneBackground](/windows/winui/api/microsoft.ui.xaml.controls.splitview.panebackground).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public void PasswordBox.PasteFromClipboard()
 
 Copies content from the Windows clipboard into the text control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.PasswordBox.PasteFromClipboard](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.pastefromclipboard).
+
 
 ## -remarks
 

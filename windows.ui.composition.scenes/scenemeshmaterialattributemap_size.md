@@ -14,7 +14,7 @@ public uint Size { get; }
 
 Gets the number of items in the map.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.Size](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.size).
+
 
 ## -property-value
 

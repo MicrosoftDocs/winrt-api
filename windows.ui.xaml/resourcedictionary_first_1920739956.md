@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterator<Windows.Foundation.Collections.I
 ## -description
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.First](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.first).
+
 
 ## -returns
 The iterator. The iterator's current position is at the 0-index position, or at the collection end if the collection is empty.
@@ -27,4 +27,4 @@ You can iterate through a [ResourceDictionary](resourcedictionary.md) in C# or M
 ## -examples
 
 ## -see-also
-[ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

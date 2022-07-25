@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.RoutedEventHandler GotFocus
 
 Occurs when a [UIElement](uielement.md) receives focus. This event is raised asynchronously, so focus can move again before bubbling is complete.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.GotFocus](/windows/winui/api/microsoft.ui.xaml.uielement.gotfocus).
+
 
 ## -xaml-syntax
 

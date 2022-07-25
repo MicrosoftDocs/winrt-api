@@ -12,7 +12,7 @@ public bool GetStylisticSet17(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet17](typography_stylisticset17.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet17](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset17).
+
 
 ## -parameters
 ### -param element

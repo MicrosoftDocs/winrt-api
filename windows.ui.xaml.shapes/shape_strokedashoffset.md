@@ -12,7 +12,7 @@ public double StrokeDashOffset { get;  set; }
 ## -description
 Gets or sets a value that specifies the distance within the dash pattern where a dash begins.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Shape.StrokeDashOffset](/windows/winui/api/microsoft.ui.xaml.shapes.shape.strokedashoffset).
+
 
 ## -xaml-syntax
 ```xaml

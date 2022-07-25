@@ -13,7 +13,7 @@ public double RowSpacing { get;  set; }
 
 Gets or sets the uniform distance (in pixels) between grid rows.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.RowSpacing](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowspacing).
+
 
 ## -xaml-syntax
 

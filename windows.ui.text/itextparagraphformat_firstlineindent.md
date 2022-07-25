@@ -12,7 +12,7 @@ public float FirstLineIndent { get; }
 ## -description
 Gets the amount used to indent the first line of a paragraph relative to the left indent.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.FirstLineIndent](/windows/winui/api/microsoft.ui.text.itextparagraphformat.firstlineindent).
+
 
 ## -property-value
 The first line indentation amount, in floating-point points.

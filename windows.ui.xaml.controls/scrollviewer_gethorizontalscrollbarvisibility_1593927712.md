@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ScrollBarVisibility GetHorizontalScrollBarVisibi
 ## -description
 Gets the value of the [HorizontalScrollBarVisibility](scrollviewer_horizontalscrollbarvisibility.md) dependency property / `ScrollViewer.HorizontalScrollBarVisibility` XAML attached property from a specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.GetHorizontalScrollBarVisibility](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.gethorizontalscrollbarvisibility).
+
 
 ## -parameters
 ### -param element

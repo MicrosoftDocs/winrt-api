@@ -12,7 +12,7 @@ public object TargetNullValue { get;  set; }
 ## -description
 Gets or sets the value that is used in the target when the value of the source is **null**.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.TargetNullValue](/windows/winui/api/microsoft.ui.xaml.data.binding.targetnullvalue).
+
 
 ## -xaml-syntax
 ```xaml

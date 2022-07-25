@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Controls.HubSection value
 ## -description
 Sets the value at the specified index to the item value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.setat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public Windows.Foundation.Size Size { get;  set; }
 ## -description
 Gets or sets the x-radius and y-radius of the arc as a [Size](../windows.foundation/size.md) structure.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ArcSegment.Size](/windows/winui/api/microsoft.ui.xaml.media.arcsegment.size).
+
 
 ## -xaml-syntax
 ```xaml

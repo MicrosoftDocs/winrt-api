@@ -12,7 +12,6 @@ public event Windows.UI.Xaml.RoutedEventHandler ImageOpened
 ## -description
 Occurs when the image source is downloaded and decoded with no failure. You can use this event to determine the natural size of the image source.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Image.ImageOpened](/windows/winui/api/microsoft.ui.xaml.controls.image.imageopened).
 
 ## -xaml-syntax
 ```xaml

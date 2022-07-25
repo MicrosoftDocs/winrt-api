@@ -12,7 +12,7 @@ public class BackEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Wind
 ## -description
 Represents an easing function that changes a value in the opposite direction of the main function during part of a duration, then reverses and finishes the function-over-time behavior in a conventional way.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.BackEase](/windows/winui/api/microsoft.ui.xaml.media.animation.backease).
+
 
 ## -xaml-syntax
 ```xaml

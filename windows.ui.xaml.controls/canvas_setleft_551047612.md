@@ -12,7 +12,7 @@ public void SetLeft(Windows.UI.Xaml.UIElement element, System.Double length)
 ## -description
 Sets the value of the [Canvas.Left](canvas_left.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.SetLeft](/windows/winui/api/microsoft.ui.xaml.controls.canvas.setleft).
+
 
 ## -parameters
 ### -param element

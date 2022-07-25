@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Rect GetBoundingRectangleCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetBoundingRectangle](automationpeer_getboundingrectangle_297705113.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetBoundingRectangleCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getboundingrectanglecore).
+
 
 ## -returns
 The bounding rectangle.

@@ -13,7 +13,7 @@ public class CompositionLinearGradientBrush : CompositionGradientBrush, Composit
 
 Represents a brush that paints an area with a linear gradient.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionLinearGradientBrush](/windows/winui/api/microsoft.ui.composition.compositionlineargradientbrush).
+
 
 ## -remarks
 

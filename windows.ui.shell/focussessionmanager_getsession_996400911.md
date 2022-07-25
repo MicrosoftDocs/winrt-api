@@ -22,12 +22,10 @@ The unique identifier for a focus session.
 
 ## -returns
 
-The requested [FocusSession](focussession.md) object if it exists; otherwise, null.
+The [FocusSession](focussession.md) associated with the specified ID. It is not verified that the session is currently active.
 
 ## -remarks
 
-
-This method is a limited access feature which require specific approval to be used in an application. For more information, see [LimitedAccessFeatures](xref:Windows.ApplicationModel.LimitedAccessFeatures).
 
 ## -see-also
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Peers.ItemAutomationPeer CreateItemAutomationP
 ## -description
 Creates a new instance of the [ItemAutomationPeer](itemautomationpeer.md) for a data item in the [Items](../windows.ui.xaml.controls/itemscontrol_items.md) collection of this [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ItemsControlAutomationPeer.CreateItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemscontrolautomationpeer.createitemautomationpeer).
+
 
 ## -parameters
 ### -param item

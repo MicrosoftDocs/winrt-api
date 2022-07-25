@@ -12,7 +12,7 @@ public class ElasticEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, W
 ## -description
 Represents an easing function that creates an animation that resembles a spring oscillating back and forth until it comes to rest.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ElasticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease).
+
 
 ## -xaml-syntax
 ```xaml

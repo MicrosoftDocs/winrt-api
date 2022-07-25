@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MatrixProperty { get; }
 ## -description
 Identifies the [Matrix](matrixtransform_matrix.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.MatrixTransform.MatrixProperty](/windows/winui/api/microsoft.ui.xaml.media.matrixtransform.matrixproperty).
+
 
 ## -property-value
 The identifier for the [Matrix](matrixtransform_matrix.md) dependency property.

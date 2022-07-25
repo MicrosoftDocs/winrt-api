@@ -13,7 +13,7 @@ public Windows.UI.Color Turquoise { get; }
 
 Gets the system-defined color that has an ARGB value of #FF40E0D0.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Turquoise](/windows/winui/api/microsoft.ui.colors.turquoise).
+
 
 ## -property-value
 

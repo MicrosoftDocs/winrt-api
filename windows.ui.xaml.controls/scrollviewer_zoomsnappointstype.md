@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SnapPointsType ZoomSnapPointsType { get;  set; }
 ## -description
 Gets or sets a value that indicates how zoom snap points are processed for interaction input.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomSnapPointsType](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoomsnappointstype).
+
 
 ## -xaml-syntax
 ```xaml

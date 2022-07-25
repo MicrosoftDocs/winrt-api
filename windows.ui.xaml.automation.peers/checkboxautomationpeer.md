@@ -12,7 +12,6 @@ public class CheckBoxAutomationPeer : Windows.UI.Xaml.Automation.Peers.ToggleBut
 ## -description
 Exposes [CheckBox](../windows.ui.xaml.controls/checkbox.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.CheckBoxAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.checkboxautomationpeer).
 
 ## -remarks
 The Windows Runtime  [CheckBox](../windows.ui.xaml.controls/checkbox.md) class creates a new CheckBoxAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from CheckBoxAutomationPeer if you are deriving a custom class from [CheckBox](../windows.ui.xaml.controls/checkbox.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

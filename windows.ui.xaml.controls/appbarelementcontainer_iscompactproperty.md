@@ -14,7 +14,7 @@ public DependencyProperty IsCompactProperty { get; }
 
 Identifies the IsCompact dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsCompactProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarelementcontainer.iscompactproperty).
+
 
 ## -property-value
 

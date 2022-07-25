@@ -13,7 +13,7 @@ public float MinGlobalPlaybackRate { get; }
 
 Gets the minimum allowed playback rate for all KeyFrame animations created by this compositor.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Compositor.MinGlobalPlaybackRate](/windows/winui/api/microsoft.ui.composition.compositor.minglobalplaybackrate).
+
 
 ## -property-value
 

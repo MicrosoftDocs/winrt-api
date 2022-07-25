@@ -14,7 +14,7 @@ public float RotationAngle { get;  set; }
 
 Gets or sets the rotation angle applied to the node, in radians.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneModelTransform.RotationAngle](/windows/winui/api/microsoft.ui.composition.scenes.scenemodeltransform.rotationangle).
+
 
 ## -property-value
 

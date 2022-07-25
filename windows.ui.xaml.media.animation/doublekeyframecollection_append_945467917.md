@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Animation.DoubleKeyFrame value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection.append).
+
 
 ## -parameters
 ### -param value

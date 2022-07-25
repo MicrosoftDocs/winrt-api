@@ -12,7 +12,7 @@ public class SelectorItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.ItemA
 ## -description
 Exposes the items in a [Selector](../windows.ui.xaml.controls.primitives/selector.md) to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectoritemautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  SelectorItemAutomationPeer is created by selected item logic in [SelectorAutomationPeer](selectorautomationpeer.md), not by invoking a [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition on [SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md). Derive an automation peer from SelectorItemAutomationPeer if you are also creating a peer based on [SelectorAutomationPeer](selectorautomationpeer.md) and want to change the selected-item automation info.

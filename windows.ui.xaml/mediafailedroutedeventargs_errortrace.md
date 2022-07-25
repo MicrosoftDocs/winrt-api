@@ -12,7 +12,7 @@ public string ErrorTrace { get; }
 ## -description
 Gets the trace information for a media failed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.MediaFailedRoutedEventArgs.ErrorTrace](/windows/winui/api/microsoft.ui.xaml.mediafailedroutedeventargs.errortrace).
+
 
 ## -property-value
 The error trace for the failed media event.

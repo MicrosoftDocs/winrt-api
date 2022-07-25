@@ -12,7 +12,7 @@ public void Complete()
 ## -description
 Completes the manipulation without inertia.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Complete](/windows/winui/api/microsoft.ui.xaml.input.manipulationstartedroutedeventargs.complete).
+
 
 ## -remarks
 

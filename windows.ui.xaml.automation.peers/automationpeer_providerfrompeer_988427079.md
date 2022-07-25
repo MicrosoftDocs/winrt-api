@@ -12,7 +12,7 @@ protected Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple Provider
 ## -description
 Gets the [IRawElementProviderSimple](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple) proxy for the specified [AutomationPeer](automationpeer.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.ProviderFromPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.providerfrompeer).
+
 
 ## -parameters
 ### -param peer

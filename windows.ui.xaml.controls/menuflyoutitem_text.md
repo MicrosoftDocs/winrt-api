@@ -12,7 +12,7 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text content of a [MenuFlyoutItem](menuflyoutitem.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.Text](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.text).
+
 
 ## -xaml-syntax
 ```xaml

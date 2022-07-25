@@ -12,7 +12,7 @@ public uint Phase { get; }
 ## -description
 Gets the number of times this container and day item pair has been called.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.Phase](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.phase).
+
 
 ## -property-value
 The number of times this container and day item pair has been called.

@@ -12,7 +12,7 @@ public double GlobalOffsetZ { get;  set; }
 ## -description
 Gets or sets the distance that the object is translated along the z-axis of the screen.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetZ](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsetz).
+
 
 ## -xaml-syntax
 ```xaml

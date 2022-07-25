@@ -12,7 +12,7 @@ virtual protected void OnManipulationInertiaStarting(Windows.UI.Xaml.Input.Manip
 ## -description
 Called before the [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnManipulationInertiaStarting](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationinertiastarting).
+
 
 ## -parameters
 ### -param e

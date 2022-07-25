@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty TargetProperty { get; }
 ## -description
 Gets the identifier for the [Target](../windows.ui.xaml.automation.provider/iannotationprovider_target.md) automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.TargetProperty](/windows/winui/api/microsoft.ui.xaml.automation.annotationpatternidentifiers.targetproperty).
+
 
 ## -property-value
 The automation property identifier.

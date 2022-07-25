@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.RemoveAtEnd()
 
 Removes the last item in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.RemoveAtEnd](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.removeatend).
+
 
 ## -remarks
 

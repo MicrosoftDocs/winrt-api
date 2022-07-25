@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Documents.Inline GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.getat).
+
 
 ## -parameters
 ### -param index

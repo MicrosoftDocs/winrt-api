@@ -12,7 +12,7 @@ public bool IsZoomChainingEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether zoom chaining is enabled from this child to its parent.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsZoomChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.iszoomchainingenabled).
+
 
 ## -xaml-syntax
 ```xaml

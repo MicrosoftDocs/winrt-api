@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CalendarItemBorderThicknessProperty { 
 ## -description
 Identifies the [CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemBorderThicknessProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritemborderthicknessproperty).
+
 
 ## -property-value
 The identifier for the [CalendarItemBorderThickness](calendarview_calendaritemborderthickness.md)   dependency property.

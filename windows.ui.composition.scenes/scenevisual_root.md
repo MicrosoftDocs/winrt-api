@@ -14,7 +14,7 @@ public SceneNode Root { get;  set; }
 
 Gets or sets the root node for scene.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneVisual.Root](/windows/winui/api/microsoft.ui.composition.scenes.scenevisual.root).
+
 
 ## -property-value
 

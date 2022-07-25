@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ItemContainerStyleProperty { get; }
 ## -description
 Identifies the [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainerstyleproperty).
+
 
 ## -property-value
 The identifier for the [ItemContainerStyle](itemscontrol_itemcontainerstyle.md) dependency property.

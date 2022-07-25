@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DayOfWeekFormatProperty { get; }
 ## -description
 Identifies the [DayOfWeekFormat](calendarview_dayofweekformat.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayOfWeekFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayofweekformatproperty).
+
 
 ## -property-value
 The identifier for the [DayOfWeekFormat](calendarview_dayofweekformat.md)   dependency property.

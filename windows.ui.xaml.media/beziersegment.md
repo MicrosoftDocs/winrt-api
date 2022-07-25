@@ -12,7 +12,7 @@ public class BezierSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xaml.
 ## -description
 Represents a cubic Bezier curve drawn between two points.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.BezierSegment](/windows/winui/api/microsoft.ui.xaml.media.beziersegment).
+
 
 ## -xaml-syntax
 ```xaml

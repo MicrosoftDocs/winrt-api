@@ -12,7 +12,7 @@ public string GetAcceleratorKey(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [AutomationProperties.AcceleratorKey](automationproperties_acceleratorkey.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetAcceleratorKey](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getacceleratorkey).
+
 
 ## -parameters
 ### -param element

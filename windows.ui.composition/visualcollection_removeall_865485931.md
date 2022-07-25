@@ -12,7 +12,7 @@ public void RemoveAll()
 ## -description
 Removes all of the visual instances from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.VisualCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.visualcollection.removeall).
+
 
 ## -remarks
 

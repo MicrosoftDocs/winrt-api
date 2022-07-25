@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.SectionsInViewChangedEventHandler Sections
 ## -description
 Occurs when the [SectionsInView](hub_sectionsinview.md) collection changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Hub.SectionsInViewChanged](/windows/winui/api/microsoft.ui.xaml.controls.hub.sectionsinviewchanged).
+
 
 ## -xaml-syntax
 ```xaml

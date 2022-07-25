@@ -13,7 +13,7 @@ public bool IsStrokeNonScaling { get;  set; }
 
 Gets or sets a value that specifies whether the shape's outline scales.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.IsStrokeNonScaling](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.isstrokenonscaling).
+
 
 ## -property-value
 

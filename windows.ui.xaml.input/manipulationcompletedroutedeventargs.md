@@ -12,7 +12,7 @@ public class ManipulationCompletedRoutedEventArgs : Windows.UI.Xaml.RoutedEventA
 ## -description
 Provides data for the [ManipulationCompleted](../windows.ui.xaml/uielement_manipulationcompleted.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationcompletedroutedeventargs).
+
 
 ## -remarks
 

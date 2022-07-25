@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsSourceGroupedProperty { get; }
 ## -description
 Identifies the [IsSourceGrouped](collectionviewsource_issourcegrouped.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.IsSourceGroupedProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.issourcegroupedproperty).
+
 
 ## -property-value
 The identifier for the [IsSourceGrouped](collectionviewsource_issourcegrouped.md) dependency property.

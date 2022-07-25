@@ -12,7 +12,7 @@ public class CommonNavigationTransitionInfo : Windows.UI.Xaml.Media.Animation.Na
 ## -description
 Provides common parameters for navigation transition animations.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo).
+
 
 ## -xaml-syntax
 ```xaml

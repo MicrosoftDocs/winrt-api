@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](swipebackthemeanimation_targetname.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.targetnameproperty).
+
 
 ## -property-value
 The identifier for the [TargetName](swipebackthemeanimation_targetname.md) dependency property.

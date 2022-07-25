@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationStartedEventHandler ManipulationS
 
 Occurs when an input device begins a manipulation on the [UIElement](uielement.md).
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ManipulationStarted](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationstarted).
+
 
 ## -xaml-syntax
 

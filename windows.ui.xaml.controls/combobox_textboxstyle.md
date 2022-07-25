@@ -13,7 +13,7 @@ public Style TextBoxStyle { get;  set; }
 ## -description
 Gets or sets the style of the TextBox in the ComboBox when the ComboBox is editable.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.TextBoxStyle](/windows/winui/api/microsoft.ui.xaml.controls.combobox.textboxstyle).
+
 
 ## -property-value
 

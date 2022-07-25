@@ -14,7 +14,7 @@ public Windows.UI.Xaml.Documents.TextPointer SelectionEnd { get; }
 
 Gets the end position of the text selected in the [TextBlock](textblock.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.SelectionEnd](/windows/winui/api/microsoft.ui.xaml.controls.textblock.selectionend).
+
 
 ## -property-value
 

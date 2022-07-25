@@ -13,7 +13,7 @@ public class ScrollBar : Windows.UI.Xaml.Controls.Primitives.RangeBase, Windows.
 
 Represents a control that provides a scroll bar that has a sliding [Thumb](thumb.md) whose position corresponds to a value.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar).
+
 
 ## -xaml-syntax
 

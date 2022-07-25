@@ -12,7 +12,7 @@ public void Scroll(Windows.UI.Xaml.Automation.ScrollAmount horizontalAmount, Win
 ## -description
 Scrolls the visible region of the content area horizontally, vertically, or both.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer.Scroll](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotautomationpeer.scroll).
+
 
 ## -parameters
 ### -param horizontalAmount

@@ -14,7 +14,7 @@ Starts an animation group.
 
 The StartAnimationGroup method on [CompositionObject](compositionobject.md) lets you start [CompositionAnimationGroup](compositionanimationgroup.md). All the animations in the group will be started at the same time on the object.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.StartAnimationGroup](/windows/winui/api/microsoft.ui.composition.compositionobject.startanimationgroup).
+
 
 ## -parameters
 ### -param value

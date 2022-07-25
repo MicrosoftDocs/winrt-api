@@ -12,7 +12,7 @@ public object ConvertValue(Windows.UI.Xaml.Interop.TypeName type, System.Object 
 ## -description
 Converts a value from a source type to a target type.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.ConvertValue](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.convertvalue).
+
 
 ## -parameters
 ### -param type

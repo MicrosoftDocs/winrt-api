@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyObject GroupHeaderContainerFromItemContainer(Wi
 ## -description
 Returns the group header container that corresponds to the specified container element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsControl.GroupHeaderContainerFromItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.groupheadercontainerfromitemcontainer).
+
 
 ## -parameters
 ### -param itemContainer

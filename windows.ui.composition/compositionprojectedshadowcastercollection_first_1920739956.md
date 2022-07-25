@@ -14,7 +14,7 @@ public IIterator<CompositionProjectedShadowCaster> CompositionProjectedShadowCas
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.First](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.first).
+
 
 ## -returns
 

@@ -13,7 +13,7 @@ public Windows.UI.Color LightCoral { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF08080.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.LightCoral](/windows/winui/api/microsoft.ui.colors.lightcoral).
+
 
 ## -property-value
 

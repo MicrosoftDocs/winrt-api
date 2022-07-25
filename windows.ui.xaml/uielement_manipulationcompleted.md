@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.ManipulationCompletedEventHandler Manipulatio
 
 Occurs when a manipulation on the [UIElement](uielement.md) is complete.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.ManipulationCompleted](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationcompleted).
+
 
 ## -xaml-syntax
 

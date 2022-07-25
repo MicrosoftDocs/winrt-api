@@ -12,7 +12,7 @@ public void SetHorizontalOffset(System.Double offset)
 ## -description
 Changes the horizontal offset of content within the [OrientedVirtualizingPanel](orientedvirtualizingpanel.md) viewport.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.SetHorizontalOffset](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.sethorizontaloffset).
+
 
 ## -parameters
 ### -param offset

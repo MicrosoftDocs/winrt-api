@@ -12,7 +12,7 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType)
 ## -description
 Causes the navigation host to load content that is specified by a type reference.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.INavigate.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.inavigate.navigate).
+
 
 ## -parameters
 ### -param sourcePageType

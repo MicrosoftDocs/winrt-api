@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName Type { get; }
 ## -description
 Gets the underlying type of the custom property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.Type](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.type).
+
 
 ## -property-value
 The underlying type, with relevant information as the values of the [TypeName](../windows.ui.xaml.interop/typename.md) structure. [TypeName](../windows.ui.xaml.interop/typename.md) provides the infrastructure such that property backing does not have to take a dependency on the common language runtime (CLR) and **System.Type**.

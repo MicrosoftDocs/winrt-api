@@ -12,7 +12,7 @@ public void SetSource(Windows.Storage.Streams.IRandomAccessStream streamSource)
 ## -description
 Sets the source image for a [BitmapSource](bitmapsource.md) by accessing a stream. Most callers should use [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.BitmapSource.SetSource](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapsource.setsource).
+
 
 ## -parameters
 ### -param streamSource

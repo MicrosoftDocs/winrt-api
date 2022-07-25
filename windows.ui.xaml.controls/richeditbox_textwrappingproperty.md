@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TextWrappingProperty { get; }
 ## -description
 Identifies the [TextWrapping](richeditbox_textwrapping.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.TextWrappingProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textwrappingproperty).
+
 
 ## -property-value
 The identifier for the [TextWrapping](richeditbox_textwrapping.md) dependency property.

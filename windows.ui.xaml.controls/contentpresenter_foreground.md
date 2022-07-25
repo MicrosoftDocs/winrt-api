@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Foreground { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) to apply to the text content handled by the [ContentPresenter](contentpresenter.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.Foreground](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.foreground).
+
 
 ## -xaml-syntax
 ```xaml

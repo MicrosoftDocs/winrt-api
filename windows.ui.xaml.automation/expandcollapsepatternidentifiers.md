@@ -12,7 +12,7 @@ public class ExpandCollapsePatternIdentifiers : Windows.UI.Xaml.Automation.IExpa
 ## -description
 Contains values used as identifiers by [IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.ExpandCollapsePatternIdentifiers](/windows/winui/api/microsoft.ui.xaml.automation.expandcollapsepatternidentifiers).
+
 
 ## -remarks
 Classes such as ExpandCollapsePatternIdentifiers are the identifiers for the Windows Runtime implementation of a common provider pattern for Microsoft UI Automation. You might use these identifiers if you are implementing a Windows Runtime custom automation peer that reports support for [IExpandCollapseProvider](../windows.ui.xaml.automation.provider/iexpandcollapseprovider.md) in its [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) implementation. These identifiers are needed for the [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md) calls that you make from control code that references your own peer, or for [FindItemByProperty](../windows.ui.xaml.automation.provider/iitemcontainerprovider_finditembyproperty_1997743353.md) in an items container peer.

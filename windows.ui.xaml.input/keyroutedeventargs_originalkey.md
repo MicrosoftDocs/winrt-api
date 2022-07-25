@@ -15,7 +15,7 @@ Gets the original, unmapped [virtual key](../windows.system/virtualkey.md) assoc
 
 Depending on the input device, the input button might be mapped to a different key value. For the mapped event value, see the [Key](keyroutedeventargs_key.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyRoutedEventArgs.OriginalKey](/windows/winui/api/microsoft.ui.xaml.input.keyroutedeventargs.originalkey).
+
 
 ## -property-value
 

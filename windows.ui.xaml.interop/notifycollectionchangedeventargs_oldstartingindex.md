@@ -12,7 +12,7 @@ public int OldStartingIndex { get; }
 ## -description
 Gets the starting index at which a **Move**, **Remove**, or **Replace** action occurred.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.OldStartingIndex](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.oldstartingindex).
+
 
 ## -property-value
 The zero-based index at which a **Move**, **Remove**, or **Replace** action occurred.

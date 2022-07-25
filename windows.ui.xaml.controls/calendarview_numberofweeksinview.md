@@ -12,7 +12,7 @@ public int NumberOfWeeksInView { get;  set; }
 ## -description
 Gets or sets the number of weeks shown in the calendar view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.NumberOfWeeksInView](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.numberofweeksinview).
+
 
 ## -xaml-syntax
 ```xaml

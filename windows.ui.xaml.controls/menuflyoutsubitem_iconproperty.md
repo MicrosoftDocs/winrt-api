@@ -12,7 +12,7 @@ public DependencyProperty IconProperty { get; }
 ## -description
 Identifies the **Icon** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem.IconProperty](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutsubitem.iconproperty).
+
 
 ## -property-value
 The identifier for the **Icon** dependency property

@@ -12,7 +12,7 @@ public bool GetCapitalSpacing(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [CapitalSpacing](typography_capitalspacing.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetCapitalSpacing](/windows/winui/api/microsoft.ui.xaml.documents.typography.getcapitalspacing).
+
 
 ## -parameters
 ### -param element

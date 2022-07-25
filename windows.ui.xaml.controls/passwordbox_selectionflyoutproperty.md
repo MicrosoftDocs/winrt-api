@@ -14,7 +14,7 @@ public DependencyProperty SelectionFlyoutProperty { get; }
 
 Identifies the SelectionFlyout dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.selectionflyoutproperty).
+
 
 ## -property-value
 

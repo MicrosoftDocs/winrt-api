@@ -12,7 +12,7 @@ virtual protected void OnDragOver(Windows.UI.Xaml.DragEventArgs e)
 ## -description
 Called before the [DragOver](../windows.ui.xaml/uielement_dragover.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnDragOver](/windows/winui/api/microsoft.ui.xaml.controls.control.ondragover).
+
 
 ## -parameters
 ### -param e

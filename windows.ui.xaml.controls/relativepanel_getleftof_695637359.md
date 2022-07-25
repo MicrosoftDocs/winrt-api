@@ -12,7 +12,7 @@ public object GetLeftOf(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.LeftOf](relativepanel_leftof.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetLeftOf](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getleftof).
+
 
 ## -parameters
 ### -param element

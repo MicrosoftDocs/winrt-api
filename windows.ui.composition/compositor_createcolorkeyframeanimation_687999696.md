@@ -12,7 +12,7 @@ public Windows.UI.Composition.ColorKeyFrameAnimation CreateColorKeyFrameAnimatio
 ## -description
 Creates an instance of [ColorKeyFrameAnimation](colorkeyframeanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateColorKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createcolorkeyframeanimation).
+
 
 ## -returns
 Returns the created [ColorKeyFrameAnimation](colorkeyframeanimation.md) object.

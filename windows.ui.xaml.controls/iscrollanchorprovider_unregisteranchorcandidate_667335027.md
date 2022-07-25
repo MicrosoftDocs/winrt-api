@@ -14,7 +14,7 @@ public void IScrollAnchorProvider.UnregisterAnchorCandidate(UIElement element)
 
 Unregisters a [UIElement](../windows.ui.xaml/uielement.md) as a potential scroll anchor candidate.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.IScrollAnchorProvider.UnregisterAnchorCandidate](/windows/winui/api/microsoft.ui.xaml.controls.iscrollanchorprovider.unregisteranchorcandidate).
+
 
 ## -parameters
 

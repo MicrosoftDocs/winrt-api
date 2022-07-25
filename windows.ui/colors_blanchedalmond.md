@@ -13,7 +13,7 @@ public Windows.UI.Color BlanchedAlmond { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFEBCD.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.BlanchedAlmond](/windows/winui/api/microsoft.ui.colors.blanchedalmond).
+
 
 ## -property-value
 

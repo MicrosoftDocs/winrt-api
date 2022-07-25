@@ -12,7 +12,7 @@ public string GetAutomationId(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [AutomationProperties.AutomationId](automationproperties_automationid.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetAutomationId](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getautomationid).
+
 
 ## -parameters
 ### -param element

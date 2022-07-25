@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Transform value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.append).
+
 
 ## -parameters
 ### -param value

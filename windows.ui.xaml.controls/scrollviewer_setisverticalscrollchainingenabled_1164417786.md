@@ -12,7 +12,7 @@ public void SetIsVerticalScrollChainingEnabled(Windows.UI.Xaml.DependencyObject 
 ## -description
 Sets the value of the [IsVerticalScrollChainingEnabled](scrollviewer_isverticalscrollchainingenabled.md) dependency property / `ScrollViewer.IsVerticalScrollChainingEnabled` XAML attached property on a specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetIsVerticalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setisverticalscrollchainingenabled).
+
 
 ## -parameters
 ### -param element

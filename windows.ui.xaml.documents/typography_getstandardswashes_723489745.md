@@ -12,7 +12,7 @@ public int GetStandardSwashes(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StandardSwashes](typography_standardswashes.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStandardSwashes](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstandardswashes).
+
 
 ## -parameters
 ### -param element

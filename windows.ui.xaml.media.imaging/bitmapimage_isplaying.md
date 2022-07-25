@@ -12,7 +12,7 @@ public bool IsPlaying { get; }
 ## -description
 Gets a value that indicates whether an animated image is playing.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsPlaying](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage.isplaying).
+
 
 ## -property-value
 **true** if the animated image is playing; otherwise, **false**.

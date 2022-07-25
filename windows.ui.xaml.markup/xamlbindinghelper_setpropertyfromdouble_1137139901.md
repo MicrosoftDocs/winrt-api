@@ -12,7 +12,7 @@ public void SetPropertyFromDouble(System.Object dependencyObject, Windows.UI.Xam
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromDouble](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromdouble).
+
 
 ## -parameters
 ### -param dependencyObject

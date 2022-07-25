@@ -13,7 +13,7 @@ public bool Equals(Windows.Foundation.Rect target, Windows.Foundation.Rect value
 
 Provides comparison of the values of two [Rect](../windows.foundation/rect.md) values. C# and Microsoft Visual Basic code should use the [Equality](/dotnet/api/windows.foundation.rect.op_equality?view=dotnet-uwp-10.0&preserve-view=true) (=) operator or [Equals](/dotnet/api/windows.foundation.rect.equals?view=dotnet-uwp-10.0&preserve-view=true) method instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.Equals](/windows/winui/api/microsoft.ui.xaml.recthelper.equals).
+
 
 ## -parameters
 

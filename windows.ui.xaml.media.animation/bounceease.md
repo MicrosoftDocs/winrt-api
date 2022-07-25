@@ -12,7 +12,7 @@ public class BounceEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Wi
 ## -description
 Represents an easing function that creates an animated bouncing effect.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.BounceEase](/windows/winui/api/microsoft.ui.xaml.media.animation.bounceease).
+
 
 ## -xaml-syntax
 ```xaml

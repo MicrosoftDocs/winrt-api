@@ -14,7 +14,7 @@ public event TypedEventHandler ExecuteRequested<XamlUICommand, ExecuteRequestedE
 
 Occurs when an [Execute](xamluicommand_execute_171295283.md) call is made.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.XamlUICommand.ExecuteRequested](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.executerequested).
+
 
 ## -remarks
 

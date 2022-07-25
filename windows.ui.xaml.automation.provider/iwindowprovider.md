@@ -12,7 +12,7 @@ public interface IWindowProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that provide fundamental window-based functionality within a traditional graphical user interface (GUI). Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Window](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider).
+
 
 ## -remarks
 For more info on what this pattern is for, see [Window Control Pattern](/windows/desktop/WinAuto/uiauto-implementingwindow).

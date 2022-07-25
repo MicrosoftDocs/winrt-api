@@ -12,7 +12,7 @@ public bool GetHistoricalLigatures(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [HistoricalLigatures](typography_historicalligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetHistoricalLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.gethistoricalligatures).
+
 
 ## -parameters
 ### -param element

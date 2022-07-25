@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](popinthemeanimation_targetname.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.targetnameproperty).
+
 
 ## -property-value
 The identifier for the [TargetName](popinthemeanimation_targetname.md) dependency property.

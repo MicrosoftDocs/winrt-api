@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush BorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that describes the border fill of the content presenter.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.BorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.borderbrush).
+
 
 ## -xaml-syntax
 ```xaml

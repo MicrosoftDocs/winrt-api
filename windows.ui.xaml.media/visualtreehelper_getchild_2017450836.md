@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyObject GetChild(Windows.UI.Xaml.DependencyObjec
 ## -description
 Using the provided index, obtains a specific child object of the provided object by examining the visual tree.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetChild](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getchild).
+
 
 ## -parameters
 ### -param reference

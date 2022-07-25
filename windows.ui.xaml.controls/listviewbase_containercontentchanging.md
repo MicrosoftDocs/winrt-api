@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler ContainerContentChanging<Windo
 ## -description
 Occurs when the data item associated with a UI container changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.ContainerContentChanging](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.containercontentchanging).
+
 
 ## -xaml-syntax
 ```xaml

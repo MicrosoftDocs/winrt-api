@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HorizontalSnapPointsTypeProperty { get
 ## -description
 Identifies the [HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalSnapPointsTypeProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalsnappointstypeproperty).
+
 
 ## -property-value
 The identifier for the [HorizontalSnapPointsType](scrollviewer_horizontalsnappointstype.md) dependency property.

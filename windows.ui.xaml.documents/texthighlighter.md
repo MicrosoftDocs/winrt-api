@@ -13,7 +13,7 @@ public class TextHighlighter
 
 Represents an object that highlights one or more ranges of text.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.TextHighlighter](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter).
+
 
 ## -remarks
 

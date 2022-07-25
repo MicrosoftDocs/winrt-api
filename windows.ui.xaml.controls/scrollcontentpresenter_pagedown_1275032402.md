@@ -12,7 +12,7 @@ public void PageDown()
 ## -description
 Scrolls down within the content by one page.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.PageDown](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.pagedown).
+
 
 ## -remarks
 

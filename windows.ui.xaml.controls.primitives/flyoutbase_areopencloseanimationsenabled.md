@@ -14,7 +14,7 @@ public bool AreOpenCloseAnimationsEnabled { get;  set; }
 
 Gets or sets a value that indicates whether animations are played when the flyout is opened or closed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabled](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.areopencloseanimationsenabled).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public double ActualHeight { get; }
 ## -description
 Gets the rendered height of a [FrameworkElement](frameworkelement.md). See Remarks.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualHeight](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualheight).
+
 
 ## -property-value
 The height, in pixels, of the object. The default is 0. The default might be encountered if the object has not been loaded and hasn't yet been involved in a layout pass that renders the UI.

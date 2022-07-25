@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.EasingFunctionBase EasingFunction { get; 
 ## -description
 Gets or sets the easing function applied to this animation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation.EasingFunction](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation.easingfunction).
+
 
 ## -xaml-syntax
 ```xaml

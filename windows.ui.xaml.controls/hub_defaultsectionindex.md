@@ -12,7 +12,7 @@ public int DefaultSectionIndex { get;  set; }
 ## -description
 Gets or sets the index of the hub section to show first when the [Hub](hub.md) is initialized.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.DefaultSectionIndex](/windows/winui/api/microsoft.ui.xaml.controls.hub.defaultsectionindex).
+
 
 ## -xaml-syntax
 ```xaml

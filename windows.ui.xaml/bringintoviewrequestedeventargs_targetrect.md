@@ -13,7 +13,7 @@ public Rect TargetRect { get;  set; }
 
 Gets or sets the Rect in the TargetElement’s coordinate space to bring into view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetRect](/windows/winui/api/microsoft.ui.xaml.bringintoviewrequestedeventargs.targetrect).
+
 
 ## -property-value
 

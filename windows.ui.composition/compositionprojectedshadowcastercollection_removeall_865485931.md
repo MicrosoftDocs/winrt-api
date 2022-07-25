@@ -14,7 +14,7 @@ public void CompositionProjectedShadowCasterCollection.RemoveAll()
 
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.RemoveAll](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.removeall).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public DependencyProperty TabFocusNavigationProperty { get; }
 ## -description
 Identifies the [TabFocusNavigation](uielement_tabfocusnavigation.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.TabFocusNavigationProperty](/windows/winui/api/microsoft.ui.xaml.uielement.tabfocusnavigationproperty).
+
 
 ## -property-value
 The identifier for the [TabFocusNavigation](uielement_tabfocusnavigation.md) dependency property.

@@ -12,7 +12,7 @@ public class ToolTipService : Windows.UI.Xaml.Controls.IToolTipService
 ## -description
 Represents a service that provides static methods to display a [ToolTip](tooltip.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ToolTipService](/windows/winui/api/microsoft.ui.xaml.controls.tooltipservice).
+
 
 ## -remarks
 

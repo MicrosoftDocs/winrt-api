@@ -10,7 +10,7 @@ public delegate void NavigationStoppedEventHandler(System.Object sender, Windows
 ## -description
 Provides event data for the [NavigationStopped](../windows.ui.xaml.controls/frame_navigationstopped.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Navigation.NavigationStoppedEventHandler](/windows/winui/api/microsoft.ui.xaml.navigation.navigationstoppedeventhandler).
+
 
 ## -parameters
 ### -param sender

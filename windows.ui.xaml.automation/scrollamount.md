@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.ScrollAmount : int
 ## -description
 Contains values that are used by the [IScrollProvider](../windows.ui.xaml.automation.provider/iscrollprovider.md) pattern to indicate the direction and distance to scroll.
 
-Equivalent WinUI enum: [ScrollAmount](/windows/winui/api/microsoft.ui.xaml.automation.scrollamount).
+
 
 ## -enum-fields
 ### -field LargeDecrement:0

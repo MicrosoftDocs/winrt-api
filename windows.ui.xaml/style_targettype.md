@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName TargetType { get;  set; }
 ## -description
 Gets or sets the type for which the style is intended. TargetType can be used to declare an implicit style resource if there's no resource key specified.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Style.TargetType](/windows/winui/api/microsoft.ui.xaml.style.targettype).
+
 
 ## -xaml-syntax
 ```xaml

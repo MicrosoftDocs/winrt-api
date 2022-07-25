@@ -14,7 +14,7 @@ public SizeInt32 SizeInt32 { get; }
 
 Gets the size of the mipmap surface.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionMipmapSurface.SizeInt32](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.sizeint32).
+
 
 ## -property-value
 

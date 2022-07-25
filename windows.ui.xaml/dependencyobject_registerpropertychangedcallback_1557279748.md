@@ -12,7 +12,7 @@ public long RegisterPropertyChangedCallback(Windows.UI.Xaml.DependencyProperty d
 ## -description
 Registers a notification function for listening to changes to a specific [DependencyProperty](dependencyproperty.md) on this [DependencyObject](dependencyobject.md) instance.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObject.RegisterPropertyChangedCallback](/windows/winui/api/microsoft.ui.xaml.dependencyobject.registerpropertychangedcallback).
+
 
 ## -parameters
 ### -param dp

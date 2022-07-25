@@ -13,7 +13,7 @@ public float Intensity { get;  set; }
 
 Gets or sets the intensity of the light.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DistantLight.Intensity](/windows/winui/api/microsoft.ui.composition.distantlight.intensity).
+
 
 ## -property-value
 

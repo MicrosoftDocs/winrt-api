@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PaneBackgroundProperty { get; }
 ## -description
 Identifies the [PaneBackground](splitview_panebackground.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.PaneBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.panebackgroundproperty).
+
 
 ## -property-value
 The identifier for the   [PaneBackground](splitview_panebackground.md) dependency property.

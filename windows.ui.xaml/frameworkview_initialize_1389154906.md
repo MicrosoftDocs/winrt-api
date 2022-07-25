@@ -12,7 +12,7 @@ public void Initialize(Windows.ApplicationModel.Core.CoreApplicationView applica
 ## -description
 Initializes the view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkView.Initialize](/windows/winui/api/microsoft.ui.xaml.frameworkview.initialize).
+
 
 ## -parameters
 ### -param applicationView

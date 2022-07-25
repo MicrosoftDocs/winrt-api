@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent HoldingEvent { get; }
 ## -description
 Gets the identifier for the [Holding](uielement_holding.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.HoldingEvent](/windows/winui/api/microsoft.ui.xaml.uielement.holdingevent).
+
 
 ## -property-value
 The identifier for the [Holding](uielement_holding.md) routed event.

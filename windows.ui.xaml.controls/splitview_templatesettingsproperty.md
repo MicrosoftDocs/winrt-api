@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TemplateSettingsProperty { get; }
 ## -description
 Identifies the [TemplateSettings](splitview_templatesettings.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.TemplateSettingsProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.templatesettingsproperty).
+
 
 ## -property-value
 The identifier for the [TemplateSettings](splitview_templatesettings.md)  dependency property.

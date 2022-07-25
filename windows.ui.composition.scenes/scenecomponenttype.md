@@ -14,7 +14,7 @@ public enum SceneComponentType : int
 
 Defines constants that specify what kind a scene component is.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.Scenes.SceneComponentType](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponenttype).
+
 
 ## -enum-fields
 

@@ -12,7 +12,7 @@ public bool AcceptsReturn { get;  set; }
 ## -description
 Gets or sets the value that determines whether the text box allows and displays the newline or return characters.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.AcceptsReturn](/windows/winui/api/microsoft.ui.xaml.controls.textbox.acceptsreturn).
+
 
 ## -xaml-syntax
 ```xaml

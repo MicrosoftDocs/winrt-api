@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Thickness FocusVisualPrimaryThickness { get;  set; }
 
 Gets or sets the thickness of the outer border of a `HighVisibility` or `Reveal` focus visual for a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.FocusVisualPrimaryThickness](/windows/winui/api/microsoft.ui.xaml.frameworkelement.focusvisualprimarythickness).
+
 
 ## -property-value
 

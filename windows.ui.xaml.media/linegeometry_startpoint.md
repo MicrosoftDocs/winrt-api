@@ -12,7 +12,7 @@ public Windows.Foundation.Point StartPoint { get;  set; }
 ## -description
 Gets or sets the start point of the line.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.LineGeometry.StartPoint](/windows/winui/api/microsoft.ui.xaml.media.linegeometry.startpoint).
+
 
 ## -xaml-syntax
 ```xaml

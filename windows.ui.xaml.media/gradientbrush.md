@@ -13,7 +13,7 @@ public class GradientBrush : Windows.UI.Xaml.Media.Brush, Windows.UI.Xaml.Media.
 
 An abstract class that describes a gradient, composed of gradient stops.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GradientBrush](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush).
+
 
 ## -remarks
 

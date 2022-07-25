@@ -12,7 +12,7 @@ public void SetContentFromDataPackage()
 ## -description
 Creates a system provided visual element that represents the format of the dragged data in a drag-and-drop operation, typically the icon of the default handler for the file format.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DragUI.SetContentFromDataPackage](/windows/winui/api/microsoft.ui.xaml.dragui.setcontentfromdatapackage).
+
 
 ## -remarks
 

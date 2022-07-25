@@ -12,7 +12,7 @@ public class PowerEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Win
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using the formula *f* (*t*) = *t**<sup>p</sup>* where *p* is equal to the [Power](powerease_power.md) property.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PowerEase](/windows/winui/api/microsoft.ui.xaml.media.animation.powerease).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public Windows.Foundation.Rect FromPoints(Windows.Foundation.Point point1, Windo
 
 Creates a new [Rect](../windows.foundation/rect.md) value based on two points. C# and Microsoft Visual Basic code should use the [Rect(Point,Point)](/dotnet/api/windows.foundation.rect.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_Foundation_Rect__ctor_Windows_Foundation_Point_Windows_Foundation_Point_) constructor instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.RectHelper.FromPoints](/windows/winui/api/microsoft.ui.xaml.recthelper.frompoints).
+
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public interface ITransformProvider2 : Windows.UI.Xaml.Automation.Provider.ITran
 ## -description
 Extends the [ITransformProvider](itransformprovider.md) interface to enable Microsoft UI Automation providers to expose API to support the viewport zooming functionality of a control.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2).
+
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Transform Control Pattern](/windows/desktop/WinAuto/uiauto-implementingtransform).

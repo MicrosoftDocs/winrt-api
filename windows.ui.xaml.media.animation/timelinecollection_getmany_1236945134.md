@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Media.Animation.Ti
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

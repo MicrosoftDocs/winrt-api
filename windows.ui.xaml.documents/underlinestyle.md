@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Documents.UnderlineStyle : int
 ## -description
 Defines constants that specify the look of the underline used for an element.
 
-Equivalent WinUI enum: [UnderlineStyle](/windows/winui/api/microsoft.ui.xaml.documents.underlinestyle).
+
 
 ## -enum-fields
 ### -field None:0

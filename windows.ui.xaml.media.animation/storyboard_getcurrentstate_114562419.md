@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.ClockState GetCurrentState()
 ## -description
 Gets the clock state of the [Storyboard](storyboard.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.GetCurrentState](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.getcurrentstate).
+
 
 ## -returns
 One of the enumeration values. Can be: **Active**, **Filling**, or **Stopped**.

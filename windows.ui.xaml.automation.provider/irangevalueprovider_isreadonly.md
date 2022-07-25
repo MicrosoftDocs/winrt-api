@@ -12,7 +12,7 @@ public bool IsReadOnly { get; }
 ## -description
 Gets a value that indicates whether the value of a control is read-only.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.automation.provider.irangevalueprovider.isreadonly).
+
 
 ## -property-value
 **true** if the value is read-only; **false** if it can be modified.

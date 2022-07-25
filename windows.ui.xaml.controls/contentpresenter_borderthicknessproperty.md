@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BorderThicknessProperty { get; }
 ## -description
 Identifies the [BorderThickness](contentpresenter_borderthickness.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.BorderThicknessProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.borderthicknessproperty).
+
 
 ## -property-value
 The identifier for the [BorderThickness](contentpresenter_borderthickness.md) dependency property.

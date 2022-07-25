@@ -13,7 +13,7 @@ public DependencyProperty BackgroundProperty { get; }
 
 Identifies the Background dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextHighlighter.BackgroundProperty](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.backgroundproperty).
+
 
 ## -property-value
 

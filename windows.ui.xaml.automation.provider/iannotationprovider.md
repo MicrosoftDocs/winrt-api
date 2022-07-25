@@ -12,7 +12,7 @@ public interface IAnnotationProvider :
 ## -description
 Exposes the properties of an annotation in a document. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Annotation](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IAnnotationProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iannotationprovider).
+
 
 ## -remarks
 The **Annotation** control pattern is used to expose the properties of an annotation in a document. One example is a comment balloon that is in the margin of a document and is connected to some document text or a spreadsheet cell. For more info on what this pattern is for, see [Annotation Control Pattern](/windows/desktop/WinAuto/uiauto-implementingannotation).

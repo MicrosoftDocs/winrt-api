@@ -12,7 +12,7 @@ public DependencyProperty FallbackColorProperty { get; }
 ## -description
 Identifies the **FallbackColor** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColorProperty](/windows/winui/api/microsoft.ui.xaml.media.xamlcompositionbrushbase.fallbackcolorproperty).
+
 
 ## -property-value
 The identifier for the **FallbackColor** dependency property.

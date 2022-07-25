@@ -12,7 +12,7 @@ public class PathFigure : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Medi
 ## -description
 Represents a subsection of a geometry, a single connected series of two-dimensional geometric segments.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PathFigure](/windows/winui/api/microsoft.ui.xaml.media.pathfigure).
+
 
 ## -xaml-syntax
 ```xaml

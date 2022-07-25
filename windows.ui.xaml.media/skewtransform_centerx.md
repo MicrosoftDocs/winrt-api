@@ -12,7 +12,7 @@ public double CenterX { get;  set; }
 ## -description
 Gets or sets the x-coordinate of the transform center.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SkewTransform.CenterX](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.centerx).
+
 
 ## -xaml-syntax
 ```xaml

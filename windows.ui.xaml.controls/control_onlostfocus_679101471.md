@@ -12,7 +12,7 @@ virtual protected void OnLostFocus(Windows.UI.Xaml.RoutedEventArgs e)
 ## -description
 Called before the [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnLostFocus](/windows/winui/api/microsoft.ui.xaml.controls.control.onlostfocus).
+
 
 ## -parameters
 ### -param e

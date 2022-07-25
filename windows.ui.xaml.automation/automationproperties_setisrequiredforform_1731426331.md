@@ -12,7 +12,7 @@ public void SetIsRequiredForForm(Windows.UI.Xaml.DependencyObject element, Syste
 ## -description
 Sets the value of the [AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.SetIsRequiredForForm](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.setisrequiredforform).
+
 
 ## -parameters
 ### -param element

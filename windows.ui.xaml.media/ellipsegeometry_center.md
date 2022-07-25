@@ -12,7 +12,7 @@ public Windows.Foundation.Point Center { get;  set; }
 ## -description
 Gets or sets the center point of the [EllipseGeometry](ellipsegeometry.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.EllipseGeometry.Center](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry.center).
+
 
 ## -xaml-syntax
 ```xaml

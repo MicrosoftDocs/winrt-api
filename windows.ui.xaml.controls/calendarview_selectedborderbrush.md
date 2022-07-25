@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush SelectedBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of the currently selected calendar item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectedBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectedborderbrush).
+
 
 ## -xaml-syntax
 ```xaml

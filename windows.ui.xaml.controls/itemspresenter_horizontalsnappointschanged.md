@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler HorizontalSnapPointsChanged<object>
 ## -description
 Occurs when the horizontal snap points change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ItemsPresenter.HorizontalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.horizontalsnappointschanged).
+
 
 ## -xaml-syntax
 ```xaml

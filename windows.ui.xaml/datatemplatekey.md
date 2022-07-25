@@ -12,7 +12,7 @@ public class DataTemplateKey : Windows.UI.Xaml.IDataTemplateKey
 ## -description
 Represents the resource key for the [DataTemplate](datatemplate.md) class.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DataTemplateKey](/windows/winui/api/microsoft.ui.xaml.datatemplatekey).
+
 
 ## -remarks
 DataTemplateKey represents an underlying type for a resource key ([x:Key attribute](/windows/uwp/xaml-platform/x-key-attribute) of a [DataTemplate](datatemplate.md)) that is used for resource lookup internally instead of a string. It exists mainly for infrastructure, you don't use this type directly in any common XAML data binding scenario.

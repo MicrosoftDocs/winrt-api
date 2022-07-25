@@ -12,7 +12,7 @@ public void SetValue(System.Object instance, System.Object value)
 ## -description
 Provides a set-value utility for this [IXamlMember](ixamlmember.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IXamlMember.SetValue](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.setvalue).
+
 
 ## -parameters
 ### -param instance

@@ -12,7 +12,7 @@ public void Close()
 ## -description
 Closes the app bar.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Close](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.close).
+
 
 ## -remarks
 

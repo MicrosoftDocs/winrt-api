@@ -12,7 +12,7 @@ public enum AnimationDelayBehavior : int
 ## -description
 Specifies the animation delay behavior.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.AnimationDelayBehavior](/windows/winui/api/microsoft.ui.composition.animationdelaybehavior).
+
 
 ## -enum-fields
 ### -field SetInitialValueBeforeDelay:1

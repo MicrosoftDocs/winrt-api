@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Controls.ColumnDef
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ColumnDefinitionCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.controls.columndefinitioncollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

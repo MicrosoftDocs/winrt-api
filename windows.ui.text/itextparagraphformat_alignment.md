@@ -12,7 +12,7 @@ public Windows.UI.Text.ParagraphAlignment Alignment { get;  set; }
 ## -description
 Gets or sets the paragraph alignment.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.Alignment](/windows/winui/api/microsoft.ui.text.itextparagraphformat.alignment).
+
 
 ## -property-value
 The paragraph alignment value.

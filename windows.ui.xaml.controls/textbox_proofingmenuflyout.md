@@ -14,7 +14,7 @@ public FlyoutBase ProofingMenuFlyout { get; }
 
 Gets the flyout that shows proofing commands.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.ProofingMenuFlyout](/windows/winui/api/microsoft.ui.xaml.controls.textbox.proofingmenuflyout).
+
 
 ## -property-value
 

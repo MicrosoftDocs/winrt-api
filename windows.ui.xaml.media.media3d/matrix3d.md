@@ -11,7 +11,7 @@ public struct Matrix3D
 
 ## -description
 Represents a 4 × 4 matrix that is used for transformations in a 3-D space. Used as a value for [Matrix3DProjection.ProjectionMatrix](../windows.ui.xaml.media/matrix3dprojection_projectionmatrix.md).
-Equivalent WinUI struct: [Matrix3D](/windows/winui/api/microsoft.ui.xaml.media.media3d.matrix3d).
+
 
 ## -xaml-syntax
 ```xaml

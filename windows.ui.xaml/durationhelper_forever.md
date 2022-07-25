@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Duration Forever { get; }
 
  Returns a generated [Duration](duration.md) value that indicates a "Forever" [Duration](duration.md). C# and Microsoft Visual Basic code should use [Duration.Forever](/dotnet/api/windows.ui.xaml.duration.forever?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DurationHelper.Forever](/windows/winui/api/microsoft.ui.xaml.durationhelper.forever).
+
 
 ## -property-value
 

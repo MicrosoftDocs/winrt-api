@@ -14,7 +14,7 @@ public void CompositionProjectedShadowCasterCollection.InsertBelow(CompositionPr
 
 Adds a CompositionProjectedShadowCaster to the collection below the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.InsertBelow](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.insertbelow).
+
 
 ## -parameters
 ### -param newCaster

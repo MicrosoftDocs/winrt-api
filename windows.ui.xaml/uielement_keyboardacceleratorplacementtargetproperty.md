@@ -12,7 +12,7 @@ public DependencyProperty KeyboardAcceleratorPlacementTargetProperty { get; }
 ## -description
 Identifies the [KeyboardAcceleratorPlacementTarget](uielement_keyboardacceleratorplacementtarget.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyboardAcceleratorPlacementTargetProperty](/windows/winui/api/microsoft.ui.xaml.uielement.keyboardacceleratorplacementtargetproperty).
+
 
 ## -property-value
 The identifier for the [KeyboardAcceleratorPlacementTarget](uielement_keyboardacceleratorplacementtarget.md) dependency property.

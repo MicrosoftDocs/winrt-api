@@ -12,7 +12,7 @@ public bool IsOn { get;  set; }
 ## -description
 Gets or sets a value that declares whether the state of the [ToggleSwitch](toggleswitch.md) is "On".
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.IsOn](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.ison).
+
 
 ## -xaml-syntax
 ```xaml

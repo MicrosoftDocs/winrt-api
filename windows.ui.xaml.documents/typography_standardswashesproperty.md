@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StandardSwashesProperty { get; }
 ## -description
 Identifies the [StandardSwashes](typography_standardswashes.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StandardSwashesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.standardswashesproperty).
+
 
 ## -property-value
 The identifier for the [StandardSwashes](typography_standardswashes.md) attached property.

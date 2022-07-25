@@ -12,7 +12,7 @@ public void CompleteViewChangeFrom(Windows.UI.Xaml.Controls.SemanticZoomLocation
 ## -description
 Completes item-wise operations that are related to a view change when the [Hub](hub.md) instance is the source view and the new view is a potentially different implementing view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.CompleteViewChangeFrom](/windows/winui/api/microsoft.ui.xaml.controls.hub.completeviewchangefrom).
+
 
 ## -parameters
 ### -param source

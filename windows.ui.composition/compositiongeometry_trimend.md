@@ -13,7 +13,7 @@ public float TrimEnd { get;  set; }
 
 Gets or sets the amount to trim the end of the geometry path.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGeometry.TrimEnd](/windows/winui/api/microsoft.ui.composition.compositiongeometry.trimend).
+
 
 ## -property-value
 

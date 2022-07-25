@@ -50,7 +50,7 @@ Point values are used extensively for graphics properties and similar UI-related
 
 Either a space or a comma can be used as the delimiter between *X* and *Y* values. The common convention for coordinate points is to use a comma delimiter.
 
-Point structures cannot be declared as resources in a [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md). A potential workaround is to use an [x:String](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references) resource and then inject it into a string that's parsed with [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md).
+Point structures cannot be declared as resources in a [ResourceDictionary](../windows.ui.xaml/resourcedictionary.md). A potential workaround is to [use an x:String resource](/windows/apps/design/style/xaml-resource-dictionary) and then inject it into a string that's parsed with [XamlReader.Load](../windows.ui.xaml.markup/xamlreader_load_1077941801.md).
 
 Some XAML usages use the Point type to represent a *logical point*. See "Logical Points" in Remarks.
 

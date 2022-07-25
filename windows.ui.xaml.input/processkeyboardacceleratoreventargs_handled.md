@@ -12,7 +12,7 @@ public bool Handled { get;  set; }
 ## -description
 Gets or sets a value that marks the event as handled. 
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs.Handled](/windows/winui/api/microsoft.ui.xaml.input.processkeyboardacceleratoreventargs.handled).
+
 
 ## -property-value
 **true** to mark the event handled. **false** to leave the event unhandled. The default is **false**.

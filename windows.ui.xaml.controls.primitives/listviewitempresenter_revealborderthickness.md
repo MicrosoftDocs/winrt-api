@@ -13,7 +13,7 @@ public Thickness RevealBorderThickness { get;  set; }
 
 Gets or sets the thickness of the border of the reveal effect.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThickness](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealborderthickness).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public IAsyncOperation<bool> ListViewBase.TryStartConnectedAnimationAsync(Connec
 ## -description
 Attempts to start the animation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.TryStartConnectedAnimationAsync](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.trystartconnectedanimationasync).
+
 
 ## -parameters
 ## -param animation

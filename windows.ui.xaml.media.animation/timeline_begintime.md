@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.Foundation.TimeSpan> BeginTime { ge
 ## -description
 Gets or sets the time at which this [Timeline](timeline.md) should begin.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.BeginTime](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.begintime).
+
 
 ## -xaml-syntax
 ```xaml

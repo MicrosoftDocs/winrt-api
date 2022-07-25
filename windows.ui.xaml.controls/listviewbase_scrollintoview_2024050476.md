@@ -12,7 +12,7 @@ public void ScrollIntoView(System.Object item, Windows.UI.Xaml.Controls.ScrollIn
 ## -description
 Scrolls the list to bring the specified data item into view with the specified alignment.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.ScrollIntoView](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.scrollintoview).
+
 
 ## -parameters
 ### -param item

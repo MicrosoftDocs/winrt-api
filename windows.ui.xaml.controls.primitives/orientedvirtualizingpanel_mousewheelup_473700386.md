@@ -12,7 +12,7 @@ public void MouseWheelUp()
 ## -description
 Scrolls content by one mouse-wheel click toward the top.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.MouseWheelUp](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.mousewheelup).
+
 
 ## -remarks
 This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md) using a default value for "mouse-wheel click" of 48 pixels (3 lines), which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 

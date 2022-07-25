@@ -12,7 +12,7 @@ public string Message { get; }
 ## -description
 Gets the message string as passed by the originating unhandled exception.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Message](/windows/winui/api/microsoft.ui.xaml.unhandledexceptioneventargs.message).
+
 
 ## -property-value
 The message string, which may be useful for debugging.

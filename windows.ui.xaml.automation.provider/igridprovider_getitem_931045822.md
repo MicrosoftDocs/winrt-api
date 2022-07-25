@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple GetItem(Sys
 ## -description
 Retrieves the UI Automation provider for the specified cell.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IGridProvider.GetItem](/windows/winui/api/microsoft.ui.xaml.automation.provider.igridprovider.getitem).
+
 
 ## -parameters
 ### -param row

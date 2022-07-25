@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.FocusVisualKind : int
 
 Specifies the visual feedback used to indicate the UI element with focus when navigating with a keyboard or gamepad.
 
-Equivalent WinUI enum: [FocusVisualKind](/windows/winui/api/microsoft.ui.xaml.focusvisualkind).
+
 
 ## -enum-fields
 

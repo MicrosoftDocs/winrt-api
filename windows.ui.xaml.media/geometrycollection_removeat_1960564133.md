@@ -12,7 +12,7 @@ public void RemoveAt(System.UInt32 index)
 ## -description
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.RemoveAt](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.removeat).
+
 
 ## -parameters
 ### -param index

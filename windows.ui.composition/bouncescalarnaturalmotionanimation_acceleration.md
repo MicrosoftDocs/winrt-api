@@ -13,7 +13,7 @@ public float Acceleration { get;  set; }
 
 Gets or sets the rate at which the velocity increases.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.BounceScalarNaturalMotionAnimation.Acceleration](/windows/winui/api/microsoft.ui.composition.bouncescalarnaturalmotionanimation.acceleration).
+
 
 ## -property-value
 

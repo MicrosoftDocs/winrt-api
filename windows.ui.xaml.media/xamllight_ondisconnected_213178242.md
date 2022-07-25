@@ -18,7 +18,7 @@ This provides an opportunity to safely dispose of resources such as the Composit
 
 [OnConnected](xamllight_onconnected_832156073.md) will be called again if the XamlLight is later used to light any UIElements or Brushes after being disconnected.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.XamlLight.OnDisconnected](/windows/winui/api/microsoft.ui.xaml.media.xamllight.ondisconnected).
+
 
 ## -parameters
 

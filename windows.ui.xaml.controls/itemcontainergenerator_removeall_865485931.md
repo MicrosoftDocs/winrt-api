@@ -12,7 +12,7 @@ public void RemoveAll()
 ## -description
 Removes all generated (realized) items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.RemoveAll](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.removeall).
+
 
 ## -remarks
 

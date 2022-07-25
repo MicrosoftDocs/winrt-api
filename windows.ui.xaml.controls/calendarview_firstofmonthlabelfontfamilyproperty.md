@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FirstOfMonthLabelFontFamilyProperty { 
 ## -description
 Identifies the [FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontFamilyProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontfamilyproperty).
+
 
 ## -property-value
 The identifier for the   [FirstOfMonthLabelFontFamily](calendarview_firstofmonthlabelfontfamily.md) dependency property.

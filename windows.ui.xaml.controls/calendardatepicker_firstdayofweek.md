@@ -12,7 +12,7 @@ public Windows.Globalization.DayOfWeek FirstDayOfWeek { get;  set; }
 ## -description
 Gets or sets a value that indicates which day is shown as the first day of the week in the picker's [CalendarView](calendarview.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.FirstDayOfWeek](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.firstdayofweek).
+
 
 ## -xaml-syntax
 ```xaml

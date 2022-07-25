@@ -12,7 +12,7 @@ public double MinWidth { get;  set; }
 ## -description
 Gets or sets the minimum width constraint of a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.MinWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.minwidth).
+
 
 ## -xaml-syntax
 ```xaml

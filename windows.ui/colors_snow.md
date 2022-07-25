@@ -13,7 +13,7 @@ public Windows.UI.Color Snow { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFFAFA.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Snow](/windows/winui/api/microsoft.ui.colors.snow).
+
 
 ## -property-value
 

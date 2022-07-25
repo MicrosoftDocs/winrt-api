@@ -14,7 +14,7 @@ public enum SceneAlphaMode : int
 
 Defines constants that specify the alpha mode for a scene.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.Scenes.SceneAlphaMode](/windows/winui/api/microsoft.ui.composition.scenes.scenealphamode).
+
 
 ## -enum-fields
 

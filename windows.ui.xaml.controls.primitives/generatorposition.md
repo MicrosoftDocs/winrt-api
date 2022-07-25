@@ -12,7 +12,7 @@ public struct GeneratorPosition
 ## -description
 GeneratorPosition is used to describe the position of an item that is managed by [ItemContainerGenerator](../windows.ui.xaml.controls/itemcontainergenerator.md).
 
-Equivalent WinUI struct: [GeneratorPosition](/windows/winui/api/microsoft.ui.xaml.controls.primitives.generatorposition).
+
 
 ## -struct-fields
 

@@ -13,7 +13,7 @@ public Vector2 Offset { get;  set; }
 
 Gets or sets the offset of the brush relative to the object being painted.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.Offset](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.offset).
+
 
 ## -property-value
 

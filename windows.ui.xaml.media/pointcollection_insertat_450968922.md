@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.Foundation.Point value)
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PointCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.pointcollection.insertat).
+
 
 ## -parameters
 ### -param index

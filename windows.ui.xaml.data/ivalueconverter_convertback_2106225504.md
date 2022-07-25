@@ -12,7 +12,7 @@ public object ConvertBack(System.Object value, Windows.UI.Xaml.Interop.TypeName 
 ## -description
 Modifies the target data before passing it to the source object. This method is called only in **TwoWay** bindings.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.IValueConverter.ConvertBack](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convertback).
+
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectionModeProperty { get; }
 ## -description
 Identifies the [SelectionMode](calendarview_selectionmode.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.SelectionModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.selectionmodeproperty).
+
 
 ## -property-value
 The identifier for the [SelectionMode](calendarview_selectionmode.md)   dependency property.

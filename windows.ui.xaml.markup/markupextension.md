@@ -13,7 +13,7 @@ public class MarkupExtension
 
 Provides a base class for XAML markup extension implementations.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Markup.MarkupExtension](/windows/winui/api/microsoft.ui.xaml.markup.markupextension).
+
 
 ## -remarks
 

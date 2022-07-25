@@ -12,7 +12,7 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text that is shown in the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.Text](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.text).
+
 
 ## -property-value
 The text that is shown in the control.

@@ -12,7 +12,7 @@ public double MinZoom { get; }
 ## -description
 Gets the minimum zoom level of the element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MinZoom](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.minzoom).
+
 
 ## -property-value
 The minimum zoom level, as a percentage.

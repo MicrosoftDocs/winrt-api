@@ -12,7 +12,7 @@ public Windows.UI.Color Value { get;  set; }
 ## -description
 Gets or sets the key frame's target value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame.Value](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframe.value).
+
 
 ## -xaml-syntax
 ```xaml

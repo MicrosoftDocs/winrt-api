@@ -13,7 +13,7 @@ public ShapeVisual Compositor.CreateShapeVisual()
 
 Creates an instance of [ShapeVisual](shapevisual.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateShapeVisual](/windows/winui/api/microsoft.ui.composition.compositor.createshapevisual).
+
 
 ## -returns
 

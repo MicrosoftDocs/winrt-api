@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CornerRadiusProperty { get; }
 ## -description
 Identifies the [CornerRadius](stackpanel_cornerradius.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.cornerradiusproperty).
+
 
 ## -property-value
 The identifier for the [CornerRadius](stackpanel_cornerradius.md) dependency property.

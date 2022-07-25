@@ -12,7 +12,7 @@ public class AutomationPeer : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.
 ## -description
 Provides a base class that exposes the automation peer for an associated owner class to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer).
+
 
 ## -remarks
 AutomationPeer is the class that provides almost all of the API that eventually forwards the Microsoft UI Automation information for a UWP app using C++, C#, or Visual Basic to a Microsoft UI Automation client. Typical Microsoft UI Automation clients aren't calling AutomationPeer methods directly. These clients are often assistive technology that are using other programming models and operating as services, and are not likely to be calling Windows Runtime methods. But the general Microsoft UI Automation support in the Windows Runtime forwards all this information using the provider side of the Microsoft UI Automation framework. Any clients to Microsoft UI Automation can interact with the representative automation trees of a UWP app using C++, C#, or Visual Basic.

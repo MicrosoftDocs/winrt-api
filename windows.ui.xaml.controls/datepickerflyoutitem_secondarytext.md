@@ -12,7 +12,7 @@ public string SecondaryText { get;  set; }
 ## -description
 Gets or sets the secondary text of the item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyoutItem.SecondaryText](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyoutitem.secondarytext).
+
 
 ## -property-value
 The secondary text of the item.

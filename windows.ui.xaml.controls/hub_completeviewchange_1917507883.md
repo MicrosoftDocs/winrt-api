@@ -12,7 +12,7 @@ public void CompleteViewChange()
 ## -description
 Changes related aspects of presentation when the overall view for a [SemanticZoom](isemanticzoominformation.md) changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Hub.CompleteViewChange](/windows/winui/api/microsoft.ui.xaml.controls.hub.completeviewchange).
+
 
 ## -remarks
 

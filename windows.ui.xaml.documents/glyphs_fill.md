@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Fill { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is used to render the glyphs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.Fill](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fill).
+
 
 ## -xaml-syntax
 ```xaml

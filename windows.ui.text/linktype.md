@@ -12,7 +12,7 @@ public enum Windows.UI.Text.LinkType : int
 ## -description
 Indicates the link type of a range of text.
 
-Equivalent WinUI enum: [LinkType](/windows/winui/api/microsoft.ui.text.linktype).
+
 
 ## -enum-fields
 ### -field Undefined:0

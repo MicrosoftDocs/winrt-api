@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FocusSecondaryBorderBrushProperty { ge
 ## -description
 Identifies the [FocusSecondaryBorderBrush](listviewitempresenter_focussecondaryborderbrush.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.focussecondaryborderbrushproperty).
+
 
 ## -property-value
 The identifier for the [FocusSecondaryBorderBrush](listviewitempresenter_focussecondaryborderbrush.md) dependency property.

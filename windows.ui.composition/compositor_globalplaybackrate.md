@@ -13,7 +13,7 @@ public float GlobalPlaybackRate { get;  set; }
 
 Gets or sets the rate at which animation plays for all KeyFrame animations created by this compositor.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Compositor.GlobalPlaybackRate](/windows/winui/api/microsoft.ui.composition.compositor.globalplaybackrate).
+
 
 ## -property-value
 

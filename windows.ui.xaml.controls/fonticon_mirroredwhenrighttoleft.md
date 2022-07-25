@@ -12,7 +12,7 @@ public bool MirroredWhenRightToLeft { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the icon is mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is **RightToLeft**.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.MirroredWhenRightToLeft](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.mirroredwhenrighttoleft).
+
 
 ## -property-value
 **true** if the icon is mirrored when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [FlowDirection.RightToLeft](../windows.ui.xaml/flowdirection.md); otherwise, **false**. The default is **false**.

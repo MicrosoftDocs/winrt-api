@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.RoutedEventHandler TextChanged
 ## -description
 Occurs when content changes in the [RichEditBox](richeditbox.md).
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.RichEditBox.TextChanged](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.textchanged).
+
 
 ## -xaml-syntax
 ```xaml

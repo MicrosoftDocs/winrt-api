@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.FillRule : int
 ## -description
 Specifies how the intersecting areas of [PathFigure](pathfigure.md) objects contained in a [Geometry](geometry.md) are combined to form the area of the [Geometry](geometry.md).
 
-Equivalent WinUI enum: [FillRule](/windows/winui/api/microsoft.ui.xaml.media.fillrule).
+
 
 ## -xaml-syntax
 ```xaml

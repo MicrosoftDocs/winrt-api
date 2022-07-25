@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextReadingOrder TextReadingOrder { get;  set; }
 ## -description
 Gets or sets a value that indicates how the reading order is determined for the [RichTextBlock](richtextblock.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.TextReadingOrder](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.textreadingorder).
+
 
 ## -xaml-syntax
 ```xaml

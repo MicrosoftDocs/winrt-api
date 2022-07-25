@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple GetItemByNa
 ## -description
 Returns a Microsoft UI Automation element that represents the spreadsheet cell that has the specified name.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISpreadsheetProvider.GetItemByName](/windows/winui/api/microsoft.ui.xaml.automation.provider.ispreadsheetprovider.getitembyname).
+
 
 ## -parameters
 ### -param name

@@ -12,7 +12,7 @@ public void ReplaceAll(System.Object[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection.replaceall).
+
 
 ## -parameters
 ### -param items

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CalendarViewStyleProperty { get; }
 ## -description
 Identifies the [CalendarViewStyle](calendardatepicker_calendarviewstyle.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.CalendarViewStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.calendarviewstyleproperty).
+
 
 ## -property-value
 The identifier for the [CalendarViewStyle](calendardatepicker_calendarviewstyle.md) dependency property.

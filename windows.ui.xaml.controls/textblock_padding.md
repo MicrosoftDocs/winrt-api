@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Thickness Padding { get;  set; }
 ## -description
 Gets or sets a value that indicates the thickness of padding space between the boundaries of the content area and the content displayed by a [TextBlock](textblock.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.Padding](/windows/winui/api/microsoft.ui.xaml.controls.textblock.padding).
+
 
 ## -xaml-syntax
 ```xaml

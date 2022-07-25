@@ -12,7 +12,7 @@ public DependencyProperty ShowAsMonochromeProperty { get; }
 ## -description
 Identifies the [ShowAsMonochrome](bitmapicon_showasmonochrome.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.BitmapIcon.ShowAsMonochromeProperty](/windows/winui/api/microsoft.ui.xaml.controls.bitmapicon.showasmonochromeproperty).
+
 
 ## -property-value
 The identifier for the **ShowAsMonochrome** dependency property.

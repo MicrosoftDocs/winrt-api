@@ -12,7 +12,7 @@ public class ComboBoxItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.S
 ## -description
 Exposes the data content of a [ComboBoxItem](../windows.ui.xaml.controls/comboboxitem.md) to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxitemdataautomationpeer).
+
 
 ## -remarks
  ComboBoxItemDataAutomationPeer is generated from [ComboBoxAutomationPeer](comboboxautomationpeer.md) logic, not an associated control class.

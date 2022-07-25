@@ -12,7 +12,7 @@ public enum Windows.UI.Text.FindOptions : uint
 ## -description
 Specifies the options to use when doing a text search.
 
-Equivalent WinUI enum: [FindOptions](/windows/winui/api/microsoft.ui.text.findoptions).
+
 
 ## -enum-fields
 ### -field None:0

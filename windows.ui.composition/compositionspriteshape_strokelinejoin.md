@@ -13,7 +13,7 @@ public CompositionStrokeLineJoin StrokeLineJoin { get;  set; }
 
 Gets or sets a [CompositionStrokeLineJoin](compositionstrokelinejoin.md) enumeration value that specifies the type of join used at the vertices of a shape.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.StrokeLineJoin](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.strokelinejoin).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public class BindingOperations : Windows.UI.Xaml.Data.IBindingOperations
 ## -description
 Provides the static [SetBinding](bindingoperations_setbinding_746099660.md) method.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Data.BindingOperations](/windows/winui/api/microsoft.ui.xaml.data.bindingoperations).
+
 
 ## -remarks
 

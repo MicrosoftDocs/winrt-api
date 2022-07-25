@@ -14,7 +14,7 @@ public class SceneMaterialInput : SceneObject, SceneObject
 
 Represents an input that influences a material.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Scenes.SceneMaterialInput](/windows/winui/api/microsoft.ui.composition.scenes.scenematerialinput).
+
 
 ## -remarks
 

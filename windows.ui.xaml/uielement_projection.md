@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Projection Projection { get;  set; }
 ## -description
 Gets or sets the perspective projection (3-D effect) to apply when rendering this element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Projection](/windows/winui/api/microsoft.ui.xaml.uielement.projection).
+
 
 ## -xaml-syntax
 ```xaml

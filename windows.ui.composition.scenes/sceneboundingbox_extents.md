@@ -14,7 +14,7 @@ public Vector3 Extents { get; }
 
 Gets the extents of the bounding box.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneBoundingBox.Extents](/windows/winui/api/microsoft.ui.composition.scenes.sceneboundingbox.extents).
+
 
 ## -property-value
 

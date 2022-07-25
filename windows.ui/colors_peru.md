@@ -13,7 +13,7 @@ public Windows.UI.Color Peru { get; }
 
 Gets the system-defined color that has an ARGB value of #FFCD853F.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Peru](/windows/winui/api/microsoft.ui.colors.peru).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public bool IsReadOnly { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the user can change the text in the [RichEditBox](richeditbox.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.isreadonly).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public Windows.UI.Color Aquamarine { get; }
 
 Gets the system-defined color that has an ARGB value of #FF7FFFD4.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Aquamarine](/windows/winui/api/microsoft.ui.colors.aquamarine).
+
 
 ## -property-value
 

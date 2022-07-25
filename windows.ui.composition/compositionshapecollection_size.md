@@ -13,7 +13,7 @@ public uint Size { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionShapeCollection.Size](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.size).
+
 
 ## -property-value
 

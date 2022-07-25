@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.HubSection GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.HubSectionCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.controls.hubsectioncollection.getat).
+
 
 ## -parameters
 ### -param index

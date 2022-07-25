@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncAction RenderAsync(Windows.UI.Xaml.UIElement ele
 ## -description
 Renders a snapshot of a [UIElement](../windows.ui.xaml/uielement.md) visual tree to an image source. Specify values for *scaledWidth* and *scaledHeight* to alter the original source's rendering dimension.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.RenderTargetBitmap.RenderAsync](/windows/winui/api/microsoft.ui.xaml.media.imaging.rendertargetbitmap.renderasync).
+
 
 ## -parameters
 ### -param element

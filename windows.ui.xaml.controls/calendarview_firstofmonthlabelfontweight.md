@@ -12,7 +12,7 @@ public Windows.UI.Text.FontWeight FirstOfMonthLabelFontWeight { get;  set; }
 ## -description
 Gets or sets the font weight used to display the first-of-month banner in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FirstOfMonthLabelFontWeight](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.firstofmonthlabelfontweight).
+
 
 ## -xaml-syntax
 ```xaml

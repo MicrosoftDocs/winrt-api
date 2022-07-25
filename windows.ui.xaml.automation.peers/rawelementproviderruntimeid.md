@@ -12,7 +12,6 @@ public struct RawElementProviderRuntimeId
 ## -description
 Represents the runtime ID for an element.
 
-Equivalent WinUI struct: [RawElementProviderRuntimeId](/windows/winui/api/microsoft.ui.xaml.automation.peers.rawelementproviderruntimeid).
 
 ## -struct-fields
 

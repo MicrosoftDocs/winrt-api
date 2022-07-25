@@ -12,7 +12,7 @@ public class PointerDownThemeAnimation : Windows.UI.Xaml.Media.Animation.Timelin
 ## -description
 Represents a preconfigured animation that runs when a pointer down is detected on an item or element.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointerDownThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerdownthemeanimation).
+
 
 ## -xaml-syntax
 ```xaml

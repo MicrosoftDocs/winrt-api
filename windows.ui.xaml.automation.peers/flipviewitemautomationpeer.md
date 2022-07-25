@@ -12,7 +12,7 @@ public class FlipViewItemAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 ## -description
 Exposes a [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md) to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.FlipViewItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewitemautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md) class creates a new FlipViewItemAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from FlipViewItemAutomationPeer if you are deriving a custom class from [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

@@ -12,7 +12,7 @@ public Windows.Foundation.Rect TransformBounds(Windows.Foundation.Rect rect)
 ## -description
 Transforms the specified bounding box and returns an axis-aligned bounding box that is exactly large enough to contain it.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeneralTransform.TransformBounds](/windows/winui/api/microsoft.ui.xaml.media.generaltransform.transformbounds).
+
 
 ## -parameters
 ### -param rect

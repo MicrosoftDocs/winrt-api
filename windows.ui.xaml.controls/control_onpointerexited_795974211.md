@@ -12,7 +12,7 @@ virtual protected void OnPointerExited(Windows.UI.Xaml.Input.PointerRoutedEventA
 ## -description
 Called before the [PointerExited](../windows.ui.xaml/uielement_pointerexited.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerExited](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointerexited).
+
 
 ## -parameters
 ### -param e

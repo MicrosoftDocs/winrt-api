@@ -13,7 +13,7 @@ public Brush RevealBackground { get;  set; }
 
 Gets or sets the brush used to render the background of the reveal effect.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealbackground).
+
 
 ## -property-value
 

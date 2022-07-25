@@ -12,7 +12,6 @@ public Windows.Media.Casting.CastingSource GetAsCastingSource()
 ## -description
 Returns the image as a [CastingSource](../windows.media.casting/castingsource.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Image.GetAsCastingSource](/windows/winui/api/microsoft.ui.xaml.controls.image.getascastingsource).
 
 ## -returns
 The image as a [CastingSource](../windows.media.casting/castingsource.md).

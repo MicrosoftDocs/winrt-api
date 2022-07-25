@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ProjectionMatrixProperty { get; }
 ## -description
 Identifies the [ProjectionMatrix](planeprojection_projectionmatrix.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.ProjectionMatrixProperty](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.projectionmatrixproperty).
+
 
 ## -property-value
 The identifier for the [ProjectionMatrix](planeprojection_projectionmatrix.md) dependency property.

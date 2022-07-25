@@ -12,7 +12,7 @@ public void SetPropertyFromTimeSpan(System.Object dependencyObject, Windows.UI.X
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [TimeSpan](../windows.foundation/timespan.md) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromTimeSpan](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromtimespan).
+
 
 ## -parameters
 ### -param dependencyObject

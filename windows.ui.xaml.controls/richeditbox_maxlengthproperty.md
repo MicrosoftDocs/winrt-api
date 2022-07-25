@@ -12,7 +12,7 @@ public DependencyProperty MaxLengthProperty { get; }
 ## -description
 Identifies the **MaxLength** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.MaxLengthProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.maxlengthproperty).
+
 
 ## -property-value
 The identifier for the **MaxLength** dependency property.

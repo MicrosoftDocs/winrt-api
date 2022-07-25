@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionGetValueStatus TryGetScalar(System.Stri
 ## -description
 Retrieves the specified [Single](/dotnet/api/system.single?view=dotnet-uwp-10.0&preserve-view=true) property value.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.TryGetScalar](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.trygetscalar).
+
 
 ## -parameters
 ### -param propertyName

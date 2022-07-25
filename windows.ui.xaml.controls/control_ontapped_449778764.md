@@ -12,7 +12,7 @@ virtual protected void OnTapped(Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
 ## -description
 Called before the [Tapped](../windows.ui.xaml/uielement_tapped.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnTapped](/windows/winui/api/microsoft.ui.xaml.controls.control.ontapped).
+
 
 ## -parameters
 ### -param e

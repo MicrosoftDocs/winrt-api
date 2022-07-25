@@ -13,7 +13,7 @@ public DependencyObject FocusManager.FindFirstFocusableElement(DependencyObject 
 
 Retrieves the first element that can receive focus based on the specified scope.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.FindFirstFocusableElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.findfirstfocusableelement).
+
 
 ## -parameters
 

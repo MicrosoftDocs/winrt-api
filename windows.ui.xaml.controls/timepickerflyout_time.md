@@ -12,7 +12,7 @@ public Windows.Foundation.TimeSpan Time { get;  set; }
 ## -description
 Gets or sets the time currently set in the time picker.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerFlyout.Time](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyout.time).
+
 
 ## -property-value
 The time currently set in the time picker.

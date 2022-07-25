@@ -12,7 +12,7 @@ virtual protected void OnPointerReleased(Windows.UI.Xaml.Input.PointerRoutedEven
 ## -description
 Called before the [PointerReleased](../windows.ui.xaml/uielement_pointerreleased.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerReleased](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointerreleased).
+
 
 ## -parameters
 ### -param e

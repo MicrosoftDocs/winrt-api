@@ -12,7 +12,7 @@ public bool ShowsScrollingPlaceholders { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the view shows placeholder UI for items during scrolling.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholders](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.showsscrollingplaceholders).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.IncrementalLoadingTrigger IncrementalLoadingTrig
 ## -description
 Gets or sets a value that indicates the conditions for prefetch operations by the [ListViewBase](listviewbase.md) class.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTrigger](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.incrementalloadingtrigger).
+
 
 ## -xaml-syntax
 ```xaml

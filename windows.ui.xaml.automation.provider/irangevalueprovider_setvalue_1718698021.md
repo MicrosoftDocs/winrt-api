@@ -12,7 +12,7 @@ public void SetValue(System.Double value)
 ## -description
 Sets the value of the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.SetValue](/windows/winui/api/microsoft.ui.xaml.automation.provider.irangevalueprovider.setvalue).
+
 
 ## -parameters
 ### -param value

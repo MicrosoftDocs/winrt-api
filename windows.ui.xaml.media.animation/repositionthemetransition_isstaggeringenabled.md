@@ -12,7 +12,7 @@ public bool IsStaggeringEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the transition staggers rendering of multiple items, or renders all items at once.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition.IsStaggeringEnabled](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition.isstaggeringenabled).
+
 
 ## -xaml-syntax
 ```xaml

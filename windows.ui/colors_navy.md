@@ -13,7 +13,7 @@ public Windows.UI.Color Navy { get; }
 
 Gets the system-defined color that has an ARGB value of #FF000080.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Navy](/windows/winui/api/microsoft.ui.colors.navy).
+
 
 ## -property-value
 

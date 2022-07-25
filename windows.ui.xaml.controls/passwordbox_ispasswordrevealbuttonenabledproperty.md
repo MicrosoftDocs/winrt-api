@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsPasswordRevealButtonEnabledProperty 
 ## -description
 Identifies the [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.IsPasswordRevealButtonEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.ispasswordrevealbuttonenabledproperty).
+
 
 ## -property-value
 The identifier for the [IsPasswordRevealButtonEnabled](passwordbox_ispasswordrevealbuttonenabled.md) dependency property.

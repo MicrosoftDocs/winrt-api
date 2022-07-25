@@ -29,9 +29,9 @@ The account and credential command classes in the [Windows.UI.ApplicationSetting
 For a desktop app, instead of using the **AccountSettingsPane class**, you'll need to use the interop API as described below.
 
 - First [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd). That topic contains code examples for Windows UI Library (WinUI) 3, Windows Presentation Foundation (WPF), and Windows Forms (WinForms). Plug that code into the code listing below.
-- You should use the [IAccountSettingsPaneInterop](/windows/win32/api/accountssettingspaneinterop) interface in your desktop app. For C# apps using .NET 5 or later, the **AccountSettingsPaneInterop** class is available. For more info about the C# interop classes, see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp). Also see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
+- You should use the [IAccountSettingsPaneInterop](/windows/win32/api/accountssettingspaneinterop) interface in your desktop app. For C# apps using .NET 6 or later, the **AccountSettingsPaneInterop** class is available. For more info about the C# interop classes, see [Call interop APIs from a .NET 5+ app](/windows/apps/desktop/modernize/winrt-com-interop-csharp). Also see [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects).
 
-The following is an example on how to use the AccountSettingsPaneInterop class in C# (.NET 5 or later):
+The following is an example on how to use the AccountSettingsPaneInterop class in C# (.NET 6 or later):
 
 ```csharp
 private void LoginButton_Click(object sender, RoutedEventArgs e)

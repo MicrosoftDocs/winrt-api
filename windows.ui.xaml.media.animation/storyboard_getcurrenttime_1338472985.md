@@ -12,7 +12,7 @@ public Windows.Foundation.TimeSpan GetCurrentTime()
 ## -description
 Gets the current animation clock time of the [Storyboard](storyboard.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.GetCurrentTime](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.getcurrenttime).
+
 
 ## -returns
 The current animation time of the [Storyboard](storyboard.md) per the running animation clock, or **null** if the animation clock is **Stopped**.

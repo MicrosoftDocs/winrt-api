@@ -14,7 +14,7 @@ public void FrameworkElement.DeferTree(DependencyObject element)
 
 Removes the specified element from the XAML visual tree in a way that it can be undeferred later.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.DeferTree](/windows/winui/api/microsoft.ui.xaml.frameworkelement.defertree).
+
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.TextAlignment : int
 ## -description
 Specifies whether text is centered, left-aligned, or right-aligned.
 
-Equivalent WinUI enum: [TextAlignment](/windows/winui/api/microsoft.ui.xaml.textalignment).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public class DoubleTappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Wind
 ## -description
 Provides event data for the [DoubleTapped](../windows.ui.xaml/uielement_doubletapped.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.DoubleTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.doubletappedroutedeventargs).
+
 
 ## -remarks
 

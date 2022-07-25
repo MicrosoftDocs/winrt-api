@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ColumnDefinitionCollection ColumnDefinitions { g
 ## -description
 Gets a list of [ColumnDefinition](columndefinition.md) objects defined on this instance of [Grid](grid.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.ColumnDefinitions](/windows/winui/api/microsoft.ui.xaml.controls.grid.columndefinitions).
+
 
 ## -xaml-syntax
 ```xaml

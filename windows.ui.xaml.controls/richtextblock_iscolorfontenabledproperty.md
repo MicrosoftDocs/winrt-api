@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsColorFontEnabledProperty { get; }
 ## -description
 Identifies the [IsColorFontEnabled](richtextblock_iscolorfontenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.IsColorFontEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.iscolorfontenabledproperty).
+
 
 ## -property-value
 The identifier for the [IsColorFontEnabled](richtextblock_iscolorfontenabled.md) dependency property.

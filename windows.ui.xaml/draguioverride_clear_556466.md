@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Clears the content, caption, and glyph of the drag visual.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DragUIOverride.Clear](/windows/winui/api/microsoft.ui.xaml.draguioverride.clear).
+
 
 ## -remarks
 

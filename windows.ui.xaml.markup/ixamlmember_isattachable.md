@@ -12,7 +12,7 @@ public bool IsAttachable { get; }
 ## -description
 Gets a value that indicates whether the XAML member is an attachable member.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlMember.IsAttachable](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.isattachable).
+
 
 ## -property-value
 **true** if the XAML member is an attachable member; otherwise, **false**.

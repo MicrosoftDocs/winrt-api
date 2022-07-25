@@ -12,7 +12,7 @@ public class IconElement : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Con
 ## -description
 Represents the base class for an icon UI element.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.IconElement](/windows/winui/api/microsoft.ui.xaml.controls.iconelement).
+
 
 ## -remarks
 ### IconElement derived classes

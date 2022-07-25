@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.GradientStop val
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.insertat).
+
 
 ## -parameters
 ### -param index

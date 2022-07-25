@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.SetAt(UInt32 index, Single value)
 
 Sets the value at the specified index to the value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.SetAt](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.setat).
+
 
 ## -parameters
 ### -param index

@@ -14,7 +14,7 @@ public Vector2 ActualSize { get; }
 
 Gets the size that this UIElement computed during the arrange pass of the layout process.  
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ActualSize](/windows/winui/api/microsoft.ui.xaml.uielement.actualsize).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionBrush GetAlphaMask()
 ## -description
 Returns a mask that represents the alpha channel of the text as a [CompositionBrush](../windows.ui.composition/compositionbrush.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBlock.GetAlphaMask](/windows/winui/api/microsoft.ui.xaml.controls.textblock.getalphamask).
+
 
 ## -returns
 A mask that represents the alpha channel of the text in a [TextBlock](textblock.md).

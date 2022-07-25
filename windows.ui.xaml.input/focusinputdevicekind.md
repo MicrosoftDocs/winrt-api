@@ -12,7 +12,7 @@ public enum FocusInputDeviceKind : int
 ## -description
 Specifies the input device types from which input events are received.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.FocusInputDeviceKind](/windows/winui/api/microsoft.ui.xaml.input.focusinputdevicekind).
+
 
 ## -enum-fields
 ### -field Touch:2

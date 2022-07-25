@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ContentTemplateProperty { get; }
 ## -description
 Identifies the [ContentTemplate](contentpresenter_contenttemplate.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.ContentTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.contenttemplateproperty).
+
 
 ## -property-value
 The identifier for the [ContentTemplate](contentpresenter_contenttemplate.md) dependency property.

@@ -12,7 +12,7 @@ public void Resume()
 ## -description
 Resumes aggregating objects in the [CompositionScopedBatch](compositionscopedbatch.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionScopedBatch.Resume](/windows/winui/api/microsoft.ui.composition.compositionscopedbatch.resume).
+
 
 ## -remarks
 

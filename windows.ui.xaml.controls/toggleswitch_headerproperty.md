@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](toggleswitch_header.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.headerproperty).
+
 
 ## -property-value
 The identifier for the [Header](toggleswitch_header.md) dependency property.

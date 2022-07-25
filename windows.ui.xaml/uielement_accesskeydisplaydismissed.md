@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler AccessKeyDisplayDismissed<Wind
 
 Occurs when access keys should no longer be displayed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.AccessKeyDisplayDismissed](/windows/winui/api/microsoft.ui.xaml.uielement.accesskeydisplaydismissed).
+
 
 ## -xaml-syntax
 

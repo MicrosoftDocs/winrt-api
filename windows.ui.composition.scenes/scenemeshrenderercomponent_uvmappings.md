@@ -14,7 +14,7 @@ public SceneMeshMaterialAttributeMap UVMappings { get; }
 
 Gets the UV mappings for the material to the mesh.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent.UVMappings](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent.uvmappings).
+
 
 ## -property-value
 

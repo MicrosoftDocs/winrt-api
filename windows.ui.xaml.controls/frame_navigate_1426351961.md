@@ -12,7 +12,7 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType, System.Obj
 ## -description
 Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md)-derived data type, also passing a parameter to be interpreted by the target of the navigation, and a value indicating the animated transition to use.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Frame.Navigate](/windows/winui/api/microsoft.ui.xaml.controls.frame.navigate).
+
 
 ## -parameters
 ### -param sourcePageType

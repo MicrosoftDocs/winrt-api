@@ -13,7 +13,7 @@ public Windows.UI.Color Yellow { get; }
 
 Gets the system-defined color that has the ARGB value of #FFFFFF00.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Yellow](/windows/winui/api/microsoft.ui.colors.yellow).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public class ColorKeyFrameCollection : Windows.Foundation.Collections.IIterable<
 ## -description
 Represents a collection of [ColorKeyFrame](colorkeyframe.md) objects that can be individually accessed by index. ColorKeyFrameCollection is the value of the [ColorAnimationUsingKeyFrames.KeyFrames](coloranimationusingkeyframes_keyframes.md) property.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection).
+
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->

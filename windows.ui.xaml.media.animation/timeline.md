@@ -12,7 +12,7 @@ public class Timeline : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Media.
 ## -description
 Defines a duration and other behavior properties for a Windows Runtime animation. Timeline is the base class for [Storyboard](storyboard.md) and all the Windows Runtime animation types, including those from the animation library and those used for custom animations in visual states or page-level XAML.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.Timeline](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline).
+
 
 ## -remarks
 Timeline defines the [Duration](timeline_duration.md) property that controls how long an animation runs once started. Timeline also defines these behavior properties, which are common to all animations types, and to [Storyboard](storyboard.md):

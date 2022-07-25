@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PeerProperty { get; }
 ## -description
 Identifies the [AutomationPeerAnnotation.Peer](automationpeerannotation_peer.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.PeerProperty](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeerannotation.peerproperty).
+
 
 ## -property-value
 The [AutomationPeerAnnotation.Peer](automationpeerannotation_peer.md) property.

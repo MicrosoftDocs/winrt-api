@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty Y2Property { get; }
 ## -description
 Identifies the [Y2](line_y2.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Line.Y2Property](/windows/winui/api/microsoft.ui.xaml.shapes.line.y2property).
+
 
 ## -property-value
 The identifier for the [Y2](line_y2.md) dependency property.

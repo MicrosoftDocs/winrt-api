@@ -12,7 +12,7 @@ public double MonthYearItemFontSize { get;  set; }
 ## -description
 Gets or sets the font size used to display the month and year items in the calendar.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontSize](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontsize).
+
 
 ## -xaml-syntax
 ```xaml

@@ -8,7 +8,7 @@
 ## -description
 Defines the support types for Microsoft UI Automation infrastructure. These support types are for implementing Microsoft UI Automation support for a custom control. Also, [AutomationProperties](automationproperties.md) provides accessibility info as part of a XAML UI definition.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Automation](/windows/winui/api/microsoft.ui.xaml.automation).
+
 
 ## -remarks
 

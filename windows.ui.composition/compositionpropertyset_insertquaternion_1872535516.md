@@ -12,7 +12,7 @@ public void InsertQuaternion(System.String propertyName, Windows.Foundation.Nume
 ## -description
 Inserts a quaternion key-value pair.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertQuaternion](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertquaternion).
+
 
 ## -parameters
 ### -param propertyName

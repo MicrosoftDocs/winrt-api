@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Input.ICommand Command { get;  set; }
 ## -description
 Gets or sets the command to invoke when the item is pressed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.Command](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.command).
+
 
 ## -xaml-syntax
 ```xaml

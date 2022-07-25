@@ -12,7 +12,7 @@ public void SetAlignRightWith(Windows.UI.Xaml.UIElement element, System.Object v
 ## -description
 Sets the value of the [RelativePanel.AlignRightWith](relativepanel_alignrightwith.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignRightWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignrightwith).
+
 
 ## -parameters
 ### -param element

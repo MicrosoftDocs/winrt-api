@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromVerticalOffsetProperty { get; }
 ## -description
 Identifies the [FromVerticalOffset](repositionthemeanimation_fromverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.FromVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.fromverticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [FromVerticalOffset](repositionthemeanimation_fromverticaloffset.md) dependency property.

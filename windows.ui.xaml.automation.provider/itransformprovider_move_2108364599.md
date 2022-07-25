@@ -12,7 +12,7 @@ public void Move(System.Double x, System.Double y)
 ## -description
 Moves the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider.Move](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider.move).
+
 
 ## -parameters
 ### -param x

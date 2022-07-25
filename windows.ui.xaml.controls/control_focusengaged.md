@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler FocusEngaged<Windows.UI.Xaml.C
 ## -description
 Occurs when focus is constrained within the control boundaries (for game pad/remote interaction).
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Control.FocusEngaged](/windows/winui/api/microsoft.ui.xaml.controls.control.focusengaged).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public string ConverterLanguage { get;  set; }
 ## -description
 Gets or sets a value that names the language to pass to any converter specified by the [Converter](binding_converter.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.ConverterLanguage](/windows/winui/api/microsoft.ui.xaml.data.binding.converterlanguage).
+
 
 ## -xaml-syntax
 ```xaml

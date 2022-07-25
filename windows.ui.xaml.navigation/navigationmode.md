@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Navigation.NavigationMode : int
 ## -description
 Specifies the navigation stack characteristics of a navigation.
 
-Equivalent WinUI enum: [NavigationMode](/windows/winui/api/microsoft.ui.xaml.navigation.navigationmode).
+
 
 ## -enum-fields
 ### -field New:0

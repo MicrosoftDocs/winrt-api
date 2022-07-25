@@ -13,7 +13,7 @@ public class BitmapImage : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windows.U
 
 Provides the practical object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](../windows.ui.xaml.media/imagebrush_imagesource.md) properties. You can define a BitmapImage by using a Uniform Resource Identifier (URI) that references an image source file, or by calling [SetSourceAsync](bitmapsource_setsourceasync_1118221574.md) and supplying a stream.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.BitmapImage](/windows/winui/api/microsoft.ui.xaml.media.imaging.bitmapimage).
+
 
 ## -xaml-syntax
 

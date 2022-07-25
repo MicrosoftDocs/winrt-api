@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.PointKeyFrame GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.getat).
+
 
 ## -parameters
 ### -param index

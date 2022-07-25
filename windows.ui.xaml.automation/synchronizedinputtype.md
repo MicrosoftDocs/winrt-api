@@ -14,7 +14,7 @@ public enum Windows.UI.Xaml.Automation.SynchronizedInputType : int
 Provides a of set constants that identify, as used by the [ISynchronizedInputProvider](/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider)  Microsoft UI Automation interface.
 
 
-Equivalent WinUI enum: [SynchronizedInputType](/windows/winui/api/microsoft.ui.xaml.automation.synchronizedinputtype).
+
 
 ## -enum-fields
 ### -field KeyUp:1

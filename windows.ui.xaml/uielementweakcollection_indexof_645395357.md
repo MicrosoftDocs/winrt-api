@@ -14,7 +14,7 @@ public bool UIElementWeakCollection.IndexOf(UIElement value, UInt32 index)
 
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.indexof).
+
 
 ## -parameters
 ### -param value

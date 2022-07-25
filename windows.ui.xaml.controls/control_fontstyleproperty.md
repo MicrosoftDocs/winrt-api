@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FontStyleProperty { get; }
 ## -description
 Identifies the [FontStyle](control_fontstyle.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.FontStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.fontstyleproperty).
+
 
 ## -property-value
 The identifier for the [FontStyle](control_fontstyle.md) dependency property.

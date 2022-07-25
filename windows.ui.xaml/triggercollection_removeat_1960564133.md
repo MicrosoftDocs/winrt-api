@@ -12,7 +12,7 @@ public void RemoveAt(System.UInt32 index)
 ## -description
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.RemoveAt](/windows/winui/api/microsoft.ui.xaml.triggercollection.removeat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.IconElement Icon { get;  set; }
 ## -description
 Gets or sets the graphic content of the app bar toggle button.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarToggleButton.Icon](/windows/winui/api/microsoft.ui.xaml.controls.appbartogglebutton.icon).
+
 
 ## -xaml-syntax
 ```xaml

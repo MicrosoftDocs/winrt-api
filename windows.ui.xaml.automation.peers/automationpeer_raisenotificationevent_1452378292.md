@@ -12,7 +12,7 @@ public void AutomationPeer.RaiseNotificationEvent(AutomationNotificationKind not
 ## -description
 Initiates a notification event.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.RaiseNotificationEvent](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.raisenotificationevent).
+
 
 ## -parameters
 ### -param notificationKind

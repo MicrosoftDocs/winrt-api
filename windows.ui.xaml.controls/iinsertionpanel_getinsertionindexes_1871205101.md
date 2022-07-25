@@ -12,7 +12,6 @@ public void GetInsertionIndexes(Windows.Foundation.Point position, System.Int32 
 ## -description
 Returns the index values of the items that the specified point is between.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.IInsertionPanel.GetInsertionIndexes](/windows/winui/api/microsoft.ui.xaml.controls.iinsertionpanel.getinsertionindexes).
 
 ## -parameters
 ### -param position

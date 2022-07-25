@@ -12,7 +12,7 @@ public class AutomationPeerAnnotation : Windows.UI.Xaml.DependencyObject, Window
 ## -description
 Represents a single UI automation annotation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeerannotation).
+
 
 ## -remarks
 

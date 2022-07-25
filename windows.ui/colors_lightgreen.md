@@ -13,7 +13,7 @@ public Windows.UI.Color LightGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF90EE90.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.LightGreen](/windows/winui/api/microsoft.ui.colors.lightgreen).
+
 
 ## -property-value
 

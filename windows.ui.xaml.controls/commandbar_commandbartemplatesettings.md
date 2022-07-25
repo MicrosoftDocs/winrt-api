@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings CommandBar
 ## -description
 Gets an object that provides calculated values that can be referenced as [{TemplateBinding} markup extension](/windows/uwp/xaml-platform/templatebinding-markup-extension) sources when defining templates for a [CommandBar](commandbar.md) control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.CommandBarTemplateSettings](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.commandbartemplatesettings).
+
 
 ## -property-value
 An object that provides calculated values for templates.

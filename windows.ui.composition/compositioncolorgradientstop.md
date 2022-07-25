@@ -13,7 +13,7 @@ public class CompositionColorGradientStop : CompositionObject, CompositionObject
 
 Describes the location and color of a transition point in a gradient.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionColorGradientStop](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstop).
+
 
 ## -remarks
 

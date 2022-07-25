@@ -13,7 +13,7 @@ public Brush PlaceholderForeground { get;  set; }
 
 Gets or sets a brush that describes the color of placeholder text.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.PlaceholderForeground](/windows/winui/api/microsoft.ui.xaml.controls.textbox.placeholderforeground).
+
 
 ## -xaml-syntax
 

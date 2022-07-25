@@ -13,7 +13,7 @@ public FocusNavigationDirection Direction { get; }
 
 Gets the direction that focus moved from element to element within the app UI.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.Direction](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.direction).
+
 
 ## -property-value
 

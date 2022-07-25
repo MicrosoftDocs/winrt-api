@@ -13,7 +13,7 @@ public class DragEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xaml.ID
 
 Provides data for drag-and-drop events.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DragEventArgs](/windows/winui/api/microsoft.ui.xaml.drageventargs).
+
 
 ## -remarks
 

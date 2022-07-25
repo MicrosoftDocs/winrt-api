@@ -13,7 +13,7 @@ public CompositionGeometry Geometry { get;  set; }
 
 Gets or sets the geometry that defines this shape.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionSpriteShape.Geometry](/windows/winui/api/microsoft.ui.composition.compositionspriteshape.geometry).
+
 
 ## -property-value
 

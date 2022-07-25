@@ -12,7 +12,7 @@ public void SetPoint(Windows.Foundation.Point point, Windows.UI.Text.PointOption
 ## -description
 Changes the text range based on the specified point.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.SetPoint](/windows/winui/api/microsoft.ui.text.itextrange.setpoint).
+
 
 ## -parameters
 ### -param point

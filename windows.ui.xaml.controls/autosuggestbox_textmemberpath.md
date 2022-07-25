@@ -12,7 +12,7 @@ public string TextMemberPath { get;  set; }
 ## -description
 Gets or sets the property path that is used to get the value for display in the text box portion of the [AutoSuggestBox](autosuggestbox.md) control, when an item is selected.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.TextMemberPath](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.textmemberpath).
+
 
 ## -xaml-syntax
 ```xaml

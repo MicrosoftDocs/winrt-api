@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromHorizontalOffsetProperty { get; }
 ## -description
 Identifies the [FromHorizontalOffset](popinthemeanimation_fromhorizontaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PopInThemeAnimation.FromHorizontalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.popinthemeanimation.fromhorizontaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [FromHorizontalOffset](popinthemeanimation_fromhorizontaloffset.md) dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.PropertyPath Path { get;  set; }
 ## -description
 Gets or sets the path to the binding source property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Path](/windows/winui/api/microsoft.ui.xaml.data.binding.path).
+
 
 ## -xaml-syntax
 ```xaml

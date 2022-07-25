@@ -12,7 +12,7 @@ public class BrushCollection : Windows.Foundation.Collections.IIterable<Windows.
 ## -description
 Represents an ordered collection of [Brush](brush.md) values.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.BrushCollection](/windows/winui/api/microsoft.ui.xaml.media.brushcollection).
+
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->

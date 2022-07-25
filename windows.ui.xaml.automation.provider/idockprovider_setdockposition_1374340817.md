@@ -12,7 +12,7 @@ public void SetDockPosition(Windows.UI.Xaml.Automation.DockPosition dockPosition
 ## -description
 Docks the control in a docking container.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IDockProvider.SetDockPosition](/windows/winui/api/microsoft.ui.xaml.automation.provider.idockprovider.setdockposition).
+
 
 ## -parameters
 ### -param dockPosition

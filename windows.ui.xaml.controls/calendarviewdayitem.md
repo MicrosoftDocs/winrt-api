@@ -12,7 +12,7 @@ public class CalendarViewDayItem : Windows.UI.Xaml.Controls.Control, Windows.UI.
 ## -description
 Represents a day on a [CalendarView](calendarview.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarViewDayItem](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitem).
+
 
 ## -xaml-syntax
 ```xaml
@@ -39,4 +39,4 @@ Call the [SetDensityColors](calendarviewdayitem_setdensitycolors_669941734.md) m
 ## -examples
 
 ## -see-also
-[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md), [CalendarViewDayItem styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles)
+[Control](control.md), [CalendarView](calendarview.md), [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md), [CalendarDatePicker.CalendarViewDayItemChanging](calendardatepicker_calendarviewdayitemchanging.md)

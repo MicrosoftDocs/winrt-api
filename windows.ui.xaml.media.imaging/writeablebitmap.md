@@ -13,7 +13,7 @@ public class WriteableBitmap : Windows.UI.Xaml.Media.Imaging.BitmapSource, Windo
 
 Provides a [BitmapSource](bitmapsource.md) that can be written to and updated.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.WriteableBitmap](/windows/winui/api/microsoft.ui.xaml.media.imaging.writeablebitmap).
+
 
 ## -remarks
 

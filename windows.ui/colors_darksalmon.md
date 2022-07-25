@@ -13,7 +13,7 @@ public Windows.UI.Color DarkSalmon { get; }
 
 Gets the system-defined color that has an ARGB value of #FFE9967A.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.DarkSalmon](/windows/winui/api/microsoft.ui.colors.darksalmon).
+
 
 ## -property-value
 

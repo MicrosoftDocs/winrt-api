@@ -14,7 +14,7 @@ public object TreeView.ItemFromContainer(DependencyObject container)
 
 Returns the item that corresponds to the specified, generated container.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TreeView.ItemFromContainer](/windows/winui/api/microsoft.ui.xaml.controls.treeview.itemfromcontainer).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeView.ItemFromContainer](/windows/winui/api/microsoft.ui.xaml.controls.treeview.itemfromcontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

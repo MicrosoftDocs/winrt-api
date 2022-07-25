@@ -12,7 +12,7 @@ public Windows.Foundation.Rect OverflowContentClipRect { get; }
 ## -description
 Gets the [Rect](../windows.foundation/rect.md) that describes the clipped area of the overflow content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarTemplateSettings.OverflowContentClipRect](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbartemplatesettings.overflowcontentcliprect).
+
 
 ## -property-value
 A [Rect](../windows.foundation/rect.md) that describes the clipped area of the overflow content.

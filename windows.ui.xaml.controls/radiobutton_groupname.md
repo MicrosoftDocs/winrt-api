@@ -12,7 +12,7 @@ public string GroupName { get;  set; }
 ## -description
 Gets or sets the name that specifies which [RadioButton](radiobutton.md) controls are mutually exclusive.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RadioButton.GroupName](/windows/winui/api/microsoft.ui.xaml.controls.radiobutton.groupname).
+
 
 ## -xaml-syntax
 ```xaml

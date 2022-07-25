@@ -12,7 +12,7 @@ public XYFocusNavigationStrategyOverride XYFocusNavigationStrategyOverride { get
 ## -description
 Gets or sets the focus navigation strategy used to identify the best candidate element to receive focus.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions.xyfocusnavigationstrategyoverride).
+
 
 ## -property-value
 The focus navigation strategy.

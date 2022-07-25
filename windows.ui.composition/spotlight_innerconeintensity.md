@@ -13,7 +13,7 @@ public float InnerConeIntensity { get;  set; }
 
 Gets or sets the intensity of the light in the spotlight's inner cone.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.InnerConeIntensity](/windows/winui/api/microsoft.ui.composition.spotlight.innerconeintensity).
+
 
 ## -property-value
 

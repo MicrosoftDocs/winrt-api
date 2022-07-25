@@ -14,7 +14,7 @@ public int Count { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.Count](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.count).
+
 
 ## -property-value
 

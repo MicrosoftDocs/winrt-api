@@ -12,7 +12,7 @@ public DependencyObject Element { get; }
 ## -description
 Gets the object associated with the [keyboard shortcut (or accelerator)](keyboardaccelerator.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Element](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorinvokedeventargs.element).
+
 
 ## -property-value
 A reference to the object associated with the [keyboard shortcut (or accelerator)](keyboardaccelerator.md).

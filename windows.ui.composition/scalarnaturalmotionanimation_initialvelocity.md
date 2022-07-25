@@ -13,7 +13,7 @@ public float InitialVelocity { get;  set; }
 
 Gets or sets the velocity that the animation starts with.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.ScalarNaturalMotionAnimation.InitialVelocity](/windows/winui/api/microsoft.ui.composition.scalarnaturalmotionanimation.initialvelocity).
+
 
 ## -property-value
 

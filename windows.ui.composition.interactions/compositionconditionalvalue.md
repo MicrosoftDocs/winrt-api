@@ -12,7 +12,7 @@ public class CompositionConditionalValue : CompositionObject, CompositionObject
 ## -description
 Allows conditional modification of the position and scale of a visual interaction source.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.CompositionConditionalValue](/windows/winui/api/microsoft.ui.composition.interactions.compositionconditionalvalue).
+
 
 ## -remarks
 

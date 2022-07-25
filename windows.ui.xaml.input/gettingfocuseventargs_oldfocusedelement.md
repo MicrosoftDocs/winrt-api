@@ -13,7 +13,7 @@ public DependencyObject OldFocusedElement { get; }
 
 Gets the last focused object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.OldFocusedElement](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.oldfocusedelement).
+
 
 ## -property-value
 

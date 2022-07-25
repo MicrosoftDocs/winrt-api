@@ -12,7 +12,7 @@ public interface ITransformProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls or elements that can be moved, resized, or rotated within a two-dimensional space. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Transform](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider).
+
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Transform Control Pattern](/windows/desktop/WinAuto/uiauto-implementingtransform).

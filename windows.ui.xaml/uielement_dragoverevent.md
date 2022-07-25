@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent DragOverEvent { get; }
 ## -description
 Gets the identifier for the [DragOver](uielement_dragover.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.DragOverEvent](/windows/winui/api/microsoft.ui.xaml.uielement.dragoverevent).
+
 
 ## -property-value
 The identifier for the [DragOver](uielement_dragover.md) routed event.

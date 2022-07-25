@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Primitives.AnimationDirection Direction { get;  
 ## -description
 Gets or sets the direction that the target should translate, when the animation is active.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.Direction](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.direction).
+
 
 ## -xaml-syntax
 ```xaml

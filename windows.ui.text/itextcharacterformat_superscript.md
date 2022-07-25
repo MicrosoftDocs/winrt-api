@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect Superscript { get;  set; }
 ## -description
 Gets or sets whether characters are displayed as superscript.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Superscript](/windows/winui/api/microsoft.ui.text.itextcharacterformat.superscript).
+
 
 ## -property-value
 The superscript state.

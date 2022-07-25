@@ -13,7 +13,7 @@ public Color Color { get;  set; }
 
 Gets or sets the color of the gradient stop.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionColorGradientStop.Color](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstop.color).
+
 
 ## -property-value
 

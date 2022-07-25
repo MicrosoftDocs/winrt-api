@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DayItemFontWeightProperty { get; }
 ## -description
 Identifies the [DayItemFontWeight](calendarview_dayitemfontweight.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.DayItemFontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.dayitemfontweightproperty).
+
 
 ## -property-value
 The identifier for the [DayItemFontWeight](calendarview_dayitemfontweight.md)   dependency property.

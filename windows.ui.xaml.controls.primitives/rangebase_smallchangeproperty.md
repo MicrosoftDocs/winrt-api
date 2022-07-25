@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SmallChangeProperty { get; }
 ## -description
 Identifies the [SmallChange](rangebase_smallchange.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.SmallChangeProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.smallchangeproperty).
+
 
 ## -property-value
 The identifier for the [SmallChange](rangebase_smallchange.md) dependency property.

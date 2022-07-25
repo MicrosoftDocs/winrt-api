@@ -13,7 +13,7 @@ public TextDecorations TextDecorations { get;  set; }
 
 Gets or sets a value that indicates what decorations are applied to the text.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.TextDecorations](/windows/winui/api/microsoft.ui.xaml.documents.textelement.textdecorations).
+
 
 ## -xaml-syntax
 

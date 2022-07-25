@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty AnnotationsProperty { get; }
 
 Identifies the [AutomationProperties.Annotations](automationproperties_annotations.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.AnnotationsProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.annotationsproperty).
+
 
 ## -property-value
 

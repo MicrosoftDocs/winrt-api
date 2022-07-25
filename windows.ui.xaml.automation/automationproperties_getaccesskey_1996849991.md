@@ -12,7 +12,7 @@ public string GetAccessKey(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Gets the value of the [AutomationProperties.AccessKey](automationproperties_accesskey.md) attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetAccessKey](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getaccesskey).
+
 
 ## -parameters
 ### -param element

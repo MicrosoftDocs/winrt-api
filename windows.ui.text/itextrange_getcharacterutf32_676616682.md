@@ -12,7 +12,7 @@ public void GetCharacterUtf32(System.UInt32 value, System.Int32 offset)
 ## -description
 Retrieves the Unicode Transformation Format (UTF)-32 character code of the character at the specified offset from the end of the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetCharacterUtf32](/windows/winui/api/microsoft.ui.text.itextrange.getcharacterutf32).
+
 
 ## -parameters
 ### -param value

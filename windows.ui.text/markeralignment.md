@@ -12,7 +12,7 @@ public enum Windows.UI.Text.MarkerAlignment : int
 ## -description
 Defines bullet and numbering alignment.
 
-Equivalent WinUI enum: [MarkerAlignment](/windows/winui/api/microsoft.ui.text.markeralignment).
+
 
 ## -enum-fields
 ### -field Undefined:0

@@ -14,7 +14,7 @@ public DependencyProperty BackgroundSizingProperty { get; }
 
 Identifies the BackgroundSizing dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.BackgroundSizingProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.backgroundsizingproperty).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Removes all items from this [ResourceDictionary](resourcedictionary.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Clear](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.clear).
+
 
 ## -remarks
 
@@ -20,4 +20,4 @@ Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.Clear](/windows/w
 ## -examples
 
 ## -see-also
-[Clear](/dotnet/api/system.collections.generic.icollection-1.clear?view=dotnet-uwp-10.0&preserve-view=true), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Clear](/dotnet/api/system.collections.generic.icollection-1.clear?view=dotnet-uwp-10.0&preserve-view=true), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

@@ -12,7 +12,7 @@ public DependencyProperty HighContrastAdjustmentProperty { get; }
 ## -description
 Identifies the [HighContrastAdjustment](uielement_highcontrastadjustment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.HighContrastAdjustmentProperty](/windows/winui/api/microsoft.ui.xaml.uielement.highcontrastadjustmentproperty).
+
 
 ## -property-value
 The identifier for the [HighContrastAdjustment](uielement_highcontrastadjustment.md) dependency property.

@@ -14,7 +14,7 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](passwordbox_description.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.descriptionproperty).
+
 
 ## -property-value
 

@@ -14,7 +14,7 @@ public void RichEditTextDocument.Redo()
 
 Reverses the most recent undo operation.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.Redo](/windows/winui/api/microsoft.ui.text.richedittextdocument.redo).
+
 
 ## -remarks
 

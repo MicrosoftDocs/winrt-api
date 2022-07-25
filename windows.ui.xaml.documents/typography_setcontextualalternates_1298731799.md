@@ -12,7 +12,7 @@ public void SetContextualAlternates(Windows.UI.Xaml.DependencyObject element, Sy
 ## -description
 Sets the value of the [ContextualAlternates](typography_contextualalternates.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetContextualAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcontextualalternates).
+
 
 ## -parameters
 ### -param element

@@ -13,7 +13,7 @@ public void CompositionShapeCollection.ReplaceAll(CompositionShape[] items)
 
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.ReplaceAll](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.replaceall).
+
 
 ## -parameters
 ### -param items

@@ -12,7 +12,7 @@ public bool IsZoomedInView { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the implementing view is the semantically more complete zoomed-in view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ISemanticZoomInformation.IsZoomedInView](/windows/winui/api/microsoft.ui.xaml.controls.isemanticzoominformation.iszoomedinview).
+
 
 ## -property-value
 **true** if the implementing view is the zoomed-in view; otherwise, **false**.

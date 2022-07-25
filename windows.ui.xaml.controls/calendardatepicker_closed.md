@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler Closed<object>
 ## -description
 Occurs when the picker's [CalendarView](calendarview.md) is hidden.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.Closed](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.closed).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsTodayHighlightedProperty { get; }
 ## -description
 Identifies the [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsTodayHighlightedProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.istodayhighlightedproperty).
+
 
 ## -property-value
 The identifier for the [IsTodayHighlighted](calendardatepicker_istodayhighlighted.md) dependency property.

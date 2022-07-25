@@ -12,7 +12,7 @@ public class ImageSource : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Med
 ## -description
 Provides an object source type for the [Image.Source](../windows.ui.xaml.controls/image_source.md) and [ImageBrush.ImageSource](imagebrush_imagesource.md) properties.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ImageSource](/windows/winui/api/microsoft.ui.xaml.media.imagesource).
+
 
 ## -remarks
 > [!IMPORTANT]

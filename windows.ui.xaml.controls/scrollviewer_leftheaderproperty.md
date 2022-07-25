@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty LeftHeaderProperty { get; }
 ## -description
 Identifies the [LeftHeader](scrollviewer_leftheader.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.LeftHeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.leftheaderproperty).
+
 
 ## -property-value
 The identifier for the [LeftHeader](scrollviewer_leftheader.md) dependency property.

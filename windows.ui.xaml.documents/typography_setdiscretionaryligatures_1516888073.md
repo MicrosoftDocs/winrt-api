@@ -12,7 +12,7 @@ public void SetDiscretionaryLigatures(Windows.UI.Xaml.DependencyObject element, 
 ## -description
 Sets the value of the [DiscretionaryLigatures](typography_discretionaryligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetDiscretionaryLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.setdiscretionaryligatures).
+
 
 ## -parameters
 ### -param element

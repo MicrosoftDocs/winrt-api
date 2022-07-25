@@ -12,7 +12,7 @@ public void Cancel()
 ## -description
 Stops the connected animation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.Cancel](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.cancel).
+
 
 ## -remarks
 

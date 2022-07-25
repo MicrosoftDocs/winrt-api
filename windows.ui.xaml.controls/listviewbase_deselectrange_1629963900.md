@@ -12,7 +12,7 @@ public void DeselectRange(Windows.UI.Xaml.Data.ItemIndexRange itemIndexRange)
 ## -description
 Deselects a block of items described by the [ItemIndexRange](../windows.ui.xaml.data/itemindexrange.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.DeselectRange](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.deselectrange).
+
 
 ## -parameters
 ### -param itemIndexRange

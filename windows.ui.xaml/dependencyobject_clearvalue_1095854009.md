@@ -12,7 +12,7 @@ public void ClearValue(Windows.UI.Xaml.DependencyProperty dp)
 ## -description
 Clears the local value of a dependency property.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObject.ClearValue](/windows/winui/api/microsoft.ui.xaml.dependencyobject.clearvalue).
+
 
 ## -parameters
 ### -param dp

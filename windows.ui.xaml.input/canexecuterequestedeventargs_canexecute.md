@@ -14,7 +14,7 @@ public bool CanExecute { get;  set; }
 
 Gets or sets a value indicating whether the [ICommand](icommand.md) that raised this event is able to execute.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.CanExecuteRequestedEventArgs.CanExecute](/windows/winui/api/microsoft.ui.xaml.input.canexecuterequestedeventargs.canexecute).
+
 
 ## -property-value
 

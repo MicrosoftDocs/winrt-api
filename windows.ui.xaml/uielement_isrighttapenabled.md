@@ -12,7 +12,7 @@ public bool IsRightTapEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [RightTapped](uielement_righttapped.md) event can originate from that element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsRightTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.isrighttapenabled).
+
 
 ## -xaml-syntax
 ```xaml

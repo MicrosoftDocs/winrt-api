@@ -12,7 +12,7 @@ public void ReplaceAll(Windows.UI.Xaml.Controls.RowDefinition[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.replaceall).
+
 
 ## -parameters
 ### -param items

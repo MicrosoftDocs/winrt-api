@@ -12,7 +12,7 @@ public void RemoveAtEnd()
 ## -description
 Removes the last item in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.removeatend).
+
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public class RedirectVisual : ContainerVisual, ContainerVisual
 
 Represents a visual that gets its content from another visual.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.RedirectVisual](/windows/winui/api/microsoft.ui.composition.redirectvisual).
+
 
 ## -remarks
 

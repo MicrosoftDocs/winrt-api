@@ -12,7 +12,7 @@ public uint Size { get; }
 ## -description
 Gets the number of items in the vector.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.IBindableVector.Size](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.size).
+
 
 ## -property-value
 The number of items in the vector.

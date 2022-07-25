@@ -13,7 +13,7 @@ public class FindNextElementOptions
 
 Provides options to help identify the next element that can programmatically receive navigation focus.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FindNextElementOptions](/windows/winui/api/microsoft.ui.xaml.input.findnextelementoptions).
+
 
 ## -remarks
 

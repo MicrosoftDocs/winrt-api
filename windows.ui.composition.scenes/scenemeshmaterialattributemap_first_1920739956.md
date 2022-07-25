@@ -14,7 +14,7 @@ public IIterator<SceneAttributeSemantic>> SceneMeshMaterialAttributeMap.First()
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMeshMaterialAttributeMap.First](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshmaterialattributemap.first).
+
 
 ## -returns
 

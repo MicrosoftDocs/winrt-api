@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.RoutedEventHandler Loaded
 ## -description
 Occurs when a [FrameworkElement](frameworkelement.md) has been constructed and added to the object tree, and is ready for interaction.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.Loaded](/windows/winui/api/microsoft.ui.xaml.frameworkelement.loaded).
+
 
 ## -xaml-syntax
 ```xaml

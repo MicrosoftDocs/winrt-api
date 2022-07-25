@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PressedBorderBrushProperty { get; }
 ## -description
 Identifies the [PressedBorderBrush](calendarview_pressedborderbrush.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.PressedBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.pressedborderbrushproperty).
+
 
 ## -property-value
 The identifier for the [PressedBorderBrush](calendarview_pressedborderbrush.md)   dependency property.

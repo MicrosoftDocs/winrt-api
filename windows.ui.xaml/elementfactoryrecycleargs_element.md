@@ -14,7 +14,7 @@ public UIElement Element { get;  set; }
 
 Gets or sets the [UIElement](uielement.md) object to recycle when calling [RecycleElement](ielementfactory_recycleelement_1023702976.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Element](/windows/winui/api/microsoft.ui.xaml.elementfactoryrecycleargs.element).
+
 
 ## -property-value
 

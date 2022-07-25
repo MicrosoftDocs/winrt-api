@@ -12,7 +12,7 @@ public int GetAnnotationAlternates(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [AnnotationAlternates](typography_annotationalternates.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetAnnotationAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.getannotationalternates).
+
 
 ## -parameters
 ### -param element

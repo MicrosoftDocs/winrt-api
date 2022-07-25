@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.EasingFunctionBase GeneratedEasingFunctio
 ## -description
 Gets or sets the easing function applied to the generated animations.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.GeneratedEasingFunction](/windows/winui/api/microsoft.ui.xaml.visualtransition.generatedeasingfunction).
+
 
 ## -property-value
 An easing function implementation that is applied to the generated animations.

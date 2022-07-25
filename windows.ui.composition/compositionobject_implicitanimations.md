@@ -12,7 +12,7 @@ public Windows.UI.Composition.ImplicitAnimationCollection ImplicitAnimations { g
 ## -description
 The collection of implicit animations attached to this object.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionObject.ImplicitAnimations](/windows/winui/api/microsoft.ui.composition.compositionobject.implicitanimations).
+
 
 ## -property-value
 The collection of implicit animations attached to this object.

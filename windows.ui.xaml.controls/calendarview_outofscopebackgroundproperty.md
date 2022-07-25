@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OutOfScopeBackgroundProperty { get; }
 ## -description
 Identifies the [OutOfScopeBackground](calendarview_outofscopebackground.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.OutOfScopeBackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.outofscopebackgroundproperty).
+
 
 ## -property-value
 The identifier for the   [OutOfScopeBackground](calendarview_outofscopebackground.md) dependency property.

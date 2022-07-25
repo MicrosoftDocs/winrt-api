@@ -13,7 +13,7 @@ public DependencyProperty RevealBorderThicknessProperty { get; }
 
 Identifies the RevealBorderThickness dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThicknessProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.revealborderthicknessproperty).
+
 
 ## -property-value
 

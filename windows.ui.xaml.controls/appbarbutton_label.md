@@ -12,7 +12,7 @@ public string Label { get;  set; }
 ## -description
 Gets or sets the text description displayed on the app bar button.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.Label](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.label).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.CacheMode CacheMode { get;  set; }
 ## -description
 Gets or sets a value that indicates that rendered content should be cached as a composited bitmap when possible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CacheMode](/windows/winui/api/microsoft.ui.xaml.uielement.cachemode).
+
 
 ## -xaml-syntax
 ```xaml

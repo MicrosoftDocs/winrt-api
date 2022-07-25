@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyObject LoadContent()
 ## -description
 Creates the [UIElement](uielement.md) objects in the [DataTemplate](datatemplate.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.LoadContent](/windows/winui/api/microsoft.ui.xaml.datatemplate.loadcontent).
+
 
 ## -returns
 The root [UIElement](uielement.md) of the [DataTemplate](datatemplate.md).

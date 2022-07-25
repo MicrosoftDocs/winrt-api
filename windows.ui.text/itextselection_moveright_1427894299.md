@@ -12,7 +12,7 @@ public int MoveRight(Windows.UI.Text.TextRangeUnit unit, System.Int32 count, Sys
 ## -description
 Moves the insertion point or the active end of the text selection to the right, mimicking the functionality of the Right Arrow key.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.MoveRight](/windows/winui/api/microsoft.ui.text.itextselection.moveright).
+
 
 ## -parameters
 ### -param unit

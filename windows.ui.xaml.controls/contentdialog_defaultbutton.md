@@ -12,7 +12,7 @@ public ContentDialogButton DefaultButton { get;  set; }
 ## -description
 Gets or sets a value that indicates which button on the dialog is the default action.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.DefaultButton](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.defaultbutton).
+
 
 ## -property-value
 A value of the enumeration. The default is **None.**

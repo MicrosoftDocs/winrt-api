@@ -12,7 +12,7 @@ public void DeselectRange(Windows.UI.Xaml.Data.ItemIndexRange itemIndexRange)
 ## -description
 Marks the items in the data source specified by *itemIndexRange* as not selected in the list control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ISelectionInfo.DeselectRange](/windows/winui/api/microsoft.ui.xaml.data.iselectioninfo.deselectrange).
+
 
 ## -parameters
 ### -param itemIndexRange

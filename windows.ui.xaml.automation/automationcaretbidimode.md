@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationCaretBidiMode : int
 ## -description
 Defines the direction that the caret travels.
 
-Equivalent WinUI enum: [AutomationCaretBidiMode](/windows/winui/api/microsoft.ui.xaml.automation.automationcaretbidimode).
+
 
 ## -enum-fields
 ### -field LTR:0

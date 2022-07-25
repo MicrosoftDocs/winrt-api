@@ -12,7 +12,7 @@ public int SelectionLength { get;  set; }
 ## -description
 Gets or sets the number of characters in the current selection in the text box.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectionLength](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionlength).
+
 
 ## -xaml-syntax
 ```xaml

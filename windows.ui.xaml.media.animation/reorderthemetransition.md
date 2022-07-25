@@ -12,7 +12,7 @@ public class ReorderThemeTransition : Windows.UI.Xaml.Media.Animation.Transition
 ## -description
 Provides the animated transition behavior for when list-view controls items change order. Typically this is due to a drag-drop operation. Different controls and themes potentially have varying characteristics for the animations involved.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ReorderThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.reorderthemetransition).
+
 
 ## -xaml-syntax
 ```xaml

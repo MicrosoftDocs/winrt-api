@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight ExtraLight { get; }
 
 Specifies a font weight value of 200.
 
-Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.ExtraLight](/windows/winui/api/microsoft.ui.text.fontweights.extralight).
+
 
 ## -property-value
 

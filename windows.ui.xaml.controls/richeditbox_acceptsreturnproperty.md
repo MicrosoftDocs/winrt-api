@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AcceptsReturnProperty { get; }
 ## -description
 Identifies the [AcceptsReturn](richeditbox_acceptsreturn.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.AcceptsReturnProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.acceptsreturnproperty).
+
 
 ## -property-value
 The identifier for the [AcceptsReturn](richeditbox_acceptsreturn.md) dependency property.

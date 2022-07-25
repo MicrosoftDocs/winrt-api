@@ -12,7 +12,7 @@ public void Connect(System.Int32 connectionId, System.Object target)
 ## -description
 Attaches events and names to XAML-initiated content.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.IComponentConnector.Connect](/windows/winui/api/microsoft.ui.xaml.markup.icomponentconnector.connect).
+
 
 ## -parameters
 ### -param connectionId

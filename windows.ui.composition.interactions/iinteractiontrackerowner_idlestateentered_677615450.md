@@ -12,7 +12,7 @@ public void IdleStateEntered(Windows.UI.Composition.Interactions.InteractionTrac
 ## -description
 Callback triggered when an [InteractionTracker](interactiontracker.md) enters the idle state.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.IInteractionTrackerOwner.IdleStateEntered](/windows/winui/api/microsoft.ui.composition.interactions.iinteractiontrackerowner.idlestateentered).
+
 
 ## -parameters
 ### -param sender

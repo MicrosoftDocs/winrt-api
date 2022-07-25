@@ -12,7 +12,7 @@ public object SelectedItem { get;  set; }
 ## -description
 Gets or sets the selected item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.SelectedItem](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.selecteditem).
+
 
 ## -property-value
 The selected item. The default is null.

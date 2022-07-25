@@ -12,7 +12,7 @@ public void SetStylisticSet13(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [StylisticSet13](typography_stylisticset13.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet13](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset13).
+
 
 ## -parameters
 ### -param element

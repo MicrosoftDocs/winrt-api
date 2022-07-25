@@ -12,7 +12,7 @@ public void AddToSelection()
 ## -description
 Adds the current element to the collection of selected items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.AddToSelection](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectoritemautomationpeer.addtoselection).
+
 
 ## -remarks
 

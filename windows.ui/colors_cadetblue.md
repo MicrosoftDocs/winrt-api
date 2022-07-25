@@ -13,7 +13,7 @@ public Windows.UI.Color CadetBlue { get; }
 
 Gets the system-defined color that has an ARGB value of #FF5F9EA0.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.CadetBlue](/windows/winui/api/microsoft.ui.colors.cadetblue).
+
 
 ## -property-value
 

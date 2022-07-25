@@ -13,7 +13,7 @@ public Windows.UI.Color DarkGoldenrod { get; }
 
 Gets the system-defined color that has an ARGB value of #FFB8860B.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.DarkGoldenrod](/windows/winui/api/microsoft.ui.colors.darkgoldenrod).
+
 
 ## -property-value
 

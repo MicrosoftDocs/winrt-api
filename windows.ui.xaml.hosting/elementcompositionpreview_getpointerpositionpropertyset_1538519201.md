@@ -12,7 +12,7 @@ public CompositionPropertySet ElementCompositionPreview.GetPointerPositionProper
 ## -description
 Retrieves the pointer position relative to a UIElement.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.GetPointerPositionPropertySet](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.getpointerpositionpropertyset).
+
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectionCheckMarkVisualEnabledPropert
 ## -description
 Identifies the [SelectionCheckMarkVisualEnabled](listviewitempresenter_selectioncheckmarkvisualenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.selectioncheckmarkvisualenabledproperty).
+
 
 ## -property-value
 The identifier for the [SelectionCheckMarkVisualEnabled](listviewitempresenter_selectioncheckmarkvisualenabled.md) dependency property.

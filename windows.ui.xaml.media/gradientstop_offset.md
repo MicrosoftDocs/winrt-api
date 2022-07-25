@@ -12,7 +12,7 @@ public double Offset { get;  set; }
 ## -description
 Gets the location of the gradient stop within the gradient vector.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientStop.Offset](/windows/winui/api/microsoft.ui.xaml.media.gradientstop.offset).
+
 
 ## -xaml-syntax
 ```xaml

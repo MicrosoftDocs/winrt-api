@@ -14,7 +14,7 @@ public SceneNode Parent { get; }
 
 Gets the node that this node is a child of.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneNode.Parent](/windows/winui/api/microsoft.ui.composition.scenes.scenenode.parent).
+
 
 ## -property-value
 

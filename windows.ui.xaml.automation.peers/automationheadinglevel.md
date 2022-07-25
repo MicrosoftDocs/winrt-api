@@ -12,8 +12,6 @@ public enum AutomationHeadingLevel : int
 ## -description
 Defines the heading levels for UI Automation elements.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Automation.Peers.AutomationHeadingLevel](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationheadinglevel).
-
 ## -enum-fields
 ### -field None:0
 Not a heading.

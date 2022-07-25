@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.ScrollMode HorizontalScrollMode { get;  set; }
 ## -description
 Gets or sets a value that determines how manipulation input influences scrolling behavior on the horizontal axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.HorizontalScrollMode](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.horizontalscrollmode).
+
 
 ## -xaml-syntax
 ```xaml

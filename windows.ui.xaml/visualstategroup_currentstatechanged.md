@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.VisualStateChangedEventHandler CurrentStateChanged
 ## -description
 Occurs after a control changes into a different state.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.VisualStateGroup.CurrentStateChanged](/windows/winui/api/microsoft.ui.xaml.visualstategroup.currentstatechanged).
+
 
 ## -remarks
 

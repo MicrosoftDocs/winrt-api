@@ -12,7 +12,7 @@ public class AccessKeyInvokedEventArgs : Windows.UI.Xaml.Input.IAccessKeyInvoked
 ## -description
 Provides event data for the [AccessKeyInvoked](../windows.ui.xaml/uielement_accesskeyinvoked.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.accesskeyinvokedeventargs).
+
 
 ## -remarks
 Available starting in Windows 10, version 1607.

@@ -12,7 +12,7 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, Windows.Foundati
 ## -description
 Inserts a key frame with the specified easing function.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Vector3KeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.vector3keyframeanimation.insertkeyframe).
+
 
 ## -parameters
 ### -param normalizedProgressKey

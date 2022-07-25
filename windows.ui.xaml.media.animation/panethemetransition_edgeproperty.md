@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty EdgeProperty { get; }
 ## -description
 Identifies the [Edge](panethemetransition_edge.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition.EdgeProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.panethemetransition.edgeproperty).
+
 
 ## -property-value
 The identifier for the [Edge](panethemetransition_edge.md) dependency property.

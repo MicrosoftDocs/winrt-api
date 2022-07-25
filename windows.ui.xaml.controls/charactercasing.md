@@ -13,7 +13,6 @@ public enum CharacterCasing : int
 
 Defines constants that specify how a control modifies the case of characters as they are typed.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Controls.CharacterCasing](/windows/winui/api/microsoft.ui.xaml.controls.charactercasing).
 
 ## -enum-fields
 

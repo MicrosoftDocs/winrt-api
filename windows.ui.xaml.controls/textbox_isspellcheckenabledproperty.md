@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsSpellCheckEnabledProperty { get; }
 ## -description
 Identifies the [IsSpellCheckEnabled](textbox_isspellcheckenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.IsSpellCheckEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.isspellcheckenabledproperty).
+
 
 ## -property-value
 The identifier for the [IsSpellCheckEnabled](textbox_isspellcheckenabled.md) dependency property.

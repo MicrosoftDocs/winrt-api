@@ -13,7 +13,7 @@ public CompositionLinearGradientBrush Compositor.CreateLinearGradientBrush()
 
 Creates an instance of [CompositionLinearGradientBrush](compositionlineargradientbrush.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateLinearGradientBrush](/windows/winui/api/microsoft.ui.composition.compositor.createlineargradientbrush).
+
 
 ## -returns
 

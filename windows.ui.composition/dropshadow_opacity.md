@@ -12,7 +12,7 @@ public float Opacity { get;  set; }
 ## -description
 The opacity of the shadow. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.Opacity](/windows/winui/api/microsoft.ui.composition.dropshadow.opacity).
+
 
 ## -property-value
 The opacity of the shadow.

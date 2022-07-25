@@ -14,7 +14,7 @@ public IReference<Color> ChromeWhite { get;  set; }
 
 Gets or sets the ChromeWhite color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeWhite](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromewhite).
+
 
 ## -property-value
 

@@ -12,7 +12,6 @@ public class SliderAutomationPeer : Windows.UI.Xaml.Automation.Peers.RangeBaseAu
 ## -description
 Exposes [Slider](../windows.ui.xaml.controls/slider.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.SliderAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.sliderautomationpeer).
 
 ## -remarks
 The Windows Runtime  [Slider](../windows.ui.xaml.controls/slider.md) class creates a new SliderAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from SliderAutomationPeer if you are deriving a custom class from [Slider](../windows.ui.xaml.controls/slider.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

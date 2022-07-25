@@ -13,7 +13,7 @@ public double Spacing { get;  set; }
 
 Gets or sets a uniform distance (in pixels) between stacked items. It is applied in the direction of the StackPanel's Orientation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.StackPanel.Spacing](/windows/winui/api/microsoft.ui.xaml.controls.stackpanel.spacing).
+
 
 ## -xaml-syntax
 

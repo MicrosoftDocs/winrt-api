@@ -13,7 +13,7 @@ public void CompositionColorGradientStopCollection.Clear()
 
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.Clear](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.clear).
+
 
 ## -remarks
 

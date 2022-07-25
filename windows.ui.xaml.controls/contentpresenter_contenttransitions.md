@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ContentTransitions {
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to content presented by the [ContentPresenter](contentpresenter.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.ContentTransitions](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.contenttransitions).
+
 
 ## -xaml-syntax
 ```xaml

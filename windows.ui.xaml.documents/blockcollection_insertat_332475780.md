@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Documents.Block value)
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.BlockCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection.insertat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public DependencyProperty ScopeOwnerProperty { get; }
 ## -description
 Identifies the [ScopeOwner](keyboardaccelerator_scopeowner.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyboardAccelerator.ScopeOwnerProperty](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator.scopeownerproperty).
+
 
 ## -property-value
 The identifier for the [ScopeOwner](keyboardaccelerator_scopeowner.md) dependency property.

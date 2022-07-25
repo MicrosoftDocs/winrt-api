@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Loading<Windows.UI.Xaml.Framew
 ## -description
 Occurs when a [FrameworkElement](frameworkelement.md) begins to load.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.Loading](/windows/winui/api/microsoft.ui.xaml.frameworkelement.loading).
+
 
 ## -xaml-syntax
 ```xaml

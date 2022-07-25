@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CalendarViewDayItemStyleProperty { get
 ## -description
 Identifies the [CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarViewDayItemStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendarviewdayitemstyleproperty).
+
 
 ## -property-value
 The identifier for the [CalendarViewDayItemStyle](calendarview_calendarviewdayitemstyle.md)   dependency property.

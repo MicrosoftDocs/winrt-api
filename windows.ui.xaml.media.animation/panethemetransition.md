@@ -12,7 +12,7 @@ public class PaneThemeTransition : Windows.UI.Xaml.Media.Animation.Transition, W
 ## -description
 Provides the animated transition behavior for a panel UI transition.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PaneThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.panethemetransition).
+
 
 ## -xaml-syntax
 ```xaml

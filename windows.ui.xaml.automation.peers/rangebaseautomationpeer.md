@@ -12,7 +12,7 @@ public class RangeBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewor
 ## -description
 A base class that provides a Microsoft UI Automation peer implementation for types that derive from [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.rangebaseautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md) class creates a new RangeBaseAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from RangeBaseAutomationPeer if you are deriving a custom class from [RangeBase](../windows.ui.xaml.controls.primitives/rangebase.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

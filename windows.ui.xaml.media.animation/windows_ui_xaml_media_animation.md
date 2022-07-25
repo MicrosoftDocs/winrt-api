@@ -9,7 +9,7 @@
 
 Provides animation and storyboard API for transition animations, visual states, or animated UI components.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Media.Animation](/windows/winui/api/microsoft.ui.xaml.media.animation).
+
 
 ## -remarks
 

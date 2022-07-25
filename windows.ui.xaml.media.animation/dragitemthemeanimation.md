@@ -12,7 +12,7 @@ public class DragItemThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline, 
 ## -description
 Represents the preconfigured animation that applies to item elements being dragged.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DragItemThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.dragitemthemeanimation).
+
 
 ## -xaml-syntax
 ```xaml

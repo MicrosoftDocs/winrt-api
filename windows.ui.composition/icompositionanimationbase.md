@@ -12,7 +12,7 @@ public interface ICompositionAnimationBase :
 ## -description
 Base class for composition animations.
 
-Equivalent WinUI interface: [Microsoft.UI.Composition.ICompositionAnimationBase](/windows/winui/api/microsoft.ui.composition.icompositionanimationbase).
+
 
 ## -remarks
 

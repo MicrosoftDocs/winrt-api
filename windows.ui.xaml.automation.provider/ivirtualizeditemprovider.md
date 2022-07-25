@@ -12,7 +12,7 @@ public interface IVirtualizedItemProvider :
 ## -description
 Exposes a method to support the virtualized item control pattern. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.VirtualizedItem](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IVirtualizedItemProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivirtualizeditemprovider).
+
 
 ## -remarks
 Controls that contain a large number of child items can use virtualization to efficiently manage the items. With virtualization, the control maintains full information in memory for only a subset of items at any given time. Typically, the subset includes only those items that are currently visible to the user. Full information about the remaining virtualized items is kept in storage and is loaded into memory, or realized, as the control needs it, for example, as new items become visible to the user. For more info on this pattern, see [VirtualizedItem Control Pattern](/windows/desktop/WinAuto/uiauto-implementingvirtualizeditem).

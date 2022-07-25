@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerCanceledEvent { get; }
 ## -description
 Gets the identifier for the [PointerCanceled](uielement_pointercanceled.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerCanceledEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointercanceledevent).
+
 
 ## -property-value
 The identifier for the [PointerCanceled](uielement_pointercanceled.md) routed event.

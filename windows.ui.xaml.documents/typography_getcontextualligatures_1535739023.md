@@ -12,7 +12,7 @@ public bool GetContextualLigatures(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [ContextualLigatures](typography_contextualligatures.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetContextualLigatures](/windows/winui/api/microsoft.ui.xaml.documents.typography.getcontextualligatures).
+
 
 ## -parameters
 ### -param element

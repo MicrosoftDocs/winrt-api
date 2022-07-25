@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty XYFocusUpProperty { get; }
 ## -description
 Identifies the [XYFocusUp](hyperlink_xyfocusup.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Hyperlink.XYFocusUpProperty](/windows/winui/api/microsoft.ui.xaml.documents.hyperlink.xyfocusupproperty).
+
 
 ## -property-value
 The identifier for the [XYFocusUp](hyperlink_xyfocusup.md) dependency property.

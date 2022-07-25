@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> By { get;  set; }
 ## -description
 Gets or sets the total amount by which the animation changes its starting value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.By](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.by).
+
 
 ## -xaml-syntax
 ```xaml

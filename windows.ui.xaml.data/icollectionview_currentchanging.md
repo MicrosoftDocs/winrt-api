@@ -12,7 +12,7 @@ abstract public event Windows.UI.Xaml.Data.CurrentChangingEventHandler CurrentCh
 ## -description
 When implementing this interface, fire this event before changing the current item. The event handler can cancel this event.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Data.ICollectionView.CurrentChanging](/windows/winui/api/microsoft.ui.xaml.data.icollectionview.currentchanging).
+
 
 ## -remarks
 The CurrentChanging event occurs when the [CurrentItem](icollectionview_currentitem.md) property value is changing. The [CurrentChangingEventArgs](currentchangingeventargs.md) parameter passed to the event handler specifies information about the change. If [IsCancelable](currentchangingeventargs_iscancelable.md) is **true**, the event handler can cancel the change by setting [Cancel](currentchangingeventargs_cancel.md) to **true**. If the change is canceled, [CurrentItem](icollectionview_currentitem.md) is not changed. Setting [Cancel](currentchangingeventargs_cancel.md) to **true** when [IsCancelable](currentchangingeventargs_iscancelable.md) is **false** throws an exception.

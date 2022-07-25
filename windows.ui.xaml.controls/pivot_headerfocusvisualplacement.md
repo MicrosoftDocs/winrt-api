@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.PivotHeaderFocusVisualPlacement HeaderFocusVisua
 ## -description
 Gets or sets a value that specifies the style of focus visual used for pivot header items.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Pivot.HeaderFocusVisualPlacement](/windows/winui/api/microsoft.ui.xaml.controls.pivot.headerfocusvisualplacement).
+
 
 ## -xaml-syntax
 ```xaml

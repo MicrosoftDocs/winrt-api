@@ -13,7 +13,7 @@ public class CompositionSpriteShape : CompositionShape, CompositionShape
 
 A CompositionShape that draws Stroked and Filled [CompositionGeometry](compositiongeometry.md).
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionSpriteShape](/windows/winui/api/microsoft.ui.composition.compositionspriteshape).
+
 
 ## -remarks
 

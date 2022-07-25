@@ -12,7 +12,7 @@ public class GridViewItemPresenter : Windows.UI.Xaml.Controls.ContentPresenter, 
 ## -description
 Represents the visual elements of a [GridViewItem](../windows.ui.xaml.controls/gridviewitem.md). When developing for Windows 10, use [ListViewItemPresenter](listviewitempresenter.md) instead of GridViewItemPresenter in your item container style, both for [ListView](../windows.ui.xaml.controls/listview.md) and for [GridView](../windows.ui.xaml.controls/gridview.md). If you edit a copy of the default item container styles then you will get the correct type.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.GridViewItemPresenter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.gridviewitempresenter).
+
 
 ## -xaml-syntax
 ```xaml

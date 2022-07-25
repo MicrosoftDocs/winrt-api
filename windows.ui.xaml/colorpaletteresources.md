@@ -14,7 +14,7 @@ public class ColorPaletteResources : ResourceDictionary, ResourceDictionary
 
 Represents a specialized resource dictionary that contains color resources used by XAML elements.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ColorPaletteResources](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources).
+
 
 ## -remarks
 

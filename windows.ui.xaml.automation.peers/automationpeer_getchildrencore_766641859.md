@@ -12,7 +12,7 @@ virtual protected Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Automat
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetChildren](automationpeer_getchildren_555647254.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetChildrenCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getchildrencore).
+
 
 ## -returns
 The collection of [AutomationPeer](automationpeer.md) objects for child elements.

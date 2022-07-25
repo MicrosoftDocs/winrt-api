@@ -13,7 +13,7 @@ public float MaxAttenuationCutoff { get;  set; }
 
 Gets or sets the maximum range at which this light is effective.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.SpotLight.MaxAttenuationCutoff](/windows/winui/api/microsoft.ui.composition.spotlight.maxattenuationcutoff).
+
 
 ## -property-value
 

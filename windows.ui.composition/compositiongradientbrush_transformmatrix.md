@@ -13,7 +13,7 @@ public Matrix3x2 TransformMatrix { get;  set; }
 
 Gets or sets the matrix of transforms to apply to the brush.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.TransformMatrix](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.transformmatrix).
+
 
 ## -property-value
 

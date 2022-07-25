@@ -14,7 +14,7 @@ public event TypedEventHandler SelectedDateChanged<DatePicker, DatePickerSelecte
 
 Occurs when the date value is changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.DatePicker.SelectedDateChanged](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.selecteddatechanged).
+
 
 ## -xaml-syntax
 

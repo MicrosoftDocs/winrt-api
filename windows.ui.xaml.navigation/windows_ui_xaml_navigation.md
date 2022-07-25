@@ -10,7 +10,7 @@ Provides types that support navigation events as initiated by the [Page](../wind
 
 For navigation guidelines for UWP apps, see [navigation design basics](/windows/uwp/layout/navigation-basics).
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Navigation](/windows/winui/api/microsoft.ui.xaml.navigation).
+
 
 ## -remarks
 

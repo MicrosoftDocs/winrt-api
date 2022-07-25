@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.AutomationProperty AnnotationsProperty { get; 
 ## -description
 Gets the identifier for the annotations automation property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.AnnotationsProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers.annotationsproperty).
+
 
 ## -property-value
 The identifier for the annotations automation property.

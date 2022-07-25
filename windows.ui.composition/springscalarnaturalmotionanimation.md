@@ -13,7 +13,7 @@ public class SpringScalarNaturalMotionAnimation : ScalarNaturalMotionAnimation, 
 
 A spring physics-based animation that targets any Scalar-based property.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.SpringScalarNaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.springscalarnaturalmotionanimation).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public bool IsEnabled { get;  set; }
 ## -description
 Gets or sets whether a keyboard shortcut (accelerator) is available to the user.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyboardAccelerator.IsEnabled](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator.isenabled).
+
 
 ## -property-value
 **true** if the shortcut is available; otherwise, **false**.

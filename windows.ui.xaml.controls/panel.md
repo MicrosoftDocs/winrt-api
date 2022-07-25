@@ -12,7 +12,7 @@ public class Panel : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Controls.
 ## -description
 Provides a base class for all Panel elements. Use Panel elements to position and arrange child objects in a UI page.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Panel](/windows/winui/api/microsoft.ui.xaml.controls.panel).
+
 
 ## -remarks
 ### **Panel** derived classes

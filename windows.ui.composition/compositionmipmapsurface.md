@@ -14,7 +14,7 @@ public class CompositionMipmapSurface : CompositionObject, CompositionObject, IC
 
 Represents a drawing surface for mipmap textures.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionMipmapSurface](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface).
+
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public DependencyProperty TargetProperty { get; }
 
 Identifies the [Target](flyoutbase_target.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.TargetProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.targetproperty).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public void SetVisualState(Windows.UI.Xaml.Automation.WindowVisualState state)
 ## -description
 Changes the visual state of the [ComboBox](../windows.ui.xaml.controls/combobox.md) control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.SetVisualState](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.setvisualstate).
+
 
 ## -parameters
 ### -param state

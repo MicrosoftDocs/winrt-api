@@ -14,7 +14,7 @@ public StandardUICommandKind Kind { get; }
 
 Gets the platform command (with pre-defined properties such as icon, keyboard accelerator, and description) that can be used with a [StandardUICommand](standarduicommand.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.StandardUICommand.Kind](/windows/winui/api/microsoft.ui.xaml.input.standarduicommand.kind).
+
 
 ## -property-value
 

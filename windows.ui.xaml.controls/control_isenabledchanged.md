@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.DependencyPropertyChangedEventHandler IsEnabledChan
 ## -description
 Occurs when the [IsEnabled](control_isenabled.md) property changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Control.IsEnabledChanged](/windows/winui/api/microsoft.ui.xaml.controls.control.isenabledchanged).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.RoutedEventHandler LostFocus
 
 Occurs when a [UIElement](uielement.md) loses focus. This event is raised asynchronously, so focus can move again before bubbling is complete.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.LostFocus](/windows/winui/api/microsoft.ui.xaml.uielement.lostfocus).
+
 
 ## -xaml-syntax
 

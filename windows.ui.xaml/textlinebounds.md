@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.TextLineBounds : int
 ## -description
 Influences how a line box height is calculated
 
-Equivalent WinUI enum: [TextLineBounds](/windows/winui/api/microsoft.ui.xaml.textlinebounds).
+
 
 ## -enum-fields
 ### -field Full:0

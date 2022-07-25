@@ -12,7 +12,7 @@ public void SetScrollPercent(System.Double horizontalPercent, System.Double vert
 ## -description
 Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer.SetScrollPercent](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotautomationpeer.setscrollpercent).
+
 
 ## -parameters
 ### -param horizontalPercent

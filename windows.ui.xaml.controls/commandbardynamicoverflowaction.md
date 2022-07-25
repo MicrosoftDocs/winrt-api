@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.CommandBarDynamicOverflowAction : int
 ## -description
 Defines constants that specify whether items were added to or removed from the [CommandBar](commandbar.md) overflow menu.
 
-Equivalent WinUI enum: [CommandBarDynamicOverflowAction](/windows/winui/api/microsoft.ui.xaml.controls.commandbardynamicoverflowaction).
+
 
 ## -enum-fields
 ### -field AddingToOverflow:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](hub_header.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.hub.headerproperty).
+
 
 ## -property-value
 The identifier for the [Header](hub_header.md) dependency property.

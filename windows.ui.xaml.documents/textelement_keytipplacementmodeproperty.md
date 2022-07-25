@@ -12,7 +12,7 @@ public DependencyProperty KeyTipPlacementModeProperty { get; }
 ## -description
 Identifies the **KeyTipPlacementMode** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.KeyTipPlacementModeProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.keytipplacementmodeproperty).
+
 
 ## -property-value
 The identifier for the **KeyTipPlacementMode** dependency property.

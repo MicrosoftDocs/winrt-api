@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionPropertySet GetScrollViewerManipulation
 ## -description
 Retrieves the composition properties of a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Hosting.ElementCompositionPreview.GetScrollViewerManipulationPropertySet](/windows/winui/api/microsoft.ui.xaml.hosting.elementcompositionpreview.getscrollviewermanipulationpropertyset).
+
 
 ## -parameters
 ### -param scrollViewer

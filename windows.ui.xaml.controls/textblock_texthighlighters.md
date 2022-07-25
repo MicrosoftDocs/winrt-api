@@ -13,7 +13,7 @@ public IVector<TextHighlighter> TextHighlighters { get; }
 
 Gets the collection of text highlights. 
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.TextHighlighters](/windows/winui/api/microsoft.ui.xaml.controls.textblock.texthighlighters).
+
 
 ## -property-value
 

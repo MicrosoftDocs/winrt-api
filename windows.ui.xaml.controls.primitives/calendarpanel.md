@@ -12,7 +12,7 @@ public class CalendarPanel : Windows.UI.Xaml.Controls.Panel, Windows.UI.Xaml.Con
 ## -description
 Represents a panel that contains a calendar.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.CalendarPanel](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarpanel).
+
 
 ## -remarks
 

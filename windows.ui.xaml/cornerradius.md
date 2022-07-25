@@ -13,7 +13,7 @@ public struct CornerRadius
 
 Describes the characteristics of a rounded corner, such as can be applied to a [Border](../windows.ui.xaml.controls/border.md).
 
-Equivalent WinUI struct: [CornerRadius](/windows/winui/api/microsoft.ui.xaml.cornerradius).
+
 
 ## -xaml-syntax
 

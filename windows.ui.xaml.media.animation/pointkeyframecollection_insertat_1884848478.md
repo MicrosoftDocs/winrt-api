@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.PointK
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.insertat).
+
 
 ## -parameters
 ### -param index

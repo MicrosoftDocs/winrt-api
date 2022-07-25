@@ -13,7 +13,7 @@ public Windows.UI.Xaml.UIElement FindNextFocusableElement(Windows.UI.Xaml.Input.
 
 Retrieves the element that should receive focus based on the specified navigation direction and hint rectangle.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.FindNextFocusableElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.findnextfocusableelement).
+
 
 ## -parameters
 

@@ -12,7 +12,7 @@ public bool GetAlignRightWithPanel(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.AlignRightWithPanel](relativepanel_alignrightwithpanel.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignRightWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignrightwithpanel).
+
 
 ## -parameters
 ### -param element

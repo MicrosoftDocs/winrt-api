@@ -13,7 +13,7 @@ public enum InteractionTrackerPositionUpdateOption : int
 
 Defines constants that indicate whether an already running custom scale animation should be allowed to continue running.
 
-Equivalent WinUI enum: [Microsoft.UI.Composition.Interactions.InteractionTrackerPositionUpdateOption](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerpositionupdateoption).
+
 
 ## -enum-fields
 ### -field Default:0

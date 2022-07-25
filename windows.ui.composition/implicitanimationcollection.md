@@ -12,7 +12,7 @@ public class ImplicitAnimationCollection : Windows.UI.Composition.CompositionObj
 ## -description
 A collection of animations triggered when a condition is met.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.ImplicitAnimationCollection](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public class AutomationElementIdentifiers : Windows.UI.Xaml.Automation.IAutomati
 ## -description
 Contains values used as automation property identifiers by UI Automation providers and UI Automation clients.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers](/windows/winui/api/microsoft.ui.xaml.automation.automationelementidentifiers).
+
 
 ## -remarks
 Classes such as **AutomationElementIdentifiers** are the identifiers for the Windows Runtime implementation of a common provider pattern for Microsoft UI Automation. **AutomationElementIdentifiers** identifies the general automation peer properties that are part of the basic peer functionality, as opposed to being related to a specific automation control pattern. You might use these identifiers if you are implementing a Windows Runtime custom automation peer based on [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) or [FrameworkElementAutomationPeer](../windows.ui.xaml.automation.peers/frameworkelementautomationpeer.md). These identifiers are needed for the [RaisePropertyChangedEvent](../windows.ui.xaml.automation.peers/automationpeer_raisepropertychangedevent_715050195.md) calls that you make from control code that references your own peer, or for [FindItemByProperty](../windows.ui.xaml.automation.provider/iitemcontainerprovider_finditembyproperty_1997743353.md) in an items container peer.

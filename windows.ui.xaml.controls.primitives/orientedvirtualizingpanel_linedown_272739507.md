@@ -12,7 +12,7 @@ public void LineDown()
 ## -description
 Scrolls content by one line toward the bottom.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.LineDown](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.linedown).
+
 
 ## -remarks
 This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md) using a value for "line" of 16 pixels, which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 

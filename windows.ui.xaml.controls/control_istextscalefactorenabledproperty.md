@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsTextScaleFactorEnabledProperty { get
 ## -description
 Identifies the [IsTextScaleFactorEnabled](control_istextscalefactorenabled.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.IsTextScaleFactorEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.istextscalefactorenabledproperty).
+
 
 ## -property-value
 The identifier for the [IsTextScaleFactorEnabled](control_istextscalefactorenabled.md) dependency property.

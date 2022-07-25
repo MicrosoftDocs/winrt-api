@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.SemanticZoom SemanticZoomOwner { get;  set; }
 ## -description
 Gets or sets the [SemanticZoom](semanticzoom.md) instance that hosts the [ListViewBase](listviewbase.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.SemanticZoomOwner](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.semanticzoomowner).
+
 
 ## -property-value
 The [SemanticZoom](semanticzoom.md) instance that hosts this view, or **null** if the view is not hosted in a [SemanticZoom](semanticzoom.md) control. 

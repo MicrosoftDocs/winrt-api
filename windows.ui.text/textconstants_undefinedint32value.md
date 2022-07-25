@@ -12,7 +12,7 @@ public int UndefinedInt32Value { get; }
 ## -description
 Gets the undefined 32-bit integer value.
 
-Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.UndefinedInt32Value](/windows/winui/api/microsoft.ui.text.textconstants.undefinedint32value).
+
 
 ## -property-value
 The undefined 32-bit integer value.

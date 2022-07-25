@@ -12,7 +12,7 @@ public float MaxZoomFactor { get;  set; }
 ## -description
 Gets or sets a value that indicates the maximum permitted run-time value of [ZoomFactor](scrollviewer_zoomfactor.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.MaxZoomFactor](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.maxzoomfactor).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public class AdaptiveTrigger : Windows.UI.Xaml.StateTriggerBase, Windows.UI.Xaml
 
 Represents a declarative rule that applies visual states based on window properties.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.AdaptiveTrigger](/windows/winui/api/microsoft.ui.xaml.adaptivetrigger).
+
 
 ## -xaml-syntax
 

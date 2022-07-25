@@ -12,7 +12,7 @@ public void SetFraction(Windows.UI.Xaml.DependencyObject element, Windows.UI.Xam
 ## -description
 Sets the value of the [Fraction](typography_fraction.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetFraction](/windows/winui/api/microsoft.ui.xaml.documents.typography.setfraction).
+
 
 ## -parameters
 ### -param element

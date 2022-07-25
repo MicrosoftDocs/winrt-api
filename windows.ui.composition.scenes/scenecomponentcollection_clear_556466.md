@@ -14,7 +14,7 @@ public void SceneComponentCollection.Clear()
 
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneComponentCollection.Clear](/windows/winui/api/microsoft.ui.composition.scenes.scenecomponentcollection.clear).
+
 
 ## -remarks
 

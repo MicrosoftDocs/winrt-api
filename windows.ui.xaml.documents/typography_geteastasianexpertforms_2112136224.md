@@ -12,7 +12,7 @@ public bool GetEastAsianExpertForms(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [EastAsianExpertForms](typography_eastasianexpertforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetEastAsianExpertForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.geteastasianexpertforms).
+
 
 ## -parameters
 ### -param element

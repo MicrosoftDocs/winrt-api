@@ -12,7 +12,7 @@ public bool GetStylisticSet9(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [StylisticSet9](typography_stylisticset9.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetStylisticSet9](/windows/winui/api/microsoft.ui.xaml.documents.typography.getstylisticset9).
+
 
 ## -parameters
 ### -param element

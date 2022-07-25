@@ -113,11 +113,12 @@ You can always modify the look of a GridView by specifying Xaml resources in you
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the GridView in action](winui2gallery:/item/GridView).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Grid view](/windows/apps/design/controls/listview-and-gridview).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the GridView in action](winui2gallery:/item/GridView)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 Here, a GridView is bound to a grouped [CollectionViewSource](../windows.ui.xaml.data/collectionviewsource.md) named `cvsProjects`. The appearance of individual items in each group is defined by the [ItemTemplate](itemscontrol_itemtemplate.md). The [ItemsPanel](itemscontrol_itemspanel.md) specifies how the groups are arranged in the GridView. The [GroupStyle.Panel](groupstyle_panel.md) specifies how individual items are arranged within each group. The [GroupStyle.ContainerStyle](groupstyle_containerstyle.md) is used to add a border around each group, and set its minimum size and margins. The [HidesIfEmpty](groupstyle_hidesifempty.md) property is set to **true** to hide any empty groups.
 
@@ -251,4 +252,4 @@ In the following example, the corners of items in every GridView throughout the 
 ```
 
 ## -see-also
-[List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [GridView styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Item templates for GridView](/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](/windows/uwp/data-binding/data-binding-quickstart), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)
+[List view and grid view](/windows/uwp/design/controls-and-patterns/listview-and-gridview), [ListViewBase](listviewbase.md), [ISemanticZoomInformation](isemanticzoominformation.md), [Item templates for GridView](/windows/uwp/controls-and-patterns/item-templates-gridview), [Data binding overview](/windows/uwp/data-binding/data-binding-quickstart), [ListView](listview.md), [SemanticZoom](semanticzoom.md), [ListView and GridView sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlListView)

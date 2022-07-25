@@ -12,7 +12,7 @@ public void Resume()
 ## -description
 Resumes the animation clock, or run-time state, associated with the storyboard.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Resume](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.resume).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Text.FontWeight FontWeight { get;  set; }
 ## -description
 Gets or sets the thickness of the icon glyph.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.FontIcon.FontWeight](/windows/winui/api/microsoft.ui.xaml.controls.fonticon.fontweight).
+
 
 ## -xaml-syntax
 ```xaml

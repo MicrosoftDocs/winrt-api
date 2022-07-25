@@ -12,7 +12,7 @@ public class PointAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Animates the value of a [Point](../windows.foundation/point.md) property along a set of [KeyFrames](pointanimationusingkeyframes_keyframes.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimationusingkeyframes).
+
 
 ## -xaml-syntax
 ```xaml

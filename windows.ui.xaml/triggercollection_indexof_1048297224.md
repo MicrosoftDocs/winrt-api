@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.TriggerBase value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.triggercollection.indexof).
+
 
 ## -parameters
 ### -param value

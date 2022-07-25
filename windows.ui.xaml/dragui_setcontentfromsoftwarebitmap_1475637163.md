@@ -12,7 +12,7 @@ public void SetContentFromSoftwareBitmap(Windows.Graphics.Imaging.SoftwareBitmap
 ## -description
 Creates a visual element from a provided [SoftwareBitmap](../windows.graphics.imaging/softwarebitmap.md) to represent the dragged data in a drag-and-drop operation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DragUI.SetContentFromSoftwareBitmap](/windows/winui/api/microsoft.ui.xaml.dragui.setcontentfromsoftwarebitmap).
+
 
 ## -parameters
 ### -param softwareBitmap

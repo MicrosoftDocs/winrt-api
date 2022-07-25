@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HoverBorderBrushProperty { get; }
 ## -description
 Identifies the [HoverBorderBrush](calendarview_hoverborderbrush.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.HoverBorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.hoverborderbrushproperty).
+
 
 ## -property-value
 The identifier for the [HoverBorderBrush](calendarview_hoverborderbrush.md)   dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Documents.TextPointer GetPositionAtOffset(System.Int32 of
 ## -description
 Returns a [TextPointer](textpointer.md) to the position indicated by the specified offset, in symbols, from the beginning of the current [TextPointer](textpointer.md) and in the specified direction.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.TextPointer.GetPositionAtOffset](/windows/winui/api/microsoft.ui.xaml.documents.textpointer.getpositionatoffset).
+
 
 ## -parameters
 ### -param offset

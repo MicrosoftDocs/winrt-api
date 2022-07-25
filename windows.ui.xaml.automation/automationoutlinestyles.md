@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationOutlineStyles : int
 ## -description
 Defines the outline style.
 
-Equivalent WinUI enum: [AutomationOutlineStyles](/windows/winui/api/microsoft.ui.xaml.automation.automationoutlinestyles).
+
 
 ## -enum-fields
 ### -field None:0

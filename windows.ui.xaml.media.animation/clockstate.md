@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Animation.ClockState : int
 ## -description
 Describes the potential states of an animation.
 
-Equivalent WinUI enum: [ClockState](/windows/winui/api/microsoft.ui.xaml.media.animation.clockstate).
+
 
 ## -enum-fields
 ### -field Active:0

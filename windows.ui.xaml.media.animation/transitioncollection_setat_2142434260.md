@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.Transitio
 ## -description
 Sets the value at the specified index to the [Transition](transition.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TransitionCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.transitioncollection.setat).
+
 
 ## -parameters
 ### -param index

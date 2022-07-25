@@ -12,7 +12,7 @@ virtual protected void OnContentChanged(System.Object oldContent, System.Object 
 ## -description
 Invoked when the value of the [Content](contentcontrol_content.md) property changes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentControl.OnContentChanged](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.oncontentchanged).
+
 
 ## -parameters
 ### -param oldContent

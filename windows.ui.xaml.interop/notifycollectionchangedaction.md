@@ -17,7 +17,7 @@ Describes the action that caused a [CollectionChanged](inotifycollectionchanged_
 > **.NET**
 > This type appears as [System.Collections.Specialized.NotifyCollectionChangedAction](/dotnet/api/system.collections.specialized.notifycollectionchangedaction?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI enum: [NotifyCollectionChangedAction](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedaction).
+
 
 ## -enum-fields
 ### -field Add:0

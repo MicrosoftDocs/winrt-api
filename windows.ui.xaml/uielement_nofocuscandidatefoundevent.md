@@ -12,7 +12,7 @@ public RoutedEvent NoFocusCandidateFoundEvent { get; }
 ## -description
 Gets the identifier for the [NoFocusCandidateFound](uielement_nofocuscandidatefound.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.NoFocusCandidateFoundEvent](/windows/winui/api/microsoft.ui.xaml.uielement.nofocuscandidatefoundevent).
+
 
 ## -property-value
 The identifier for the [NoFocusCandidateFound](uielement_nofocuscandidatefound.md) routed event.

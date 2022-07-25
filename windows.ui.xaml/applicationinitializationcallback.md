@@ -10,7 +10,7 @@ public delegate void ApplicationInitializationCallback(Windows.UI.Xaml.Applicati
 ## -description
 Represents the callback that should be invoked during the initialization sequence.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.ApplicationInitializationCallback](/windows/winui/api/microsoft.ui.xaml.applicationinitializationcallback).
+
 
 ## -parameters
 ### -param p

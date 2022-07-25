@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsOutOfScopeEnabledProperty { get; }
 ## -description
 Identifies the [IsOutOfScopeEnabled](calendardatepicker_isoutofscopeenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsOutOfScopeEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.isoutofscopeenabledproperty).
+
 
 ## -property-value
 The identifier for the [IsOutOfScopeEnabled](calendardatepicker_isoutofscopeenabled.md) dependency property.

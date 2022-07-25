@@ -13,7 +13,7 @@ public class BounceScalarNaturalMotionAnimation : ScalarNaturalMotionAnimation, 
 
 A bounce physics-based animation that targets any Scalar-based property.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.BounceScalarNaturalMotionAnimation](/windows/winui/api/microsoft.ui.composition.bouncescalarnaturalmotionanimation).
+
 
 ## -remarks
 

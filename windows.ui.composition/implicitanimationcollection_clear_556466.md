@@ -12,7 +12,7 @@ public void Clear()
 ## -description
 Removes all animations from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.Clear](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.clear).
+
 
 ## -remarks
 

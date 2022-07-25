@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty OpticalMarginAlignmentProperty { get; 
 ## -description
 Identifies the [OpticalMarginAlignment](contentpresenter_opticalmarginalignment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.OpticalMarginAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.opticalmarginalignmentproperty).
+
 
 ## -property-value
 The identifier for the [OpticalMarginAlignment](contentpresenter_opticalmarginalignment.md) dependency property.

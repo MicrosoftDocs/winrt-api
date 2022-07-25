@@ -16,7 +16,7 @@ Gets or sets a string that overrides the default key combination string associat
 
 *Example of a menu showing keyboard accelerators for various menu items*
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.KeyboardAcceleratorTextOverride](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.keyboardacceleratortextoverride).
+
 
 ## -property-value
 The string to replace the default key combination string. The default is null.

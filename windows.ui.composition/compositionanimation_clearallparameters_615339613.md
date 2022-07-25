@@ -12,7 +12,7 @@ public void ClearAllParameters()
 ## -description
 Clears all of the parameters of the animation.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionAnimation.ClearAllParameters](/windows/winui/api/microsoft.ui.composition.compositionanimation.clearallparameters).
+
 
 ## -remarks
 

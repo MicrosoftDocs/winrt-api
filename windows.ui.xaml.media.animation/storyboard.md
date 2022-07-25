@@ -12,7 +12,7 @@ public class Storyboard : Windows.UI.Xaml.Media.Animation.Timeline, Windows.UI.X
 ## -description
 Controls animations with a timeline, and provides object and property targeting information for its child animations.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.Storyboard](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard).
+
 
 ## -xaml-syntax
 ```xaml

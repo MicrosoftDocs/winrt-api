@@ -12,7 +12,7 @@ public void Run()
 ## -description
 Passes execution to the view provider.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkView.Run](/windows/winui/api/microsoft.ui.xaml.frameworkview.run).
+
 
 ## -remarks
 

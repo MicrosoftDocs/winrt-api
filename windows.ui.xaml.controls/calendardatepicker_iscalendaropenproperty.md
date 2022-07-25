@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty IsCalendarOpenProperty { get; }
 ## -description
 Identifies the [IsCalendarOpen](calendardatepicker_iscalendaropen.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsCalendarOpenProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.iscalendaropenproperty).
+
 
 ## -property-value
 The identifier for the [IsCalendarOpen](calendardatepicker_iscalendaropen.md) dependency property.

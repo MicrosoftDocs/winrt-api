@@ -12,7 +12,7 @@ public void SetTextViaStream(Windows.UI.Text.TextSetOptions options, Windows.Sto
 ## -description
 Sets the text in the text range based on the contents of a random access stream.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.SetTextViaStream](/windows/winui/api/microsoft.ui.text.itextrange.settextviastream).
+
 
 ## -parameters
 ### -param options

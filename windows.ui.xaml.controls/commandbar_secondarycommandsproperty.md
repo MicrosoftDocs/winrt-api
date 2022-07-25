@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SecondaryCommandsProperty { get; }
 ## -description
 Identifies the [SecondaryCommands](commandbar_secondarycommands.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.SecondaryCommandsProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.secondarycommandsproperty).
+
 
 ## -property-value
 The identifier for the [SecondaryCommands](commandbar_secondarycommands.md) dependency property.

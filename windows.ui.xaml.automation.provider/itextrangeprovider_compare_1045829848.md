@@ -12,7 +12,7 @@ public bool Compare(Windows.UI.Xaml.Automation.Provider.ITextRangeProvider textR
 ## -description
 Returns a value that indicates whether the start and end points of a text range are the same as another text range.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.Compare](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.compare).
+
 
 ## -parameters
 ### -param textRangeProvider

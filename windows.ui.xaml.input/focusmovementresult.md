@@ -13,7 +13,7 @@ public class FocusMovementResult
 
 Represents the status of a focus operation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusMovementResult](/windows/winui/api/microsoft.ui.xaml.input.focusmovementresult).
+
 
 ## -remarks
 

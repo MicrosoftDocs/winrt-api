@@ -14,7 +14,7 @@ public SceneMaterial Material { get;  set; }
 
 Gets or sets the material that describes how the mesh surface is rendered.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent.Material](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent.material).
+
 
 ## -property-value
 

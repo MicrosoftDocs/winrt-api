@@ -12,7 +12,7 @@ virtual protected string GetFullDescriptionCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetFullDescription](automationpeer_getfulldescription_2065753949.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetFullDescriptionCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getfulldescriptioncore).
+
 
 ## -returns
 A localized string that describes the actual visual appearance or contents of something such as an image or image control.

@@ -12,7 +12,7 @@ public bool IsGrouping { get; }
 ## -description
 Gets a value that indicates whether the control is using grouping.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.IsGrouping](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.isgrouping).
+
 
 ## -property-value
 **true** if a control is using grouping; otherwise, **false**.

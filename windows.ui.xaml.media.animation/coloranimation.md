@@ -12,7 +12,7 @@ public class ColorAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Windows.
 ## -description
 Animates the value of a [Color](../windows.ui/color.md) property between two target values using linear interpolation over a specified [Duration](timeline_duration.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimation).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.SetterBase value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.Append](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.append).
+
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler PrimaryButtonClick<Windows.UI.
 ## -description
 Occurs after the primary button has been tapped.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ContentDialog.PrimaryButtonClick](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.primarybuttonclick).
+
 
 ## -xaml-syntax
 ```xaml

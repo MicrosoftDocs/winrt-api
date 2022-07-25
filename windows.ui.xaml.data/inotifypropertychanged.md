@@ -17,7 +17,7 @@ Notifies clients that a property value has changed.
 > **.NET**
 > This interface appears as [System.ComponentModel.INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.INotifyPropertyChanged](/windows/winui/api/microsoft.ui.xaml.data.inotifypropertychanged).
+
 
 ## -remarks
 When programming with .NET, this interface is hidden and developers should use the [System.ComponentModel.INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged?view=dotnet-uwp-10.0&preserve-view=true) interface.

@@ -12,7 +12,7 @@ public double FontRenderingEmSize { get;  set; }
 ## -description
 Gets or sets the em size used for rendering the glyphs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.FontRenderingEmSize](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.fontrenderingemsize).
+
 
 ## -xaml-syntax
 ```xaml

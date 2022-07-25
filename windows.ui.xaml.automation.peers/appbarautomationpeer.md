@@ -12,7 +12,7 @@ public class AppBarAutomationPeer : Windows.UI.Xaml.Automation.Peers.FrameworkEl
 ## -description
 Exposes [AppBar](../windows.ui.xaml.controls/appbar.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [AppBar](../windows.ui.xaml.controls/appbar.md) class creates a new AppBarAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from AppBarAutomationPeer if you are deriving a custom class from [AppBar](../windows.ui.xaml.controls/appbar.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

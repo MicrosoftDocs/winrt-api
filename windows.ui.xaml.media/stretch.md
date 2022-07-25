@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Stretch : int
 ## -description
 Describes how content is resized to fill its allocated space.
 
-Equivalent WinUI enum: [Stretch](/windows/winui/api/microsoft.ui.xaml.media.stretch).
+
 
 ## -xaml-syntax
 ```xaml

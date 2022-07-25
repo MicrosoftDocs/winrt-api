@@ -12,7 +12,7 @@ public class ThicknessHelper : Windows.UI.Xaml.IThicknessHelper
 ## -description
 Provides helper methods to evaluate or set [Thickness](thickness.md) values. C# and Microsoft Visual Basic code should use members of [Thickness](thickness.md) instead.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ThicknessHelper](/windows/winui/api/microsoft.ui.xaml.thicknesshelper).
+
 
 ## -remarks
 [Thickness](thickness.md) is a Windows Runtime structure that represents a pixel measure applied to the outside (margin) or inside (padding) render dimensions of a rectangular UI element. For example, [Border.BorderThickness](../windows.ui.xaml.controls/border_borderthickness.md) uses a [Thickness](thickness.md) value.

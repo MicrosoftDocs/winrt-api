@@ -12,7 +12,7 @@ public double GetTop(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [Canvas.Top](canvas_top.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Canvas.GetTop](/windows/winui/api/microsoft.ui.xaml.controls.canvas.gettop).
+
 
 ## -parameters
 ### -param element

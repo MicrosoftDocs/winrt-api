@@ -12,7 +12,7 @@ public Windows.Foundation.Numerics.Vector3 CenterPoint { get;  set; }
 ## -description
 The point about which rotation or scaling occurs. Animatable
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Visual.CenterPoint](/windows/winui/api/microsoft.ui.composition.visual.centerpoint).
+
 
 ## -property-value
 The point about which rotation or scaling occurs.

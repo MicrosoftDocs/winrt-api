@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler PaneClosed<Windows.UI.Xaml.Con
 ## -description
 Occurs when the [SplitView](splitview.md) pane is closed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.SplitView.PaneClosed](/windows/winui/api/microsoft.ui.xaml.controls.splitview.paneclosed).
+
 
 ## -xaml-syntax
 ```xaml

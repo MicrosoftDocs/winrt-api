@@ -14,7 +14,7 @@ Base class of the composition API representing a node in the visual tree structu
 
 Composition objects are the visual tree structure on which all other features of the composition API use and build on. The API allows developers to define and create one or many [Visual](visual.md) objects each representing a single node in a Visual tree.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionObject](/windows/winui/api/microsoft.ui.composition.compositionobject).
+
 
 ## -remarks
 Objects are created using a [Compositor](compositor.md) object. The composition objects can be containers only or can hold content. The API allows for ease of use by providing a clear set of Visual objects for specific tasks that exist in a hierarchy:

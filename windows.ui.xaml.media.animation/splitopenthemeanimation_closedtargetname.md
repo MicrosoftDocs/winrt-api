@@ -12,7 +12,7 @@ public string ClosedTargetName { get;  set; }
 ## -description
 Gets or sets the identifying name of the UI element that specifies the initial clip size.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitOpenThemeAnimation.ClosedTargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.splitopenthemeanimation.closedtargetname).
+
 
 ## -xaml-syntax
 ```xaml

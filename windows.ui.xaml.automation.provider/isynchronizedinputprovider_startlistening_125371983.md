@@ -12,7 +12,7 @@ public void StartListening(Windows.UI.Xaml.Automation.SynchronizedInputType inpu
 ## -description
 Starts listening for input of the specified type.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ISynchronizedInputProvider.StartListening](/windows/winui/api/microsoft.ui.xaml.automation.provider.isynchronizedinputprovider.startlistening).
+
 
 ## -parameters
 ### -param inputType

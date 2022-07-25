@@ -65,11 +65,12 @@ In order to support XAML processor access to the attached properties, and also t
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Layout panels](/windows/uwp/design/layout/layout-panels#canvas).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the Canvas in action](winui2gallery:/item/Canvas).
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Canvas](/windows/apps/design/layout/layout-panels#canvas).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the Canvas in action](winui2gallery:/item/Canvas)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 This example shows how to position a rectangle 30 pixels from the left and 30 pixels from the top of a Canvas.
 

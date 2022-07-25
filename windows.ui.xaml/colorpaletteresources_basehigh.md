@@ -14,7 +14,7 @@ public IReference<Color> BaseHigh { get;  set; }
 
 Gets or sets the BaseHigh color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.BaseHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.basehigh).
+
 
 ## -property-value
 

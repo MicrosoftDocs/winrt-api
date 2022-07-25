@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CenterYProperty { get; }
 ## -description
 Identifies the [CenterY](compositetransform_centery.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.CenterYProperty](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.centeryproperty).
+
 
 ## -property-value
 The identifier for the [CenterY](compositetransform_centery.md) dependency property.

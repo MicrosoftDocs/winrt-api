@@ -12,7 +12,7 @@ public double VerticalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the vertical direction when the transition is active.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ContentThemeTransition.VerticalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.contentthemetransition.verticaloffset).
+
 
 ## -xaml-syntax
 ```xaml

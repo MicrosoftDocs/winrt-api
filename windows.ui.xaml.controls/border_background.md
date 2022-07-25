@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush Background { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that fills the background (inner area) of the border.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.Background](/windows/winui/api/microsoft.ui.xaml.controls.border.background).
+
 
 ## -xaml-syntax
 ```xaml

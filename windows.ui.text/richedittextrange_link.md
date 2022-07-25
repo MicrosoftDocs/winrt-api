@@ -13,7 +13,7 @@ public string Link { get;  set; }
 
 Gets or sets the URL text associated with a text range.
 
-Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.Link](/windows/winui/api/microsoft.ui.text.richedittextrange.link).
+
 
 ## -property-value
 

@@ -15,7 +15,7 @@ public void ScrollToVerticalOffset(System.Double offset)
 
 Scrolls the content that is within the [ScrollViewer](scrollviewer.md) to the specified vertical offset position.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.ScrollToVerticalOffset](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.scrolltoverticaloffset).
+
 
 ## -parameters
 ### -param offset

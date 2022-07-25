@@ -12,7 +12,7 @@ public double ActualWidth { get; }
 ## -description
 Gets the rendered width of a [FrameworkElement](frameworkelement.md). See Remarks.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualWidth](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualwidth).
+
 
 ## -property-value
 The width, in pixels, of the object. The default is 0. The default might be encountered if the object has not been loaded and hasn't yet been involved in a layout pass that renders the UI.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DateFormatProperty { get; }
 ## -description
 Identifies the [DateFormat](calendardatepicker_dateformat.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DateFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.dateformatproperty).
+
 
 ## -property-value
 The identifier for the [DateFormat](calendardatepicker_dateformat.md) dependency property.

@@ -12,7 +12,7 @@ public class ManipulationInertiaStartingRoutedEventArgs : Windows.UI.Xaml.Routed
 ## -description
 Provides data for the [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingroutedeventargs).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent ManipulationDeltaEvent { get; }
 ## -description
 Gets the identifier for the [ManipulationDelta](uielement_manipulationdelta.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationDeltaEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationdeltaevent).
+
 
 ## -property-value
 The identifier for the [ManipulationDelta](uielement_manipulationdelta.md) routed event.

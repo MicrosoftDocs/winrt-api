@@ -12,7 +12,7 @@ public double LargeChange { get;  set; }
 ## -description
 Gets or sets a value to be added to or subtracted from the [Value](rangebase_value.md) of a [RangeBase](rangebase.md) control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.LargeChange](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.largechange).
+
 
 ## -xaml-syntax
 ```xaml

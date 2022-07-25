@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight SemiBold { get; }
 
 Specifies a font weight value of 600.
 
-Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.SemiBold](/windows/winui/api/microsoft.ui.text.fontweights.semibold).
+
 
 ## -property-value
 

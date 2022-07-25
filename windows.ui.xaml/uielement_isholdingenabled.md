@@ -12,7 +12,7 @@ public bool IsHoldingEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [Holding](uielement_holding.md) event can originate from that element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsHoldingEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.isholdingenabled).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public DependencyProperty DynamicOverflowOrderProperty { get; }
 
 Identifies the DynamicOverflowOrder dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrderProperty](/windows/winui/api/microsoft.ui.xaml.controls.appbarelementcontainer.dynamicoverfloworderproperty).
+
 
 ## -property-value
 

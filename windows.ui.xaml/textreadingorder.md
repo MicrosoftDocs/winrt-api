@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.TextReadingOrder : int
 ## -description
 Provides a value for **TextReadingOrder** properties.
 
-Equivalent WinUI enum: [TextReadingOrder](/windows/winui/api/microsoft.ui.xaml.textreadingorder).
+
 
 ## -xaml-syntax
 ```xaml

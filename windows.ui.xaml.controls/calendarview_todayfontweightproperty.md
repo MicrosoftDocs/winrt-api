@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TodayFontWeightProperty { get; }
 ## -description
 Identifies the [TodayFontWeight](calendarview_todayfontweight.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.TodayFontWeightProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.todayfontweightproperty).
+
 
 ## -property-value
 The identifier for the [TodayFontWeight](calendarview_todayfontweight.md)   dependency property.

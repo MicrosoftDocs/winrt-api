@@ -12,7 +12,7 @@ public interface IToggleProvider :
 ## -description
 Exposes methods and properties to support Microsoft UI Automation client access to controls that can cycle through a set of states and maintain a particular state. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Toggle](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IToggleProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itoggleprovider).
+
 
 ## -remarks
 Controls that do not maintain state when activated, such as buttons, toolbar buttons, and hyperlinks, must implement [IInvokeProvider](iinvokeprovider.md) instead. The **Toggle** pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Toggle Control Pattern](/windows/desktop/WinAuto/uiauto-implementingtoggle).

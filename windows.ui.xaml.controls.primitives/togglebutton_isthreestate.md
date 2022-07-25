@@ -12,7 +12,7 @@ public bool IsThreeState { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the control supports three states.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.IsThreeState](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.isthreestate).
+
 
 ## -xaml-syntax
 ```xaml

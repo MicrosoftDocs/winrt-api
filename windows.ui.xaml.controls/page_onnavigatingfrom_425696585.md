@@ -12,7 +12,7 @@ virtual protected void OnNavigatingFrom(Windows.UI.Xaml.Navigation.NavigatingCan
 ## -description
 Invoked immediately before the [Page](page.md) is unloaded and is no longer the current source of a parent [Frame](frame.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Page.OnNavigatingFrom](/windows/winui/api/microsoft.ui.xaml.controls.page.onnavigatingfrom).
+
 
 ## -parameters
 ### -param e

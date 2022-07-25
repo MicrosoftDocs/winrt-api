@@ -12,7 +12,7 @@ virtual protected void OnPointerWheelChanged(Windows.UI.Xaml.Input.PointerRouted
 ## -description
 Called before the [PointerWheelChanged](../windows.ui.xaml/uielement_pointerwheelchanged.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerWheelChanged](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointerwheelchanged).
+
 
 ## -parameters
 ### -param e

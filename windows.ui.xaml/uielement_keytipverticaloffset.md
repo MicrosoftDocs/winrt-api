@@ -12,7 +12,7 @@ public double KeyTipVerticalOffset { get;  set; }
 ## -description
 Gets or sets a value that indicates how far up or down the Key Tip is placed in relation to the UI element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyTipVerticalOffset](/windows/winui/api/microsoft.ui.xaml.uielement.keytipverticaloffset).
+
 
 ## -xaml-syntax
 ```xaml

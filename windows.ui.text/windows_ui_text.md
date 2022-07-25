@@ -8,7 +8,7 @@
 ## -description
 Provides support for working with textual content.
 
-Equivalent WinUI namespace: [Microsoft.UI.Text](/windows/winui/api/microsoft.ui.text).
+
 
 ## -remarks
 

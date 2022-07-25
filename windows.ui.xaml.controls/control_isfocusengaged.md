@@ -12,7 +12,7 @@ public bool IsFocusEngaged { get;  set; }
 ## -description
 Get or sets a value that indicates whether focus is constrained within the control boundaries (for game pad/remote interaction).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.IsFocusEngaged](/windows/winui/api/microsoft.ui.xaml.controls.control.isfocusengaged).
+
 
 ## -xaml-syntax
 ```xaml

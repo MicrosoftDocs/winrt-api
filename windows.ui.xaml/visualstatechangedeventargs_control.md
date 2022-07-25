@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Control Control { get;  set; }
 ## -description
 Gets the [Control](../windows.ui.xaml.controls/control.md) that is changing states.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateChangedEventArgs.Control](/windows/winui/api/microsoft.ui.xaml.visualstatechangedeventargs.control).
+
 
 ## -property-value
 The [Control](../windows.ui.xaml.controls/control.md) that is changing states.

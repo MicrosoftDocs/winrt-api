@@ -13,7 +13,7 @@ public void CompositorController.Commit()
 
 Calls commit on the compositor associated with this CompositorController.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Core.CompositorController.Commit](/windows/winui/api/microsoft.ui.composition.core.compositorcontroller.commit).
+
 
 ## -remarks
 

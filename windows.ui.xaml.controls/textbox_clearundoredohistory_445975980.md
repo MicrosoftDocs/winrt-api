@@ -14,7 +14,7 @@ public void TextBox.ClearUndoRedoHistory()
 
 Empties the undo and redo buffers.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.ClearUndoRedoHistory](/windows/winui/api/microsoft.ui.xaml.controls.textbox.clearundoredohistory).
+
 
 ## -remarks
 

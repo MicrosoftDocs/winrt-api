@@ -12,7 +12,7 @@ virtual protected string GetAcceleratorKeyCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetAcceleratorKey](automationpeer_getacceleratorkey_970307487.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAcceleratorKeyCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getacceleratorkeycore).
+
 
 ## -returns
 The accelerator key.

@@ -12,7 +12,7 @@ public enum Windows.UI.Text.SelectionOptions : uint
 ## -description
 Describes the options that apply to a selection.
 
-Equivalent WinUI enum: [SelectionOptions](/windows/winui/api/microsoft.ui.text.selectionoptions).
+
 
 ## -enum-fields
 ### -field StartActive:1

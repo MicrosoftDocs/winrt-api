@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.IBindableIterator First()
 ## -description
 Returns a bindable iterator that iterates over the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableIterable.First](/windows/winui/api/microsoft.ui.xaml.interop.ibindableiterable.first).
+
 
 ## -returns
 The bindable iterator.

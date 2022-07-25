@@ -12,7 +12,7 @@ public class ItemCollection : Windows.Foundation.Collections.IIterable<System.Ob
 ## -description
 Holds the list of items that represent the content of an [ItemsControl](itemscontrol.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemCollection](/windows/winui/api/microsoft.ui.xaml.controls.itemcollection).
+
 
 ## -xaml-syntax
 ```xaml

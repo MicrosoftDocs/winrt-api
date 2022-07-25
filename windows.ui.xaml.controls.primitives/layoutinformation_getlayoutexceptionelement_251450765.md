@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement GetLayoutExceptionElement(System.Object dispatc
 ## -description
 Returns the element that was being processed by the layout system at the moment of an unhandled exception.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetLayoutExceptionElement](/windows/winui/api/microsoft.ui.xaml.controls.primitives.layoutinformation.getlayoutexceptionelement).
+
 
 ## -parameters
 ### -param dispatcher

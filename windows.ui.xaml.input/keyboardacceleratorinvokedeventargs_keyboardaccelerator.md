@@ -12,7 +12,7 @@ public KeyboardAccelerator KeyboardAccelerator { get; }
 ## -description
 Gets the [keyboard shortcut (or accelerator)](keyboardaccelerator.md) object associated with the [Invoked](keyboardaccelerator_invoked.md) event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.KeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorinvokedeventargs.keyboardaccelerator).
+
 
 ## -property-value
 

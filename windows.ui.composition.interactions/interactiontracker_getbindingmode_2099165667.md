@@ -14,7 +14,7 @@ public InteractionBindingAxisModes InteractionTracker.GetBindingMode(Interaction
 
 Retrieves the binding axis mode between two interaction trackers.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.GetBindingMode](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.getbindingmode).
+
 
 ## -parameters
 ### -param boundTracker1

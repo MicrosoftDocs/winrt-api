@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler ViewChanged<Windows.UI.Xaml.Control
 ## -description
 Occurs when manipulations such as scrolling and zooming have caused the view to change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ScrollViewer.ViewChanged](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.viewchanged).
+
 
 ## -xaml-syntax
 ```xaml

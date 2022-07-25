@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AlignBottomWithPanelProperty { get; }
 ## -description
 Identifies the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignBottomWithPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignbottomwithpanelproperty).
+
 
 ## -property-value
 The identifier for the [RelativePanel.AlignBottomWithPanel](relativepanel_alignbottomwithpanel.md) XAML attached property.

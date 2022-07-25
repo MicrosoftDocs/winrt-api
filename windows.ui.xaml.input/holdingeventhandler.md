@@ -12,7 +12,7 @@ public delegate void HoldingEventHandler(System.Object sender, Windows.UI.Xaml.I
 ## -description
 Represents the method that will handle the [Holding](../windows.ui.xaml/uielement_holding.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.HoldingEventHandler](/windows/winui/api/microsoft.ui.xaml.input.holdingeventhandler).
+
 
 ## -parameters
 

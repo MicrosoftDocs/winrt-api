@@ -12,7 +12,7 @@ virtual protected void OnApplyTemplate()
 ## -description
 Invoked whenever application code or internal processes (such as a rebuilding layout pass) call [ApplyTemplate](../windows.ui.xaml.controls/control_applytemplate_1368990630.md). In simplest terms, this means the method is called just before a UI element displays in your app. Override this method to influence the default post-template logic of a class.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkElement.OnApplyTemplate](/windows/winui/api/microsoft.ui.xaml.frameworkelement.onapplytemplate).
+
 
 ## -remarks
 Although OnApplyTemplate is a method defined by the [FrameworkElement](frameworkelement.md) class, the OnApplyTemplate behavior and the scenarios for overriding OnApplyTemplate are mainly relevant to a [Control](../windows.ui.xaml.controls/control.md) subclass. This is because the [Template](../windows.ui.xaml.controls/control_template.md) property that you typically define in a XAML file and the internal Windows Runtime logic that applies the templates are specifically for controls. Specialized template behavior also exists for [ContentPresenter](../windows.ui.xaml.controls/contentpresenter.md) and [ContentControl](../windows.ui.xaml.controls/contentcontrol.md).

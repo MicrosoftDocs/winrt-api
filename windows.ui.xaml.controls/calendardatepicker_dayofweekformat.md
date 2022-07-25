@@ -12,7 +12,7 @@ public string DayOfWeekFormat { get;  set; }
 ## -description
 Gets or sets the display format for the day of the week headers in the picker's [CalendarView](calendarview.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DayOfWeekFormat](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.dayofweekformat).
+
 
 ## -xaml-syntax
 ```xaml

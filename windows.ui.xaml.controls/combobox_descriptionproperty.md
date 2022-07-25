@@ -14,7 +14,7 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](combobox_description.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.descriptionproperty).
+
 
 ## -property-value
 

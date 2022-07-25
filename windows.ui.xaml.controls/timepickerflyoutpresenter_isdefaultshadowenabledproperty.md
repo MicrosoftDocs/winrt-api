@@ -14,7 +14,7 @@ public DependencyProperty IsDefaultShadowEnabledProperty { get; }
 
 Identifies the [IsDefaultShadowEnabled](timepickerflyoutpresenter_isdefaultshadowenabled.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabledProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepickerflyoutpresenter.isdefaultshadowenabledproperty).
+
 
 ## -property-value
 

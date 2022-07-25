@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush FocusBorderBrush { get;  set; }
 ## -description
 Gets or sets a brush that provides the border of a calendar item that has focus.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.FocusBorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.focusborderbrush).
+
 
 ## -xaml-syntax
 ```xaml

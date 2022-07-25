@@ -13,7 +13,7 @@ public void CompositionShapeCollection.RemoveAtEnd()
 
 Removes the last item in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.RemoveAtEnd](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.removeatend).
+
 
 ## -remarks
 

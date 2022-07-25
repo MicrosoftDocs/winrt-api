@@ -12,7 +12,7 @@ public Windows.ApplicationModel.DataTransfer.DataPackageOperation DropResult { g
 ## -description
 Gets a value that indicates what operation was performed on the dragged data, and whether it was successful.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DragItemsCompletedEventArgs.DropResult](/windows/winui/api/microsoft.ui.xaml.controls.dragitemscompletedeventargs.dropresult).
+
 
 ## -property-value
 A value of the enumeration that indicates what operation was performed on the dragged data.

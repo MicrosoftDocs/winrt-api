@@ -12,7 +12,7 @@ public void Hide()
 ## -description
 Closes the flyout.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Hide](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.hide).
+
 
 ## -remarks
 

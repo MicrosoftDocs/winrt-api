@@ -12,7 +12,7 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 The color of the shadow. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.Color](/windows/winui/api/microsoft.ui.composition.dropshadow.color).
+
 
 ## -property-value
 The color of the shadow. Default color is Colors.Black.

@@ -12,7 +12,7 @@ public bool IsTodayHighlighted { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the current date is highlighted.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.IsTodayHighlighted](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.istodayhighlighted).
+
 
 ## -xaml-syntax
 ```xaml

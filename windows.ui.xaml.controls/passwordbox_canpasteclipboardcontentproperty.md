@@ -14,7 +14,7 @@ public DependencyProperty CanPasteClipboardContentProperty { get; }
 
 Identifies the CanPasteClipboardContent dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.CanPasteClipboardContentProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.canpasteclipboardcontentproperty).
+
 
 ## -property-value
 

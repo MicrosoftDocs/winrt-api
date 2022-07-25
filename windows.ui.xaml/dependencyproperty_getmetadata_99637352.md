@@ -12,7 +12,7 @@ public Windows.UI.Xaml.PropertyMetadata GetMetadata(Windows.UI.Xaml.Interop.Type
 ## -description
 Retrieves the property metadata value for the dependency property as registered to a type. You specify the type you want info from as a type reference.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.GetMetadata](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.getmetadata).
+
 
 ## -parameters
 ### -param forType

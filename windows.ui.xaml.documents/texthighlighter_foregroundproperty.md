@@ -13,7 +13,7 @@ public DependencyProperty ForegroundProperty { get; }
 
 Identifies the Foreground dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextHighlighter.ForegroundProperty](/windows/winui/api/microsoft.ui.xaml.documents.texthighlighter.foregroundproperty).
+
 
 ## -property-value
 

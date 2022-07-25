@@ -12,7 +12,7 @@ public class ContextRequestedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Window
 ## -description
 Provides event data for the [ContextRequested](../windows.ui.xaml/uielement_contextrequested.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ContextRequestedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.contextrequestedeventargs).
+
 
 ## -remarks
 

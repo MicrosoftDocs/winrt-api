@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CenterXProperty { get; }
 ## -description
 Identifies the [CenterX](rotatetransform_centerx.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.RotateTransform.CenterXProperty](/windows/winui/api/microsoft.ui.xaml.media.rotatetransform.centerxproperty).
+
 
 ## -property-value
 The identifier for the [CenterX](rotatetransform_centerx.md) dependency property.

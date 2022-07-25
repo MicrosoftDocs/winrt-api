@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DataProperty { get; }
 ## -description
 Identifies the [Data](path_data.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Path.DataProperty](/windows/winui/api/microsoft.ui.xaml.shapes.path.dataproperty).
+
 
 ## -property-value
 The identifier for the [Data](path_data.md) dependency property.

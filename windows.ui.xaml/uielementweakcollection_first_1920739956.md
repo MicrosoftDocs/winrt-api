@@ -14,7 +14,7 @@ public IIterator<UIElement> UIElementWeakCollection.First()
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.First](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.first).
+
 
 ## -returns
 

@@ -12,7 +12,7 @@ public void GetBoundingRectangles(System.Double[] returnValue)
 ## -description
 Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider.GetBoundingRectangles](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextrangeprovider.getboundingrectangles).
+
 
 ## -parameters
 ### -param returnValue

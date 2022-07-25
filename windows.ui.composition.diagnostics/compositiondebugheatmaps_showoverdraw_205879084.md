@@ -13,7 +13,7 @@ public void CompositionDebugHeatMaps.ShowOverdraw(Visual subtree, CompositionDeb
 
 Highlights pixels affected by multiple visuals at the same time.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Diagnostics.CompositionDebugHeatMaps.ShowOverdraw](/windows/winui/api/microsoft.ui.composition.diagnostics.compositiondebugheatmaps.showoverdraw).
+
 
 ## -parameters
 ### -param subtree

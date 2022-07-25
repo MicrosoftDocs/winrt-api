@@ -12,7 +12,7 @@ public void PageRight()
 ## -description
 Scrolls content by one page toward the right.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.PageRight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.pageright).
+
 
 ## -remarks
 This implementation calls [SetHorizontalOffset](orientedvirtualizingpanel_sethorizontaloffset_1971679761.md) using a value for "page" that is same as the [ViewportWidth](orientedvirtualizingpanel_viewportwidth.md). 

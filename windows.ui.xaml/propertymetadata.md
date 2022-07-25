@@ -12,8 +12,6 @@ public class PropertyMetadata : Windows.UI.Xaml.IPropertyMetadata
 ## -description
 Defines behavior aspects of a dependency property, including conditions it was registered with. For more info on how PropertyMetadata is used for dependency properties, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.PropertyMetadata](/windows/winui/api/microsoft.ui.xaml.propertymetadata).
-
 ## -remarks
 Defining a PropertyMetadata instance is part of the scenario for defining a custom dependency property. For info and examples, see [Custom dependency properties](/windows/uwp/xaml-platform/custom-dependency-properties).
 

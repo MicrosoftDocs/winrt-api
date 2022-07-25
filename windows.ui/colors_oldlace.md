@@ -13,7 +13,7 @@ public Windows.UI.Color OldLace { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFDF5E6.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.OldLace](/windows/winui/api/microsoft.ui.colors.oldlace).
+
 
 ## -property-value
 

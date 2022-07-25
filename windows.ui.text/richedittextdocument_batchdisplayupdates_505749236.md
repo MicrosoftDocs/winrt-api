@@ -14,7 +14,7 @@ public int RichEditTextDocument.BatchDisplayUpdates()
 
 Increments an internal counter that controls whether text updates are displayed immediately or batched.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.BatchDisplayUpdates](/windows/winui/api/microsoft.ui.text.richedittextdocument.batchdisplayupdates).
+
 
 ## -returns
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.TypeName UnderlyingType { get; }
 ## -description
 Gets information for the backing type.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.UnderlyingType](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.underlyingtype).
+
 
 ## -property-value
 The backing type as represented by the relevant type system or interop support type. This is a type reference ([System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).

@@ -12,7 +12,7 @@ public void Append(System.Double value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.DoubleCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.append).
+
 
 ## -parameters
 ### -param value

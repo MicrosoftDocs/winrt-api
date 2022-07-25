@@ -15,7 +15,7 @@ Represents a keyboard shortcut (or accelerator) that lets a user perform an acti
 
 Accelerators are typically assigned to buttons or menu items.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.KeyboardAccelerator](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator).
+
 
 ## -remarks
 

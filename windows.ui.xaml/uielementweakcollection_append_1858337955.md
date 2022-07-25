@@ -14,7 +14,7 @@ public void UIElementWeakCollection.Append(UIElement value)
 
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.Append](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.append).
+
 
 ## -parameters
 ### -param value

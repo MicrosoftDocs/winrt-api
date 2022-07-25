@@ -12,7 +12,7 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.FadeOutThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.fadeoutthemeanimation.targetname).
+
 
 ## -xaml-syntax
 ```xaml

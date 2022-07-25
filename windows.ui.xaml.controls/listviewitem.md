@@ -12,7 +12,7 @@ public class ListViewItem : Windows.UI.Xaml.Controls.Primitives.SelectorItem, Wi
 ## -description
 Represents the container for an item in a [ListView](listview.md) control.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListViewItem](/windows/winui/api/microsoft.ui.xaml.controls.listviewitem).
+
 
 ## -xaml-syntax
 ```xaml
@@ -35,7 +35,7 @@ You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemp
 
 If you style the control template, do not try to bind properties like [IsSelected](../windows.ui.xaml.controls.primitives/selectoritem_isselected.md) or [Background](control_background.md) properties on the ListViewItemPresenter, perhaps to implement your own selection binding system, since your binding may be replaced by the control's internal mechanism.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/uwp/controls-and-patterns/styling-controls) section of the [Styling controls](/windows/uwp/controls-and-patterns/styling-controls) article.
+Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
 This table shows the resources used by the ListViewItem control.
 
@@ -93,4 +93,4 @@ In Windows 8.1, the item container's [DataContext](../windows.ui.xaml/framework
 ## -examples
 
 ## -see-also
-[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListView](listview.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [ListViewItem styles and templates](/windows/uwp/design/controls-and-patterns/xaml-styles), [Item templates for ListView](/windows/uwp/controls-and-patterns/item-templates-listview)
+[SelectorItem](../windows.ui.xaml.controls.primitives/selectoritem.md), [ListView](listview.md), [ItemContainerStyle](itemscontrol_itemcontainerstyle.md), [Item templates for ListView](/windows/uwp/controls-and-patterns/item-templates-listview)

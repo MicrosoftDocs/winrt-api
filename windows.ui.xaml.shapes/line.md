@@ -12,7 +12,7 @@ public class Line : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.ILine
 ## -description
 Draws a straight line between two points.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Line](/windows/winui/api/microsoft.ui.xaml.shapes.line).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public IReference<Color> ChromeDisabledHigh { get;  set; }
 
 Gets or sets the ChromeDisabledHigh color value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ColorPaletteResources.ChromeDisabledHigh](/windows/winui/api/microsoft.ui.xaml.colorpaletteresources.chromedisabledhigh).
+
 
 ## -property-value
 

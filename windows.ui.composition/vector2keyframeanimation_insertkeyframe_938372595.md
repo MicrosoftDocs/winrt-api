@@ -12,7 +12,7 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, Windows.Foundati
 ## -description
 Inserts a key frame.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Vector2KeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.vector2keyframeanimation.insertkeyframe).
+
 
 ## -parameters
 ### -param normalizedProgressKey

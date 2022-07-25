@@ -14,7 +14,7 @@ public DependencyProperty CanRedoProperty { get; }
 
 Identifies the CanRedo dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CanRedoProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canredoproperty).
+
 
 ## -property-value
 

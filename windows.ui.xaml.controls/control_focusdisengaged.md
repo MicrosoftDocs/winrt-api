@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler FocusDisengaged<Windows.UI.Xam
 ## -description
 Occurs when focus is released from the control boundaries (for game pad/remote interaction).
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Control.FocusDisengaged](/windows/winui/api/microsoft.ui.xaml.controls.control.focusdisengaged).
+
 
 ## -xaml-syntax
 ```xaml

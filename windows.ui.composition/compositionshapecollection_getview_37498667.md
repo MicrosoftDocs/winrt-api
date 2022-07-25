@@ -13,7 +13,7 @@ public IVectorView<CompositionShape> CompositionShapeCollection.GetView()
 
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.GetView](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.getview).
+
 
 ## -returns
 

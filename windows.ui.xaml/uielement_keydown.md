@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.KeyEventHandler KeyDown
 
 Occurs when a keyboard key is pressed while the [UIElement](uielement.md) has focus.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.KeyDown](/windows/winui/api/microsoft.ui.xaml.uielement.keydown).
+
 
 ## -xaml-syntax
 

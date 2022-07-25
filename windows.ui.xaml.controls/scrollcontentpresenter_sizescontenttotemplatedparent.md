@@ -14,7 +14,7 @@ public bool SizesContentToTemplatedParent { get;  set; }
 
 Gets or sets a value that indicates whether, when used in the ControlTemplate for a ScrollViewer, the presenter restricts the size of its [Content](contentpresenter_content.md) to the owning ScrollViewer size.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollContentPresenter.SizesContentToTemplatedParent](/windows/winui/api/microsoft.ui.xaml.controls.scrollcontentpresenter.sizescontenttotemplatedparent).
+
 
 ## -property-value
 

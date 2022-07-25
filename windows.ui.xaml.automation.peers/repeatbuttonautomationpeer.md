@@ -12,7 +12,6 @@ public class RepeatButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.Butto
 ## -description
 Exposes [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.RepeatButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.repeatbuttonautomationpeer).
 
 ## -remarks
 The Windows Runtime  [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class creates a new RepeatButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) is sealed, so the normal scenario of deriving from the [RepeatButton](../windows.ui.xaml.controls.primitives/repeatbutton.md) class and its existing peer isn't applicable to RepeatButtonAutomationPeer.

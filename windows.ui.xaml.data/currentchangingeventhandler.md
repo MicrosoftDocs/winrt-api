@@ -10,7 +10,7 @@ public delegate void CurrentChangingEventHandler(System.Object sender, Windows.U
 ## -description
 Represents a method that can handle the [CurrentChanging](icollectionview_currentchanging.md) event of an [ICollectionView](icollectionview.md) implementation.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Data.CurrentChangingEventHandler](/windows/winui/api/microsoft.ui.xaml.data.currentchangingeventhandler).
+
 
 ## -parameters
 ### -param sender

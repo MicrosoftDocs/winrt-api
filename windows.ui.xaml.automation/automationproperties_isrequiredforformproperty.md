@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty IsRequiredForFormProperty { get; }
 
 Identifies the [AutomationProperties.IsRequiredForForm](automationproperties_isrequiredforform.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.IsRequiredForFormProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.isrequiredforformproperty).
+
 
 ## -property-value
 

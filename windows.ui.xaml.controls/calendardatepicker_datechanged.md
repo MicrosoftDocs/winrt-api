@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler DateChanged<Windows.UI.Xaml.Co
 ## -description
 Occurs when the date value is changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.DateChanged](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.datechanged).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Imaging.DecodePixelType : int
 ## -description
 Provides values that can be used for decoding operations to optimize for logical versus physical pixels in the source image file.
 
-Equivalent WinUI enum: [DecodePixelType](/windows/winui/api/microsoft.ui.xaml.media.imaging.decodepixeltype).
+
 
 ## -enum-fields
 ### -field Physical:0

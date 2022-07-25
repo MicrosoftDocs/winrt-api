@@ -12,7 +12,7 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text contents of the text box.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.Text](/windows/winui/api/microsoft.ui.xaml.controls.textbox.text).
+
 
 ## -xaml-syntax
 ```xaml

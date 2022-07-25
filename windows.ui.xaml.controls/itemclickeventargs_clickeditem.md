@@ -12,7 +12,7 @@ public object ClickedItem { get; }
 ## -description
 Gets a reference to the clicked item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemClickEventArgs.ClickedItem](/windows/winui/api/microsoft.ui.xaml.controls.itemclickeventargs.clickeditem).
+
 
 ## -property-value
 The clicked item.

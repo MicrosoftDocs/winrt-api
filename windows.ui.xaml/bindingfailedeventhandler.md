@@ -10,7 +10,7 @@ public delegate void BindingFailedEventHandler(System.Object sender, Windows.UI.
 ## -description
 Represents the method that will handle the [DebugSettings.BindingFailed](debugsettings_bindingfailed.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.BindingFailedEventHandler](/windows/winui/api/microsoft.ui.xaml.bindingfailedeventhandler).
+
 
 ## -parameters
 ### -param sender

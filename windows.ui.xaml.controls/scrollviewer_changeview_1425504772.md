@@ -12,7 +12,7 @@ public bool ChangeView(Windows.Foundation.IReference<System.Double> horizontalOf
 ## -description
 Causes the [ScrollViewer](scrollviewer.md) to load a new view into the viewport using the specified offsets and zoom factor.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.ChangeView](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.changeview).
+
 
 ## -parameters
 ### -param horizontalOffset

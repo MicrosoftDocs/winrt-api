@@ -13,7 +13,7 @@ public Windows.UI.Color LemonChiffon { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFFACD.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.LemonChiffon](/windows/winui/api/microsoft.ui.colors.lemonchiffon).
+
 
 ## -property-value
 

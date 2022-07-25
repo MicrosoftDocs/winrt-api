@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Data.RelativeSourceMode : int
 ## -description
 Defines constants that describe the location of the binding source relative to the position of the binding target.
 
-Equivalent WinUI enum: [RelativeSourceMode](/windows/winui/api/microsoft.ui.xaml.data.relativesourcemode).
+
 
 ## -xaml-syntax
 ```xaml

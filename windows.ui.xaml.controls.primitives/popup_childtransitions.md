@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ChildTransitions { g
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to child content of a [Popup](popup.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.Popup.ChildTransitions](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popup.childtransitions).
+
 
 ## -xaml-syntax
 ```xaml

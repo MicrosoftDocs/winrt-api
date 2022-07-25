@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Style CalendarViewDayItemStyle { get;  set; }
 ## -description
 Gets or sets the [Style](../windows.ui.xaml/style.md) associated with the control's internal [CalendarViewDayItem](calendarviewdayitem.md) object.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarViewDayItemStyle](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendarviewdayitemstyle).
+
 
 ## -xaml-syntax
 ```xaml

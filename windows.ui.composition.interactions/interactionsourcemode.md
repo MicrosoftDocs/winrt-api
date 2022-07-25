@@ -18,7 +18,7 @@ Provides the various definitions for how a [VisualInteractionSource](visualinter
     **EnabledWithoutInertia**
   . The InteractionSourceMode can be used to define the behavior for the X, Y and Scale Axis of a [VisualInteractionSource](visualinteractionsource.md).
 
-Equivalent WinUI enum: [InteractionSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourcemode).
+
 
 ## -enum-fields
 ### -field Disabled:0

@@ -13,7 +13,7 @@ public IReference<Vector2> InitialValue { get;  set; }
 
 Gets or sets a value that indicates where the animation starts.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Vector2NaturalMotionAnimation.InitialValue](/windows/winui/api/microsoft.ui.composition.vector2naturalmotionanimation.initialvalue).
+
 
 ## -property-value
 

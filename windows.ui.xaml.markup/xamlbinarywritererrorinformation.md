@@ -12,7 +12,7 @@ public struct XamlBinaryWriterErrorInformation
 ## -description
 Records error information produced by calls to [XamlBinaryWriter.Write](xamlbinarywriter_write_504090345.md).
 
-Equivalent WinUI struct: [XamlBinaryWriterErrorInformation](/windows/winui/api/microsoft.ui.xaml.markup.xamlbinarywritererrorinformation).
+
 
 ## -struct-fields
 

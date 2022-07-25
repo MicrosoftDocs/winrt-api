@@ -13,7 +13,7 @@ public CompositionColorSpace InterpolationSpace { get;  set; }
 
 Gets or sets a value that specifies how the gradient's colors are interpolated.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.InterpolationSpace](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.interpolationspace).
+
 
 ## -property-value
 

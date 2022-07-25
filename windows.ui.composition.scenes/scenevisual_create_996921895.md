@@ -14,7 +14,7 @@ public SceneVisual SceneVisual.Create(Compositor compositor)
 
 Creates an instance of SceneVisual.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneVisual.Create](/windows/winui/api/microsoft.ui.composition.scenes.scenevisual.create).
+
 
 ## -parameters
 ### -param compositor

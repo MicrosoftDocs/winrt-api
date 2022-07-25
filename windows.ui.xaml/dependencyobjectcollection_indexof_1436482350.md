@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.DependencyObject value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyObjectCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.dependencyobjectcollection.indexof).
+
 
 ## -parameters
 ### -param value

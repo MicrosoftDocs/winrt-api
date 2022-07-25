@@ -12,7 +12,7 @@ public class ItemClickEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xa
 ## -description
 Provides event data for the [ItemClick](listviewbase_itemclick.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ItemClickEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.itemclickeventargs).
+
 
 ## -remarks
 

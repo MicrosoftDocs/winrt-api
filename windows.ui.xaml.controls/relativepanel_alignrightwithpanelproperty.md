@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AlignRightWithPanelProperty { get; }
 ## -description
 Identifies the [RelativePanel.AlignRightWithPanel](relativepanel_alignrightwithpanel.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.AlignRightWithPanelProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.alignrightwithpanelproperty).
+
 
 ## -property-value
 The identifier for the [RelativePanel.AlignRightWithPanel](relativepanel_alignrightwithpanel.md) XAML attached property.

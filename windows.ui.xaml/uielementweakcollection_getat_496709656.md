@@ -14,7 +14,7 @@ public UIElement UIElementWeakCollection.GetAt(UInt32 index)
 
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElementWeakCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.getat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect AllCaps { get;  set; }
 ## -description
 Gets or sets whether the characters are all uppercase.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.AllCaps](/windows/winui/api/microsoft.ui.text.itextcharacterformat.allcaps).
+
 
 ## -property-value
 The uppercase state.

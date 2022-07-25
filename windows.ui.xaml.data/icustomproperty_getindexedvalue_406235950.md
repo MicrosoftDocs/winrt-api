@@ -12,7 +12,7 @@ public object GetIndexedValue(System.Object target, System.Object index)
 ## -description
 Gets the value at an index location, for cases where the custom property has indexer support.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomProperty.GetIndexedValue](/windows/winui/api/microsoft.ui.xaml.data.icustomproperty.getindexedvalue).
+
 
 ## -parameters
 ### -param target

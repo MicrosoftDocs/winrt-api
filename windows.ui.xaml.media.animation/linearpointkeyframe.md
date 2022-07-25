@@ -12,7 +12,7 @@ public class LinearPointKeyFrame : Windows.UI.Xaml.Media.Animation.PointKeyFrame
 ## -description
 Animates from the [Point](../windows.foundation/point.md) value of the previous key frame to its own [Value](pointkeyframe_value.md), using linear interpolation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.LinearPointKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.linearpointkeyframe).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get;
 ## -description
 Identifies the [AllowFocusOnInteraction](textelement_allowfocusoninteraction.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.TextElement.AllowFocusOnInteractionProperty](/windows/winui/api/microsoft.ui.xaml.documents.textelement.allowfocusoninteractionproperty).
+
 
 ## -property-value
 The identifier for the [AllowFocusOnInteraction](textelement_allowfocusoninteraction.md) dependency property.

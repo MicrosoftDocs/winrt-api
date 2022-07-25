@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent ManipulationInertiaStartingEvent { get; }
 ## -description
 Gets the identifier for the [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationInertiaStartingEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationinertiastartingevent).
+
 
 ## -property-value
 The identifier for the [ManipulationInertiaStarting](uielement_manipulationinertiastarting.md) routed event.

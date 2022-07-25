@@ -12,7 +12,7 @@ public double Minimum { get;  set; }
 ## -description
 Gets or sets the Minimum possible [Value](rangebase_value.md) of the range element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.Minimum](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.minimum).
+
 
 ## -xaml-syntax
 ```xaml

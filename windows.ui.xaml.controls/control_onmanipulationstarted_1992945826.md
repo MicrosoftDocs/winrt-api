@@ -12,7 +12,7 @@ virtual protected void OnManipulationStarted(Windows.UI.Xaml.Input.ManipulationS
 ## -description
 Called before the [ManipulationStarted](../windows.ui.xaml/uielement_manipulationstarted.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnManipulationStarted](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationstarted).
+
 
 ## -parameters
 ### -param e

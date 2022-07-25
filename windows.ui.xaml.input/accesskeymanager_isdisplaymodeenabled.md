@@ -12,7 +12,7 @@ public bool IsDisplayModeEnabled { get; }
 ## -description
 Gets a value that indicates whether the app has started an access key sequence.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.AccessKeyManager.IsDisplayModeEnabled](/windows/winui/api/microsoft.ui.xaml.input.accesskeymanager.isdisplaymodeenabled).
+
 
 ## -property-value
 **true** if an access key sequence has started; otherwise, **false**.

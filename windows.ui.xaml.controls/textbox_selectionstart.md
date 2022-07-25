@@ -12,7 +12,7 @@ public int SelectionStart { get;  set; }
 ## -description
 Gets or sets the starting position of the text selected in the text box. When the SelectionLength is 0 (there is no selected text), the SelectionStart property corresponds to the cursor position.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectionStart](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionstart).
+
 
 ## -xaml-syntax
 ```xaml

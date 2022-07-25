@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MappingModeProperty { get; }
 ## -description
 Identifies the [MappingMode](gradientbrush_mappingmode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientBrush.MappingModeProperty](/windows/winui/api/microsoft.ui.xaml.media.gradientbrush.mappingmodeproperty).
+
 
 ## -property-value
 The identifier for the [MappingMode](gradientbrush_mappingmode.md) dependency property.

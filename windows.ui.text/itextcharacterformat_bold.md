@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect Bold { get;  set; }
 ## -description
 Gets or sets whether the characters are bold.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Bold](/windows/winui/api/microsoft.ui.text.itextcharacterformat.bold).
+
 
 ## -property-value
 The bold state.

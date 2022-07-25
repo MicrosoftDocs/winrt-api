@@ -12,7 +12,7 @@ public class DragDeltaEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.UI.Xa
 ## -description
 Provides data for the [DragDelta](thumb_dragdelta.md) event that occurs one or more times when a user drags a [Thumb](thumb.md) control with the mouse.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.DragDeltaEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.primitives.dragdeltaeventargs).
+
 
 ## -remarks
 

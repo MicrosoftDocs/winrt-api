@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PathFigure GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathFigureCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.pathfigurecollection.getat).
+
 
 ## -parameters
 ### -param index

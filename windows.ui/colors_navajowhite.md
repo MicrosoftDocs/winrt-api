@@ -13,7 +13,7 @@ public Windows.UI.Color NavajoWhite { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFDEAD.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.NavajoWhite](/windows/winui/api/microsoft.ui.colors.navajowhite).
+
 
 ## -property-value
 

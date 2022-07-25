@@ -13,7 +13,7 @@ public Vector2NaturalMotionAnimation NaturalMotion { get;  set; }
 
 Gets or set a [Vector2NaturalMotionAnimation](../windows.ui.composition/vector2naturalmotionanimation.md) that describes the modified motion for [InteractionTracker](interactiontracker.md) if the expression in the Condition property is **true**.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerVector2InertiaNaturalMotion.NaturalMotion](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackervector2inertianaturalmotion.naturalmotion).
+
 
 ## -property-value
 

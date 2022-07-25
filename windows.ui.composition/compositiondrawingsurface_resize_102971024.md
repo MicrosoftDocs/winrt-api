@@ -12,7 +12,7 @@ public void CompositionDrawingSurface.Resize(SizeInt32 sizePixels)
 ## -description
 Resizes the drawing surface to the specified size.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionDrawingSurface.Resize](/windows/winui/api/microsoft.ui.composition.compositiondrawingsurface.resize).
+
 
 ## -parameters
 

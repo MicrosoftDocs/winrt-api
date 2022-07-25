@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationBulletStyle : int
 ## -description
 Defines the style of bullets used by the automation.
 
-Equivalent WinUI enum: [AutomationBulletStyle](/windows/winui/api/microsoft.ui.xaml.automation.automationbulletstyle).
+
 
 ## -enum-fields
 ### -field None:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.LightDismissOverlayMode LightDismissOverlayMode 
 ## -description
 Gets or sets a value that specifies whether the area outside of a *light-dismiss* UI is darkened.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayMode](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.lightdismissoverlaymode).
+
 
 ## -property-value
 A value of the enumeration that specifies whether the area outside of a light-dismiss UI is darkened. The default is **Auto**.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ContentTransitionsProperty { get; }
 ## -description
 Identifies the [ContentTransitions](contentpresenter_contenttransitions.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentPresenter.ContentTransitionsProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentpresenter.contenttransitionsproperty).
+
 
 ## -property-value
 The identifier for the [ContentTransitions](contentpresenter_contenttransitions.md) dependency property.

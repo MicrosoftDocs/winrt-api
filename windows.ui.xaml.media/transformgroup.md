@@ -12,7 +12,7 @@ public class TransformGroup : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.M
 ## -description
 Represents a composite [Transform](transform.md) composed of other [Transform](transform.md) objects.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.TransformGroup](/windows/winui/api/microsoft.ui.xaml.media.transformgroup).
+
 
 ## -xaml-syntax
 ```xaml

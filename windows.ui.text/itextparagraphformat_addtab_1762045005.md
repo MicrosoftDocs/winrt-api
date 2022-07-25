@@ -12,7 +12,7 @@ public void AddTab(System.Single position, Windows.UI.Text.TabAlignment align, W
 ## -description
 Adds a new tab at the specified position.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.AddTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.addtab).
+
 
 ## -parameters
 ### -param position

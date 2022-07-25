@@ -12,7 +12,7 @@ public interface IDropTargetProvider :
 ## -description
 Enables a Microsoft UI Automation element to describe itself as an element that can receive a drop of a dragged element as part of a drag-and-drop operation. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.DropTarget](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.idroptargetprovider).
+
 
 ## -remarks
 A drop target reports the action if the user drops the dragged item on the peer's owner as drop target. These action results are called *effects*. The effects are descriptive strings, not visual effects in a UI and design sense. For more info on what this pattern is for, see [DropTarget Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdroptarget).

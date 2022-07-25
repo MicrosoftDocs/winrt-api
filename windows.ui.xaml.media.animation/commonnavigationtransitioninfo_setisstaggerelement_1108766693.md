@@ -12,7 +12,7 @@ public void SetIsStaggerElement(Windows.UI.Xaml.UIElement element, System.Boolea
 ## -description
 Sets a Boolean value indicating if the specified **UIElement** is the stagger element for the navigation transition.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.CommonNavigationTransitionInfo.SetIsStaggerElement](/windows/winui/api/microsoft.ui.xaml.media.animation.commonnavigationtransitioninfo.setisstaggerelement).
+
 
 ## -parameters
 ### -param element

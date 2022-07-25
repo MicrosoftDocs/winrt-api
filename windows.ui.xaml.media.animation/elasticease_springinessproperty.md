@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SpringinessProperty { get; }
 ## -description
 Identifies the [Springiness](elasticease_springiness.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ElasticEase.SpringinessProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.elasticease.springinessproperty).
+
 
 ## -property-value
 The identifier for the [Springiness](elasticease_springiness.md) dependency property.

@@ -44,7 +44,7 @@ Starting in Windows 10, performance improvements were made to TextBlock that de
 
 ### Built-in text styles
 
-You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources).
+You can use Windows 10 text styles that ship with the platform to align the style of your text with the text used in the system. Here's how to use built-in styles to align with the Windows 10 type ramp. For more info, see [XAML theme resources](/windows/apps/design/style/xaml-theme-resources).
 
 ```xaml
 <TextBlock Text="Header" Style="{StaticResource HeaderTextBlockStyle}"/>
@@ -88,12 +88,12 @@ The rendered text looks like this:
 ## -examples
 
 > [!TIP]
-> For more info, design guidance, and code examples, see [Text block](/windows/uwp/design/controls-and-patterns/text-block).
->
-> If you have the **WinUI 2 Gallery** app installed, click here to [open the app and see the TextBlock in action](winui2gallery:/item/TextBlock).
->
-> + [Get the WinUI 2 Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
-> + [Get the source code (GitHub)](https://github.com/Microsoft/WinUI-Gallery)
+> For more info, design guidance, and code examples, see [Text block](/windows/apps/design/controls/text-block).
+
+> [!div class="nextstepaction"]
+> [Open the WinUI 2 Gallery app and see the TextBlock in action](winui2gallery:/item/TextBlock)
+
+> The **WinUI 2 Gallery** app includes interactive examples of most WinUI 2 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9MSVH128X2ZT) or get the source code on [GitHub](https://github.com/Microsoft/WinUI-Gallery/tree/winui2).
 
 This example demonstrates a TextBlock with text selection enabled and text wrapping enabled.
 

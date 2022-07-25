@@ -12,7 +12,7 @@ public interface IValueConverter :
 ## -description
 Exposes methods that allow the data to be modified as it passes through the binding engine.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Data.IValueConverter](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter).
+
 
 ## -examples
 The following example shows how to implement the IValueConverter interface and use the converter when data binding to a collection of objects.

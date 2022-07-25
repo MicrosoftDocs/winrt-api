@@ -12,7 +12,7 @@ public void TypeText(System.String value)
 ## -description
 Enters text into the selection as if someone typed it.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextSelection.TypeText](/windows/winui/api/microsoft.ui.text.itextselection.typetext).
+
 
 ## -parameters
 ### -param value

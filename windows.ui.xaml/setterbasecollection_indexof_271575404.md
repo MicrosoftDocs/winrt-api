@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.SetterBase value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.indexof).
+
 
 ## -parameters
 ### -param value

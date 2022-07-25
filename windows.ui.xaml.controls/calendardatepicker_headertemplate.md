@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate HeaderTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the header.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.HeaderTemplate](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.headertemplate).
+
 
 ## -xaml-syntax
 ```xaml

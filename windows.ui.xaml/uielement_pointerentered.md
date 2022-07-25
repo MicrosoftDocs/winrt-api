@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerEntered
 
 Occurs when a pointer enters the hit test area of this element.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerEntered](/windows/winui/api/microsoft.ui.xaml.uielement.pointerentered).
+
 
 ## -xaml-syntax
 

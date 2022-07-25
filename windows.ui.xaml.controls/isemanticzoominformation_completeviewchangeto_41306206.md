@@ -12,7 +12,7 @@ public void CompleteViewChangeTo(Windows.UI.Xaml.Controls.SemanticZoomLocation s
 ## -description
 Completes item-wise operations related to a view change when the implementing view is the destination view and the source view is a potentially different implementing view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ISemanticZoomInformation.CompleteViewChangeTo](/windows/winui/api/microsoft.ui.xaml.controls.isemanticzoominformation.completeviewchangeto).
+
 
 ## -parameters
 ### -param source

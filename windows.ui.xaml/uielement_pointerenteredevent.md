@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerEnteredEvent { get; }
 ## -description
 Gets the identifier for the [PointerEntered](uielement_pointerentered.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerEnteredEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointerenteredevent).
+
 
 ## -property-value
 The identifier for the [PointerEntered](uielement_pointerentered.md) routed event.

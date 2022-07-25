@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler VerticalSnapPointsChanged<object>
 ## -description
 Occurs when the vertical snap points change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ItemsPresenter.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.verticalsnappointschanged).
+
 
 ## -xaml-syntax
 ```xaml

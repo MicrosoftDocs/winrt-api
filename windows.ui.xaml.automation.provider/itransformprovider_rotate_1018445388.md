@@ -12,7 +12,7 @@ public void Rotate(System.Double degrees)
 ## -description
 Rotates the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider.Rotate](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider.rotate).
+
 
 ## -parameters
 ### -param degrees

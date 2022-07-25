@@ -12,7 +12,7 @@ public class CleanUpVirtualizedItemEventArgs : Windows.UI.Xaml.RoutedEventArgs, 
 ## -description
 Provides data for the [CleanUpVirtualizedItemEvent](virtualizingstackpanel_cleanupvirtualizeditemevent.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.cleanupvirtualizeditemeventargs).
+
 
 ## -remarks
 

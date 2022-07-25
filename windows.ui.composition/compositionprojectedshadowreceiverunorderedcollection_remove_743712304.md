@@ -14,7 +14,7 @@ public void CompositionProjectedShadowReceiverUnorderedCollection.Remove(Composi
 
 Removes the specified CompositionProjectedShadowReceiver from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowReceiverUnorderedCollection.Remove](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowreceiverunorderedcollection.remove).
+
 
 ## -parameters
 ### -param value

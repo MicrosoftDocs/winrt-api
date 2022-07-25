@@ -12,7 +12,7 @@ public string GetClassName()
 ## -description
 Gets a name that is used with [AutomationControlType](automationcontroltype.md), to differentiate the control that is represented by this [AutomationPeer](automationpeer.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClassName](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getclassname).
+
 
 ## -returns
 The class name.

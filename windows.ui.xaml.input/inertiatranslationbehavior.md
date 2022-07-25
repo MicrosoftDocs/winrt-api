@@ -12,7 +12,7 @@ public class InertiaTranslationBehavior : Windows.UI.Xaml.Input.IInertiaTranslat
 ## -description
 Controls deceleration on a translation manipulation during inertia.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.InertiaTranslationBehavior](/windows/winui/api/microsoft.ui.xaml.input.inertiatranslationbehavior).
+
 
 ## -remarks
 

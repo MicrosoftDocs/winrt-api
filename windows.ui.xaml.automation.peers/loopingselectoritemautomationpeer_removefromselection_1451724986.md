@@ -12,7 +12,7 @@ public void RemoveFromSelection()
 ## -description
 Removes the current element from the collection of selected items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.RemoveFromSelection](/windows/winui/api/microsoft.ui.xaml.automation.peers.loopingselectoritemautomationpeer.removefromselection).
+
 
 ## -remarks
 

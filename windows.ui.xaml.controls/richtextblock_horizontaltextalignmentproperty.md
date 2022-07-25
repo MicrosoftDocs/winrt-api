@@ -13,7 +13,7 @@ public DependencyProperty HorizontalTextAlignmentProperty { get; }
 
 Identifies the HorizontalTextAlignment dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.HorizontalTextAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.horizontaltextalignmentproperty).
+
 
 ## -property-value
 

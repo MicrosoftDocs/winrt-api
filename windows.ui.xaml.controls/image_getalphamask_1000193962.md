@@ -12,7 +12,6 @@ public Windows.UI.Composition.CompositionBrush GetAlphaMask()
 ## -description
 Returns a mask that represents the alpha channel of an image as a [CompositionBrush](../windows.ui.composition/compositionbrush.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Image.GetAlphaMask](/windows/winui/api/microsoft.ui.xaml.controls.image.getalphamask).
 
 ## -returns
 A mask that represents the alpha channel of an image.

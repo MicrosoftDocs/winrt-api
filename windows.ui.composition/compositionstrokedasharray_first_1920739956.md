@@ -13,7 +13,7 @@ public IIterator<float> CompositionStrokeDashArray.First()
 
 Returns an iterator for the items in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.First](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.first).
+
 
 ## -returns
 

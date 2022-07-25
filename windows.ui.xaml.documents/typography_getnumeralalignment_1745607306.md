@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FontNumeralAlignment GetNumeralAlignment(Windows.UI.Xaml.
 ## -description
 Returns the value of the [NumeralAlignment](typography_numeralalignment.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetNumeralAlignment](/windows/winui/api/microsoft.ui.xaml.documents.typography.getnumeralalignment).
+
 
 ## -parameters
 ### -param element

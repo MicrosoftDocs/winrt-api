@@ -12,7 +12,7 @@ public class DropCompletedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windows.U
 ## -description
 Provides event data for the [DropCompleted](uielement_dropcompleted.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DropCompletedEventArgs](/windows/winui/api/microsoft.ui.xaml.dropcompletedeventargs).
+
 
 ## -remarks
 

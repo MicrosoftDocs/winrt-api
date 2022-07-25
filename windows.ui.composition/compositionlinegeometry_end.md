@@ -13,7 +13,7 @@ public Vector2 End { get;  set; }
 
 Gets or sets the end point of the line.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionLineGeometry.End](/windows/winui/api/microsoft.ui.composition.compositionlinegeometry.end).
+
 
 ## -property-value
 

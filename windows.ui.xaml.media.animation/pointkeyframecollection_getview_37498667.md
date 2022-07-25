@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Media.Animatio
 ## -description
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.animation.pointkeyframecollection.getview).
+
 
 ## -returns
 An object representing the immutable collection view.

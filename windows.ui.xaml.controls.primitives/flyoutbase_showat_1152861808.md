@@ -14,7 +14,7 @@ public void FlyoutBase.ShowAt(DependencyObject placementTarget, FlyoutShowOption
 
 Shows the flyout placed in relation to the specified element using the specified options.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAt](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.showat).
+
 
 ## -parameters
 

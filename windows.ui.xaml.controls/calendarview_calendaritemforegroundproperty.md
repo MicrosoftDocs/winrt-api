@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CalendarItemForegroundProperty { get; 
 ## -description
 Identifies the [CalendarItemForeground](calendarview_calendaritemforeground.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.CalendarItemForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.calendaritemforegroundproperty).
+
 
 ## -property-value
 The identifier for the   [CalendarItemForeground](calendarview_calendaritemforeground.md) dependency property.

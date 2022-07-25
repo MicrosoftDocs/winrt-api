@@ -12,7 +12,7 @@ virtual protected void OnKeyUp(Windows.UI.Xaml.Input.KeyRoutedEventArgs e)
 ## -description
 Called before the [KeyUp](../windows.ui.xaml/uielement_keyup.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnKeyUp](/windows/winui/api/microsoft.ui.xaml.controls.control.onkeyup).
+
 
 ## -parameters
 ### -param e

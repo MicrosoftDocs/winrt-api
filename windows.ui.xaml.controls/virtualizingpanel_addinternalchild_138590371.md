@@ -12,7 +12,7 @@ protected void AddInternalChild(Windows.UI.Xaml.UIElement child)
 ## -description
 Adds the specified [UIElement](../windows.ui.xaml/uielement.md) to the [Children](panel_children.md) collection of a [VirtualizingPanel](virtualizingpanel.md) element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.VirtualizingPanel.AddInternalChild](/windows/winui/api/microsoft.ui.xaml.controls.virtualizingpanel.addinternalchild).
+
 
 ## -parameters
 ### -param child

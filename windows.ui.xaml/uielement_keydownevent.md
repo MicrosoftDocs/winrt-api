@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent KeyDownEvent { get; }
 ## -description
 Gets the identifier for the [KeyDown](uielement_keydown.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyDownEvent](/windows/winui/api/microsoft.ui.xaml.uielement.keydownevent).
+
 
 ## -property-value
 The identifier for the [KeyDown](uielement_keydown.md) routed event.

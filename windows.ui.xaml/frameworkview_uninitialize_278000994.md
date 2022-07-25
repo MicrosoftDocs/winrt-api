@@ -12,7 +12,7 @@ public void Uninitialize()
 ## -description
 Returns the view to the uninitialized state.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.FrameworkView.Uninitialize](/windows/winui/api/microsoft.ui.xaml.frameworkview.uninitialize).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public interface ITableProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that act as containers for a collection of child elements. The children of this element must implement [ITableItemProvider](itableitemprovider.md) and be organized in a two-dimensional logical coordinate system that can be traversed (a Microsoft UI Automation client can move to adjacent controls, which are headers or cells of the table) by using the keyboard.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.ITableProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.itableprovider).
+
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Table Control Pattern](/windows/desktop/WinAuto/uiauto-implementingtable).

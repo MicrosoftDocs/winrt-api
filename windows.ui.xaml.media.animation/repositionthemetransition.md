@@ -12,7 +12,7 @@ public class RepositionThemeTransition : Windows.UI.Xaml.Media.Animation.Transit
 ## -description
 Reacts to layout moves when no context is set and a trigger of *move* is passed.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition).
+
 
 ## -xaml-syntax
 ```xaml

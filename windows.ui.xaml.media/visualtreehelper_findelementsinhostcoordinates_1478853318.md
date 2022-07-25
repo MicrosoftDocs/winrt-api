@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.UIElement> FindE
 ## -description
 Retrieves a set of objects that are located within a specified x-y coordinate point of an app UI. The set of objects represents the components of a visual tree that share that point.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.FindElementsInHostCoordinates](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.findelementsinhostcoordinates).
+
 
 ## -parameters
 ### -param intersectingPoint

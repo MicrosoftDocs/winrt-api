@@ -14,7 +14,7 @@ public DependencyProperty VerticalAnchorRatioProperty { get; }
 
 Identifies the [VerticalAnchorRatio](scrollviewer_verticalanchorratio.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalAnchorRatioProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalanchorratioproperty).
+
 
 ## -property-value
 

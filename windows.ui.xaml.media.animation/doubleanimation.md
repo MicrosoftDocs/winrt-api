@@ -12,7 +12,7 @@ public class DoubleAnimation : Windows.UI.Xaml.Media.Animation.Timeline, Windows
 ## -description
 Animates the value of a [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) property between two target values using linear interpolation over a specified [Duration](timeline_duration.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DoubleAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.doubleanimation).
+
 
 ## -xaml-syntax
 ```xaml

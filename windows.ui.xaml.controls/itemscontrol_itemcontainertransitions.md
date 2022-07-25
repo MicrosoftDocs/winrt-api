@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.TransitionCollection ItemContainerTransit
 ## -description
 Gets or sets the collection of [Transition](../windows.ui.xaml.media.animation/transition.md) style elements that apply to the item containers of an [ItemsControl](itemscontrol.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsControl.ItemContainerTransitions](/windows/winui/api/microsoft.ui.xaml.controls.itemscontrol.itemcontainertransitions).
+
 
 ## -xaml-syntax
 ```xaml

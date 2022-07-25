@@ -12,7 +12,7 @@ virtual protected void UIElement.OnKeyboardAcceleratorInvoked(KeyboardAccelerato
 ## -description
 Called when a [keyboard shortcut (or accelerator)](../windows.ui.xaml.input/keyboardaccelerator.md) is processed in your app. Override this method to handle how your app responds when a keyboard accelerator is invoked.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.OnKeyboardAcceleratorInvoked](/windows/winui/api/microsoft.ui.xaml.uielement.onkeyboardacceleratorinvoked).
+
 
 ## -parameters
 ### -param args

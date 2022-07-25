@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty RegisterAttached(System.String name, W
 ## -description
 Registers an attached dependency property with the specified property name, property type, owner type, and property metadata for the property.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DependencyProperty.RegisterAttached](/windows/winui/api/microsoft.ui.xaml.dependencyproperty.registerattached).
+
 
 ## -parameters
 ### -param name

@@ -12,7 +12,7 @@ abstract public event Windows.Foundation.EventHandler VerticalSnapPointsChanged<
 ## -description
 Occurs when the measurements for vertical snap points change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.iscrollsnappointsinfo.verticalsnappointschanged).
+
 
 ## -remarks
 

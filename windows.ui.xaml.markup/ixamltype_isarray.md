@@ -12,7 +12,7 @@ public bool IsArray { get; }
 ## -description
 Gets a value that indicates whether the [IXamlType](ixamltype.md) represents an array.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlType.IsArray](/windows/winui/api/microsoft.ui.xaml.markup.ixamltype.isarray).
+
 
 ## -property-value
 **true** if the [IXamlType](ixamltype.md) represents an array; otherwise, **false**.

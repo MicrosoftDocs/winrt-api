@@ -13,7 +13,7 @@ public Windows.UI.Color SeaGreen { get; }
 
 Gets the system-defined color that has an ARGB value of #FF2E8B57.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.SeaGreen](/windows/winui/api/microsoft.ui.colors.seagreen).
+
 
 ## -property-value
 

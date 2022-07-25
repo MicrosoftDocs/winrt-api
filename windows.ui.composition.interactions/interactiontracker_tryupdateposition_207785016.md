@@ -15,7 +15,7 @@ Tries to update the [InteractionTracker](interactiontracker.md)'s position.
 
 The TryUpdatePosition method updates the location of [InteractionTracker](interactiontracker.md) to the Vector3 position specified as a parameter. TryUpdatePosition is used to declaratively define the position of [InteractionTracker](interactiontracker.md) at any point in time (either at start, from some state-entered event, etc.). TryUpdatePosition can be called from either the Idle, CustomAnimation or Inertia state – doing so will move the position of [InteractionTracker](interactiontracker.md) to the defined position and enter the idle state.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.TryUpdatePosition](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.tryupdateposition).
+
 
 ## -parameters
 ### -param value

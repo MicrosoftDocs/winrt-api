@@ -12,7 +12,7 @@ public DependencyProperty CloseButtonStyleProperty { get; }
 ## -description
 Gets the identifier of the CloseButtonStyle dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.CloseButtonStyleProperty](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.closebuttonstyleproperty).
+
 
 ## -property-value
 The identifier of the CloseButtonStyle dependency property.

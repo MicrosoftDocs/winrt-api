@@ -13,7 +13,7 @@ public event TypedEventHandler LosingFocus<UIElement, LosingFocusEventArgs>
 
 Occurs before a [UIElement](uielement.md) loses focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.LosingFocus](/windows/winui/api/microsoft.ui.xaml.uielement.losingfocus).
+
 
 ## -xaml-syntax
 

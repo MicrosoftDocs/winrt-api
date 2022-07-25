@@ -12,7 +12,7 @@ public void PrepareItemContainer(Windows.UI.Xaml.DependencyObject container)
 ## -description
 Prepares the specified element as the container for the corresponding item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.PrepareItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.prepareitemcontainer).
+
 
 ## -parameters
 ### -param container

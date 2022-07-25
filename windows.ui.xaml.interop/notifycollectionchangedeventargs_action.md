@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.NotifyCollectionChangedAction Action { get; }
 ## -description
 Gets the description of the action that caused the event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.Action](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.action).
+
 
 ## -property-value
 The description of the action that caused the event, as a value of the enumeration.

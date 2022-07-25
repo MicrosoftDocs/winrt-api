@@ -12,7 +12,7 @@ public object GetAt(System.UInt32 index)
 ## -description
 Returns the item at the specified index in the vector.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVectorView.GetAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevectorview.getat).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ClosedLengthProperty { get; }
 ## -description
 Identifies the [ClosedLength](splitclosethemeanimation_closedlength.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SplitCloseThemeAnimation.ClosedLengthProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.splitclosethemeanimation.closedlengthproperty).
+
 
 ## -property-value
 The identifier for the [ClosedLength](splitclosethemeanimation_closedlength.md) dependency property.

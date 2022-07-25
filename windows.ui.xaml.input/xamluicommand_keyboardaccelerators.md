@@ -14,7 +14,7 @@ public IVector<KeyboardAccelerator> KeyboardAccelerators { get; }
 
 Gets or sets the collection of key combinations for this element that invoke an action using the keyboard.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.KeyboardAccelerators](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.keyboardaccelerators).
+
 
 ## -property-value
 

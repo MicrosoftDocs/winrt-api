@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ToOffsetProperty { get; }
 ## -description
 Identifies the [ToOffset](dragoverthemeanimation_tooffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.DragOverThemeAnimation.ToOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.dragoverthemeanimation.tooffsetproperty).
+
 
 ## -property-value
 The identifier for the [ToOffset](dragoverthemeanimation_tooffset.md) dependency property.

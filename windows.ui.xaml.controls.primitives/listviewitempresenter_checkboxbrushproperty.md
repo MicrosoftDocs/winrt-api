@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CheckBoxBrushProperty { get; }
 ## -description
 Identifies the [CheckBoxBrush](listviewitempresenter_checkboxbrush.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.checkboxbrushproperty).
+
 
 ## -property-value
 The identifier for the [CheckBoxBrush](listviewitempresenter_checkboxbrush.md) dependency property.

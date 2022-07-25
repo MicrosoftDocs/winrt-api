@@ -13,7 +13,7 @@ public class ListViewBase : Windows.UI.Xaml.Controls.Primitives.Selector, Window
 
 Provides the infrastructure for the [ListView](listview.md) and [GridView](gridview.md) classes.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ListViewBase](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase).
+
 
 ## -remarks
 

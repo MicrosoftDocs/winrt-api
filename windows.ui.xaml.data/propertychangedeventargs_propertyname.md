@@ -15,7 +15,7 @@ Gets the name of the property that changed.
 > **.NET**
 > This type is hidden, use [System.ComponentModel.PropertyChangedEventArgs](/dotnet/api/system.componentmodel.propertychangedeventargs?view=dotnet-uwp-10.0&preserve-view=true).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.PropertyChangedEventArgs.PropertyName](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventargs.propertyname).
+
 
 ## -property-value
 The name of the property that changed.

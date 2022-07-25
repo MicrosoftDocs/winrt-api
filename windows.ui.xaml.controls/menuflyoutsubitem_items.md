@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.Controls.MenuFlyou
 ## -description
 Gets the collection used to generate the content of the sub-menu.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem.Items](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutsubitem.items).
+
 
 ## -xaml-syntax
 ```xaml

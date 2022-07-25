@@ -13,7 +13,7 @@ public Windows.UI.Color Cyan { get; }
 
 Gets the system-defined color that has the ARGB value of #FF00FFFF.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Cyan](/windows/winui/api/microsoft.ui.colors.cyan).
+
 
 ## -property-value
 

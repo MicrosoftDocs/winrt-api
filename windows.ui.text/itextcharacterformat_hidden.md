@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect Hidden { get;  set; }
 ## -description
 Gets or sets whether characters are hidden.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Hidden](/windows/winui/api/microsoft.ui.text.itextcharacterformat.hidden).
+
 
 ## -property-value
 The hidden state.

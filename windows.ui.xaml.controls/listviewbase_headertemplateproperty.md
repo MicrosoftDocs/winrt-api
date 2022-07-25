@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; }
 ## -description
 Identifies the [HeaderTemplate](listviewbase_headertemplate.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTemplateProperty](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.headertemplateproperty).
+
 
 ## -property-value
 The identifier for the [HeaderTemplate](listviewbase_headertemplate.md) dependency property.

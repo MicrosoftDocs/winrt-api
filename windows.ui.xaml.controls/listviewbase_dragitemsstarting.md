@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.DragItemsStartingEventHandler DragItemsSta
 ## -description
 Occurs when a drag operation that involves one of the items in the view is initiated.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsStarting](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.dragitemsstarting).
+
 
 ## -xaml-syntax
 ```xaml

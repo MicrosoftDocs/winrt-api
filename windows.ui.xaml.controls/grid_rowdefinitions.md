@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.RowDefinitionCollection RowDefinitions { get; }
 ## -description
 Gets a list of [RowDefinition](rowdefinition.md) objects defined on this instance of [Grid](grid.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.RowDefinitions](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowdefinitions).
+
 
 ## -xaml-syntax
 ```xaml

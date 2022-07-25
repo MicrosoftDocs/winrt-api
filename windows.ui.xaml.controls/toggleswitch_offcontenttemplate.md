@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate OffContentTemplate { get;  set; }
 ## -description
 Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the control's content while in "Off" state.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.OffContentTemplate](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.offcontenttemplate).
+
 
 ## -xaml-syntax
 ```xaml

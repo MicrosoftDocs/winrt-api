@@ -12,7 +12,7 @@ public bool IsLargeArc { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the arc should be greater than 180 degrees.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ArcSegment.IsLargeArc](/windows/winui/api/microsoft.ui.xaml.media.arcsegment.islargearc).
+
 
 ## -xaml-syntax
 ```xaml

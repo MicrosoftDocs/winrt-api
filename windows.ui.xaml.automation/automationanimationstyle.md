@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.AutomationAnimationStyle : int
 ## -description
 Defines the style of animation for the automation.
 
-Equivalent WinUI enum: [AutomationAnimationStyle](/windows/winui/api/microsoft.ui.xaml.automation.automationanimationstyle).
+
 
 ## -enum-fields
 ### -field None:0

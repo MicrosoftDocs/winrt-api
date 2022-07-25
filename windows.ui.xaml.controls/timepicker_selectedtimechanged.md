@@ -14,7 +14,7 @@ public event TypedEventHandler SelectedTimeChanged<TimePicker, TimePickerSelecte
 
 Occurs when the value of the `SelectedTime` property is changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.selectedtimechanged).
+
 
 ## -xaml-syntax
 

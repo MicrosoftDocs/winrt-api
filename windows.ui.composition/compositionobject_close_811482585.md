@@ -12,7 +12,7 @@ public void Close()
 ## -description
 Closes the CompositionObject and releases system resources.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.Close](/windows/winui/api/microsoft.ui.composition.compositionobject.close).
+
 
 ## -remarks
 

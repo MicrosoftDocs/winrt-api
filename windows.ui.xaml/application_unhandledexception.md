@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.UnhandledExceptionEventHandler UnhandledException
 ## -description
 Occurs when an exception can be handled by app code, as forwarded from a native-level Windows Runtime error. Apps can mark the occurrence as handled in event data.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Application.UnhandledException](/windows/winui/api/microsoft.ui.xaml.application.unhandledexception).
+
 
 ## -remarks
 The UnhandledException event is used to notify the app about exceptions encountered by the XAML framework or by the Windows Runtime in general that have not been handled by app code.

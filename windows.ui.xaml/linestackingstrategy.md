@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.LineStackingStrategy : int
 ## -description
 Describes the mechanism by which a line box is determined for each line.
 
-Equivalent WinUI enum: [LineStackingStrategy](/windows/winui/api/microsoft.ui.xaml.linestackingstrategy).
+
 
 ## -xaml-syntax
 ```xaml

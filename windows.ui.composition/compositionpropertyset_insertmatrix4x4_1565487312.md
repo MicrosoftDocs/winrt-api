@@ -12,7 +12,7 @@ public void InsertMatrix4x4(System.String propertyName, Windows.Foundation.Numer
 ## -description
 Inserts a Matrix4x4 key-value pair.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionPropertySet.InsertMatrix4x4](/windows/winui/api/microsoft.ui.composition.compositionpropertyset.insertmatrix4x4).
+
 
 ## -parameters
 ### -param propertyName

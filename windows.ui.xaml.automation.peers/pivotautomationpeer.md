@@ -12,7 +12,7 @@ public class PivotAutomationPeer : Windows.UI.Xaml.Automation.Peers.ItemsControl
 ## -description
 Exposes [Pivot](../windows.ui.xaml.controls/pivot.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.PivotAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.pivotautomationpeer).
+
 
 ## -remarks
 

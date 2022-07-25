@@ -12,7 +12,7 @@ public class Shape : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Shapes.IS
 ## -description
 Provides a base class for shape elements, such as [Ellipse](ellipse.md), [Polygon](polygon.md), and [Rectangle](rectangle.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Shape](/windows/winui/api/microsoft.ui.xaml.shapes.shape).
+
 
 ## -remarks
 Shape defines several properties that are shared by all the Shape derived classes. The most commonly used properties are [Fill](shape_fill.md), [Stroke](shape_stroke.md), and [StrokeThickness](shape_strokethickness.md). [Stroke](shape_stroke.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the outline of the shape, and [Fill](shape_fill.md) uses a [Brush](../windows.ui.xaml.media/brush.md) to draw the interior. For more info on how to use the Shape derived classes in XAML UI, see [Draw shapes](/windows/uwp/graphics/drawing-shapes).

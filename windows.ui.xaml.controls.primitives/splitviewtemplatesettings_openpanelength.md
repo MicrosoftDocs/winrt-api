@@ -12,7 +12,7 @@ public double OpenPaneLength { get; }
 ## -description
 Gets the [OpenPaneLength](../windows.ui.xaml.controls/splitview_openpanelength.md) value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.SplitViewTemplateSettings.OpenPaneLength](/windows/winui/api/microsoft.ui.xaml.controls.primitives.splitviewtemplatesettings.openpanelength).
+
 
 ## -property-value
 The [OpenPaneLength](../windows.ui.xaml.controls/splitview_openpanelength.md) value.

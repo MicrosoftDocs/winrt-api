@@ -13,7 +13,7 @@ public DependencyProperty ActualThemeProperty { get; }
 
 Identifies the ActualTheme dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.ActualThemeProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.actualthemeproperty).
+
 
 ## -property-value
 

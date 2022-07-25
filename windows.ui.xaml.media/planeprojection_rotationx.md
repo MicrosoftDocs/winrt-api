@@ -12,7 +12,7 @@ public double RotationX { get;  set; }
 ## -description
 Gets or sets the number of degrees to rotate the object around the x-axis of rotation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.RotationX](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.rotationx).
+
 
 ## -xaml-syntax
 ```xaml

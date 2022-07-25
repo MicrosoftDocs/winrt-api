@@ -13,7 +13,7 @@ public void ReleasePointerCapture(Windows.UI.Xaml.Input.Pointer value)
 
 Releases pointer captures for capture of one specific pointer by this [UIElement](uielement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.ReleasePointerCapture](/windows/winui/api/microsoft.ui.xaml.uielement.releasepointercapture).
+
 
 ## -parameters
 

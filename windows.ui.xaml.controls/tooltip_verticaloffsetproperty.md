@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty VerticalOffsetProperty { get; }
 ## -description
 Identifies the [VerticalOffset](tooltip_verticaloffset.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToolTip.VerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.controls.tooltip.verticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [VerticalOffset](tooltip_verticaloffset.md)  dependency property.

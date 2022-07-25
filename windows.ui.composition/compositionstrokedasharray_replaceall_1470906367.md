@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.ReplaceAll(Single[] items)
 
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.ReplaceAll](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.replaceall).
+
 
 ## -parameters
 ### -param items

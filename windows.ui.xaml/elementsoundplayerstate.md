@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.ElementSoundPlayerState : int
 ## -description
 Defines constants that specify whether XAML controls play sounds.
 
-Equivalent WinUI enum: [ElementSoundPlayerState](/windows/winui/api/microsoft.ui.xaml.elementsoundplayerstate).
+
 
 ## -enum-fields
 ### -field Auto:0

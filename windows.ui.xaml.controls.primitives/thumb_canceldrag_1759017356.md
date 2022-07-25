@@ -12,7 +12,6 @@ public void CancelDrag()
 ## -description
 Cancels a drag operation for the [Thumb](thumb.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.Thumb.CancelDrag](/windows/winui/api/microsoft.ui.xaml.controls.primitives.thumb.canceldrag).
 
 ## -remarks
 

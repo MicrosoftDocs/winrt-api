@@ -13,7 +13,7 @@ public IIterator<IKeyValuePair<string, string>> InitialValueExpressionCollection
 
 Retrieves the first item in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.InitialValueExpressionCollection.First](/windows/winui/api/microsoft.ui.composition.initialvalueexpressioncollection.first).
+
 
 ## -returns
 

@@ -12,7 +12,7 @@ public int MinUnitCount { get; }
 ## -description
 Gets the minimum unit count.
 
-Equivalent WinUI property: [Microsoft.UI.Text.TextConstants.MinUnitCount](/windows/winui/api/microsoft.ui.text.textconstants.minunitcount).
+
 
 ## -property-value
 The minimum unit count.

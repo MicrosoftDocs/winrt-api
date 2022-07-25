@@ -12,7 +12,7 @@ public bool GetHistoricalForms(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [HistoricalForms](typography_historicalforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetHistoricalForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.gethistoricalforms).
+
 
 ## -parameters
 ### -param element

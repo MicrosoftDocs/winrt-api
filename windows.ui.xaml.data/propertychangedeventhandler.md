@@ -10,7 +10,7 @@ public delegate void PropertyChangedEventHandler(System.Object sender, Windows.U
 ## -description
 Represents the method that will handle the [PropertyChanged](inotifypropertychanged_propertychanged.md) event. When programming with Microsoft .NET this delegate is hidden, use the [System.ComponentModel.PropertyChangedEventHandler](/dotnet/api/system.componentmodel.propertychangedeventhandler?view=dotnet-uwp-10.0&preserve-view=true) delegate.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Data.PropertyChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.data.propertychangedeventhandler).
+
 
 ## -parameters
 ### -param sender

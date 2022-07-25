@@ -12,7 +12,7 @@ public AnimationDelayBehavior DelayBehavior { get;  set; }
 ## -description
 The delay behavior of the key frame animation.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.KeyFrameAnimation.DelayBehavior](/windows/winui/api/microsoft.ui.composition.keyframeanimation.delaybehavior).
+
 
 ## -property-value
 The delay behavior of the key frame animation.

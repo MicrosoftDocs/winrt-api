@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Duration GeneratedDuration { get;  set; }
 ## -description
 Gets or sets the amount of time it takes to move from one state to another, and the time that any implicit transition animations should run as part of the transition behavior.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.GeneratedDuration](/windows/winui/api/microsoft.ui.xaml.visualtransition.generatedduration).
+
 
 ## -xaml-syntax
 ```xaml

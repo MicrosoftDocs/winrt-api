@@ -14,7 +14,7 @@ public void UIElement.StartBringIntoView(BringIntoViewOptions options)
 
 Initiates a request to the XAML framework to bring the element into view using the specified options.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.StartBringIntoView](/windows/winui/api/microsoft.ui.xaml.uielement.startbringintoview).
+
 
 ## -parameters
 

@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.TextTrimming : int
 
 Describes how text is trimmed when it overflows the edge of its containing box.
 
-Equivalent WinUI enum: [TextTrimming](/windows/winui/api/microsoft.ui.xaml.texttrimming).
+
 
 ## -xaml-syntax
 

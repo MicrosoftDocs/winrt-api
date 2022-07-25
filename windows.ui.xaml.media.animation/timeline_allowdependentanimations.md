@@ -12,7 +12,7 @@ public bool AllowDependentAnimations { get;  set; }
 ## -description
 Gets or sets a value that determines whether dependent animations should be permitted to run, throughout the app.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.AllowDependentAnimations](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.allowdependentanimations).
+
 
 ## -property-value
 **true** if animations can run in the app for dependent animation cases. Otherwise, **false**. The default is **true**.

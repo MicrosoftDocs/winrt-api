@@ -13,7 +13,7 @@ virtual protected void Control.OnCharacterReceived(CharacterReceivedRoutedEventA
 
 Called before the [CharacterReceived](../windows.ui.xaml/uielement_characterreceived.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnCharacterReceived](/windows/winui/api/microsoft.ui.xaml.controls.control.oncharacterreceived).
+
 
 ## -parameters
 

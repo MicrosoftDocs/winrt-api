@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Controls.RowDefinition
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.insertat).
+
 
 ## -parameters
 ### -param index

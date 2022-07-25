@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.PointerEventHandler PointerExited
 
 Occurs when a pointer leaves the hit test area of this element.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.PointerExited](/windows/winui/api/microsoft.ui.xaml.uielement.pointerexited).
+
 
 ## -xaml-syntax
 

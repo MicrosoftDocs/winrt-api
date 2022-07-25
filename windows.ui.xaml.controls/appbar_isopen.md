@@ -12,7 +12,7 @@ public bool IsOpen { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the [AppBar](appbar.md) is open.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBar.IsOpen](/windows/winui/api/microsoft.ui.xaml.controls.appbar.isopen).
+
 
 ## -xaml-syntax
 ```xaml

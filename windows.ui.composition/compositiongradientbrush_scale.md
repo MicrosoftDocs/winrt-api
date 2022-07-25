@@ -13,7 +13,7 @@ public Vector2 Scale { get;  set; }
 
 Gets or sets the scale to apply to the brush.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.Scale](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.scale).
+
 
 ## -property-value
 

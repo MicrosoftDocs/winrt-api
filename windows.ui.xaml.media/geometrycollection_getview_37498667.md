@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Media.Geometry
 ## -description
 Gets an immutable view into the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.GetView](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.getview).
+
 
 ## -returns
 An object representing the immutable collection view.

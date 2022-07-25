@@ -12,7 +12,7 @@ public bool WaitForInputIdle(System.Int32 milliseconds)
 ## -description
 Blocks the calling code for the specified time or until the associated process enters an idle state, whichever completes first.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.WaitForInputIdle](/windows/winui/api/microsoft.ui.xaml.automation.peers.appbarautomationpeer.waitforinputidle).
+
 
 ## -parameters
 ### -param milliseconds

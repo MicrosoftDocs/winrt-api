@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.SetterBase[] items
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

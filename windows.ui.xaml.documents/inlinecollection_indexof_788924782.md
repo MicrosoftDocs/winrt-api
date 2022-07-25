@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Documents.Inline value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.indexof).
+
 
 ## -parameters
 ### -param value

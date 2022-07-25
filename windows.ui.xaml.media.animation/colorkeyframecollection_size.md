@@ -12,7 +12,7 @@ public uint Size { get; }
 ## -description
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Size](/windows/winui/api/microsoft.ui.xaml.media.animation.colorkeyframecollection.size).
+
 
 ## -property-value
 The count of items in the collection.

@@ -12,7 +12,7 @@ public bool CanVerticallyScroll { get;  set; }
 ## -description
 Not intended for general use. Gets or sets a value that indicates whether scrolling on the vertical axis is possible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CarouselPanel.CanVerticallyScroll](/windows/winui/api/microsoft.ui.xaml.controls.primitives.carouselpanel.canverticallyscroll).
+
 
 ## -xaml-syntax
 ```xaml

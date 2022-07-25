@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BorderBrushProperty { get; }
 ## -description
 Identifies the [BorderBrush](relativepanel_borderbrush.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.BorderBrushProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.borderbrushproperty).
+
 
 ## -property-value
 The identifier for the [BorderBrush](relativepanel_borderbrush.md) dependency property.

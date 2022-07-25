@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PaneProperty { get; }
 ## -description
 Identifies the [Pane](splitview_pane.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.PaneProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.paneproperty).
+
 
 ## -property-value
 The identifier for the  [Pane](splitview_pane.md) dependency property.

@@ -12,7 +12,7 @@ public string TargetName { get;  set; }
 ## -description
 Gets or sets the reference name of the control element being targeted.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeBackThemeAnimation.TargetName](/windows/winui/api/microsoft.ui.xaml.media.animation.swipebackthemeanimation.targetname).
+
 
 ## -xaml-syntax
 ```xaml

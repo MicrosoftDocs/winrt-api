@@ -12,7 +12,7 @@ public class DiscreteColorKeyFrame : Windows.UI.Xaml.Media.Animation.ColorKeyFra
 ## -description
 Animates from the [Color](../windows.ui/color.md) value of the previous key frame to its own [Value](colorkeyframe_value.md) using discrete values.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.DiscreteColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.discretecolorkeyframe).
+
 
 ## -xaml-syntax
 ```xaml

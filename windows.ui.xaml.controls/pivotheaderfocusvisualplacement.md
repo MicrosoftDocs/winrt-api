@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.PivotHeaderFocusVisualPlacement : int
 ## -description
 Defines constants that specify the style of focus visual used for pivot header items.
 
-Equivalent WinUI enum: [PivotHeaderFocusVisualPlacement](/windows/winui/api/microsoft.ui.xaml.controls.pivotheaderfocusvisualplacement).
+
 
 ## -enum-fields
 ### -field ItemHeaders:0

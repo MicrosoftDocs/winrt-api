@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncOperation<Windows.UI.Xaml.Data.LoadMoreItemsResu
 ## -description
 Initiates the asynchronous request to load more data items, in accordance with the active incremental loading settings.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListViewBase.LoadMoreItemsAsync](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.loadmoreitemsasync).
+
 
 ## -returns
 When the operation completes, returns a [LoadMoreItemsResult](../windows.ui.xaml.data/loadmoreitemsresult.md) payload.

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.DragEventHandler DragOver
 
 Occurs when the input system reports an underlying drag event with this element as the potential drop target.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DragOver](/windows/winui/api/microsoft.ui.xaml.uielement.dragover).
+
 
 ## -xaml-syntax
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Point EndPoint { get;  set; }
 ## -description
 Gets or sets the ending two-dimensional coordinates of the linear gradient.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.LinearGradientBrush.EndPoint](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush.endpoint).
+
 
 ## -xaml-syntax
 ```xaml

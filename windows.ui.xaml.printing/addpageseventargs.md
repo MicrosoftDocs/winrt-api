@@ -12,7 +12,7 @@ public class AddPagesEventArgs : Windows.UI.Xaml.Printing.IAddPagesEventArgs
 ## -description
 Provides event data for the [AddPages](printdocument_addpages.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Printing.AddPagesEventArgs](/windows/winui/api/microsoft.ui.xaml.printing.addpageseventargs).
+
 
 ## -remarks
 

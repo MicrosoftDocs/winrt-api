@@ -12,7 +12,7 @@ public class BlockCollection : Windows.Foundation.Collections.IIterable<Windows.
 ## -description
 Represents a collection of [Block](block.md) elements.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Documents.BlockCollection](/windows/winui/api/microsoft.ui.xaml.documents.blockcollection).
+
 
 ## -remarks
 <!--Begin NET note for IEnumerable support-->

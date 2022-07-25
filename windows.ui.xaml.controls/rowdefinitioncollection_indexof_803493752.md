@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Controls.RowDefinition value, System.UInt32 
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.indexof).
+
 
 ## -parameters
 ### -param value

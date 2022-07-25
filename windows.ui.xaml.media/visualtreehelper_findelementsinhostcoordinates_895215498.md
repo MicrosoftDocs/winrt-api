@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IIterable<Windows.UI.Xaml.UIElement> FindE
 ## -description
 Retrieves a set of objects that are located within a specified [Rect](../windows.foundation/rect.md) frame of an app UI. The set of objects represents the components of a visual tree that share a rectangular area, and might include elements that overdraw.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.FindElementsInHostCoordinates](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.findelementsinhostcoordinates).
+
 
 ## -parameters
 ### -param intersectingRect

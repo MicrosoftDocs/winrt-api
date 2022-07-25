@@ -13,7 +13,7 @@ public Windows.UI.Color Beige { get; }
 
 Gets the system-defined color that has an ARGB value of #FFF5F5DC.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Beige](/windows/winui/api/microsoft.ui.colors.beige).
+
 
 ## -property-value
 

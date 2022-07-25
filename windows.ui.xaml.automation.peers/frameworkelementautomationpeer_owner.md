@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement Owner { get; }
 ## -description
 Gets the [UIElement](../windows.ui.xaml/uielement.md) owner that is associated with this [FrameworkElementAutomationPeer](frameworkelementautomationpeer.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer.Owner](/windows/winui/api/microsoft.ui.xaml.automation.peers.frameworkelementautomationpeer.owner).
+
 
 ## -property-value
 The element that owns this instance of the peer class.

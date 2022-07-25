@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Controls.RowDefinition va
 ## -description
 Sets the value at the specified index to the [RowDefinition](rowdefinition.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection.setat).
+
 
 ## -parameters
 ### -param index

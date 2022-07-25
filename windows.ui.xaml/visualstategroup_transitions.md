@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.VisualTransition> 
 ## -description
 Gets the collection of [VisualTransition](visualtransition.md) objects.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateGroup.Transitions](/windows/winui/api/microsoft.ui.xaml.visualstategroup.transitions).
+
 
 ## -xaml-syntax
 ```xaml

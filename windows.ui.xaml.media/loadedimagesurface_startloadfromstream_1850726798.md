@@ -14,7 +14,7 @@ public LoadedImageSurface LoadedImageSurface.StartLoadFromStream(IRandomAccessSt
 
 Loads an image into a [LoadedImageSurface](loadedimagesurface.md) from the provided [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md) with the desired maximum size.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.LoadedImageSurface.StartLoadFromStream](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface.startloadfromstream).
+
 
 ## -parameters
 

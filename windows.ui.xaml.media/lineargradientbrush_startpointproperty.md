@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StartPointProperty { get; }
 ## -description
 Identifies the [StartPoint](lineargradientbrush_startpoint.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.LinearGradientBrush.StartPointProperty](/windows/winui/api/microsoft.ui.xaml.media.lineargradientbrush.startpointproperty).
+
 
 ## -property-value
 The identifier for the [StartPoint](lineargradientbrush_startpoint.md) dependency property.

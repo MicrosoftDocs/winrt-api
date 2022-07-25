@@ -12,7 +12,7 @@ public class ControlTemplate : Windows.UI.Xaml.FrameworkTemplate, Windows.UI.Xam
 ## -description
 Defines the element tree that is used as the control template for a control.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ControlTemplate](/windows/winui/api/microsoft.ui.xaml.controls.controltemplate).
+
 
 ## -xaml-syntax
 ```xaml

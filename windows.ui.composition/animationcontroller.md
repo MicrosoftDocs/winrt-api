@@ -13,7 +13,7 @@ public class AnimationController : CompositionObject, CompositionObject
 
 Provides playback controls for a KeyFrameAnimation.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.AnimationController](/windows/winui/api/microsoft.ui.composition.animationcontroller).
+
 
 ## -remarks
 

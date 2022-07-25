@@ -12,7 +12,7 @@ public enum Windows.UI.Text.ParagraphAlignment : int
 ## -description
 Specifies values for aligning paragraphs.
 
-Equivalent WinUI enum: [ParagraphAlignment](/windows/winui/api/microsoft.ui.text.paragraphalignment).
+
 
 ## -enum-fields
 ### -field Undefined:0

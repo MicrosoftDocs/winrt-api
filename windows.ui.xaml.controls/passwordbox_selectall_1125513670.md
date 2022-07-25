@@ -12,7 +12,7 @@ public void SelectAll()
 ## -description
 Selects all the characters in the [PasswordBox](passwordbox.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.PasswordBox.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.selectall).
+
 
 ## -remarks
 

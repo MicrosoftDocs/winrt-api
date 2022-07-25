@@ -12,7 +12,7 @@ virtual protected void OnHolding(Windows.UI.Xaml.Input.HoldingRoutedEventArgs e)
 ## -description
 Called before the [Holding](../windows.ui.xaml/uielement_holding.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnHolding](/windows/winui/api/microsoft.ui.xaml.controls.control.onholding).
+
 
 ## -parameters
 ### -param e

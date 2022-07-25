@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.UI.Xaml.Automation.Pee
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls GetControlledPeers or an equivalent Microsoft UI Automation client API such as getting a property value as identified by **UIA_ControllerForPropertyId**.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetControlledPeers](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getcontrolledpeers).
+
 
 ## -returns
 A list of the controlled peers for the current automation peer.

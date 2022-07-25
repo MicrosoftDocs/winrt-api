@@ -13,7 +13,7 @@ public float PlaybackRate { get;  set; }
 
 Gets or sets the rate at which the animation plays.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.AnimationController.PlaybackRate](/windows/winui/api/microsoft.ui.composition.animationcontroller.playbackrate).
+
 
 ## -property-value
 

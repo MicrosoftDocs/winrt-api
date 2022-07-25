@@ -12,7 +12,7 @@ public class ItemsControlAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 ## -description
 Exposes [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ItemsControlAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.itemscontrolautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md) class creates a new ItemsControlAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ItemsControlAutomationPeer if you are deriving a custom class from [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer. Make sure though that there aren't any existing derived classes from [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md) that might better suit your scenario. For example, [Selector](../windows.ui.xaml.controls.primitives/selector.md), [FlipView](../windows.ui.xaml.controls/flipview.md), [GridView](../windows.ui.xaml.controls/gridview.md), [ComboBox](../windows.ui.xaml.controls/combobox.md), [ListViewBase](../windows.ui.xaml.controls/listviewbase.md) and [ListBox](../windows.ui.xaml.controls/listbox.md) are all a type of [ItemsControl](../windows.ui.xaml.controls/itemscontrol.md). Each of these already has a dedicated automation peer.

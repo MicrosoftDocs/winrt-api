@@ -12,7 +12,7 @@ public class SceneLightingEffect : Windows.Graphics.Effects.IGraphicsEffect, Win
 ## -description
 Controls the reflective properties of a SpriteVisual. A SceneLightingEffect will overwrite [CompositionLight](../windows.ui.composition/compositionlight.md) defaults. It is used to control the reflective properties of a SpriteVisual. A NormalMap can be used as an input source but is not required.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Effects.SceneLightingEffect](/windows/winui/api/microsoft.ui.composition.effects.scenelightingeffect).
+
 
 ## -remarks
 

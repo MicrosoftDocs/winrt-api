@@ -14,7 +14,7 @@ public UIElement Anchor { get;  set; }
 
 Gets or sets the *anchor element* to use when performing scroll anchoring.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AnchorRequestedEventArgs.Anchor](/windows/winui/api/microsoft.ui.xaml.controls.anchorrequestedeventargs.anchor).
+
 
 ## -property-value
 

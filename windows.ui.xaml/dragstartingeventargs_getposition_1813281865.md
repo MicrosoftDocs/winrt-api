@@ -12,7 +12,7 @@ public Windows.Foundation.Point GetPosition(Windows.UI.Xaml.UIElement relativeTo
 ## -description
 Returns a drop point that is relative to a specified [UIElement](uielement.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DragStartingEventArgs.GetPosition](/windows/winui/api/microsoft.ui.xaml.dragstartingeventargs.getposition).
+
 
 ## -parameters
 ### -param relativeTo

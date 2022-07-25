@@ -13,7 +13,7 @@ public Windows.UI.Color Crimson { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDC143C.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Crimson](/windows/winui/api/microsoft.ui.colors.crimson).
+
 
 ## -property-value
 

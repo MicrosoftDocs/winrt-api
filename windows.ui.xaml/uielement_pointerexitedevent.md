@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerExitedEvent { get; }
 ## -description
 Gets the identifier for the [PointerExited](uielement_pointerexited.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerExitedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointerexitedevent).
+
 
 ## -property-value
 The identifier for the [PointerExited](uielement_pointerexited.md) routed event.

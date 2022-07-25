@@ -13,7 +13,7 @@ public CompositionViewBox Compositor.CreateViewBox()
 
 Creates an instance of [CompositionViewBox](compositionviewbox.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateViewBox](/windows/winui/api/microsoft.ui.composition.compositor.createviewbox).
+
 
 ## -returns
 

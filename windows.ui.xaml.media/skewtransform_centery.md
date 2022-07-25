@@ -12,7 +12,7 @@ public double CenterY { get;  set; }
 ## -description
 Gets or sets the y-coordinate of the transform center.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.SkewTransform.CenterY](/windows/winui/api/microsoft.ui.xaml.media.skewtransform.centery).
+
 
 ## -xaml-syntax
 ```xaml

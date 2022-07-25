@@ -12,7 +12,7 @@ public void ReplaceAll(Windows.UI.Xaml.TriggerAction[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerActionCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.replaceall).
+
 
 ## -parameters
 ### -param items

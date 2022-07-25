@@ -12,7 +12,7 @@ public Windows.UI.Text.MarkerType ListType { get;  set; }
 ## -description
 Gets or sets the kind of characters used to mark the item paragraphs in a list.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextParagraphFormat.ListType](/windows/winui/api/microsoft.ui.text.itextparagraphformat.listtype).
+
 
 ## -property-value
 The kind of characters used to mark the item paragraphs.

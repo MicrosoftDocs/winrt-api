@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.Transform value)
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.insertat).
+
 
 ## -parameters
 ### -param index

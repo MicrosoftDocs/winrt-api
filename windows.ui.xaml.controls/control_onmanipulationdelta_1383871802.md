@@ -12,7 +12,7 @@ virtual protected void OnManipulationDelta(Windows.UI.Xaml.Input.ManipulationDel
 ## -description
 Called before the [ManipulationDelta](../windows.ui.xaml/uielement_manipulationdelta.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnManipulationDelta](/windows/winui/api/microsoft.ui.xaml.controls.control.onmanipulationdelta).
+
 
 ## -parameters
 ### -param e

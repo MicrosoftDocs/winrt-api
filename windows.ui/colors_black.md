@@ -13,7 +13,7 @@ public Windows.UI.Color Black { get; }
 
 Gets the system-defined color that has the ARGB value of #FF000000.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Black](/windows/winui/api/microsoft.ui.colors.black).
+
 
 ## -property-value
 

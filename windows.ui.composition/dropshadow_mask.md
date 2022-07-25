@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionBrush Mask { get;  set; }
 ## -description
 Brush used to specify an opacity mask for the shadow. Defaults to the SpriteVisual's brush. Animatable.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.Mask](/windows/winui/api/microsoft.ui.composition.dropshadow.mask).
+
 
 ## -property-value
 Brush used to specify an opacity mask for the shadow. Defaults to the SpriteVisual's brush.

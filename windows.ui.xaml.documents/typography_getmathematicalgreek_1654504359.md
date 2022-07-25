@@ -12,7 +12,7 @@ public bool GetMathematicalGreek(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [MathematicalGreek](typography_mathematicalgreek.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetMathematicalGreek](/windows/winui/api/microsoft.ui.xaml.documents.typography.getmathematicalgreek).
+
 
 ## -parameters
 ### -param element

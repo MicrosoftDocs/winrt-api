@@ -14,7 +14,7 @@ public bool IsHostVisible { get; }
 
 Gets a value that indicates whether the XamlRoot is visible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.XamlRoot.IsHostVisible](/windows/winui/api/microsoft.ui.xaml.xamlroot.ishostvisible).
+
 
 ## -property-value
 

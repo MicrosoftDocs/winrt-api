@@ -12,7 +12,7 @@ public class GridViewHeaderItemAutomationPeer : Windows.UI.Xaml.Automation.Peers
 ## -description
 Exposes [GridViewHeaderItem](../windows.ui.xaml.controls/gridviewheaderitem.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.GridViewHeaderItemAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.gridviewheaderitemautomationpeer).
+
 
 ## -remarks
 

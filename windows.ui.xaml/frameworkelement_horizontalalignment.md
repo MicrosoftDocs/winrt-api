@@ -12,7 +12,7 @@ public Windows.UI.Xaml.HorizontalAlignment HorizontalAlignment { get;  set; }
 ## -description
 Gets or sets the horizontal alignment characteristics that are applied to a [FrameworkElement](frameworkelement.md) when it is composed in a layout parent, such as a panel or items control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.HorizontalAlignment](/windows/winui/api/microsoft.ui.xaml.frameworkelement.horizontalalignment).
+
 
 ## -xaml-syntax
 ```xaml

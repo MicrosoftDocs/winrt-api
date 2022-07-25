@@ -14,7 +14,7 @@ public InteractionSourceRedirectionMode PositionYSourceMode { get;  set; }
 
 Gets or sets a value that indicates how interactions are processed for this [VisualInteractionSource](visualinteractionsource.md) input on the Y axis.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionSourceConfiguration.PositionYSourceMode](/windows/winui/api/microsoft.ui.composition.interactions.interactionsourceconfiguration.positionysourcemode).
+
 
 ## -property-value
 

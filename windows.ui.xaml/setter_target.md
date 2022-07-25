@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TargetPropertyPath Target { get;  set; }
 ## -description
 Gets or sets the path of a property on a target element to apply the [Value](setter_value.md) to.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Setter.Target](/windows/winui/api/microsoft.ui.xaml.setter.target).
+
 
 ## -property-value
 The path of a property on a target element to apply the [Value](setter_value.md) to.

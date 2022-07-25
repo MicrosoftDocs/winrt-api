@@ -13,7 +13,7 @@ public BounceVector2NaturalMotionAnimation Compositor.CreateBounceVector2Animati
 
 Creates an instance of [BounceVector2NaturalMotionAnimation](bouncevector2naturalmotionanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateBounceVector2Animation](/windows/winui/api/microsoft.ui.composition.compositor.createbouncevector2animation).
+
 
 ## -returns
 

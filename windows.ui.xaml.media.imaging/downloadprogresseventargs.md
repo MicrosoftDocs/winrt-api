@@ -12,7 +12,7 @@ public class DownloadProgressEventArgs : Windows.UI.Xaml.Media.Imaging.IDownload
 ## -description
 Provides event data for the [DownloadProgress](bitmapimage_downloadprogress.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Imaging.DownloadProgressEventArgs](/windows/winui/api/microsoft.ui.xaml.media.imaging.downloadprogresseventargs).
+
 
 ## -remarks
 

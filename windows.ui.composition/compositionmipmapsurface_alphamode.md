@@ -14,7 +14,7 @@ public DirectXAlphaMode AlphaMode { get; }
 
 Gets the alpha mode of the mipmap surface.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionMipmapSurface.AlphaMode](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.alphamode).
+
 
 ## -property-value
 

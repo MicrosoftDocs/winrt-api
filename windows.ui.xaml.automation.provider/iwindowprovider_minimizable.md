@@ -12,7 +12,7 @@ public bool Minimizable { get; }
 ## -description
 Gets a value that specifies whether the window can be minimized.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable](/windows/winui/api/microsoft.ui.xaml.automation.provider.iwindowprovider.minimizable).
+
 
 ## -property-value
 **true** if the window can be minimized; otherwise, **false**.

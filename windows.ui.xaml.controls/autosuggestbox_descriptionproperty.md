@@ -14,7 +14,7 @@ public DependencyProperty DescriptionProperty { get; }
 
 Identifies the [Description](autosuggestbox_description.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AutoSuggestBox.DescriptionProperty](/windows/winui/api/microsoft.ui.xaml.controls.autosuggestbox.descriptionproperty).
+
 
 ## -property-value
 

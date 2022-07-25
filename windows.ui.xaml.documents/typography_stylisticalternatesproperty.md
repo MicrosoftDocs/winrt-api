@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StylisticAlternatesProperty { get; }
 ## -description
 Identifies the [StylisticAlternates](typography_stylisticalternates.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StylisticAlternatesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.stylisticalternatesproperty).
+
 
 ## -property-value
 The identifier for the [StylisticAlternates](typography_stylisticalternates.md) attached property.

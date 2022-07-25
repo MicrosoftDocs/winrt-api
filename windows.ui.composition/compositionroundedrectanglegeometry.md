@@ -13,7 +13,7 @@ public class CompositionRoundedRectangleGeometry : CompositionGeometry, Composit
 
 Represents a rectangle shape of the specified size with rounded corners.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionRoundedRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositionroundedrectanglegeometry).
+
 
 ## -remarks
 

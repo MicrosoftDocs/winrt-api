@@ -12,7 +12,7 @@ public void RegisterUpdateCallback(Windows.Foundation.TypedEventHandler<Windows.
 ## -description
 Registers the event handler to be called again during the next phase.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs.RegisterUpdateCallback](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs.registerupdatecallback).
+
 
 ## -parameters
 ### -param callback

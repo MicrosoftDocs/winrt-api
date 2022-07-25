@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ScaleYProperty { get; }
 ## -description
 Identifies the [ScaleY](scaletransform_scaley.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.ScaleYProperty](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.scaleyproperty).
+
 
 ## -property-value
 The identifier for the [ScaleY](scaletransform_scaley.md) dependency property.

@@ -13,7 +13,7 @@ public TextAlignment HorizontalTextAlignment { get;  set; }
 
 Gets or sets a value that indicates how text is aligned in the TextBox.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.HorizontalTextAlignment](/windows/winui/api/microsoft.ui.xaml.controls.textbox.horizontaltextalignment).
+
 
 ## -xaml-syntax
 

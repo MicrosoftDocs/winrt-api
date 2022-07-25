@@ -12,7 +12,7 @@ public string Name { get; }
 ## -description
 Gets the name of the [VisualStateGroup](visualstategroup.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualStateGroup.Name](/windows/winui/api/microsoft.ui.xaml.visualstategroup.name).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public DependencyProperty CanUndoProperty { get; }
 
 Identifies the CanUndo dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CanUndoProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canundoproperty).
+
 
 ## -property-value
 

@@ -14,7 +14,7 @@ public class CompositionVisualSurface : CompositionObject, CompositionObject, IC
 
 Represents a visual tree as an ICompositionSurface that can be used to paint a Visual using a CompositionBrush.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionVisualSurface](/windows/winui/api/microsoft.ui.composition.compositionvisualsurface).
+
 
 ## -remarks
 

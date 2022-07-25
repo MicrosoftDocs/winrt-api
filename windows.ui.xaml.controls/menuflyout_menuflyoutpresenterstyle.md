@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Style MenuFlyoutPresenterStyle { get;  set; }
 ## -description
 Gets or sets the style that is used when rendering the [MenuFlyout](menuflyout.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyout.MenuFlyoutPresenterStyle](/windows/winui/api/microsoft.ui.xaml.controls.menuflyout.menuflyoutpresenterstyle).
+
 
 ## -xaml-syntax
 ```xaml

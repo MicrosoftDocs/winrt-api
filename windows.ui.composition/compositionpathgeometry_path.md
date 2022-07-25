@@ -13,7 +13,7 @@ public CompositionPath Path { get;  set; }
 
 Gets or sets the data that defines the lines and curves of the path.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionPathGeometry.Path](/windows/winui/api/microsoft.ui.composition.compositionpathgeometry.path).
+
 
 ## -property-value
 

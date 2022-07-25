@@ -13,7 +13,7 @@ public DependencyProperty RowSpacingProperty { get; }
 
 Identifies the RowSpacing dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Grid.RowSpacingProperty](/windows/winui/api/microsoft.ui.xaml.controls.grid.rowspacingproperty).
+
 
 ## -property-value
 

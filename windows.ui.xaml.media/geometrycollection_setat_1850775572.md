@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Geometry value)
 ## -description
 Sets the value at the specified index to the value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.setat).
+
 
 ## -parameters
 ### -param index

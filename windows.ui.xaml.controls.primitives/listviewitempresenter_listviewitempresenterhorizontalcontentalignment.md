@@ -15,7 +15,7 @@ public Windows.UI.Xaml.HorizontalAlignment ListViewItemPresenterHorizontalConten
 
 Gets or sets the horizontal alignment of the content being presented.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.listviewitempresenterhorizontalcontentalignment).
+
 
 ## -property-value
 A value of the enumeration.

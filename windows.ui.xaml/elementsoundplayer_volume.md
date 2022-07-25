@@ -12,7 +12,7 @@ public double Volume { get;  set; }
 ## -description
 Gets or sets the volume of the sounds played by the Play method.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ElementSoundPlayer.Volume](/windows/winui/api/microsoft.ui.xaml.elementsoundplayer.volume).
+
 
 ## -property-value
 The volume of the sounds played by the Play method. The default is 1.0.

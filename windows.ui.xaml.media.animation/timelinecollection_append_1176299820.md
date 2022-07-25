@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Animation.Timeline value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.append).
+
 
 ## -parameters
 ### -param value

@@ -14,7 +14,7 @@ public object Data { get;  set; }
 
 Gets or sets the data item for which an appropriate element tree should be realized when calling [GetElement](ielementfactory_getelement_92222689.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.ElementFactoryGetArgs.Data](/windows/winui/api/microsoft.ui.xaml.elementfactorygetargs.data).
+
 
 ## -property-value
 

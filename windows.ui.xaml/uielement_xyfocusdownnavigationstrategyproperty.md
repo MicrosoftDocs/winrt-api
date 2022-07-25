@@ -13,7 +13,7 @@ public DependencyProperty XYFocusDownNavigationStrategyProperty { get; }
 
 Identifies the [XYFocusDownNavigationStrategy](uielement_xyfocusdownnavigationstrategy.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.XYFocusDownNavigationStrategyProperty](/windows/winui/api/microsoft.ui.xaml.uielement.xyfocusdownnavigationstrategyproperty).
+
 
 ## -property-value
 

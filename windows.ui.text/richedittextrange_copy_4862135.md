@@ -13,7 +13,7 @@ public void RichEditTextRange.Copy()
 
 Copies the text of the text range to the Clipboard.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.Copy](/windows/winui/api/microsoft.ui.text.richedittextrange.copy).
+
 
 ## -remarks
 

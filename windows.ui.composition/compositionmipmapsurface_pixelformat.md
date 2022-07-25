@@ -14,7 +14,7 @@ public DirectXPixelFormat PixelFormat { get; }
 
 Gets the pixel format of the mipmap surface.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionMipmapSurface.PixelFormat](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.pixelformat).
+
 
 ## -property-value
 

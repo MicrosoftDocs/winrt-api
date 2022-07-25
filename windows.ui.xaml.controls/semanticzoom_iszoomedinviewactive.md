@@ -12,7 +12,7 @@ public bool IsZoomedInViewActive { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [ZoomedInView](semanticzoom_zoomedinview.md) is the active view.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SemanticZoom.IsZoomedInViewActive](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.iszoomedinviewactive).
+
 
 ## -xaml-syntax
 ```xaml

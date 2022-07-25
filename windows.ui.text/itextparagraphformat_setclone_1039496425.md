@@ -12,7 +12,7 @@ public void SetClone(Windows.UI.Text.ITextParagraphFormat format)
 ## -description
 Sets the paragraph formatting by copying another paragraph formatting object.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.SetClone](/windows/winui/api/microsoft.ui.text.itextparagraphformat.setclone).
+
 
 ## -parameters
 ### -param format

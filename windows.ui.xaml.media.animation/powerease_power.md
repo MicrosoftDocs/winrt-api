@@ -12,7 +12,7 @@ public double Power { get;  set; }
 ## -description
 Gets or sets the exponential power of the animation interpolation. For example, a value of 7 creates an animation interpolation curve that follows the formula *f* (*t*) = *t*<sup>7</sup>.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PowerEase.Power](/windows/winui/api/microsoft.ui.xaml.media.animation.powerease.power).
+
 
 ## -xaml-syntax
 ```xaml

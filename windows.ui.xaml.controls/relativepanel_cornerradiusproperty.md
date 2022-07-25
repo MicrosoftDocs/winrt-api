@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CornerRadiusProperty { get; }
 ## -description
 Identifies the [CornerRadius](relativepanel_cornerradius.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.CornerRadiusProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.cornerradiusproperty).
+
 
 ## -property-value
 The identifier for the [CornerRadius](relativepanel_cornerradius.md) dependency property.

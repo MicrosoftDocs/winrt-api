@@ -12,7 +12,6 @@ public class ButtonBaseAutomationPeer : Windows.UI.Xaml.Automation.Peers.Framewo
 ## -description
 Represents a base class for exposing classes derived from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ButtonBaseAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.buttonbaseautomationpeer).
 
 ## -remarks
  ButtonBaseAutomationPeer has a protected constructor, so you won't be able to use it directly for an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ButtonBaseAutomationPeer if you are deriving a custom class from [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer. Note that [ButtonBase](../windows.ui.xaml.controls.primitives/buttonbase.md) already has derived classes, each of which also has a derived peer, so make sure that you really want to derive from this base class rather than use one of the existing XAML-enabled derived button classes.

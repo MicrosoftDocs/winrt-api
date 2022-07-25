@@ -14,7 +14,7 @@ public IReference<Rect> ExclusionRect { get;  set; }
 
 Gets or sets a rectangular area that the flyout tries to not overlap.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ExclusionRect](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutshowoptions.exclusionrect).
+
 
 ## -property-value
 

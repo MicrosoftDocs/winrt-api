@@ -14,7 +14,7 @@ public int MaxRespectedCasters { get; }
 
 Gets the maximum number of shadow casters that will be respected.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.MaxRespectedCasters](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.maxrespectedcasters).
+
 
 ## -property-value
 

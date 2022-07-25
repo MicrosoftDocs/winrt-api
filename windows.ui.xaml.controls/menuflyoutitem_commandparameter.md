@@ -12,7 +12,7 @@ public object CommandParameter { get;  set; }
 ## -description
 Gets or sets the parameter to pass to the [Command](menuflyoutitem_command.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.CommandParameter](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.commandparameter).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public double OpenPaneLength { get;  set; }
 ## -description
 Gets or sets the width of the [SplitView](splitview.md) pane when it's fully expanded.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.OpenPaneLength](/windows/winui/api/microsoft.ui.xaml.controls.splitview.openpanelength).
+
 
 ## -xaml-syntax
 ```xaml

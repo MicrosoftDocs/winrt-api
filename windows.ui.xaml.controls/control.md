@@ -13,7 +13,7 @@ public class Control : Windows.UI.Xaml.FrameworkElement, Windows.UI.Xaml.Control
 
 Represents the base class for UI elements that use a [ControlTemplate](controltemplate.md) to define their appearance. Parent class for [ContentControl](contentcontrol.md), [UserControl](usercontrol.md), [ItemsControl](itemscontrol.md) and several practical controls.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Control](/windows/winui/api/microsoft.ui.xaml.controls.control).
+
 
 ## -remarks
 

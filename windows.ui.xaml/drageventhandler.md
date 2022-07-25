@@ -10,7 +10,7 @@ public delegate void DragEventHandler(System.Object sender, Windows.UI.Xaml.Drag
 ## -description
 Represents the method that will handle the [DragEnter](uielement_dragenter.md), [DragLeave](uielement_dragleave.md), [DragOver](uielement_dragover.md), and [Drop](uielement_drop.md) events of a [UIElement](uielement.md).
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.DragEventHandler](/windows/winui/api/microsoft.ui.xaml.drageventhandler).
+
 
 ## -parameters
 

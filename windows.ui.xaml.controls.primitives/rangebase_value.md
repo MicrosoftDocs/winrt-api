@@ -12,7 +12,7 @@ public double Value { get;  set; }
 ## -description
 Gets or sets the current setting of the range control, which may be coerced.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.RangeBase.Value](/windows/winui/api/microsoft.ui.xaml.controls.primitives.rangebase.value).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void SelectAll()
 ## -description
 Selects all the items in the [ListBox](listbox.md) control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ListBox.SelectAll](/windows/winui/api/microsoft.ui.xaml.controls.listbox.selectall).
+
 
 ## -remarks
 > [!WARNING]

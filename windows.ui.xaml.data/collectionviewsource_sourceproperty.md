@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SourceProperty { get; }
 ## -description
 Identifies the [Source](collectionviewsource_source.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.CollectionViewSource.SourceProperty](/windows/winui/api/microsoft.ui.xaml.data.collectionviewsource.sourceproperty).
+
 
 ## -property-value
 The identifier for the [Source](collectionviewsource_source.md) dependency property.

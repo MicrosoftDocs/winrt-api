@@ -12,7 +12,7 @@ public double IntermediateValue { get;  set; }
 ## -description
 Gets or sets the value of the [Slider](slider.md) while the user is interacting with it, before the value is snapped to either the tick or step value. The value the [Slider](slider.md) snaps to is specified by the [SnapsTo](slider_snapsto.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.IntermediateValue](/windows/winui/api/microsoft.ui.xaml.controls.slider.intermediatevalue).
+
 
 ## -property-value
 A temporary value.

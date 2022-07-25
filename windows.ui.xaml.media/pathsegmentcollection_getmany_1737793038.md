@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Media.PathSegment[
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.PathSegmentCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.pathsegmentcollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

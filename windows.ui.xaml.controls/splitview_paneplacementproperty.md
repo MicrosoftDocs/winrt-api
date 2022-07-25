@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PanePlacementProperty { get; }
 ## -description
 Identifies the [PanePlacement](splitview_paneplacement.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.SplitView.PanePlacementProperty](/windows/winui/api/microsoft.ui.xaml.controls.splitview.paneplacementproperty).
+
 
 ## -property-value
 The identifier for the   [PanePlacement](splitview_paneplacement.md) dependency property.

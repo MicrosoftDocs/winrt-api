@@ -12,7 +12,7 @@ public Windows.Foundation.Point StartPoint { get;  set; }
 ## -description
 Gets or sets the [Point](../windows.foundation/point.md) where the [PathFigure](pathfigure.md) begins.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathFigure.StartPoint](/windows/winui/api/microsoft.ui.xaml.media.pathfigure.startpoint).
+
 
 ## -xaml-syntax
 ```xaml

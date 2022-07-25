@@ -14,7 +14,7 @@ public Rect EffectiveViewport { get; }
 
 Gets the [Rect](../windows.foundation/rect.md) representing the effective viewport.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.EffectiveViewportChangedEventArgs.EffectiveViewport](/windows/winui/api/microsoft.ui.xaml.effectiveviewportchangedeventargs.effectiveviewport).
+
 
 ## -property-value
 

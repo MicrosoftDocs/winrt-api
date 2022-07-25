@@ -14,7 +14,7 @@ public void Brush.PopulatePropertyInfo(String propertyName, AnimationPropertyInf
 
 Defines a property that can be animated.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Brush.PopulatePropertyInfo](/windows/winui/api/microsoft.ui.xaml.media.brush.populatepropertyinfo).
+
 
 ## -parameters
 ### -param propertyName

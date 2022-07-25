@@ -12,7 +12,7 @@ public class TimePickedEventArgs : Windows.UI.Xaml.DependencyObject, Windows.UI.
 ## -description
 Provides data for the [TimePicked](timepickerflyout_timepicked.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TimePickedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.timepickedeventargs).
+
 
 ## -remarks
 

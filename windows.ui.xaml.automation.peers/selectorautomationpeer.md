@@ -12,7 +12,7 @@ public class SelectorAutomationPeer : Windows.UI.Xaml.Automation.Peers.ItemsCont
 ## -description
 A base class that provides a Microsoft UI Automation peer implementation for types that derive from [Selector](../windows.ui.xaml.controls.primitives/selector.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.selectorautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [Selector](../windows.ui.xaml.controls.primitives/selector.md) class creates a new SelectorAutomationPeer as part of internal logic that checks for listeners of certain automation events. [Selector](../windows.ui.xaml.controls.primitives/selector.md) doesn't have an [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) that automatically hooks up the peer on creation, because [Selector](../windows.ui.xaml.controls.primitives/selector.md) is usually a base class.

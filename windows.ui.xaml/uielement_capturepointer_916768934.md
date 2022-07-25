@@ -12,7 +12,7 @@ public bool CapturePointer(Windows.UI.Xaml.Input.Pointer value)
 ## -description
 Sets pointer capture to a [UIElement](uielement.md). Once captured, only the element that has capture will fire pointer-related events.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.CapturePointer](/windows/winui/api/microsoft.ui.xaml.uielement.capturepointer).
+
 
 ## -parameters
 ### -param value

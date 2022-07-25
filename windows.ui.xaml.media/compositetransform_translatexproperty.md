@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TranslateXProperty { get; }
 ## -description
 Identifies the [TranslateX](compositetransform_translatex.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.CompositeTransform.TranslateXProperty](/windows/winui/api/microsoft.ui.xaml.media.compositetransform.translatexproperty).
+
 
 ## -property-value
 The identifier for the [TranslateX](compositetransform_translatex.md) dependency property.

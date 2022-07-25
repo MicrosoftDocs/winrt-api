@@ -12,7 +12,7 @@ public object Value { get;  set; }
 ## -description
 Gets or sets the key frame's target value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrame.Value](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframe.value).
+
 
 ## -xaml-syntax
 ```xaml

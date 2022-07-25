@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty FlowsFromProperty { get; }
 
 Identifies the [FlowsFrom](automationproperties_flowsfrom.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.FlowsFromProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.flowsfromproperty).
+
 
 ## -property-value
 

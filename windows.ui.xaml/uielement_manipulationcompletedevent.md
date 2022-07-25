@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent ManipulationCompletedEvent { get; }
 ## -description
 Gets the identifier for the [ManipulationCompleted](uielement_manipulationcompleted.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.ManipulationCompletedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.manipulationcompletedevent).
+
 
 ## -property-value
 The identifier for the [ManipulationCompleted](uielement_manipulationcompleted.md) routed event.

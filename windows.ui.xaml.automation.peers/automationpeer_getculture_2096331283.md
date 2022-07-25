@@ -14,7 +14,7 @@ public int AutomationPeer.GetCulture()
 
 Calls [GetCultureCore](automationpeer_getculturecore_562664259.md) to get the culture value for the element that is associated with the automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetCulture](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getculture).
+
 
 ## -returns
 

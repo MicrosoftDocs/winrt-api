@@ -13,7 +13,7 @@ public IReference<Vector3> FinalValue { get;  set; }
 
 Gets or sets a value that indicates where the animation ends.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Vector3NaturalMotionAnimation.FinalValue](/windows/winui/api/microsoft.ui.composition.vector3naturalmotionanimation.finalvalue).
+
 
 ## -property-value
 

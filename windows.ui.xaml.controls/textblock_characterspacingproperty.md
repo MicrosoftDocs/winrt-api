@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty CharacterSpacingProperty { get; }
 ## -description
 Identifies the [CharacterSpacing](textblock_characterspacing.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.CharacterSpacingProperty](/windows/winui/api/microsoft.ui.xaml.controls.textblock.characterspacingproperty).
+
 
 ## -property-value
 The identifier for the [CharacterSpacing](textblock_characterspacing.md) dependency property.

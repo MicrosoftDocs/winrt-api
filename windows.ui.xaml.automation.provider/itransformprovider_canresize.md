@@ -12,7 +12,7 @@ public bool CanResize { get; }
 ## -description
 Gets a value that indicates whether the element can be resized.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider.CanResize](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider.canresize).
+
 
 ## -property-value
 **true** if the element can be resized; otherwise, **false**.

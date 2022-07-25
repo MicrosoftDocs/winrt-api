@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IMapView<string, Windows.UI.Composition.IC
 ## -description
 Returns a map view of the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.ImplicitAnimationCollection.GetView](/windows/winui/api/microsoft.ui.composition.implicitanimationcollection.getview).
+
 
 ## -returns
 Returns a map view of the collection.

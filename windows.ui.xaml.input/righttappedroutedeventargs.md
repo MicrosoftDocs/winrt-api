@@ -13,7 +13,7 @@ public class RightTappedRoutedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Windo
 
 Provides event data for the [RightTapped](../windows.ui.xaml/uielement_righttapped.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.RightTappedRoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.input.righttappedroutedeventargs).
+
 
 ## -remarks
 

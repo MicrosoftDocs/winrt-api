@@ -12,7 +12,7 @@ public double HorizontalOffset { get;  set; }
 ## -description
 Gets or sets the distance by which the target is translated in the horizontal direction when the transition is active.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ContentThemeTransition.HorizontalOffset](/windows/winui/api/microsoft.ui.xaml.media.animation.contentthemetransition.horizontaloffset).
+
 
 ## -xaml-syntax
 ```xaml

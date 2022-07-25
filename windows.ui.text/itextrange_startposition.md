@@ -12,7 +12,7 @@ public int StartPosition { get;  set; }
 ## -description
 Gets or sets the start position of the text range.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextRange.StartPosition](/windows/winui/api/microsoft.ui.text.itextrange.startposition).
+
 
 ## -property-value
 The character position to set as the start position of the text range.

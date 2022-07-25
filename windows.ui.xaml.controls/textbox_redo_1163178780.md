@@ -14,7 +14,7 @@ public void TextBox.Redo()
 
 Reapplies the first action in the redo buffer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.Redo](/windows/winui/api/microsoft.ui.xaml.controls.textbox.redo).
+
 
 ## -remarks
 

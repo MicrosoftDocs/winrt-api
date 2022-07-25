@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Duration Automatic { get; }
 
  Returns a generated [Duration](duration.md) value that indicates an "Automatic" [Duration](duration.md). C# and Microsoft Visual Basic code should use [Duration.Automatic](/dotnet/api/windows.ui.xaml.duration.automatic?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DurationHelper.Automatic](/windows/winui/api/microsoft.ui.xaml.durationhelper.automatic).
+
 
 ## -property-value
 

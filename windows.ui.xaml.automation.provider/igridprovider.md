@@ -12,7 +12,7 @@ public interface IGridProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that act as containers for a collection of child elements. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Grid](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IGridProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.igridprovider).
+
 
 ## -remarks
 This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Grid Control Pattern](/windows/desktop/WinAuto/uiauto-implementinggrid).

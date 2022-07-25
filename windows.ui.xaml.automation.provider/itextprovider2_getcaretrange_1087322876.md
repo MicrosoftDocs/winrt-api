@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider GetCaretRange(Syst
 ## -description
 Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextProvider2.GetCaretRange](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextprovider2.getcaretrange).
+
 
 ## -parameters
 ### -param isActive

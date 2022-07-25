@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Duration Duration { get;  set; }
 ## -description
 Gets or sets the length of time for which this timeline plays, not counting repetitions.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Timeline.Duration](/windows/winui/api/microsoft.ui.xaml.media.animation.timeline.duration).
+
 
 ## -xaml-syntax
 ```xaml

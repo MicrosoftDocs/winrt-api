@@ -12,7 +12,7 @@ public class DependencyObject : Windows.UI.Xaml.IDependencyObject, Windows.UI.Xa
 ## -description
 Represents an object that participates in the dependency property system. DependencyObject is the immediate base class of many important UI-related classes, such as [UIElement](uielement.md), [Geometry](../windows.ui.xaml.media/geometry.md), [FrameworkTemplate](frameworktemplate.md), [Style](style.md), and [ResourceDictionary](resourcedictionary.md). For more info on how DependencyObject supports dependency properties, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DependencyObject](/windows/winui/api/microsoft.ui.xaml.dependencyobject).
+
 
 ## -remarks
 The DependencyObject class enables dependency property system services on its many derived classes. For more info about the dependency property concept, see [Dependency properties overview](/windows/uwp/xaml-platform/dependency-properties-overview).

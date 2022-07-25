@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler ItemsPicked<Windows.UI.Xaml.Co
 ## -description
 Occurs when the user has selected items.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ItemsPicked](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.itemspicked).
+
 
 ## -remarks
 

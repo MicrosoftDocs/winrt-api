@@ -13,7 +13,7 @@ public class CompositionShape : CompositionObject, CompositionObject
 
 Represents the base shape class.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionShape](/windows/winui/api/microsoft.ui.composition.compositionshape).
+
 
 ## -remarks
 

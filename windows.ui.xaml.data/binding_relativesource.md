@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.RelativeSource RelativeSource { get;  set; }
 ## -description
 Gets or sets the binding source by specifying its location relative to the position of the binding target. This is most often used in bindings within XAML control templates.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.RelativeSource](/windows/winui/api/microsoft.ui.xaml.data.binding.relativesource).
+
 
 ## -xaml-syntax
 ```xaml

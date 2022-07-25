@@ -14,7 +14,7 @@ public bool Cancel { get;  set; }
 
 Gets or sets a value that indicates whether the selection operation should be canceled.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBoxSelectionChangingEventArgs.Cancel](/windows/winui/api/microsoft.ui.xaml.controls.richeditboxselectionchangingeventargs.cancel).
+
 
 ## -property-value
 

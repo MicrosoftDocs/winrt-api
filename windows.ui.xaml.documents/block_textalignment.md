@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextAlignment TextAlignment { get;  set; }
 ## -description
 Gets or sets the horizontal alignment of the text content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Block.TextAlignment](/windows/winui/api/microsoft.ui.xaml.documents.block.textalignment).
+
 
 ## -xaml-syntax
 ```xaml

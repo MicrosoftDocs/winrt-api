@@ -14,7 +14,7 @@ public DependencyProperty SelectionFlyoutProperty { get; }
 
 Identifies the [SelectionFlyout](richeditbox_selectionflyout.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionFlyoutProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionflyoutproperty).
+
 
 ## -property-value
 

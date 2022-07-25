@@ -13,7 +13,7 @@ public Windows.UI.Color Orchid { get; }
 
 Gets the system-defined color that has an ARGB value of #FFDA70D6.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Orchid](/windows/winui/api/microsoft.ui.colors.orchid).
+
 
 ## -property-value
 

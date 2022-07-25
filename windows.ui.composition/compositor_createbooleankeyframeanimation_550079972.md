@@ -14,7 +14,7 @@ public BooleanKeyFrameAnimation Compositor.CreateBooleanKeyFrameAnimation()
 
 Creates an instance of [BooleanKeyFrameAnimation](booleankeyframeanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateBooleanKeyFrameAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createbooleankeyframeanimation).
+
 
 ## -returns
 

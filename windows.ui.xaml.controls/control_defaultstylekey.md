@@ -13,7 +13,7 @@ protected object DefaultStyleKey { get;  set; }
 
 Gets or sets the key that references the default style for the control. Authors of custom controls use this property to change the default for the style that their control uses.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.DefaultStyleKey](/windows/winui/api/microsoft.ui.xaml.controls.control.defaultstylekey).
+
 
 ## -property-value
 
@@ -78,4 +78,4 @@ The "local:" prefix (or some other namespace that maps to your app's code and na
 ## -examples
 
 ## -see-also
-[OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Style](../windows.ui.xaml/style.md), [Style.TargetType](../windows.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))
+[OnApplyTemplate](../windows.ui.xaml/frameworkelement_onapplytemplate_1955470198.md), [Style](../windows.ui.xaml/style.md), [Style.TargetType](../windows.ui.xaml/style_targettype.md), [XAML namespaces and namespace mapping](/windows/uwp/xaml-platform/xaml-namespaces-and-namespace-mapping), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary), [Quickstart: Control templates](/previous-versions/windows/apps/hh465374(v=win.10))

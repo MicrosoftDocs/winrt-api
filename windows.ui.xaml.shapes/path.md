@@ -12,7 +12,7 @@ public class Path : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.IPath
 ## -description
 Draws a series of connected lines and curves. The line and curve dimensions are declared through the [Data](path_data.md) property, and can be specified either with [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax), or with an object model.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Path](/windows/winui/api/microsoft.ui.xaml.shapes.path).
+
 
 ## -xaml-syntax
 ```xaml

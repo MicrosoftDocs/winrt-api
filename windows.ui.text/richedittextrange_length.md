@@ -13,7 +13,7 @@ public int Length { get; }
 
 Gets the count of characters in the text range.
 
-Equivalent WinUI property: [Microsoft.UI.Text.RichEditTextRange.Length](/windows/winui/api/microsoft.ui.text.richedittextrange.length).
+
 
 ## -property-value
 

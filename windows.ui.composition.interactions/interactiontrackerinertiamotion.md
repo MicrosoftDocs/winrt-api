@@ -14,7 +14,7 @@ An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that 
 
 The InteractionTrackerMotion class contains two [ExpressionAnimation](../windows.ui.composition/expressionanimation.md)s representing a second derivative equation of position [InteractionTracker](interactiontracker.md) will use to define the motion from the start to end of inertia when a particular condition is met. The InteractionTrackerMotion class is defined as two parts: The conditional statement to define when the motion will take place and the equation that describes the motion for how [InteractionTracker](interactiontracker.md) will reach its final resting position. Utilize the InteractionTrackerInertiaMotion class when you need to define a customized motion (such as a spring motion) for [InteractionTracker](interactiontracker.md) to use when in its inertia state.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaMotion](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiamotion).
+
 
 ## -remarks
 When building out the [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) for the motion component of InteractionTrackerInertiaMotion, the expression is described as a second derivative equation. For example, In the code snippet above, we utilize the basic equation for Spring Force motion with damping.

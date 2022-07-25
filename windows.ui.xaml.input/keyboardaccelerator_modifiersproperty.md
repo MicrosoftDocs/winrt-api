@@ -12,7 +12,7 @@ public DependencyProperty ModifiersProperty { get; }
 ## -description
 Identifies the [Modifiers](keyboardaccelerator_modifiers.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyboardAccelerator.ModifiersProperty](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator.modifiersproperty).
+
 
 ## -property-value
 The identifier for the [Modifiers](keyboardaccelerator_modifiers.md) dependency property.

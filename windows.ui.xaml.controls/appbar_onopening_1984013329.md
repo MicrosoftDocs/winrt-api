@@ -12,7 +12,7 @@ virtual protected void OnOpening(System.Object e)
 ## -description
 Invoked when the [AppBar](appbar.md) starts to change from hidden to visible, or starts to be first displayed.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.AppBar.OnOpening](/windows/winui/api/microsoft.ui.xaml.controls.appbar.onopening).
+
 
 ## -parameters
 ### -param e

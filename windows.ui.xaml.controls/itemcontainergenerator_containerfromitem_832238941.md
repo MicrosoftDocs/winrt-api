@@ -15,7 +15,7 @@ public Windows.UI.Xaml.DependencyObject ContainerFromItem(System.Object item)
 
 Returns the container corresponding to the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.ContainerFromItem](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.containerfromitem).
+
 
 ## -parameters
 ### -param item

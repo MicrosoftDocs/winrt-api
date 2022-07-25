@@ -14,7 +14,7 @@ public class ElementFactoryRecycleArgs
 
 Represents the optional arguments to use when calling an implementation of the [IElementFactory](ielementfactory.md)'s [RecycleElement](ielementfactory_recycleelement_1023702976.md) method.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.ElementFactoryRecycleArgs](/windows/winui/api/microsoft.ui.xaml.elementfactoryrecycleargs).
+
 
 ## -remarks
 

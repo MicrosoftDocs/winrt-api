@@ -13,7 +13,7 @@ public void CompositionShapeCollection.Clear()
 
 Removes all items from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionShapeCollection.Clear](/windows/winui/api/microsoft.ui.composition.compositionshapecollection.clear).
+
 
 ## -remarks
 

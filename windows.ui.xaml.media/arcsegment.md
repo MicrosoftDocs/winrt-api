@@ -12,7 +12,7 @@ public class ArcSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xaml.Med
 ## -description
 Represents an elliptical arc between two points.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.ArcSegment](/windows/winui/api/microsoft.ui.xaml.media.arcsegment).
+
 
 ## -xaml-syntax
 ```xaml

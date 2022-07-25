@@ -12,7 +12,7 @@ public class LoadedImageSurface : IClosable, ICompositionSurface
 ## -description
 Represents a composition surface that an image can be downloaded, decoded and loaded onto. You can load an image using a Uniform Resource Identifier (URI) that references an image source file, or supplying a [IRandomAccessStream](../windows.storage.streams/irandomaccessstream.md).
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LoadedImageSurface](/windows/winui/api/microsoft.ui.xaml.media.loadedimagesurface).
+
 
 ## -remarks
 A **LoadedImageSurface** can be sourced from these image file formats:

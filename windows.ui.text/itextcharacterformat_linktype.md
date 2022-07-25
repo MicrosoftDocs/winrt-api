@@ -12,7 +12,7 @@ public Windows.UI.Text.LinkType LinkType { get; }
 ## -description
 Gets the link type of the text.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.LinkType](/windows/winui/api/microsoft.ui.text.itextcharacterformat.linktype).
+
 
 ## -property-value
 The link type.

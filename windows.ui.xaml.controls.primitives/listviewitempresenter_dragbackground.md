@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush DragBackground { get;  set; }
 ## -description
 Gets or sets the brush used to render the background of an item that's being dragged.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground](/windows/winui/api/microsoft.ui.xaml.controls.primitives.listviewitempresenter.dragbackground).
+
 
 ## -xaml-syntax
 ```xaml
@@ -37,4 +37,4 @@ If you're setting this property as an attribute on a custom [ListViewItemPresent
 ## -examples
 
 ## -see-also
-[XAML theme resources](/windows/uwp/controls-and-patterns/xaml-theme-resources)
+[XAML theme resources](/windows/apps/design/style/xaml-theme-resources)

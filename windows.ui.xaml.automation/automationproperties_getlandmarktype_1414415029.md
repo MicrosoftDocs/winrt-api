@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkType(W
 
 Gets the value of the landmark type attached property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetLandmarkType](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getlandmarktype).
+
 
 ## -parameters
 

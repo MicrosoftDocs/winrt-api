@@ -13,7 +13,7 @@ public Vector2 CornerRadius { get;  set; }
 
 Gets or sets the degree to which the corners are rounded.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionRoundedRectangleGeometry.CornerRadius](/windows/winui/api/microsoft.ui.composition.compositionroundedrectanglegeometry.cornerradius).
+
 
 ## -property-value
 

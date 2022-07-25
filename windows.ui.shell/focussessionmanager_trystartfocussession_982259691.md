@@ -12,7 +12,7 @@ public Windows.UI.Shell.FocusSession TryStartFocusSession (System.DateTimeOffset
 
 ## -description
 
-Attempts to start a focus session with the specified end time.
+Attempts to start a focus session that is active until explicitly cancelled.
 
 ## -parameters
 

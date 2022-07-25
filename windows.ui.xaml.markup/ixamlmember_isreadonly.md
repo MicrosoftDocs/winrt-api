@@ -12,7 +12,7 @@ public bool IsReadOnly { get; }
 ## -description
 Gets whether the XAML member is read-only in its backing implementation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlMember.IsReadOnly](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.isreadonly).
+
 
 ## -property-value
 **true** if the backing member is read-only; otherwise, **false**.

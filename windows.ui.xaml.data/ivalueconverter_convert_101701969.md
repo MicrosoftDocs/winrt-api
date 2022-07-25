@@ -12,7 +12,7 @@ public object Convert(System.Object value, Windows.UI.Xaml.Interop.TypeName targ
 ## -description
 Modifies the source data before passing it to the target for display in the UI.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.IValueConverter.Convert](/windows/winui/api/microsoft.ui.xaml.data.ivalueconverter.convert).
+
 
 ## -parameters
 ### -param value

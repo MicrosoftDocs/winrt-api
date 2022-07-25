@@ -13,7 +13,7 @@ public void InteractionTracker.ConfigureVector2PositionInertiaModifiers(IIterabl
 
 Applies a collection of InteractionTrackerInertiaModifier objects to the position of an InteractionTracker.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTracker.ConfigureVector2PositionInertiaModifiers](/windows/winui/api/microsoft.ui.composition.interactions.interactiontracker.configurevector2positioninertiamodifiers).
+
 
 ## -parameters
 ### -param modifiers

@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Media.GradientStop value, System.UInt32 inde
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.indexof).
+
 
 ## -parameters
 ### -param value

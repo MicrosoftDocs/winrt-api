@@ -14,7 +14,7 @@ public void UIElement.StartBringIntoView()
 
 Initiates a request to the XAML framework to bring the element into view within any scrollable regions it is contained within.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.StartBringIntoView](/windows/winui/api/microsoft.ui.xaml.uielement.startbringintoview).
+
 
 ## -remarks
 

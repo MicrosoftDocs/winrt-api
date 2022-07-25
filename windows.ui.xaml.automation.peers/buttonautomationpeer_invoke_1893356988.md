@@ -14,7 +14,6 @@ public void ButtonAutomationPeer.Invoke()
 
 Sends a request to click the button associated with the automation peer.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ButtonAutomationPeer.Invoke](/windows/winui/api/microsoft.ui.xaml.automation.peers.buttonautomationpeer.invoke).
 
 ## -remarks
 

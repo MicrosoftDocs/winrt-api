@@ -12,7 +12,7 @@ public class BindingBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.Dat
 ## -description
 Provides a base class for the [Binding](binding.md) class.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Data.BindingBase](/windows/winui/api/microsoft.ui.xaml.data.bindingbase).
+
 
 ## -remarks
 

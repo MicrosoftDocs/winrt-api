@@ -12,7 +12,7 @@ public class SplineDoubleKeyFrame : Windows.UI.Xaml.Media.Animation.DoubleKeyFra
 ## -description
 Animates from the [Double](/dotnet/api/system.double?view=dotnet-uwp-10.0&preserve-view=true) value of the previous key frame to its own [Value](doublekeyframe_value.md) using splined interpolation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplineDoubleKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinedoublekeyframe).
+
 
 ## -xaml-syntax
 ```xaml

@@ -14,7 +14,7 @@ public bool RichEditTextDocument.CanRedo()
 
 Determines whether one or more redo operations exist.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextDocument.CanRedo](/windows/winui/api/microsoft.ui.text.richedittextdocument.canredo).
+
 
 ## -returns
 

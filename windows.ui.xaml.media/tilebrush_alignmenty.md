@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.AlignmentY AlignmentY { get;  set; }
 ## -description
 Gets or sets the vertical alignment of content in the [TileBrush](tilebrush.md) base tile.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.TileBrush.AlignmentY](/windows/winui/api/microsoft.ui.xaml.media.tilebrush.alignmenty).
+
 
 ## -xaml-syntax
 ```xaml

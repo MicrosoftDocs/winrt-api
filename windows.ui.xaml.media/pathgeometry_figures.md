@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.PathFigureCollection Figures { get;  set; }
 ## -description
 Gets or sets the collection of [PathFigure](pathfigure.md) objects that describe the contents of a path.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathGeometry.Figures](/windows/winui/api/microsoft.ui.xaml.media.pathgeometry.figures).
+
 
 ## -xaml-syntax
 ```xaml

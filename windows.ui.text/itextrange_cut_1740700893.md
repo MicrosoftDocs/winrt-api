@@ -12,7 +12,7 @@ public void Cut()
 ## -description
 Moves the text of the text range to the Clipboard.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.Cut](/windows/winui/api/microsoft.ui.text.itextrange.cut).
+
 
 ## -remarks
 > [!NOTE]

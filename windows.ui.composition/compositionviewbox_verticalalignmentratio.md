@@ -13,7 +13,7 @@ public float VerticalAlignmentRatio { get;  set; }
 
 Gets or sets the vertical alignment ratio of the view box.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionViewBox.VerticalAlignmentRatio](/windows/winui/api/microsoft.ui.composition.compositionviewbox.verticalalignmentratio).
+
 
 ## -property-value
 

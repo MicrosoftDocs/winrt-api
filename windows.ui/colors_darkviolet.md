@@ -13,7 +13,7 @@ public Windows.UI.Color DarkViolet { get; }
 
 Gets the system-defined color that has an ARGB value of #FF9400D3.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.DarkViolet](/windows/winui/api/microsoft.ui.colors.darkviolet).
+
 
 ## -property-value
 

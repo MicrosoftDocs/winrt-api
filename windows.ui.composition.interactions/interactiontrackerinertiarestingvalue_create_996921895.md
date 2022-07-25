@@ -12,7 +12,7 @@ public Windows.UI.Composition.Interactions.InteractionTrackerInertiaRestingValue
 ## -description
 Creates an instance of [InteractionTrackerInertiaRestingValue](interactiontrackerinertiarestingvalue.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaRestingValue.Create](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiarestingvalue.create).
+
 
 ## -parameters
 ### -param compositor

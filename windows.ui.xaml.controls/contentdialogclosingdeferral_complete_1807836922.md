@@ -12,7 +12,7 @@ public void Complete()
 ## -description
 Notifies the system that the app has finished processing the closing event.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ContentDialogClosingDeferral.Complete](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogclosingdeferral.complete).
+
 
 ## -remarks
 

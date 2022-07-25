@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty LiveSettingProperty { get; }
 
 Identifies the [AutomationProperties.LiveSetting](automationproperties_livesetting.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LiveSettingProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.livesettingproperty).
+
 
 ## -property-value
 

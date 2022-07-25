@@ -12,7 +12,7 @@ public event Windows.Foundation.EventHandler VerticalSnapPointsChanged<object>
 ## -description
 Occurs when the vertical snap points change.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.VerticalSnapPointsChanged](/windows/winui/api/microsoft.ui.xaml.controls.primitives.loopingselectorpanel.verticalsnappointschanged).
+
 
 ## -remarks
 

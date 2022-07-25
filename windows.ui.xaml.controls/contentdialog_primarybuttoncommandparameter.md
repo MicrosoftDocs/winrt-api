@@ -12,7 +12,7 @@ public object PrimaryButtonCommandParameter { get;  set; }
 ## -description
 Gets or sets the parameter to pass to the command for the primary button.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentDialog.PrimaryButtonCommandParameter](/windows/winui/api/microsoft.ui.xaml.controls.contentdialog.primarybuttoncommandparameter).
+
 
 ## -xaml-syntax
 ```xaml

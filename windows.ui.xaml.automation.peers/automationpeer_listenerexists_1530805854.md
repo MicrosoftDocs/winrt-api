@@ -12,7 +12,7 @@ public bool ListenerExists(Windows.UI.Xaml.Automation.Peers.AutomationEvents eve
 ## -description
 Gets a value that indicates whether Microsoft UI Automation reports that a client is listening for the specified event.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.ListenerExists](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.listenerexists).
+
 
 ## -parameters
 ### -param eventId

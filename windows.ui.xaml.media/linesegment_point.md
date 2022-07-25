@@ -12,7 +12,7 @@ public Windows.Foundation.Point Point { get;  set; }
 ## -description
 Gets or sets the end point of the line segment.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.LineSegment.Point](/windows/winui/api/microsoft.ui.xaml.media.linesegment.point).
+
 
 ## -xaml-syntax
 ```xaml

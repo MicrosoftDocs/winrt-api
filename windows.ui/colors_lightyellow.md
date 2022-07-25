@@ -13,7 +13,7 @@ public Windows.UI.Color LightYellow { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFFFE0.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.LightYellow](/windows/winui/api/microsoft.ui.colors.lightyellow).
+
 
 ## -property-value
 

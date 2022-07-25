@@ -12,7 +12,7 @@ public void MouseWheelRight()
 ## -description
 Scrolls content by one mouse-wheel click toward the right.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.MouseWheelRight](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.mousewheelright).
+
 
 ## -remarks
 This implementation calls [SetHorizontalOffset](orientedvirtualizingpanel_sethorizontaloffset_1971679761.md) using a default value for "mouse-wheel click" of 48 pixels (3 lines), which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 

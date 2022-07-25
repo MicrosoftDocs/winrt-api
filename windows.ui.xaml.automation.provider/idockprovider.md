@@ -12,7 +12,7 @@ public interface IDockProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that expose their dock properties in a docking container. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Dock](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IDockProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.idockprovider).
+
 
 ## -remarks
 A docking container is a control that allows you to arrange child elements horizontally and vertically, relative to each other. For more info on what this pattern is for, see [Dock Control Pattern](/windows/desktop/WinAuto/uiauto-implementingdock).

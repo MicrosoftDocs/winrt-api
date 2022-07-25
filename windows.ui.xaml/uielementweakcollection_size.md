@@ -14,7 +14,7 @@ public uint Size { get; }
 
 Gets the size (count) of the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElementWeakCollection.Size](/windows/winui/api/microsoft.ui.xaml.uielementweakcollection.size).
+
 
 ## -property-value
 

@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight ExtraBlack { get; }
 
 Specifies a font weight value of 950.
 
-Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.ExtraBlack](/windows/winui/api/microsoft.ui.text.fontweights.extrablack).
+
 
 ## -property-value
 

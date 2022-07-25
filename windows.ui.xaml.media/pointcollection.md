@@ -12,7 +12,7 @@ public class PointCollection : Windows.Foundation.Collections.IIterable<Windows.
 ## -description
 Represents a collection of [Point](../windows.foundation/point.md) values that can be individually accessed by index.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PointCollection](/windows/winui/api/microsoft.ui.xaml.media.pointcollection).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.VerticalAlignment VerticalAlignment { get;  set; }
 ## -description
 Gets or sets the vertical alignment characteristics that are applied to a [FrameworkElement](frameworkelement.md) when it is composed in a parent object such as a panel or items control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.VerticalAlignment](/windows/winui/api/microsoft.ui.xaml.frameworkelement.verticalalignment).
+
 
 ## -xaml-syntax
 ```xaml

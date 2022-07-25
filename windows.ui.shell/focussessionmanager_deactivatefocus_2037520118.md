@@ -12,7 +12,7 @@ public void DeactivateFocus ();
 
 ## -description
 
-Ends the currently active focus session.
+Ends all currently active focus sessions and turns Focus off.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public void SetCaseSensitiveForms(Windows.UI.Xaml.DependencyObject element, Syst
 ## -description
 Sets the value of the [CaseSensitiveForms](typography_casesensitiveforms.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetCaseSensitiveForms](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcasesensitiveforms).
+
 
 ## -parameters
 ### -param element

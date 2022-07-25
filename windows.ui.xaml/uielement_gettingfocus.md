@@ -13,7 +13,7 @@ public event TypedEventHandler GettingFocus<UIElement, GettingFocusEventArgs>
 
 Occurs before a [UIElement](uielement.md) receives focus. This event is raised synchronously to ensure focus isn't moved while the event is bubbling.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.GettingFocus](/windows/winui/api/microsoft.ui.xaml.uielement.gettingfocus).
+
 
 ## -xaml-syntax
 

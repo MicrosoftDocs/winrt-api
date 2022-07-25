@@ -13,7 +13,7 @@ public CharacterCasing CharacterCasing { get;  set; }
 
 Gets or sets a value that indicates how the control modifies the case of characters as they are typed.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.CharacterCasing](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.charactercasing).
+
 
 ## -xaml-syntax
 

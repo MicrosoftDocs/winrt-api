@@ -12,7 +12,7 @@ public void Move(System.UInt32 oldIndex, System.UInt32 newIndex)
 ## -description
 Moves the item at the specified index to a new location in the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.UIElementCollection.Move](/windows/winui/api/microsoft.ui.xaml.controls.uielementcollection.move).
+
 
 ## -parameters
 ### -param oldIndex

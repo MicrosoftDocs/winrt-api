@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MonthYearItemFontSizeProperty { get; }
 ## -description
 Identifies the [MonthYearItemFontSize](calendarview_monthyearitemfontsize.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.MonthYearItemFontSizeProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.monthyearitemfontsizeproperty).
+
 
 ## -property-value
 The identifier for the   [MonthYearItemFontSize](calendarview_monthyearitemfontsize.md) dependency property.

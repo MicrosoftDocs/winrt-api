@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DesiredCandidateWindowAlignmentPropert
 ## -description
 Identifies the [DesiredCandidateWindowAlignment](textbox_desiredcandidatewindowalignment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.DesiredCandidateWindowAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.desiredcandidatewindowalignmentproperty).
+
 
 ## -property-value
 The identifier for the [DesiredCandidateWindowAlignment](textbox_desiredcandidatewindowalignment.md) dependency property.

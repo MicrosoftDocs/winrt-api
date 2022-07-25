@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty HeaderProperty { get; }
 ## -description
 Identifies the [Header](timepicker_header.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TimePicker.HeaderProperty](/windows/winui/api/microsoft.ui.xaml.controls.timepicker.headerproperty).
+
 
 ## -property-value
 The identifier for the [Header](timepicker_header.md) dependency property.

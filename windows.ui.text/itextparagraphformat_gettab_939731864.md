@@ -12,7 +12,7 @@ public void GetTab(System.Int32 index, System.Single position, Windows.UI.Text.T
 ## -description
 Retrieves information about the specified tab.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextParagraphFormat.GetTab](/windows/winui/api/microsoft.ui.text.itextparagraphformat.gettab).
+
 
 ## -parameters
 ### -param index

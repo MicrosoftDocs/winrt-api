@@ -12,7 +12,7 @@ public class SelectionChangedEventArgs : Windows.UI.Xaml.RoutedEventArgs, Window
 ## -description
 Provides data for the [SelectionChanged](../windows.ui.xaml.controls.primitives/selector_selectionchanged.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.SelectionChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.selectionchangedeventargs).
+
 
 ## -remarks
 > [!NOTE]

@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.TriggerAction value)
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.TriggerActionCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.triggeractioncollection.insertat).
+
 
 ## -parameters
 ### -param index

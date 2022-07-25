@@ -12,7 +12,7 @@ public class ContentDialogOpenedEventArgs : Windows.UI.Xaml.Controls.IContentDia
 ## -description
 Provides data for the [Opened](contentdialog_opened.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ContentDialogOpenedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.contentdialogopenedeventargs).
+
 
 ## -remarks
 

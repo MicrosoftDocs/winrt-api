@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Provider.ITextRangeProvider RangeFromAnnotatio
 ## -description
 Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITextProvider2.RangeFromAnnotation](/windows/winui/api/microsoft.ui.xaml.automation.provider.itextprovider2.rangefromannotation).
+
 
 ## -parameters
 ### -param annotationElement

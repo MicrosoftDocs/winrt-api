@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Media.Media3D.Transform3D Transform3D { get;  set; }
 
 Gets or sets the 3-D transform effect to apply when rendering this element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.Transform3D](/windows/winui/api/microsoft.ui.xaml.uielement.transform3d).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public int Count { get; }
 ## -description
 The number of interaction sources in the collection.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Count](/windows/winui/api/microsoft.ui.composition.interactions.compositioninteractionsourcecollection.count).
+
 
 ## -property-value
 The number of interaction sources in the collection.

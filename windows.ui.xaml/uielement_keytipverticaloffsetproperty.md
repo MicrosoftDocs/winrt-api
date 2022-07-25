@@ -12,7 +12,7 @@ public DependencyProperty KeyTipVerticalOffsetProperty { get; }
 ## -description
 Identifies the [KeyTipVerticalOffset](uielement_keytipverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyTipVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.uielement.keytipverticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [KeyTipVerticalOffset](uielement_keytipverticaloffset.md) dependency property.

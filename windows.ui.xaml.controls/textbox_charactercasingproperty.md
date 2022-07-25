@@ -13,7 +13,7 @@ public DependencyProperty CharacterCasingProperty { get; }
 
 Identifies the CharacterCasing dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CharacterCasingProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.charactercasingproperty).
+
 
 ## -property-value
 

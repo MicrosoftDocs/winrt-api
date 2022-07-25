@@ -12,7 +12,7 @@ public class StateTriggerBase : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Represents the base class for state triggers.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.StateTriggerBase](/windows/winui/api/microsoft.ui.xaml.statetriggerbase).
+
 
 ## -remarks
 

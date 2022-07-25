@@ -12,7 +12,7 @@ public class CompositeTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xa
 ## -description
 Applies multiple transform operations to an object.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.CompositeTransform](/windows/winui/api/microsoft.ui.xaml.media.compositetransform).
+
 
 ## -xaml-syntax
 ```xaml

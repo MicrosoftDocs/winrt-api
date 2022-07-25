@@ -13,7 +13,7 @@ public Windows.UI.Color Coral { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFF7F50.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Coral](/windows/winui/api/microsoft.ui.colors.coral).
+
 
 ## -property-value
 

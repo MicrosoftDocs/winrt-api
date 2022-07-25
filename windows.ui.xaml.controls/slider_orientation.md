@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.Orientation Orientation { get;  set; }
 ## -description
 Gets or sets the orientation of a [Slider](slider.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.Orientation](/windows/winui/api/microsoft.ui.xaml.controls.slider.orientation).
+
 
 ## -xaml-syntax
 ```xaml

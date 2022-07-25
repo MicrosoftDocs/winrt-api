@@ -12,7 +12,7 @@ public enum KeyboardAcceleratorPlacementMode : int
 ## -description
 Defines constants that specify whether a keyboard shortcut (accelerator) is displayed.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Input.KeyboardAcceleratorPlacementMode](/windows/winui/api/microsoft.ui.xaml.input.keyboardacceleratorplacementmode).
+
 
 ## -enum-fields
 ### -field Hidden:1

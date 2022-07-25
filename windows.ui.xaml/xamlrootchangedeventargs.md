@@ -14,7 +14,7 @@ public class XamlRootChangedEventArgs
 
 Provides data for the XamlRoot.Changed event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.XamlRootChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.xamlrootchangedeventargs).
+
 
 ## -remarks
 

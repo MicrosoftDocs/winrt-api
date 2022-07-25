@@ -13,7 +13,7 @@ public TimeSpan Duration { get;  set; }
 ## -description
 Gets or sets the duration of the transition.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.BrushTransition.Duration](/windows/winui/api/microsoft.ui.xaml.brushtransition.duration).
+
 
 ## -property-value
 

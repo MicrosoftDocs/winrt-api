@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerReleasedEvent { get; }
 ## -description
 Gets the identifier for the [PointerReleased](uielement_pointerreleased.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerReleasedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointerreleasedevent).
+
 
 ## -property-value
 The identifier for the [PointerReleased](uielement_pointerreleased.md) routed event.

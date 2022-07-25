@@ -12,7 +12,7 @@ public void Select(System.Int32 start, System.Int32 length)
 ## -description
 Selects a range of text in the text box.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.TextBox.Select](/windows/winui/api/microsoft.ui.xaml.controls.textbox.select).
+
 
 ## -parameters
 ### -param start

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.GroupStyle SelectGroupStyle(System.Object group,
 ## -description
 Returns a specific [GroupStyle](groupstyle.md) for a given group and level.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.GroupStyleSelector.SelectGroupStyle](/windows/winui/api/microsoft.ui.xaml.controls.groupstyleselector.selectgroupstyle).
+
 
 ## -parameters
 ### -param group

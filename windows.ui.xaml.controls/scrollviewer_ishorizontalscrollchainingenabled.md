@@ -12,7 +12,7 @@ public bool IsHorizontalScrollChainingEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether scroll chaining is enabled from this child to its parent, for the horizontal axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsHorizontalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.ishorizontalscrollchainingenabled).
+
 
 ## -xaml-syntax
 ```xaml

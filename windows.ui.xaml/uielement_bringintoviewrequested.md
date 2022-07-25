@@ -13,7 +13,7 @@ public event TypedEventHandler BringIntoViewRequested<UIElement, BringIntoViewRe
 
 Occurs when [StartBringIntoView](uielement_startbringintoview_1818344798.md) is called on this element or one of its descendants.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.BringIntoViewRequested](/windows/winui/api/microsoft.ui.xaml.uielement.bringintoviewrequested).
+
 
 ## -remarks
 

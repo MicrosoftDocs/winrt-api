@@ -12,7 +12,7 @@ public class CalendarViewDayItemChangingEventArgs : Windows.UI.Xaml.Controls.ICa
 ## -description
 Provides data for the [CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarViewDayItemChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewdayitemchangingeventargs).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ToVerticalOffsetProperty { get; }
 ## -description
 Identifies the [ToVerticalOffset](swipehintthemeanimation_toverticaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.ToVerticalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.toverticaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [ToVerticalOffset](swipehintthemeanimation_toverticaloffset.md) dependency property.

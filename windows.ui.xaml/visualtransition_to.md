@@ -12,7 +12,7 @@ public string To { get;  set; }
 ## -description
 Gets or sets the name of the [VisualState](visualstate.md) to transition to.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.To](/windows/winui/api/microsoft.ui.xaml.visualtransition.to).
+
 
 ## -xaml-syntax
 ```xaml

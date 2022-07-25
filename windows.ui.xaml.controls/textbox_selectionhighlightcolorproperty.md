@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SelectionHighlightColorProperty { get;
 ## -description
 Identifies the [SelectionHighlightColor](textbox_selectionhighlightcolor.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.SelectionHighlightColorProperty](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionhighlightcolorproperty).
+
 
 ## -property-value
 The identifier for the [SelectionHighlightColor](textbox_selectionhighlightcolor.md) dependency property.

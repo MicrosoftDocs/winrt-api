@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty StandardLigaturesProperty { get; }
 ## -description
 Identifies the [StandardLigatures](typography_standardligatures.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Typography.StandardLigaturesProperty](/windows/winui/api/microsoft.ui.xaml.documents.typography.standardligaturesproperty).
+
 
 ## -property-value
 The identifier for the [StandardLigatures](typography_standardligatures.md) attached property.

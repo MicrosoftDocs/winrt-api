@@ -13,7 +13,7 @@ public CompositionColorGradientStop CompositionColorGradientStopCollection.GetAt
 
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionColorGradientStopCollection.GetAt](/windows/winui/api/microsoft.ui.composition.compositioncolorgradientstopcollection.getat).
+
 
 ## -parameters
 ### -param index

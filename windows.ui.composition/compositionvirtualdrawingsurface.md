@@ -13,7 +13,7 @@ public class CompositionVirtualDrawingSurface : CompositionDrawingSurface, Compo
 
 Represents sparsely allocated bitmaps that can be associated with visuals for composition in a visual tree.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionVirtualDrawingSurface](/windows/winui/api/microsoft.ui.composition.compositionvirtualdrawingsurface).
+
 
 ## -remarks
 

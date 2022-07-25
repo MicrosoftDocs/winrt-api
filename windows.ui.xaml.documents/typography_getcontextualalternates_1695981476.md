@@ -12,7 +12,7 @@ public bool GetContextualAlternates(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [ContextualAlternates](typography_contextualalternates.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetContextualAlternates](/windows/winui/api/microsoft.ui.xaml.documents.typography.getcontextualalternates).
+
 
 ## -parameters
 ### -param element

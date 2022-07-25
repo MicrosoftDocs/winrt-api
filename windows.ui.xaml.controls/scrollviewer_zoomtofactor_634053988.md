@@ -15,7 +15,7 @@ public void ZoomToFactor(System.Single factor)
 
 Sets the effective value of [ZoomFactor](scrollviewer_zoomfactor.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.ZoomToFactor](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.zoomtofactor).
+
 
 ## -parameters
 ### -param factor

@@ -12,7 +12,7 @@ public interface IObjectModelProvider :
 ## -description
 Provides access to the underlying object model implemented by a control or app.
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IObjectModelProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iobjectmodelprovider).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BackgroundProperty { get; }
 ## -description
 Identifies the [Background](control_background.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.BackgroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.control.backgroundproperty).
+
 
 ## -property-value
 The identifier for the [Background](control_background.md) dependency property.

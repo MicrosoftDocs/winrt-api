@@ -12,7 +12,7 @@ public bool IndexOf(System.Object value, System.UInt32 index)
 ## -description
 Returns the index of a specified item in the vector.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVectorView.IndexOf](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevectorview.indexof).
+
 
 ## -parameters
 ### -param value

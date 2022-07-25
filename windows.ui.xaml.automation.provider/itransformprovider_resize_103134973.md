@@ -12,7 +12,7 @@ public void Resize(System.Double width, System.Double height)
 ## -description
 Resizes the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider.Resize](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider.resize).
+
 
 ## -parameters
 ### -param width

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty ExponentProperty { get; }
 ## -description
 Identifies the [Exponent](exponentialease_exponent.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.ExponentialEase.ExponentProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.exponentialease.exponentproperty).
+
 
 ## -property-value
 The identifier for the [Exponent](exponentialease_exponent.md)  dependency property.

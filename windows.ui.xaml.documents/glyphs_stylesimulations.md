@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.StyleSimulations StyleSimulations { get;  set; }
 ## -description
 Gets or sets the style simulations applied to the glyphs.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Glyphs.StyleSimulations](/windows/winui/api/microsoft.ui.xaml.documents.glyphs.stylesimulations).
+
 
 ## -xaml-syntax
 ```xaml

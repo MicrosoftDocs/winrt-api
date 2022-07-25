@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.SetterBase value)
 ## -description
 Sets the value at the specified index to the [SetterBase](setterbase.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.SetterBaseCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.setterbasecollection.setat).
+
 
 ## -parameters
 ### -param index

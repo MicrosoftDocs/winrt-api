@@ -12,7 +12,7 @@ public double ScaleY { get;  set; }
 ## -description
 Gets or sets the y-axis scale factor.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ScaleTransform.ScaleY](/windows/winui/api/microsoft.ui.xaml.media.scaletransform.scaley).
+
 
 ## -xaml-syntax
 ```xaml

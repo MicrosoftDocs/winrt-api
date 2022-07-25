@@ -13,7 +13,7 @@ public Windows.UI.Color DarkCyan { get; }
 
 Gets the system-defined color that has an ARGB value of #FF008B8B.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.DarkCyan](/windows/winui/api/microsoft.ui.colors.darkcyan).
+
 
 ## -property-value
 

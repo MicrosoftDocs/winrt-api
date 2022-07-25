@@ -12,7 +12,7 @@ public class IRawElementProviderSimple : Windows.UI.Xaml.DependencyObject, Windo
 ## -description
 Provides methods and properties that expose basic information about a UI element. IRawElementProviderSimple is a Windows Runtime class, not an interface.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple](/windows/winui/api/microsoft.ui.xaml.automation.provider.irawelementprovidersimple).
+
 
 ## -remarks
 This type is not an interface in this implementation. In fact, it is a [DependencyObject](../windows.ui.xaml/dependencyobject.md), and includes basic dependency property support. The main reason for the specific implementation of IRawElementProviderSimple in the Windows Runtime is to provide the input parameter and return value type for [FindItemByProperty](iitemcontainerprovider_finditembyproperty_1997743353.md).

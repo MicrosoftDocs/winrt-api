@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPoint(Windows.
 ## -description
 Gets an [AutomationPeer](automationpeer.md) from the specified point.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetPeerFromPoint](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getpeerfrompoint).
+
 
 ## -parameters
 ### -param point

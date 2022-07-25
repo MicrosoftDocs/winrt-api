@@ -13,7 +13,7 @@ public FocusInputDeviceKind InputDevice { get; }
 
 Gets the input device type from which input events are received.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs.InputDevice](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs.inputdevice).
+
 
 ## -property-value
 

@@ -13,7 +13,7 @@ public event TypedEventHandler IsTextTrimmedChanged<TextBlock, IsTextTrimmedChan
 
 Occurs when the [IsTextTrimmed](textblock_istexttrimmed.md) property value has changed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBlock.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istexttrimmedchanged).
+
 
 ## -xaml-syntax
 

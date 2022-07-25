@@ -12,7 +12,7 @@ public Windows.UI.Composition.VisualUnorderedCollection Targets { get; }
 ## -description
 The collection of Visuals targeted by the light.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionLight.Targets](/windows/winui/api/microsoft.ui.composition.compositionlight.targets).
+
 
 ## -property-value
 The collection of Visuals targeted by the light.

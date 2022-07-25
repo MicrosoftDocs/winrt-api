@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty BelowProperty { get; }
 ## -description
 Identifies the [RelativePanel.Below](relativepanel_below.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RelativePanel.BelowProperty](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.belowproperty).
+
 
 ## -property-value
 The identifier for the [RelativePanel.Below](relativepanel_below.md) XAML attached property.

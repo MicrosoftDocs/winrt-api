@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.StyleSimulations : int
 ## -description
 Describes the simulation style of a font.
 
-Equivalent WinUI enum: [StyleSimulations](/windows/winui/api/microsoft.ui.xaml.media.stylesimulations).
+
 
 ## -xaml-syntax
 ```xaml

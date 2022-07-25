@@ -12,7 +12,7 @@ public object CommandParameter { get;  set; }
 ## -description
 Gets or sets the parameter to pass to the [Command](buttonbase_command.md) property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.CommandParameter](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.commandparameter).
+
 
 ## -xaml-syntax
 ```xaml

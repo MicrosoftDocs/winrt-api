@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.SweepDirection SweepDirection { get;  set; }
 ## -description
 Gets or sets a value that specifies whether the arc is drawn in the **Clockwise** or **Counterclockwise** direction.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.ArcSegment.SweepDirection](/windows/winui/api/microsoft.ui.xaml.media.arcsegment.sweepdirection).
+
 
 ## -xaml-syntax
 ```xaml

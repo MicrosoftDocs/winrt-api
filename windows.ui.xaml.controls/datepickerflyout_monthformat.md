@@ -12,7 +12,7 @@ public string MonthFormat { get;  set; }
 ## -description
 Gets or sets the display format for the month value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepickerflyout.monthformat).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public uint PointerId { get; }
 ## -description
 Gets the system-generated identifier for this pointer reference.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.Pointer.PointerId](/windows/winui/api/microsoft.ui.xaml.input.pointer.pointerid).
+
 
 ## -property-value
 The system-generated identifier.

@@ -12,7 +12,7 @@ public void SetBelow(Windows.UI.Xaml.UIElement element, System.Object value)
 ## -description
 Sets the value of the [RelativePanel.Below](relativepanel_below.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetBelow](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setbelow).
+
 
 ## -parameters
 ### -param element

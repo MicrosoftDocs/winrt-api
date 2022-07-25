@@ -13,7 +13,7 @@ public Windows.UI.Color Pink { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFC0CB.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Pink](/windows/winui/api/microsoft.ui.colors.pink).
+
 
 ## -property-value
 

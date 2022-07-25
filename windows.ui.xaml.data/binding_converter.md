@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.IValueConverter Converter { get;  set; }
 ## -description
 Gets or sets the converter object that is called by the binding engine to modify the data as it is passed between the source and target, or vice versa.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Data.Binding.Converter](/windows/winui/api/microsoft.ui.xaml.data.binding.converter).
+
 
 ## -xaml-syntax
 ```xaml

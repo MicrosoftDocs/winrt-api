@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.SupportedTextSelection : int
 ## -description
 Contains values that specify whether a text provider supports selection and, if so, whether it supports a single, continuous selection or multiple, disjoint selections.
 
-Equivalent WinUI enum: [SupportedTextSelection](/windows/winui/api/microsoft.ui.xaml.automation.supportedtextselection).
+
 
 ## -enum-fields
 ### -field None:0

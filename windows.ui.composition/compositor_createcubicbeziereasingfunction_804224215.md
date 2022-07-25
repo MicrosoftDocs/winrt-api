@@ -12,7 +12,7 @@ public Windows.UI.Composition.CubicBezierEasingFunction CreateCubicBezierEasingF
 ## -description
 Creates an instance of [CubicBezierEasingFunction](cubicbeziereasingfunction.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateCubicBezierEasingFunction](/windows/winui/api/microsoft.ui.composition.compositor.createcubicbeziereasingfunction).
+
 
 ## -parameters
 ### -param controlPoint1

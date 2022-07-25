@@ -12,7 +12,7 @@ public class EllipseGeometry : Windows.UI.Xaml.Media.Geometry, Windows.UI.Xaml.M
 ## -description
 Represents the geometry of a circle or ellipse.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.EllipseGeometry](/windows/winui/api/microsoft.ui.xaml.media.ellipsegeometry).
+
 
 ## -xaml-syntax
 ```xaml

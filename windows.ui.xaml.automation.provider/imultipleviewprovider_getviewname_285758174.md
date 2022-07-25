@@ -12,7 +12,7 @@ public string GetViewName(System.Int32 viewId)
 ## -description
 Retrieves the name of a control-specific view.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.IMultipleViewProvider.GetViewName](/windows/winui/api/microsoft.ui.xaml.automation.provider.imultipleviewprovider.getviewname).
+
 
 ## -parameters
 ### -param viewId

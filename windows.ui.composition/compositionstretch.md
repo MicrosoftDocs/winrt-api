@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionStretch : int
 ## -description
 Specifies how content is scaled when mapped from its source to a destination space.
 
-Equivalent WinUI enum: [CompositionStretch](/windows/winui/api/microsoft.ui.composition.compositionstretch).
+
 
 ## -enum-fields
 ### -field None:0

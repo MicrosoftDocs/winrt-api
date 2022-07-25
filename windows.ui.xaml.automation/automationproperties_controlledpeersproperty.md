@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty ControlledPeersProperty { get; }
 
 Identifies the [AutomationProperties.ControlledPeers](automationproperties_controlledpeers.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.ControlledPeersProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.controlledpeersproperty).
+
 
 ## -property-value
 

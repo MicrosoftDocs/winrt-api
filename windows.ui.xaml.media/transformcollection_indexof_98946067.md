@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Media.Transform value, System.UInt32 index)
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.TransformCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.transformcollection.indexof).
+
 
 ## -parameters
 ### -param value

@@ -14,7 +14,7 @@ public string Label { get;  set; }
 
 Gets or sets the label for this element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.Label](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.label).
+
 
 ## -property-value
 

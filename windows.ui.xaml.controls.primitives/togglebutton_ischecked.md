@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<bool> IsChecked { get;  set; }
 ## -description
 Gets or sets whether the [ToggleButton](togglebutton.md) is checked.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ToggleButton.IsChecked](/windows/winui/api/microsoft.ui.xaml.controls.primitives.togglebutton.ischecked).
+
 
 ## -xaml-syntax
 ```xaml

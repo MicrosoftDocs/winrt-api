@@ -12,7 +12,7 @@ public int CharacterSpacing { get;  set; }
 ## -description
 Gets or sets the uniform spacing between characters, in units of 1/1000 of an em.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.CharacterSpacing](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.characterspacing).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public bool IsDoubleTapEnabled { get;  set; }
 ## -description
 Gets or sets a value that determines whether the [DoubleTapped](uielement_doubletapped.md) event can originate from that element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.IsDoubleTapEnabled](/windows/winui/api/microsoft.ui.xaml.uielement.isdoubletapenabled).
+
 
 ## -xaml-syntax
 ```xaml

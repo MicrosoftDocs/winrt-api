@@ -13,7 +13,7 @@ public event Windows.Foundation.TypedEventHandler TextCompositionChanged<Windows
 
 Occurs when text being composed through an Input Method Editor (IME) changes.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.TextCompositionChanged](/windows/winui/api/microsoft.ui.xaml.controls.textbox.textcompositionchanged).
+
 
 ## -xaml-syntax
 

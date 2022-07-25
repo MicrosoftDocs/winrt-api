@@ -14,7 +14,7 @@ public object Description { get;  set; }
 
 Gets or sets content that is shown below the control. The content should provide guidance about the input expected by the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.Description](/windows/winui/api/microsoft.ui.xaml.controls.textbox.description).
+
 
 ## -property-value
 

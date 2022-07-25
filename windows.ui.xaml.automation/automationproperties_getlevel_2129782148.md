@@ -13,7 +13,7 @@ public int GetLevel(Windows.UI.Xaml.DependencyObject element)
 
 Gets the value of the [AutomationProperties.Level](automationproperties_level.md) property for the specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetLevel](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getlevel).
+
 
 ## -parameters
 

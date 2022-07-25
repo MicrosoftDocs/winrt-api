@@ -14,7 +14,7 @@ public UIElement DataTemplate.GetElement(ElementFactoryGetArgs args)
 
 Creates or retrieves an existing instance of the [UIElement](uielement.md) object declared in the [DataTemplate](datatemplate.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.GetElement](/windows/winui/api/microsoft.ui.xaml.datatemplate.getelement).
+
 
 ## -parameters
 

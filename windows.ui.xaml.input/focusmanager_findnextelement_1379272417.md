@@ -13,7 +13,7 @@ public DependencyObject FocusManager.FindNextElement(FocusNavigationDirection fo
 
 Retrieves the element that should receive focus based on the specified navigation direction.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.FocusManager.FindNextElement](/windows/winui/api/microsoft.ui.xaml.input.focusmanager.findnextelement).
+
 
 ## -parameters
 

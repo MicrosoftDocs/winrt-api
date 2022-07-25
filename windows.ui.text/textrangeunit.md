@@ -12,7 +12,7 @@ public enum Windows.UI.Text.TextRangeUnit : int
 ## -description
 Specifies the units to use when navigating a text range.
 
-Equivalent WinUI enum: [TextRangeUnit](/windows/winui/api/microsoft.ui.text.textrangeunit).
+
 
 ## -enum-fields
 ### -field Character:0

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PlaceholderTextProperty { get; }
 ## -description
 Identifies the [PlaceholderText](passwordbox_placeholdertext.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PasswordBox.PlaceholderTextProperty](/windows/winui/api/microsoft.ui.xaml.controls.passwordbox.placeholdertextproperty).
+
 
 ## -property-value
 The identifier for the [PlaceholderText](passwordbox_placeholdertext.md) dependency property.

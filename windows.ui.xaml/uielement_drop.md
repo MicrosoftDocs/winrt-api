@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.DragEventHandler Drop
 
 Occurs when the input system reports an underlying drop event with this element as the drop target.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.Drop](/windows/winui/api/microsoft.ui.xaml.uielement.drop).
+
 
 ## -xaml-syntax
 

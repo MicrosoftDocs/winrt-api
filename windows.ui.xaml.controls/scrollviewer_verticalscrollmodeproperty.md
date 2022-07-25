@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty VerticalScrollModeProperty { get; }
 ## -description
 Identifies the [VerticalScrollMode](scrollviewer_verticalscrollmode.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.VerticalScrollModeProperty](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.verticalscrollmodeproperty).
+
 
 ## -property-value
 The identifier for the [VerticalScrollMode](scrollviewer_verticalscrollmode.md) dependency property.

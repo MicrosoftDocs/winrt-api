@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FontVariants GetVariants(Windows.UI.Xaml.DependencyObject
 ## -description
 Returns the value of the [Variants](typography_variants.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetVariants](/windows/winui/api/microsoft.ui.xaml.documents.typography.getvariants).
+
 
 ## -parameters
 ### -param element

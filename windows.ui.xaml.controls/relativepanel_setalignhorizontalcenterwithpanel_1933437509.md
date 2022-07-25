@@ -12,7 +12,7 @@ public void SetAlignHorizontalCenterWithPanel(Windows.UI.Xaml.UIElement element,
 ## -description
 Sets the value of the [RelativePanel.AlignHorizontalCenterWithPanel](relativepanel_alignhorizontalcenterwithpanel.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignHorizontalCenterWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignhorizontalcenterwithpanel).
+
 
 ## -parameters
 ### -param element

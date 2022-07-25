@@ -12,7 +12,7 @@ public class RowDefinition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.C
 ## -description
 Defines row-specific properties that apply to [Grid](grid.md) elements.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RowDefinition](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition).
+
 
 ## -xaml-syntax
 ```xaml

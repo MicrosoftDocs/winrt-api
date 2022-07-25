@@ -14,7 +14,7 @@ public BrushTransition BackgroundTransition { get;  set; }
 
 Gets or sets an instance of BrushTransition to automatically animate changes to the Background property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Panel.BackgroundTransition](/windows/winui/api/microsoft.ui.xaml.controls.panel.backgroundtransition).
+
 
 ## -property-value
 

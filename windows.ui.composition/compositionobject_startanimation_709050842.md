@@ -12,7 +12,7 @@ public void StartAnimation(System.String propertyName, Windows.UI.Composition.Co
 ## -description
 Connects an animation with the specified property of the object and starts the animation.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.StartAnimation](/windows/winui/api/microsoft.ui.composition.compositionobject.startanimation).
+
 
 ## -parameters
 ### -param propertyName

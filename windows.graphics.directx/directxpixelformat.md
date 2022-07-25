@@ -14,8 +14,6 @@ public enum Windows.Graphics.DirectX.DirectXPixelFormat : int
 
 Specifies pixel formats, which includes fully-typed and type-less formats. This is a Windows Runtime equivalent of the Desktop [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
 
-Equivalent WinUI enum: [DirectXPixelFormat](/windows/winui/api/microsoft.graphics.directx.directxpixelformat).
-
 ## -enum-fields
 ### -field Unknown:0
 

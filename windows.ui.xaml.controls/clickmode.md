@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Controls.ClickMode : int
 ## -description
 Specifies when the [Click](../windows.ui.xaml.controls.primitives/buttonbase_click.md) event should be raised for a control.
 
-Equivalent WinUI enum: [ClickMode](/windows/winui/api/microsoft.ui.xaml.controls.clickmode).
 
 ## -xaml-syntax
 ```xaml

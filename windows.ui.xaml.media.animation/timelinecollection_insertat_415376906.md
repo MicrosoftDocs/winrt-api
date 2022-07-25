@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.Timeli
 ## -description
 Inserts the specified item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.InsertAt](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.insertat).
+
 
 ## -parameters
 ### -param index

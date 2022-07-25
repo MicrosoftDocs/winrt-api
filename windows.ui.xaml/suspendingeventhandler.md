@@ -10,7 +10,7 @@ public delegate void SuspendingEventHandler(System.Object sender, Windows.Applic
 ## -description
 Represents the method that will handle the [Suspending](application_suspending.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.SuspendingEventHandler](/windows/winui/api/microsoft.ui.xaml.suspendingeventhandler).
+
 
 ## -parameters
 ### -param sender

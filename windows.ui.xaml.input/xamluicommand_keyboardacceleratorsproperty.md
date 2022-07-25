@@ -14,7 +14,7 @@ public DependencyProperty KeyboardAcceleratorsProperty { get; }
 
 Identifies the [KeyboardAccelerators](xamluicommand_keyboardaccelerators.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.KeyboardAcceleratorsProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.keyboardacceleratorsproperty).
+
 
 ## -property-value
 

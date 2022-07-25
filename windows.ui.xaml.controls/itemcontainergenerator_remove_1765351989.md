@@ -12,7 +12,7 @@ public void Remove(Windows.UI.Xaml.Controls.Primitives.GeneratorPosition positio
 ## -description
 Removes one or more generated (realized) items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemContainerGenerator.Remove](/windows/winui/api/microsoft.ui.xaml.controls.itemcontainergenerator.remove).
+
 
 ## -parameters
 ### -param position

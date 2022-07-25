@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler Completed<Windows.UI.Xaml.Medi
 ## -description
 Occurs when the animation is finished.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation.Completed](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimation.completed).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.Foundation.Point Center { get;  set; }
 ## -description
 Gets or sets the center point for rotation manipulations.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.ManipulationPivot.Center](/windows/winui/api/microsoft.ui.xaml.input.manipulationpivot.center).
+
 
 ## -property-value
 The center point for rotation manipulations.

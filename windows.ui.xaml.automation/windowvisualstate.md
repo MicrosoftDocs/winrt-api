@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Automation.WindowVisualState : int
 ## -description
 Contains values that specify the visual state of a window for the [IWindowProvider](../windows.ui.xaml.automation.provider/iwindowprovider.md) pattern.
 
-Equivalent WinUI enum: [WindowVisualState](/windows/winui/api/microsoft.ui.xaml.automation.windowvisualstate).
+
 
 ## -enum-fields
 ### -field Normal:0

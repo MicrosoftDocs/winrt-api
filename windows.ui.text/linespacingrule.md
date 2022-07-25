@@ -12,7 +12,7 @@ public enum Windows.UI.Text.LineSpacingRule : int
 ## -description
 Specifies options for line-spacing rules.
 
-Equivalent WinUI enum: [LineSpacingRule](/windows/winui/api/microsoft.ui.text.linespacingrule).
+
 
 ## -enum-fields
 ### -field Undefined:0

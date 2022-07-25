@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerCaptureLostEvent { get; }
 ## -description
 Gets the identifier for the [PointerCaptureLost](uielement_pointercapturelost.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerCaptureLostEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointercapturelostevent).
+
 
 ## -property-value
 The identifier for the [PointerCaptureLost](uielement_pointercapturelost.md) routed event.

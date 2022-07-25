@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FromHorizontalOffsetProperty { get; }
 ## -description
 Identifies the [FromHorizontalOffset](repositionthemeanimation_fromhorizontaloffset.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeAnimation.FromHorizontalOffsetProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemeanimation.fromhorizontaloffsetproperty).
+
 
 ## -property-value
 The identifier for the [FromHorizontalOffset](repositionthemeanimation_fromhorizontaloffset.md) dependency property.

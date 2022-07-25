@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVectorView<float> GetIrregularSnapPoints(
 ## -description
 Returns a read-only collection of numbers that represent the snap points for the specified orientation.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ItemsPresenter.GetIrregularSnapPoints](/windows/winui/api/microsoft.ui.xaml.controls.itemspresenter.getirregularsnappoints).
+
 
 ## -parameters
 ### -param orientation

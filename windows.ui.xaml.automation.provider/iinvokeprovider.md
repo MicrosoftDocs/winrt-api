@@ -12,7 +12,7 @@ public interface IInvokeProvider :
 ## -description
 Exposes a method to support Microsoft UI Automation access to controls that initiate or perform a single, unambiguous action and do not maintain state when activated. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Invoke](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IInvokeProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.iinvokeprovider).
+
 
 ## -remarks
 An example of a control that meets the guidelines of IInvokeProvider is [Button](../windows.ui.xaml.controls/button.md). Controls that do maintain state, such as check boxes and radio buttons, must instead implement [IToggleProvider](itoggleprovider.md) and [ISelectionProvider](iselectionprovider.md) respectively. Controls implement IInvokeProvider if the same behavior is not exposed through another control pattern provider. For more info on what this pattern is for, see [Invoke Control Pattern](/windows/desktop/WinAuto/uiauto-implementinginvoke).

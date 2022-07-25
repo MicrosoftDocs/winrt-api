@@ -12,7 +12,7 @@ public Windows.UI.Core.CoreDispatcher Dispatcher { get; }
 ## -description
 Gets the [CoreDispatcher](../windows.ui.core/coredispatcher.md) that this object is associated with. The [CoreDispatcher](../windows.ui.core/coredispatcher.md) represents a facility that can access the [DependencyObject](dependencyobject.md) on the UI thread even if the code is initiated by a non-UI thread.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.DependencyObject.Dispatcher](/windows/winui/api/microsoft.ui.xaml.dependencyobject.dispatcher).
+
 
 ## -property-value
 The [CoreDispatcher](../windows.ui.core/coredispatcher.md) that [DependencyObject](dependencyobject.md) object is associated with, which represents the UI thread.

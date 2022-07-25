@@ -12,7 +12,7 @@ public void SetInsets(System.Single inset)
 ## -description
 Sets the insets of a CompositionNineGridBrush using the same value for the top, bottom, left, and right. Defaults to 0.0f.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionNineGridBrush.SetInsets](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush.setinsets).
+
 
 ## -parameters
 ### -param inset

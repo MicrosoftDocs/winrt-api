@@ -13,7 +13,7 @@ public class CompositionPropertySet : Windows.UI.Composition.CompositionObject, 
 
 Stores values as key-value pairs.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionPropertySet](/windows/winui/api/microsoft.ui.composition.compositionpropertyset).
+
 
 ## -remarks
 

@@ -14,7 +14,7 @@ public bool CanBeScrollAnchor { get;  set; }
 
 Gets or sets a value that indicates whether the [UIElement](uielement.md) can be a candidate for scroll anchoring.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.CanBeScrollAnchor](/windows/winui/api/microsoft.ui.xaml.uielement.canbescrollanchor).
+
 
 ## -property-value
 

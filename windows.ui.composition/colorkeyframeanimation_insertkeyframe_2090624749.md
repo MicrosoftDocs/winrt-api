@@ -12,7 +12,7 @@ public void InsertKeyFrame(System.Single normalizedProgressKey, Windows.UI.Color
 ## -description
 Inserts a key frame.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.ColorKeyFrameAnimation.InsertKeyFrame](/windows/winui/api/microsoft.ui.composition.colorkeyframeanimation.insertkeyframe).
+
 
 ## -parameters
 ### -param normalizedProgressKey

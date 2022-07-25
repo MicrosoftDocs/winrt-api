@@ -13,7 +13,7 @@ public Vector2 CenterPoint { get;  set; }
 
 Gets or sets the point about which the brush is rotated and scaled.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionGradientBrush.CenterPoint](/windows/winui/api/microsoft.ui.composition.compositiongradientbrush.centerpoint).
+
 
 ## -property-value
 

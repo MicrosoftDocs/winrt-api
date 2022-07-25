@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.RemoveAt(UInt32 index)
 
 Removes the item at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.RemoveAt](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.removeat).
+
 
 ## -parameters
 ### -param index

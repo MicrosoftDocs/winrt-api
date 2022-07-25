@@ -13,7 +13,7 @@ public event TypedEventHandler NoFocusCandidateFound<UIElement, NoFocusCandidate
 
 Occurs when a user attempts to move focus (via tab or directional arrows), but focus doesn't move because no focus candidate is found in the direction of movement.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.NoFocusCandidateFound](/windows/winui/api/microsoft.ui.xaml.uielement.nofocuscandidatefound).
+
 
 ## -xaml-syntax
 

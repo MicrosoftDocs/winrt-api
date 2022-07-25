@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.DoubleKeyFrame GetAt(System.UInt32 index)
 ## -description
 Returns the [DoubleKeyFrame](doublekeyframe.md) located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.DoubleKeyFrameCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.doublekeyframecollection.getat).
+
 
 ## -parameters
 ### -param index

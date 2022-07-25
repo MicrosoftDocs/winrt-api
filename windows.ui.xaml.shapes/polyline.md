@@ -12,7 +12,7 @@ public class Polyline : Windows.UI.Xaml.Shapes.Shape, Windows.UI.Xaml.Shapes.IPo
 ## -description
 Draws a series of connected straight lines.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Shapes.Polyline](/windows/winui/api/microsoft.ui.xaml.shapes.polyline).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public ApplicationHighContrastAdjustment HighContrastAdjustment { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the framework automatically adjusts visual properties when high contrast themes are enabled.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Application.HighContrastAdjustment](/windows/winui/api/microsoft.ui.xaml.application.highcontrastadjustment).
+
 
 ## -property-value
 A value of the enumeration that indicates whether the framework automatically adjusts visual properties when high contrast themes are enabled. The default is **Auto**.

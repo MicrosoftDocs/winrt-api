@@ -13,7 +13,7 @@ public enum Vector3TransitionComponents : uint
 ## -description
 Defines constants that specify which axes to animate during the Vector3Transition animation. 
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.Vector3TransitionComponents](/windows/winui/api/microsoft.ui.xaml.vector3transitioncomponents).
+
 
 ## -enum-fields
 ### -field X:1

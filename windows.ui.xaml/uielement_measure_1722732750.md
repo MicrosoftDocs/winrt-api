@@ -12,7 +12,7 @@ public void Measure(Windows.Foundation.Size availableSize)
 ## -description
 Updates the [DesiredSize](uielement_desiredsize.md) of a [UIElement](uielement.md). Typically, objects that implement custom layout for their layout children call this method from their own [MeasureOverride](frameworkelement_measureoverride_1586581644.md) implementations to form a recursive layout update.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.Measure](/windows/winui/api/microsoft.ui.xaml.uielement.measure).
+
 
 ## -parameters
 ### -param availableSize

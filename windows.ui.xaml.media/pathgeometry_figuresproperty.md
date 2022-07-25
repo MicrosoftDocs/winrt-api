@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FiguresProperty { get; }
 ## -description
 Identifies the [Figures](pathgeometry_figures.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PathGeometry.FiguresProperty](/windows/winui/api/microsoft.ui.xaml.media.pathgeometry.figuresproperty).
+
 
 ## -property-value
 The identifier for the [Figures](pathgeometry_figures.md) dependency property.

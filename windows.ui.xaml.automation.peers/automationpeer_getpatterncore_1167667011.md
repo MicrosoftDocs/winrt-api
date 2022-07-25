@@ -12,7 +12,7 @@ virtual protected object GetPatternCore(Windows.UI.Xaml.Automation.Peers.Pattern
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetPattern](automationpeer_getpattern_2046576749.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetPatternCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getpatterncore).
+
 
 ## -parameters
 ### -param patternInterface

@@ -12,7 +12,7 @@ public string WeekDay1 { get; }
 ## -description
 Gets the first day of the week.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay1](/windows/winui/api/microsoft.ui.xaml.controls.primitives.calendarviewtemplatesettings.weekday1).
+
 
 ## -property-value
 The first day of the week.

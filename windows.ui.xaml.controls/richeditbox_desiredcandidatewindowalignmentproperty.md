@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DesiredCandidateWindowAlignmentPropert
 ## -description
 Identifies the [DesiredCandidateWindowAlignment](richeditbox_desiredcandidatewindowalignment.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.DesiredCandidateWindowAlignmentProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.desiredcandidatewindowalignmentproperty).
+
 
 ## -property-value
 The identifier for the [DesiredCandidateWindowAlignment](richeditbox_desiredcandidatewindowalignment.md) dependency property.

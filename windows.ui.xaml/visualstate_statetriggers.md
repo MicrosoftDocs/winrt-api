@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.StateTriggerBase> 
 ## -description
 Gets a collection of [StateTriggerBase](statetriggerbase.md) objects that indicate when this [VisualState](visualstate.md) should be applied. If any (not all) of the triggers are active, the VisualState will be applied.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualState.StateTriggers](/windows/winui/api/microsoft.ui.xaml.visualstate.statetriggers).
+
 
 ## -property-value
 A collection of [StateTriggerBase](statetriggerbase.md) objects. The default is an empty collection.

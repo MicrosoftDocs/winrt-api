@@ -12,7 +12,7 @@ public event Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventHandler ViewCh
 ## -description
 Occurs when a view change is requested.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.SemanticZoom.ViewChangeStarted](/windows/winui/api/microsoft.ui.xaml.controls.semanticzoom.viewchangestarted).
+
 
 ## -xaml-syntax
 ```xaml

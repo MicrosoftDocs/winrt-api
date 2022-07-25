@@ -12,7 +12,7 @@ public void UpdateLayout()
 ## -description
 Ensures that all positions of child objects of a [UIElement](uielement.md) are properly updated for layout.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.UpdateLayout](/windows/winui/api/microsoft.ui.xaml.uielement.updatelayout).
+
 
 ## -remarks
 UpdateLayout is basically equivalent to calling [InvalidateMeasure](uielement_invalidatemeasure_969784920.md) and [InvalidateArrange](uielement_invalidatearrange_2012947484.md) in sequence.

@@ -13,7 +13,7 @@ public struct GridLength
 
 Represents a measurement for control logic that explicitly supports **Star** (\*) sizing and **Auto** sizing.
 
-Equivalent WinUI struct: [GridLength](/windows/winui/api/microsoft.ui.xaml.gridlength).
+
 
 ## -xaml-syntax
 

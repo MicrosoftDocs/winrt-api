@@ -12,7 +12,7 @@ public Windows.Foundation.Collections.IVector<object> RemovedItems { get; }
 ## -description
 Gets the collection of items that were unselected.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ItemsPickedEventArgs.RemovedItems](/windows/winui/api/microsoft.ui.xaml.controls.itemspickedeventargs.removeditems).
+
 
 ## -property-value
 The collection of items that were unselected.

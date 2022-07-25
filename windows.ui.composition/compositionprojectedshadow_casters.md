@@ -14,7 +14,7 @@ public CompositionProjectedShadowCasterCollection Casters { get; }
 
 Gets the collection of objects that cast a shadow on the receivers.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadow.Casters](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.casters).
+
 
 ## -property-value
 

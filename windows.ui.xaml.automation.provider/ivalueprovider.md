@@ -12,7 +12,7 @@ public interface IValueProvider :
 ## -description
 Exposes methods and properties to support access by a Microsoft UI Automation client to controls that have an intrinsic value that does not span a range and that can be represented as a string. Implement this interface in order to support the capabilities that an automation client requests with a [GetPattern](../windows.ui.xaml.automation.peers/automationpeer_getpattern_2046576749.md) call and [PatternInterface.Value](../windows.ui.xaml.automation.peers/patterninterface.md).
 
-Equivalent WinUI interface: [Microsoft.UI.Xaml.Automation.Provider.IValueProvider](/windows/winui/api/microsoft.ui.xaml.automation.provider.ivalueprovider).
+
 
 ## -remarks
 The value string can be editable, depending on the control and its settings. This pattern has guidelines and conventions that aren't fully documented here. For more info on what this pattern is for, see [Value Control Pattern](/windows/desktop/WinAuto/uiauto-implementingvalue).

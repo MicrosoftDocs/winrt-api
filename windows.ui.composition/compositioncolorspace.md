@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionColorSpace : int
 ## -description
 Specifies the color space for interpolating color values in [ColorKeyFrameAnimation](colorkeyframeanimation.md).
 
-Equivalent WinUI enum: [CompositionColorSpace](/windows/winui/api/microsoft.ui.composition.compositioncolorspace).
+
 
 ## -enum-fields
 ### -field Auto:0

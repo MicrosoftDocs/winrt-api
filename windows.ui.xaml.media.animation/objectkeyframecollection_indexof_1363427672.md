@@ -12,7 +12,7 @@ public bool IndexOf(Windows.UI.Xaml.Media.Animation.ObjectKeyFrame value, System
 ## -description
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.IndexOf](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.indexof).
+
 
 ## -parameters
 ### -param value

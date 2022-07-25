@@ -12,7 +12,7 @@ public void ZoomByUnit(Windows.UI.Xaml.Automation.ZoomUnit zoomUnit)
 ## -description
 Zooms the viewport of the control by the specified logical unit.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.ZoomByUnit](/windows/winui/api/microsoft.ui.xaml.automation.provider.itransformprovider2.zoombyunit).
+
 
 ## -parameters
 ### -param zoomUnit

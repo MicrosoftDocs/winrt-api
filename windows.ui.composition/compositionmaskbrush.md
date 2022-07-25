@@ -12,7 +12,7 @@ public class CompositionMaskBrush : Windows.UI.Composition.CompositionBrush, Win
 ## -description
 Paints a SpriteVisual with a CompositionBrush with an opacity mask applied to it. The source of the opacity mask can be any CompositionBrush of type CompositionColorBrush, CompositionLinearGradientBrush, CompositionSurfaceBrush, CompositionEffectBrush or a CompositionNineGridBrush. The opacity mask must be specified as a CompositionSurfaceBrush.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionMaskBrush](/windows/winui/api/microsoft.ui.composition.compositionmaskbrush).
+
 
 ## -remarks
 CompositionMaskBrush can not be set as the source parameter to a [CompositionEffectBrush](compositioneffectbrush.md). If you wish to apply an IGraphicsEffect to your masked content, use a [CompositionEffectBrush](compositioneffectbrush.md) with the [Composite effect](/windows/uwp/graphics/composition-effects?f=255&amp;MSPPError=-2147217396) instead.

@@ -12,7 +12,7 @@ public enum Windows.UI.Composition.CompositionEffectFactoryLoadStatus : int
 ## -description
 The status of the asynchronous compilation of a shader for an effect description.
 
-Equivalent WinUI enum: [CompositionEffectFactoryLoadStatus](/windows/winui/api/microsoft.ui.composition.compositioneffectfactoryloadstatus).
+
 
 ## -enum-fields
 ### -field Success:0

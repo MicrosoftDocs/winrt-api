@@ -12,7 +12,7 @@ public object DataContext { get;  set; }
 ## -description
 Gets or sets the data context for a [FrameworkElement](frameworkelement.md). A common use of a data context is when a **FrameworkElement** uses the [{Binding}](/windows/uwp/xaml-platform/binding-markup-extension) markup extension and participates in data binding.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.DataContext](/windows/winui/api/microsoft.ui.xaml.frameworkelement.datacontext).
+
 
 ## -xaml-syntax
 ```xaml

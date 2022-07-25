@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent KeyUpEvent { get; }
 ## -description
 Gets the identifier for the [KeyUp](uielement_keyup.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.KeyUpEvent](/windows/winui/api/microsoft.ui.xaml.uielement.keyupevent).
+
 
 ## -property-value
 The identifier for the [KeyUp](uielement_keyup.md) routed event.

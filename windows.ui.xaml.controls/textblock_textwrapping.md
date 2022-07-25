@@ -12,7 +12,7 @@ public Windows.UI.Xaml.TextWrapping TextWrapping { get;  set; }
 ## -description
 Gets or sets how the [TextBlock](textblock.md) wraps text.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBlock.TextWrapping](/windows/winui/api/microsoft.ui.xaml.controls.textblock.textwrapping).
+
 
 ## -xaml-syntax
 ```xaml

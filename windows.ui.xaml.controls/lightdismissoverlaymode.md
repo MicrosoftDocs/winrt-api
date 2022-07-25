@@ -12,7 +12,6 @@ public enum Windows.UI.Xaml.Controls.LightDismissOverlayMode : int
 ## -description
 Defines constants that specify whether the area outside of a *light-dismiss* UI is darkened.
 
-Equivalent WinUI enum: [LightDismissOverlayMode](/windows/winui/api/microsoft.ui.xaml.controls.lightdismissoverlaymode).
 
 ## -enum-fields
 ### -field Auto:0

@@ -12,7 +12,7 @@ public bool IsCompact { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the separator is shown with reduced padding.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarSeparator.IsCompact](/windows/winui/api/microsoft.ui.xaml.controls.appbarseparator.iscompact).
+
 
 ## -xaml-syntax
 ```xaml

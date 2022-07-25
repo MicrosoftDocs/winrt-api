@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TodayForegroundProperty { get; }
 ## -description
 Identifies the [TodayForeground](calendarview_todayforeground.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarView.TodayForegroundProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.todayforegroundproperty).
+
 
 ## -property-value
 The identifier for the [TodayForeground](calendarview_todayforeground.md)   dependency property.

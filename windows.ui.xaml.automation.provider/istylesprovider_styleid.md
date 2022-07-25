@@ -12,7 +12,7 @@ public int StyleId { get; }
 ## -description
 Gets the identifier for a visual style of an element in a document.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.Provider.IStylesProvider.StyleId](/windows/winui/api/microsoft.ui.xaml.automation.provider.istylesprovider.styleid).
+
 
 ## -property-value
 The style identifier. For a list of possible values, see [Style Identifiers](/windows/desktop/WinAuto/uiauto-style-identifiers).

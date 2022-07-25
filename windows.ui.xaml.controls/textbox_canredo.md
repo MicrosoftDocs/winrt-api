@@ -14,7 +14,7 @@ public bool CanRedo { get; }
 
 Gets a value that indicates whether the redo buffer contains an action that can be redone.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextBox.CanRedo](/windows/winui/api/microsoft.ui.xaml.controls.textbox.canredo).
+
 
 ## -property-value
 

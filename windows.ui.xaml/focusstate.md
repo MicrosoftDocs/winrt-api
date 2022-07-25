@@ -13,7 +13,7 @@ public enum Windows.UI.Xaml.FocusState : int
 
 Describes how an element obtained focus.
 
-Equivalent WinUI enum: [FocusState](/windows/winui/api/microsoft.ui.xaml.focusstate).
+
 
 ## -enum-fields
 

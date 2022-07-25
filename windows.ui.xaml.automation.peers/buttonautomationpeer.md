@@ -12,7 +12,6 @@ public class ButtonAutomationPeer : Windows.UI.Xaml.Automation.Peers.ButtonBaseA
 ## -description
 Exposes [Button](../windows.ui.xaml.controls/button.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.ButtonAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.buttonautomationpeer).
 
 ## -remarks
 The Windows Runtime  [Button](../windows.ui.xaml.controls/button.md) class creates a new ButtonAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ButtonAutomationPeer if you are deriving a custom class from [Button](../windows.ui.xaml.controls/button.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

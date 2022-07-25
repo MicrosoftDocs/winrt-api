@@ -14,7 +14,7 @@ public IReference<DateTime> OldDate { get; }
 
 Gets the date previously selected in the picker.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.OldDate](/windows/winui/api/microsoft.ui.xaml.controls.datepickerselectedvaluechangedeventargs.olddate).
+
 
 ## -property-value
 

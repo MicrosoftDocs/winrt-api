@@ -13,7 +13,7 @@ public class PasswordBoxPasswordChangingEventArgs
 
 Provides event data for the [PasswordBox.PasswordChanging](passwordbox_passwordchanging.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PasswordBoxPasswordChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.passwordboxpasswordchangingeventargs).
+
 
 ## -remarks
 

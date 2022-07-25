@@ -12,7 +12,7 @@ public int ProcessBindings(Windows.UI.Xaml.Controls.ContainerContentChangingEven
 ## -description
 Updates a list item container element with bound data.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.IDataTemplateExtension.ProcessBindings](/windows/winui/api/microsoft.ui.xaml.idatatemplateextension.processbindings).
+
 
 ## -parameters
 ### -param arg

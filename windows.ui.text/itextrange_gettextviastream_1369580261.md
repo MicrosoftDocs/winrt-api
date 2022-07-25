@@ -12,7 +12,7 @@ public void GetTextViaStream(Windows.UI.Text.TextGetOptions options, Windows.Sto
 ## -description
 Retrieves the text in the text range according to the specified conversion flags, as a random access stream.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.GetTextViaStream](/windows/winui/api/microsoft.ui.text.itextrange.gettextviastream).
+
 
 ## -parameters
 ### -param options

@@ -12,7 +12,7 @@ public CompositionDropShadowSourcePolicy SourcePolicy { get;  set; }
 ## -description
 Used to define the shadow masking policy to be used for the shadow.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.DropShadow.SourcePolicy](/windows/winui/api/microsoft.ui.composition.dropshadow.sourcepolicy).
+
 
 ## -property-value
 The masking policy to apply to the shadow.

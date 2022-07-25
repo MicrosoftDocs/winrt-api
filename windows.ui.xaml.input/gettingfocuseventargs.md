@@ -13,7 +13,7 @@ public class GettingFocusEventArgs : RoutedEventArgs, RoutedEventArgs
 
 Provides data for the [FocusManager.GettingFocus](focusmanager_gettingfocus.md) and [UIElement.GettingFocus](../windows.ui.xaml/uielement_gettingfocus.md) events.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.GettingFocusEventArgs](/windows/winui/api/microsoft.ui.xaml.input.gettingfocuseventargs).
+
 
 ## -remarks
 

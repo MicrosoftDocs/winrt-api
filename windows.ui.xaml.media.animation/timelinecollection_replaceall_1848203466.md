@@ -12,7 +12,7 @@ public void ReplaceAll(Windows.UI.Xaml.Media.Animation.Timeline[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.TimelineCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.animation.timelinecollection.replaceall).
+
 
 ## -parameters
 ### -param items

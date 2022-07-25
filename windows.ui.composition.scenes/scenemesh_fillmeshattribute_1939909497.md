@@ -14,7 +14,7 @@ public void SceneMesh.FillMeshAttribute(SceneAttributeSemantic semantic, DirectX
 
 Creates a copy of information about the mesh for use by this SceneMesh.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneMesh.FillMeshAttribute](/windows/winui/api/microsoft.ui.composition.scenes.scenemesh.fillmeshattribute).
+
 
 ## -parameters
 

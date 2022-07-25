@@ -12,7 +12,7 @@ public bool IsVerticalRailEnabled { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the scroll rail is enabled for the vertical axis.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.IsVerticalRailEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.isverticalrailenabled).
+
 
 ## -xaml-syntax
 ```xaml

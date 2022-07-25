@@ -12,7 +12,7 @@ public class ColorAnimationUsingKeyFrames : Windows.UI.Xaml.Media.Animation.Time
 ## -description
 Animates the value of a [Color](../windows.ui/color.md) property along a set of key frames.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ColorAnimationUsingKeyFrames](/windows/winui/api/microsoft.ui.xaml.media.animation.coloranimationusingkeyframes).
+
 
 ## -xaml-syntax
 ```xaml

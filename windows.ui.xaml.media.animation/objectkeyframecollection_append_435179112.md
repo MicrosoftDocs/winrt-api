@@ -12,7 +12,7 @@ public void Append(Windows.UI.Xaml.Media.Animation.ObjectKeyFrame value)
 ## -description
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.Append](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.append).
+
 
 ## -parameters
 ### -param value

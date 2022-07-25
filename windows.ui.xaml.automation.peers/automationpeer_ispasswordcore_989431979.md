@@ -12,7 +12,6 @@ virtual protected bool IsPasswordCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [IsPassword](automationpeer_ispassword_1875117543.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsPasswordCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.ispasswordcore).
 
 ## -returns
 **true** if the element contains sensitive content; otherwise, **false**.

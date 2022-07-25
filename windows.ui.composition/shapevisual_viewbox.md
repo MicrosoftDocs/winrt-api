@@ -13,7 +13,7 @@ public CompositionViewBox ViewBox { get;  set; }
 
 Gets or sets the CompositionViewBox that maps shape visual tree coordinates onto the visual.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.ShapeVisual.ViewBox](/windows/winui/api/microsoft.ui.composition.shapevisual.viewbox).
+
 
 ## -property-value
 

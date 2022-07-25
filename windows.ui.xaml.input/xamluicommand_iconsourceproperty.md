@@ -14,7 +14,7 @@ public DependencyProperty IconSourceProperty { get; }
 
 Identifies the [IconSource](xamluicommand_iconsource.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.XamlUICommand.IconSourceProperty](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.iconsourceproperty).
+
 
 ## -property-value
 

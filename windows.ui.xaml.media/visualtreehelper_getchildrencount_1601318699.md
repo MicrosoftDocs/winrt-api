@@ -12,7 +12,7 @@ public int GetChildrenCount(Windows.UI.Xaml.DependencyObject reference)
 ## -description
 Returns the number of children that exist in an object's child collection in the visual tree.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.VisualTreeHelper.GetChildrenCount](/windows/winui/api/microsoft.ui.xaml.media.visualtreehelper.getchildrencount).
+
 
 ## -parameters
 ### -param reference

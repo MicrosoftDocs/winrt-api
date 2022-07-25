@@ -12,7 +12,7 @@ public double ViewportSize { get;  set; }
 ## -description
 Gets or sets the amount of the scrollable content that is currently visible.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ScrollBar.ViewportSize](/windows/winui/api/microsoft.ui.xaml.controls.primitives.scrollbar.viewportsize).
+
 
 ## -xaml-syntax
 ```xaml

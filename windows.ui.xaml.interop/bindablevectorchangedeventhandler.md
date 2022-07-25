@@ -10,7 +10,7 @@ public delegate void BindableVectorChangedEventHandler(Windows.UI.Xaml.Interop.I
 ## -description
 Represents the method that will handle the [VectorChanged](ibindableobservablevector_vectorchanged.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Interop.BindableVectorChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.interop.bindablevectorchangedeventhandler).
+
 
 ## -parameters
 ### -param vector

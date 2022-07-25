@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty SemanticZoomOwnerProperty { get; }
 ## -description
 Identifies the [SemanticZoomOwner](hub_semanticzoomowner.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.SemanticZoomOwnerProperty](/windows/winui/api/microsoft.ui.xaml.controls.hub.semanticzoomownerproperty).
+
 
 ## -property-value
 The identifier for the [SemanticZoomOwner](hub_semanticzoomowner.md) dependency property.

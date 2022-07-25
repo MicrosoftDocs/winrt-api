@@ -12,7 +12,7 @@ public class ManipulationPivot : Windows.UI.Xaml.Input.IManipulationPivot
 ## -description
 Specifies how a rotation occurs with one point of user input.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.ManipulationPivot](/windows/winui/api/microsoft.ui.xaml.input.manipulationpivot).
+
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public class SkewTransform : Windows.UI.Xaml.Media.Transform, Windows.UI.Xaml.Me
 ## -description
 Represents a two-dimensional skew.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.SkewTransform](/windows/winui/api/microsoft.ui.xaml.media.skewtransform).
+
 
 ## -xaml-syntax
 ```xaml

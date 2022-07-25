@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FirstDayOfWeekProperty { get; }
 ## -description
 Identifies the [FirstDayOfWeek](calendardatepicker_firstdayofweek.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.FirstDayOfWeekProperty](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.firstdayofweekproperty).
+
 
 ## -property-value
 The identifier for the [FirstDayOfWeek](calendardatepicker_firstdayofweek.md) dependency property.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty PrimaryCommandsProperty { get; }
 ## -description
 Identifies the [PrimaryCommands](commandbar_primarycommands.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CommandBar.PrimaryCommandsProperty](/windows/winui/api/microsoft.ui.xaml.controls.commandbar.primarycommandsproperty).
+
 
 ## -property-value
 The identifier for the [PrimaryCommands](commandbar_primarycommands.md) dependency property.

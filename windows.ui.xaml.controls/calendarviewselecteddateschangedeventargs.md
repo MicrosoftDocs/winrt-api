@@ -12,7 +12,7 @@ public class CalendarViewSelectedDatesChangedEventArgs : Windows.UI.Xaml.Control
 ## -description
 Provides data for the [SelectedDatesChanged](calendarview_selecteddateschanged.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.CalendarViewSelectedDatesChangedEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.calendarviewselecteddateschangedeventargs).
+
 
 ## -remarks
 

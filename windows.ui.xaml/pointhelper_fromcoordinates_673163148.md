@@ -13,8 +13,6 @@ public Windows.Foundation.Point FromCoordinates(System.Single x, System.Single y
 
 Creates a new [Point](../windows.foundation/point.md) value using x- and y-coordinate values in pixels. C# and Microsoft Visual Basic code should use the [Point(Double,Double)](/dotnet/api/windows.foundation.point.-ctor?view=dotnet-uwp-10.0&preserve-view=true) constructor instead.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.PointHelper.FromCoordinates](/windows/winui/api/microsoft.ui.xaml.pointhelper.fromcoordinates).
-
 ## -parameters
 
 ### -param x

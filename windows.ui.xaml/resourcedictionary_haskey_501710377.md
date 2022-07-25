@@ -12,7 +12,7 @@ public bool HasKey(System.Object key)
 ## -description
 Returns whether the [ResourceDictionary](resourcedictionary.md) has an entry with the requested key.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.ResourceDictionary.HasKey](/windows/winui/api/microsoft.ui.xaml.resourcedictionary.haskey).
+
 
 ## -parameters
 ### -param key
@@ -28,4 +28,4 @@ The requested key.
 ## -examples
 
 ## -see-also
-[Contains](/dotnet/api/system.windows.resourcedictionary.contains), [ResourceDictionary and XAML resource references](/windows/uwp/controls-and-patterns/resourcedictionary-and-xaml-resource-references)
+[Contains](/dotnet/api/system.windows.resourcedictionary.contains), [ResourceDictionary and XAML resource references](/windows/apps/design/style/xaml-resource-dictionary)

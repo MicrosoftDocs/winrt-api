@@ -12,7 +12,7 @@ public bool IsEnabled { get;  set; }
 ## -description
 Gets or sets a value indicating whether the user can interact with the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.IsEnabled](/windows/winui/api/microsoft.ui.xaml.controls.control.isenabled).
+
 
 ## -xaml-syntax
 ```xaml

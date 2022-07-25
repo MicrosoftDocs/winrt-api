@@ -12,7 +12,7 @@ public void StopAnimation(System.String propertyName)
 ## -description
 Disconnects an animation from the specified property and stops the animation.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionObject.StopAnimation](/windows/winui/api/microsoft.ui.composition.compositionobject.stopanimation).
+
 
 ## -parameters
 ### -param propertyName

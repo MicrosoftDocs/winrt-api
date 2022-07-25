@@ -12,7 +12,7 @@ public Windows.UI.Xaml.RoutedEvent PointerWheelChangedEvent { get; }
 ## -description
 Gets the identifier for the [PointerWheelChanged](uielement_pointerwheelchanged.md) routed event.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.PointerWheelChangedEvent](/windows/winui/api/microsoft.ui.xaml.uielement.pointerwheelchangedevent).
+
 
 ## -property-value
 The identifier for the [PointerWheelChanged](uielement_pointerwheelchanged.md) routed event.

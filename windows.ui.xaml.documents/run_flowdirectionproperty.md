@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty FlowDirectionProperty { get; }
 ## -description
 Identifies the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)  dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Run.FlowDirectionProperty](/windows/winui/api/microsoft.ui.xaml.documents.run.flowdirectionproperty).
+
 
 ## -property-value
 The identifier of the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)  dependency property.

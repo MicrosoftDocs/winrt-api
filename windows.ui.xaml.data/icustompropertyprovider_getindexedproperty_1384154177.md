@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Data.ICustomProperty GetIndexedProperty(System.String nam
 ## -description
 Gets a custom property's [ICustomProperty](icustomproperty.md) support object by specifying a property name and the type of the indexed collection.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Data.ICustomPropertyProvider.GetIndexedProperty](/windows/winui/api/microsoft.ui.xaml.data.icustompropertyprovider.getindexedproperty).
+
 
 ## -parameters
 ### -param name

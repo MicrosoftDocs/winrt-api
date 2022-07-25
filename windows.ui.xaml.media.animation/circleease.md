@@ -12,7 +12,7 @@ public class CircleEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase, Wi
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using a circular function.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.CircleEase](/windows/winui/api/microsoft.ui.xaml.media.animation.circleease).
+
 
 ## -xaml-syntax
 ```xaml

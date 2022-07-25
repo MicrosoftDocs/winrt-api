@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Media.Animation.EasingMode : int
 ## -description
 Specifies how the animation associated with an easing function interpolates.
 
-Equivalent WinUI enum: [EasingMode](/windows/winui/api/microsoft.ui.xaml.media.animation.easingmode).
+
 
 ## -xaml-syntax
 ```xaml

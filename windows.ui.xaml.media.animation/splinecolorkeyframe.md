@@ -12,7 +12,7 @@ public class SplineColorKeyFrame : Windows.UI.Xaml.Media.Animation.ColorKeyFrame
 ## -description
 Animates from the [Color](../windows.ui/color.md) value of the previous key frame to its own [Value](colorkeyframe_value.md) using splined interpolation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.SplineColorKeyFrame](/windows/winui/api/microsoft.ui.xaml.media.animation.splinecolorkeyframe).
+
 
 ## -xaml-syntax
 ```xaml

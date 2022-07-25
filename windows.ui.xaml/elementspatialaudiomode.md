@@ -13,7 +13,7 @@ public enum ElementSpatialAudioMode : int
 
 Defines constants that indicate whether spatial sound is on, off, or handled automatically.
 
-Equivalent WinUI enum: [Microsoft.UI.Xaml.ElementSpatialAudioMode](/windows/winui/api/microsoft.ui.xaml.elementspatialaudiomode).
+
 
 ## -enum-fields
 ### -field On:2

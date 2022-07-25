@@ -12,7 +12,7 @@ public void RemoveAt(System.UInt32 index)
 ## -description
 Removes the item at the specified index in the vector.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.RemoveAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.removeat).
+
 
 ## -parameters
 ### -param index

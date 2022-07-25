@@ -12,7 +12,7 @@ public DependencyProperty SelectionHighlightColorWhenNotFocusedProperty { get; }
 ## -description
 Identifies the **SelectionHighlightColorWhenNotFocused** dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichEditBox.SelectionHighlightColorWhenNotFocusedProperty](/windows/winui/api/microsoft.ui.xaml.controls.richeditbox.selectionhighlightcolorwhennotfocusedproperty).
+
 
 ## -property-value
 The identifier for the **SelectionHighlightColorWhenNotFocused** dependency property.

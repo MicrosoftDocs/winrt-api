@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Brush BorderBrush { get;  set; }
 ## -description
 Gets or sets the [Brush](../windows.ui.xaml.media/brush.md) that is applied to the edge area of the [Border](border.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Border.BorderBrush](/windows/winui/api/microsoft.ui.xaml.controls.border.borderbrush).
+
 
 ## -xaml-syntax
 ```xaml

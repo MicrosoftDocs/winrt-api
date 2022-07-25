@@ -12,7 +12,7 @@ public void LineUp()
 ## -description
 Scrolls content by one line toward the top.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.LineUp](/windows/winui/api/microsoft.ui.xaml.controls.primitives.orientedvirtualizingpanel.lineup).
+
 
 ## -remarks
 This implementation calls [SetVerticalOffset](orientedvirtualizingpanel_setverticaloffset_1333703417.md) using a value for "line" of 16 pixels, which comes from a default [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md). 

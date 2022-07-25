@@ -14,7 +14,7 @@ An [ExpressionAnimation](../windows.ui.composition/expressionanimation.md) that 
 
 The InteractionTrackerInertiaRestingValue class defines two [ExpressionAnimation](../windows.ui.composition/expressionanimation.md)s that calculate an explicit resting position for [InteractionTracker](interactiontracker.md) when a particular condition is met. The InteractionTrackerInertiaRestingValue is defined as two parts: The conditional statement in which the [InteractionTracker](interactiontracker.md) ’s specific resting location needs to be explicitly defined if true and the equation that describes a mathematical relationship that outputs the location. Utilize the InteractionTrackerInertiaRestingValue class when needing to ensure InteractionTracker lands on a specific location after an interaction occurs.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaRestingValue](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiarestingvalue).
+
 
 ## -remarks
 When attaching the InteractionTrackerInertiaRestingValue modifier to the [InteractionTracker](interactiontracker.md), you configure it to either the X/Y Position or Scale.

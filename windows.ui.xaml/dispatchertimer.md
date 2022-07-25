@@ -12,7 +12,7 @@ public class DispatcherTimer : Windows.UI.Xaml.IDispatcherTimer
 ## -description
 Provides a timer that is integrated into the **Dispatcher** queue, which is processed at a specified interval of time and at a specified priority.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.DispatcherTimer](/windows/winui/api/microsoft.ui.xaml.dispatchertimer).
+
 
 ## -remarks
 The DispatcherTimer can be used to run code on the same thread that produces the UI thread. Code running on this thread has the privilege to create and modify objects that can only be created and modified on the UI thread. To specify that code should run on the UI thread, set the [Interval](dispatchertimer_interval.md) property and then call the [Start](dispatchertimer_start_1587696324.md) method. The [Tick](dispatchertimer_tick.md) event fires after the time specified in [Interval](dispatchertimer_interval.md) has elapsed. [Tick](dispatchertimer_tick.md) continues firing at the same [Interval](dispatchertimer_interval.md) until the [Stop](dispatchertimer_stop_1201535524.md) method is called, the app terminates, or the app is suspended (fires [Suspending](application_suspending.md)).

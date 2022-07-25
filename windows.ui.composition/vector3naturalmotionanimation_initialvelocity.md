@@ -13,7 +13,7 @@ public Vector3 InitialVelocity { get;  set; }
 
 Gets or sets the velocity that the animation starts with.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Vector3NaturalMotionAnimation.InitialVelocity](/windows/winui/api/microsoft.ui.composition.vector3naturalmotionanimation.initialvelocity).
+
 
 ## -property-value
 

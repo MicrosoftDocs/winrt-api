@@ -13,7 +13,7 @@ public int GetSizeOfSet(Windows.UI.Xaml.DependencyObject element)
 
 Gets the value of the [AutomationProperties.SizeOfSet](automationproperties_sizeofset.md) property for the specified [DependencyObject](../windows.ui.xaml/dependencyobject.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.AutomationProperties.GetSizeOfSet](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.getsizeofset).
+
 
 ## -parameters
 

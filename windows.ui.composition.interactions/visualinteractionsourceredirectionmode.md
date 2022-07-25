@@ -13,7 +13,7 @@ public enum Windows.UI.Composition.Interactions.VisualInteractionSourceRedirecti
 
 Indicates what input should be redirected to the InteractionTracker.
 
-Equivalent WinUI enum: [VisualInteractionSourceRedirectionMode](/windows/winui/api/microsoft.ui.composition.interactions.visualinteractionsourceredirectionmode).
+
 
 ## -enum-fields
 

@@ -12,7 +12,7 @@ virtual protected Windows.UI.Xaml.Automation.Peers.AutomationPeer OnCreateAutoma
 ## -description
 When implemented in a derived class, returns class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) implementations for the Microsoft UI Automation infrastructure.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.UIElement.OnCreateAutomationPeer](/windows/winui/api/microsoft.ui.xaml.uielement.oncreateautomationpeer).
+
 
 ## -returns
 The class-specific [AutomationPeer](../windows.ui.xaml.automation.peers/automationpeer.md) subclass to return.

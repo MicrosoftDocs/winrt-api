@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty DescribedByProperty { get; }
 
 Identifies the [AutomationProperties.DescribedBy](automationproperties_describedby.md) attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.DescribedByProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.describedbyproperty).
+
 
 ## -property-value
 

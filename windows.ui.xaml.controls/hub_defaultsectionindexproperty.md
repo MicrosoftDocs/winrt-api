@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty DefaultSectionIndexProperty { get; }
 ## -description
 Identifies the [DefaultSectionIndex](hub_defaultsectionindex.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Hub.DefaultSectionIndexProperty](/windows/winui/api/microsoft.ui.xaml.controls.hub.defaultsectionindexproperty).
+
 
 ## -property-value
 The identifier for the [DefaultSectionIndex](hub_defaultsectionindex.md) dependency property.

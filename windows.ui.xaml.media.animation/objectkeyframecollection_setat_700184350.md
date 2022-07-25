@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.Animation.ObjectKey
 ## -description
 Sets the value at the specified index to the [ObjectKeyFrame](objectkeyframe.md) value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Animation.ObjectKeyFrameCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.animation.objectkeyframecollection.setat).
+
 
 ## -parameters
 ### -param index

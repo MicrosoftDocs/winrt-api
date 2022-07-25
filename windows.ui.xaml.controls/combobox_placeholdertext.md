@@ -12,7 +12,7 @@ public string PlaceholderText { get;  set; }
 ## -description
 Gets or sets the text that is displayed in the control until the value is changed by a user action or some other operation.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.PlaceholderText](/windows/winui/api/microsoft.ui.xaml.controls.combobox.placeholdertext).
+
 
 ## -xaml-syntax
 ```xaml

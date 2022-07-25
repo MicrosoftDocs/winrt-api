@@ -12,7 +12,7 @@ public void SetAt(System.UInt32 index, Windows.UI.Xaml.Media.GradientStop value)
 ## -description
 Sets the value at the specified index to the **GradientStop** value specified.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GradientStopCollection.SetAt](/windows/winui/api/microsoft.ui.xaml.media.gradientstopcollection.setat).
+
 
 ## -parameters
 ### -param index

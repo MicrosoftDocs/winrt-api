@@ -13,7 +13,7 @@ public DependencyProperty EffectProperty { get; }
 ## -description
 Identifies the Effect dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo.EffectProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.slidenavigationtransitioninfo.effectproperty).
+
 
 ## -property-value
 The identifier for the Effect dependency property.

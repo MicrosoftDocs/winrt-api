@@ -14,7 +14,7 @@ public float MaxBlurRadius { get;  set; }
 
 Gets or sets the maximum blur radius of the shadow.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionProjectedShadow.MaxBlurRadius](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadow.maxblurradius).
+
 
 ## -property-value
 

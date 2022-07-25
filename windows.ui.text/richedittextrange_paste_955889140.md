@@ -13,7 +13,7 @@ public void RichEditTextRange.Paste(Int32 format)
 
 Pastes text from the Clipboard into the text range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.RichEditTextRange.Paste](/windows/winui/api/microsoft.ui.text.richedittextrange.paste).
+
 
 ## -parameters
 ### -param format

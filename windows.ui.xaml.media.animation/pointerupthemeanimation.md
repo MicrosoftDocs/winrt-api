@@ -12,7 +12,7 @@ public class PointerUpThemeAnimation : Windows.UI.Xaml.Media.Animation.Timeline,
 ## -description
 Represents a preconfigured animation that runs after a pointer down is detected on an item or element and the tap action is released.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.PointerUpThemeAnimation](/windows/winui/api/microsoft.ui.xaml.media.animation.pointerupthemeanimation).
+
 
 ## -xaml-syntax
 ```xaml

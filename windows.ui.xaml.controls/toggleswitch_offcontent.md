@@ -12,7 +12,7 @@ public object OffContent { get;  set; }
 ## -description
 Provides the object content that should be displayed using the [OffContentTemplate](toggleswitch_offcontenttemplate.md) when this [ToggleSwitch](toggleswitch.md) has state of "Off".
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ToggleSwitch.OffContent](/windows/winui/api/microsoft.ui.xaml.controls.toggleswitch.offcontent).
+
 
 ## -xaml-syntax
 ```xaml

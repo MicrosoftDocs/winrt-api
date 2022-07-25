@@ -12,7 +12,7 @@ public class Application : Windows.UI.Xaml.IApplication, Windows.UI.Xaml.IApplic
 ## -description
 Encapsulates the app and its available services.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Application](/windows/winui/api/microsoft.ui.xaml.application).
+
 
 ## -xaml-syntax
 ```xaml

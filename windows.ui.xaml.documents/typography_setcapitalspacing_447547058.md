@@ -12,7 +12,7 @@ public void SetCapitalSpacing(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [CapitalSpacing](typography_capitalspacing.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetCapitalSpacing](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcapitalspacing).
+
 
 ## -parameters
 ### -param element

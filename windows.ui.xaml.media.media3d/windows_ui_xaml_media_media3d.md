@@ -9,7 +9,7 @@
 
 Contains types that support matrix/perspective transformation.
 
-Equivalent WinUI namespace: [Microsoft.UI.Xaml.Media.Media3D](/windows/winui/api/microsoft.ui.xaml.media.media3d).
+
 
 ## -remarks
 

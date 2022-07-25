@@ -14,7 +14,7 @@ public AnimationPropertyAccessMode AccessMode { get;  set; }
 
 Gets or sets a value that specifies how an animated property can be accessed.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.AnimationPropertyInfo.AccessMode](/windows/winui/api/microsoft.ui.composition.animationpropertyinfo.accessmode).
+
 
 ## -property-value
 

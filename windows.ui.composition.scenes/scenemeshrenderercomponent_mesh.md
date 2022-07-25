@@ -14,7 +14,7 @@ public SceneMesh Mesh { get;  set; }
 
 Gets or sets the SceneMesh to be rendered.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.Scenes.SceneMeshRendererComponent.Mesh](/windows/winui/api/microsoft.ui.composition.scenes.scenemeshrenderercomponent.mesh).
+
 
 ## -property-value
 

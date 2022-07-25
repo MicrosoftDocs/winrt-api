@@ -12,7 +12,7 @@ public object ItemsSource { get;  set; }
 ## -description
 Gets or sets an object source used to generate the content of the control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListPickerFlyout.ItemsSource](/windows/winui/api/microsoft.ui.xaml.controls.listpickerflyout.itemssource).
+
 
 ## -property-value
 The object that is used to generate the content of the control. The default is null.

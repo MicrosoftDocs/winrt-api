@@ -12,7 +12,7 @@ public int StartIndex { get; }
 ## -description
 Gets the starting location of the text that the user is composing with an Input Method Editor (IME).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.TextCompositionChangedEventArgs.StartIndex](/windows/winui/api/microsoft.ui.xaml.controls.textcompositionchangedeventargs.startindex).
+
 
 ## -property-value
 The starting location of the text that the user is composing with an [Input Method Editor (IME)](/previous-versions/windows/apps/hh967427(v=win.10)).

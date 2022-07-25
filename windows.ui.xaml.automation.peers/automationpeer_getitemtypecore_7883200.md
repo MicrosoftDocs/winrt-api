@@ -12,7 +12,7 @@ virtual protected string GetItemTypeCore()
 ## -description
 Provides the peer's behavior when a Microsoft UI Automation client calls [GetItemType](automationpeer_getitemtype_747068727.md) or an equivalent Microsoft UI Automation client API.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetItemTypeCore](/windows/winui/api/microsoft.ui.xaml.automation.peers.automationpeer.getitemtypecore).
+
 
 ## -returns
 The kind of item.

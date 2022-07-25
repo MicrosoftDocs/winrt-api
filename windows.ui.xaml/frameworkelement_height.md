@@ -12,7 +12,7 @@ public double Height { get;  set; }
 ## -description
 Gets or sets the suggested height of a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.Height](/windows/winui/api/microsoft.ui.xaml.frameworkelement.height).
+
 
 ## -xaml-syntax
 ```xaml

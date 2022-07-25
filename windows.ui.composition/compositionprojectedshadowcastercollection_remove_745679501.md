@@ -14,7 +14,7 @@ public void CompositionProjectedShadowCasterCollection.Remove(CompositionProject
 
 Removes the specified CompositionProjectedShadowCaster from the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionProjectedShadowCasterCollection.Remove](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcastercollection.remove).
+
 
 ## -parameters
 ### -param caster

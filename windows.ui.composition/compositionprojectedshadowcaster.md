@@ -14,7 +14,7 @@ public class CompositionProjectedShadowCaster : CompositionObject, CompositionOb
 
 Represents an object that casts a projected shadow.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionProjectedShadowCaster](/windows/winui/api/microsoft.ui.composition.compositionprojectedshadowcaster).
+
 
 ## -remarks
 

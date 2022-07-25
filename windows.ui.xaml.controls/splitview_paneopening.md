@@ -13,7 +13,7 @@ public event TypedEventHandler PaneOpening<SplitView,  object>
 
 Occurs when the [SplitView](splitview.md) pane is opening.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.SplitView.PaneOpening](/windows/winui/api/microsoft.ui.xaml.controls.splitview.paneopening).
+
 
 ## -xaml-syntax
 

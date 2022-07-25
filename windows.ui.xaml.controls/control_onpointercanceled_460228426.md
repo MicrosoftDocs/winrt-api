@@ -12,7 +12,7 @@ virtual protected void OnPointerCanceled(Windows.UI.Xaml.Input.PointerRoutedEven
 ## -description
 Called before the [PointerCanceled](../windows.ui.xaml/uielement_pointercanceled.md) event occurs.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Control.OnPointerCanceled](/windows/winui/api/microsoft.ui.xaml.controls.control.onpointercanceled).
+
 
 ## -parameters
 ### -param e

@@ -14,7 +14,7 @@ public UIElement IElementFactory.GetElement(ElementFactoryGetArgs args)
 
 Gets an [UIElement](uielement.md) object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.IElementFactory.GetElement](/windows/winui/api/microsoft.ui.xaml.ielementfactory.getelement).
+
 
 ## -parameters
 

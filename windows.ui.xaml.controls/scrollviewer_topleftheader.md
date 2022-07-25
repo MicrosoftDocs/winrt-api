@@ -12,7 +12,7 @@ public Windows.UI.Xaml.UIElement TopLeftHeader { get;  set; }
 ## -description
 Gets or sets the content of the top, left header.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ScrollViewer.TopLeftHeader](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.topleftheader).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public void CompositionStrokeDashArray.Append(Single value)
 
 Adds a new item to the collection.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.CompositionStrokeDashArray.Append](/windows/winui/api/microsoft.ui.composition.compositionstrokedasharray.append).
+
 
 ## -parameters
 ### -param value

@@ -12,7 +12,7 @@ public string Text { get;  set; }
 ## -description
 Gets or sets the text contents of the [Run](run.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Documents.Run.Text](/windows/winui/api/microsoft.ui.xaml.documents.run.text).
+
 
 ## -xaml-syntax
 ```xaml

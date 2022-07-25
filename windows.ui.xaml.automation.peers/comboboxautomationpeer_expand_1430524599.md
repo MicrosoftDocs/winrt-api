@@ -12,7 +12,7 @@ public void Expand()
 ## -description
 Displays all child nodes, controls, or content of the control.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Expand](/windows/winui/api/microsoft.ui.xaml.automation.peers.comboboxautomationpeer.expand).
+
 
 ## -remarks
 

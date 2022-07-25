@@ -12,7 +12,7 @@ public float ConstantAttenuation { get;  set; }
 ## -description
 The constant coefficient in the light's attenuation equation. Controls light intensity.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.PointLight.ConstantAttenuation](/windows/winui/api/microsoft.ui.composition.pointlight.constantattenuation).
+
 
 ## -property-value
 The constant coefficient in the light's attenuation equation. Controls light intensity. Range is from 0 to infinity.

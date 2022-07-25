@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty LandmarkTypeProperty { get; }
 
 Identifies the [AutomationProperties.LandmarkType](automationproperties_landmarktype.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LandmarkTypeProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.landmarktypeproperty).
+
 
 ## -property-value
 

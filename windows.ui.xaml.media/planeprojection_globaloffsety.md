@@ -12,7 +12,7 @@ public double GlobalOffsetY { get;  set; }
 ## -description
 Gets or sets the distance that the object is translated along the y-axis of the screen.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.PlaneProjection.GlobalOffsetY](/windows/winui/api/microsoft.ui.xaml.media.planeprojection.globaloffsety).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public void SetYearDecadeDisplayDimensions(System.Int32 columns, System.Int32 ro
 ## -description
 Sets the number of rows and columns to use in the Year and Decade display modes.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.CalendarView.SetYearDecadeDisplayDimensions](/windows/winui/api/microsoft.ui.xaml.controls.calendarview.setyeardecadedisplaydimensions).
+
 
 ## -parameters
 ### -param columns

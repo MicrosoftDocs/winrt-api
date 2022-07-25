@@ -12,7 +12,7 @@ public class RoutedEventArgs : Windows.UI.Xaml.IRoutedEventArgs
 ## -description
 Contains state information and event data associated with a routed event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.RoutedEventArgs](/windows/winui/api/microsoft.ui.xaml.routedeventargs).
+
 
 ## -remarks
 RoutedEventArgs is a common event data type used for base element events in UWP app using C++, C#, or Visual Basic. Generally RoutedEventArgs as the event data type indicates that the event with this event data is a *routed event*, although there are some exceptions. For more info on routed events and how to handle them, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview).

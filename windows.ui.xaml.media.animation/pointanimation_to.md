@@ -12,7 +12,7 @@ public Windows.Foundation.IReference<Windows.Foundation.Point> To { get;  set; }
 ## -description
 Gets or sets the animation's ending value.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.PointAnimation.To](/windows/winui/api/microsoft.ui.xaml.media.animation.pointanimation.to).
+
 
 ## -xaml-syntax
 ```xaml

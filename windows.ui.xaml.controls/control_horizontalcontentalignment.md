@@ -12,7 +12,7 @@ public Windows.UI.Xaml.HorizontalAlignment HorizontalContentAlignment { get;  se
 ## -description
 Gets or sets the horizontal alignment of the control's content.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.HorizontalContentAlignment](/windows/winui/api/microsoft.ui.xaml.controls.control.horizontalcontentalignment).
+
 
 ## -xaml-syntax
 ```xaml

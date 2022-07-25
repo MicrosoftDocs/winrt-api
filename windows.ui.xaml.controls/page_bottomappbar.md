@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.AppBar BottomAppBar { get;  set; }
 ## -description
 Gets a reference to an [AppBar](appbar.md) displayed at the bottom of the page, if any.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Page.BottomAppBar](/windows/winui/api/microsoft.ui.xaml.controls.page.bottomappbar).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.FlowDirection : int
 ## -description
 Defines constants that specify the content flow direction for text and UI elements.
 
-Equivalent WinUI enum: [FlowDirection](/windows/winui/api/microsoft.ui.xaml.flowdirection).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public string From { get;  set; }
 ## -description
 Gets or sets the name of the [VisualState](visualstate.md) to transition from.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.VisualTransition.From](/windows/winui/api/microsoft.ui.xaml.visualtransition.from).
+
 
 ## -xaml-syntax
 ```xaml

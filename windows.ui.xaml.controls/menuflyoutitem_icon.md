@@ -12,7 +12,7 @@ public IconElement Icon { get;  set; }
 ## -description
 Gets or sets the graphic content of the menu flyout item.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MenuFlyoutItem.Icon](/windows/winui/api/microsoft.ui.xaml.controls.menuflyoutitem.icon).
+
 
 ## -xaml-syntax
 ```xaml

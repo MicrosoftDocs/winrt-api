@@ -12,7 +12,7 @@ public void SetStylisticSet2(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet2](typography_stylisticset2.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet2](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset2).
+
 
 ## -parameters
 ### -param element

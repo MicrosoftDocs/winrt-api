@@ -12,7 +12,7 @@ public enum Windows.UI.Xaml.Controls.VirtualizationMode : int
 ## -description
 Defines constants that specify how [VirtualizingStackPanel](virtualizingstackpanel.md) manages item containers for its child items.
 
-Equivalent WinUI enum: [VirtualizationMode](/windows/winui/api/microsoft.ui.xaml.controls.virtualizationmode).
+
 
 ## -xaml-syntax
 ```xaml

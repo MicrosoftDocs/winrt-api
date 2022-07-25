@@ -13,7 +13,7 @@ public TextAlignment HorizontalTextAlignment { get;  set; }
 
 Gets or sets a value that indicates how text is aligned in the RichTextBlock.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.RichTextBlock.HorizontalTextAlignment](/windows/winui/api/microsoft.ui.xaml.controls.richtextblock.horizontaltextalignment).
+
 
 ## -xaml-syntax
 

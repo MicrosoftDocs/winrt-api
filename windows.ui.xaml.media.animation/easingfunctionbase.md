@@ -12,7 +12,7 @@ public class EasingFunctionBase : Windows.UI.Xaml.DependencyObject, Windows.UI.X
 ## -description
 Provides the base class for all the easing functions.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EasingFunctionBase](/windows/winui/api/microsoft.ui.xaml.media.animation.easingfunctionbase).
+
 
 ## -remarks
 EasingFunctionBase is not extensible. It provides base class support for the Windows Runtime easing function classes, for example [ExponentialEase](exponentialease.md). When you call [Ease](easingfunctionbase_ease_1478003980.md) on a Windows Runtime easing function class, you get the specific easing behavior of that easing function class. There may also be properties of the class other than [EasingMode](easingfunctionbase_easingmode.md) that modify the [Ease](easingfunctionbase_ease_1478003980.md) behavior.

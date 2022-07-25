@@ -12,7 +12,7 @@ public void SetStylisticSet4(Windows.UI.Xaml.DependencyObject element, System.Bo
 ## -description
 Sets the value of the [StylisticSet4](typography_stylisticset4.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet4](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset4).
+
 
 ## -parameters
 ### -param element

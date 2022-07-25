@@ -14,7 +14,7 @@ public DependencyProperty IsEditableProperty { get; }
 
 Identifies the IsEditable dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ComboBox.IsEditableProperty](/windows/winui/api/microsoft.ui.xaml.controls.combobox.iseditableproperty).
+
 
 ## -property-value
 

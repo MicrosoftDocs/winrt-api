@@ -12,7 +12,7 @@ public class RowDefinitionCollection : Windows.Foundation.Collections.IIterable<
 ## -description
 Provides access to an ordered, strongly typed collection of [RowDefinition](rowdefinition.md) objects.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RowDefinitionCollection](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinitioncollection).
+
 
 ## -xaml-syntax
 ```xaml

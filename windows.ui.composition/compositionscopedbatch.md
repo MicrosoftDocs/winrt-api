@@ -13,7 +13,7 @@ public class CompositionScopedBatch : Windows.UI.Composition.CompositionObject, 
 
 An explicitly created group of active animations or effects.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionScopedBatch](/windows/winui/api/microsoft.ui.composition.compositionscopedbatch).
+
 
 ## -remarks
 

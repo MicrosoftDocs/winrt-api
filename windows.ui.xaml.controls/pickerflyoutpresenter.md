@@ -12,7 +12,7 @@ public class PickerFlyoutPresenter : Windows.UI.Xaml.Controls.ContentControl, Wi
 ## -description
 Represents a custom picker. (Not recommended for Universal Windows Platform (UWP) app. See [Flyout](flyout.md).)
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.PickerFlyoutPresenter](/windows/winui/api/microsoft.ui.xaml.controls.pickerflyoutpresenter).
+
 
 ## -remarks
 

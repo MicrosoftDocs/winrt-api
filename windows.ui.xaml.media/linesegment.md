@@ -12,7 +12,7 @@ public class LineSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xaml.Me
 ## -description
 Represents a line drawn between two points, which can be part of a [PathFigure](pathfigure.md) within [Path](../windows.ui.xaml.shapes/path.md) data.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.LineSegment](/windows/winui/api/microsoft.ui.xaml.media.linesegment).
+
 
 ## -xaml-syntax
 ```xaml

@@ -12,7 +12,7 @@ public Windows.UI.Text.FormatEffect Italic { get;  set; }
 ## -description
 Gets or sets whether characters are in italics.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.Italic](/windows/winui/api/microsoft.ui.text.itextcharacterformat.italic).
+
 
 ## -property-value
 The italicized state.

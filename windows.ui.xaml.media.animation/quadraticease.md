@@ -12,7 +12,7 @@ public class QuadraticEase : Windows.UI.Xaml.Media.Animation.EasingFunctionBase,
 ## -description
 Represents an easing function that creates an animation that accelerates and/or decelerates using the formula *f* (*t*) = *t*<sup>2</sup>
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.QuadraticEase](/windows/winui/api/microsoft.ui.xaml.media.animation.quadraticease).
+
 
 ## -xaml-syntax
 ```xaml

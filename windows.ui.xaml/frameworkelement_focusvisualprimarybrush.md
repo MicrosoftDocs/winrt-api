@@ -13,7 +13,7 @@ public Windows.UI.Xaml.Media.Brush FocusVisualPrimaryBrush { get;  set; }
 
 Gets or sets the brush used to draw the outer border of a `HighVisibility` or `Reveal` focus visual for a [FrameworkElement](frameworkelement.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.FocusVisualPrimaryBrush](/windows/winui/api/microsoft.ui.xaml.frameworkelement.focusvisualprimarybrush).
+
 
 ## -property-value
 

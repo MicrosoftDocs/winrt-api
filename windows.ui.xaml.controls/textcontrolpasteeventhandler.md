@@ -10,7 +10,7 @@ public delegate void TextControlPasteEventHandler(System.Object sender, Windows.
 ## -description
 Represents the method that will handle a **Paste** event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.TextControlPasteEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.textcontrolpasteeventhandler).
+
 
 ## -parameters
 ### -param sender

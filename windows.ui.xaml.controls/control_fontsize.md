@@ -13,7 +13,7 @@ public double FontSize { get;  set; }
 
 Gets or sets the size of the text in this control.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Control.FontSize](/windows/winui/api/microsoft.ui.xaml.controls.control.fontsize).
+
 
 ## -xaml-syntax
 

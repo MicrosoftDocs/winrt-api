@@ -12,7 +12,7 @@ public object GetAlignVerticalCenterWith(Windows.UI.Xaml.UIElement element)
 ## -description
 Gets the value of the [RelativePanel.AlignVerticalCenterWith](relativepanel_alignverticalcenterwith.md) XAML attached property for the target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.GetAlignVerticalCenterWith](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.getalignverticalcenterwith).
+
 
 ## -parameters
 ### -param element

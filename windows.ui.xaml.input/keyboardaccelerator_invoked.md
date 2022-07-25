@@ -12,7 +12,7 @@ public event TypedEventHandler Invoked<KeyboardAccelerator, KeyboardAcceleratorI
 ## -description
 Occurs when the key combination for this [KeyboardAccelerator](keyboardaccelerator.md) is pressed.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.KeyboardAccelerator.Invoked](/windows/winui/api/microsoft.ui.xaml.input.keyboardaccelerator.invoked).
+
 
 ## -remarks
 Handle this event to override the default [KeyboardAccelerator](keyboardaccelerator.md) behavior.

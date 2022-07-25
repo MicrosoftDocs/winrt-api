@@ -13,7 +13,7 @@ public class CompositionViewBox : CompositionObject, CompositionObject
 
 Represents a container that maps shape visual tree coordinates onto the visual.
 
-Equivalent WinUI class: [Microsoft.UI.Composition.CompositionViewBox](/windows/winui/api/microsoft.ui.composition.compositionviewbox).
+
 
 ## -remarks
 

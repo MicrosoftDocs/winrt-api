@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FlowDirection FlowDirection { get;  set; }
 ## -description
 Gets or sets the direction in which text and other UI elements flow within any parent element that controls their layout. This property can be set to either **LeftToRight** or **RightToLeft**. Setting FlowDirection to **RightToLeft** on any element sets the alignment to the right, the reading order to right-to-left and the layout of the control to flow from right to left.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.FlowDirection](/windows/winui/api/microsoft.ui.xaml.frameworkelement.flowdirection).
+
 
 ## -xaml-syntax
 ```xaml

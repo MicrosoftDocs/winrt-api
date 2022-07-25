@@ -12,7 +12,7 @@ public void SetAlignTopWithPanel(Windows.UI.Xaml.UIElement element, System.Boole
 ## -description
 Sets the value of the [RelativePanel.AlignTopWithPanel](relativepanel_aligntopwithpanel.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignTopWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setaligntopwithpanel).
+
 
 ## -parameters
 ### -param element

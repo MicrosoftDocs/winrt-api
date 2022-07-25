@@ -12,7 +12,7 @@ public object Content { get;  set; }
 ## -description
 Gets or sets the content of a [ContentControl](contentcontrol.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentControl.Content](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.content).
+
 
 ## -xaml-syntax
 ```xaml

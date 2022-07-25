@@ -12,7 +12,7 @@ public bool IsEqual(Windows.UI.Text.ITextRange range)
 ## -description
 Determines whether this range has the same character positions and story as those of a specified range.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.IsEqual](/windows/winui/api/microsoft.ui.text.itextrange.isequal).
+
 
 ## -parameters
 ### -param range

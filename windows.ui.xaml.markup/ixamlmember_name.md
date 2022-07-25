@@ -12,7 +12,7 @@ public string Name { get; }
 ## -description
 Gets the [XamlName name string](/dotnet/framework/xaml-services/xamlname-grammar) that declares the XAML member.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Markup.IXamlMember.Name](/windows/winui/api/microsoft.ui.xaml.markup.ixamlmember.name).
+
 
 ## -property-value
 The [XamlName name string](/dotnet/framework/xaml-services/xamlname-grammar) that declares the XAML member.

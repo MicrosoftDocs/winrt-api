@@ -13,7 +13,7 @@ public BounceScalarNaturalMotionAnimation Compositor.CreateBounceScalarAnimation
 
 Creates an instance of [BounceScalarNaturalMotionAnimation](bouncescalarnaturalmotionanimation.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateBounceScalarAnimation](/windows/winui/api/microsoft.ui.composition.compositor.createbouncescalaranimation).
+
 
 ## -returns
 

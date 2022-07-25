@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DataTemplate ContentTemplate { get;  set; }
 ## -description
 Gets or sets the data template that is used to display the content of the [ContentControl](contentcontrol.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ContentControl.ContentTemplate](/windows/winui/api/microsoft.ui.xaml.controls.contentcontrol.contenttemplate).
+
 
 ## -xaml-syntax
 ```xaml

@@ -13,7 +13,7 @@ public event Windows.UI.Xaml.Input.DoubleTappedEventHandler DoubleTapped
 
 Occurs when an otherwise unhandled **DoubleTap** interaction occurs over the hit test area of this element.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.UIElement.DoubleTapped](/windows/winui/api/microsoft.ui.xaml.uielement.doubletapped).
+
 
 ## -xaml-syntax
 

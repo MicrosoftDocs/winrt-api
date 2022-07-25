@@ -12,7 +12,7 @@ public delegate void ContextMenuOpeningEventHandler(System.Object sender, Window
 
 Represents the method that will handle the **ContextMenuOpening** event that exists on several text-related UI elements.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.ContextMenuOpeningEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.contextmenuopeningeventhandler).
+
 
 ## -parameters
 

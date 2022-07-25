@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionPropertySet CreatePropertySet()
 ## -description
 Creates an instance of [CompositionPropertySet](compositionpropertyset.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreatePropertySet](/windows/winui/api/microsoft.ui.composition.compositor.createpropertyset).
+
 
 ## -returns
 Returns the created [CompositionPropertySet](compositionpropertyset.md) object.

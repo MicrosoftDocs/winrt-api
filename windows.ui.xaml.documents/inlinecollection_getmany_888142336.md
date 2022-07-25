@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Documents.Inline[]
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.InlineCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.documents.inlinecollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

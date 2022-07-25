@@ -14,7 +14,7 @@ public event TypedEventHandler CanExecuteRequested<XamlUICommand, CanExecuteRequ
 
 Occurs when a [CanExecute](xamluicommand_canexecute_508446764.md) call is made.
 
-Equivalent WinUI event: [Microsoft.UI.Xaml.Input.XamlUICommand.CanExecuteRequested](/windows/winui/api/microsoft.ui.xaml.input.xamluicommand.canexecuterequested).
+
 
 ## -remarks
 

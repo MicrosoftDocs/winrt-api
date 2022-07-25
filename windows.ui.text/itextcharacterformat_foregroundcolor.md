@@ -12,7 +12,7 @@ public Windows.UI.Color ForegroundColor { get;  set; }
 ## -description
 Gets or sets the foreground, or text, color.
 
-Equivalent WinUI property: [Microsoft.UI.Text.ITextCharacterFormat.ForegroundColor](/windows/winui/api/microsoft.ui.text.itextcharacterformat.foregroundcolor).
+
 
 ## -property-value
 The foreground color.

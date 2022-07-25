@@ -14,7 +14,7 @@ public uint LevelCount { get; }
 
 Gets the number of texture levels in the mipmap.
 
-Equivalent WinUI property: [Microsoft.UI.Composition.CompositionMipmapSurface.LevelCount](/windows/winui/api/microsoft.ui.composition.compositionmipmapsurface.levelcount).
+
 
 ## -property-value
 

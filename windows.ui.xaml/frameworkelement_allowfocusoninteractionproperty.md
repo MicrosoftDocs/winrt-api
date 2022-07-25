@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get;
 ## -description
 Identifies for the [AllowFocusOnInteraction](frameworkelement_allowfocusoninteraction.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.FrameworkElement.AllowFocusOnInteractionProperty](/windows/winui/api/microsoft.ui.xaml.frameworkelement.allowfocusoninteractionproperty).
+
 
 ## -property-value
 The identifier for the [AllowFocusOnInteraction](frameworkelement_allowfocusoninteraction.md) dependency property.

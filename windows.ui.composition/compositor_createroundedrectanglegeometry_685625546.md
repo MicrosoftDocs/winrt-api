@@ -13,7 +13,7 @@ public CompositionRoundedRectangleGeometry Compositor.CreateRoundedRectangleGeom
 
 Creates an instance of [CompositionRoundedRectangleGeometry](compositionroundedrectanglegeometry.md).
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateRoundedRectangleGeometry](/windows/winui/api/microsoft.ui.composition.compositor.createroundedrectanglegeometry).
+
 
 ## -returns
 

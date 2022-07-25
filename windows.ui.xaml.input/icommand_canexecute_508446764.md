@@ -13,7 +13,7 @@ public bool CanExecute(System.Object parameter)
 
 Retrieves whether the command can execute in its current state.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Input.ICommand.CanExecute](/windows/winui/api/microsoft.ui.xaml.input.icommand.canexecute).
+
 
 ## -parameters
 

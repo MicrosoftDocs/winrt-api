@@ -12,8 +12,6 @@ public string Path { get; }
 ## -description
 Gets the path value held by this [PropertyPath](propertypath.md).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.PropertyPath.Path](/windows/winui/api/microsoft.ui.xaml.propertypath.path).
-
 ## -property-value
 The path value held by this [PropertyPath](propertypath.md).
 

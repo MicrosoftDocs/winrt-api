@@ -12,7 +12,7 @@ public void ReplaceAll(Windows.UI.Xaml.Media.Geometry[] items)
 ## -description
 Initially clears the collection, then inserts the provided array as new items.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.ReplaceAll](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.replaceall).
+
 
 ## -parameters
 ### -param items

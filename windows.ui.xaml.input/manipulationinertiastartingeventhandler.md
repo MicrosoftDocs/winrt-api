@@ -10,7 +10,7 @@ public delegate void ManipulationInertiaStartingEventHandler(System.Object sende
 ## -description
 Represents the method that will handle the [ManipulationInertiaStarting](../windows.ui.xaml/uielement_manipulationinertiastarting.md) event.
 
-Equivalent WinUI delegate: [Microsoft.UI.Xaml.Input.ManipulationInertiaStartingEventHandler](/windows/winui/api/microsoft.ui.xaml.input.manipulationinertiastartingeventhandler).
+
 
 ## -parameters
 ### -param sender

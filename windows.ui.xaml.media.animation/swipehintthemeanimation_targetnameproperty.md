@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty TargetNameProperty { get; }
 ## -description
 Identifies the [TargetName](swipehintthemeanimation_targetname.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.SwipeHintThemeAnimation.TargetNameProperty](/windows/winui/api/microsoft.ui.xaml.media.animation.swipehintthemeanimation.targetnameproperty).
+
 
 ## -property-value
 The identifier for the [TargetName](swipehintthemeanimation_targetname.md) dependency property.

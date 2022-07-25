@@ -13,7 +13,7 @@ public class Pointer : Windows.UI.Xaml.Input.IPointer
 
 Provides basic properties for the input pointer associated with a single mouse, pen/stylus, or touch contact.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.Pointer](/windows/winui/api/microsoft.ui.xaml.input.pointer).
+
 
 ## -remarks
 

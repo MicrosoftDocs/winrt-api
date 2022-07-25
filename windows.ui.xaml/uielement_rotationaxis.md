@@ -13,7 +13,7 @@ public Vector3 RotationAxis { get;  set; }
 ## -description
 Gets or sets the axis to rotate the element around.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.UIElement.RotationAxis](/windows/winui/api/microsoft.ui.xaml.uielement.rotationaxis).
+
 
 ## -property-value
 

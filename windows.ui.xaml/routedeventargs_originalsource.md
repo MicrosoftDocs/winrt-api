@@ -12,7 +12,7 @@ public object OriginalSource { get; }
 ## -description
 Gets a reference to the object that raised the event. This is often a template part of a control rather than an element that was declared in your app UI.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.RoutedEventArgs.OriginalSource](/windows/winui/api/microsoft.ui.xaml.routedeventargs.originalsource).
+
 
 ## -property-value
 The object that raised the event.

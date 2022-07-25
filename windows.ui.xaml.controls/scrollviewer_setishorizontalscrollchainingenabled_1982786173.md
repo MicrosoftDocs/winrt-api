@@ -12,7 +12,7 @@ public void SetIsHorizontalScrollChainingEnabled(Windows.UI.Xaml.DependencyObjec
 ## -description
 Sets the value of the [IsHorizontalScrollChainingEnabled](scrollviewer_ishorizontalscrollchainingenabled.md) dependency property / `ScrollViewer.IsHorizontalScrollChainingEnabled` XAML attached property on a specified element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.ScrollViewer.SetIsHorizontalScrollChainingEnabled](/windows/winui/api/microsoft.ui.xaml.controls.scrollviewer.setishorizontalscrollchainingenabled).
+
 
 ## -parameters
 ### -param element

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Controls.CommandBarLabelPosition LabelPosition { get;  se
 ## -description
 Gets or sets a value that indicates the placement and visibility of the button's label.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.AppBarButton.LabelPosition](/windows/winui/api/microsoft.ui.xaml.controls.appbarbutton.labelposition).
+
 
 ## -xaml-syntax
 ```xaml

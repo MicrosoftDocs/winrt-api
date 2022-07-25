@@ -12,7 +12,7 @@ public class MenuFlyoutPresenterAutomationPeer : Windows.UI.Xaml.Automation.Peer
 ## -description
 Exposes [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) types to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.MenuFlyoutPresenterAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.menuflyoutpresenterautomationpeer).
+
 
 ## -remarks
 The Windows Runtime  [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) class creates a new MenuFlyoutPresenterAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from MenuFlyoutPresenterAutomationPeer if you are deriving a custom class from [MenuFlyoutPresenter](../windows.ui.xaml.controls/menuflyoutpresenter.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.

@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.IBindableVectorView GetView()
 ## -description
 Returns an immutable view of the vector.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.GetView](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.getview).
+
 
 ## -returns
 The view of the vector.

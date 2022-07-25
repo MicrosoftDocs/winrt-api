@@ -12,7 +12,7 @@ public class FlipViewItemDataAutomationPeer : Windows.UI.Xaml.Automation.Peers.S
 ## -description
 Exposes the data content of a [FlipViewItem](../windows.ui.xaml.controls/flipviewitem.md) to Microsoft UI Automation.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Automation.Peers.FlipViewItemDataAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.flipviewitemdataautomationpeer).
+
 
 ## -remarks
  FlipViewItemDataAutomationPeer is generated from [FlipViewAutomationPeer](flipviewautomationpeer.md) logic, not an associated control class.

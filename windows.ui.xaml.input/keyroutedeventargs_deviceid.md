@@ -16,7 +16,7 @@ Use DeviceId to differentiate between all connected devices that can generate ke
 
 > DeviceId is not supported for all input devices.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Input.KeyRoutedEventArgs.DeviceId](/windows/winui/api/microsoft.ui.xaml.input.keyroutedeventargs.deviceid).
+
 
 ## -property-value
 A unique identifier for the input device associated with the key event, or an empty string for an unsupported device. The same device can be assigned a different ID each time it is connected.

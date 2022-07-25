@@ -12,7 +12,7 @@ public void SetAlignVerticalCenterWithPanel(Windows.UI.Xaml.UIElement element, S
 ## -description
 Sets the value of the [RelativePanel.AlignVerticalCenterWithPanel](relativepanel_alignverticalcenterwithpanel.md) XAML attached property for a target element.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.RelativePanel.SetAlignVerticalCenterWithPanel](/windows/winui/api/microsoft.ui.xaml.controls.relativepanel.setalignverticalcenterwithpanel).
+
 
 ## -parameters
 ### -param element

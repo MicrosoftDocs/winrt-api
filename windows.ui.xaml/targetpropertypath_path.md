@@ -12,7 +12,7 @@ public Windows.UI.Xaml.PropertyPath Path { get;  set; }
 ## -description
 Gets or sets the path to the property on the target element.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.TargetPropertyPath.Path](/windows/winui/api/microsoft.ui.xaml.targetpropertypath.path).
+
 
 ## -property-value
 The path to the property on the target element.

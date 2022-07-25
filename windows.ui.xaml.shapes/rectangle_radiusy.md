@@ -12,7 +12,7 @@ public double RadiusY { get;  set; }
 ## -description
 Gets or sets the y-axis radius of the ellipse that is used to round the corners of the rectangle.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Shapes.Rectangle.RadiusY](/windows/winui/api/microsoft.ui.xaml.shapes.rectangle.radiusy).
+
 
 ## -xaml-syntax
 ```xaml

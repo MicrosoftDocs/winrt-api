@@ -13,7 +13,7 @@ public Windows.UI.Color OrangeRed { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFF4500.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.OrangeRed](/windows/winui/api/microsoft.ui.colors.orangered).
+
 
 ## -property-value
 

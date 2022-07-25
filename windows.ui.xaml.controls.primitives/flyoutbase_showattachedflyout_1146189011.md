@@ -12,7 +12,7 @@ public void ShowAttachedFlyout(Windows.UI.Xaml.FrameworkElement flyoutOwner)
 ## -description
 Shows the flyout associated with the specified element, if any.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAttachedFlyout](/windows/winui/api/microsoft.ui.xaml.controls.primitives.flyoutbase.showattachedflyout).
+
 
 ## -parameters
 ### -param flyoutOwner

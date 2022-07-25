@@ -12,7 +12,7 @@ virtual protected void OnRun(Windows.ApplicationModel.Background.IBackgroundTask
 ## -description
 Performs the work of the background task. The system calls this method when the associated background task has been triggered.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.Imaging.XamlRenderingBackgroundTask.OnRun](/windows/winui/api/microsoft.ui.xaml.media.imaging.xamlrenderingbackgroundtask.onrun).
+
 
 ## -parameters
 ### -param taskInstance

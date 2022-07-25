@@ -14,7 +14,7 @@ public class FocusManagerGotFocusEventArgs
 
 Provides data for the [GotFocus](focusmanager_gotfocus.md) event.
 
-Equivalent WinUI class: [Microsoft.UI.Xaml.Input.FocusManagerGotFocusEventArgs](/windows/winui/api/microsoft.ui.xaml.input.focusmanagergotfocuseventargs).
+
 
 ## -remarks
 

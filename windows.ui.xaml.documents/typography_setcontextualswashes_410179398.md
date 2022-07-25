@@ -12,7 +12,7 @@ public void SetContextualSwashes(Windows.UI.Xaml.DependencyObject element, Syste
 ## -description
 Sets the value of the [ContextualSwashes](typography_contextualswashes.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetContextualSwashes](/windows/winui/api/microsoft.ui.xaml.documents.typography.setcontextualswashes).
+
 
 ## -parameters
 ### -param element

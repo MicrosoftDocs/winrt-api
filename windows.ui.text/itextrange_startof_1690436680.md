@@ -12,7 +12,7 @@ public int StartOf(Windows.UI.Text.TextRangeUnit unit, System.Boolean extend)
 ## -description
 Moves or extends the text range to the start of the nearest specified text unit. The text range is moved or extended backward in the document.
 
-Equivalent WinUI method: [Microsoft.UI.Text.ITextRange.StartOf](/windows/winui/api/microsoft.ui.text.itextrange.startof).
+
 
 ## -parameters
 ### -param unit

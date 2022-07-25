@@ -13,7 +13,7 @@ public Windows.UI.Xaml.DependencyProperty LevelProperty { get; }
 
 Identifies the [AutomationProperties.Level](automationproperties_level.md) XAML attached property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Automation.AutomationProperties.LevelProperty](/windows/winui/api/microsoft.ui.xaml.automation.automationproperties.levelproperty).
+
 
 ## -property-value
 

@@ -12,7 +12,7 @@ public bool GetKerning(Windows.UI.Xaml.DependencyObject element)
 ## -description
 Returns the value of the [Kerning](typography_kerning.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.GetKerning](/windows/winui/api/microsoft.ui.xaml.documents.typography.getkerning).
+
 
 ## -parameters
 ### -param element

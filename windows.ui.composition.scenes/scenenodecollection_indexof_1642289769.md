@@ -14,7 +14,7 @@ public bool SceneNodeCollection.IndexOf(SceneNode value, UInt32 index)
 
 Retrieves the index of the specified item.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Scenes.SceneNodeCollection.IndexOf](/windows/winui/api/microsoft.ui.composition.scenes.scenenodecollection.indexof).
+
 
 ## -parameters
 ### -param value

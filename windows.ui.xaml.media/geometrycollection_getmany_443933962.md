@@ -12,7 +12,7 @@ public uint GetMany(System.UInt32 startIndex, Windows.UI.Xaml.Media.Geometry[] i
 ## -description
 Retrieves multiple elements in a single pass through the iterator.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.GeometryCollection.GetMany](/windows/winui/api/microsoft.ui.xaml.media.geometrycollection.getmany).
+
 
 ## -parameters
 ### -param startIndex

@@ -12,7 +12,7 @@ public void InsertAt(System.UInt32 index, System.Object value)
 ## -description
 Inserts an item into a vector at a specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Interop.IBindableVector.InsertAt](/windows/winui/api/microsoft.ui.xaml.interop.ibindablevector.insertat).
+
 
 ## -parameters
 ### -param index

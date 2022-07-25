@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Media.Animation.TimelineCollection Children { get; }
 ## -description
 Gets the collection of child [Timeline](timeline.md) objects.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Media.Animation.Storyboard.Children](/windows/winui/api/microsoft.ui.xaml.media.animation.storyboard.children).
+
 
 ## -xaml-syntax
 ```xaml

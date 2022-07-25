@@ -13,7 +13,7 @@ public Windows.UI.Color Cornsilk { get; }
 
 Gets the system-defined color that has an ARGB value of #FFFFF8DC.
 
-Equivalent WinUI property: [Microsoft.UI.Colors.Cornsilk](/windows/winui/api/microsoft.ui.colors.cornsilk).
+
 
 ## -property-value
 

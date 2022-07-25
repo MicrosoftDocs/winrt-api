@@ -12,7 +12,7 @@ public Windows.UI.Composition.CompositionSurfaceBrush CreateSurfaceBrush(Windows
 ## -description
 Creates an instance of [CompositionSurfaceBrush](compositionsurfacebrush.md) using the specified composition surface.
 
-Equivalent WinUI method: [Microsoft.UI.Composition.Compositor.CreateSurfaceBrush](/windows/winui/api/microsoft.ui.composition.compositor.createsurfacebrush).
+
 
 ## -parameters
 ### -param surface

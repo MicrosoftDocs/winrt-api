@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyProperty MonthFormatProperty { get; }
 ## -description
 Gets the identifier for the [MonthFormat](datepicker_monthformat.md) dependency property.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.MonthFormatProperty](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.monthformatproperty).
+
 
 ## -property-value
 The identifier for the [MonthFormat](datepicker_monthformat.md) dependency property.

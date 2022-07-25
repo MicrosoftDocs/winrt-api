@@ -12,7 +12,7 @@ public void SetPropertyFromDateTime(System.Object dependencyObject, Windows.UI.X
 ## -description
 Sets a [DependencyProperty](../windows.ui.xaml/dependencyproperty.md) from a [DateTime](../windows.foundation/datetime.md) value.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Markup.XamlBindingHelper.SetPropertyFromDateTime](/windows/winui/api/microsoft.ui.xaml.markup.xamlbindinghelper.setpropertyfromdatetime).
+
 
 ## -parameters
 ### -param dependencyObject

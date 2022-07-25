@@ -12,7 +12,7 @@ public Windows.UI.Xaml.DependencyObject ContainerFromIndex(System.Int32 index)
 ## -description
 Returns the container for the item at the specified index within the [ItemCollection](itemcollection.md).
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Controls.IItemContainerMapping.ContainerFromIndex](/windows/winui/api/microsoft.ui.xaml.controls.iitemcontainermapping.containerfromindex).
+
 
 ## -parameters
 ### -param index

@@ -12,7 +12,6 @@ public Windows.UI.Xaml.Media.Geometry Data { get;  set; }
 ## -description
 Gets or sets a [Geometry](../windows.ui.xaml.media/geometry.md) that specifies the shape to be drawn. In XAML. this can also be set using a string that describes [Move and draw commands syntax](/windows/uwp/xaml-platform/move-draw-commands-syntax).
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.PathIcon.Data](/windows/winui/api/microsoft.ui.xaml.controls.pathicon.data).
 
 ## -xaml-syntax
 ```xaml

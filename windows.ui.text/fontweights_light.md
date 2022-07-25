@@ -13,7 +13,7 @@ public Windows.UI.Text.FontWeight Light { get; }
 
 Specifies a font weight value of 300.
 
-Equivalent WinUI property: [Microsoft.UI.Text.FontWeights.Light](/windows/winui/api/microsoft.ui.text.fontweights.light).
+
 
 ## -property-value
 

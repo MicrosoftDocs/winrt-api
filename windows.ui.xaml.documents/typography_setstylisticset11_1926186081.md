@@ -12,7 +12,7 @@ public void SetStylisticSet11(Windows.UI.Xaml.DependencyObject element, System.B
 ## -description
 Sets the value of the [StylisticSet11](typography_stylisticset11.md) attached property for a specified dependency object.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Documents.Typography.SetStylisticSet11](/windows/winui/api/microsoft.ui.xaml.documents.typography.setstylisticset11).
+
 
 ## -parameters
 ### -param element

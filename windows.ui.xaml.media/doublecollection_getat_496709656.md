@@ -12,7 +12,7 @@ public double GetAt(System.UInt32 index)
 ## -description
 Returns the item located at the specified index.
 
-Equivalent WinUI method: [Microsoft.UI.Xaml.Media.DoubleCollection.GetAt](/windows/winui/api/microsoft.ui.xaml.media.doublecollection.getat).
+
 
 ## -parameters
 ### -param index

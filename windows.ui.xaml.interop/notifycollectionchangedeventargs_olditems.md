@@ -12,7 +12,7 @@ public Windows.UI.Xaml.Interop.IBindableVector OldItems { get; }
 ## -description
 Gets the item affected by a **Replace** or **Remove** action.
 
-Equivalent WinUI property: [Microsoft.UI.Xaml.Interop.NotifyCollectionChangedEventArgs.OldItems](/windows/winui/api/microsoft.ui.xaml.interop.notifycollectionchangedeventargs.olditems).
+
 
 ## -property-value
 The bindable vector of items affected by a **Replace** or **Remove** action.
