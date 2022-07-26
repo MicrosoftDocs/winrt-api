@@ -13,6 +13,8 @@ public enum XamlPropertyIndex : int
 ## -description
 Enum that lists all the supported properties in [XamlDirect](windows_ui_xaml_core_direct.md).
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Core.Direct.XamlPropertyIndex](/windows/winui/api/microsoft.ui.xaml.core.direct.xamlpropertyindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field XamlUICommand_Label:2352
 The _Label_ property for the [XamlUICommand](../windows.ui.xaml.input/xamluicommand.md) type.

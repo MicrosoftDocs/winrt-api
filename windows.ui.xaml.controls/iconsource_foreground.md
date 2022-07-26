@@ -13,6 +13,8 @@ public Brush Foreground { get;  set; }
 
 Gets or sets a brush that describes the foreground color.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.IconSource.Foreground](/windows/winui/api/microsoft.ui.xaml.controls.iconsource.foreground) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 ```xaml
 <iconSource Foreground="{StaticResource resourceName}"/>

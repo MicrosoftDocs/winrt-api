@@ -13,6 +13,8 @@ public enum RefreshPullDirection : int
 
 Defines constants that specify the direction to pull a [RefreshContainer](refreshcontainer.md) to initiate a refresh.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RefreshPullDirection](/windows/winui/api/microsoft.ui.xaml.controls.refreshpulldirection) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field TopToBottom:1
 

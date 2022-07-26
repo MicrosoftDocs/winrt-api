@@ -13,6 +13,8 @@ public XamlDirect XamlDirect.GetDefault()
 ## -description
 Returns the current [XamlDirect](xamldirect.md) instance. 
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Core.Direct.XamlDirect.GetDefault](/windows/winui/api/microsoft.ui.xaml.core.direct.xamldirect.getdefault) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -returns
 [XamlDirect](xamldirect.md)
 Returns the current [XamlDirect](xamldirect.md) instance. 

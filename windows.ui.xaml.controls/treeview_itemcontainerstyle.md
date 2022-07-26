@@ -14,6 +14,8 @@ public Style ItemContainerStyle { get;  set; }
 
 Gets or sets the style that is used when rendering the item containers.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeView.ItemContainerStyle](/windows/winui/api/microsoft.ui.xaml.controls.treeview.itemcontainerstyle) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

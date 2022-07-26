@@ -14,6 +14,8 @@ public ExpandCollapseState ExpandCollapseState { get; }
 
 Gets the state, expanded or collapsed, of the control.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitButtonAutomationPeer.ExpandCollapseState](/windows/winui/api/microsoft.ui.xaml.controls.splitbuttonautomationpeer.expandcollapsestate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 A value of the enumeration.

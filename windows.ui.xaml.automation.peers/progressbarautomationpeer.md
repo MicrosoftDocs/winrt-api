@@ -12,6 +12,8 @@ public class ProgressBarAutomationPeer : Windows.UI.Xaml.Automation.Peers.RangeB
 ## -description
 Exposes [ProgressBar](../windows.ui.xaml.controls/progressbar.md) types to Microsoft UI Automation.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ProgressBarAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.progressbarautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 The Windows Runtime  [ProgressBar](../windows.ui.xaml.controls/progressbar.md) class creates a new ProgressBarAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. Derive your automation peer from ProgressBarAutomationPeer if you are deriving a custom class from [ProgressBar](../windows.ui.xaml.controls/progressbar.md) and want to add automation support for additional features that you enabled in your custom class. Then override [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) so that it returns your custom peer.
 

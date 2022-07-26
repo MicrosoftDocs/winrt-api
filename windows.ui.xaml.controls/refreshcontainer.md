@@ -13,6 +13,8 @@ public class RefreshContainer : ContentControl, ContentControl
 
 Represents a container control that provides a [RefreshVisualizer](refreshvisualizer.md) and pull-to-refresh functionality for scrollable content.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RefreshContainer](/windows/winui/api/microsoft.ui.xaml.controls.refreshcontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

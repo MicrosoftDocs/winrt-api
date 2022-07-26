@@ -13,6 +13,8 @@ public double MaxHorizontalShiftRatio { get;  set; }
 
 Clamps the horizontal parallax ratio to the specified percentage of the source scroll velocity.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatio](/windows/winui/api/microsoft.ui.xaml.controls.parallaxview.maxhorizontalshiftratio) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

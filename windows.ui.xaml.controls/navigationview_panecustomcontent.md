@@ -14,6 +14,8 @@ public UIElement PaneCustomContent { get;  set; }
 
 Gets or sets a UI element that is shown in the NavigationView pane.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent](/windows/winui/api/microsoft.ui.xaml.controls.navigationview.panecustomcontent) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The element that is shown in the NavigationView pane.

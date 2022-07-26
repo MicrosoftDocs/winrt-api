@@ -14,6 +14,8 @@ public NavigationTransitionInfo RecommendedNavigationTransitionInfo { get; }
 
 Gets the navigation transition recommended for the direction of the navigation.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationViewSelectionChangedEventArgs.RecommendedNavigationTransitionInfo](/windows/winui/api/microsoft.ui.xaml.controls.navigationviewselectionchangedeventargs.recommendednavigationtransitioninfo) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The navigation transition recommended for the direction of the navigation.

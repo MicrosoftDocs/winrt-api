@@ -13,6 +13,8 @@ public bool IsHexInputVisible { get;  set; }
 
 Gets or sets a value that indicates whether the text input box for a HEX color value is shown.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColorPicker.IsHexInputVisible](/windows/winui/api/microsoft.ui.xaml.controls.colorpicker.ishexinputvisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

@@ -14,6 +14,8 @@ public DependencyProperty SingleSelectionFollowsFocusProperty { get; }
 
 Identifies the SingleSelectionFollowsFocus dependency property.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings.SingleSelectionFollowsFocusProperty](/windows/winui/api/microsoft.ui.xaml.controls.navigationviewtemplatesettings.singleselectionfollowsfocusproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The identifier for the SingleSelectionFollowsFocus dependency property.

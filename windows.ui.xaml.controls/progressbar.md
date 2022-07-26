@@ -12,6 +12,8 @@ public class ProgressBar : Windows.UI.Xaml.Controls.Primitives.RangeBase, Window
 ## -description
 Represents a control that indicates the progress of an operation, where the typical visual appearance is a bar that animates a filled area as progress continues.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ProgressBar](/windows/winui/api/microsoft.ui.xaml.controls.progressbar) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 ```xaml
 <ProgressBar .../>

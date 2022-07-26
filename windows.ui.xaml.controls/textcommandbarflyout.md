@@ -14,6 +14,8 @@ public class TextCommandBarFlyout : CommandBarFlyout, CommandBarFlyout
 
 Represents a specialized command bar flyout that contains commands for editing text.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TextCommandBarFlyout](/windows/winui/api/microsoft.ui.xaml.controls.textcommandbarflyout) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

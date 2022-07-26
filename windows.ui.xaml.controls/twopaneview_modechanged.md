@@ -14,6 +14,8 @@ public event TypedEventHandler ModeChanged<TwoPaneView,  object>
 
 Occurs when the Mode of the TwoPaneView has changed.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TwoPaneView.ModeChanged](/windows/winui/api/microsoft.ui.xaml.controls.twopaneview.modechanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

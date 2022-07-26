@@ -13,6 +13,8 @@ public class SwipeItems : DependencyObject, DependencyObject, IIterable<SwipeIte
 
 Represents a collection of [SwipeItem](swipeitem.md) objects.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwipeItems](/windows/winui/api/microsoft.ui.xaml.controls.swipeitems) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

@@ -14,6 +14,8 @@ public enum TwoPaneViewPriority : int
 
 Defines constants that specify which pane has priority in a TwoPaneView.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TwoPaneViewPriority](/windows/winui/api/microsoft.ui.xaml.controls.twopaneviewpriority) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field Pane2:1
 

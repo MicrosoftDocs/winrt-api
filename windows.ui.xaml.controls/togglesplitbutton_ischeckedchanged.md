@@ -14,6 +14,8 @@ public event TypedEventHandler IsCheckedChanged<ToggleSplitButton, ToggleSplitBu
 
 Occurs when the value of the IsChecked property is changed.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged](/windows/winui/api/microsoft.ui.xaml.controls.togglesplitbutton.ischeckedchanged) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

@@ -16,6 +16,8 @@ public bool AlwaysUseFallback { get;  set; }
 
 Gets or sets a value that specifies whether the brush is forced to the solid fallback color.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.RevealBrush.AlwaysUseFallback](/windows/winui/api/microsoft.ui.xaml.media.revealbrush.alwaysusefallback) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 **true** to always replace the reveal effect with the solid fallback color. Otherwise, **false**. The default is **false**.

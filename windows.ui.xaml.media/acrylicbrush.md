@@ -13,6 +13,8 @@ public class AcrylicBrush : XamlCompositionBrushBase, XamlCompositionBrushBase
 
 Paints an area with a semi-transparent material that uses multiple effects including blur and a noise texture.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.AcrylicBrush](/windows/winui/api/microsoft.ui.xaml.media.acrylicbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ### Version history

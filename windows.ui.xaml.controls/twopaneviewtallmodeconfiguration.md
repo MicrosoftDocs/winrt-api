@@ -14,6 +14,8 @@ public enum TwoPaneViewTallModeConfiguration : int
 
 Defines constants that specify how panes are shown in a TwoPaneView in tall mode.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TwoPaneViewTallModeConfiguration](/windows/winui/api/microsoft.ui.xaml.controls.twopaneviewtallmodeconfiguration) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field TopBottom:1
 

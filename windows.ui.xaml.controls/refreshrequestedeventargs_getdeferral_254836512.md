@@ -13,6 +13,8 @@ public Deferral RefreshRequestedEventArgs.GetDeferral()
 
 Gets a deferral object for managing the work done in the RefreshRequested event handler.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RefreshRequestedEventArgs.GetDeferral](/windows/winui/api/microsoft.ui.xaml.controls.refreshrequestedeventargs.getdeferral) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -returns
 
 A deferral object.

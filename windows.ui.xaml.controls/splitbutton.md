@@ -14,6 +14,8 @@ public class SplitButton : ContentControl, ContentControl
 
 Represents a button with two parts that can be invoked separately. One part behaves like a standard button and the other part invokes a flyout.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitButton](/windows/winui/api/microsoft.ui.xaml.controls.splitbutton) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

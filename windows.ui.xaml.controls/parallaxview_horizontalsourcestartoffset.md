@@ -13,6 +13,8 @@ public double HorizontalSourceStartOffset { get;  set; }
 
 Represents the horizontal scroll offset at which parallax motion starts.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffset](/windows/winui/api/microsoft.ui.xaml.controls.parallaxview.horizontalsourcestartoffset) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

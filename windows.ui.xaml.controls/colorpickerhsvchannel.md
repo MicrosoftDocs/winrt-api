@@ -13,6 +13,8 @@ public enum ColorPickerHsvChannel : int
 
 Defines contstants that specify which Hue-Saturation-Value-Alpha component a slider in a [ColorPicker](colorpicker.md) controls.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColorPickerHsvChannel](/windows/winui/api/microsoft.ui.xaml.controls.colorpickerhsvchannel) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field Value:2

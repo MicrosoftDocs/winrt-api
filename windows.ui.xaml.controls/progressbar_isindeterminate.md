@@ -12,6 +12,8 @@ public bool IsIndeterminate { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the progress bar reports generic progress with a repeating pattern or reports progress based on the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ProgressBar.IsIndeterminate](/windows/winui/api/microsoft.ui.xaml.controls.progressbar.isindeterminate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 ```xaml
 <ProgressBar IsIndeterminate="bool"/>

@@ -13,6 +13,8 @@ public DependencyProperty MinHueProperty { get; }
 
 Identifies the MinHue dependency property.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum.MinHueProperty](/windows/winui/api/microsoft.ui.xaml.controls.primitives.colorspectrum.minhueproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The identifier for the MinHue dependency property.

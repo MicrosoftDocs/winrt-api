@@ -13,6 +13,8 @@ public enum SwipeBehaviorOnInvoked : int
 
 Defines constants that specify how a [SwipeControl](swipecontrol.md) behaves after a command is invoked.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SwipeBehaviorOnInvoked](/windows/winui/api/microsoft.ui.xaml.controls.swipebehavioroninvoked) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field RemainOpen:2

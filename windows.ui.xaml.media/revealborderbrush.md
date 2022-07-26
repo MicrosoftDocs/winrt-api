@@ -16,6 +16,8 @@ public class RevealBorderBrush : RevealBrush, RevealBrush
 
 Paints a control border with a reveal effect using composition brush and light effects.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.RevealBorderBrush](/windows/winui/api/microsoft.ui.xaml.media.revealborderbrush) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

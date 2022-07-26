@@ -13,6 +13,8 @@ public class TreeView : Control, Control
 
 Represents a hierarchical list with expanding and collapsing nodes that contain nested items. 
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeView](/windows/winui/api/microsoft.ui.xaml.controls.treeview) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielement.md) in a scrollable view (such as a ScrollViewer), you must explicitly disable support for manipulation events on the element in the view by calling [UIElement.CancelDirectmanipulation()](../windows.ui.xaml/uielement_canceldirectmanipulations_1164631120.md). To re-enable manipulation events in the view, call [UIElement.TryStartDirectManipulation()](../windows.ui.xaml/uielement_trystartdirectmanipulation_1983346775.md).

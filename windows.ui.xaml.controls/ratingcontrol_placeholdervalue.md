@@ -13,6 +13,8 @@ public IReference<double> PlaceholderValue { get;  set; }
 
 Gets or sets the rating that is displayed in the control until the value is changed by a user action or some other operation.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RatingControl.PlaceholderValue](/windows/winui/api/microsoft.ui.xaml.controls.ratingcontrol.placeholdervalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

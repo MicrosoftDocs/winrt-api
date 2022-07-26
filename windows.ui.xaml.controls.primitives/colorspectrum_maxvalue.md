@@ -13,6 +13,8 @@ public int MaxValue { get;  set; }
 
 Gets or sets the maximum Value value in the range 0-100.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum.MaxValue](/windows/winui/api/microsoft.ui.xaml.controls.primitives.colorspectrum.maxvalue) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The maximum Value value in the range 0-100. The default is 100.
