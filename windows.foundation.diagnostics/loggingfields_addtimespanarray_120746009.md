@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat)](loggingfields_addtimespanarray_1214942467.md), [AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat, Int32)](loggingfields_addtimespanarray_1839904573.md)
+[AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addtimespanarray#windows-foundation-diagnostics-loggingfields-addtimespanarray(system-string-windows-foundation-timespan()-windows-foundation-diagnostics-loggingfieldformat)), [AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addtimespanarray#windows-foundation-diagnostics-loggingfields-addtimespanarray(system-string-windows-foundation-timespan()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

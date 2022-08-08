@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddSizeArray(String, Size\[\], LoggingFieldFormat)](loggingfields_addsizearray_623327203.md), [AddSizeArray(String, Size\[\], LoggingFieldFormat, Int32)](loggingfields_addsizearray_15142365.md)
+[AddSizeArray(String, Size\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addsizearray#windows-foundation-diagnostics-loggingfields-addsizearray(system-string-windows-foundation-size()-windows-foundation-diagnostics-loggingfieldformat)), [AddSizeArray(String, Size\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addsizearray#windows-foundation-diagnostics-loggingfields-addsizearray(system-string-windows-foundation-size()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

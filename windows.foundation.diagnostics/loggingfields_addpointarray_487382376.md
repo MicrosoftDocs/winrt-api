@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddPointArray(String, Point\[\], LoggingFieldFormat)](loggingfields_addpointarray_1381245052.md), [AddPointArray(String, Point\[\], LoggingFieldFormat, Int32)](loggingfields_addpointarray_2006194756.md)
+[AddPointArray(String, Point\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addpointarray#windows-foundation-diagnostics-loggingfields-addpointarray(system-string-windows-foundation-point()-windows-foundation-diagnostics-loggingfieldformat)), [AddPointArray(String, Point\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addpointarray#windows-foundation-diagnostics-loggingfields-addpointarray(system-string-windows-foundation-point()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

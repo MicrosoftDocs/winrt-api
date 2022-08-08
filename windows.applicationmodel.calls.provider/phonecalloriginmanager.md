@@ -29,7 +29,7 @@ Controls which application is responsible for determining the origin of incoming
 
 ## -see-also
 
-[Caller ID sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CallerID)
+[Caller ID sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CallerID)
 
 ## -capabilities
 

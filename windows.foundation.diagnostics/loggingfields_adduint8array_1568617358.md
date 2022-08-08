@@ -24,4 +24,4 @@ The value for the event field. The format for the array is binary.
 ## -examples
 
 ## -see-also
-[AddUInt8Array(String, Byte\[\], LoggingFieldFormat)](loggingfields_adduint8array_304598678.md), [AddUInt8Array(String, Byte\[\], LoggingFieldFormat, Int32)](loggingfields_adduint8array_937948330.md)
+[AddUInt8Array(String, Byte\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.adduint8array#windows-foundation-diagnostics-loggingfields-adduint8array(system-string-system-byte()-windows-foundation-diagnostics-loggingfieldformat)), [AddUInt8Array(String, Byte\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.adduint8array#windows-foundation-diagnostics-loggingfields-adduint8array(system-string-system-byte()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

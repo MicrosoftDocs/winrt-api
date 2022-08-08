@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddDateTimeArray(String, DateTime\[\])](loggingfields_adddatetimearray_987663530.md), [AddDateTimeArray(String, DateTime\[\], LoggingFieldFormat, Int32)](loggingfields_adddatetimearray_1346784142.md)
+[AddDateTimeArray(String, DateTime\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.adddatetimearray#windows-foundation-diagnostics-loggingfields-adddatetimearray(system-string-windows-foundation-datetime())), [AddDateTimeArray(String, DateTime\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.adddatetimearray#windows-foundation-diagnostics-loggingfields-adddatetimearray(system-string-windows-foundation-datetime()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

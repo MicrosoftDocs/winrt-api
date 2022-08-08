@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddPointArray(String, Point\[\])](loggingfields_addpointarray_487382376.md), [AddPointArray(String, Point\[\], LoggingFieldFormat, Int32)](loggingfields_addpointarray_2006194756.md)
+[AddPointArray(String, Point\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addpointarray#windows-foundation-diagnostics-loggingfields-addpointarray(system-string-windows-foundation-point())), [AddPointArray(String, Point\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addpointarray#windows-foundation-diagnostics-loggingfields-addpointarray(system-string-windows-foundation-point()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

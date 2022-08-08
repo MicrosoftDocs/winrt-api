@@ -17,11 +17,11 @@ Sets a hands-free (HF) phone call audio device.
 
 ### -param endpoint
 
-A [PhoneCallAudioDevice](phonecallaudiodevice.md) object representing the audio device to set.
+A [PhoneCallAudioDevice](/uwp/api/windows.applicationmodel.calls.phonecalloperationstatus) object representing the audio device to set.
 
 ## -returns
 
-A [PhoneCallOperationStatus](phonecalloperationstatus) object representing the status of the phone call.
+A [PhoneCallOperationStatus](/uwp/api/windows.applicationmodel.calls.phonecalloperationstatus) object representing the status of the phone call.
 
 ## -remarks
 

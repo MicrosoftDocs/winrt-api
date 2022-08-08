@@ -14,7 +14,7 @@ namespace Windows.Devices.Input.Preview
 Provide support for tracking a user's gaze, attention, and presence based on the location and movement of their eyes and head.
 
 > [!NOTE]
-> For gaze input in [Windows Mixed Reality](/windows/mixed-reality/), see [Gaze](/windows/mixed-reality/gaze).
+> For gaze input in [Windows Mixed Reality](/windows/mixed-reality/), see [Gaze](https://github.com/MicrosoftDocs/mixed-reality/blob/11dfe739fd3c1be0311611ea522a6b80a7ce5307/mixed-reality-docs/gaze.md).
 
 ## -remarks
 

@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddRectArray(String, Rect\[\], LoggingFieldFormat)](loggingfields_addrectarray_354715758.md), [AddRectArray(String, Rect\[\], LoggingFieldFormat, Int32)](loggingfields_addrectarray_820294226.md)
+[AddRectArray(String, Rect\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addrectarray#windows-foundation-diagnostics-loggingfields-addrectarray(system-string-windows-foundation-rect()-windows-foundation-diagnostics-loggingfieldformat)), [AddRectArray(String, Rect\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addrectarray#windows-foundation-diagnostics-loggingfields-addrectarray(system-string-windows-foundation-rect()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

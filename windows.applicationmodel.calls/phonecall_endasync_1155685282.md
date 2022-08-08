@@ -15,7 +15,7 @@ Asynchronously ends the phone call.
 
 ## -returns
 
-An asynchronous operation object which, when it completes, contains a [PhoneCallOperationStatus](phonecalloperationstatus) object representing the status of the phone call.
+An asynchronous operation object which, when it completes, contains a [PhoneCallOperationStatus](/uwp/api/windows.applicationmodel.calls.phonecalloperationstatus) object representing the status of the phone call.
 
 ## -remarks
 

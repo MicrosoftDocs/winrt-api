@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddRectArray(String, Rect\[\])](loggingfields_addrectarray_1518105974.md), [AddRectArray(String, Rect\[\], LoggingFieldFormat)](loggingfields_addrectarray_354715758.md)
+[AddRectArray(String, Rect\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addrectarray#windows-foundation-diagnostics-loggingfields-addrectarray(system-string-windows-foundation-rect())), [AddRectArray(String, Rect\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addrectarray#windows-foundation-diagnostics-loggingfields-addrectarray(system-string-windows-foundation-rect()-windows-foundation-diagnostics-loggingfieldformat))

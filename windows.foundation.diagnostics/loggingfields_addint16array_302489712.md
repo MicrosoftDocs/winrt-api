@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddInt16Array(String, Int16\[\])](loggingfields_addint16array_1566530932.md), [AddInt16Array(String, Int16\[\], LoggingFieldFormat, Int32)](loggingfields_addint16array_935828048.md)
+[AddInt16Array(String, Int16\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addint16array#windows-foundation-diagnostics-loggingfields-addint16array(system-string-system-int16())), [AddInt16Array(String, Int16\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addint16array#windows-foundation-diagnostics-loggingfields-addint16array(system-string-system-int16()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

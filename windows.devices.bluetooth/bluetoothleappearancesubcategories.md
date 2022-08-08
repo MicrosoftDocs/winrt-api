@@ -11,7 +11,7 @@ public class BluetoothLEAppearanceSubcategories
 # Windows.Devices.Bluetooth.BluetoothLEAppearanceSubcategories
 
 ## -description
-Indicates the appearance subcategory code of the Bluetooth LE device. For more info on how sub categories map to categories, see the [Bluetooth Specification](https://www.bluetooth.com/specifications/gatt/removed/).
+Indicates the appearance subcategory code of the Bluetooth LE device. For more info on how sub categories map to categories, see the [Bluetooth Specification](https://www.bluetooth.com/specifications/gatt).
 
 ## -remarks
 

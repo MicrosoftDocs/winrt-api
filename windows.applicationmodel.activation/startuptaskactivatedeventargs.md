@@ -17,7 +17,7 @@ This functionality is only supported on Windows Desktop.
 
 ## -see-also
 [Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs](../windows.applicationmodel.activation/istartuptaskactivatedeventargs.md),
-[Windows.ApplicationModel.StartupTask](..\windows.applicationmodel\startuptask.md)
+[Windows.ApplicationModel.StartupTask](/uwp/api/windows.applicationmodel.startuptask)
 
 ## -examples
 ```csharp

@@ -21,6 +21,6 @@ Returns the [HingeAngleSensor](hingeanglesensor.md) device selector, if it exist
 
 ## -see-also
 
-[Build a device selector](/uwp/devices-sensors/build-a-device-selector)
+[Build a device selector](/windows/uwp/devices-sensors/build-a-device-selector)
 
 ## -examples

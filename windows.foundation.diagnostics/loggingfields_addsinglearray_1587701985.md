@@ -24,4 +24,4 @@ The value for the event field.
 ## -examples
 
 ## -see-also
-[AddSingleArray(String, Single\[\], LoggingFieldFormat)](loggingfields_addsinglearray_301635067.md), [AddSingleArray(String, Single\[\], LoggingFieldFormat, Int32)](loggingfields_addsinglearray_876261317.md)
+[AddSingleArray(String, Single\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addsinglearray#windows-foundation-diagnostics-loggingfields-addsinglearray(system-string-system-single()-windows-foundation-diagnostics-loggingfieldformat)), [AddSingleArray(String, Single\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addsinglearray#windows-foundation-diagnostics-loggingfields-addsinglearray(system-string-system-single()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

@@ -45,7 +45,7 @@ If you provide result suggestions, you must also register a [ResultSuggestionCho
 Here are a few examples of sources your app can use to obtain suggestions:
 
 + From an app-defined, static, local list
-+ From a URL that supports suggestions in [OpenSearch format](http://www.opensearch.org/Specifications/OpenSearch/Extensions/Suggestions/1.1)
++ From a URL that supports suggestions in [OpenSearch format](http://www.opensearch.org)
 
 ### Displaying app-provided suggestions in the search pane
 

@@ -24,4 +24,4 @@ The value for the event field. The default format for the array is binary. See t
 ## -examples
 
 ## -see-also
-[AddUInt16Array(String, UInt16\[\], LoggingFieldFormat)](loggingfields_adduint16array_892288933.md), [AddUInt16Array(String, UInt16\[\], LoggingFieldFormat, Int32)](loggingfields_adduint16array_284099995.md)
+[AddUInt16Array(String, UInt16\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.adduint16array#windows-foundation-diagnostics-loggingfields-adduint16array(system-string-system-uint16()-windows-foundation-diagnostics-loggingfieldformat)), [AddUInt16Array(String, UInt16\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.adduint16array#windows-foundation-diagnostics-loggingfields-adduint16array(system-string-system-uint16()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

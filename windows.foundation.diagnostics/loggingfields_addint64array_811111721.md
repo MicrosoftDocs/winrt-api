@@ -24,4 +24,4 @@ The array values for the event field.
 ## -examples
 
 ## -see-also
-[AddInt64Array(String, Int64\[\], LoggingFieldFormat)](loggingfields_addint64array_2130733107.md), [AddInt64Array(String, Int64\[\], LoggingFieldFormat, Int32)](loggingfields_addint64array_1522553357.md)
+[AddInt64Array(String, Int64\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addint64array#windows-foundation-diagnostics-loggingfields-addint64array(system-string-system-int64()-windows-foundation-diagnostics-loggingfieldformat)), [AddInt64Array(String, Int64\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addint64array#windows-foundation-diagnostics-loggingfields-addint64array(system-string-system-int64()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

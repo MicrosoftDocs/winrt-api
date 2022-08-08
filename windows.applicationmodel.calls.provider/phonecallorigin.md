@@ -29,7 +29,7 @@ A collection of information about the origin of a phone call.
 
 ## -see-also
 
-[Caller ID sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CallerID)
+[Caller ID sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CallerID)
 
 ## -capabilities
 

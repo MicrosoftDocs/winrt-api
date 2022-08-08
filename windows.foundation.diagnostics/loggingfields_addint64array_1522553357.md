@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddInt64Array(String, Int64\[\])](loggingfields_addint64array_811111721.md), [AddInt64Array(String, Int64\[\], LoggingFieldFormat)](loggingfields_addint64array_2130733107.md)
+[AddInt64Array(String, Int64\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addint64array#windows-foundation-diagnostics-loggingfields-addint64array(system-string-system-int64())), [AddInt64Array(String, Int64\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addint64array#windows-foundation-diagnostics-loggingfields-addint64array(system-string-system-int64()-windows-foundation-diagnostics-loggingfieldformat))
