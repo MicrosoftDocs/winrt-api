@@ -32,11 +32,11 @@ The key is an RSA public key defined in the PKCS #1 standard. For more informati
 Microsoft public key format defined by Cryptography API: Next Generation (CNG). For examples, see the following CNG structures:
 
 
-+ [BCRYPT_DH_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dh_key_blob)
-+ [BCRYPT_DSA_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_dsa_key_blob)
-+ [BCRYPT_ECCKEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_ecckey_blob)
-+ [BCRYPT_KEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_key_blob)
-+ [BCRYPT_RSAKEY_BLOB](/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_rsakey_blob)
++ [BCRYPT_DH_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob)
++ [BCRYPT_DSA_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dsa_key_blob)
++ [BCRYPT_ECCKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_ecckey_blob)
++ [BCRYPT_KEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_key_blob)
++ [BCRYPT_RSAKEY_BLOB](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_rsakey_blob)
 
 
 ### -field Capi1PublicKey:3

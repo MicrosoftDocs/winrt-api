@@ -19,7 +19,7 @@ The smallest size allowed for the app window, or a [Size](../windows.foundation/
 ## -remarks
 To remove the preferred minimum size and use and system default minimum size instead, set the [Size](../windows.foundation/size.md) value to "0,0".
 
-The smallest allowed minimum size is 192 x 48 effective pixels. The largest allowed minimum size is 500 x 500 effective pixels. If you set a value outside of these bounds, it is coerced to be within the allowed bounds. (To learn about effective pixels, see [Introduction to Windows app design](/windows/uwp/design/basics/design-and-ui-intro).)
+The smallest allowed minimum size is 192 x 48 effective pixels. The largest allowed minimum size is 500 x 500 effective pixels. If you set a value outside of these bounds, it is coerced to be within the allowed bounds. (To learn about effective pixels, see [Introduction to Windows app design](/windows/apps/design/basics).)
 
 Setting the preferred minimum size affects only the view it was requested on; setting it on one view does not impact the preferred minimum size of the other views.
 
@@ -32,4 +32,4 @@ If you set a preferred minimum size that is larger than the current size, the ap
 ## -examples
 
 ## -see-also
-[Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView), [Introduction to Windows app design](/windows/uwp/design/basics/design-and-ui-intro)
+[Window resizing sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView), [Introduction to Windows app design](/windows/apps/design/basics)

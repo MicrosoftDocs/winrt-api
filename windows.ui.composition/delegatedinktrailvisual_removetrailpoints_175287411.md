@@ -17,11 +17,11 @@ Removes the [InkTrailPoints](inktrailpoint.md) as the app sends its rendered ink
 
 ### -param generationId
 
-The ID assigned by [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](delegatedinktrailvisual_addtrailpoints_862908343.md) or [AddTrailPointsWithPrediction(Windows.UI.Composition.InkTrailPoint[],Windows.UI.Composition.InkTrailPoint[])](delegatedinktrailvisual_addtrailpointswithprediction_469104256.md).
+The ID assigned by [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](/uwp/api/windows.ui.composition.delegatedinktrailvisual.addtrailpoints) or [AddTrailPointsWithPrediction(Windows.UI.Composition.InkTrailPoint[],Windows.UI.Composition.InkTrailPoint[])](/uwp/api/windows.ui.composition.delegatedinktrailvisual.addtrailpointswithprediction).
 
 ## -remarks
 
-The app can still receive new input points on its input thread while the "dry" ink is being rendered. These points are immediately sent to [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](delegatedinktrailvisual_addtrailpoints_862908343.md) for rendering the "wet" ink stroke.
+The app can still receive new input points on its input thread while the "dry" ink is being rendered. These points are immediately sent to [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](/uwp/api/windows.ui.composition.delegatedinktrailvisual.addtrailpoints) for rendering the "wet" ink stroke.
 
 ## -see-also
 

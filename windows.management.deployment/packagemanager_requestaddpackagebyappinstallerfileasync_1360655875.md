@@ -30,7 +30,7 @@ This method is identical to [AddPackageByAppInstallerAsync](packagemanager_addpa
 This method is not supported in JavaScript. However, you can create a Windows Runtime component that calls this method and then call this component from a JavaScript UWP app. For more information, see [App Installer file API issues](/windows/msix/app-installer/app-installer-api-issues).
 
 ## -see-also
-[App Installer APIs](/windows/msix/app-installer/app-installer-apis)
+[App Installer APIs](/windows/msix/app-installer/app-installer-api-issues)
 
 ## -examples
 

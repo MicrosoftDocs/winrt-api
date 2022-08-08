@@ -11,7 +11,7 @@ public void StartNewTrail (Windows.UI.Color color);
 
 ## -description
 
-Specifies that a new "wet" ink stroke should be started and [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](delegatedinktrailvisual_addtrailpoints_862908343.md) should be called.
+Specifies that a new "wet" ink stroke should be started and [AddTrailPoints(Windows.UI.Composition.InkTrailPoint[])](/uwp/api/windows.ui.composition.delegatedinktrailvisual.addtrailpointswithprediction) should be called.
 
 ## -parameters
 

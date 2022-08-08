@@ -28,7 +28,7 @@ The resultant download operation.
 ## -remarks
 The resultant [DownloadOperation](downloadoperation.md) supports scenarios where a valid download request contains specific data required by the server. For example, a website requires a filled out form before the download can take place.
 
-Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
+Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *`http://example.com/myfile.wmv`* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
 > [!IMPORTANT]
 > Creating a large number of transfers on the main UI thread with **CreateDownload** can result in degraded performance of your app's UI. If you are queuing up a large number of transfers, it is recommended that you call **CreateDownload** on a background worker thread as in the following example.

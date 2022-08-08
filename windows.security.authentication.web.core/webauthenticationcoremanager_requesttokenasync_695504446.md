@@ -36,4 +36,4 @@ For an equivalent of this method for desktop apps, see
 
 [IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
 
-[IWebAuthenticationCoreManagerInterop interface](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop)
+[IWebAuthenticationCoreManagerInterop interface](/windows/win32/api/webauthenticationcoremanagerinterop/nn-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop)

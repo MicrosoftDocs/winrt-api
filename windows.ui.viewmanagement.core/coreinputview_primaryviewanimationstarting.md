@@ -15,7 +15,7 @@ Animations in the application that occur in response to the showing or hiding of
 
 ## -remarks
 
-Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
+Primary view refers to either of the [CoreInputViewKind.Keyboard](https://github.com/MicrosoftDocs/winrt-api/blob/docs/windows.ui.viewmanagement.core/coreinputviewkind.md#-field-keyboard1) or [CoreInputViewKind.Handwriting](https://github.com/MicrosoftDocs/winrt-api/blob/docs/windows.ui.viewmanagement.core/coreinputviewkind.md#-field-handwriting2) views, while CoreInputView can be any of the values from [CoreInputViewKind](coreinputviewkind.md).
 
 > [!Important]
 > The application should use this value when setting any animation durations that are based on the showing or hiding of the CoreInputView. If coordinating animations between the application and the CoreInputView, ensure the application animation does not complete before the CoreInputView animation to avoid seeing any inconsistent background visuals in the space between the application content and the input pane.

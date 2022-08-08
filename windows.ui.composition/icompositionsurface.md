@@ -21,7 +21,7 @@ All surface types that can be used to paint a [SpriteVisual](spritevisual.md) mu
 
 ## -see-also
 
-[ICompositionSurfaceFacade](icompositionsurfacefacade.md), [CompositionSurfaceBrush.Surface](compositionsurfacebrush_surface.md), [Compositor.CreateSurfaceBrush](compositor_createsurfacebrush_1906450456.md)
+[ICompositionSurfaceFacade](icompositionsurfacefacade.md), [CompositionSurfaceBrush.Surface](compositionsurfacebrush_surface.md), [Compositor.CreateSurfaceBrush](/uwp/api/windows.ui.composition.compositor.createsurfacebrush)
 
 
 ## -examples

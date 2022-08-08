@@ -27,7 +27,7 @@ The virtual machine has 2<sup>32</sup> registers, each addressed by a 32-bit int
 
 Registers can be reassigned as needed.
 
-Unless initialized through a call to [ImportElement](coreautomationremoteoperation_importelement_715571657.md) or [ImportTextRange](coreautomationremoteoperation_importtextrange_726237623.md), all registers are unbound (do not refer to any operands) when [CoreAutomationRemoteOperation.Execute(System.Byte\[\])](coreautomationremoteoperation_execute_484361623.md) is called and the remote operation starts.
+Unless initialized through a call to [ImportElement](coreautomationremoteoperation_importelement_715571657.md) or [ImportTextRange](coreautomationremoteoperation_importtextrange_726237623.md), all registers are unbound (do not refer to any operands) when [CoreAutomationRemoteOperation.Execute(System.Byte\[\])](/uwp/api/windows.ui.uiautomation.core.coreautomationremoteoperation.execute) is called and the remote operation starts.
 
 The virtual machine supports the following types:
 

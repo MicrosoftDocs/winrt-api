@@ -15,7 +15,7 @@ Gets the reason that this app is being activated.
 
 ## -property-value
 
-A [Windows.ApplicationModel.ActivationKind](uwp/api/windows.applicationmodel.activation.activationkind) with the value of **VpnForeground**.
+A [Windows.ApplicationModel.ActivationKind](/uwp/api/windows.applicationmodel.activation.activationkind) with the value of **VpnForeground**.
 
 ## -remarks
 

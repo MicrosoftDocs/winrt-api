@@ -17,7 +17,7 @@ Removes an item from the property set.
 The key.
 
 ## -remarks
-For the C# or Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](bitmappropertyset_remove_2.md).
+For the C# or Microsoft Visual Basic version of the **Remove(String)** method, see [Remove](/uwp/api/windows.graphics.imaging.bitmappropertyset.remove).
 
 ## -examples
 

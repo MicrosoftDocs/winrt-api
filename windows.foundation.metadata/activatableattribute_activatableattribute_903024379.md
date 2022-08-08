@@ -24,7 +24,7 @@ The minimum version that can activate the runtime class with the specified inter
 
 ## -remarks
 
-Developers can choose any versioning system they wish, provided the version number always increases. For more details, see [Versioning](https://github.com/Microsoft/xlang/blob/master/docs/XSPEC01%20-%20Type%20System%20Specification.md#versioning) in the Microsoft cross-language type system specification.
+Developers can choose any versioning system they wish, provided the version number always increases. For more details, see [Versioning](https://github.com/microsoft/xlang/blob/master/docs/xplatwinrt/XSPEC01%20-%20Type%20System%20Specification.md#versioning) in the Microsoft cross-language type system specification.
 
 ## -examples
 

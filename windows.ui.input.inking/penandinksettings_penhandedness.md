@@ -16,7 +16,7 @@ Gets the user's preferred hand (left or right) for pen and ink input, and relate
 
 ## -property-value
 
-The user's preferred writing hand. The default is [Right](penhandedness.md#-field-right0).
+The user's preferred writing hand. The default is [Right](/uwp/api/windows.ui.input.inking.penhandedness#fields).
 
 ## -remarks
 

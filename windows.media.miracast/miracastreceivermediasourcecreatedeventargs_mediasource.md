@@ -12,7 +12,7 @@ public MediaSource MediaSource { get; }
 
 ## -description
 
-Returns a [MediaSource](..\windows.media.core\mediasource.md) object for playing the audio and video data that is being sent by the Miracast Transmitter.
+Returns a [MediaSource](/uwp/api/windows.media.core.mediasource) object for playing the audio and video data that is being sent by the Miracast Transmitter.
 
 ## -property-value
 
@@ -22,7 +22,7 @@ The MediaSource object.
 
 ## -see-also
 
-[MediaSource](..\windows.media.core\mediasource.md)
+[MediaSource](/uwp/api/windows.media.core.mediasource)
 
 ## -examples
 

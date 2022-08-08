@@ -23,7 +23,7 @@ After app termination, an app should enumerate all existing [DownloadOperation](
 > [!NOTE]
 > When an app is uninstalled any current or persisted Background Transfer operations associated with it are cleaned up.
 
-Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *http://example.com/myfile.wmv* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
+Background transfer doesn't support concurrent downloads of the same [Uri](../windows.foundation/uri.md). So an app can download *`http://example.com/myfile.wmv`* once, or download it again after a previous download completed. An app shouldn't start two downloads of the same [Uri](../windows.foundation/uri.md) concurrently, since this may result in truncated files.
 
 When implementing a library for Background Transfer operations, and this same library is used by other apps or components, specify a unique*group* name string (for example, a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)) when creating downloads. An download with a group name string can only be enumerated by providing the matching string to [GetCurrentDownloadsAsync(String)](backgrounddownloader_getcurrentdownloadsasync_405117897.md), and will not appear in [GetCurrentDownloadsAsync](backgrounddownloader_getcurrentdownloadsasync_1101292265.md) calls without. This will ensure that other apps implementing that same library for downloads will not see your downloads.
 

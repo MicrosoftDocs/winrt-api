@@ -21,4 +21,4 @@ The identifier for the [FromVerticalOffset](entrancethemetransition_fromvertical
 ## -examples
 
 ## -see-also
-[Animating page transitions](/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)
+[Animating page transitions](/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](/windows/apps/design/motion/content-transition-animations)
