@@ -16,6 +16,7 @@ Represents an app capture record operation.
 > This API is not available to all Windows apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 
