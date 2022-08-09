@@ -13,6 +13,7 @@ public class GameBarServices
 Manages the state of the Game Bar.
 
 ## -remarks
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 

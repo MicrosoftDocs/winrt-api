@@ -13,6 +13,7 @@ public class AppCaptureState
 Represents the state of app capture.
 
 ## -remarks
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 

@@ -30,6 +30,7 @@ When the all of the allotted space has been filled, the system will begin purgin
 Metadata items are classified as **Important** or **Informational** as specified with the [AppCaptureMetadataPriority](appcapturemetadatapriority.md) enumeration. **Important** priority means the metadata will be uploaded to the Xbox Live service.  The metadata will be used to help users search clips or annotate broadcasts, among other things.
 Both **Important** and **Informational** metadata are embedded in the generated .mp4 file, so you should not include any private user information in the metadata.
 
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 
