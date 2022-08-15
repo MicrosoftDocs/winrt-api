@@ -65,5 +65,5 @@ void Scenario2::OnNavigatedTo(NavigationEventArgs^ e)
 // Click handler for the 'Load' button.
 void SDKSample::WebViewControl::Scenario2::Load_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	WebView2->NavigateToString(HTML2->Text);
+	WebViewB->NavigateToString(HTML2->Text);
 }

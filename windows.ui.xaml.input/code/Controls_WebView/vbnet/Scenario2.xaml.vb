@@ -46,6 +46,6 @@ Partial Public NotInheritable Class Scenario2
     ''' <param name="e"></param>
     Private Sub Load_Click(sender As Object, e As RoutedEventArgs)
         ' Grab the HTML from the text box and load it into the WebView
-        WebView2.NavigateToString(HTML2.Text)
+        WebViewB.NavigateToString(HTML2.Text)
     End Sub
 End Class

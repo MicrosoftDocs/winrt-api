@@ -69,7 +69,7 @@
         <Grid x:Name="Output" Grid.Row="1">
             <Border BorderBrush="#FF707070" BorderThickness="1">
                 <Grid>
-                    <WebView x:Name="WebView1" Visibility="Collapsed"/>
+                    <WebView x:Name="webViewA" Visibility="Collapsed"/>
                     <Rectangle x:Name="BlockingRect"/>
                     <ProgressRing x:Name="ProgressRing1" Height="50" Width="50"/>
                 </Grid>

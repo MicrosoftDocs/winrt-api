@@ -70,7 +70,7 @@ namespace Controls_WebView
         private void Load_Click(object sender, RoutedEventArgs e)
         {
             // Grab the HTML from the text box and load it into the WebView
-            WebView2.NavigateToString(HTML2.Text);
+            WebViewB.NavigateToString(HTML2.Text);
         }
     }
 }
