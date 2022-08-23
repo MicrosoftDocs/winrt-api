@@ -19,6 +19,9 @@ The extension namespace name.
 ## -returns
 A catalog containing the extensions declared with the specified extension namespace name.
 
+## -known app extension
+`com.microsoft.windows.dontmaximizeonsmallscreen` is currently the known app extension that is being used by Calculator app. The app extension will not maximize the app on launch for small devices.
+
 ## -remarks
 Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the  `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file appear in the catalog.  
 
