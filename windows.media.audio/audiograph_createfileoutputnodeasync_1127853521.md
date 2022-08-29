@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Media.Audio.CreateAudioFileOut
 # Windows.Media.Audio.AudioGraph.CreateFileOutputNodeAsync
 
 ## -description
-Creates a new [AudioFileOutuputNode](audiofileoutputnode.md) that outputs audio data from the audio graph to the specified storage file.
+Creates a new [AudioFileOutputNode](audiofileoutputnode.md) that outputs audio data from the audio graph to the specified storage file.
 
 ## -parameters
 ### -param file
