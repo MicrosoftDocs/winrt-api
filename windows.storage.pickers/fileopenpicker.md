@@ -19,6 +19,8 @@ In a desktop app, before using an instance of this class in a way that displays 
 
 To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
+For information about how to use this API outside of UWP apps, see [Call interop APIs from a .NET app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
+
 ### Version history
 
 | Windows version | SDK version | Value added |
@@ -45,5 +47,4 @@ The [File picker sample](https://github.com/Microsoft/Windows-universal-samples/
 
 ## -see-also
 
-[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers ](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
-
+[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
