@@ -26,7 +26,10 @@ If you have multiple `<uap3:AppExtensionHost>` declarations in your host app, yo
 
 An instance of the **PackageCatalog** is required to handle the events so keep a reference to it as long as you need to manage your app extensions.
 
-`com.microsoft.windows.dontmaximizeonsmallscreen` is currently the known app extension that is being used by the Calculator app. The app extension will not maximize the app on launch for small devices.
+|App Extension|Purpose|
+|----|----|
+|com.microsoft.windows.dontmaximizeonsmallscreen|Prevents app from maximizing on launch on small devices. Currently used by the Calculator app.|
+
 
 ## -examples
 
