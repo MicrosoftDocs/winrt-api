@@ -11,7 +11,7 @@ public class AlternateWordForm : Windows.Data.Text.IAlternateWordForm
 # Windows.Data.Text.AlternateWordForm
 
 ## -description
-Identifies an alternate form of the word represented by a [WordSegment](wordsegment.md) object.. For example, this may contain a number in a normalized format.
+Identifies an alternate form of the word represented by a [WordSegment](wordsegment.md) object. For example, this may contain a number in a normalized format.
 
 ## -remarks
 Your code does not create instances of this class. It retrieves them from a [WordSegment.AlternateForms](wordsegment_alternateforms.md) list.
