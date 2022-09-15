@@ -19,7 +19,7 @@ The expected pixel range information.
 ## -remarks
 
 ### Windows Server
-To use this API on Windows Server, you must use the [Windows Server 2019 with Desktop Experience](https://docs.microsoft.com/windows-server/get-started-19/whats-new-19).
+To use this API on Windows Server, you must use the [Windows Server 2019 with Desktop Experience](/windows-server/get-started-19/whats-new-19).
 
 ### Thread safety
 This API is thread-safe.
