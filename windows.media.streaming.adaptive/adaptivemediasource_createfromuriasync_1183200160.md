@@ -21,6 +21,9 @@ Returns an [AdaptiveMediaSourceCreationResult](adaptivemediasourcecreationresult
 
 ## -remarks
 
+> [!NOTE]
+> When called from a desktop app that's not MSIX-packaged, this API doesn't support the `ms-appx` or `ms-resource` URI format.
+
 ## -examples
 
 ## -see-also
