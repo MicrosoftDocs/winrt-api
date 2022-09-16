@@ -22,7 +22,7 @@ Returns an [AdaptiveMediaSourceCreationResult](adaptivemediasourcecreationresult
 ## -remarks
 
 > [!NOTE]
-> When called from a desktop app that's not MSIX-packaged, this API doesn't support the `ms-appx` or `ms-resource` URI format.
+> When called from a desktop app that doesn't have package identity (see [Features that require package identity](/windows/apps/desktop/modernize/modernize-packaged-apps)), this API doesn't support the `ms-appx` and `ms-resource` URI formats.
 
 ## -examples
 
