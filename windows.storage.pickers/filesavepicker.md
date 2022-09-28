@@ -38,7 +38,7 @@ To get started accessing files and folders file picker, see [Files, folders, and
 
 The [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) is available in C# and C++/WinRT versions. It demonstrates how to check whether the app is snapped, how to set file picker properties, and how to show a file picker so that the user can save a file.
 
-Here's an excerpt from the C# version of the samle app.
+Here's an excerpt from the C# version of the sample app.
 
 [!code-csharp[all_savepicker_checksnapped_show](../windows.storage.pickers/code/FilePicker/CS/Scenario4.xaml.cs#Snippetall_savepicker_checksnapped_show)]
 
