@@ -21,7 +21,8 @@ The new item to add.
 ## -remarks
 Append adds the item to the end of the collection. If you want to insert an item into the beginning or middle of a collection, use [InsertAt](uielementcollection_insertat_1232866588.md).
 
-If you are programming using C# or Microsoft Visual Basic, see [Add](/dotnet/api/system.collections.generic.icollection-1.add?view=dotnet-uwp-10.0&preserve-view=true).
+> [!IMPORTANT]
+> If you are programming in C# or Microsoft Visual Basic, don't use this method; use the .NET [Add](/dotnet/api/system.collections.generic.icollection-1.add?view=dotnet-uwp-10.0&preserve-view=true) method instead. The `System.Linq.Enumerable.Append<>` method may appear in IntelliSense, but this method is not supported for XAML and will not have any effect.
 
 ## -examples
 
