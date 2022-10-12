@@ -24,4 +24,4 @@ The array of values for the event field.
 ## -examples
 
 ## -see-also
-[AddDoubleArray(String, Double\[\], LoggingFieldFormat)](loggingfields_adddoublearray_1967053806.md), [AddDoubleArray(String, Double\[\], LoggingFieldFormat, Int32)](loggingfields_adddoublearray_1358881234.md)
+[AddDoubleArray(String, Double\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.adddoublearray#windows-foundation-diagnostics-loggingfields-adddoublearray(system-string-system-double()-windows-foundation-diagnostics-loggingfieldformat)), [AddDoubleArray(String, Double\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.adddoublearray#windows-foundation-diagnostics-loggingfields-adddoublearray(system-string-system-double()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

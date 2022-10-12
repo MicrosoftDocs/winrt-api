@@ -57,14 +57,14 @@ namespace Controls_WebView
             rootPage.NotifyUser(String.Format("Navigating to: {0}", Address.Text), NotifyType.StatusMessage);
 
             // Hook the LoadCompleted event for the WebView to know when the URL is fully loaded
-            WebView1.LoadCompleted += new Windows.UI.Xaml.Navigation.LoadCompletedEventHandler(WebView1_LoadCompleted);
+            webViewA.LoadCompleted += new Windows.UI.Xaml.Navigation.LoadCompletedEventHandler(webViewA_LoadCompleted);
 
             // Attempt to navigate to the specified URL.  Notice that a malformed URL will raise a FormatException
             // which we catch and let the user know that the URL is bad and to enter a new well-formed one.
             try
             {
                 Uri targetUri = new Uri(Address.Text);
-                WebView1.Navigate(targetUri);
+                webViewA.Navigate(targetUri);
             }
             catch (FormatException myE)
             {
@@ -73,9 +73,9 @@ namespace Controls_WebView
             }
         }
 
-        void WebView1_LoadCompleted(object sender, Windows.UI.Xaml.Navigation.NavigationEventArgs e)
+        void webViewA_LoadCompleted(object sender, Windows.UI.Xaml.Navigation.NavigationEventArgs e)
         {
-            WebView1.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            webViewA.Visibility = Windows.UI.Xaml.Visibility.Visible;
             BlockingRect.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             ProgressRing1.IsActive = false;
 

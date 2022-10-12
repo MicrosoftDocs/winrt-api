@@ -15,7 +15,7 @@ Provides access to the execution results (status and remote objects) of a [CoreA
 
 ## -remarks
 
-An instance of this runtime class is returned by the [CoreAutomationRemoteOperation.Execute(System.Byte\[\])](coreautomationremoteoperation_execute_484361623.md) method.
+An instance of this runtime class is returned by the [CoreAutomationRemoteOperation.Execute(System.Byte\[\])](/uwp/api/windows.ui.uiautomation.core.coreautomationremoteoperation.execute) method.
 
 ## -see-also
 

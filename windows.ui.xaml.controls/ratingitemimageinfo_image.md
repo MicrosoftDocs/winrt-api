@@ -13,6 +13,8 @@ public ImageSource Image { get;  set; }
 
 Gets or sets an image that represents a rating element that has been set by the user.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RatingItemImageInfo.Image](/windows/winui/api/microsoft.ui.xaml.controls.ratingitemimageinfo.image) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddSingleArray(String, Single\[\])](loggingfields_addsinglearray_1587701985.md), [AddSingleArray(String, Single\[\], LoggingFieldFormat, Int32)](loggingfields_addsinglearray_876261317.md)
+[AddSingleArray(String, Single\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addsinglearray#windows-foundation-diagnostics-loggingfields-addsinglearray(system-string-system-single())), [AddSingleArray(String, Single\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addsinglearray#windows-foundation-diagnostics-loggingfields-addsinglearray(system-string-system-single()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

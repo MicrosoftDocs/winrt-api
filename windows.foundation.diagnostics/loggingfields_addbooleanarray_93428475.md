@@ -30,4 +30,4 @@ The user-defined tag for the event field. Specifies up to twenty-eight bits of u
 ## -examples
 
 ## -see-also
-[AddBooleanArray(String, Boolean\[\])](loggingfields_addbooleanarray_1862884831.md), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat)](loggingfields_addbooleanarray_542220485.md)
+[AddBooleanArray(String, Boolean\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addbooleanarray#windows-foundation-diagnostics-loggingfields-addbooleanarray(system-string-system-boolean())), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat)](/uwp/api/windows.foundation.diagnostics.loggingfields.addbooleanarray#windows-foundation-diagnostics-loggingfields-addbooleanarray(system-string-system-boolean()-windows-foundation-diagnostics-loggingfieldformat))

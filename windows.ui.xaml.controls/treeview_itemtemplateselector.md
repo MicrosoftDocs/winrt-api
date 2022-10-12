@@ -14,6 +14,8 @@ public DataTemplateSelector ItemTemplateSelector { get;  set; }
 
 Gets or sets a reference to a custom [DataTemplateSelector](datatemplateselector.md) logic class. The DataTemplateSelector referenced by this property returns a template to apply to items.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeView.ItemTemplateSelector](/windows/winui/api/microsoft.ui.xaml.controls.treeview.itemtemplateselector) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

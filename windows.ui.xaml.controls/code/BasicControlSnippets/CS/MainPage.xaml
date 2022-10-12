@@ -260,14 +260,14 @@
                 <!-- WEBVIEW -->
                 <Grid>
                     <!-- <SnippetBasicWebViewXAML> -->
-                    <WebView x:Name="webView1" Source="http://dev.windows.com" Height="400" Width="800" />
+                    <WebView x:Name="webViewA" Source="http://dev.windows.com" Height="400" Width="800" />
                     <!-- </SnippetBasicWebViewXAML> -->
                 </Grid>
                 <Grid>
                     <!-- <SnippetBasicWebViewBrushXAML> -->
                     <Rectangle Height="400" Width="800">
                         <Rectangle.Fill>
-                            <WebViewBrush SourceName="webView1"/>
+                            <WebViewBrush SourceName="webViewA"/>
                         </Rectangle.Fill>
                     </Rectangle>
                     <!-- </SnippetBasicWebViewBrushXAML> -->

@@ -32,7 +32,7 @@ An example that demonstrates how to use much of the functionality of the Windows
 
 [Phone call sample](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/PhoneCall),
 [Communication blocking and filtering sample](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/CommunicationBlockAndFilter),
-[Voice over IP (VoIP) sample](/samples/microsoft/windows-universal-samples/voip/)
+[Voice over IP (VoIP) sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/VoIP)
 
 ## -capabilities
 

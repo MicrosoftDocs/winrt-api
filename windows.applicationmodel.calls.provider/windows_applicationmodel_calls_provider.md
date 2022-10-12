@@ -23,7 +23,7 @@ In order to use this API, you will need to define a new category in your applica
 
 ## -see-also
 
-[Caller ID sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CallerID)
+[Caller ID sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CallerID)
 
 ## -capabilities
 

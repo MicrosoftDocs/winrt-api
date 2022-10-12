@@ -13,6 +13,8 @@ public class RatingControl : Control, Control
 
 Represents a control that lets a user enter a star rating.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RatingControl](/windows/winui/api/microsoft.ui.xaml.controls.ratingcontrol) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

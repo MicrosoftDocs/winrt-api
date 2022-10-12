@@ -12,6 +12,8 @@ public ProgressBarAutomationPeer(Windows.UI.Xaml.Controls.ProgressBar owner)
 ## -description
 Initializes a new instance of the [ProgressBarAutomationPeer](progressbarautomationpeer.md) class.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ProgressBarAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.ProgressBar)](/windows/winui/api/microsoft.ui.xaml.automation.peers.progressbarautomationpeer.#ctor(microsoft.ui.xaml.controls.progressbar)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -parameters
 ### -param owner
 The [ProgressBar](../windows.ui.xaml.controls/progressbar.md) to create a peer for.

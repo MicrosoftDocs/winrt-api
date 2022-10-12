@@ -13,6 +13,8 @@ public UIElement PaneFooter { get;  set; }
 
 Gets or sets the content for the pane footer.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter](/windows/winui/api/microsoft.ui.xaml.controls.navigationview.panefooter) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

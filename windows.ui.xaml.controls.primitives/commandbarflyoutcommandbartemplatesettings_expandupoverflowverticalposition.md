@@ -14,6 +14,8 @@ public double ExpandUpOverflowVerticalPosition { get; }
 
 Gets the vertical position of the overflow when expanded up.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpOverflowVerticalPosition](/windows/winui/api/microsoft.ui.xaml.controls.primitives.commandbarflyoutcommandbartemplatesettings.expandupoverflowverticalposition) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The vertical position of the overflow when expanded up.

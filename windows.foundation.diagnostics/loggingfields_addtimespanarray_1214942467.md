@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddTimeSpanArray(String, TimeSpan\[\])](loggingfields_addtimespanarray_120746009.md), [AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat, Int32)](loggingfields_addtimespanarray_1839904573.md)
+[AddTimeSpanArray(String, TimeSpan\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addtimespanarray#windows-foundation-diagnostics-loggingfields-addtimespanarray(system-string-windows-foundation-timespan())), [AddTimeSpanArray(String, TimeSpan\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addtimespanarray#windows-foundation-diagnostics-loggingfields-addtimespanarray(system-string-windows-foundation-timespan()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

@@ -25,7 +25,7 @@ An instance of composition debug settings, or `null` (see Remarks).
 
 ## -remarks
 
-If [developer mode](/uwp/get-started/enable-your-device-for-development) is not enabled, a call to `TryGetSettings` returns `null`.
+If [developer mode](/windows/apps/get-started/enable-your-device-for-development) is not enabled, a call to `TryGetSettings` returns `null`.
 
 ## -see-also
 

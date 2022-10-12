@@ -27,4 +27,4 @@ The format of the event field. Specifies an optional formatting hint that may be
 ## -examples
 
 ## -see-also
-[AddBooleanArray(String, Boolean\[\])](loggingfields_addbooleanarray_1862884831.md), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat, Int32)](loggingfields_addbooleanarray_93428475.md)
+[AddBooleanArray(String, Boolean\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addbooleanarray#windows-foundation-diagnostics-loggingfields-addbooleanarray(system-string-system-boolean())), [AddBooleanArray(String, Boolean\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addbooleanarray#windows-foundation-diagnostics-loggingfields-addbooleanarray(system-string-system-boolean()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

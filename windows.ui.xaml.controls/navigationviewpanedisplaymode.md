@@ -14,6 +14,8 @@ public enum NavigationViewPaneDisplayMode : int
 
 Defines constants that specify how and where the NavigationView pane is shown.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode](/windows/winui/api/microsoft.ui.xaml.controls.navigationviewpanedisplaymode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field Top:2

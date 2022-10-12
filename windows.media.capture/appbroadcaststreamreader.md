@@ -18,6 +18,8 @@ Provides methods and events for obtaining audio and video frames from an app bro
 ## -remarks
 Get an instance of this class by accessing the [AppBroadcastBackgroundServiceStreamInfo.BroadcastStreamReader](appbroadcastbackgroundservicestreaminfo_broadcaststreamreader.md)
 
+This API may throw an error if the background service has shut down due to idle timeout.
+
 ## -examples
 
 ## -see-also

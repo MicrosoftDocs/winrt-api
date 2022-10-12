@@ -13,6 +13,8 @@ public enum RefreshVisualizerState : int
 
 Defines constants that specify the state of a [RefreshVisualizer](refreshvisualizer.md)
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RefreshVisualizerState](/windows/winui/api/microsoft.ui.xaml.controls.refreshvisualizerstate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field Refreshing:4
 

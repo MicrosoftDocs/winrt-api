@@ -16,6 +16,7 @@ Gets a stream reader for the app broadcast preview.
 A stream reader for the app broadcast preview.
 
 ## -remarks
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 

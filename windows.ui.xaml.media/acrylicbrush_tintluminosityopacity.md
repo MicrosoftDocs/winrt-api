@@ -13,6 +13,8 @@ public IReference<double> TintLuminosityOpacity { get;  set; }
 ## -description
 Gets or sets the brightness amount between the TintColor and the underlying pixels behind the Acrylic surface.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.AcrylicBrush.TintLuminosityOpacity](/windows/winui/api/microsoft.ui.xaml.media.acrylicbrush.tintluminosityopacity) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The amount of luminosity that is visible through the surface where Acrylic is applied.

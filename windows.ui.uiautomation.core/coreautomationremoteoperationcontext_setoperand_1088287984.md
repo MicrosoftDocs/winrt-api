@@ -31,6 +31,6 @@ The interface identifier of the operand.
 
 ## -see-also
 
-[CallExtension(System.Guid,Windows.UI.UIAutomation.Core.CoreAutomationRemoteOperationContext,Windows.UI.UIAutomation.Core.AutomationRemoteOperationOperandId[])](icoreautomationremoteoperationextensionprovider_callextension_1656583586.md)
+[CallExtension(System.Guid,Windows.UI.UIAutomation.Core.CoreAutomationRemoteOperationContext,Windows.UI.UIAutomation.Core.AutomationRemoteOperationOperandId[])](/uwp/api/windows.ui.uiautomation.core.icoreautomationremoteoperationextensionprovider.callextension)
 
 ## -examples

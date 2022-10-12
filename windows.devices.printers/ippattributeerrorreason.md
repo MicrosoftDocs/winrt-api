@@ -40,7 +40,7 @@ Two or more attributes have conflicting values.
 
 ## -see-also
 
-[IppAttributeError.Reason](ippattributeerror_reason.md),[SetJobAttributesFromBuffer](..\windows.graphics.printing.workflow\printworkflowprinterjob_setjobattributesfrombuffer_1450252241.md),[SetJobAttributes](..\windows.graphics.printing.workflow\printworkflowprinterjob_setjobattributes_769553459.md),[SetPrinterAttributes](ippprintdevice_setprinterattributes_265185914.md),[SetPrinterAttributesFromBuffer](ippprintdevice_setprinterattributesfrombuffer_1715668139.md)
+[IppAttributeError.Reason](ippattributeerror_reason.md),[SetJobAttributesFromBuffer](/uwp/api/windows.graphics.printing.workflow.printworkflowprinterjob.setjobattributesfrombuffer),[SetJobAttributes](/uwp/api/windows.graphics.printing.workflow.printworkflowprinterjob.setjobattributes),[SetPrinterAttributes](ippprintdevice_setprinterattributes_265185914.md),[SetPrinterAttributesFromBuffer](ippprintdevice_setprinterattributesfrombuffer_1715668139.md)
 
 ## -examples
 

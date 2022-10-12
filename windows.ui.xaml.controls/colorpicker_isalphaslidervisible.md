@@ -13,6 +13,8 @@ public bool IsAlphaSliderVisible { get;  set; }
 
 Gets or sets a value that indicates whether the slider control for the alpha channel is shown.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColorPicker.IsAlphaSliderVisible](/windows/winui/api/microsoft.ui.xaml.controls.colorpicker.isalphaslidervisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

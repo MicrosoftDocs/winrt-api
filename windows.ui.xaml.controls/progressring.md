@@ -12,6 +12,8 @@ public class ProgressRing : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Co
 ## -description
 Represents a control that indicates that an operation is ongoing. The typical visual appearance is a ring-shaped "spinner" that cycles an animation as progress continues.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ProgressRing](/windows/winui/api/microsoft.ui.xaml.controls.progressring) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 ```xaml
 <ProgressRing .../>

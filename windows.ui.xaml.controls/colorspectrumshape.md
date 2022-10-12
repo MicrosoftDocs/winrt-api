@@ -13,6 +13,8 @@ public enum ColorSpectrumShape : int
 
 Defines constants that specify how the [ColorSpectrum](../windows.ui.xaml.controls.primitives/colorspectrum.md) control is shown.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ColorSpectrumShape](/windows/winui/api/microsoft.ui.xaml.controls.colorspectrumshape) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field Ring:1

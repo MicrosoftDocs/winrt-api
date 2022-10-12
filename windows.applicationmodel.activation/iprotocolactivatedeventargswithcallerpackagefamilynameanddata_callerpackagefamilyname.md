@@ -16,7 +16,7 @@ Gets the package family name of the application that activated the current appli
 The package family name of the application that activated the current application.
 
 ## -remarks
-If the caller is a non-packaged app (such as a Win32 app), *CallerPackageFamilyName* will be empty, that is `""`.
+If the caller is an unpackaged app (such as an unpackaged desktop app), *CallerPackageFamilyName* will be empty, that is `""`.
 
 ## -examples
 

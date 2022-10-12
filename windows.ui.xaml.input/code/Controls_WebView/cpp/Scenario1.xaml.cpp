@@ -52,14 +52,14 @@ void SDKSample::WebViewControl::Scenario1::NavigateButton_Click(Platform::Object
     rootPage->NotifyUser(str, NotifyType::StatusMessage);
 
     // Hook the LoadCompleted event for the WebView to know when the URL is fully loaded
-    WebView1->LoadCompleted += ref new LoadCompletedEventHandler(this, &Scenario1::WebView1_LoadCompleted);
+    webViewA->LoadCompleted += ref new LoadCompletedEventHandler(this, &Scenario1::webViewA_LoadCompleted);
 
     // Attempt to navigate to the specified URL.  Notice that a malformed URL will raise a FormatException
     // which we catch and let the user know that the URL is bad and to enter a new well-formed one.
     try
     {
         Uri^ targetUri = ref new Uri(Address->Text);
-        WebView1->Navigate(targetUri);
+        webViewA->Navigate(targetUri);
     }
     catch (FailureException^ myE)
     {
@@ -69,9 +69,9 @@ void SDKSample::WebViewControl::Scenario1::NavigateButton_Click(Platform::Object
     }    
 }
 
-void SDKSample::WebViewControl::Scenario1::WebView1_LoadCompleted(Platform::Object^ sender, Windows::UI::Xaml::Navigation::NavigationEventArgs^ e)
+void SDKSample::WebViewControl::Scenario1::webViewA_LoadCompleted(Platform::Object^ sender, Windows::UI::Xaml::Navigation::NavigationEventArgs^ e)
 {
-    WebView1->Visibility = Windows::UI::Xaml::Visibility::Visible;
+    webViewA->Visibility = Windows::UI::Xaml::Visibility::Visible;
     BlockingRect->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
     ProgressRing1->IsActive = false;
     

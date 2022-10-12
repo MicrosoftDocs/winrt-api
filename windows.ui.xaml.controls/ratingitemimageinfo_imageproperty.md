@@ -13,6 +13,8 @@ public DependencyProperty ImageProperty { get; }
 
 Identifies the Image dependency property.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RatingItemImageInfo.ImageProperty](/windows/winui/api/microsoft.ui.xaml.controls.ratingitemimageinfo.imageproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The identifier for Image dependency property.

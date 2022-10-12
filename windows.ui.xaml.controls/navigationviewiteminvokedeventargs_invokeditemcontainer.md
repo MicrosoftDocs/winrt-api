@@ -14,6 +14,8 @@ public NavigationViewItemBase InvokedItemContainer { get; }
 
 Gets the container for the invoked item.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs.InvokedItemContainer](/windows/winui/api/microsoft.ui.xaml.controls.navigationviewiteminvokedeventargs.invokeditemcontainer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The container for the invoked item.

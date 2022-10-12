@@ -13,6 +13,8 @@ public enum AcrylicBackgroundSource : int
 
 Defines values that specify whether the brush samples from the app content or from the content behind the app window.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.AcrylicBackgroundSource](/windows/winui/api/microsoft.ui.xaml.media.acrylicbackgroundsource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field HostBackdrop:0

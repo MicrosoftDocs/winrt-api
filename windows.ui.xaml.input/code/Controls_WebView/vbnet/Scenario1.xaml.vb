@@ -53,21 +53,21 @@ Partial Public NotInheritable Class Scenario1
         rootPage.NotifyUser(String.Format("Navigating to: {0}", Address.Text), NotifyType.StatusMessage)
 
         ' Hook the LoadCompleted event for the WebView to know when the URL is fully loaded
-        AddHandler WebView1.LoadCompleted, AddressOf WebView1_LoadCompleted
+        AddHandler webViewA.LoadCompleted, AddressOf webViewA_LoadCompleted
 
         ' Attempt to navigate to the specified URL.  Notice that a malformed URL will raise a FormatException
         ' which we catch and let the user know that the URL is bad and to enter a new well-formed one.
         Try
             Dim targetUri As New Uri(Address.Text)
-            WebView1.Navigate(targetUri)
+            webViewA.Navigate(targetUri)
         Catch myE As FormatException
             ' Bad address
             rootPage.NotifyUser(String.Format("Address is invalid, try again.  Details --> {0}", myE.Message), NotifyType.ErrorMessage)
         End Try
     End Sub
 
-    Private Sub WebView1_LoadCompleted(sender As Object, e As Windows.UI.Xaml.Navigation.NavigationEventArgs)
-        WebView1.Visibility = Windows.UI.Xaml.Visibility.Visible
+    Private Sub webViewA_LoadCompleted(sender As Object, e As Windows.UI.Xaml.Navigation.NavigationEventArgs)
+        webViewA.Visibility = Windows.UI.Xaml.Visibility.Visible
         BlockingRect.Visibility = Windows.UI.Xaml.Visibility.Collapsed
         ProgressRing1.IsActive = False
 

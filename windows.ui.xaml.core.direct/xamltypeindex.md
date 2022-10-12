@@ -13,6 +13,8 @@ public enum XamlTypeIndex : int
 ## -description
 Enum that lists all the supported types in [XamlDirect](windows_ui_xaml_core_direct.md). 
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Core.Direct.XamlTypeIndex](/windows/winui/api/microsoft.ui.xaml.core.direct.xamltypeindex) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field XamlUICommand:969
 The [XamlUICommand](../windows.ui.xaml.input/xamluicommand.md) type.

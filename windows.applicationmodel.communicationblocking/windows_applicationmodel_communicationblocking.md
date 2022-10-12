@@ -41,10 +41,10 @@ In order to access blocked messages, you need to define a new capability in your
 </Capabilities>
 ```
 
-For a sample of how to implement this in your app, see [Communication blocking and filtering](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CommunicationBlockAndFilter).
+For a sample of how to implement this in your app, see [Communication blocking and filtering](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CommunicationBlockAndFilter).
 
 ## -examples
 
 ## -see-also
 
-[Communication blocking and filtering sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CommunicationBlockAndFilter)
+[Communication blocking and filtering sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CommunicationBlockAndFilter)

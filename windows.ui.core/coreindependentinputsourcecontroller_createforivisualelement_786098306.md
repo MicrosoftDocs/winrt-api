@@ -17,7 +17,7 @@ Creates a [CoreIndependentInputSourceController](coreindependentinputsourcecontr
 
 ### -param visualElement
 
-An object that can resolve to a composition [Visual](visual.md).
+An object that can resolve to a composition [Visual](/uwp/api/windows.ui.composition.visual).
 
 ## -returns
 

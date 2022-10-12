@@ -25,4 +25,4 @@ An ink stroke always triggers either a [WetStrokeCompleted](corewetstrokeupdates
 
 ## -see-also
 
-[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Windows.UI.Input.Inking.Core classes](windows_ui_input_inking_core.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)

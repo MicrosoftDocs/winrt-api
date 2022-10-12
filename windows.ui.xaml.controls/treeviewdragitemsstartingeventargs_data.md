@@ -14,6 +14,8 @@ public DataPackage Data { get; }
 
 Gets the data payload associated with an items drag action.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeViewDragItemsStartingEventArgs.Data](/windows/winui/api/microsoft.ui.xaml.controls.treeviewdragitemsstartingeventargs.data) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The data payload.

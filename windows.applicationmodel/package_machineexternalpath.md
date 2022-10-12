@@ -21,7 +21,7 @@ The location of the machine-wide external folder specified in the package manife
 
 The external folder is a disk location outside of the package where the package manifest can reference application content. This property returns the location of the external folder for an app that is provisioned for all users on the machine.
 
-This property is intended to be used when you are granting identity to an unpackaged desktop application by using a *sparse* package. A sparse package contains only a package manifest (not an executable or other application content). The package manifest references application content in an external disk location outside of the package.
+This property is intended to be used when you are granting package identity by packaging with external location. A package with external location contains only a package manifest (not an executable or other application content). The package manifest references application content in an external disk location outside of the package.
 
 To set the external folder, use one of the following combinations of [PackageManager](../windows.management.deployment/packagemanager.md) methods and related options properties:
 

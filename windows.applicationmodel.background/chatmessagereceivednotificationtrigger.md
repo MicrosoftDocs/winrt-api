@@ -19,4 +19,4 @@ Represents a trigger that launches a background task that handles any incoming m
 
 ## -see-also
 
-[IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CommunicationBlockAndFilter)
+[IBackgroundTrigger](ibackgroundtrigger.md), [Communication blocking and filtering sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CommunicationBlockAndFilter)

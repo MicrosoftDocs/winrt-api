@@ -19,7 +19,7 @@ Gets a string that can be used to differentiate various control channel triggers
 A string that can be used to differentiate various control channel triggers.
 
 ## -remarks
-This ControlChannelTriggerId property is set when creating a [ControlChannelTrigger](controlchanneltrigger.md) object using one of the [ControlChannelTrigger](/uwp/api/windows.networking.sockets.controlchanneltrigger.controlchanneltrigger) constructors. The *channelId* parameter passed to the constructor sets this property.
+This ControlChannelTriggerId property is set when creating a [ControlChannelTrigger](controlchanneltrigger.md) object using one of the [ControlChannelTrigger](/uwp/api/windows.networking.sockets.controlchanneltrigger) constructors. The *channelId* parameter passed to the constructor sets this property.
 
 ## -examples
 

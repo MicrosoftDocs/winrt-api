@@ -16,12 +16,18 @@ Provides a control that hosts HTML content in an app.
 ## -xaml-syntax
 
 ```xaml
-          <WebView .../>
+<WebView .../>
 ```
 
 ## -remarks
 
-Use the WebView control to host web content in your app.
+Use the WebView control to host web content in your app. Apps for Surface Hub or Xbox must use this WebView.
+
+> [!IMPORTANT]
+> For desktop apps, we recommend that you use the [WebView2](/windows/winui/api/microsoft.ui.xaml.controls.webview2) control, which is available as part of the Windows UI Library 2 for UWP (WinUI 2). WebView2 uses Microsoft Edge (Chromium) as the rendering engine to display web content in apps. For more info, see [Introduction to Microsoft Edge WebView2](/microsoft-edge/webview2/), [Get started with WebView2 in WinUI 2 (UWP) apps](/microsoft-edge/webview2/get-started/winui2), and [WebView2](/windows/winui/api/microsoft.ui.xaml.controls.webview2) in the WinUI API reference.
+
+> [!IMPORTANT]
+> **XAML Islands**: This control is not supported in XAML Islands apps. For alternatives, see [XAML Islands - Web view controls](/windows/apps/desktop/modernize/xaml-islands#web-view-controls).
 
 WebView is not a [Control](control.md) subclass and thus does not have a control template. You can set various properties to control some visual aspects of the WebView. The display area is constrained by the [Width](../windows.ui.xaml/frameworkelement_width.md) and [Height](../windows.ui.xaml/frameworkelement_height.md) properties. To translate, scale, skew, and rotate a WebView, use the [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) property. To control the opacity of the WebView, set the [Opacity](../windows.ui.xaml/uielement_opacity.md) property. To specify a color to use as the web page background when the HTML content does not specify a color, set the [DefaultBackgroundColor](webview_defaultbackgroundcolor.md) property.
 
@@ -29,11 +35,9 @@ You can get the title of the HTML document currently displayed in the WebView by
 
 Although WebView is not a [Control](control.md) subclass, it will receive keyboard input focus and participate in the tab sequence. It provides a [Focus](webview_focus_195503898.md) method, and [GotFocus](../windows.ui.xaml/uielement_gotfocus.md) and [LostFocus](../windows.ui.xaml/uielement_lostfocus.md) events, but it has no tab-related properties. Its position in the tab sequence is the same as its position in the XAML document order. The tab sequence includes all elements in the WebView content that can receive input focus.
 
-As indicated in the Events table, WebView doesn’t support most of the user input events inherited from [UIElement](../windows.ui.xaml/uielement.md), such as [KeyDown](../windows.ui.xaml/uielement_keydown.md), [KeyUp](../windows.ui.xaml/uielement_keyup.md), and [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md). A common workaround is to use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) with the JavaScript  **eval** function to use the HTML event handlers, and to use **window.external.notify** from the HTML event handler to notify the application using [WebView.ScriptNotify](webview_scriptnotify.md).
+As indicated in the Events table, WebView doesn't support most of the user input events inherited from [UIElement](../windows.ui.xaml/uielement.md), such as [KeyDown](../windows.ui.xaml/uielement_keydown.md), [KeyUp](../windows.ui.xaml/uielement_keyup.md), and [PointerPressed](../windows.ui.xaml/uielement_pointerpressed.md). A common workaround is to use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) with the JavaScript  **eval** function to use the HTML event handlers, and to use **window.external.notify** from the HTML event handler to notify the application using [WebView.ScriptNotify](webview_scriptnotify.md).
 
 In apps compiled for Windows 10, WebView uses the Microsoft Edge rendering engine to display HTML content. In apps compiled for Windows 8 or Windows 8.1, WebView uses Internet Explorer 11 in document mode. It does not support any Microsoft ActiveX controls or plugins like Microsoft Silverlight or Portable Document Format (PDF) files.
-
-**XAML Islands**: This control is not supported in XAML Islands apps. For alternatives, see [XAML Islands - Web view controls](/windows/apps/desktop/modernize/xaml-islands#web-view-controls).
 
 ### Navigating to content
 
@@ -44,13 +48,13 @@ To set the initial content of the WebView, set the [Source](webview_source.md) p
 ```xaml
 
 <!-- Source file is on the web. -->
-<WebView x:Name="webView1" Source="http://www.contoso.com"/>
+<WebView x:Name="webViewA" Source="http://www.contoso.com"/>
 
 <!-- Source file is in local storage. -->
-<WebView x:Name="webView2" Source="ms-appdata:///local/intro/welcome.html"/>
+<WebView x:Name="webViewB" Source="ms-appdata:///local/intro/welcome.html"/>
 
 <!-- Source file is in the app package. -->
-<WebView x:Name="webView3" Source="ms-appx-web:///help/about.html"/>
+<WebView x:Name="webViewC" Source="ms-appx-web:///help/about.html"/>
 
 ```
 
@@ -59,23 +63,23 @@ The [Source](webview_source.md) property can be set in code, but rather than doi
 To load web content, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the **http** or **https** scheme.
 
 ```csharp
-webView1.Navigate(new Uri("http://www.contoso.com"));
+webViewA.Navigate(new Uri("http://www.contoso.com"));
 ```
 
 To navigate to a Uniform Resource Identifier (URI) with a POST request and HTTP headers, use the [NavigateWithHttpRequestMessage](webview_navigatewithhttprequestmessage_896558468.md) method. This method supports only [HttpMethod.Post](../windows.web.http/httpmethod_post.md) and [HttpMethod.Get](../windows.web.http/httpmethod_get.md) for the [HttpRequestMessage.Method](../windows.web.http/httprequestmessage_method.md) property value.
 
-To load uncompressed and unencrypted content from your app’s [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
+To load uncompressed and unencrypted content from your app's [LocalFolder](../windows.storage/applicationdata_localfolder.md) or [TemporaryFolder](../windows.storage/applicationdata_temporaryfolder.md) data stores, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appdata scheme](/previous-versions/windows/apps/jj655406(v=win.10)). The WebView support for this scheme requires you to place your content in a subfolder under the local or temporary folder. This enables navigation to Uniform Resource Identifier (URI) such as ms-appdata:///local/*folder*/*file*.html and ms-appdata:///temp/*folder*/*file*.html. (To load compressed or encrypted files, see [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md).)
 
-Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can’t have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
+Each of these first-level subfolders is isolated from the content in other first-level subfolders. For example, you can navigate to ms-appdata:///temp/folder1/file.html, but you can't have a link in this file to ms-appdata:///temp/folder2/file.html. However, you can still link to HTML content in the app package using the **ms-appx-web** scheme, and to web content using the **http** and **https**  Uniform Resource Identifier (URI) schemes.
 
 ```csharp
-webView1.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
+webViewA.Navigate(new Uri("ms-appdata:///local/intro/welcome.html"));
 ```
 
 To load content from the your app package, use the [Navigate](webview_navigate_1098085581.md) method with a [Uri](../windows.foundation/uri.md) that uses the [ms-appx-web scheme](/previous-versions/windows/apps/jj655406(v=win.10)).
 
 ```csharp
-webView1.Navigate(new Uri("ms-appx-web:///help/about.html"));
+webViewA.Navigate(new Uri("ms-appx-web:///help/about.html"));
 ```
 
 You can load local content through a custom resolver using the [NavigateToLocalStreamUri](webview_navigatetolocalstreamuri_1538250901.md) method. This enables advanced scenarios such as downloading and caching web-based content for offline use, or extracting content from a compressed file.
@@ -87,9 +91,9 @@ WebView provides several events that you can use to respond to navigation and co
 + [NavigationStarting](webview_navigationstarting.md)- Occurs before the WebView navigates to new content. You can cancel navigation in a handler for this event by setting the [WebViewNavigationStartingEventArgs.Cancel](webviewnavigationstartingeventargs_cancel.md) property to **true**.
 
 ```csharp
-webView1.NavigationStarting += webView1_NavigationStarting;
+webViewA.NavigationStarting += webViewA_NavigationStarting;
 
-private void webView1_NavigationStarting(object sender, WebViewNavigationStartingEventArgs args)
+private void webViewA_NavigationStarting(object sender, WebViewNavigationStartingEventArgs args)
 {
     // Cancel navigation if URL is not allowed. (Implemetation of IsAllowedUri not shown.)
     if (!IsAllowedUri(args.Uri))
@@ -101,9 +105,9 @@ private void webView1_NavigationStarting(object sender, WebViewNavigationStartin
 + [ContentLoading](webview_contentloading.md) - Occurs when the WebView has started loading new content.
 
 ```csharp
-webView1.ContentLoading += webView1_ContentLoading;
+webViewA.ContentLoading += webViewA_ContentLoading;
 
-private void webView1_ContentLoading(WebView sender, WebViewContentLoadingEventArgs args)
+private void webViewA_ContentLoading(WebView sender, WebViewContentLoadingEventArgs args)
 {
     // Show status.
     if (args.Uri != null)
@@ -117,9 +121,9 @@ private void webView1_ContentLoading(WebView sender, WebViewContentLoadingEventA
 + [DOMContentLoaded](webview_domcontentloaded.md) - Occurs when the WebView has finished parsing the current HTML content.
 
 ```csharp
-webView1.DOMContentLoaded += webView1_DOMContentLoaded;
+webViewA.DOMContentLoaded += webViewA_DOMContentLoaded;
 
-private void webView1_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEventArgs args)
+private void webViewA_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEventArgs args)
 {
     // Show status.
     if (args.Uri != null)
@@ -133,9 +137,9 @@ private void webView1_DOMContentLoaded(WebView sender, WebViewDOMContentLoadedEv
 + [NavigationCompleted](webview_navigationcompleted.md) - Occurs when the WebView has finished loading the current content or if navigation has failed. To determine whether navigation has failed, check the [IsSuccess](webviewnavigationcompletedeventargs_issuccess.md) and [WebErrorStatus](webviewnavigationcompletedeventargs_weberrorstatus.md) properties of the [WebViewNavigationCompletedEventArgs](webviewnavigationcompletedeventargs.md) class.
 
 ```csharp
-webView1.NavigationCompleted += webView1_NavigationCompleted;
+webViewA.NavigationCompleted += webViewA_NavigationCompleted;
 
-private void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)
+private void webViewA_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)
 {
     if (args.IsSuccess == true)
     {
@@ -143,7 +147,7 @@ private void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompl
     }
     else
     {
-        statusTextBlock.Text = "Navigation to: " + args.Uri.ToString() + 
+        statusTextBlock.Text = "Navigation to: " + args.Uri.ToString() +
                                " failed with error " + args.WebErrorStatus.ToString();
     }
 }
@@ -236,24 +240,24 @@ You can interact with the content of the WebView by using the [InvokeScriptAsync
 
 To invoke JavaScript inside the WebView content, use the [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) method. The invoked script can return only string values.
 
-For example, if the content of a WebView named `webView1` contains a function named `setDate` that takes 3 parameters, you can invoke it like this.
+For example, if the content of a WebView named `webViewA` contains a function named `setDate` that takes 3 parameters, you can invoke it like this.
 
 ```csharp
 
 string[] args = {"January", "1", "2000"};
-string returnValue = await webView1.InvokeScriptAsync("setDate", args);
+string returnValue = await webViewA.InvokeScriptAsync("setDate", args);
 ```
 
 You can use [InvokeScriptAsync](webview_invokescriptasync_1912773610.md) with the JavaScript  **eval** function to inject content into the web page.
 
-Here, the text of a XAML [TextBox](textbox.md) (`nameTextBox.Text`) is written to a div in an HTML page hosted in `webView1`.
+Here, the text of a XAML [TextBox](textbox.md) (`nameTextBox.Text`) is written to a div in an HTML page hosted in `webViewA`.
 
 ```csharp
 
 private async void Button_Click(object sender, RoutedEventArgs e)
 {
     string functionString = String.Format("document.getElementById('nameDiv').innerText = 'Hello, {0}';", nameTextBox.Text);
-    await webView1.InvokeScriptAsync("eval", new string[] { functionString });
+    await webViewA.InvokeScriptAsync("eval", new string[] { functionString });
 }
 ```
 
@@ -269,12 +273,12 @@ For example, this code injects an instance of `MyClass` imported from a Windows 
 
 ```csharp
 
-private void webView_NavigationStarting(WebView sender, WebViewNavigationStartingEventArgs args) 
-{ 
-    if (args.Uri.Host == "www.contoso.com")  
-    { 
-        webView.AddWebAllowedObject("nativeObject", new MyClass()); 
-    } 
+private void webView_NavigationStarting(WebView sender, WebViewNavigationStartingEventArgs args)
+{
+    if (args.Uri.Host == "www.contoso.com")
+    {
+        webView.AddWebAllowedObject("nativeObject", new MyClass());
+    }
 }
 
 ```
@@ -310,7 +314,7 @@ To get a preview image of the WebView's current content, use the [CapturePreview
 
 ### Execution modes
 
-By default, WebView content is hosted on the UI thread on devices in the desktop device family, and off the UI thread on all other devices. You can use the [WebView.DefaultExecutionMode](webview_defaultexecutionmode.md) static property to query the default threading behavior for the current client. If necessary, you can use the [WebView(WebViewExecutionMode)](webview_webview_499271973.md) constructor to override this behavior. 
+By default, WebView content is hosted on the UI thread on devices in the desktop device family, and off the UI thread on all other devices. You can use the [WebView.DefaultExecutionMode](webview_defaultexecutionmode.md) static property to query the default threading behavior for the current client. If necessary, you can use the [WebView(WebViewExecutionMode)](webview_webview_499271973.md) constructor to override this behavior.
 
 The supported [WebViewExecutionMode](webview_executionmode.md) values are:
 
@@ -373,13 +377,13 @@ Similarly, several methods on the [FocusManager](../windows.ui.xaml.input/focusm
 
 Finally, moving focus to or from a WebView raises focus events, both on the WebView itself and on the element that loses or receives focus. The events are **LosingFocus**, **LostFocus**, **GettingFocus**, and **GotFocus**. For example, when focus moves from a Control to a WebView, the Control will raise LosingFocus and LostFocus events, and the WebView will raise GettingFocus and GotFocus events.
 
-When a WebView is running in a separate process, the behavior of these APIs changes slightly. Assuming the WebView is focusable, the WebView.Focus method will return true (success), but focus has not actually moved yet. The same is true if rather than the WebView.Focus method, FocusManager.TryMoveFocus is called and it identifies a WebView as the next focusable element.  
+When a WebView is running in a separate process, the behavior of these APIs changes slightly. Assuming the WebView is focusable, the WebView.Focus method will return true (success), but focus has not actually moved yet. The same is true if rather than the WebView.Focus method, FocusManager.TryMoveFocus is called and it identifies a WebView as the next focusable element.
 
 The differences in behavior are:
 
 - FocusManager.GetFocusedElement does not return the WebView unless/until the asynchronous operation completes.
 - The control that is losing focus will receive its LosingFocus event synchronously; however, it will not receive LostFocus unless/until the asynchronous operation completes.
-- Similarly, the GettingFocus event will occur on the WebView synchronously; however, the GotFocus event won’t be raised unless/until the asynchronous operation completes.
+- Similarly, the GettingFocus event will occur on the WebView synchronously; however, the GotFocus event won't be raised unless/until the asynchronous operation completes.
 
 None of this changes if you call FocusManager.TryFocusAsync instead. However, the async method gives you an opportunity to determine if the focus change succeeded.
 
@@ -469,7 +473,7 @@ The following code example demonstrates how to navigate a WebView to a URI conta
 try
 {
     Uri targetUri = new Uri(Address.Text);
-    webView1.Navigate(targetUri);
+    webViewA.Navigate(targetUri);
 }
 catch (FormatException ex)
 {
@@ -481,7 +485,7 @@ catch (FormatException ex)
 The following code example demonstrates how to load local HTML into a WebView control.
 
 ```csharp
-webView2.NavigateToString(
+webViewB.NavigateToString(
     "<html><body><h2>This is an HTML fragment</h2></body></html>");
 ```
 

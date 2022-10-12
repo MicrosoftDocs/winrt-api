@@ -14,6 +14,8 @@ public DependencyProperty Pane2LengthProperty { get; }
 
 Identifies the [Pane2Length](twopaneview_pane2length.md) dependency property.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TwoPaneView.Pane2LengthProperty](/windows/winui/api/microsoft.ui.xaml.controls.twopaneview.pane2lengthproperty) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 The identifier for the [Pane2Length](twopaneview_pane2length.md) dependency property.

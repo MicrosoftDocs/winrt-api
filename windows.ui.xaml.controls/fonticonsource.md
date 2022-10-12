@@ -13,6 +13,8 @@ public class FontIconSource : IconSource, IconSource
 
 Represents an icon source that uses a glyph from the specified font.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.FontIconSource](/windows/winui/api/microsoft.ui.xaml.controls.fonticonsource) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

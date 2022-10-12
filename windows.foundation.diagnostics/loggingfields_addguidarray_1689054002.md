@@ -27,4 +27,4 @@ The format of the event field.
 ## -examples
 
 ## -see-also
-[AddGuidArray(String, Guid\[\])](loggingfields_addguidarray_737416746.md), [AddGuidArray(String, Guid\[\], LoggingFieldFormat, Int32)](loggingfields_addguidarray_1097650446.md)
+[AddGuidArray(String, Guid\[\])](/uwp/api/windows.foundation.diagnostics.loggingfields.addguidarray#windows-foundation-diagnostics-loggingfields-addguidarray(system-string-system-guid())), [AddGuidArray(String, Guid\[\], LoggingFieldFormat, Int32)](/uwp/api/windows.foundation.diagnostics.loggingfields.addguidarray#windows-foundation-diagnostics-loggingfields-addguidarray(system-string-system-guid()-windows-foundation-diagnostics-loggingfieldformat-system-int32))

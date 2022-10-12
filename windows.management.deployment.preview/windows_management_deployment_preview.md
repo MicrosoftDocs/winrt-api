@@ -6,7 +6,7 @@
 # Windows.Management.Deployment.Preview
 
 ## -description
-Provides functionality for finding installed classic desktop apps, and displaying their names and versions.
+Provides functionality for finding installed desktop apps, and displaying their names and versions.
 
 ## -remarks
 

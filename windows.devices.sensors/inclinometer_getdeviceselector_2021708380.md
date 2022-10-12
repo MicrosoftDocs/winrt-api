@@ -27,6 +27,6 @@ Returns the device selector, if it exists; otherwise, null.
 
 ## -see-also
 
-[Build a device selector](/uwp/devices-sensors/build-a-device-selector)
+[Build a device selector](/windows/uwp/devices-sensors/build-a-device-selector)
 
 ## -examples

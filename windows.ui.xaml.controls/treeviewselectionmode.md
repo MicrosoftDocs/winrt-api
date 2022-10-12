@@ -13,6 +13,8 @@ public enum TreeViewSelectionMode : int
 
 Defines constants that specify the selection behavior for a [TreeView](treeview.md) instance.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeViewSelectionMode](/windows/winui/api/microsoft.ui.xaml.controls.treeviewselectionmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 ### -field Single:1
 

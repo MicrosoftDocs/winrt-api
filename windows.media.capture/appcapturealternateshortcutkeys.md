@@ -18,6 +18,8 @@ Defines alternate shortcut keys for app capture.
 ## -remarks
 Get an instance of this class with the [AlternateShortcutKeys](appcapturesettings_alternateshortcutkeys.md) property.
 
+This API may throw an error if the background service has shut down due to idle timeout.
+
 ### Version history
 
 | Windows version | SDK version | Value added |

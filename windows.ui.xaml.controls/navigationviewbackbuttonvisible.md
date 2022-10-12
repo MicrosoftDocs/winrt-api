@@ -13,6 +13,8 @@ public enum NavigationViewBackButtonVisible : int
 
 Defines constants that specify whether the back button is visible in NavigationView.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible](/windows/winui/api/microsoft.ui.xaml.controls.navigationviewbackbuttonvisible) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field Collapsed:0

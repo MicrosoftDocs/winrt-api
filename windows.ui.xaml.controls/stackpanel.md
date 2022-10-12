@@ -31,7 +31,7 @@ Arranges child elements into a single line that can be oriented horizontally or 
 
 StackPanel is a layout panel that arranges child elements into a single line that can be oriented horizontally or vertically.
 
-:::image type="content" source="../windows.ui.xaml.controls/images/controls/StackPanel.png" alt-text="StackPanel layout control":::
+:::image type="content" source="images/controls/StackPanel.png" alt-text="StackPanel layout control":::
 
 By default, StackPanel stacks items vertically from top to bottom in the order they are declared. You can set the [Orientation](stackpanel_orientation.md) property to **Horizontal** to stack items from left to right.
 

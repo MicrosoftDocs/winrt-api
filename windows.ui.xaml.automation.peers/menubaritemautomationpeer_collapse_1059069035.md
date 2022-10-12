@@ -14,6 +14,8 @@ public void MenuBarItemAutomationPeer.Collapse()
 
 Hides all nodes, controls, or content that are descendants of the [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md).
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer.Collapse](/windows/winui/api/microsoft.ui.xaml.automation.peers.menubaritemautomationpeer.collapse) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 
 ## -see-also

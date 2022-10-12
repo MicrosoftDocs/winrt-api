@@ -16,6 +16,6 @@ Constructs a Generic Attributes (GATT) service that can be persisted in the back
 GATT defines a hierarchical data structure that is exposed to connected Bluetooth low energy (LE) devices.
 
 ## -see-also
-[Bluetooth GATT specification](https://www.bluetooth.com/specifications/generic-attributes-overview)
+[Bluetooth GATT specification](https://www.bluetooth.com/specifications/specs/gatt-specification-supplement-6)
 
 ## -examples

@@ -10,7 +10,7 @@ public MapCustomExperience()
 # Windows.UI.Xaml.Controls.Maps.MapCustomExperience.MapCustomExperience
 
 ## -description
-This API is for internal use only. Use [StreetsideExperience](/uwp/api/windows.ui.xaml.controls.maps.streetsideexperience.streetsideexperience) to create a street-level views.
+This API is for internal use only. Use [StreetsideExperience](/uwp/api/windows.ui.xaml.controls.maps.streetsideexperience) to create a street-level views.
 
 ## -remarks
 

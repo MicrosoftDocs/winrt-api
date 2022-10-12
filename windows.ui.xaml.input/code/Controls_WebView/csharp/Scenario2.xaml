@@ -54,7 +54,7 @@
             <TextBlock x:Name="WebViewLabel" Text="WebView:" Grid.Row="0" Grid.Column="1" Margin="10,0,0,0" Style="{StaticResource BasicTextStyle}"/>
             <TextBox x:Name="HTML2" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True"/>
             <Border BorderThickness="1" BorderBrush="#FF707070"  Grid.Row="1" Grid.Column="1" Margin="10,0,0,0">
-                <WebView x:Name="WebView2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <WebView x:Name="WebViewB" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
             </Border>
         </Grid>
         <!-- Add Storyboards to the visual states below as necessary for supporting the various layouts -->

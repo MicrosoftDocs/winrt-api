@@ -14,6 +14,8 @@ public enum PopupPlacementMode
 
 Defines constants that specify the preferred location for positioning a popup relative to a visual element.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.Primitives.PopupPlacementMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.popupplacementmode) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -enum-fields
 
 ### -field Auto: 0

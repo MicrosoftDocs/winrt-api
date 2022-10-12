@@ -12,7 +12,7 @@ public Windows.ApplicationModel.PackageVersion Version { get; set; }
 
 ## -description
 
-Gets or sets a [PackageVersion](packageversion.md) object expressing the version of the App Installer file represented by the **AppInstallerInfo** object.
+Gets or sets a [PackageVersion](/uwp/api/Windows.ApplicationModel.PackageVersion) object expressing the version of the App Installer file represented by the **AppInstallerInfo** object.
 
 ## -property-value
 

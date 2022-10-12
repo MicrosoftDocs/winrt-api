@@ -56,4 +56,4 @@ BackgroundTaskRegistration task = builder.Register();
 
 ## -see-also
 
-[Communication blocking and filtering sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CommunicationBlockAndFilter)
+[Communication blocking and filtering sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CommunicationBlockAndFilter)

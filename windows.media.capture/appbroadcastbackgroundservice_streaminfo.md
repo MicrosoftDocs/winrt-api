@@ -16,6 +16,7 @@ Gets an object that manages the stream state of the app broadcast background ser
 An object that manages the stream state of the app broadcast background service.
 
 ## -remarks
+This API may throw an error if the background service has shut down due to idle timeout.
 
 ## -see-also
 

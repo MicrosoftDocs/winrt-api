@@ -24,4 +24,4 @@ The raw binary body of the publisher certificate.
 ## -examples
 
 ## -see-also
-[PlayReadySecureStopServiceRequest(Byte\[\])](playreadysecurestopservicerequest_playreadysecurestopservicerequest_52593125.md)
+[PlayReadySecureStopServiceRequest(Byte\[\])](/uwp/api/windows.media.protection.playready.playreadysecurestopservicerequest.-ctor#windows-media-protection-playready-playreadysecurestopservicerequest-ctor(system-byte()))

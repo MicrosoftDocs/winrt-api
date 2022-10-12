@@ -26,7 +26,7 @@ Event data for the event.
 The following code example demonstrates the use of the [NavigationFailed](../windows.ui.xaml.controls/webview_navigationfailed.md) event.
 
 ```csharp
-void WebView1_NavigationFailed(object sender, NavigationFailedEventArgs e)
+void webViewA_NavigationFailed(object sender, NavigationFailedEventArgs e)
 {
     var dialog = new Windows.UI.Popups.MessageDialog();
     dialog.Title = "Navigation Failed";

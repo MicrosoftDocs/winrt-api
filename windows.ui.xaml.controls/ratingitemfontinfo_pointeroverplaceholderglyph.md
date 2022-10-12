@@ -13,6 +13,8 @@ public string PointerOverPlaceholderGlyph { get;  set; }
 
 Gets or sets a Segoe MDL2 Assets font glyph that represents a rating element showing a placeholder value with the pointer over it.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.RatingItemFontInfo.PointerOverPlaceholderGlyph](/windows/winui/api/microsoft.ui.xaml.controls.ratingitemfontinfo.pointeroverplaceholderglyph) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -xaml-syntax
 
 ```xaml

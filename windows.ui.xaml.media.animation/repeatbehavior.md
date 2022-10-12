@@ -61,9 +61,9 @@ You cannot declare a RepeatBehavior as a shareable object in a [ResourceDictiona
 
 ### Projection and members of RepeatBehavior
 
-If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](repeatbehavior_type.md) are exposed as read-write properties, not fields.
+If you are using a Microsoft .NET language (C# or Microsoft Visual Basic), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.type#windows-ui-xaml-media-animation-repeatbehavior-type) are exposed as read-write properties, not fields.
 
-If you are using Visual C++ component extensions (C++/CX), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](repeatbehavior_type.md) are exposed as read-only properties, not fields.
+If you are using Visual C++ component extensions (C++/CX), then RepeatBehavior has non-data members available, and its data members [Count](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.count), [Duration](/uwp/api/windows.ui.xaml.media.animation.repeatbehavior.duration) and [Type](/dotnet/api/windows.ui.xaml.media.animation.repeatbehavior.type#windows-ui-xaml-media-animation-repeatbehavior-type) are exposed as read-only properties, not fields.
 
 If you are programming with C++ using the Windows Runtime Template Library (WRL), then only the data member fields **Count**, **Duration**, and **Type** exist as members of RepeatBehavior, and you cannot use the utility methods or properties listed in the members table. WRL code can access similar utility methods that exist on the [RepeatBehaviorHelper](repeatbehaviorhelper.md) class.
 

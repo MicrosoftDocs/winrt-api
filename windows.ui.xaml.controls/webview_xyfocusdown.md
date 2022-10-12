@@ -36,7 +36,7 @@ To avoid exceptions when your app runs on previous versions of Windows 10, do n
 
 if (ApiInformation.IsPropertyPresent("Windows.UI.Xaml.Controls.WebView", "XYFocusDown"))
 {
-    webView1.XYFocusDown = button1;
+    webViewA.XYFocusDown = button1;
 }
 ```
 

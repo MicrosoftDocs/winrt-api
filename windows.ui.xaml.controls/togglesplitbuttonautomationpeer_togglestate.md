@@ -14,6 +14,8 @@ public ToggleState ToggleState { get; }
 
 Gets the toggle state of the control.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ToggleSplitButtonAutomationPeer.ToggleState](/windows/winui/api/microsoft.ui.xaml.controls.togglesplitbuttonautomationpeer.togglestate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -property-value
 
 A value of the enumeration.

@@ -39,7 +39,7 @@ namespace SDKSample
             void Default_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
             void Other_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
     		void NavigateButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-    		void WebView1_LoadCompleted(Platform::Object^ sender, Windows::UI::Xaml::Navigation::NavigationEventArgs^ e);
+    		void webViewA_LoadCompleted(Platform::Object^ sender, Windows::UI::Xaml::Navigation::NavigationEventArgs^ e);
     		void Address_KeyUp(Platform::Object^ sender, Windows::UI::Xaml::Input::KeyRoutedEventArgs^ e);
     	};
     }

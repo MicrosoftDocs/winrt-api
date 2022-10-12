@@ -12,6 +12,8 @@ public class ProgressRingAutomationPeer : Windows.UI.Xaml.Automation.Peers.Frame
 ## -description
 Exposes [ProgressRing](../windows.ui.xaml.controls/progressring.md) types to Microsoft UI Automation.
 
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.ProgressRingAutomationPeer](/windows/winui/api/microsoft.ui.xaml.automation.peers.progressringautomationpeer) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+
 ## -remarks
 The Windows Runtime  [ProgressRing](../windows.ui.xaml.controls/progressring.md) class creates a new ProgressRingAutomationPeer as its [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) definition. [ProgressRing](../windows.ui.xaml.controls/progressring.md) is sealed, so the normal scenario of deriving from the [PasswordBox](../windows.ui.xaml.controls/passwordbox.md) class and its existing peer isn't applicable to ProgressRingAutomationPeer.
 

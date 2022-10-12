@@ -40,7 +40,7 @@ Using the foreground activation mechanism requires handling the activation in se
 
 In your [IVpnPlugin.Connect](/uwp/api/windows.networking.vpn.ivpnplugin.connect) method, you'll call **ActivateForeground** with the correct package-relative application identifier (PRAID), and a **ValueSet** that contains all of the values that you want to send to your foreground app.
 
-In the foreground app, you need to catch the activation. The foreground app will be activated with a [Windows.ApplicationModel.ActivationKind](uwp/api/windows.applicationmodel.activation.activationkind) value of **VpnForeground**. The activation arguments will be of type [Windows.Networking.Vpn.VpnForegroundActivatedEventArgs](vpnforegroundactivatedeventargs.md), and will include three fields.
+In the foreground app, you need to catch the activation. The foreground app will be activated with a [Windows.ApplicationModel.ActivationKind](/uwp/api/windows.applicationmodel.activation.activationkind) value of **VpnForeground**. The activation arguments will be of type [Windows.Networking.Vpn.VpnForegroundActivatedEventArgs](vpnforegroundactivatedeventargs.md), and will include three fields.
 
 1. *[ProfileName](vpnforegroundactivatedeventargs_profilename.md)* (**String**).
 2. *[SharedContext](vpnforegroundactivatedeventargs_sharedcontext.md)* ([ValueSet](/uwp/api/windows.foundation.collections.valueset)).

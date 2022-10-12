@@ -25,7 +25,7 @@ The [WebView](webview.md) control cannot host arbitrary file types, but you can 
 The following code example demonstrates how to handle this event to launch an external browser when the [WebView](webview.md) control cannot render the target content. For the complete example, see the [XAML WebView control sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlWebView).
 
 ```csharp
-void webView1_UnviewableContentIdentified(WebView sender, 
+void webViewA_UnviewableContentIdentified(WebView sender, 
     WebViewUnviewableContentIdentifiedEventArgs args)
 {
     appendLog(String.Format("Content for \"{0}\" cannot be loaded into webview. " +
