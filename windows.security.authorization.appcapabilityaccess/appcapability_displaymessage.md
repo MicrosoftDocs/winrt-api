@@ -17,8 +17,7 @@ The purpose of why the capability is being accessed.
 The stored display message as a string property.
 
 ## -remarks
-The display message, if specified, appears in the system tray and settings app under **Privacy & security > App permissions** pages while the capability is in use. 
-Currently, only display messages of accesses to location, camera, microphone, contacts, phone calls, messaging, screenshots and apps appear in the settings app.
+The display message, if specified, appears in the system tray and settings app under **Privacy & security > App permissions** pages while the capability is in use.
 
 ## -see-also
 
