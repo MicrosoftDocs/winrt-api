@@ -41,7 +41,7 @@ If you call Close multiple times, there is no effect; the method returns **S_OK*
 
 Close methods aren't callable through C++/CX on Windows Runtime class instances where the class implemented [IClosable](iclosable.md), but are automatically called at the end of the current scope. C++/CX code for runtime classes should call the destructor or set the last reference to **null**. 
 
-In C#, this method is exposed as [Dispose](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable.dispose?view=dotnet-uwp-10.0). You can either call Dispose directly or use a [using statement](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement).
+In C#, this method is exposed as [Dispose](/dotnet/api/system.idisposable.dispose?view=dotnet-uwp-10.0). You can either call Dispose directly or use a [using statement](/dotnet/csharp/language-reference/keywords/using-statement).
 
 ## -examples
 

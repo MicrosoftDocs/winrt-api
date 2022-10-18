@@ -50,7 +50,7 @@ Rotation is not supported for single pointer input if the value of [PivotRadius]
 
 ## -examples
 
-Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [https://docs.microsoft.com/windows/uwp/xaml-platform/events-and-routed-events-overview](/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.
+Here we set up a GestureRecognizer object with a collection of input event handlers for processing both pointer and gesture input. For more information on how to listen to and handle Windows Runtime events, see [Events and routed events overview](/windows/uwp/xaml-platform/events-and-routed-events-overview). See the [Basic input sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicInput) for the full implementation.
 
 ```csharp
 class ManipulationInputProcessor

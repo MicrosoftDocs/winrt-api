@@ -39,7 +39,7 @@ Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resourc
 
 This table shows the resources used by the ListViewItem control.
 
-*Resources marked with an asterisk are only available when using [WinUI 2.6](https://docs.microsoft.com/en-us/windows/apps/winui/winui2/release-notes/).
+*Resources marked with an asterisk are only available when using [WinUI 2.6](/windows/apps/winui/winui2/release-notes/).
 <table>
    <tr><th>Resource key</th><th>Description</th></tr>
    <tr><td>ListViewItemForeground</td><td>Text color at rest</td></tr>

@@ -27,7 +27,7 @@ The minor version number of the API contract.
 
 ## -remarks
 
-For details on finding and using API contracts, see [Programming with extension SDKs](https://docs.microsoft.com/uwp/extension-sdks/device-families-overview#api-contracts-and-how-to-look-them-up).
+For details on finding and using API contracts, see [Programming with extension SDKs](/uwp/extension-sdks/device-families-overview#api-contracts-and-how-to-look-them-up).
 
 ## -examples
 ```cs
