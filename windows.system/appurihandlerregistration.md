@@ -16,11 +16,13 @@ Sets and retrieves dynamic [AppUriHandlerHost](appurihandlerhost.md) entries for
 ## -remarks
 Registrations follow the same structure as entries in the AppxManifest:
 
+```xml
 <uap3:Extension Category="windows.appUriHandler">
     <uap3:AppUriHandler uap7:Name ="Runtime">
-        <uap3:Host Name="www.appurihandler.com" />
+        <uap3:Host Name="appurihandler.example.com" />
     </uap3:AppUriHandler>
 </uap3:Extension>
+```
 
 ## -see-also
 [AppUriHandler](/windows/uwp/launch-resume/web-to-app-linking)
