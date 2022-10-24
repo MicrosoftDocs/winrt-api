@@ -15,7 +15,7 @@ Provides socket information on a [ServerStreamWebSocket](serverstreamwebsocket.m
 ## -remarks
 
 ## -see-also
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [StreamWebSocketInformationClass](streamwebsocketinformation.md)
+[WebSockets](/windows/uwp/networking/websockets), [StreamWebSocketInformationClass](streamwebsocketinformation.md)
 
 ## -examples
 

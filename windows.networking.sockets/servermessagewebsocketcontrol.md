@@ -15,7 +15,7 @@ Provides socket control data on a [ServerMessageWebSocket](servermessagewebsocke
 ## -remarks
 
 ## -see-also
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [MessageWebSocketControl Class](messagewebsocketcontrol.md)
+[WebSockets](/windows/uwp/networking/websockets), [MessageWebSocketControl Class](messagewebsocketcontrol.md)
 
 ## -examples
 

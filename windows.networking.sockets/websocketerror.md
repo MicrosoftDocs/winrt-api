@@ -19,5 +19,5 @@ Provides socket error status on a [MessageWebSocket](messagewebsocket.md) or [St
 ## -see-also
 [MessageWebSocket](messagewebsocket.md),
 [StreamWebSocket](streamwebsocket.md),
-[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[WebSockets](/windows/uwp/networking/websockets),
 [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket)

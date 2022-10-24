@@ -16,8 +16,8 @@ The Windows.Networking.Sockets namespace provides classes and interfaces for net
 + [DatagramSocket](datagramsocket.md). A UDP datagram socket to use for network communication.
 + [StreamSocket](streamsocket.md). A stream socket to use for incoming or outgoing network communication over TCP or over Bluetooth connections that use RFCOMM.
 + [StreamSocketListener](streamsocketlistener.md). A stream socket listener to listen for incoming TCP network connections or incoming Bluetooth connections that use RFCOMM.
-+ [MessageWebSocket](messagewebsocket.md). A message-based WebSocket to read and write whole messages for network communication. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
-+ [StreamWebSocket](streamwebsocket.md). A stream-based WebSocket to read and write streams for network communications. See [WebSockets](/windows/uwp/networking/websockets?branch=live).
++ [MessageWebSocket](messagewebsocket.md). A message-based WebSocket to read and write whole messages for network communication. See [WebSockets](/windows/uwp/networking/websockets).
++ [StreamWebSocket](streamwebsocket.md). A stream-based WebSocket to read and write streams for network communications. See [WebSockets](/windows/uwp/networking/websockets).
 
 These primary classes also have a number of related information and control classes in the Windows.Networking.Sockets namespace.
 
@@ -94,7 +94,7 @@ For more detailed information on network isolation, see [How to configure networ
 
 [Adding support for networking](/previous-versions/windows/apps/hh452752(v=win.10)),
 [Connecting with sockets](/previous-versions/windows/apps/hh452976(v=win.10)),
-[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[WebSockets](/windows/uwp/networking/websockets),
 [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)),
 [How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)),
 [How to set background connectivity options](/previous-versions/windows/apps/hh771189(v=win.10)),

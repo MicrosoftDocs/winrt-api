@@ -45,7 +45,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -see-also
 
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket), [ControlChannelTrigger StreamWebSocket sample](/samples/browse/)
+[WebSockets](/windows/uwp/networking/websockets), [Handling exceptions in network apps](/previous-versions/windows/apps/dn263211(v=win.10)), [MessageWebSocket](messagewebsocket.md), [StreamWebSocketControl](streamwebsocketcontrol.md), [StreamWebSocketInformation](streamwebsocketinformation.md), [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket), [ControlChannelTrigger StreamWebSocket sample](/samples/browse/)
 
 ## -capabilities
 

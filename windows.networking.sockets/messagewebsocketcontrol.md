@@ -93,5 +93,5 @@ For more information on using MessageWebSocketControl, see [How to use advanced 
 [MessageWebSocket](messagewebsocket.md),
 [MessageWebSocket.Control](messagewebsocket_control.md),
 [MessageWebSocketInformation](messagewebsocketinformation.md),
-[WebSockets](/windows/uwp/networking/websockets?branch=live),
+[WebSockets](/windows/uwp/networking/websockets),
 [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket)

@@ -26,4 +26,4 @@ A [MessageWebSocket.MessageReceived](messagewebsocket_messagereceived.md) event 
 ## -examples
 
 ## -see-also
- [WebSockets](/windows/uwp/networking/websockets?branch=live), [MessageWebSocket](messagewebsocket.md)
+ [WebSockets](/windows/uwp/networking/websockets), [MessageWebSocket](messagewebsocket.md)

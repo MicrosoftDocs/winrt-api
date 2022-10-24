@@ -15,7 +15,7 @@ Provides socket information on a [ServerMessageWebSocket](servermessagewebsocket
 ## -remarks
 
 ## -see-also
-[WebSockets](/windows/uwp/networking/websockets?branch=live), [MessageWebSocketInformation Class](messagewebsocketinformation.md)
+[WebSockets](/windows/uwp/networking/websockets), [MessageWebSocketInformation Class](messagewebsocketinformation.md)
 
 ## -examples
 
