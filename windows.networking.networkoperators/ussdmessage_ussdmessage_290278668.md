@@ -14,7 +14,7 @@ public UssdMessage(System.String messageText)
 Creates a new instance of a UssdMessage and encodes the supplied string into the message payload.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 

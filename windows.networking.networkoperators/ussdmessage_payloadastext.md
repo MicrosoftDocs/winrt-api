@@ -14,7 +14,7 @@ public string PayloadAsText { get;  set; }
 Gets or sets the payload of this [UssdMessage](ussdmessage_ussdmessage_290278668.md) as text.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
 
 
 
