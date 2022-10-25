@@ -14,11 +14,9 @@ public Windows.Networking.NetworkOperators.ProvisioningAgent CreateFromNetworkAc
 Creates a provisioning agent for the mobile device associated with the supplied network account ID.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -parameters
 ### -param networkAccountId

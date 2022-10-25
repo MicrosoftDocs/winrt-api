@@ -20,7 +20,7 @@ A value between 0 and 1 that represents the pen contact force exerted on the dig
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 

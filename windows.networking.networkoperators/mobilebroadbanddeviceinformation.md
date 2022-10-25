@@ -14,11 +14,9 @@ public class MobileBroadbandDeviceInformation : Windows.Networking.NetworkOperat
 Represents the current state of the mobile broadband network device for the account.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -remarks
 If you're trying to get information about a SIM card that uses CMDA, the device information may contain multiple lines. Typically, the first line is for data connection and the second line contains SIM device information.

@@ -14,11 +14,9 @@ public void SkipAuthentication()
 Skips Wireless Internet Service Provider roaming (WISPr) Windows authentication.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -remarks
 **SkipAuthentication** can be used to implement a proprietary authentication flow. When **SkipAuthentication** is called, Windows checks the current Internet connectivity status over the corresponding network interface. Thus, applications implementing their own authentication should call this API when their authentication sequence is completed.

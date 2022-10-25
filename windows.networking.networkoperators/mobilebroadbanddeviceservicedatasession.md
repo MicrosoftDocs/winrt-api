@@ -14,11 +14,9 @@ public class MobileBroadbandDeviceServiceDataSession : Windows.Networking.Networ
 Represents a device service data session which allows the caller to write data to the modem on a mobile broadband device service.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -remarks
 A MobileBroadbandDeviceServiceDataSession instance is returned when the [OpenDataSession](mobilebroadbanddeviceservice_opendatasession_2126087991.md) method is called on the [MobileBroadbandDeviceService](mobilebroadbanddeviceservice.md) object.

@@ -16,11 +16,9 @@ Asynchronously provides credentials to Windows for hotspot authentication Window
 It is an asynchronous version of [IssueCredentials](hotspotauthenticationcontext_issuecredentials_808909449.md). It takes the same parameters, but the asynchronous operation only completes when the authentication is completed. In contrast, the [IssueCredentials](hotspotauthenticationcontext_issuecredentials_808909449.md) API returns as soon as the authentication is started. On completion of this method, the results object may be examined to check the status of the authentication attempt.
 
 > [!NOTE]
-> This functionality is only available to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -parameters
 ### -param userName
