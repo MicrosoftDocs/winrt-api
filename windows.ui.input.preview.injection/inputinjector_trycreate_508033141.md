@@ -15,7 +15,7 @@ public InputInjector InputInjector.TryCreate()
 Attempts to create a new instance of the [InputInjector](inputinjector.md) class.
 
 > [!NOTE]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 ## -returns
 
@@ -24,7 +24,7 @@ If successful, returns a new instance of the [InputInjector](inputinjector.md) c
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 

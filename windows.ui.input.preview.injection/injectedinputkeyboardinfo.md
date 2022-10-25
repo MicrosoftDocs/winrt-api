@@ -16,7 +16,7 @@ Represents programmatically generated keyboard input, such as a Tab or Shift+Tab
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#special-and-restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
 
 Using input injection requires the following be added to the Package.appxmanifest:
 

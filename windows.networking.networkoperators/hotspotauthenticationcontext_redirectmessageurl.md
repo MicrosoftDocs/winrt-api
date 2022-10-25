@@ -15,10 +15,8 @@ Gets the URL of the web page where the Wireless Internet Service Provider roamin
 
 > [!NOTE]
 > This functionality is available only to mobile operator apps and UWP apps given privileged access by mobile network operators.
-
-
-
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
+> 
+> If you want to use this API and publish your app to the Microsoft Store, then you'll need special approval. For more information, see the **Restricted capabilities** section in the [App capability declarations](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) topic. 
 
 ## -property-value
 A URI that contains the HTTPS or HTTP redirect URL.
