@@ -15,7 +15,7 @@ public sealed class WiFiOnDemandHotspotNetwork
 Represents a device that supports *on-demand hotspot*. The app registers that device with the operating system (OS), where the app can remotely enable the mobile hotspot. By updating properties on this object, the app can signal to the OS to update the user interface (UI). The object is keyed on a caller-chosen globally-unique identifier (GUID) that is intended to identify the device (the [Id](wifiondemandhotspotnetwork_id.md) property).
 
 > [!NOTE]
-> If you want to use this API in a UWP app, and publish your app to the Microsoft Store, then you'll need to request special approval to use the custom capability **onDemandHotspotControl** (the On-Demand Network capability). For more info, see [Custom capabilities](/windows/uwp/packaging/app-capability-declarations#custom-capabilities).
+> If you want to use this API in a UWP app, and publish your app to the Microsoft Store, then you'll need to request special approval to use the custom capability **Microsoft.onDemandHotspotControl_8wekyb3d8bbwe** (the On-Demand Network capability). For more info, see [Custom capabilities](/windows/uwp/packaging/app-capability-declarations#custom-capabilities).
 >
 > The On-Demand Network capability will be made available only to app developers building end-to-end Wi-Fi hotspot scenarios between a tethering-capable hardware device and a Windows PC.
 
