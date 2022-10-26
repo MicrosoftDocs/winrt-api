@@ -12,15 +12,17 @@ public FlyoutBase SelectionFlyout { get;  set; }
 
 ## -description
 
-Gets or sets the flyout that is shown when text is selected using touch or pen, or **null** if no flyout is shown.
-
-
+Gets or sets the flyout shown when text is selected with touch or pen input.
 
 ## -property-value
 
-The flyout that is shown when text is selected using touch or pen, or **null** if no flyout is shown. The default is an instance of [TextCommandBarFlyout](textcommandbarflyout.md).
+The flyout shown when text is selected with touch or pen input, or **null** if no flyout should be shown.
+
+The default is an instance of [TextCommandBarFlyout](textcommandbarflyout.md).
 
 ## -remarks
+
+This property has no effect when text is selected with the mouse or touchpad.
 
 ## -see-also
 
