@@ -14,6 +14,7 @@ public FlyoutBase SelectionFlyout { get;  set; }
 
 Gets or sets the flyout that is shown when text is selected using touch or pen, or **null** if no flyout is shown.
 
+Note that this property does not affect the flyout shown when text is selected using the mouse.
 
 
 ## -property-value
