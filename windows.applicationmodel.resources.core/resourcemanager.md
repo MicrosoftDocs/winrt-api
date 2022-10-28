@@ -57,7 +57,7 @@ private string ShowCandidates(string resourceId, IReadOnlyList<ResourceCandidate
         {
             var qualifierName = qualifier.QualifierName;
             var qualifierValue = qualifier.QualifierValue;
-            outText += "        Qualifer: " + qualifierName + ": " + qualifierValue + "\r\n";
+            outText += "        Qualifier: " + qualifierName + ": " + qualifierValue + "\r\n";
             outText += "        Matching: IsMatch (" + qualifier.IsMatch.ToString() + ")  " + "IsDefault (" + qualifier.IsDefault.ToString() + ")" + "\r\n";
         }
         i++;
