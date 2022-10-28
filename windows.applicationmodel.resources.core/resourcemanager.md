@@ -17,60 +17,144 @@ Provides access to application resource maps and more advanced resource function
 
 ## -examples
 
-This example is based on scenario 13 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
+This example is based on scenario 10 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the more complete solution.
 
-```javascript
-// Create a ResourceContext.
-var resourceContext = new Windows.ApplicationModel.Resources.Core.ResourceContext();
+```csharp
+private void SearchMultipleResourceIds(string language, string scale, string contrast, string homeRegion)
+{
+    // use a cloned context for this scenario so that qualifier values set
+    // in this scenario don't impact behavior in other scenarios that
+    // use a default context for the view (crossover effects between
+    // the scenarios will not be expected)
+    ResourceContext context = ResourceContext.GetForCurrentView().Clone();
+    context.QualifierValues["language"] = language;
+    context.QualifierValues["scale"] = scale;
+    context.QualifierValues["contrast"] = contrast;
+    context.QualifierValues["homeregion"] = homeRegion;
+    var resourceIds = new string[] { "LanguageOnly", "ScaleOnly", "ContrastOnly", "HomeRegionOnly", "MultiDimensional" }
+    var dimensionMap = ResourceManager.Current.MainResourceMap.GetSubtree("dimensions");
 
-// Set the specific context for lookup of resources.
-var qualifierValues = resourceContext.qualifierValues;
-qualifierValues["language"] = "en-US";
-qualifierValues["contrast"] = "standard";
-qualifierValues["scale"] = "140";
-qualifierValues["homeregion"] = "021"; // Northern America
-
-// Resources actually reside within Scenario13 Resource Map.
-var resourceIds = [
-    '/Scenario13/languageOnly',
-    '/Scenario13/scaleOnly',
-    '/Scenario13/contrastOnly',
-    '/Scenario13/homeregionOnly',
-    '/Scenario13/multiDimensional',
-];
-
-var output = { str: "" };
-resourceIds.forEach(function (resourceId) {
-    renderNamedResource(resourceId, resourceContext, output);
-});
-
-function renderNamedResource(resourceId, resourceContext, output) {
-    output.str += "Resource ID " + resourceId + ":\n";
-    // Lookup the resource in the mainResourceMap (the one for this package).
-    var namedResource = Windows.ApplicationModel.Resources.Core.ResourceManager.current.mainResourceMap.lookup(resourceId);
-
-    // Return a ResourceCandidateVectorView of all possible resources candidates
-    // resolved against the context in order of appropriateness.
-    var resourceCandidates = namedResource.resolveAll(resourceContext);
-
-    resourceCandidates.forEach(function (candidate, index) {
-        renderCandidate(candidate, index, output);
-    });
-    output.str += "\n";
+    foreach (var id in resourceIds)
+    {
+        NamedResource namedResource;
+        if (dimensionMap.TryGetValue(id, out namedResource))
+        {
+            var resourceCandidates = namedResource.ResolveAll(context);
+            string candidateInfo = ShowCandidates(id, resourceCandidates);
+        }
+    }
+    Console.WriteLine(candidateInfo);
 }
 
-function renderCandidate(candidate, index, output) {
-    // Get all the various qualifiers for the candidate (such as language, scale, contrast).
-    candidate.qualifiers.forEach(function (qualifier) {
-        output.str += "qualifierName: " + qualifier.qualifierName + "\n";
-        output.str += "qualifierValue: " + qualifier.qualifierValue + "\n";
-        output.str += "isDefault: ";
-        output.str += (qualifier.isDefault) ? "true\n" : "false\n";
-        output.str += "isMatch: ";
-        output.str += (qualifier.isMatch) ? "true\n" : "false\n";
-        output.str += "score: " + qualifier.score + "\n";
-        output.str += "\n";
-    });
+private string ShowCandidates(string resourceId, IReadOnlyList<ResourceCandidate> resourceCandidates)
+{
+    // print 'resourceId', 'found value', 'qualifier info', 'matching condition'
+    string outText = "resourceId: dimensions\\" + resourceId + "\r\n";
+    int i = 0;
+
+    foreach (var candidate in resourceCandidates)
+    {
+        var value = candidate.ValueAsString;
+        outText += "    Candidate " + i.ToString() + ":" + value + "\r\n";
+
+        foreach (var qualifier in candidate.Qualifiers)
+        {
+            var qualifierName = qualifier.QualifierName;
+            var qualifierValue = qualifier.QualifierValue;
+            outText += "        Qualifier: " + qualifierName + ": " + qualifierValue + "\r\n";
+            outText += "        Matching: IsMatch (" + qualifier.IsMatch.ToString() + ")  " + "IsDefault (" + qualifier.IsDefault.ToString() + ")" + "\r\n";
+        }
+        i++;
+    }
+
+    return outText + "\r\n";
+}
+```
+
+```cpp
+void SDKTemplate::Scenario10::Scenario10Button_Show_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+    Button^ b = safe_cast<Button^>(sender);
+    if (b != nullptr)
+    {
+        // use a cloned context for this scenario so that qualifier values set
+        // in this scenario don't impact behavior in other scenarios that
+        // use a default context for the view (crossover effects between
+        // the scenarios will not be expected)
+        auto context = ResourceContext::GetForCurrentView()->Clone();
+
+        auto selectedLanguage = Scenario10ComboBox_Language->SelectedValue;
+        auto selectedScale = Scenario10ComboBox_Scale->SelectedValue;
+        auto selectedContrast = Scenario10ComboBox_Contrast->SelectedValue;
+        auto selectedHomeRegion = Scenario10ComboBox_HomeRegion->SelectedValue;
+
+        if (selectedLanguage != nullptr)
+        {
+            context->QualifierValues->Insert("language", selectedLanguage->ToString());
+        }
+        if (selectedScale != nullptr)
+        {
+            context->QualifierValues->Insert("scale", selectedScale->ToString());
+        }
+        if (selectedContrast != nullptr)
+        {
+            context->QualifierValues->Insert("contrast", selectedContrast->ToString());
+        }
+        if (selectedHomeRegion != nullptr)
+        {
+            context->QualifierValues->Insert("homeregion", selectedHomeRegion->ToString());
+        }
+
+        Platform::Collections::Vector<String^>^ resourceIds = ref new Platform::Collections::Vector<String^>();
+        resourceIds->Append("LanguageOnly");
+        resourceIds->Append("ScaleOnly");
+        resourceIds->Append("ContrastOnly");
+        resourceIds->Append("HomeRegionOnly");
+        resourceIds->Append("MultiDimensional");
+        Scenario10_SearchMultipleResourceIds(context, resourceIds);
+    }
+}
+
+void SDKTemplate::Scenario10::Scenario10_SearchMultipleResourceIds(ResourceContext^ context, Platform::Collections::Vector<String^>^ resourceIds)
+{
+    Scenario10TextBlock->Text = "";
+    auto dimensionMap = ResourceManager::Current->MainResourceMap->GetSubtree("dimensions");
+
+    for (unsigned int it = 0; it < resourceIds->Size; it++)
+    {
+        String^ id = resourceIds->GetAt(it);
+        NamedResource^ namedResource = dimensionMap->Lookup(id);
+        if (namedResource)
+        {
+            auto resourceCandidates = namedResource->ResolveAll(context);
+            Scenario10_ShowCandidates(resourceIds->GetAt(it), resourceCandidates);
+        }
+    }
+}
+
+void SDKTemplate::Scenario10::Scenario10_ShowCandidates(String^ resourceId, Windows::Foundation::Collections::IVectorView<ResourceCandidate^>^ resourceCandidates)
+{
+    // print 'resourceId', 'found value', 'qualifier info', 'matching condition'
+    String^ outText = "resourceId: dimensions\\" + resourceId + "\r\n";
+
+    for(unsigned int i =0; i < resourceCandidates->Size; i++)
+    {
+        ResourceCandidate^ candidate = resourceCandidates->GetAt(i);
+        auto value = candidate->ValueAsString;
+
+        outText += "    Candidate " + i.ToString() + ":" + value + "\r\n";
+        for (unsigned int j = 0; j < candidate->Qualifiers->Size; j++)
+        {
+            auto qualifier = candidate->Qualifiers->GetAt(j);
+            auto qualifierName = qualifier->QualifierName;
+            auto qualifierValue = qualifier->QualifierValue;
+            outText += "        Qualifier: " + qualifierName + ": " + qualifierValue + "\r\n";
+            outText += "        Matching: IsMatch (" + qualifier->IsMatch.ToString() + ")  " + "IsDefault (" + qualifier->IsDefault.ToString() + ")" + "\r\n";
+        }
+    }
+
+    this->Scenario10TextBlock->Text += outText + "\r\n";
+
 }
 ```
 
