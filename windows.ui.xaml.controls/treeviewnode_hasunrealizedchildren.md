@@ -15,7 +15,7 @@ Gets or sets a value that indicates whether the current node has child items tha
 
 ## -property-value
 
-**true** if the current node has child items that haven't been shown; otherwise, **false**.
+**true** of the current node has child items that haven't been shown; otherwise, **false**.
 
 ## -remarks
 
