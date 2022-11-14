@@ -11,9 +11,11 @@ public class ResourceContext : Windows.ApplicationModel.Resources.Core.IResource
 # Windows.ApplicationModel.Resources.Core.ResourceContext
 
 ## -description
+
 Encapsulates all of the factors ([ResourceQualifier](resourcequalifier.md)s) that might affect resource selection.
 
 ## -remarks
+
 Resources can be sensitive to scale, and different views owned by an app are able to display simultaneously on different display devices, which might use different scales. For that reason, a ResourceContext is generally associated with a specific view, and should be obtained using [GetForCurrentView](resourcecontext_getforcurrentview_1363600702.md). (A view-independent **ResourceContext** can be obtained using [GetForViewIndependentUse](resourcecontext_getforviewindependentuse_386169056.md), but note that scale-dependent functionality will fail if invoked on a **ResourceContext** that is not associated with a view.)
 
 Do not create an instance of ResourceContext using the constructor, as it is deprecated and subject to removal in a future release.
@@ -28,85 +30,151 @@ Except where otherwise noted, methods of this class can be called on any thread.
 
 ## -examples
 
-This example is based on scenario 10 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the complete solution.
+This example is based on scenario 12 of the [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources). See the sample for the complete solution.
 
 ```csharp
-private void Scenario10Button_Show_Click(object sender, RoutedEventArgs e)
+private async void Scenario12Button_Show_Click(object sender, RoutedEventArgs e)
 {
-    Button b = sender as Button;
-    if (b != null)
-    {
-        // Use a cloned context for this scenario so that qualifier values set
-        // in this scenario don't impact behavior in other scenarios that
-        // use a default context for the view (crossover effects between
-        // the scenarios will not be expected).
-        var context = ResourceContext.GetForCurrentView().Clone();
+    // Two coding patterns will be used:
+    //   1. Get a ResourceContext on the UI thread using GetForCurrentView and pass 
+    //      to the non-UI thread
+    //   2. Get a ResourceContext on the non-UI thread using GetForViewIndependentUse
+    //
+    // Two analogous patterns could be used for ResourceLoader instead of ResourceContext.
 
-        var selectedLanguage = Scenario10ComboBox_Language.SelectedValue;
-        var selectedScale = Scenario10ComboBox_Scale.SelectedValue;
-        var selectedContrast = Scenario10ComboBox_Contrast.SelectedValue;
-        var selectedHomeRegion = Scenario10ComboBox_HomeRegion.SelectedValue;
+    // pattern 1: get a ResourceContext for the UI thread
+    ResourceContext defaultContextForUiThread = ResourceContext.GetForCurrentView();
 
-        if (selectedLanguage != null)
+    // pattern 2: we'll create a view-independent context in the non-UI worker thread
+
+    // We need some things in order to display results in the UI (doing that
+    // for purposes of this sample, to show that work was actually done in the
+    // worker thread):
+    List<string> uiDependentResourceList = new List<string>();
+    List<string> uiIndependentResourceList = new List<string>();
+
+    // use a worker thread for the heavy lifting so the UI isn't blocked
+    await Windows.System.Threading.ThreadPool.RunAsync(
+        (source) =>
         {
-            context.QualifierValues["language"] = selectedLanguage.ToString();
-        }
-        if (selectedScale != null)
-        {
-            context.QualifierValues["scale"] = selectedScale.ToString();
-        }
-        if (selectedContrast != null)
-        {
-            context.QualifierValues["contrast"] = selectedContrast.ToString();
-        }
-        if (selectedHomeRegion != null)
-        {
-            context.QualifierValues["homeregion"] = selectedHomeRegion.ToString();
-        }
-        Scenario10_SearchMultipleResourceIds(context, new string[] { "LanguageOnly", "ScaleOnly", "ContrastOnly", "HomeRegionOnly", "MultiDimensional" });
-    }
+            ResourceMap stringResourceMap = ResourceManager.Current.MainResourceMap.GetSubtree("Resources");
+
+            // pattern 1: the defaultContextForUiThread variable was created above and is visible here
+
+            // pattern 2: get a view-independent ResourceContext
+            ResourceContext defaultViewIndependentResourceContext = ResourceContext.GetForViewIndependentUse();
+
+            // NOTE: The ResourceContext obtained using GetForViewIndependentUse() has no scale qualifier
+            // value set. If this ResourceContext is used in its default state to retrieve a resource, that 
+            // will work provided that the resource does not have any scale-qualified variants. But if the
+            // resource has any scale-qualified variants, then that will fail at runtime.
+            //
+            // A scale qualifier value on this ResourceContext can be set programmatically. If that is done,
+            // then the ResourceContext can be used to retrieve a resource that has scale-qualified variants.
+            // But if the scale qualifier is reset (e.g., using the ResourceContext.Reset() method), then
+            // it will return to the default state with no scale qualifier value set, and cannot be used
+            // to retrieve any resource that has scale-qualified variants.
+
+            // simulate processing a number of items
+            // just using a single string resource: that's sufficient to demonstrate 
+            for (var i = 0; i < 4; i++)
+            {
+                // pattern 1: use the ResourceContext from the UI thread
+                string listItem1 = stringResourceMap.GetValue("string1", defaultContextForUiThread).ValueAsString;
+                uiDependentResourceList.Add(listItem1);
+
+                // pattern 2: use the view-independent ResourceContext
+                string listItem2 = stringResourceMap.GetValue("string1", defaultViewIndependentResourceContext).ValueAsString;
+                uiIndependentResourceList.Add(listItem2);
+            }
+        });
+
+    // Display the results in one go. (A more finessed design might add results
+    // in the UI asynchronously, but that goes beyond what this sample is 
+    // demonstrating.)
+    ViewDependentResourcesList.ItemsSource = uiDependentResourceList;
+    ViewIndependentResourcesList.ItemsSource = uiIndependentResourceList;
 }
+```
 
-void Scenario10_SearchMultipleResourceIds(ResourceContext context, string[] resourceIds)
+```cpp
+void Scenario12::Scenario12Button_Show_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-    this.Scenario10TextBlock.Text = "";
-    var dimensionMap = ResourceManager.Current.MainResourceMap.GetSubtree("dimensions");
+    // Two coding patterns will be used:
+    //   1. Get a ResourceContext on the UI thread using GetForCurrentView and pass 
+    //      to the non-UI thread
+    //   2. Get a ResourceContext on the non-UI thread using GetForViewIndependentUse
+    //
+    // Two analogous patterns could be used for ResourceLoader instead of ResourceContext.
 
-    foreach (var id in resourceIds)
-    {
-        NamedResource namedResource;
-        if (dimensionMap.TryGetValue(id, out namedResource))
+    // pattern 1: get a ResourceContext for the UI thread
+    ResourceContext^ defaultContextForUiThread = ResourceContext::GetForCurrentView();
+
+    // pattern 2: we'll create a view-independent context in the non-UI worker thread
+
+    // We need some things in order to display results in the UI (doing that
+    // for purposes of this sample, to show that work was actually done in the
+    // worker thread): a pair of vectors to capture data, and a pair of variable 
+    // references to the controls where the results will be displayed (needed to
+    // pass to the .then lambda).
+    Platform::Collections::Vector<Platform::String^>^ uiDependentResourceItems = ref new Platform::Collections::Vector<Platform::String^>();
+    Platform::Collections::Vector<Platform::String^>^ uiIndependentResourceItems = ref new Platform::Collections::Vector<Platform::String^>();
+    ItemsControl^ viewDependentListControl = ViewDependentResourcesList;
+    ItemsControl^ viewIndependentListControl = ViewIndependentResourcesList;
+
+
+    // use a worker thread for the heavy lifting so the UI isn't blocked
+    concurrency::create_task(
+        Windows::System::Threading::ThreadPool::RunAsync(
+            ref new Windows::System::Threading::WorkItemHandler(
+            [defaultContextForUiThread, uiDependentResourceItems, uiIndependentResourceItems](Windows::Foundation::IAsyncAction^ /*action*/)
         {
-            var resourceCandidates = namedResource.ResolveAll(context);
-            Scenario10_ShowCandidates(id, resourceCandidates);
-        }
-    }
-}
+            // This is happening asynchronously on a background worker thread,
+            // not on the UI thread.
+            ResourceMap^ stringResourceMap = ResourceManager::Current->MainResourceMap->GetSubtree("Resources");
 
-void Scenario10_ShowCandidates(string resourceId, IReadOnlyList<ResourceCandidate> resourceCandidates)
-{
-    // Print 'resourceId', 'found value', 'qualifer info', 'matching condition'
-    string outText = "resourceId: dimensions\\" + resourceId + "\r\n";
-    int i = 0;
-    foreach (var candidate in resourceCandidates)
+            // coding pattern 1: the defaultContextForUiThread variable was created above and has been captured to use here
+
+            // coding pattern 2: get a view-independent ResourceContext
+            ResourceContext^ defaultViewIndependentResourceContext = ResourceContext::GetForViewIndependentUse();
+
+            // NOTE: The ResourceContext obtained using GetForViewIndependentUse() has no scale qualifier
+            // value set. If this ResourceContext is used in its default state to retrieve a resource, that 
+            // will work provided that the resource does not have any scale-qualified variants. But if the
+            // resource has any scale-qualified variants, then that will fail at runtime.
+            //
+            // A scale qualifier value on this ResourceContext can be set programmatically. If that is done,
+            // then the ResourceContext can be used to retrieve a resource that has scale-qualified variants.
+            // But if the scale qualifier is reset (e.g., using the ResourceContext::Reset() method), then
+            // it will return to the default state with no scale qualifier value set, and cannot be used
+            // to retrieve any resource that has scale-qualified variants.
+
+            // simulate processing a number of items
+            // just using a single string resource: that's sufficient to demonstrate 
+            for (auto i = 0; i < 4; i++)
+            {
+                // pattern 1: use the ResourceContext from the UI thread
+                Platform::String^ item1 = stringResourceMap->GetValue("string1", defaultContextForUiThread)->ValueAsString;
+                uiDependentResourceItems->Append(item1);
+
+                // pattern 2: use the view-independent ResourceContext
+                Platform::String^ item2 = stringResourceMap->GetValue("string1", defaultViewIndependentResourceContext)->ValueAsString;
+                uiIndependentResourceItems->Append(item2);
+            }
+        }))
+    ).then([uiDependentResourceItems, uiIndependentResourceItems, viewDependentListControl, viewIndependentListControl]
     {
-        var value = candidate.ValueAsString;
-        outText += "    Candidate " + i.ToString() + ":" + value + "\r\n";
-        int j = 0;
-        foreach (var qualifier in candidate.Qualifiers)
-        {
-            var qualifierName = qualifier.QualifierName;
-            var qualifierValue = qualifier.QualifierValue;
-            outText += "        Qualifer: " + qualifierName + ": " + qualifierValue + "\r\n";
-            outText += "        Matching: IsMatch (" + qualifier.IsMatch.ToString() + ")  " + "IsDefault (" + qualifier.IsDefault.ToString() + ")" + "\r\n";
-            j++;
-        }
-        i++;
-    }
+        // After the async work is complete, this will execute on the UI thread.
 
-    this.Scenario10TextBlock.Text += outText + "\r\n";
+        // Display the results in one go. (A more finessed design might add results
+        // in the UI asynchronously, but that goes beyond what this sample is 
+        // demonstrating.)
+        viewDependentListControl->ItemsSource = uiDependentResourceItems;
+        viewIndependentListControl->ItemsSource = uiIndependentResourceItems;
+    });
 }
 ```
 
 ## -see-also
+
 [ResourceQualifier](resourcequalifier.md), [Application resources and localization sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ApplicationResources)
