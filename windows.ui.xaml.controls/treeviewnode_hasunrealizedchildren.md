@@ -17,7 +17,7 @@ Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.TreeViewNode.Has
 
 ## -property-value
 
-**true** of the current node has child items that haven't been shown; otherwise, **false**.
+**true** if the current node has child items that haven't been shown; otherwise, **false**.
 
 ## -remarks
 
