@@ -83,7 +83,7 @@ Input scope is intended for working with telephone numbers.
 
 ### -field TelephoneCountryCode:33
 
-Input scope is intended for working with a numeric telephone country code.
+Input scope is intended for working with a numeric telephone country/region code.
 
 ### -field TelephoneAreaCode:34
 
