@@ -11,7 +11,7 @@ public string AppUserModelId { get; }
 
 ## -description
 
-Gets the Application User Model ID (AUMID) for this **AppListEntry**.
+Gets the **Application User Model ID (AUMID)** for this `AppListEntry`.
 
 ## -property-value
 
