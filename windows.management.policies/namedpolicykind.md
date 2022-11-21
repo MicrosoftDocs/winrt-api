@@ -24,7 +24,7 @@ Possible data types representing the MDM policy value.
 The policy is invalid.
 
 ## -field Binary:1
-The policy is represented by a binary.
+The policy is represented by binary data (a sequence of bytes).
 
 ## -field Boolean:2
 The policy is represented by a boolean.
