@@ -12,7 +12,7 @@ public NamedPolicyData NamedPolicy.GetPolicyFromPathForUser(User user, String ar
 
 ## -description
 
-Gets a valid MDM user policy given the specified MDM policy name and area name. This is more user friendly than [GetPolicyFromPath](namedpolicy_getpolicyfrompath_340705329.md).
+Gets a valid MDM user policy given the specified MDM policy name and area name. This gets a policy specific to a user, whereas [GetPolicyFromPath](namedpolicy_getpolicyfrompath_340705329.md) gets a global policy.
 
 ## -parameters
 
