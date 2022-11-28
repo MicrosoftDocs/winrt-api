@@ -11,7 +11,7 @@ public enum IsolatedWindowsEnvironmentProgressState : int
 
 ## -description
 
-Returned during Isolated Windows Environment creation, it represents the state the environment.
+Returned during Isolated Windows Environment creation, it represents the state of the creation process.
 
 ## -enum-fields
 
