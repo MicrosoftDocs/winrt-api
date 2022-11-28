@@ -21,9 +21,7 @@ An asynchronous operation which returns a boolean value indicating whether sign-
 
 ## -see-also
 
-[TryWaitForSignInAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninasync_2135355077.md)
-
-[IsolatedWindowsEnvironmentSignInProgress](isolatedwindowsenvironmentsigninprogress.md)
+[TryWaitForSignInAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninasync_2135355077.md), [IsolatedWindowsEnvironmentSignInProgress](isolatedwindowsenvironmentsigninprogress.md)
 
 ## -examples
 
