@@ -27,6 +27,8 @@ An asynchronous operation which returns a boolean value indicating whether sign-
 
 ## -examples
 
+The following example gets an isolated environment by its Id and attempts to sign in using `TryWaitForSignInWithProgressAsync()` while checking the progress of the sign in operation.
+
 ``` cpp
 void GetEnvironmentSignInInfo()
 {
