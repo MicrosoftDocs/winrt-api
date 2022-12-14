@@ -13,6 +13,8 @@ public void SetSignal (Windows.Devices.Display.Core.DisplayTaskSignalKind signal
 
 Creates a fence as part of the presentation pipeline, which will be signaled at a specified point in time by the graphics scheduler. You can **SetSignal** multiple times to provide fences for multiple events for the primary buffer that's part of the current present.
 
+The fence value that is signaled is the value that's returned from [DisplayTaskPool.TryExecuteTask](/uwp/api/windows.devices.display.core.displaytaskpool.tryexecutetask) in the [DisplayTaskResult.PresentId](/uwp/api/windows.devices.display.core.displaytaskresult.presentid) property (it's very probable that it will increase by 1 with each Present).
+
 ## -parameters
 
 ### -param signalKind
