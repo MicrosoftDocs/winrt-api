@@ -76,15 +76,42 @@ There are several different ways to define a SolidColorBrush as an inline UI val
 
 + Select a predefined color by name, and rely on the XAML "shortcut" that this color will create a SolidColorBrush when it's parsed. For example, you can set the [Fill](../windows.ui.xaml.shapes/shape_fill.md) of a [Rectangle](../windows.ui.xaml.shapes/rectangle.md) to "Red" like this:
 
-[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+```xaml
+<Canvas
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
-+ Create a color within a 32-bit color palette by specifying the amounts of red, green, and blue to combine into a single solid color.
+  <!-- This rectangle's fill is painted with a red SolidColorBrush,
+       described using a named color. -->
+  <Rectangle Width="100" Height="100" Fill="Red" />
+</Canvas>
+```
 
-[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
++ Select a custom color from a 24-bit color range consisting of chosen amounts of red, green, and blue by using a hexadecimal RGB color code:
+```xaml
+<Canvas
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-[!code-xaml[SolidColorBrushIntroExampleWholePage](../windows.ui.xaml.media/code/brushes_snip/csharp/solidcolorbrush_intro.xaml#SnippetSolidColorBrushIntroExampleWholePage)]
+  <!-- This rectangle's fill is painted with a Red SolidColorBrush,
+       described using an RGB-style hex color code. -->
+  <Rectangle Width="100" Height="100" Fill="#FF0000" />
+</Canvas>
+```
 
++ You can also specify a custom color with a specified opacity by setting the desired property to an ARGB color code in hexadecimal format:
+```xaml
+<Canvas
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <!-- This rectangle's fill is painted with a fully opaque red SolidColorBrush,
+       described using an ARGB style hex code. -->
+  <Rectangle Width="100" Height="100" Fill="#FFFF0000" />
+</Canvas>
+```
+
+Solid color brushes can be created in code-behind by instantiating a SolidColorBrush object with a predefined color from the [Colors](../windows.ui/colors.md) struct.
 ```csharp
 SolidColorBrush greenBrush = new SolidColorBrush(Colors.Green);
 ```
