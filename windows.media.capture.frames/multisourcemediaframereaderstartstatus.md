@@ -19,9 +19,6 @@ public enum MultiSourceMediaFrameReaderStartStatus : int {
 Specifies the status of a [MultiSourceMediaFrameReader](multisourcemediaframereader.md) start operation. A value from this enumeration is returned by the [MultiSourceMediaFrameReader.StartAsync](multisourcemediaframereader_startasync_1931900819.md) method.
 
 ## -enum-fields
-
-.
-
 ## -field Success:0
 The frame reader was started successfully.
 
