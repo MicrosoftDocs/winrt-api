@@ -59,7 +59,7 @@ The device supports the HSDPA data service implemented by GSM providers.
 The device supports the HSUPA (High Speed Uplink Packet Access) data service.
 
 ### -field LteAdvanced:32
-The device supports the HSDPA Lite data service implemented by GSM providers.
+The device supports the LTE Advanced (LTE+) data service implemented by GSM providers.
 
 ### -field NewRadioNonStandalone:64
 Specifies the 5G non-standalone data service leveraging LTE core.
