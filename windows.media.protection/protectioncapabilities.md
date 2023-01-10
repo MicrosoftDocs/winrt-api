@@ -19,7 +19,6 @@ Individual elements of queries for DRM capabilities are referred to as features.
 
 For hardware DRM, all of the video subystems must be GPU accelerated.  For software DRM, all of the video subsystems may be, and typically are, GPU accelerated.  This means that playback performance is not significantly different between them in the best case.  Hardware DRM’s goal is to provide a higher level of content protection robustness than software DRM.
 
-An HTML5/JavaScript UWP app relying on the HTML5 **HTMLMediaElement** must use the Encrypted Media Extensions (EME) **MSMediaKeys.isTypeSupportedWithFeatures** method instead of this WinRT API.  Method input parameters and the 3-level response result are the same as for the [IsTypeSupported](protectioncapabilities_istypesupported_2024884020.md) method.
 
 ## -see-also
 
