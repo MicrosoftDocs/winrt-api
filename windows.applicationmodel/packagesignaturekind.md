@@ -17,7 +17,7 @@ Provides information about the package's signature and the kind of certificate u
 The package is not signed. For example, a Visual Studio project that is running from layout (F5).
 
 ### -field Developer:1
-The package is signed with a trusted certificate that is not categorized as `Enterirse`, `Store`, or `System`. For example, an application signed by an ISV for distrubution outside of the Microsoft Store.
+The package is signed with a trusted certificate that is not categorized as `Enterprise`, `Store`, or `System`. For example, an application signed by an ISV for distrubution outside of the Microsoft Store.
 
 ### -field Enterprise:2
 The package is signed using a certificate issued by a root authority that has higher verification requirements than general public authorities. 
