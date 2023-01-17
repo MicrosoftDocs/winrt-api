@@ -37,51 +37,11 @@ A RadioButton has two states: selected or cleared. When a RadioButton is selecte
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+**WinUI Styles (recommended):** When you use the updated styles from WinUI 2.6 or later, the resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [RadioButton_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/RadioButton_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-This table shows the resources used by the RadioButton control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>RadioButtonBackground</td><td>Background color of entire control bounds at rest</td></tr>
-   <tr><td>RadioButtonBackgroundPointerOver</td><td>Background color on hover</td></tr>
-   <tr><td>RadioButtonBackgroundPressed</td><td>Background color when pressed</td></tr>
-   <tr><td>RadioButtonBackgroundDisabled</td><td>Background color when disabled</td></tr>
-   <tr><td>RadioButtonForeground</td><td>Label color at rest</td></tr>
-   <tr><td>RadioButtonForegroundPointerOver</td><td>Label color on hover</td></tr>
-   <tr><td>RadioButtonForegroundPressed</td><td>Label color when pressed</td></tr>
-   <tr><td>RadioButtonForegroundDisabled</td><td>Label color when disabled</td></tr>
-   <tr><td>RadioButtonBorderBrush</td><td>Border color of entire control bounds at rest</td></tr>
-   <tr><td>RadioButtonBorderBrushPointerOver</td><td>Border color on hover</td></tr>
-   <tr><td>RadioButtonBorderBrushPressed</td><td>Border color when pressed</td></tr>
-   <tr><td>RadioButtonBorderBrushDisabled</td><td>Border color when disabled</td></tr>
-   <tr><td>RadioButtonOuterEllipseStroke</td><td>Border color of unselected circular button</td></tr>
-   <tr><td>RadioButtonOuterEllipseStrokePointerOver</td><td>Border color of unselected circular button on hover</td></tr>
-   <tr><td>RadioButtonOuterEllipseStrokePressed</td><td>Border color of unselected circular button when pressed</td></tr>
-   <tr><td>RadioButtonOuterEllipseStrokeDisabled</td><td>Border color of unselected circular button when disabled</td></tr>
-   <tr><td>RadioButtonOuterEllipseFill</td><td>Background color of unselected circular button</td></tr>
-   <tr><td>RadioButtonOuterEllipseFillPointerOver</td><td>Background color of unselected circular button on hover</td></tr>
-   <tr><td>RadioButtonOuterEllipseFillPressed</td><td>Background color of unselected circular button when pressed</td></tr>
-   <tr><td>RadioButtonOuterEllipseFillDisabled</td><td>Background color of unselected circular button when disabled</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedStroke</td><td>Border color of selected circular button</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedStrokePointerOver</td><td>Border color of selected circular button on hover</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedStrokePressed</td><td>Border color of selected circular button when pressed</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedStrokeDisabled</td><td>Border color of selected circular button when disabled</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedFill</td><td>Background color of selected circular button</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedFillPointerOver</td><td>Background color selected circular button on hover</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedFillPressed</td><td>Background color selected circular button when pressed</td></tr>
-   <tr><td>RadioButtonOuterEllipseCheckedFillDisabled</td><td>Background color selected circular button when disabled</td></tr>
-   <tr><td>RadioButtonCheckGlyphStroke</td><td>Border color of the selected button's 'dot'</td></tr>
-   <tr><td>RadioButtonCheckGlyphStrokePointerOver</td><td>Border color of the selected button's 'dot' on hover</td></tr>
-   <tr><td>RadioButtonCheckGlyphStrokePressed</td><td>Border color of the selected button's 'dot' when pressed</td></tr>
-   <tr><td>RadioButtonCheckGlyphStrokeDisabled</td><td>Border color of the selected button's 'dot' when disabled</td></tr>
-   <tr><td>RadioButtonCheckGlyphFill</td><td>Color of the selected button's 'dot'</td></tr>
-   <tr><td>RadioButtonCheckGlyphFillPointerOver</td><td>Color of the selected button's 'dot' on hover</td></tr>
-   <tr><td>RadioButtonCheckGlyphFillPressed</td><td>Color of the selected button's 'dot' when pressed</td></tr>
-   <tr><td>RadioButtonCheckGlyphFillDisabled</td><td>Color of the selected button's 'dot' when disabled</td></tr>
-</table>
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ## -examples
 

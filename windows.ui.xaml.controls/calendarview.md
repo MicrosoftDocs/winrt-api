@@ -109,37 +109,11 @@ A CalendarView can contain a large number of [CalendarViewDayItem](calendarviewd
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+**WinUI Styles (recommended):** When you use the updated styles from WinUI 2.6 or later, the resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [CalendarView_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/CalendarView_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-This table shows the resources used by the CalendarView control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>CalendarViewBorderBrush</td><td>Border color of the calendar grid</td></tr>
-   <tr><td>CalendarViewFocusBorderBrush</td><td>Border color of a calendar item when focused</td></tr>
-   <tr><td>CalendarViewHoverBorderBrush</td><td>Border color of a calendar item on hover</td></tr>
-   <tr><td>CalendarViewPressedBorderBrush</td><td>Border color of a calendar item when pressed</td></tr>
-   <tr><td>CalendarViewSelectedBorderBrush</td><td>Border color of a selected calendar item</td></tr>
-   <tr><td>CalendarViewSelectedHoverBorderBrush</td><td>Border color of a selected calendar item on hover</td></tr>
-   <tr><td>CalendarViewSelectedPressedBorderBrush</td><td>Border color of a selected calendar item when pressed</td></tr>
-   <tr><td>CalendarViewBackground</td><td>Background color of the calendar header</td></tr>
-   <tr><td>CalendarViewForeground</td><td>Foreground color of the calendar navigation header</td></tr>
-   <tr><td>CalendarViewSelectedForeground</td><td>Foreground color of a selected calendar item</td></tr>
-   <tr><td>CalendarViewPressedForeground</td><td>Foreground color of a calendar item when pressed</td></tr>
-   <tr><td>CalendarViewTodayForeground</td><td>Foreground color of the today calendar item</td></tr>
-   <tr><td>CalendarViewBlackoutForeground</td><td>Foreground color of blacked out calendar items</td></tr>
-   <tr><td>CalendarViewWeekDayForegroundDisabled</td><td>Color of week and day labels when disabled</td></tr>
-   <tr><td>CalendarViewOutOfScopeForeground</td><td>Foreground color of out of scope calendar items</td></tr>
-   <tr><td>CalendarViewOutOfScopeBackground</td><td>Background color of out of scope calendar items</td></tr>
-   <tr><td>CalendarViewCalendarItemForeground</td><td>Foreground color of calendar items</td></tr>
-   <tr><td>CalendarViewCalendarItemBackground</td><td>Background color of calendar items</td></tr>
-   <tr><td>CalendarViewNavigationButtonBackground</td><td>Background color of the calendar navigation header</td></tr>
-   <tr><td>CalendarViewNavigationButtonForegroundPointerOver</td><td>Foreground color of the calendar navigation header on hover</td></tr>
-   <tr><td>CalendarViewNavigationButtonForegroundPressed</td><td>Foreground color of the calendar navigation header when pressed</td></tr>
-   <tr><td>CalendarViewNavigationButtonForegroundDisabled</td><td>Foreground color of the calendar navigation header when disabled</td></tr>
-</table>
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ## -examples
 

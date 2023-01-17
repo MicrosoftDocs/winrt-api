@@ -39,39 +39,11 @@ If you need to handle pointer events for a [UIElement](../windows.ui.xaml/uielem
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+**WinUI Styles (recommended):** When you use the updated styles from WinUI 2.6 or later, the resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [ComboBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/ComboBox/ComboBox_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-This table shows the resources used by the ComboBox control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>ComboBoxBackground</td><td>Background color at rest</td></tr>
-   <tr><td>ComboBoxBackgroundPointerOver</td><td>Background color on hover</td></tr>
-   <tr><td>ComboBoxBackgroundPressed</td><td>Background color when pressed</td></tr>
-   <tr><td>ComboBoxBackgroundDisabled</td><td>Background color when disabled</td></tr>
-   <tr><td>ComboBoxBackgroundUnfocused</td><td>Background color when unfocused</td></tr>
-   <tr><td>ComboBoxBackgroundBorderBrushFocused</td><td>Border color around box after item has been selected and control has focus</td></tr>
-   <tr><td>ComboBoxBackgroundBorderBrushUnfocused</td><td>Border color around box after item has been selected and control is unfocused</td></tr>
-   <tr><td>ComboBoxForeground</td><td>Text color of selected item at rest</td></tr>
-   <tr><td>ComboBoxForegroundDisabled</td><td>Text color of selected item when disabled</td></tr>
-   <tr><td>ComboBoxForegroundFocused</td><td>Text color of selected item when focused</td></tr>
-   <tr><td>ComboBoxForegroundFocusedPressed</td><td>Text color of selected item pressed and focused</td></tr>
-   <tr><td>ComboBoxPlaceHolderForeground</td><td>Placeholder text color</td></tr>
-   <tr><td>ComboBoxPlaceHolderForegroundFocusedPressed</td><td>Placeholder text color when pressed and focused</td></tr>
-   <tr><td>ComboBoxBorderBrush</td><td>Border color at rest</td></tr>
-   <tr><td>ComboBoxBorderBrushPointerOver</td><td>Border color on hover</td></tr>
-   <tr><td>ComboBoxBorderBrushPressed</td><td>Border color when pressed</td></tr>
-   <tr><td>ComboBoxBorderBrushDisabled</td><td>Border color when disabled</td></tr>
-   <tr><td>ComboBoxDropDownGlyphForeground</td><td>Drop down arrow color at rest</td></tr>
-   <tr><td>ComboBoxDropDownGlyphForegroundDisabled</td><td>Drop down arrow color when disabled</td></tr>
-   <tr><td>ComboBoxDropDownGlyphForegroundFocused</td><td>Drop down arrow color when focused</td></tr>
-   <tr><td>ComboBoxDropDownGlyphForegroundFocusedPressed</td><td>Drop down arrow color when focused and pressed</td></tr>
-   <tr><td>ComboBoxDropDownBackground</td><td>Background color of drop down arrow control bounds</td></tr>
-   <tr><td>ComboBoxDropDownForeground</td><td>Not used</td></tr>
-   <tr><td>ComboBoxDropDownBorderBrush</td><td>Border color around control's popup when selecting items</td></tr>
-</table>
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ### Version history
 
