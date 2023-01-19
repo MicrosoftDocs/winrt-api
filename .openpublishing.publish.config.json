@@ -2,7 +2,7 @@
   "docsets_to_publish": [
     {
       "docset_name": "Fake-Docset-Name",
-      "build_source_folder": "winrt-api-src/content",
+      "build_source_folder": "winrt-api-build",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
