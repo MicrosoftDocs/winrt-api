@@ -35,6 +35,13 @@ The [IsIndeterminate](progressbar_isindeterminate.md) property determines the ap
 + Set [IsIndeterminate](progressbar_isindeterminate.md) to **true** to display a repeating pattern. An alternative control to use for indeterminate progress is a [ProgressRing](progressring.md).
 + Set [IsIndeterminate](progressbar_isindeterminate.md) to **false** to fill the bar based on a value. When [IsIndeterminate](progressbar_isindeterminate.md) is **false**, you specify the range with the [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) and [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) properties. By default [Minimum](../windows.ui.xaml.controls.primitives/rangebase_minimum.md) is 0 and [Maximum](../windows.ui.xaml.controls.primitives/rangebase_maximum.md) is 100. To specify the progress value, you set the [Value](../windows.ui.xaml.controls.primitives/rangebase_value.md) property.
 
+### Control style and template
+
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+
+**WinUI Styles (recommended):** Use [Microsoft.UI.Xaml.Controls.ProgressBar](/windows/winui/api/microsoft.ui.xaml.controls.progressbar).
+
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ### Notes for Windows 8.x
 
