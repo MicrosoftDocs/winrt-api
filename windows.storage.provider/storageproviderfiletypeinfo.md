@@ -12,7 +12,7 @@ public sealed class StorageProviderFileTypeInfo
 ## -description
 
 > [!NOTE]
-> Scenarios for this API are currently not supported, but will be in future releases.
+> Scenarios for this API are not supported.
 
 ## -remarks
 
