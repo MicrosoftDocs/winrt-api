@@ -15,8 +15,4 @@ The container used to populate the storage provider status UI flyout.
 
 ## -see-also
 
-[IStorageProviderUICommand](istorageprovideruicommand.md)
-
-[StorageProviderQuotaUI](storageproviderquotaui.md)
-
-[StorageProviderMoreInfoUI](storageprovidermoreinfoui.md)
+[IStorageProviderUICommand](istorageprovideruicommand.md), [StorageProviderQuotaUI](storageproviderquotaui.md), [StorageProviderMoreInfoUI](storageprovidermoreinfoui.md)
