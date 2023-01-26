@@ -11,11 +11,10 @@ public System.Collections.Generic.IList<Windows.Storage.Provider.StorageProvider
 
 ## -description
 
-The `FallbackFileTypeInfo` property specifies which file types support a web-based viewing or editing experience.
+> [!NOTE]
+> Scenarios for this API are not supported.
 
 ## -property-value
-
-A list of [StorageProviderFileTypeInfo](storageproviderfiletypeinfo.md) objects.
 
 ## -remarks
 
