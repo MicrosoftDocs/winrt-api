@@ -13,7 +13,8 @@ public event TypedEventHandler ShareCompleted<DataPackage, ShareCompletedEventAr
 An event that is triggered when a share is completed. Shares can be sent to an app, a provider, or a contact.
 
 ## -remarks
-Note that selecting "Copy link" does not count as a share and thus does not fire this event, nor ShareCanceled.
+> [!NOTE]
+> Selecting "Copy link" is not considered a *share* and thus does not fire this event, nor `ShareCanceled`.
 
 ## -see-also
 
