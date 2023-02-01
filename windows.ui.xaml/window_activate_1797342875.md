@@ -19,7 +19,7 @@ If you use the default app templates from Microsoft Visual Studio, Window.Activa
 
 Calling Activate is required for all app activation scenario, not just app launch.
 
-This method is important for the correct operation of an app. If an app does not call Activate on the [Current](application_current.md) window, and the app is not visible on screen, then the app will be terminated after 15 seconds. If the app or its splash screen is kept on screen there is no time limit, but eventually the app needs to call Activate to progress. Also, certain app contracts extend the time limit.
+This method is important for the correct operation of an app. If an app does not call Activate on the [Current](application_current.md) window, and the app is not visible on screen, then the app will be terminated after 15 seconds if it's a UWP app. If the app or its splash screen is kept on screen there is no time limit, but eventually the app needs to call Activate to progress. Also, certain app contracts extend the time limit.
 
 You can modify the default [OnLaunched](application_onlaunched_859642554.md) implementation in order to delay calling Activate. You might do this to have all app rendering be complete before the main [Window](window.md) is shown. For example, a delay can be useful to finish loading [Image](../windows.ui.xaml.controls/image.md) source files in the initial UI. (These load asynchronously and it's impractical to handle [ImageOpened](../windows.ui.xaml.controls/image_imageopened.md) from app.xaml code-behind.) On the other hand, delaying the call can create an undesirable user experience if the splash screen is visible for too long.
 
