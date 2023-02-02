@@ -48,87 +48,11 @@ The CheckBox control inherits from [ToggleButton](../windows.ui.xaml.controls.pr
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+**WinUI Styles (recommended):** When you use the updated styles from WinUI 2.6 or later, the resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [CheckBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/CheckBox_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-This table shows the resources used by the CheckBox control.
-
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>CheckBoxForegroundUnchecked</td><td>Label text color at rest and unchecked</td></tr>
-   <tr><td>CheckBoxForegroundUncheckedPointerOver</td><td>Label text color on hover and unchecked</td></tr>
-   <tr><td>CheckBoxForegroundUncheckedPressed</td><td>Label text color when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxForegroundUncheckedDisabled</td><td>Label text color when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxForegroundChecked</td><td>Label text color at rest and checked</td></tr>
-   <tr><td>CheckBoxForegroundCheckedPointerOver</td><td>Label text color on hover and checked</td></tr>
-   <tr><td>CheckBoxForegroundCheckedPressed</td><td>Label text color when pressed and checked</td></tr>
-   <tr><td>CheckBoxForegroundCheckedDisabled</td><td>Label text color when disabled and checked</td></tr>
-   <tr><td>CheckBoxForegroundIndeterminate</td><td>Label text color at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxForegroundIndeterminatePointerOver</td><td>Label text color on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxForegroundIndeterminatePressed</td><td>Label text color when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxForegroundIndeterminateDisabled</td><td>Label text color when disabled and indeterminate</td></tr>
-   <tr><td>CheckBoxBackgroundUnchecked</td><td>Background color of entire control at rest and unchecked</td></tr>
-   <tr><td>CheckBoxBackgroundUncheckedPointerOver</td><td>Background color of entire control on hover and unchecked</td></tr>
-   <tr><td>CheckBoxBackgroundUncheckedPressed</td><td>Background color of entire control when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxBackgroundUncheckedDisabled</td><td>Background color of entire control when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxBackgroundChecked</td><td>Background color of entire control at rest and checked</td></tr>
-   <tr><td>CheckBoxBackgroundCheckedPointerOver</td><td>Background color of entire control on hover and checked</td></tr>
-   <tr><td>CheckBoxBackgroundCheckedPressed</td><td>Background color of entire control when pressed and checked</td></tr>
-   <tr><td>CheckBoxBackgroundCheckedDisabled</td><td>Background color of entire control when disabled and checked</td></tr>
-   <tr><td>CheckBoxBackgroundIndeterminate</td><td>Background color of entire control at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxBackgroundIndeterminatePointerOver</td><td>Background color of entire control on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxBackgroundIndeterminatePressed</td><td>Background color of entire control when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxBackgroundIndeterminateDisabled</td><td>Background color of entire control when disabled and indeterminate</td></tr>
-   <tr><td>CheckBoxBorderBrushUnchecked</td><td>Border color of entire control at rest and unchecked</td></tr>
-   <tr><td>CheckBoxBorderBrushUncheckedPointerOver</td><td>Border color of entire control on hover and unchecked</td></tr>
-   <tr><td>CheckBoxBorderBrushUncheckedPressed</td><td>Border color of entire control when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxBorderBrushUncheckedDisabled</td><td>Border color of entire control when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxBorderBrushChecked</td><td>Border color of entire control at rest and checked</td></tr>
-   <tr><td>CheckBoxBorderBrushCheckedPointerOver</td><td>Border color of entire control on hover and checked</td></tr>
-   <tr><td>CheckBoxBorderBrushCheckedPressed</td><td>Border color of entire control when pressed and checked</td></tr>
-   <tr><td>CheckBoxBorderBrushCheckedDisabled</td><td>Border color of entire control when disabled and checked</td></tr>
-   <tr><td>CheckBoxBorderBrushIndeterminate</td><td>Border color of entire control at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxBorderBrushIndeterminatePointerOver</td><td>Border color of entire control on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxBorderBrushIndeterminatePressed</td><td>Border color of entire control when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxBorderBrushIndeterminateDisabled</td><td>Border color of entire control when disabled and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeUnchecked</td><td>Border color of checkmark box at rest and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeUncheckedPointerOver</td><td>Border color of checkmark box on hover and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeUncheckedPressed</td><td>Border color of checkmark box when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeUncheckedDisabled</td><td>Border color of checkmark box when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeChecked</td><td>Border color of checkmark box at rest and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeCheckedPointerOver</td><td>Border color of checkmark box on hover and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeCheckedPressed</td><td>Border color of checkmark box when pressed and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeCheckedDisabled</td><td>Border color of checkmark box when disabled and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeIndeterminate</td><td>Border color of checkmark box at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeIndeterminatePointerOver</td><td>Border color of checkmark box on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeIndeterminatePressed</td><td>Border color of checkmark box when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundStrokeIndeterminateDisabled</td><td>Border color of checkmark box when disabled and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillUnchecked</td><td>Background color of checkmark box at rest and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillUncheckedPointerOver</td><td>Background color of checkmark box on hover and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillUncheckedPressed</td><td>Background color of checkmark box when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillUncheckedDisabled</td><td>Background color of checkmark box when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillChecked</td><td>Background color of checkmark box at rest and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillCheckedPointerOver</td><td>Background color of checkmark box on hover and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillCheckedPressed</td><td>Background color of checkmark box when pressed and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillCheckedDisabled</td><td>Background color of checkmark box when disabled and checked</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillIndeterminate</td><td>Background color of checkmark box at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillIndeterminatePointerOver</td><td>Background color of checkmark box on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillIndeterminatePressed</td><td>Background color of checkmark box when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckBackgroundFillIndeterminateDisabled</td><td>Background color of checkmark box when disabled and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundUnchecked</td><td>Check mark color at rest and unchecked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundUncheckedPointerOver</td><td>Check mark color on hover and unchecked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundUncheckedPressed</td><td>Check mark color when pressed and unchecked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundUncheckedDisabled</td><td>Check mark color when disabled and unchecked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundChecked</td><td>Check mark color at rest and checked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundCheckedPointerOver</td><td>Check mark color on hover and checked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundCheckedPressed</td><td>Check mark color when pressed and checked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundCheckedDisabled</td><td>Check mark color when disabled and checked</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundIndeterminate</td><td>Check mark color at rest and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundIndeterminatePointerOver</td><td>Check mark color on hover and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundIndeterminatePressed</td><td>Check mark color when pressed and indeterminate</td></tr>
-   <tr><td>CheckBoxCheckGlyphForegroundIndeterminateDisabled</td><td>Check mark color when disabled and indeterminate</td></tr>
-</table>
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ## -examples
 

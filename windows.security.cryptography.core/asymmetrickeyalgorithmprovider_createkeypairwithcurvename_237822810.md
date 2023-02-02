@@ -10,17 +10,35 @@ public Windows.Security.Cryptography.Core.CryptographicKey CreateKeyPairWithCurv
 # Windows.Security.Cryptography.Core.AsymmetricKeyAlgorithmProvider.CreateKeyPairWithCurveName
 
 ## -description
-Creates a public/private key pair using a curve name.
+
+Creates a public/private key pair using an algorithmic curve name.
 
 ## -parameters
+
 ### -param curveName
+
 The name of the curve.
 
 ## -returns
-Represents the asymmetric key pair.
+
+Represents the generated Elliptic Curve Digital Signature Algorithm (ECDSA) asymmetric key pair.
 
 ## -remarks
 
 ## -examples
+
+The following example creates a new ECDSA curve from CurveName.
+
+```csharp
+AsymmetricKeyAlgorithmProvider eccAlgorithmProvider =
+                AsymmetricKeyAlgorithmProvider.OpenAlgorithm(AsymmetricAlgorithmNames.EcdsaSha256);
+CryptographicKey keyPair = eccAlgorithmProvider.CreateKeyPairWithCurveName(EccCurveNames.Secp160k1);
+```
+
+```cpp
+AsymmetricKeyAlgorithmProvider^ eccAlgorithmProvider = AsymmetricKeyAlgorithmProvider::OpenAlgorithm(
+                                                                               AsymmetricAlgorithmNames::EcdsaSha256);
+CryptographicKey^ keyPair = eccAlgorithmProvider->CreateKeyPairWithCurveName(EccCurveNames::Secp160k1);
+```
 
 ## -see-also

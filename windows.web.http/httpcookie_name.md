@@ -31,7 +31,7 @@ The following characters are used as separators and can't be used in the cookie 
 + comma (',')
 + semicolon (';')
 + colon (':')
-+ backslash ('\')
++ backslash ('\\')
 + double quote ('"')
 + forward slash ('/')
 + left square bracket ('[')

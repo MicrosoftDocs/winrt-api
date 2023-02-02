@@ -9,10 +9,10 @@
 public StorageProviderFileTypeInfo (string fileExtension, string iconResource);
 -->
 
-
 ## -description
+
 > [!NOTE]
-> Scenarios for this API are currently not supported, but will be in future releases.
+> Scenarios for this API are not supported.
 
 ## -parameters
 
@@ -25,5 +25,3 @@ public StorageProviderFileTypeInfo (string fileExtension, string iconResource);
 ## -see-also
 
 ## -examples
-
-

@@ -104,45 +104,14 @@ For more info, see [Text input with the handwriting view](/windows/uwp/design/co
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows Software Development Kit (SDK) installation. Styles and resources from different versions of the SDK might have different values.
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [XAML styles](/windows/apps/design/style/xaml-styles). XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
 
-Starting in Windows 10, version 1607 (SDK 14393), generic.xaml includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. In apps that target this software development kit (SDK) or later, modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article.
+**WinUI Styles (recommended):** When you use the updated styles from WinUI 2.6 or later, the resources for this control are listed in the [ThemeDictionaries](/windows/apps/design/style/xaml-theme-resources) section of the [AutoSuggestBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/AutoSuggestBox/AutoSuggestBox_themeresources.xaml) file on GitHub. The `ResourceKey` value for each `StaticResource` references a brush and color in the [Common_themeresources_any.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml) file.
 
-This table shows the resources used by the AutoSuggestBox control. Resources that start with "TextControl" are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), and AutoSuggestBox.
+This control also uses resources from the [TextBox_themeresources.xaml](https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/TextBox_themeresources.xaml) file. Resources that start with `TextControl` are shared by [TextBox](textbox.md), [PasswordBox](passwordbox.md), [RichEditBox](richeditbox.md), and `AutoSuggestBox`. Changes to these resources will affect all four controls.
 
-<table>
-   <tr><th>Resource key</th><th>Description</th></tr>
-   <tr><td>AutoSuggestBoxSuggestionsListBackground</td><td>Background color of suggestion list</td></tr>
-   <tr><td>AutoSuggestBoxSuggestionsListBorderBrush</td><td>Border color of suggestion list</td></tr>
-   <tr><td>TextControlForeground</td><td>Text color at rest</td></tr>
-   <tr><td>TextControlForegroundPointerOver</td><td>Text color on hover</td></tr>
-   <tr><td>TextControlForegroundFocused</td><td>Text color when focused</td></tr>
-   <tr><td>TextControlForegroundDisabled</td><td>Text color when disabled</td></tr>
-   <tr><td>TextControlBackground</td><td>Background color at rest</td></tr>
-   <tr><td>TextControlBackgroundPointerOver</td><td>Background color on hover</td></tr>
-   <tr><td>TextControlBackgroundFocused</td><td>Background color when focused</td></tr>
-   <tr><td>TextControlBackgroundDisabled</td><td>Background color when disabled</td></tr>
-   <tr><td>TextControlBorderBrush</td><td>Border color at rest</td></tr>
-   <tr><td>TextControlBorderBrushPointerOver</td><td>Border color on hover</td></tr>
-   <tr><td>TextControlBorderBrushFocused</td><td>Border color when focused</td></tr>
-   <tr><td>TextControlBorderBrushDisabled</td><td>Border color when disabled</td></tr>
-   <tr><td>TextControlPlaceholderForeground</td><td>Placeholder text color at rest</td></tr>
-   <tr><td>TextControlPlaceholderForegroundPointerOver</td><td>Placeholder text color on hover</td></tr>
-   <tr><td>TextControlPlaceholderForegroundFocused</td><td>Placeholder text color when focused</td></tr>
-   <tr><td>TextControlPlaceholderForegroundDisabled</td><td>Placeholder text color when disabled</td></tr>
-   <tr><td>TextControlHeaderForeground</td><td>Header text color at rest</td></tr>
-   <tr><td>TextControlHeaderForegroundDisabled</td><td>Header text color when disabled</td></tr>
-   <tr><td>TextControlSelectionHighlightColor</td><td>Highlight color of selected text</td></tr>
-   <tr><td>TextControlButtonBackground</td><td>Background color of delete button at rest</td></tr>
-   <tr><td>TextControlButtonBackgroundPointerOver</td><td>Background color of delete button on hover</td></tr>
-   <tr><td>TextControlButtonBackgroundPressed</td><td>Background color of delete button when pressed</td></tr>
-   <tr><td>TextControlButtonBorderBrush</td><td>Border color of delete button at rest</td></tr>
-   <tr><td>TextControlButtonBorderBrushPointerOver</td><td>Border color of delete button on hover</td></tr>
-   <tr><td>TextControlButtonBorderBrushPressed</td><td>Border color of delete button when pressed</td></tr>
-   <tr><td>TextControlButtonForeground</td><td>Foreground color of delete button at rest</td></tr>
-   <tr><td>TextControlButtonForegroundPointerOver</td><td>Foreground color of delete button on hover</td></tr>
-   <tr><td>TextControlButtonForegroundPressed</td><td>Foreground color of delete button when pressed</td></tr>
-</table>
+
+**Non-WinUI styles:** When you use the built-in styles, the default style, template, and resources that define the look of the control are included in the generic.xaml file. For design purposes, generic.xaml is available in the \(Program Files)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\ &lt;SDK version&gt;\Generic folder from a Windows SDK installation. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393). Styles and resources from different versions of the SDK might have different values.
 
 ### Version history
 

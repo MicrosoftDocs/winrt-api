@@ -10,14 +10,18 @@ public Windows.Foundation.IAsyncOperation<string> ShowEditNewAppointmentAsync(Wi
 # Windows.ApplicationModel.Appointments.AppointmentManager.ShowEditNewAppointmentAsync
 
 ## -description
+
 Shows the Appointments provider Add Appointment UI including the full edit experience, to enable the user to add an appointment.
 
 ## -parameters
+
 ### -param appointment
+
 The appointment to be added.
 
 ## -returns
-An asynchronous operation that returns a string containing an appointment ID upon successful completion.
+
+An asynchronous operation that returns a string containing an appointment ID upon successful completion. If the appointment identifier returned is an empty string, the appointment was not added to the Appointments provider app.
 
 ## -remarks
 
@@ -26,4 +30,5 @@ An asynchronous operation that returns a string containing an appointment ID upo
 ## -see-also
 
 ## -capabilities
+
 appointmentsSystem

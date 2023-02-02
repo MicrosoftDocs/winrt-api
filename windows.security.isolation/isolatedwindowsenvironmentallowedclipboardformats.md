@@ -10,17 +10,31 @@ public enum IsolatedWindowsEnvironmentAllowedClipboardFormats : uint
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentAllowedClipboardFormats
 
 ## -description
+
 Determines what kind of content is allowed to be copied and pasted to/from an Isolated Windows Environment.
+
 ## -enum-fields
+
 ### -field Text:1
-Allow text content
+
+Allow text content.
+
 ### -field None:0
-Does not allow any content
+
+Does not allow any content.
+
 ### -field Image:2
-Allow image content
+
+Allow image content.
+
+### -field Rtf: 4
+
+Allow rich text format (RTF) content.
+
 ## -remarks
 
 ## -see-also
-[Clipboard directions](isolatedwindowsenvironmentclipboardcopypastedirections.md)
-## -examples
 
+[Clipboard directions](isolatedwindowsenvironmentclipboardcopypastedirections.md)
+
+## -examples

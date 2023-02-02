@@ -9,19 +9,17 @@
 public string IconResource { get; }
 -->
 
-
 ## -description
+
 > [!NOTE]
-> Scenarios for this API are currently not supported, but will be in future releases.
+> Scenarios for this API are not supported.
 
 ## -property-value
 
 ## -remarks
 
 ## -see-also
-[StorageProviderFileTypeInfo](storageproviderfiletypeinfo.md)
 
-[StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
+[StorageProviderFileTypeInfo](storageproviderfiletypeinfo.md), [StorageProviderFileTypeInfo.IconResource](storageproviderfiletypeinfo_iconresource.md)
+
 ## -examples
-
-
