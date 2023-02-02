@@ -45,7 +45,7 @@ protected override async void OnLaunched1(LaunchActivatedEventArgs args)
         return;
     }
 
-    SerialDevice device = await SerialDevice.FromIdAsync(myDevices[0].Id);
+    using SerialDevice device = await SerialDevice.FromIdAsync(myDevices[0].Id);
 
 }
 
