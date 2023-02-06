@@ -14,6 +14,7 @@ public class SystemUpdateItem
 Describes the update bundle's properties and status.
 
 ## -remarks
+Supports Windows 10 IoT Core 2019 Only
 
 ## -see-also
 [SystemUpdateItem.Description](systemupdateitem_description.md),
