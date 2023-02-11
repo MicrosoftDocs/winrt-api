@@ -11,7 +11,7 @@ public Point Center { get; }
 
 ## -description
 
-Gets the X, Y coordinates of the of the InkAnalysisInkDrawing object, in device-independent pixel (DIP), relative to the upper left-hand corner of the inking area.
+Gets the X, Y coordinates of the InkAnalysisInkDrawing object, in device-independent pixel (DIP), relative to the upper left-hand corner of the inking area.
 
 ## -property-value
 
