@@ -11,7 +11,7 @@ public string AttributionId { get; }
 # Windows.Networking.Connectivity.AttributedNetworkUsage.AttributionId
 
 ## -description
-Gets the Id of the of the app.
+Gets the Id of the app.
 
 ## -property-value
 The Id of the app.
