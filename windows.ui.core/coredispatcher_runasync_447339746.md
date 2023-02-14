@@ -50,7 +50,32 @@ await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
 // Execution continues here before the call to ShowAsync completes.
 ```
 
-In this case, for C#, you need to use a [**TaskCompletionSource**](/dotnet/api/system.threading.tasks.taskcompletionsource-1) in combination with RunAsync to return a Task that you can await from your background thread, thereby pausing execution until the UI task completes. We recommend that you use the [RunTaskAsync extension method](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) from our task snippet library for this. It provides a robust solution that enables code running on a background thread to await a task that must run on the UI thread. See the [Await a UI task sent from a background thread](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) page for the code and example usage.
+In this case, for C#, you need to use a [**TaskCompletionSource**](/dotnet/api/system.threading.tasks.taskcompletionsource-1) in combination with RunAsync to return a Task that you can await from your background thread, thereby pausing execution until the UI task completes. 
+
+```csharp
+public async Task<ContentDialogResult> SignInAsync()
+{
+    TaskCompletionSource<ContentDialogResult> taskCompletionSource = 
+        new TaskCompletionSource<ContentDialogResult>();
+
+    await Dispatcher.RunAsync(CoreDispatcherPriority.Normal, async () =>
+    {
+        try
+        {
+            taskCompletionSource.SetResult(await signInDialog.ShowAsync());
+        }
+        catch (Exception ex)
+        {
+            taskCompletionSource.SetException(ex);
+        }
+    });
+
+    return await taskCompletionSource.Task;
+}
+```
+
+> [!TIP]
+> We recommend that you use the [RunTaskAsync extension method](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) from our task snippet library for this. It provides a robust solution that enables code running on a background thread to await a task that must run on the UI thread. See the [Await a UI task sent from a background thread](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) page for the code and example usage.
 
 **C++/WinRT**. [**TaskCompletionSource**](/dotnet/api/system.threading.tasks.taskcompletionsource-1) is not available to C++/WinRT. For an alternative, see [A completion source sample](/windows/uwp/cpp-and-winrt-apis/concurrency-3).
 
