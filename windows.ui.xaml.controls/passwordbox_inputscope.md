@@ -40,9 +40,9 @@ The input scope, which provides a hint at the type of text input expected by the
 
 ## -remarks
 
-The InputScope property on [PasswordBox](passwordbox.md) supports only the **Password** and **NumericPin** values. Any other value is ignored.
+The `InputScope` property on [PasswordBox](passwordbox.md) supports only the [Password](../windows.ui.xaml.input/inputscopenamevalue.md) and [NumericPin](../windows.ui.xaml.input/inputscopenamevalue.md) values. Any other value is ignored.
 
-The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the soft keyboard might show a number pad for text input when the control has its InputScope set to **NumericPin**.
+The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the soft keyboard might show a number pad for text input when the control has its `InputScope` set to **NumericPin**.
 
 The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
 
