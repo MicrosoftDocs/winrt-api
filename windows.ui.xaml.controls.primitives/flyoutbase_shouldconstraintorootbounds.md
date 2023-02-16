@@ -14,25 +14,25 @@ public bool ShouldConstrainToRootBounds { get;  set; }
 
 Gets or sets a value that indicates whether the flyout should be shown within the bounds of the XAML root.
 
-
-
 ## -property-value
 
-**true** if the flyout should be shown within the bounds of the XAML root; otherwise, **false**. The default is **false**.
+**true** if the flyout should be shown within the bounds of the XAML root; otherwise, **false**.
 
 ## -remarks
 
-This property is applicable only to apps running on the desktop. On other platforms, it does not have an effect. To check if the flyout is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property. 
+The default value depends on the derived type. For [Flyout](../windows.ui.xaml.controls/flyout.md), the default is `true`. For [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md) and [CommandBarFlyout](../windows.ui.xaml.controls/commandbarflyout.md), the default is `false`.
 
-In a UWP app on desktop, when this property is **true**, the flyout is shown within the main XAML window handle (HWND). When this property is **false**, the flyout is shown in its own top level HWND. In this case, the flyout might be positioned to extend beyond the main app window.
+This property is applicable only to apps running on the desktop. On other platforms (such as Xbox, HoloLens, etc.), it does not have an effect. To check if the flyout is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property.
 
-When a flyout with **ShouldConstrainToRootBounds = false** is first shown, it’s placed in its own window and shown in that context. After it has been shown, ShouldConstrainToRootBounds cannot be set back to **true**.
+In an app running on the desktop, when this property is **true**, the flyout is shown within the main XAML window handle (HWND). When this property is **false**, the flyout is shown in its own top level HWND. In this case, the flyout might be positioned to extend beyond the main app window.
+
+When a flyout with `ShouldConstrainToRootBounds = false` is first shown, it's placed in its own window and shown in that context. After it has been shown, `ShouldConstrainToRootBounds` cannot be set back to **true**.
 
 The _XAML root_ might be a [CoreWindow](../windows.ui.core/corewindow.md), a [XAML island](/windows/uwp/xaml-platform/xaml-host-controls), or an [AppWindow](../windows.ui.windowmanagement/appwindow.md).
 
 ## -see-also
 
-[IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md), [Popup.ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md)
+[IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md), [Popup ShouldConstrainToRootBounds](popup_shouldconstraintorootbounds.md)
 
 ## -examples
 
