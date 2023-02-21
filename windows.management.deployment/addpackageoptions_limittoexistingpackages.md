@@ -12,9 +12,11 @@ public bool LimitToExistingPackages { get; set; }
 
 ## -description
 
-TBD
+Gets or sets a value indicating whether missing referenced packages should be downloaded.
 
 ## -property-value
+
+True if missing referenced packages should be download; otherwise, false.
 
 ## -remarks
 
