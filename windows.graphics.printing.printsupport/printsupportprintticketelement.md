@@ -16,7 +16,7 @@ Represents an element of a PrintTicket, which is a collection of various print r
 
 ## -remarks
 
-This class is used to supply additional features and parameters for a PrintTicket through calls to [SetAdditionalFeatures](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalFeatures(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})) and [SetAdditionalParameters](Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalParameters(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})).
+This class is used to supply additional features and parameters for a PrintTicket through calls to [SetAdditionalFeatures](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalFeatures(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})) and [SetAdditionalParameters](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalParameters(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})).
 
 ## -see-also
 
