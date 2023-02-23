@@ -29,4 +29,4 @@ Ink stroke is to be canceled.
 
 ## -see-also
 
-[Windows.UI.Input.Inking.Core enumerations](//uwp/api/Windows.UI.Input.Inking.Core#enums), [Disposition](corewetstrokeupdateeventargs_disposition.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)
+[Windows.UI.Input.Inking.Core enumerations](/uwp/api/Windows.UI.Input.Inking.Core#enums), [Disposition](corewetstrokeupdateeventargs_disposition.md), [Pen and stylus interactions](/windows/uwp/input-and-devices/pen-and-stylus-interactions), [Ink analysis sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/InkAnalysis), [Simple ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620312), [Complex ink sample](https://go.microsoft.com/fwlink/p/?LinkID=620314)

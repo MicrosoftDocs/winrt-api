@@ -12,7 +12,7 @@ public TreeViewListAutomationPeer.TreeViewListAutomationPeer(TreeViewList owner)
 ## -description
 Initializes a new instance of the **TreeViewListAutomationPeer** class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.TreeViewList)](/windows/winui/api/microsoft.ui.xaml.automation.peers.treeviewlistautomationpeer.#ctor(microsoft.ui.xaml.controls.treeviewlist)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [TreeViewListAutomationPeer(TreeViewList) Constructor](/windows/winui/api/microsoft.ui.xaml.automation.peers.treeviewlistautomationpeer.-ctor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param owner
