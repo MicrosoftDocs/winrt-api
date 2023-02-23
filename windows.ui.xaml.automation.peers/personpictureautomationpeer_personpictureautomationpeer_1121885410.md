@@ -12,7 +12,7 @@ public PersonPictureAutomationPeer.PersonPictureAutomationPeer(PersonPicture own
 ## -description
 Initializes a new instance of the **PersonPictureAutomationPeer** class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.PersonPictureAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.PersonPicture)](/windows/winui/api/microsoft.ui.xaml.automation.peers.personpictureautomationpeer.#ctor(microsoft.ui.xaml.controls.personpicture)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [PersonPictureAutomationPeer(PersonPicture) Constructor](/windows/winui/api/microsoft.ui.xaml.automation.peers.personpictureautomationpeer.-ctor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param owner

@@ -52,8 +52,7 @@ The multiplier used to convert the usage value reported by the device to a physi
     
 
 ## -remarks
-A Human Interface Device (HID) usage describes what a Human Interface Device (HID)-compliant control is measuring or reporting and can also indicate the control's intended use. A specific control usage is defined by its usage page, a usage ID, a name, and a description. For more info, see [Device Class Definition
-for ](https://www.usb.org/developers/hidpage/HID1_11.pdf).
+A Human Interface Device (HID) usage describes what a Human Interface Device (HID)-compliant control is measuring or reporting and can also indicate the control's intended use. A specific control usage is defined by its usage page, a usage ID, a name, and a description. For more info, see [Device Class Definition for HID 1.11](https://www.usb.org/document-library/device-class-definition-hid-111).
 
 > [!NOTE]
 > The core of the Microsoft interactive input device architecture is based on the Universal Serial Bus (USB) standard Device Class Definition for Human Interface Device (HID), which is defined by the [ Implementers Forum, Inc.](https://www.usb.org/home)
