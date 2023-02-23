@@ -10,26 +10,33 @@ public enum Windows.ApplicationModel.Activation.ApplicationExecutionState : int
 # ApplicationExecutionState
 
 ## -description
+
 Specifies the execution state of the app.
 
 ## -enum-fields
+
 ### -field NotRunning:0
+
 The app is not running.
 
 ### -field Running:1
+
 The app is running.
 
 ### -field Suspended:2
+
 The app is suspended.
 
 ### -field Terminated:3
+
 The app was terminated after being suspended.
 
 ### -field ClosedByUser:4
+
 The app was closed by the user.
 
-
 ## -remarks
+
 This table provides more detail about when you'll see each of these states and what your app should do in response.
 
 | State | When this state is seen | What your app should do |
@@ -54,26 +61,26 @@ On Windows Phone, only `NotRunning` and `Suspended` are supported.
 
 [App lifecycle](/windows/uwp/launch-resume/app-lifecycle),
 [UX guidelines for launch, suspend, and resume](/windows/uwp/launch-resume/index),
-[CachedFileUpdaterActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/cachedfileupdateractivatedeventargs_previousexecutionstate), [CameraSettingsActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/camerasettingsactivatedeventargs_previousexecutionstate),
-[ContactPickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/contactpickeractivatedeventargs_previousexecutionstate),
-[DeviceActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/deviceactivatedeventargs_previousexecutionstate),
-[FileActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/fileactivatedeventargs_previousexecutionstate),
-[FileOpenPickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/fileopenpickeractivatedeventargs_previousexecutionstate),
-[FileSavePickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/filesavepickeractivatedeventargs_previousexecutionstate),
-[LaunchActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/launchactivatedeventargs_previousexecutionstate),
-[PrintTaskSettingsActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/printtasksettingsactivatedeventargs_previousexecutionstate),
-[ProtocolActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/protocolactivatedeventargs_previousexecutionstate),
-[SearchActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/searchactivatedeventargs_previousexecutionstate),
-[ShareTargetActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation/sharetargetactivatedeventargs_previousexecutionstate),
-[WebUICachedFileUpdaterActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuicachedfileupdateractivatedeventargs_previousexecutionstate),
-[WebUICameraSettingsActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuicamerasettingsactivatedeventargs_previousexecutionstate),
-[WebUIContactPickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuicontactpickeractivatedeventargs_previousexecutionstate),
-[WebUIDeviceActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuideviceactivatedeventargs_previousexecutionstate),
-[WebUIFileActivatedEventArgs.previousExecutionState](/uwp/api/windows.applicationmodel.activation/fileactivatedeventargs_previousexecutionstate),
-[WebUIFileOpenPickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuifileopenpickeractivatedeventargs_previousexecutionstate),
-[WebUIFileSavePickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuifilesavepickeractivatedeventargs_previousexecutionstate),
-[WebUILaunchActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuilaunchactivatedeventargs_previousexecutionstate),
-[WebUIPrintTaskSettingsActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuiprinttasksettingsactivatedeventargs_previousexecutionstate),
-[WebUIProtocolActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuiprotocolactivatedeventargs_previousexecutionstate),
-[WebUISearchActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuisearchactivatedeventargs_previousexecutionstate),
-[WebUIShareTargetActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui/webuisharetargetactivatedeventargs_previousexecutionstate)
+[CachedFileUpdaterActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.cachedfileupdateractivatedeventargs.previousexecutionstate), [CameraSettingsActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.camerasettingsactivatedeventargs.previousexecutionstate),
+[ContactPickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.contactpickeractivatedeventargs.previousexecutionstate),
+[DeviceActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.deviceactivatedeventargs.previousexecutionstate),
+[FileActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs.previousexecutionstate),
+[FileOpenPickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.fileopenpickeractivatedeventargs.previousexecutionstate),
+[FileSavePickerActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.filesavepickeractivatedeventargs.previousexecutionstate),
+[LaunchActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.launchactivatedeventargs.previousexecutionstate),
+[PrintTaskSettingsActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.printtasksettingsactivatedeventargs.previousexecutionstate),
+[ProtocolActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.protocolactivatedeventargs.previousexecutionstate),
+[SearchActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.searchactivatedeventargs.previousexecutionstate),
+[ShareTargetActivatedEventArgs.PreviousExecutionState](/uwp/api/windows.applicationmodel.activation.sharetargetactivatedeventargs.previousexecutionstate),
+[WebUICachedFileUpdaterActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuicachedfileupdateractivatedeventargs.previousexecutionstate),
+[WebUICameraSettingsActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuicamerasettingsactivatedeventargs.previousexecutionstate),
+[WebUIContactPickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuicontactpickeractivatedeventargs.previousexecutionstate),
+[WebUIDeviceActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuideviceactivatedeventargs.previousexecutionstate),
+[WebUIFileActivatedEventArgs.previousExecutionState](/uwp/api/windows.applicationmodel.activation.fileactivatedeventargs.previousexecutionstate),
+[WebUIFileOpenPickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuifileopenpickeractivatedeventargs.previousexecutionstate),
+[WebUIFileSavePickerActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuifilesavepickeractivatedeventargs.previousexecutionstate),
+[WebUILaunchActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuilaunchactivatedeventargs.previousexecutionstate),
+[WebUIPrintTaskSettingsActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuiprinttasksettingsactivatedeventargs.previousexecutionstate),
+[WebUIProtocolActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuiprotocolactivatedeventargs.previousexecutionstate),
+[WebUISearchActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuisearchactivatedeventargs.previousexecutionstate),
+[WebUIShareTargetActivatedEventArgs.previousExecutionState](/uwp/api/windows.ui.webui.webuisharetargetactivatedeventargs.previousexecutionstate)
