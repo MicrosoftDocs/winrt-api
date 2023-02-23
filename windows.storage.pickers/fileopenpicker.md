@@ -47,4 +47,4 @@ The [File picker sample](https://github.com/Microsoft/Windows-universal-samples/
 
 ## -see-also
 
-[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://go.microsoft.com/fwlink/p/?LinkId=620573), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
+[File picker sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers), [Blobs sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/MsBlobBuilder), [Display WinRT UI objects that depend on CoreWindow](/windows/apps/develop/ui-input/display-ui-objects)
