@@ -12,11 +12,11 @@ public System.Collections.Generic.IDictionary<System.Uri,string> ExpectedDigests
 
 ## -description
 
-Gets a dictionary that maps the package, package manifest, or App Installer file URIs associated with a **StagePackageOptions** with the corresponding digest string.
+Gets a dictionary that maps the URIs associated with a **StagePackageOptions** with the corresponding digest string.
 
 ## -property-value
 
-A dictionary where the key is the URI of a package, package manifest, or App Installer file and the value is a string representing the digest associated with the URI.
+A dictionary where the key is a URI and the value is a string representing the digest associated with the URI.
 
 ## -remarks
 
