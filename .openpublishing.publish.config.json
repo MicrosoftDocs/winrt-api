@@ -1,0 +1,115 @@
+{
+  "docsets_to_publish": [
+    {
+      "docset_name": "winrt-api-build",
+      "build_source_folder": "winrt-api-build",
+      "build_output_subfolder": "winrt-api-build",
+      "locale": "en-us",
+      "monikers": [],
+      "xref_query_tags": [
+        "/dotnet", "/uwp/api", "/windows/winui/api", "/windows/win32/api/", "/windows/windows-app-sdk/api/winrt", "/windows/windows-app-sdk/api/win32"
+      ],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "is_dynamic_rendering": false,
+      "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
+          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
+          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
+        ],
+        "docset_postbuild": [
+          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
+        ]
+      },
+      "ECMA2Yaml": {
+        "SourceXmlFolder": "winrt-api-build/xml",
+        "OutputYamlFolder": "winrt-api-build",
+        "Flatten": true,
+        "id": "winrt-toc",
+        "SDPMode": true,
+        "UWP": true
+      },
+      "SplitTOC": [
+        "winrt-api-build/winrt-toc/toc.yml"
+      ],
+      "DiffFolder": [
+        "winrt-api-build"
+      ],
+      "version": 0,
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
+      ]
+    }
+  ],
+  "notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "quradic@microsoft.com"
+  ],
+  "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/winrt-api",
+  "git_repository_branch_open_to_public_contributors": "docs",
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
+  "contribution_branch_mappings": {},
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "main",
+      "branch_mapping": {}
+    }
+  ],
+  "branch_target_mapping": {
+    "live": [
+      "Publish"
+    ],
+    "main": [
+      "Publish"
+    ]
+  },
+  "need_generate_pdf_url_template": false,
+  "targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  },
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "dependent_packages": [
+    {
+      "id": "Microsoft.DocAsCode.ECMA2Yaml",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/ECMA2Yaml",
+      "target_framework": "net45",
+      "version": "latest"
+    },
+    {
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
+      "path_to_root": "_dependentPackages/memberpage.plugins",
+      "target_framework": "net45",
+      "version": "latest"
+    },
+    {
+      "id": "Microsoft.OpenPublishing.CommonPlugins",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/CommonPlugins",
+      "target_framework": "net45",
+      "version": "latest"
+    }
+  ]
+}
