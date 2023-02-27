@@ -11,7 +11,7 @@ public Windows.Storage.Provider.StorageProviderStatusUI GetStatusUI ();
 
 ## -description
 
-Gets the [StorageProviderStatusUI](storageproviderstatusui.md) object from an implementation of the [IStorageProviderStatusUISource](istorageproivderstatusuisource.md).
+Gets the [StorageProviderStatusUI](storageproviderstatusui.md) object from an implementation of the [IStorageProviderStatusUISource](istorageproviderstatusuisource.md).
 
 ## -returns
 
@@ -19,8 +19,7 @@ The status UI object used to populate the Status UI Flyout.
 
 ## -see-also
 
-[IStorageProviderStatusUISource](istorageproivderstatusuisource.md)
-[StorageProviderStatusUI](storageproviderstatusui.md)
+[IStorageProviderStatusUISource](istorageproviderstatusuisource.md), [StorageProviderStatusUI](storageproviderstatusui.md)
 
 ## -examples
 

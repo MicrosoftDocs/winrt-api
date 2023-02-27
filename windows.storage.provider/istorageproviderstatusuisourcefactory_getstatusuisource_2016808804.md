@@ -17,7 +17,7 @@ Returns the [IStorageProviderStatusUISource](istorageproviderstatusuisource.md) 
 
 ### -param syncRootId
 
-The sync root id is created by providers to register as a sync root. For more details, please refer to [Integrate Cloud Storage](/windows/win32/shell/integrate-cloud-storage.md).
+The sync root id is created by providers to register as a sync root. For more details, please refer to [Integrate Cloud Storage](/windows/win32/shell/integrate-cloud-storage).
 
 ## -returns
 
@@ -25,5 +25,4 @@ The sync root id is created by providers to register as a sync root. For more de
 
 ## -see-also
 
-[IStorageProviderStatusUISourceFactory](istorageproviderstatusuisourcefactory.md)
-[IStorageProviderStatusUISource](istorageproviderstatusuisource.md)
+[IStorageProviderStatusUISourceFactory](istorageproviderstatusuisourcefactory.md), [IStorageProviderStatusUISource](istorageproviderstatusuisource.md)

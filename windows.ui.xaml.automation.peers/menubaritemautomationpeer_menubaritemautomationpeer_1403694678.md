@@ -14,7 +14,7 @@ public MenuBarItemAutomationPeer.MenuBarItemAutomationPeer(MenuBarItem owner)
 
 Initializes a new instance of the [MenuBarItemAutomationPeer](menubaritemautomationpeer.md) class using the specified [MenuBarItem](../windows.ui.xaml.controls/menubaritem.md).
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Automation.Peers.MenuBarItemAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.MenuBarItem)](/windows/winui/api/microsoft.ui.xaml.automation.peers.menubaritemautomationpeer.#ctor(microsoft.ui.xaml.controls.menubaritem)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [MenuBarItemAutomationPeer(MenuBarItem) Constructor](/windows/winui/api/microsoft.ui.xaml.automation.peers.menubaritemautomationpeer.-ctor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

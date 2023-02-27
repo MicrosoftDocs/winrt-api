@@ -13,7 +13,7 @@ public sealed class BluetoothLEConnectionParameters
 
 Represents Bluetooth LE connection parameters.
 
-For more information on connection parameters and PHY, please reference the [Bluetooth Core Specification](https://www.bluetooth.com/specifications/specs/core-specification/).
+For more information on connection parameters and PHY, please reference the [Bluetooth Core Specification](https://www.bluetooth.com/specifications/specs/core-specification-5-3/).
 
 ## -remarks
 

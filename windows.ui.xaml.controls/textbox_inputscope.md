@@ -42,14 +42,14 @@ The input scope, which provides a hint at the type of text input expected by the
 
 ## -remarks
 
-The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the touch keyboard might show a number pad for text input when the control has its [InputScope](../windows.ui.xaml.input/inputscope.md) set to **Number**.
+The input scope provides a hint at the type of text input expected by the control. Various elements of the system can respond to the hint provided by the input scope and provide a specialized UI for the input type. For example, the touch keyboard might show a number pad for text input when the control has its [InputScope](../windows.ui.xaml.input/inputscope.md) set to **Number**. See the [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md) enumeration for a complete list of input scope values.
 
 The control might also interpret the data being entered differently (typically for East Asian related input scopes). The input scope does not perform any validation, and does not prevent the user from providing any input through a hardware keyboard or other input device.
 
 Other properties that affect the touch keyboard are [IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), and [PreventKeyboardDisplayOnProgrammaticFocus](textbox_preventkeyboarddisplayonprogrammaticfocus.md). For more info and examples, see [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard).
 
 > [!NOTE]
-> While this property can hold a collection of InputeNameScope values, only the first is used, and the rest are ignored.
+> While this property can hold a collection of [InputScopeName](../windows.ui.xaml.input/inputscopename.md) values, only the first is used, and the rest are ignored.
 
 ## -examples
 
@@ -73,4 +73,4 @@ phoneNumberTextBox.InputScope = scope;
 
 ## -see-also
 
-[IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)
+[IsSpellCheckEnabled](textbox_isspellcheckenabledproperty.md), [IsTextPredictionEnabled](textbox_istextpredictionenabledproperty.md), [InputScopeNameValue](../windows.ui.xaml.input/inputscopenamevalue.md), [Use input scope to change the touch keyboard](/windows/uwp/design/input/use-input-scope-to-change-the-touch-keyboard)

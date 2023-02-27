@@ -20,7 +20,7 @@ Gets or sets a value that indicates whether media will begin playback automatica
 
 
 ## -property-value
-**true** if playback is automatic; otherwise, **false**. The default is **true**.
+**true** if playback is automatic; otherwise, **false**. The default is **false**.
 
 ## -remarks
 
