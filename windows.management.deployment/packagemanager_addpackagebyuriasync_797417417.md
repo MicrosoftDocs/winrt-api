@@ -5,13 +5,13 @@
 
 ## -description
 
-Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and any additional dependency packages for the current user, using the specified deployment options.
+Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) and any additional dependency packages, for the current user, using the specified deployment options.
 
 ## -parameters
 
 ### -param packageUri
 
-The URI of the package to add. The URI must follow the file URI scheme (file://) since the only supported URI schemes are local file paths and local network paths.
+The URI of the package to add. The URI can use the file URI scheme (file://) for local file paths and local network paths. HTTP and HTTPS protocols are also supported. Starting with Windows build 22556, The URI can point to a package or an App Installer file.
 
 ### -param options
 
