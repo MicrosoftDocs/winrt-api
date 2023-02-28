@@ -11,7 +11,7 @@ Adds a [Package](/uwp/api/windows.applicationmodel.package) (the main package) a
 
 ### -param packageUri
 
-The URI of the package to add. The URI can use the file URI scheme (file://) for local file paths and local network paths. Http and https protocols are also supported. Starting with Windows build 22556, The URI can point to a package or an App Installer file.
+The URI of the package to add. The URI can use the file URI scheme (file://) for local file paths and local network paths. HTTP and HTTPS protocols are also supported. Starting with Windows build 22556, The URI can point to a package or an App Installer file.
 
 ### -param options
 
