@@ -36,4 +36,3 @@ The *domainServiceId* parameter is sensitive to the underlying platform's endian
 ## -examples
 
 ## -see-also
-[PlayReadyContentHeader(UInt32, Guid\[\], String\[\], PlayReadyEncryptionAlgorithm, Uri, Uri, String, Guid)](playreadycontentheader_playreadycontentheader_40363517.md), [PlayReadyContentHeader(Guid, String, PlayReadyEncryptionAlgorithm, Uri, Uri, String, Guid)](playreadycontentheader_playreadycontentheader_115544006.md), [PlayReadyContentHeader(Byte\[\])](playreadycontentheader_playreadycontentheader_52593125.md)
