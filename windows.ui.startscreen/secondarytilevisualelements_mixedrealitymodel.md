@@ -18,7 +18,7 @@ The mixed reality model.
 ## -remarks
 Just like other tile visual elements, a 3D model asset may be specified statically in the app's manifest for primary tiles or may be dynamically updated using [SecondaryTile.UpdateAsync](secondarytile_updateasync_943669007.md) for secondary tiles.
 
-For more information, see [Creating 3D app launchers](https://developer.microsoft.com/windows/mixed-reality/creating_3d_app_launchers).
+For more information, see [3D app launchers](/windows/mixed-reality/distribute/3d-app-launcher-design-guidance).
 
 ## -see-also
 
