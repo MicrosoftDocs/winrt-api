@@ -27,6 +27,37 @@ To get started accessing files and folders file picker, see [Files, folders, and
 > [!WARNING]
 > If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
 
+### In a WinUI 3 app that requires elevation
+
+In a WinUI 3 app, you can use **FileSavePicker** (and other types from **Windows.Storage.Pickers**). But if the WinUI 3 app requires elevation, then you'll need a different approach (that's because these APIs aren't designed to be used in an elevated app). The code snippet below illustrates how you can use the [C#/Win32 P/Invoke Source Generator](https://github.com/microsoft/CsWin32) (CsWin32) to call the Win32 picking APIs instead. To learn how to use CsWin32, follow that link for the documentation.
+
+```csharp
+// NativeMethods.txt
+CoCreateInstance
+FileSaveDialog
+IFileSaveDialog
+
+// MainWindow.xaml.cs
+...
+using Windows.Win32;
+using Windows.Win32.Foundation;
+using Windows.Win32.System.Com;
+using Windows.Win32.UI.Shell;
+...
+// In an event handler...
+// Retrieve the window handle (HWND) of the main WinUI 3 window.
+var hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+
+PInvoke.CoCreateInstance<IFileSaveDialog>(
+    typeof(FileSaveDialog).GUID,
+    null,
+    CLSCTX.CLSCTX_INPROC_SERVER,
+    out var fsd);
+// Configure the dialog here.
+fsd.Show(new HWND(hWnd));
+...
+```
+
 ### Version history
 
 | Windows version | SDK version | Value added |
