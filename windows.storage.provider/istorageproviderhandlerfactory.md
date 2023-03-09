@@ -9,15 +9,13 @@
 public interface IStorageProviderHandlerFactory
 -->
 
-
 ## -description
-The factory for all the handlers provided by the storage provider.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISourceFactory](istorageproviderstatusuisourcefactory.md) interface instead.
 
 ## -remarks
 
 ## -see-also
-[IStorageProviderHandlerFactory.GetStatusSource](istorageproviderhandlerfactory_getstatussource_1912525024.md)
 
 ## -examples
-
-

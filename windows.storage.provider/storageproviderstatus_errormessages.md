@@ -9,16 +9,15 @@
 public System.Collections.Generic.IReadOnlyList<Windows.Storage.Provider.StorageProviderError> ErrorMessages { get; }
 -->
 
-
 ## -description
-A list of current errors the cloud storage provider wants to display.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use members of the [StorageProviderStatusUI](storageproviderstatusui.md) class instead.
 
 ## -property-value
-A list of errors.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md), [StorageProviderStatus.Message](storageproviderstatus_message.md), [StorageProviderStatus.State](storageproviderstatus_state.md)
 
 ## -examples

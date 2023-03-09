@@ -9,16 +9,15 @@
 public Windows.Storage.Provider.StorageProviderState State { get; }
 -->
 
-
 ## -description
-An enum value describing the storage provider's current state.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [StorageProviderStatusUI.ProviderState](storageproviderstatusui_providerstate.md) property instead.
 
 ## -property-value
-Enum value describing the state of the storage provider.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md), [StorageProviderState](storageproviderstate.md), [StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md), [StorageProviderStatus.Message](storageproviderstatus_message.md)
 
 ## -examples
