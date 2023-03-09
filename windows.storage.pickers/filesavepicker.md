@@ -27,9 +27,9 @@ To get started accessing files and folders file picker, see [Files, folders, and
 > [!WARNING]
 > If you try to show the file picker while your app is snapped, the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The following code examples and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
 
-### In a WinUI 3 app that requires elevation
+### In a desktop app that requires elevation
 
-In a WinUI 3 app, you can use **FileSavePicker** (and other types from **Windows.Storage.Pickers**). But if the WinUI 3 app requires elevation, then you'll need a different approach (that's because these APIs aren't designed to be used in an elevated app). The code snippet below illustrates how you can use the [C#/Win32 P/Invoke Source Generator](https://github.com/microsoft/CsWin32) (CsWin32) to call the Win32 picking APIs instead. To learn how to use CsWin32, follow that link for the documentation.
+In a desktop app (which includes WinUI 3 apps), you can use **FileSavePicker** (and other types from **Windows.Storage.Pickers**). But if the desktop app requires elevation to run, then you'll need a different approach (that's because these APIs aren't designed to be used in an elevated app). The code snippet below illustrates how you can use the [C#/Win32 P/Invoke Source Generator](https://github.com/microsoft/CsWin32) (CsWin32) to call the Win32 picking APIs instead. To learn how to use CsWin32, follow that link for the documentation.
 
 ```csharp
 // NativeMethods.txt
