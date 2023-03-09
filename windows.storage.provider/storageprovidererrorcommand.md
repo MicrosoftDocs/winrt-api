@@ -9,13 +9,13 @@
 public sealed class StorageProviderErrorCommand
 -->
 
-
 ## -description
-Provides the ability to show a list of error messages with actions via the [IStorageProviderStatusSource interface](istorageproviderstatussource.md).
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md), [StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md), [StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
 
 ## -examples

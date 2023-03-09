@@ -9,23 +9,19 @@
 public StorageProviderErrorCommand (string label, System.Uri actionUri);
 -->
 
-
 ## -description
-Constructor for StorageProviderErrorCommand to set up the list of error messages with related actions.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -parameters
 
 ### -param label
-The descriptive label indicating action to take.
 
 ### -param actionUri
-The destination Uri associated with the StorageProviderErrorCommand.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderErrorCommand](storageprovidererrorcommand.md)
 
 ## -examples
-
-

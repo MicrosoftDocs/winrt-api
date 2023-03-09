@@ -9,23 +9,19 @@
 public StorageProviderStatus (Windows.Storage.Provider.StorageProviderState state, string message);
 -->
 
-
 ## -description
-A constructor for StorageProviderStatus to set up the storage provider's status profile.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [StorageProviderStatusUI](storageproviderstatusui.md) class instead.
 
 ## -parameters
 
 ### -param state
-Enum value describing the state of the storage provider.
 
 ### -param message
-A descriptive message for the storage provider status.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md)
 
 ## -examples
-
-

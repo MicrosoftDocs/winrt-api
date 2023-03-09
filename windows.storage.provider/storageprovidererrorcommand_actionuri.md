@@ -9,16 +9,15 @@
 public System.Uri ActionUri { get; }
 -->
 
-
 ## -description
-The destination Uri associated with the StorageProviderErrorCommand.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -property-value
-The Uri associated with the error command.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderErrorCommand](storageprovidererrorcommand.md), [StorageProviderErrorCommand.Label](storageprovidererrorcommand_label.md)
 
 ## -examples

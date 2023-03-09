@@ -9,26 +9,21 @@
 public StorageProviderError (string id, string title, string message);
 -->
 
-
 ## -description
-Constructor for the StorageProviderError to be used to set up the properties of the error.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -parameters
 
 ### -param id
-The error Id.
 
 ### -param title
-The title string used to identify the error.
 
 ### -param message
-The message string used to describe the error's details.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md)
 
 ## -examples
-
-

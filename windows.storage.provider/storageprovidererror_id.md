@@ -9,16 +9,15 @@
 public string Id { get; }
 -->
 
-
 ## -description
-The error identifier provided by the [StorageProviderStatus](storageproviderstatus.md) object.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -property-value
-The Id for the error.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.InformationalLink](storageprovidererror_informationallink.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md), [StorageProviderError.Title](storageprovidererror_title.md)
 
 ## -examples

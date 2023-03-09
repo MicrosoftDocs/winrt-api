@@ -9,13 +9,13 @@
 public sealed class StorageProviderError
 -->
 
-
 ## -description
-Provides the StorageProviderStatus object containing a list of error messages with actions via the [IStorageProviderStatusSource interface](istorageproviderstatussource.md).
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -remarks
 
 ## -see-also
-[IStorageProviderStatusSource](istorageproviderstatussource.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.Id](storageprovidererror_id.md), [StorageProviderError.InformationalLink](storageprovidererror_informationallink.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md), [StorageProviderError.Title](storageprovidererror_title.md)
 
 ## -examples

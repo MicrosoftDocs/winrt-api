@@ -9,16 +9,15 @@
 public string Label { get; }
 -->
 
-
 ## -description
-The descriptive label indicating action to take.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -property-value
-A string description.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderErrorCommand](storageprovidererrorcommand.md), [StorageProviderErrorCommand.ActionUri](storageprovidererrorcommand_actionuri.md)
 
 ## -examples

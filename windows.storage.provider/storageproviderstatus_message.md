@@ -9,16 +9,15 @@
 public string Message { get; }
 -->
 
-
 ## -description
-A descriptive message for the storage provider status.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use members of the [StorageProviderStatusUI](storageproviderstatusui.md) class instead.
 
 ## -property-value
-A string describing the status.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderStatus](storageproviderstatus.md), [StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md), [StorageProviderStatus.State](storageproviderstatus_state.md)
 
 ## -examples

@@ -9,16 +9,15 @@
 public string Title { get; }
 -->
 
-
 ## -description
-The descriptive identifier for the error.
+
+> [!NOTE]
+> Scenarios for this API are not supported.  Use members of [StorageProviderStatusUI](storageproviderstatusui.md) and related classes instead.
 
 ## -property-value
-The title string used to identify the error.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderError](storageprovidererror.md), [StorageProviderError.FilePath](storageprovidererror_filepath.md), [StorageProviderError.Id](storageprovidererror_id.md), [StorageProviderError.InformationalLink](storageprovidererror_informationallink.md), [StorageProviderError.Message](storageprovidererror_message.md), [StorageProviderError.PrimaryAction](storageprovidererror_primaryaction.md), [StorageProviderError.SecondaryAction](storageprovidererror_secondaryaction.md)
 
 ## -examples

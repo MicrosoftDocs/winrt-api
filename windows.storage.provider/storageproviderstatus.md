@@ -9,13 +9,13 @@
 public sealed class StorageProviderStatus
 -->
 
-
 ## -description
-Represents the cloud provider's status in the File Explorer.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [StorageProviderStatusUI](storageproviderstatusui.md) class instead.
 
 ## -remarks
 
 ## -see-also
-[StorageProviderState](storageproviderstate.md), [StorageProviderStatus.ErrorMessages](storageproviderstatus_errormessages.md), [StorageProviderStatus.Message](storageproviderstatus_message.md), [StorageProviderStatus.State](storageproviderstatus_state.md)
 
 ## -examples
