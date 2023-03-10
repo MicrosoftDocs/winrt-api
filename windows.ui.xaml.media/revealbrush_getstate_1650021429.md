@@ -17,7 +17,7 @@ public RevealBrushState RevealBrush.GetState(UIElement element)
 Gets the value of the [RevealBrush.State](revealbrush_state.md) XAML attached property for the target element.
 
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.RevealBrush.GetState(Windows.UI.Xaml.UIElement)](/windows/winui/api/microsoft.ui.xaml.media.revealbrush.getstate(windows.ui.xaml.uielement)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Media.RevealBrush.GetState(Windows.UI.Xaml.UIElement)](/windows/winui/api/microsoft.ui.xaml.media.revealbrush.getstate) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 

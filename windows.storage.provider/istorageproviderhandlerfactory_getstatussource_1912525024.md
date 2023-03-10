@@ -9,20 +9,19 @@
 public Windows.Storage.Provider.IStorageProviderStatusSource GetStatusSource (string syncRootId);
 -->
 
-
 ## -description
-Gets the [IStorageProviderStatusSource](istorageproviderstatussource.md) implementation based on the syncRootId provided.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISourceFactory.GetStatusUISource](istorageproviderstatusuisourcefactory_getstatusuisource_2016808804.md) method instead.
+
 ## -parameters
 
 ### -param syncRootId
-An identifier for the sync root.
 
 ## -returns
-Returns the storage provider's implementation of IStorageProviderStatusSource.
 
 ## -remarks
 
 ## -see-also
-[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md), [IStorageProviderStatusSource](istorageproviderstatussource.md)
 
 ## -examples

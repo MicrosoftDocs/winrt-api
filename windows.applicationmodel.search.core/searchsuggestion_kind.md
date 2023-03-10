@@ -24,7 +24,6 @@ If the suggestion was supplied by the system, it has a [SearchSuggestionKind](se
 | [AppendQuerySuggestions](../windows.applicationmodel.search/searchsuggestioncollection_appendquerysuggestions_81953608.md) | **Query** |
 | [AppendResultSuggestion](../windows.applicationmodel.search/searchsuggestioncollection_appendresultsuggestion_603544202.md) | **Result** |
 | [AppendSearchSeparator](../windows.applicationmodel.search/searchsuggestioncollection_appendsearchseparator_842802100.md) | **Separator** |
-| [AppendStorageFile](../windows.applicationmodel.search/searchsuggestioncollection_appendstoragefilesuggestion.md) | **StorageFile** |
 
 ## -examples
 

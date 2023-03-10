@@ -9,13 +9,13 @@
 public interface IStorageProviderStatusSource
 -->
 
-
 ## -description
-An interface that returns the storage provider's sync status to the File Explorer app.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISource](istorageproviderstatusuisource.md) interface instead.
 
 ## -remarks
 
 ## -see-also
-[IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md), [IStorageProviderStatusSource.Changed](istorageproviderstatussource_changed.md)
 
 ## -examples

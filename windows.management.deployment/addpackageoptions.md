@@ -5,7 +5,7 @@
 
 ## -description
 
-Specifies the deployment options that you can configure when you use the [AddPackageByUriAsync](packagemanager_addpackagebyuriasync_797417417.md) method to add a package.
+Specifies the deployment options that you can configure when you use the [AddPackageByUriAsync](packagemanager_addpackagebyuriasync_797417417.md) method to add a package, package manifest, or App Installer file.
 
 ## -remarks
 

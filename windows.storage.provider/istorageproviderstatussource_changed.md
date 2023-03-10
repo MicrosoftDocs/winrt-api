@@ -9,13 +9,13 @@
 event Windows.Foundation.TypedEventHandler<Windows.Storage.Provider.IStorageProviderStatusSource,object> Changed;
 -->
 
-
 ## -description
-The File Explorer will subscribe to this event to listen for status changes.
+
+> [!NOTE]
+> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISource.Changed](istorageproviderstatusuisource_changed.md) event instead.
 
 ## -remarks
 
 ## -see-also
-[IStorageProviderHandlerFactory](istorageproviderhandlerfactory.md), [IStorageProviderStatusSource](istorageproviderstatussource.md), [IStorageProviderStatusSource.GetStatus](istorageproviderstatussource_getstatus_169641651.md)
 
 ## -examples
