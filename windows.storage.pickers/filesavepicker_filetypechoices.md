@@ -37,7 +37,7 @@ savePicker.FileTypeChoices().Insert(L"Plain Text", plainTextExtensions);
 savePicker.SuggestedFileName(L"New Document");
 ```
 
-If you set multiple **FileTypeChoices**, the first one is the default file type. The default file type is the one that is selected when the user opens the file picker. The default file type is also the one that is used if the user does not change the file type in the file picker. In this example, the **FileTypeChoices** entries are added based on the selection in a set of radio buttons:
+If you add multiple **FileTypeChoices** to the **FileSavePicker**, the first one added is the default file type. This default will be selected when the user opens the file picker. The default file type is used if the user does not change the file type in the file picker. In this example, the **FileTypeChoices** entries are added based on which radio button has been selected:
 
 ```csharp
 if (radioButtonRichText.IsChecked)
