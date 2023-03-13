@@ -1,10 +1,10 @@
 ---
--api-id: M:Windows.Foundation.IPropertyValue.GetDateTimeArray(Windows.Foundation.DateTime[]@)
+-api-id: M:Windows.Foundation.IPropertyValue.GetDateTimeArray(Windows.Foundation.DateTimeOffset[]@)
 -api-type: winrt method
 ---
 
 <!-- Method syntax
-public void GetDateTimeArray(Windows.Foundation.DateTime[] value)
+public void GetDateTimeArray(Windows.Foundation.DateTimeOffset[] value)
 -->
 
 # Windows.Foundation.IPropertyValue.GetDateTimeArray
