@@ -29,7 +29,7 @@ When this method completes, it returns the web account's picture.
 > [!IMPORTANT]
 > The word "desired" is misspelled in this method's parameter name.
 
-This method should be called on the [WebAccount](webaccount.md) returned in [WebTokenRequestResult](..\windows.security.authentication.web.core\webtokenrequestresult.md). Add (`UserPictureEnabled`, `True`) to the [WebTokenRequest.Properties](..\windows.security.authentication.web.core\webtokenrequest_properties.md) while creating [WebTokenRequest](..\windows.security.authentication.web.core\webtokenrequest.md) to acquire a token. Otherwise, the call may return a default profile picture.
+This method should be called on the [WebAccount](webaccount.md) returned in [WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult). Add (`UserPictureEnabled`, `True`) to the [WebTokenRequest.Properties](/uwp/api/windows.security.authentication.web.core.webtokenrequest.properties) while creating [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest) to acquire a token. Otherwise, the call may return a default profile picture.
 
 ## -examples
 
