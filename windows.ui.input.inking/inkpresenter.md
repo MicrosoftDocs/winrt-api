@@ -47,7 +47,7 @@ Here, we show how to overlay ink annotations on an image. For this example, ink 
 <ScrollViewer>
   <Grid>
     <Image Source="<path>"></Image>
-    <InkCanvas x:Name="MyInkCanvas"></InkCanvas>
+    <InkCanvas x:Name="inkCanvas"></InkCanvas>
   </Grid>
 </ScrollView
 ```
