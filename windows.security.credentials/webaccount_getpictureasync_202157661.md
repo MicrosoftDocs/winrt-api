@@ -11,19 +11,25 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IRandomAccessS
 # Windows.Security.Credentials.WebAccount.GetPictureAsync
 
 ## -description
+
 Gets the web account's picture asynchronously.
 
 ## -parameters
+
 ### -param desizedSize
+
 The desired size of the web account picture.
 
 ## -returns
+
 When this method completes, it returns the web account's picture.
 
 ## -remarks
-The word "desired" is misspelled in this parameter name.
 
-This method should be called on the [WebAccount](webaccount.md) returned in [WebTokenRequestResponse](webtokenrequestresponse.md). Add (`UserPictureEnabled`, `True`) to the [WebTokenRequest.Properties](webtokenrequest_properties.md) while creating [WebTokenRequest](webtokenrequest.md) to acquire a token. Otherwise, the call may return a default profile picture.
+> [!IMPORTANT]
+> The word "desired" is misspelled in this method's parameter name.
+
+This method should be called on the [WebAccount](webaccount.md) returned in [WebTokenRequestResult](..\windows.security.authentication.web.core\webtokenrequestresult.md). Add (`UserPictureEnabled`, `True`) to the [WebTokenRequest.Properties](..\windows.security.authentication.web.core\webtokenrequest_properties.md) while creating [WebTokenRequest](..\windows.security.authentication.web.core\webtokenrequest.md) to acquire a token. Otherwise, the call may return a default profile picture.
 
 ## -examples
 
