@@ -12,7 +12,7 @@ event Windows.Foundation.TypedEventHandler<Windows.Storage.Provider.IStorageProv
 ## -description
 
 > [!NOTE]
-> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISource.Changed](istorageproviderstatusuisource_changed.md) event instead.
+> Scenarios for this API are not supported. Use the [IStorageProviderStatusUISource.StatusUIChanged](istorageproviderstatusuisource_statusuichanged.md) event instead.
 
 ## -remarks
 
