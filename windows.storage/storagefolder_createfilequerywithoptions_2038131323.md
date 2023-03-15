@@ -33,16 +33,13 @@ You specified a value other than **DefaultQuery** from the [CommonFileQuery](/uw
 
 In the following cases, this query is a shallow query that returns only files in the current folder:
 
-- Default behavior of this method if none of the following options are specified.
-- _or:_
-- Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-- _or:_
+- Default behavior of this method if none of the following options are specified. **_Or:_**
+- Specify **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object. **_Or:_**
 - Specify **Shallow** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md) object.
 
 In the following cases, this query is a deep query that returns files from the current folder and from its subfolders:
 
-- For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object.
-- _or:_
+- For a library folder, specify a value other than **DefaultQuery** as the value of [CommonFileQuery](../windows.storage.search/commonfilequery.md) when you instantiate the [QueryOptions](../windows.storage.search/queryoptions.md) object. **_Or:_**
 - For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md).
 
 > [!TIP]
