@@ -21,4 +21,4 @@ The device lockdown APIs in Windows.Embedded.DeviceLockdown require the **enterp
 
 ## -see-also
 
-[Device lockdown with Azure login sample (Windows 10)](https://go.microsoft.com/fwlink/?LinkID=703786)
+[Device lockdown with Azure login sample](https://github.com/lotzi11/Windows-universal-samples/blob/master/Samples/DeviceLockdownAzureLogin/README.md)
