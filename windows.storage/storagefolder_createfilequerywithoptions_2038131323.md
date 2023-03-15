@@ -29,9 +29,6 @@ A query result object that contains the files in the current folder and, optiona
 
 You specified a value other than **DefaultQuery** from the [CommonFileQuery](/uwp/api/windows.storage.search.commonfilequery) enumeration for a folder that's not a library folder. Check the value of _query_.
 
-> [!NOTE]
-> Despite the wording of this exception, you can also use the **OrderByName** and **OrderBySearchRank** values from the [CommonFileQuery](/uwp/api/windows.storage.search.commonfilequery) enumeration with a folder that's not a library folder.
-
 ## -remarks
 
 In the following cases, this query is a shallow query that returns only files in the current folder:
@@ -49,7 +46,7 @@ In the following cases, this query is a deep query that returns files from the c
 - For any folder, specify **Deep** as the value of the [FolderDepth](../windows.storage.search/queryoptions_folderdepth.md) property of the [QueryOptions](../windows.storage.search/queryoptions.md).
 
 > [!TIP]
-> Some of the values from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration can only be used with a library folder (such as the Pictures library) or the Homegroup folder. In addition to the **DefaultQuery** option, you can also use the **OrderByName** and **OrderBySearchRank** options with a folder that's not a library folder.
+> Some of the values from the [CommonFileQuery](../windows.storage.search/commonfilequery.md) enumeration can only be used with a library folder (such as the Pictures library) or the Homegroup folder. Despite the wording of the **ArgumentException** described above, you can use the **OrderByName** and **OrderBySearchRank** options (in addition to the **DefaultQuery** option) with a folder that's not a library folder.
 
 For a list of methods that identifies shallow queries and deep queries, see the Remarks in the topic [GetFilesAsync](storagefolder_getfilesasync_1429382825.md).
 
