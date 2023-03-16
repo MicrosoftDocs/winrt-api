@@ -36,26 +36,112 @@ In a desktop app (which includes WinUI 3 apps), you can use **FileSavePicker** (
 CoCreateInstance
 FileSaveDialog
 IFileSaveDialog
+SHCreateItemFromParsingName
+
+// MainWindow.xaml
+...
+<TextBlock x:Name="OutputTextBlock"/>
+...
 
 // MainWindow.xaml.cs
-...
+using Microsoft.UI.Xaml;
+using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
+
 using Windows.Win32;
 using Windows.Win32.Foundation;
 using Windows.Win32.System.Com;
 using Windows.Win32.UI.Shell;
-...
-// In an event handler...
-// Retrieve the window handle (HWND) of the main WinUI 3 window.
-var hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+using Windows.Win32.UI.Shell.Common;
 
-PInvoke.CoCreateInstance<IFileSaveDialog>(
-    typeof(FileSaveDialog).GUID,
-    null,
-    CLSCTX.CLSCTX_INPROC_SERVER,
-    out var fsd);
-// Configure the dialog here.
-fsd.Show(new HWND(hWnd));
-...
+namespace FileSavePickerExample
+{
+    public sealed partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            this.InitializeComponent();
+        }
+
+        private unsafe void myButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Retrieve the window handle (HWND) of the main WinUI 3 window.
+                var hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+
+                int hr = PInvoke.CoCreateInstance<IFileSaveDialog>(
+                    typeof(FileSaveDialog).GUID,
+                    null,
+                    CLSCTX.CLSCTX_INPROC_SERVER,
+                    out var fsd);
+                if (hr < 0)
+                {
+                    Marshal.ThrowExceptionForHR(hr);
+                }
+
+                // Set file type filters.
+                string filter = "Word Documents|*.docx|JPEG Files|*.jpg";
+
+                List<COMDLG_FILTERSPEC> extensions = new List<COMDLG_FILTERSPEC>();
+
+                if (!string.IsNullOrEmpty(filter))
+                {
+                    string[] tokens = filter.Split('|');
+                    if (0 == tokens.Length % 2)
+                    {
+                        // All even numbered tokens should be labels.
+                        // Odd numbered tokens are the associated extensions.
+                        for (int i = 1; i < tokens.Length; i += 2)
+                        {
+                            COMDLG_FILTERSPEC extension;
+
+                            extension.pszSpec = (char*)Marshal.StringToHGlobalUni(tokens[i]);
+                            extension.pszName = (char*)Marshal.StringToHGlobalUni(tokens[i - 1]);
+                            extensions.Add(extension);
+                        }
+                    }
+                }
+
+                fsd.SetFileTypes(extensions.ToArray());
+
+                // Set the default folder.
+                hr = PInvoke.SHCreateItemFromParsingName(
+                    Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                    null,
+                    typeof(IShellItem).GUID,
+                    out var directoryShellItem);
+                if (hr < 0)
+                {
+                    Marshal.ThrowExceptionForHR(hr);
+                }
+
+                fsd.SetFolder((IShellItem)directoryShellItem);
+                fsd.SetDefaultFolder((IShellItem)directoryShellItem);
+
+                // Set the default file name.
+                fsd.SetFileName($"{DateTime.Now:yyyyMMddHHmm}");
+
+                // Set the default extension.
+                fsd.SetDefaultExtension(".docx");
+
+                fsd.Show(new HWND(hWnd));
+
+                fsd.GetResult(out var ppsi);
+
+                PWSTR filename;
+                ppsi.GetDisplayName(SIGDN.SIGDN_FILESYSPATH, &filename);
+
+                OutputTextBlock.Text = filename.ToString();
+            }
+            catch (Exception ex)
+            {
+                OutputTextBlock.Text = "a problem occured: " + ex.Message;
+            }
+        }
+    }
+}
 ```
 
 ### Version history
