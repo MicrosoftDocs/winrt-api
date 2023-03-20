@@ -13,8 +13,6 @@ event Windows.Foundation.TypedEventHandler<Windows.Storage.Provider.IStorageProv
 
 This change notification event notifies the client side to update the storage provider status UI flyout.
 
-## -property-value
-
 ## -see-also
 
-[IStorageProviderStatusUISource_GetStatusUI](istorageproviderstatusuisource_getstatusui_715686310.md)
+[IStorageProviderStatusUISource](istorageproviderstatusuisource.md), [IStorageProviderStatusUISource_GetStatusUI](istorageproviderstatusuisource_getstatusui_715686310.md)
