@@ -10,6 +10,9 @@ public enum SystemUpdateAttentionRequiredReason : int
 
 # Windows.System.Update.SystemUpdateAttentionRequiredReason
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Reason why user attention is required.
 

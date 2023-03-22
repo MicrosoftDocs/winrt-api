@@ -10,6 +10,9 @@ public enum SystemUpdateManagerState : int
 
 # Windows.System.Update.SystemUpdateManagerState
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Enumeration that describes the current state of system updates.
 

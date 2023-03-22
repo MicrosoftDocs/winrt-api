@@ -10,6 +10,9 @@ public bool IsInteractive { get; }
 
 # Windows.System.Update.SystemUpdateLastErrorInfo.IsInteractive
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Specifies if the last update error occurred during an interactive update.
 
