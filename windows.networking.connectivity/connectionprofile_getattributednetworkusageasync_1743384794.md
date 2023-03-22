@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Networking.Connectivity.ConnectionProfile.GetAttributedNetworkUsageAsync
 
 ## -description
-Gets network usage data for each individual application. This method is only supported in a Windows Phone 8.x app.
+Gets network usage data for each individual application.
 
 ## -parameters
 ### -param startTime
