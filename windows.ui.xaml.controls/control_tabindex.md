@@ -11,7 +11,7 @@ public int TabIndex { get;  set; }
 
 ## -description
 
-Gets or sets a value that indicates the order in which elements receive focus when the user navigates through controls using the Tab key.
+Gets or sets a value that indicates the order in which elements receive focus when the user navigates through the app UI using the Tab key.
 
 ## -xaml-syntax
 ```xaml
