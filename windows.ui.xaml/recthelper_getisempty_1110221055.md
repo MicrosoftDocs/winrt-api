@@ -27,6 +27,8 @@ The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -remarks
 
+GetIsEmpty will return **false** if the Rect has a width or height of 0. To check whether the size has a nonzero area, inspect Rect.Width and Rect.Height directly instead of calling this method.
+
 ## -examples
 
 ## -see-also

@@ -11,7 +11,7 @@ public float GetTop(Windows.Foundation.Rect target)
 
 ## -description
 
-Gets a "Top" value for the specified [Rect](../windows.foundation/rect.md). So long as **Height** is positive, "Top" is evaluated as **Y**. C# and Microsoft Visual Basic code should use [Rect.Top](/dotnet/api/windows.foundation.rect.top?view=dotnet-uwp-10.0&preserve-view=true) instead.
+Gets a "Top" value for the specified [Rect](../windows.foundation/rect.md). So long as **Width** is positive, "Top" is evaluated as **Y**. C# and Microsoft Visual Basic code should use [Rect.Top](/dotnet/api/windows.foundation.rect.top?view=dotnet-uwp-10.0&preserve-view=true) instead.
 
 
 

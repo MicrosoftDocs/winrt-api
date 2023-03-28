@@ -27,6 +27,8 @@ The [Size](../windows.foundation/size.md) to evaluate.
 
 ## -remarks
 
+GetIsEmpty will return **false** if the Size has a width or height of 0. To check whether the size has a nonzero area, inspect Size.Width and Size.Height directly instead of calling this method.
+
 ## -examples
 
 ## -see-also
