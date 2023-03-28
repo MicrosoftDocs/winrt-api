@@ -27,7 +27,7 @@ The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -remarks
 
-Do not use this property to test for zero area; a rectangle with zero area is not necessarily the [Empty](recthelper_empty.md) rectangle. For more information, see the [Empty](recthelper_empty.md) property.
+Do not use this method to test for zero area; a rectangle with zero area is not necessarily the [Empty](recthelper_empty.md) rectangle. For more information, see the [Empty](recthelper_empty.md) property.
 
 ## -examples
 
