@@ -27,7 +27,7 @@ The [Rect](../windows.foundation/rect.md) to evaluate.
 
 ## -remarks
 
-GetIsEmpty will return **false** if the Rect has a width or height of 0. To check whether the size has a nonzero area, inspect Rect.Width and Rect.Height directly instead of calling this method.
+Do not use this property to test for zero area; a rectangle with zero area is not necessarily the [Empty](recthelper_empty.md) rectangle. For more information, see the [Empty](recthelper_empty.md) property.
 
 ## -examples
 
