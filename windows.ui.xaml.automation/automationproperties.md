@@ -58,5 +58,15 @@ See [Attached properties](#attached-properties) for a complete list (for more in
 
 ## -examples
 
+> [!TIP]
+> [!div class="nextstepaction"]
+> Open the WinUI 3 Gallery app and see the following Accessibility principles in action:
+> - [Screen reader support](winui3gallery://item/AccessibilityScreenReader)
+> - [Keyboard support](winui3gallery://item/AccessibilityKeyboard)
+> - [Color contrast](winui3gallery://item/AccessibilityColorContrast)
+
+> The **WinUI 3 Gallery** app includes interactive examples of most WinUI 3 controls, features, and functionality. Get the app from the [Microsoft Store](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) or get the source code on [GitHub](https://github.com/microsoft/WinUI-Gallery)
+
 ## -see-also
+
 [Accessibility](/windows/uwp/accessibility/accessibility), [Basic accessibility information](/windows/uwp/accessibility/basic-accessibility-information), [Accessibility testing](/windows/uwp/accessibility/accessibility-testing), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview), [Code samples for resolving common programmatic accessibility issues in Windows desktop apps](/accessibility-tools-docs/)
