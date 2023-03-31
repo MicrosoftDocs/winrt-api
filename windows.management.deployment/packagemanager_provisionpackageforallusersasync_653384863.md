@@ -23,7 +23,7 @@ The progress and the result of the app package deployment.
 ## -remarks
 To provision a package you must be an administrator. The app package to be provisioned must be staged, and it must be on the system volume.
 
-If the package is already provisioned, this performs a "clean" reprovision. A "clean" reprovision will remove all previous installs of this package so the package will behave as if this were its first installation.
+If the package is already provisioned, this performs a "clean" reprovision. A "clean" reprovision will remove all previous installs of this package so the packagee, so that the package will be re-offered to all users that may have previously removed it, as if it were the first provision. This will not affect any users that currently have the package installed.
 
 > [!NOTE]
 > If you are provisioning optional packages, you must specify each optional package individually with its own method call. Starting with Windows Build 22000, you can use the overload of [ProvisionPackageForAllUsersAsync](packagemanager_provisionpackageforallusersasync_1152150951.md), to specify additional optional packages to install with a single call.
