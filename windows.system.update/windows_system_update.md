@@ -10,9 +10,12 @@ namespace Windows.System.Update
 
 # Windows.System.Update
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 
-Support for interactive control of system updates. Only available for Windows 10 IoT Core.
+Support for interactive control of system updates.
 
 ## -remarks
 

@@ -12,11 +12,10 @@ public void CompositionAnimation.SetExpressionReferenceParameter(String paramete
 
 ## -description
 
-Sets an IAnimationObject value parameter for use with an [ExpressionAnimation](expressionanimation.md) or an [expression keyframe](keyframeanimation_insertexpressionkeyframe_1955314135.md).
-
-
+Sets an object that implements [IAnimationObject](ianimationobject.md) as a reference parameter in an [ExpressionAnimation](expressionanimation.md).
 
 ## -parameters
+
 ### -param parameterName
 
 The name of the parameter to set.
@@ -31,3 +30,44 @@ The source object.
 
 ## -examples
 
+```csharp
+// CustomObject that implements IAnimationObject.
+class CustomObject : IAnimationObject
+{
+    public CustomObject(Compositor compositor)
+    {
+        _targetVisual = compositor.CreateSpriteVisual();
+    }
+
+    // Implement PopulatePropertyInfo method that 
+    // redirects the property named "CustomOffset"
+    // to the Offset property of the underlying visual.
+    void IAnimationObject.PopulatePropertyInfo(
+        string propertyName,
+        AnimationPropertyInfo propertyInfo)
+    {
+        if (propertyName.Equals(“CustomOffset”)
+        {
+            _targetVisual.PopulatePropertyInfo(
+                “Offset”,
+                propertyInfo);           
+        }
+    }
+
+    private SpriteVisual _targetVisual = null;
+}
+
+// Sample usage of CustomObject in an ExpressionAnimation.
+void SetupExpression(
+    Compositor compositor, 
+    IAnimationObject customObject,
+    SpriteVisual target)
+{
+    var expAnim = compositor.CreateExpressionAnimation(
+        “customObject.CustomOffset + vector3(100.0f, 0.0f, 0.0f)”);
+
+    expAnim.SetExpressionReferenceParameter(“customObject”, customObject);
+
+    targetVisual.StartAnimation(“Offset”, expAnim);        
+}
+```

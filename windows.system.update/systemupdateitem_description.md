@@ -10,6 +10,9 @@ public string Description { get; }
 
 # Windows.System.Update.SystemUpdateItem.Description
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Describes the contents of the SystemUpdateItem.
 

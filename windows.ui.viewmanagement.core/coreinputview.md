@@ -18,7 +18,7 @@ Enables an app to control the display of a docked, undocked, moveable, or transi
 
 ## -remarks
 
-Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md) or [CoreInputViewKind.Handwriting](ccoreinputviewkind.md) views, while CoreInputView can be any of the values from [CoreInputViewKind.Handwriting](coreinputviewkind.md).
+Primary view refers to either of the [CoreInputViewKind.Keyboard](coreinputviewkind.md) or [CoreInputViewKind.Handwriting](coreinputviewkind.md) views, while CoreInputView can be any of the values from [CoreInputViewKind.Handwriting](coreinputviewkind.md).
 
 Used by frameworks (such as XAML) or custom text controls only.
 

@@ -10,6 +10,9 @@ public enum SystemUpdateStartInstallAction : int
 
 # Windows.System.Update.SystemUpdateStartInstallAction
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 
 ## -enum-fields

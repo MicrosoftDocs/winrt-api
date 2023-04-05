@@ -10,6 +10,9 @@ public class SystemUpdateManager
 
 # Windows.System.Update.SystemUpdateManager
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 The **SystemUpdateManager** allows interactive control of system updates.
 

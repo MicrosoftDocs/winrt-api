@@ -10,6 +10,9 @@ public HResult ExtendedError { get; }
 
 # Windows.System.Update.SystemUpdateItem.ExtendedError
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Extended error information, if available.
 

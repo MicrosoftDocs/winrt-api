@@ -10,6 +10,9 @@ public double InstallProgress { get; }
 
 # Windows.System.Update.SystemUpdateItem.InstallProgress
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 Install progress percentage.
 

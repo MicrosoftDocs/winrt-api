@@ -10,6 +10,9 @@ public enum SystemUpdateItemState : int
 
 # Windows.System.Update.SystemUpdateItemState
 
+> [!IMPORTANT]
+> Only available for [Windows 10 IoT Core](https://learn.microsoft.com/windows/iot-core/windows-iot-core).
+
 ## -description
 State of a [SystemUpdateItem](systemupdateitem.md).
 
