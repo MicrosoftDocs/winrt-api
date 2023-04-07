@@ -21,7 +21,7 @@ The conversion factors for the character width (x) and line height (y).
 
 The following image shows the default control panel settings for the button wheel. These settings map a single detent to a specific unit of distance in the UI (character width and line height). CharTranslation provides the means to redefine these distances and specify them in terms of device-independent pixel (DIP).
 
-<img src="images/MouseProperties_ButtonWheel.png" alt="Mouse properties dialog with wheel settings displayed" />
+<img src="images/mouseproperties-buttonwheel.png" alt="Screenshot of the Mouse Settings page showing mouse wheel scrolling settings." />
 
 *Mouse properties dialog with wheel settings displayed*
 
