@@ -15,7 +15,7 @@ Defines the format of a bitmap plane.
 ## -struct-fields
 
 ### -field StartIndex
-The byte offset to the start of the pixel data within the plane.
+The start index of the pixel data within the plane.
     
 
 ### -field Width
