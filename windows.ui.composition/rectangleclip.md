@@ -17,7 +17,7 @@ Represents a rectangle with optional rounded corners that clips a portion of a v
 
 `RectangleClip` is functionally similar to [InsetClip](insetclip.md), but allows you to round the corners of the clipping rectangle.
 
-A `RectangleClip` is defined using offsets in pixels from the bottom, left, right, and top of the [Visual](visual.md) to be clipped. You can round the corners of the rectangle by setting the various _Radius_ properties.
+A `RectangleClip` is defined using the bottom, left, right, and top of the clip itself. Unlike `InsetClip`, it's not relative to the Visual it's attached to. You can round the corners of the rectangle by setting the various _Radius_ properties.
 
 To clip a `Visual`, you assign the `RectangleClip` to the [Clip](visual_clip.md) property of the `Visual`.
 
