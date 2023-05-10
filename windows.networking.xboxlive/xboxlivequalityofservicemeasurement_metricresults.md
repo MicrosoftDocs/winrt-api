@@ -10,12 +10,19 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.XboxLive.Xb
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.MetricResults
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets a list of all metrics for all devices specified in the current Quality of Service (QoS) measurement.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
+
 This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
+
+A list of QoS metric results.
 
 ## -examples
 

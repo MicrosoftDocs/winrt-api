@@ -10,18 +10,28 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.XboxLive.XboxLiveEn
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.CreateEndpointPairAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creates an **XboxLiveEndpointPair** between the local device and a specified remote device, based on the current template, with creation behavior **XboxLiveEndpointPairCreationBehaviors.None**.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param deviceAddress
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The XboxLiveDeviceAddress of the remote device to be connected to.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+An asynchronous endpoint creation operation. When the operation completes, contains the results of the operation.
 
 ## -remarks
+
+The most common way to get an address for the *deviceAddress* parameter is to be sent one from the Xbox Live matchmaking service.
 
 ## -examples
 
 ## -see-also
+
 [CreateEndpointPairAsync(XboxLiveDeviceAddress, XboxLiveEndpointPairCreationBehaviors)](xboxliveendpointpairtemplate_createendpointpairasync_235287572.md)

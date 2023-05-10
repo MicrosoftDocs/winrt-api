@@ -10,14 +10,23 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.XboxLive.Xb
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.GetMetricResultsForDevice
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets all metric results for a given device.
+
+Your code specifies a set of metrics, device addresses, timeouts, and number of probes to attempt, and then calls **XboxLiveQualityOfServiceMeasurement.MeasureAsync** to begin making the specified measurements. You can call **GetMetricResultsForDevice** at any time while measurements are in progress or after they have finished, and retrieve current values. Note that if you repeatedly call **GetMetricResultsForDevice**, and inspect a given metric while the relevant measurements are in progress, you might get different values as the measurement proceeds.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param deviceAddress
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The address of the device.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+A list of metric results.
 
 ## -remarks
 

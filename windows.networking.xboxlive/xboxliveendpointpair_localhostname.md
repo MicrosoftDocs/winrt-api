@@ -9,11 +9,16 @@ public Windows.Networking.HostName LocalHostName { get; }
 
 # Windows.Networking.XboxLive.XboxLiveEndpointPair.LocalHostName
 
+Gets a **HostName** for the local endpoint.
+
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **HostName** object for the local endpoint.
 
 ## -remarks
 

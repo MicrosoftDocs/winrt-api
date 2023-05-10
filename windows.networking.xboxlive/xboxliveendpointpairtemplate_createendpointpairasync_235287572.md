@@ -10,21 +10,32 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.XboxLive.XboxLiveEn
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.CreateEndpointPairAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creates an **XboxLiveEndpointPair** between the local device and a specified remote device, while specifying how the system should behave if an **XboxLiveEndpointPair** already exists for this template and remote device.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param deviceAddress
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveDeviceAddress** of the remote device for the endpoint pair.
 
 ### -param behaviors
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+A value that specifies how the system should behave when the requested endpoint pair has already been established. Your code can specify either that the existing **XboxLiveEndpointPair** be used, or that the system re-evaluate all potential network paths according to the template's quality requirements. If the same network path is selected after re-evaluation, then the same **XboxLiveEndpointPair** is returned. If a new path is found, then the old **XboxLiveEndpointPair** is destroyed, and a new one returned.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+An asynchronous endpoint creation operation. When the operation completes, contains the results of the operation.
 
 ## -remarks
+
+The most common way to get an address for the *deviceAddress* parameter is to be sent one from the Xbox Live matchmaking service.
 
 ## -examples
 
 ## -see-also
+
 [CreateEndpointPairAsync(XboxLiveDeviceAddress)](xboxliveendpointpairtemplate_createendpointpairasync_354642904.md)

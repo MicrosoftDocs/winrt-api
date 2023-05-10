@@ -10,45 +10,61 @@ public enum Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurementStatu
 # XboxLiveQualityOfServiceMeasurementStatus
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Defines constants that specify the status of a Quality of Service (QoS) measurement.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -enum-fields
+
 ### -field NotStarted:0
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement has not been started.
 
 ### -field InProgress:1
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement is in progress.
 
 ### -field InProgressWithProvisionalResults:2
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement is in progress, and provisional results are available.
 
 ### -field Succeeded:3
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement has completed successfully.
 
 ### -field NoLocalNetworks:4
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement failed because the local device has no network connections.
 
 ### -field NoCompatibleNetworkPaths:5
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement failed because there are no compatible network paths to the target device.
 
 ### -field LocalSystemNotAuthorized:6
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the local system's authorization was deemed unacceptable by the remote system.
 
 ### -field Canceled:7
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement was canceled.
 
 ### -field TimedOut:8
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The measurement timed out.
 
 ### -field RemoteSystemNotAuthorized:9
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the remote system's authorization was deemed unacceptable by the local system or by your app.
 
 ### -field RefusedDueToConfiguration:10
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the remote system has a different, incompatible configuration, and has actively refused the connection.
 
 ### -field UnexpectedInternalError:11
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
+The measurement failed due to an internal system error.
 
 ## -remarks
 

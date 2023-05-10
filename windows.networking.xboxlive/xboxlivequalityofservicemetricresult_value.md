@@ -10,10 +10,15 @@ public ulong Value { get; }
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMetricResult.Value
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the value of the measurement.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The value of the measurement. The units depend on the **Metric**.
 
 ## -remarks
 

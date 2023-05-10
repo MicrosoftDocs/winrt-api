@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveDeviceAddress DeviceAddress { get; }
 # Windows.Networking.XboxLive.XboxLiveEndpointPairCreationResult.DeviceAddress
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the device address of the remote endpoint.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The device address of the remote endpoint.
 
 ## -remarks
 

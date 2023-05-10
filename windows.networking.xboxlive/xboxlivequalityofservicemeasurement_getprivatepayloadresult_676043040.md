@@ -10,14 +10,23 @@ public Windows.Networking.XboxLive.XboxLiveQualityOfServicePrivatePayloadResult 
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.GetPrivatePayloadResult
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the private payload for a device currently being measured, if **ShouldRequestPrivatePayloads** was set to `true` for this measurement.
+
+Your code specifies a set of metrics, device addresses, timeouts, number of probes to attempt, and whether to request private payloads, and then calls **XboxLiveQualityOfServiceMeasurement.MeasureAsync** to begin making the specified measurements, and to retrieve any private payloads.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param deviceAddress
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Device address of the device whose private payload is being retrieved.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The private payload.
 
 ## -remarks
 

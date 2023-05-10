@@ -10,10 +10,15 @@ public bool ShouldRequestPrivatePayloads { get;  set; }
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.ShouldRequestPrivatePayloads
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets or sets a Boolean value indicating whether private payloads should be retrieved from the devices involved in this Quality of Service (QoS) measurement.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+When `true`, private payloads are retrieved.
 
 ## -remarks
 

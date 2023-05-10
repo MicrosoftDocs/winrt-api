@@ -10,10 +10,15 @@ public bool IsExistingPathEvaluation { get; }
 # Windows.Networking.XboxLive.XboxLiveEndpointPairCreationResult.IsExistingPathEvaluation
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets a Boolean value that is `true` if the endpoint pair being returned already existed.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+`True` if the returned endpoint pair already existed. `False` if the endpoint pair didn't previously exist, or the creation operation used **XboxLiveEndpointPairCreationBehaviors.ReevaluatePath** and the re-evaluation found a new path.
 
 ## -remarks
 

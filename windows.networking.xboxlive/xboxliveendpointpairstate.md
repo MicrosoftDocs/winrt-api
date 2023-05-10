@@ -10,30 +10,41 @@ public enum Windows.Networking.XboxLive.XboxLiveEndpointPairState : int
 # XboxLiveEndpointPairState
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Defines constants that specify the status of an **XboxLiveEndpointPair** instance.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -enum-fields
+
 ### -field Invalid:0
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is in an invalid state.
 
 ### -field CreatingOutbound:1
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is being created, initiated by this device.
 
 ### -field CreatingInbound:2
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is being created, initiated by a remote device.
 
 ### -field Ready:3
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is ready to be used.
 
 ### -field DeletingLocally:4
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is in the process of being deleted. Deletion was initiated locally.
 
 ### -field RemoteEndpointTerminating:5
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The endpoint pair is in the process of being deleted because the remote endpoint initiated deletion.
 
 ### -field Deleted:6
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
+The endpoint pair has been deleted.
 
 ## -remarks
 

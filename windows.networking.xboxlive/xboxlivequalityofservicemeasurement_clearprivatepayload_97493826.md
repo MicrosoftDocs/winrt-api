@@ -10,7 +10,11 @@ public void ClearPrivatePayload()
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.ClearPrivatePayload
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Clears the private payload established with **PublishPrivatePayloadBytes**.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
 

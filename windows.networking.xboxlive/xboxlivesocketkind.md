@@ -10,18 +10,22 @@ public enum Windows.Networking.XboxLive.XboxLiveSocketKind : int
 # XboxLiveSocketKind
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Defines constants that specify the kinds of sockets recognized by this API.
 
 ## -enum-fields
+
 ### -field None:0
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+No socket kind is specified. This value should be used in your code only for data validation purposes.
 
 ### -field Datagram:1
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Datagram (UDP).
 
 ### -field Stream:2
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
+Stream (TCP).
 
 ## -remarks
 

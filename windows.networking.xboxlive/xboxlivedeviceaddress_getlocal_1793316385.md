@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveDeviceAddress GetLocal()
 # Windows.Networking.XboxLive.XboxLiveDeviceAddress.GetLocal
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creates an **XboxLiveDeviceAddress** for the local device.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveDeviceAddress** of the local device. 
 
 ## -remarks
 

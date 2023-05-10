@@ -10,10 +10,15 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.XboxLive.Xb
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.Templates
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Static property that lists all of the templates declared by the app. Templates are declared in the app's network manifest at build time, and cannot be declared or modified at runtime.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+All of the templates declared by the app.
 
 ## -remarks
 

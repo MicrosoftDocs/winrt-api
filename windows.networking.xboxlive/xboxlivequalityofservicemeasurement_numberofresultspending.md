@@ -10,10 +10,15 @@ public uint NumberOfResultsPending { get; }
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMeasurement.NumberOfResultsPending
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the number of pending results for the current Quality of Service (QoS) measurement while it is in progress. It is 0 if the measurement action has completed.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Number of pending results.
 
 ## -remarks
 

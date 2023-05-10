@@ -10,7 +10,11 @@ public event Windows.Foundation.TypedEventHandler InboundEndpointPairCreated<Win
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.InboundEndpointPairCreated
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Event raised when a remote device successfully creates an endpoint pair from itself to the local machine. Details about the new endpoint pair can be found in the event arguments.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
 

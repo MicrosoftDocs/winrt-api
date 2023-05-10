@@ -10,24 +10,34 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.XboxLive.XboxLiveEn
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.CreateEndpointPairForPortsAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creates an endpoint pair between the local device and the specified remote device, specifying specific ports from the template's designated range of acceptable ports, with creation behavior **XboxLiveEndpointPairCreationBehaviors.None**.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param deviceAddress
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveDeviceAddress** of the remote device to be connected to.
 
 ### -param initiatorPort
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The port to be used by the initiator, from the range of acceptable initiator ports specified in this template.
 
 ### -param acceptorPort
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The port to be used by the acceptor, from the range of acceptable acceptor ports specified in this template.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+An asynchronous endpoint creation operation. When the operation completes, contains the results of the operation.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [CreateEndpointPairForPortsAsync(XboxLiveDeviceAddress, String, String, XboxLiveEndpointPairCreationBehaviors)](xboxliveendpointpairtemplate_createendpointpairforportsasync_630320203.md)

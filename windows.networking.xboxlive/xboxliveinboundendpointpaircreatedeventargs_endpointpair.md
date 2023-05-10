@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveEndpointPair EndpointPair { get; }
 # Windows.Networking.XboxLive.XboxLiveInboundEndpointPairCreatedEventArgs.EndpointPair
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the **XboxLiveEndpointPair** that a remote device has created with the local device.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveEndpointPair** that a remote device has created with the local device.
 
 ## -remarks
 

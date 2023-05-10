@@ -10,10 +10,15 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.XboxLive.Xb
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.EndpointPairs
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Static property that gets a list of current **XboxLiveEndpointPair** objects that have been created using this template.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The list of current endpoint pairs.
 
 ## -remarks
 

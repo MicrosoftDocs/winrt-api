@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveDeviceAddress DeviceAddress { get; }
 # Windows.Networking.XboxLive.XboxLiveQualityOfServiceMetricResult.DeviceAddress
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the address of the remote device that was the target of the measurement.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The address of the remote device that was the target of the measurement.
 
 ## -remarks
 

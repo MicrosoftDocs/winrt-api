@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveSocketKind SocketKind { get; }
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.SocketKind
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets a value specifying the kind of socket declared by this template.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The kind of socket declared by this template.
 
 ## -remarks
 

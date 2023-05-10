@@ -10,36 +10,49 @@ public enum Windows.Networking.XboxLive.XboxLiveQualityOfServiceMetric : int
 # XboxLiveQualityOfServiceMetric
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Defines constants that specify the different Quality of Service (QoS) metrics that can be measured in this API.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -enum-fields
+
 ### -field AverageLatencyInMilliseconds:0
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Average latency, in milliseconds.
 
 ### -field MinLatencyInMilliseconds:1
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Minimum latency, in milliseconds.
 
 ### -field MaxLatencyInMilliseconds:2
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Maximum latency, in milliseconds.
 
 ### -field AverageOutboundBitsPerSecond:3
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Average outbound bits per second.
 
 ### -field MinOutboundBitsPerSecond:4
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Minimum outbound bits per second.
 
 ### -field MaxOutboundBitsPerSecond:5
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Maximum outbound bits per second.
 
 ### -field AverageInboundBitsPerSecond:6
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Average inbound bits per second.
 
 ### -field MinInboundBitsPerSecond:7
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Minimum inbound bits per second.
 
 ### -field MaxInboundBitsPerSecond:8
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
+Maximum inbound bits per second.
 
 ## -remarks
 

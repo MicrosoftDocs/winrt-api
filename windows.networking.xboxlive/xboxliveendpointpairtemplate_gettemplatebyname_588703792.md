@@ -10,14 +10,21 @@ public Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate GetTemplateByNam
 # Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate.GetTemplateByName
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Static method that creates an **XboxLiveEndpointPairTemplate** for the named template. Templates are defined in the app network manifest. Each template in the manifest must have been given a unique name.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param name
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The name of the template to instantiate, as specified in the app network manifest.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The instantiated template object.
 
 ## -remarks
 

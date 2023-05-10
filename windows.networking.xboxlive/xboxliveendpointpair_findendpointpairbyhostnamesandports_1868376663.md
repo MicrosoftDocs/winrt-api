@@ -10,23 +10,35 @@ public Windows.Networking.XboxLive.XboxLiveEndpointPair FindEndpointPairByHostNa
 # Windows.Networking.XboxLive.XboxLiveEndpointPair.FindEndpointPairByHostNamesAndPorts
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Finds an existing **XboxLiveEndpointPair** instance, if one exists, associated with traffic from a first host and port to a second host and port.
+
+Use this method to work backwards from incoming traffic to the **XboxLiveEndpointPair** that's associated with that traffic.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -parameters
+
 ### -param localHostName
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **HostName** of the local end of the endpoint pair.
 
 ### -param localPort
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The port number of the local end of the endpoint pair.
 
 ### -param remoteHostName
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **HostName** of the remote end of the endpoint pair.
 
 ### -param remotePort
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The port number of the remote end of the endpoint pair.
 
 ## -returns
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveEndpointPair** that corresponds to the endpoints specified, or a null pointer if no such endpoint pair is found.
 
 ## -remarks
 

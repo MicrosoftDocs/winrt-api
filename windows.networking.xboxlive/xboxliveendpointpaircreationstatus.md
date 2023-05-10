@@ -10,36 +10,49 @@ public enum Windows.Networking.XboxLive.XboxLiveEndpointPairCreationStatus : int
 # XboxLiveEndpointPairCreationStatus
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Defines constants that specify the status of an **XboxLiveEndpointPair** creation operation. 
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -enum-fields
+
 ### -field Succeeded:0
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creating succeeded.
 
 ### -field NoLocalNetworks:1
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the local device is not connected to a network.
 
 ### -field NoCompatibleNetworkPaths:2
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because there are no compatible network paths.
 
 ### -field LocalSystemNotAuthorized:3
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the local system's authorization was deemed unacceptable by the remote system.
 
 ### -field Canceled:4
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the user chose to cancel it.
 
 ### -field TimedOut:5
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because it did not complete within the timeout period.
 
 ### -field RemoteSystemNotAuthorized:6
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the remote system's authorization was deemed unacceptable by the local system or by your app.
 
 ### -field RefusedDueToConfiguration:7
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Creation failed because the remote system has a different, incompatible configuration (mismatched template definitions), and has actively refused the connection.
 
 ### -field UnexpectedInternalError:8
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
+Creation failed due to an internal error.
 
 ## -remarks
 

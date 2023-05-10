@@ -10,10 +10,15 @@ public Windows.Networking.XboxLive.XboxLiveEndpointPairTemplate Template { get; 
 # Windows.Networking.XboxLive.XboxLiveEndpointPair.Template
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets the **XboxLiveEndpointPairTemplate** used to instantiate this endpoint pair.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+The **XboxLiveEndpointPairTemplate** used to instantiate this endpoint pair.
 
 ## -remarks
 

@@ -10,10 +10,13 @@ public class XboxLiveInboundEndpointPairCreatedEventArgs : Windows.Networking.Xb
 # Windows.Networking.XboxLive.XboxLiveInboundEndpointPairCreatedEventArgs
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Encapsulates details about an **InboundEndpointPairCreated** event.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -remarks
-
 
 ## -examples
 

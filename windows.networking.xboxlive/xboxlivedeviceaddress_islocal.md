@@ -10,10 +10,15 @@ public bool IsLocal { get; }
 # Windows.Networking.XboxLive.XboxLiveDeviceAddress.IsLocal
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+Gets a Boolean value indicating whether this **XboxLiveDeviceAddress** represents the local device.
+
+> [!IMPORTANT]
+> This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -property-value
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+
+`True` when this **XboxLiveDeviceAddress** represents the local device; `False` otherwise.
 
 ## -remarks
 
