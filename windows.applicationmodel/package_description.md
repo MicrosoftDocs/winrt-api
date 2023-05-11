@@ -16,8 +16,8 @@ Gets the description of the package.
 The description of the package.
 
 ## -remarks
-> [!IMPORTANT]
-> This property is only supported for UWP app. If you call this property on an instance of a package that was created by any mechanism other than [Package.Current](package_current.md), this property returns an empty string ("").
+
+This property is supported only for UWP apps. On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Description** will return an empty string.
 
 ## -examples
 

@@ -16,8 +16,8 @@ Gets the logo of the package.
 The logo of the package.
 
 ## -remarks
-> [!IMPORTANT]
-> This property is only supported for UWP app. If you call this property on an instance of a package that was created by any mechanism other than [Package.Current](package_current.md), this property will throw an exception.
+
+This property is supported only for UWP apps. On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Logo** will throw an exception.
 
 ## -examples
 
