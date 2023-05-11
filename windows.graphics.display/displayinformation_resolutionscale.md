@@ -10,10 +10,10 @@ public Windows.Graphics.Display.ResolutionScale ResolutionScale { get; }
 # Windows.Graphics.Display.DisplayInformation.ResolutionScale
 
 ## -description
-Gets the scale factor of the immersive environment.
+Gets the scale factor of the app window.
 
 ## -property-value
-The scale factor of the immersive environment.
+The scale factor of the app window.
 
 ## -remarks
 

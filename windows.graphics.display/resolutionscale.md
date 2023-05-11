@@ -10,7 +10,7 @@ public enum Windows.Graphics.Display.ResolutionScale : int
 # ResolutionScale
 
 ## -description
-Describes the scale factor of the immersive environment. The scale factor is determined by the operating system in response to high pixel density screens.
+Describes the scale factor of the app window. The scale factor is determined by the operating system in response to high pixel density screens.
 
 ## -enum-fields
 ### -field Invalid:0

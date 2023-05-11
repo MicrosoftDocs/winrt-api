@@ -13,10 +13,10 @@ public Windows.Graphics.Display.ResolutionScale ResolutionScale { get; }
 > [!NOTE]
 > [DisplayProperties](displayproperties.md) may be altered or unavailable for releases after Windows 8.1. Instead, use [DisplayInformation](displayinformation.md).
 
- Gets the scale factor of the immersive environment.
+ Gets the scale factor of the app window.
 
 ## -property-value
-The scale factor of the immersive environment.
+The scale factor of the app window.
 
 ## -remarks
 
