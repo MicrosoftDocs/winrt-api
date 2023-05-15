@@ -10,7 +10,7 @@ public Windows.Devices.Sensors.ProximitySensorReading Reading { get; }
 # Windows.Devices.Sensors.ProximitySensorReadingChangedEventArgs.Reading
 
 ## -description
-Gets or sets the most recent proximity sensor reading.
+Gets the most recent proximity sensor reading.
 
 ## -property-value
 The most recent proximity sensor reading.
