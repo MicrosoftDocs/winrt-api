@@ -1,12 +1,12 @@
 ---
--api-id: M:Windows.Media.Audio.AudioEffectsPackConfiguration.IsEffectsPackApplicableOnEndpoint(System.String,System.String)
+-api-id: M:Windows.Media.Audio.AudioEffectsPackConfiguration.IsDeviceIdSupported(System.String,System.String)
 -api-type: winrt method
 ---
 
-# Windows.Media.Audio.AudioEffectsPackConfiguration.IsEffectsPackApplicableOnEndpoint(System.String,System.String)
+# Windows.Media.Audio.AudioEffectsPackConfiguration.IsDeviceIdSupported(System.String,System.String)
 
 <!--
-public static bool IsEffectsPackApplicableOnEndpoint (string deviceId, string effectsPackId);
+public static bool IsDeviceIdSupported (string effectsPackId, string deviceId);
 -->
 
 
@@ -16,19 +16,19 @@ Gets a boolean value indicating if the supplied audio effects pack ID is applica
 
 ## -parameters
 
-### -param deviceId
-
-The device ID of the audio endpoint for the query. 
-
 ### -param effectsPackId
 
 The OEM-specified ID of the audio effects pack for the query.
+
+### -param deviceId
+
+The device ID of the audio endpoint for the query. 
 
 ## -returns
 
 True if the specified audio effects pack is applicable to the specified audio endpoint ID; otherwise, false.
 
-## -remarks 
+## -remarks
 
 ## -see-also
 

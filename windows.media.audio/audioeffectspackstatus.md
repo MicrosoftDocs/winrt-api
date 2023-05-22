@@ -16,15 +16,15 @@ Specifies the supported and enabled status of an audio effects pack and audio en
 
 ## -enum-fields
 
-### -field AudioEffectsPackNotEnabled: 0
+### -field NotEnabled: 0
 
 The audio effects pack is supported, but not enabled for the associated audio endpoint.
 
-### -field AudioEffectsPackEnabled: 1
+### -field Enabled: 1
 
 The audio effects pack is supported and enabled for the associated audio endpoint.
 
-### -field AudioEffectsPackNotSupported: 2
+### -field NotSupported: 2
 
 The audio effects pack is not supported for the associated audio endpoint.
 
