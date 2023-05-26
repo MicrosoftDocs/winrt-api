@@ -77,7 +77,7 @@ public async Task<ContentDialogResult> SignInAsync()
 > [!TIP]
 > We recommend that you use the [RunTaskAsync extension method](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) from our task snippet library for this. It provides a robust solution that enables code running on a background thread to await a task that must run on the UI thread. See the [Await a UI task sent from a background thread](https://github.com/Microsoft/Windows-task-snippets/blob/master/tasks/UI-thread-task-await-from-background-thread.md) page for the code and example usage.
 
-**C++/WinRT**. [**TaskCompletionSource**](/dotnet/api/system.threading.tasks.taskcompletionsource-1) is not available to C++/WinRT. For an alternative, see [A completion source sample](/windows/uwp/cpp-and-winrt-apis/concurrency-3).
+**C++/WinRT**. [**TaskCompletionSource**](/dotnet/api/system.threading.tasks.taskcompletionsource-1) is not available to C++/WinRT. For alternative options, see [A completion source sample](/windows/uwp/cpp-and-winrt-apis/concurrency-3).
 
 ### Porting from .NET
 
