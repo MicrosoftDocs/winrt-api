@@ -9,15 +9,20 @@
 public bool IsEngagementSupported { get; }
 -->
 
-
 ## -description
+
+Gets whether the human presence sensor is capable of perceiving if the user is engaged with (looking at) their PC.
 
 ## -property-value
 
+True, if the human presence sensor is capable. Otherwise, false.
+
 ## -remarks
+
+**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22624.**
 
 ## -see-also
 
+[IsPresenceSupported](humanpresencesensor_ispresencesupported.md)
+
 ## -examples
-
-

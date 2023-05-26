@@ -11,9 +11,7 @@ public class ActivitySensor : Windows.Devices.Sensors.IActivitySensor
 
 ## -description
 
-Represents an activity sensor that provides the activity and status of a sensor.
-
-For an example implementation, see the [activity sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ActivitySensor).
+Represents a sensor that provides the activity and status of a sensor.
 
 ## -remarks
 
@@ -29,6 +27,8 @@ In order to use ActivitySensor, you need to define the activity device capabilit
 ```
 
 ## -examples
+
+For an example implementation, see the [activity sensor sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ActivitySensor).
 
 ## -see-also
 
