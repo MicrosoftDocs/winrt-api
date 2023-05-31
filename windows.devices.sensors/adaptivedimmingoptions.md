@@ -11,7 +11,7 @@ public sealed class AdaptiveDimmingOptions
 
 ## -description
 
-Provides the ability to manage the dimming behavior of the PC screen based on whether a user is present, absent, interacting with their device, using an external monitor, or the device is in battery-saver mode.
+Provides the ability to manage the dimming behavior of the PC screen based on whether a user is detected by the human presence sensor.
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public sealed class LockOnLeaveOptions
 
 ## -description
 
-Provides the ability to manage the locking behavior of the PC screen based on whether a user is no longer detected by the human presence sensor.
+Provides the ability to manage the locking behavior of the PC screen based on whether a user is detected by the human presence sensor.
 
 ## -remarks
 

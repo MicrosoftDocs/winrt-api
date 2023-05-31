@@ -11,7 +11,7 @@ public bool IsAdaptiveDimmingSupported { get; }
 
 ## -description
 
-Gets whether the human presence sensor can dim the PC screen based on if a user is present, absent, interacting with their device, using an external monitor, or the device is in battery-saver mode.
+Gets whether the human presence sensor can dim the PC screen based on if a user is present, absent, or interacting with their device.
 
 ## -property-value
 
