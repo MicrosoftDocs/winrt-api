@@ -11,7 +11,7 @@ public bool AllowWhenExternalDisplayConnected { get; set; }
 
 ## -description
 
-Gets or sets whether screen dimming behavior is enabled when a user has connected an external monitor based on the user engagement state reported by the human presence sensor.
+Gets or sets whether screen dimming behavior based on the user engagement state reported by the human presence sensor is enabled when a user has connected an external monitor.
 
 ## -property-value
 
