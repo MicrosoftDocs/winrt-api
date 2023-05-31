@@ -21,4 +21,6 @@ To use this event, you must declare the "com.microsoft.windows.lighting" AppExte
 
 ## -see-also
 
+[IsAvailable](lamparray_isavailable.md)
+
 ## -examples
