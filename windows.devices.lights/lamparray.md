@@ -22,6 +22,7 @@ An application can set lamp state at any time, but state will only be applied by
 LampArrays are enumerated by [DeviceWatcher](../windows.devices.enumeration/devicewatcher.md), and retrieved via [FromIdAsync](lamparray_fromidasync_1322863552.md).
 
 ## -see-also
-[Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) USB HID review request.
+
+[LampArrayKind](lamparraykind.md), [Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) USB HID review request.
 
 ## -examples
