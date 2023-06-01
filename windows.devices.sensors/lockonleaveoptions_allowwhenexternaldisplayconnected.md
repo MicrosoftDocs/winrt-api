@@ -19,7 +19,7 @@ True, if lock on leave behavior is enabled when an external monitor is connected
 
 ## -remarks
 
-**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22624.**
+**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22621.**
 
 The user can specify their preferred lock on leave behavior in the System settings (see [Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app#system)).
 

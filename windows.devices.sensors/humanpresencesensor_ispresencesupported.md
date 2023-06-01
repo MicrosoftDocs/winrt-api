@@ -19,7 +19,7 @@ True, if the human presence sensor is capable. Otherwise, false.
 
 ## -remarks
 
-**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22624.**
+**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22621.**
 
 ## -see-also
 
