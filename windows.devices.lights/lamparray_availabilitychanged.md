@@ -15,7 +15,7 @@ Occurs when user changes system access to the device lights through the device s
 
 ## -remarks
 
-Both foreground ("ambient") and background apps can receive and handle this event.
+Both foreground and background ("ambient") apps can receive and handle this event.
 
 To use this event, you must declare the "com.microsoft.windows.lighting" AppExtension in the app manifest. For more detail on how to do this, see [Create and host an app extension](/windows/uwp/launch-resume/how-to-create-an-extension).
 
