@@ -11,7 +11,7 @@ public class KeyboardCapabilities : Windows.Devices.Input.IKeyboardCapabilities
 
 ## -description
 
-Supports the ability to determine the capabilities of any connected hardware keyboards.
+Provides the ability to determine the capabilities of any connected hardware keyboards.
 
 ## -remarks
 
