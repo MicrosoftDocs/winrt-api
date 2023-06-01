@@ -15,7 +15,7 @@ Provides the ability to manage the dimming behavior of the PC screen based on wh
 
 ## -remarks
 
-**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22624.**
+**Introduced in the May Moment update for Windows 11, Version 22H2, Build 22621.**
 
 We recommend using the AdaptiveDimming APIs instead of the AttentionAwareDimming APIs ([IsAttentionAwareDimmingSupported](humanpresencefeatures_isattentionawaredimmingsupported.md), [IsAttentionAwareDimmingEnabled](humanpresencesettings_isattentionawaredimmingenabled.md)), which are now obsolete.
 
