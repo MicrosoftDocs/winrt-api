@@ -11,14 +11,15 @@ public LampArrayKind LampArrayKind { get; }
 # Windows.Devices.Lights.LampArray.LampArrayKind
 
 ## -description
-The [LampArrayKind](lamparraykind.md) describing this device.
+
+Gets the type of lamp array device.
 
 ## -property-value
-The [LampArrayKind](lamparraykind.md) for the device.
+
+The type of lamp array device.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
