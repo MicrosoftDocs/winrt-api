@@ -21,4 +21,6 @@ You can use this string with the [DeviceInformation.FindAllAsync](/uwp/api/windo
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples

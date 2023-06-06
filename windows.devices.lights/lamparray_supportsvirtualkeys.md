@@ -20,5 +20,7 @@ Returns true if any lamp on the LampArray is mapped to a virtual key.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

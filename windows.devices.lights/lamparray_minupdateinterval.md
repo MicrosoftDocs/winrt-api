@@ -20,5 +20,7 @@ The time interval between updates for a lamp.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

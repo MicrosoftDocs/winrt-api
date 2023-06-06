@@ -29,5 +29,7 @@ If the key is not bound to any lamp, the call fails silently.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

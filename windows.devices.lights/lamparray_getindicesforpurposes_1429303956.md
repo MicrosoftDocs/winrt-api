@@ -25,5 +25,7 @@ Lamp indices can be (optionally) bound by the device to multiple [LampPurposes](
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

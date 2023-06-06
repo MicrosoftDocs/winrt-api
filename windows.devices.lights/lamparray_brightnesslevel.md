@@ -23,5 +23,7 @@ Values must be between 0.0 and 1.0 (inclusive).
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

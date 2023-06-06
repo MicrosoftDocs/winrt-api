@@ -24,5 +24,7 @@ If a lamp doesn't support the desired color, it is set to the [NearestSupportedC
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

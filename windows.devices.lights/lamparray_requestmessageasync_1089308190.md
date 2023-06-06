@@ -29,3 +29,5 @@ An asynchronous object which, on completion, contains the requested message.
 ## -examples
 
 ## -see-also
+
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)

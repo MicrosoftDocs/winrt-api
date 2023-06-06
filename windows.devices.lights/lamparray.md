@@ -23,6 +23,6 @@ LampArrays are enumerated by [DeviceWatcher](../windows.devices.enumeration/devi
 
 ## -see-also
 
-[LampArrayKind](lamparraykind.md), [Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf) USB HID review request.
+[LampArrayKind](lamparraykind.md), [Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf), [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray).
 
 ## -examples

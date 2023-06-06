@@ -23,5 +23,6 @@ By default, LampArray is always enabled.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
 ## -examples
 

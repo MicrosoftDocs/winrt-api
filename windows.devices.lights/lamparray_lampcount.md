@@ -20,5 +20,7 @@ The number of lamps in the LampArray.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

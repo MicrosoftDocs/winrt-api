@@ -21,5 +21,7 @@ Once disconnected, further calls to the object are null-ops and the object shoul
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 
