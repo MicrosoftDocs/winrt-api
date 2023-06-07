@@ -20,6 +20,7 @@ The specified name.
 The specified value.
 
 ## -remarks
+If `value` is `null`, then any existing value with the specified name is removed.
 
 ## -examples
 
