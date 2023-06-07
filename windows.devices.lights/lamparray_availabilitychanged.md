@@ -11,13 +11,15 @@ public event Windows.Foundation.TypedEventHandler<Windows.Devices.Lights.LampArr
 
 ## -description
 
-Occurs when user changes system access to the device lights through the device settings.
+Is raised when the value of [IsAvailable](lamparray_isavailable.md) changes; which can happen when the user changes system access to the device through the device settings.
+
+The event handler's parameters are the sender [LampArray](./lamparray.md) whose property has changed, and an **Object** (which is always null).
 
 ## -remarks
 
 Both foreground and background ("ambient") apps can receive and handle this event.
 
-To use this event, you must declare the "com.microsoft.windows.lighting" AppExtension in the app manifest. For more detail on how to do this, see [Create and host an app extension](/windows/uwp/launch-resume/how-to-create-an-extension).
+To use this event, you must declare the "com.microsoft.windows.lighting" AppExtension in the app manifest. For details about how to do that, see [Create and host an app extension](/windows/uwp/launch-resume/how-to-create-an-extension).
 
 ```xml
 <Extensions>

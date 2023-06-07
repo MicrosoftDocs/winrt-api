@@ -66,7 +66,7 @@ Is embedded in a wearable accessory designed specifically for the head (for exam
 
 ## -remarks
 
-Avoid placing error checks that validate LampArrayKind within the current bounds as this list may expand over time. Rather, compare against the subset of LampArrayKind the application supports.
+Avoid placing error checks that validate **LampArrayKind** within the current bounds, because this list might expand over time. Rather, compare against the subset of **LampArrayKind** that your application supports.
 
 ## -see-also
 
