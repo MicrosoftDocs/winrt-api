@@ -23,6 +23,10 @@ LampArrays are enumerated by [DeviceWatcher](../windows.devices.enumeration/devi
 
 ## -see-also
 
-[LampArrayKind](lamparraykind.md), [Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf), [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray).
+[LampArrayKind](lamparraykind.md), [Lighting and Illumination](https://www.usb.org/sites/default/files/hutrr84_-_lighting_and_illumination_page.pdf), [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
 
 ## -examples
+
+[AutoRGB Sample](https://github.com/microsoft/Dynamic-Lighting-AutoRGB)
+
+Demonstrates how to extract a single, representative color from a desktop screen and use it to illuminate LED lamps on a connected RGB device.
