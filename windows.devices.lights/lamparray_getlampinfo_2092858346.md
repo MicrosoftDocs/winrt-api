@@ -27,5 +27,9 @@ The [LampInfo](lampinfo.md) contains properties about a lamp of a given index.
 
 [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
 
+
 ## -examples
 
+[AutoRGB Sample](https://github.com/microsoft/Dynamic-Lighting-AutoRGB)
+
+Demonstrates how to extract a single, representative color from a desktop screen and use it to illuminate LED lamps on a connected RGB device.
