@@ -29,5 +29,7 @@ If the index does not exist on the device, the call fails silently.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

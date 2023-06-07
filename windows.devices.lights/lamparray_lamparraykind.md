@@ -22,4 +22,6 @@ The type of lamp array device.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples

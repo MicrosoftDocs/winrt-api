@@ -25,5 +25,7 @@ Lamp indices can be (optionally) bound by the device to only a single key.  A [V
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

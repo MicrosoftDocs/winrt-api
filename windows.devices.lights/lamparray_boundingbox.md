@@ -27,5 +27,7 @@ Origin of [Positions](lampinfo_position.md) is the upmost, top, left corner of t
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

@@ -26,4 +26,6 @@ Use [DeviceWatcher](../windows.devices.enumeration/devicewatcher.md) to determin
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples

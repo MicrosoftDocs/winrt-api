@@ -33,3 +33,5 @@ An asynchronous object, which can be awaited.
 ## -examples
 
 ## -see-also
+
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)

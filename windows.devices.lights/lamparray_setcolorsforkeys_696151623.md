@@ -29,5 +29,7 @@ If a [VirtualKey](../windows.system/virtualkey.md) is not bound to any lamp on t
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

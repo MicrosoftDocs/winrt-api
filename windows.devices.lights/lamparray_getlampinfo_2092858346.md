@@ -25,5 +25,7 @@ The [LampInfo](lampinfo.md) contains properties about a lamp of a given index.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

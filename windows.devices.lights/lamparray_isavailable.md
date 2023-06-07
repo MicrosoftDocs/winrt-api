@@ -21,6 +21,6 @@ True, if the lamp array is available. Otherwise, false.
 
 ## -see-also
 
-[AvailabilityChanged](lamparray_availabilitychanged.md)
+[AvailabilityChanged](lamparray_availabilitychanged.md), [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
 
 ## -examples

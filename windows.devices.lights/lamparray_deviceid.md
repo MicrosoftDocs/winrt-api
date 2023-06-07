@@ -20,5 +20,7 @@ The plug and play (PnP) device identifier of the underlying LampArray device.
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 

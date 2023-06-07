@@ -70,4 +70,6 @@ Avoid placing error checks that validate LampArrayKind within the current bounds
 
 ## -see-also
 
+[LampArray.LampArrayKind](lamparray_lamparraykind.md), [Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples

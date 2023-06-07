@@ -10,6 +10,7 @@ public event Windows.Foundation.TypedEventHandler AvailabilityChanged<Windows.De
 # Windows.Devices.Lights.Lamp.AvailabilityChanged
 
 ## -description
+
 Occurs when the availability of the lamp device changes.
 
 ## -remarks

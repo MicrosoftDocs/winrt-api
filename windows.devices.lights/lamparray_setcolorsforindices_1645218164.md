@@ -31,5 +31,7 @@ If an index does not exist on the device, it is ignored and the remaining are st
 
 ## -see-also
 
+[Dynamic lighting](/windows/uwp/devices-sensors/lighting-dynamic-lamparray)
+
 ## -examples
 
