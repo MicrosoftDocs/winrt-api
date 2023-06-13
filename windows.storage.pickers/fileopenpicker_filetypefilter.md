@@ -15,7 +15,7 @@ Gets the collection of file types that the file open picker displays.
 
 ## -property-value
 
-A [fileExtensionVector](fileextensionvector.md) object that contains a collection of file types (file name extensions) , such as ".doc" and ".png". Using `.` before the file extension is required (e.g. ".txt") unless specifying only a wildcard "*". See [examples](#-examples) below. File name extensions are stored in this array as [string](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) objects.
+A [fileExtensionVector](fileextensionvector.md) object that contains a collection of file types (file name extensions) , such as ".doc" and ".png". Using `.` before the file extension is required (e.g. ".txt") unless specifying only a wildcard "*". See examples below. File name extensions are stored in this array as [string](/dotnet/api/system.string?view=dotnet-uwp-10.0&preserve-view=true) objects.
 
 ## -remarks
 
