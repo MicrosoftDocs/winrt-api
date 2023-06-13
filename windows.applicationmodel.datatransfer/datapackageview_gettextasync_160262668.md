@@ -10,18 +10,23 @@ public Windows.Foundation.IAsyncOperation<string> GetTextAsync(System.String for
 # Windows.ApplicationModel.DataTransfer.DataPackageView.GetTextAsync
 
 ## -description
+
 Gets the text in the [DataPackageView](datapackageview.md) object.
 
 ## -parameters
+
 ### -param formatId
-A string that represents the data format. Usually [StandardDataFormats.text](standarddataformats_text.md).
+
+A string that represents the data format. Usually [StandardDataFormats.Text](standarddataformats_text.md).
 
 ## -returns
-The text.
+
+The text in the requested format.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[GetTextAsync](datapackageview_gettextasync_1343001388.md)
+
+[GetTextAsync](datapackageview_gettextasync_1343001388.md), [DataPackageView](datapackageview.md), [StandardDataFormats.Text](standarddataformats_text.md)
