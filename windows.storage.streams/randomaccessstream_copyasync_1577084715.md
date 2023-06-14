@@ -10,21 +10,27 @@ public Windows.Foundation.IAsyncOperationWithProgress<ulong, ulong> CopyAsync(Wi
 # Windows.Storage.Streams.RandomAccessStream.CopyAsync
 
 ## -description
+
 Copies a source stream to a destination stream.
 
 ## -parameters
+
 ### -param source
+
 The stream to copy data from.
 
 ### -param destination
+
 The stream to copy data to.
 
 ## -returns
-The asynchronous operation.
+
+The byte writer operation. The first integer represents the number of bytes written. The second integer represents the progress of the write operation.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[CopyAsync(IInputStream, IOutputStream, UInt64)](randomaccessstream_copyasync_651010873.md)
+
+[CopyAsync(IInputStream, IOutputStream, UInt64)](randomaccessstream_copyasync_651010873.md), [IAsyncOperationWithProgress&lt;ulong, ulong&gt;](../windows.foundation/iasyncoperationwithprogress_2.md)
