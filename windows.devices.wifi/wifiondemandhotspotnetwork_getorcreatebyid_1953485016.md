@@ -31,7 +31,10 @@ The object that was created or retrieved.
 
 ## -remarks
 
-The id is unique per calling app, but it might be the same between apps.
+The id can be any value the app chooses to use to distinguish multiple on-demand hotspots.
+The id need only be unique within an app.
+
+The calling app must have package identity.
 
 ## -see-also
 
