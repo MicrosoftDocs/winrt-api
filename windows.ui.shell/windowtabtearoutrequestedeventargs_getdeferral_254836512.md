@@ -19,6 +19,9 @@ A deferral object that you can use to identify when a new window is created for 
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 [WindowTabManager.TabTearOutRequested](windowtabmanager_tabtearoutrequested.md)

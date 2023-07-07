@@ -15,6 +15,9 @@ Occurs when a tab is closed from a system shell surface.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 Handle this event to close the tab in your app.
 
 ## -see-also

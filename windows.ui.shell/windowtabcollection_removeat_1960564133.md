@@ -21,6 +21,9 @@ The index position of the item to remove.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 If successful, calling this method reduces the collection size by one. Items with index values greater than the called index have their index values reduced by one.
 
 ## -see-also

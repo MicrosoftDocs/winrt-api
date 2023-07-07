@@ -19,6 +19,9 @@ The window tab to move to a new window.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 [WindowTabManager.TabTearOutRequested](windowtabmanager_tabtearoutrequested.md)

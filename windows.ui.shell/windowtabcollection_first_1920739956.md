@@ -19,6 +19,9 @@ The iterator. The iterator's current position is the 0-index position, or at the
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 ## -examples

@@ -25,6 +25,9 @@ The zero-based index that specifies the new location of the item.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 ## -examples

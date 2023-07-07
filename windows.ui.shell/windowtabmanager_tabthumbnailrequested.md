@@ -15,6 +15,9 @@ Occurs when the system shows a tab in a shell surface that displays a thumbnail 
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 The thumbnail generated in response to this event should be set as the value of the [WindowTabThumbnailRequestedEventArgs.Image](windowtabthumbnailrequestedeventargs_image.md) property. Call [WindowTab.ReportThumbnailAvailable](windows.ui.shell\windowtab_reportthumbnailavailable_1990248161.md) to notify the system that the new thumbnail image is ready.
 
 ## -see-also

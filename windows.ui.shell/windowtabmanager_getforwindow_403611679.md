@@ -25,6 +25,9 @@ A `WindowTabManager` for the specified window.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 ## -examples

@@ -19,6 +19,9 @@ The text that the system displays as the title for a group of tabs.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ## -see-also
 
 ## -examples
