@@ -11,11 +11,11 @@ public Windows.Graphics.DirectX.DirectXColorSpace ColorSpace { get; set; }
 
 ## -description
 
-TBD
+Informs the system of the color space that it should map the texture into.
 
 ## -property-value
 
-TBD
+Specifies the color space to use.
 
 ## -remarks
 

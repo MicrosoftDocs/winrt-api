@@ -11,11 +11,11 @@ public Windows.Graphics.DirectX.DirectXAlphaMode AlphaMode { get; set; }
 
 ## -description
 
-TBD
+Informs the [Desktop Window Manager (DWM)](/windows/win32/dwm/dwm-overview) whether alpha pixels in the texture should be honored or ignored.
 
 ## -property-value
 
-TBD
+Indicates whether alpha pixels in the texture should be honored or ignored.
 
 ## -remarks
 
