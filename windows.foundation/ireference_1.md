@@ -19,7 +19,7 @@ Enables arbitrary enumerations, structures, and delegate types to be used as pro
 > This interface appears as [Platform::IBox&lt;T&gt;](/cpp/cppcx/platform-ibox-interface)
 
 ## -remarks
-When programming with .NET, this interface is hidden, and you should use the [Nullable&lt;T&gt;](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true) class. All Windows Runtime members where the basic IDL signature shows IReference (with a constraint) are instead exposed using the nullable syntax of the nullable value type (for example, **?bool**).
+When programming with .NET, this interface is hidden, and you should use the [Nullable&lt;T&gt;](/dotnet/api/system.nullable-1?view=dotnet-uwp-10.0&preserve-view=true) class. All Windows Runtime members where the basic IDL signature shows IReference (with a constraint) are, instead, exposed using the syntax of the nullable value type (for example, **bool?** in C#).
 
 When programming with C++/CX, this interface is hidden, and you should use the [Platform::IBox&lt;T&gt;](/cpp/cppcx/platform-ibox-interface) interface. All Windows Runtime members where the basic IDL signature shows IReference (with a constraint) are instead exposed using [Platform::IBox&lt;T&gt;](/cpp/cppcx/platform-ibox-interface) with the template as a particular value type. This is how C++/CX implements nullable value types. For more info, see [Value classes and structs (C++/CX)](/cpp/cppcx/value-classes-and-structs-c-cx).
 
@@ -32,7 +32,7 @@ IReference&lt;T&gt; inherits [IPropertyValue](ipropertyvalue.md). Types that imp
 ## -examples
 
 ```csharp
-bool flag = myScrollViewer.ChangeView(2, null, null);
+bool flag = myScrollViewer.ChangeView(2d, null, null);
 ```
 
 ```cppwinrt
