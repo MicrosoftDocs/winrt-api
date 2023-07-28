@@ -23,7 +23,7 @@ A Window object is just surfacing information from [CoreWindow](../windows.ui.co
 
 Make sure to call [Activate](window_activate_1797342875.md) on any Window you use on initial activation. If you use the default app templates from Microsoft Visual Studio, calling [Window.Activate](window_activate_1797342875.md) is part of the initial code in the app.xaml code-behind file.
 
-The LayoutAwarePage class that is part of some application templates in Microsoft Visual Studio has handling for the [SizeChanged](window_sizechanged.md) event, which is used for keeping track of visual states that match values of [ApplicationViewState](../windows.ui.viewmanagement/applicationviewstate.md). LayoutAwarePage also has code that checks [Bounds](window_bounds.md) and uses this value to influence how page-wide input events are handled. 
+The LayoutAwarePage class that is part of some application templates in Microsoft Visual Studio has handling for the [SizeChanged](window_sizechanged.md) event, which is used for keeping track of visual states that match values of [ApplicationViewState](../windows.ui.viewmanagement/applicationviewstate.md). LayoutAwarePage also has code that checks [Bounds](window_bounds.md) and uses this value to influence how page-wide input events are handled.
 
 ### Version history
 
@@ -31,6 +31,10 @@ The LayoutAwarePage class that is part of some application templates in Microsof
 | -- | -- | -- |
 | 1703 | 15063 | Compositor |
 | 1903 | 18362 | UIContext |
+
+### Additional interface members
+
+<table><tr><td><a href="/windows/apps/api-reference/interface-members/ixamlsourcetransparency-isbackgroundtransparent">IXamlSourceTransparency.IsBackgroundTransparent</a></td><td>Gets or sets a value that specifies whether the background of all DesktopWindowXamlSource objects on the current thread is transparent.</td></tr></table>
 
 ## -examples
 The following code example shows the [OnLaunched](application_onlaunched_859642554.md) method override generated for the blank application template in Microsoft Visual Studio. This code demonstrates typical usage patterns for the [Current](window_current.md) and [Content](window_content.md) properties and the [Activate](window_activate_1797342875.md) method.
