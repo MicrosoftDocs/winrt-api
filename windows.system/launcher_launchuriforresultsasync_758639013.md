@@ -34,7 +34,7 @@ Launching an app for results allows you to launch an app from another app and ex
 
 This API must be called from within an ASTA thread (also known as a UI thread).
 
-The *options* property must be set to a valid [LauncherOptions](launcheroptions.md) value when calling this method.
+When calling this method, the *options* parameter must contain a valid value for **LauncherOptions.TargetApplicationPackageFamilyName**.
 
 ## -examples
 
