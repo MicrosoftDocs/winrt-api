@@ -10,7 +10,7 @@ public Windows.Foundation.Collections.IMapView<string, Windows.Media.SpeechRecog
 # Windows.Media.SpeechRecognition.VoiceCommandManager.InstalledCommandSets
 
 ## -description
-A dictionary that contains all installed command sets that have a [Name](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) attribute set in the [](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
+A dictionary that contains all installed command sets that have a [Name](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) attribute set in the [Voice Command Definition](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
 
 ## -property-value
 The dictionary of installed command sets that have a Name attribute set in the Voice Command Definition (VCD) file.

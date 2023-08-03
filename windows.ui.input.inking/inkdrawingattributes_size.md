@@ -14,7 +14,7 @@ public Windows.Foundation.Size Size { get;  set; }
 Gets or sets a value that indicates the dimensions of the pen tip ([PenTip](inkdrawingattributes_pentip.md)) used to draw an [InkStroke](inkstroke.md).
 
 ## -property-value
-The [Width](../windows.foundation/size.md) and [Height](../windows.foundation/size.md) of the pen tip in [](/windows/desktop/LearnWin32/dpi-and-device-independent-pixels). The default value for each is 2.The shape of the [PenTip](inkdrawingattributes_pentip.md) can be specified as a [Rectangle](pentipshape.md) or a [Circle](pentipshape.md).
+The [Width](../windows.foundation/size.md) and [Height](../windows.foundation/size.md) of the pen tip in [device-independent pixels](/windows/desktop/LearnWin32/dpi-and-device-independent-pixels). The default value for each is 2.The shape of the [PenTip](inkdrawingattributes_pentip.md) can be specified as a [Rectangle](pentipshape.md) or a [Circle](pentipshape.md).
 
 ## -remarks
 
