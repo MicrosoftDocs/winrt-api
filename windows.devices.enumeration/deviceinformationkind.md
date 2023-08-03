@@ -73,9 +73,9 @@ The [Id](deviceinformation_id.md) for this object as a string.
 
 ## -remarks
 
-A DeviceInformationKind value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](/windows/uwp/devices-sensors/enumerate-devices).
+A **DeviceInformationKind** value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](/windows/uwp/devices-sensors/enumerate-devices).
 
-The following diagram show how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections only go in one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **AepContainer.Children**.
+The following diagram shows how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections go in only one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **System.Devices.AepContainer.Children**.
 
 <img src="images/device_type_interaction.png" alt="DeviceInformationKind relationships" />
 
