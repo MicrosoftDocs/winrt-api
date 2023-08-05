@@ -79,6 +79,26 @@ The following diagram shows how the different device types interact with each ot
 
 <img src="images/device_type_interaction.png" alt="DeviceInformationKind relationships" />
 
+Below is an example of how the device objects map on a webcam. You can see one container, four devnodes, and the expanded devnode has five interfaces (three of which are enabled).
+
+<img src="images/example_1.png" alt="Device objects for a webcam" />
+
+Looking at the device properties of the selected (highlighted) interface, you can see how the properties are used to tie the object model together. The key names shown are in fact the Win32 versions. In the Windows Runtime (WinRT), the properties are mapped by the property system (see [Devices (Windows Property System)](https://learn.microsoft.com/windows/win32/properties/devices-bumper)).
+
+<img src="images/example_2.png" alt="X" />
+
+For example, you could take an interface class Id, and find the class object. Below, you can see that it's a *Cameras* class; and you can get more info about the class.
+
+<img src="images/example_3.png" alt="X" />
+
+Here's another example; this time of a Bluetooth headset. The devnode is selected. And highlighted is the AEP Id that it maps to for the association endpoint object.
+
+<img src="images/example_4.png" alt="X" />
+
+Lastly, Here's an example of a devnode that shows what panel it belongs to, together with its Id. The panel represents the USB ports on the top of a personal computer's chassis.
+
+<img src="images/example_5.png" alt="X" />
+
 ### Version history
 
 | Windows version | SDK version | Value added |
