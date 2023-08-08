@@ -16,7 +16,7 @@ Gets or sets a value that determines whether the [Tapped](uielement_tapped.md) e
 
 ## -xaml-syntax
 ```xaml
-<uiElementIsTapEnabled="bool" />
+<uiElement IsTapEnabled="bool" />
 ```
 
 
