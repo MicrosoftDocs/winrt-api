@@ -27,6 +27,8 @@ An object representing the properties to set.
 
 ## -remarks
 
+`UpdateMetadata` should be called regularly by the app, even if no properties have changed. This is to ensure that Windows will show the network in the Wi-Fi available networks list (in other words, so Windows doesn't hide it for being stale). We recommend registering for the [WiFiOnDemandHotspotUpdateMetadataTrigger](/uwp/api/windows.applicationmodel.background.wifiondemandhotspotupdatemetadatatrigger) background task and calling `UpdateMetadata` there.
+
 ## -see-also
 
 ## -examples

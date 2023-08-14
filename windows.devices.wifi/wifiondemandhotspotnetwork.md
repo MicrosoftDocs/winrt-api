@@ -27,7 +27,14 @@ The app is responsible for determining how to communicate with the hotspot to ge
 
 ## -see-also
 
+There are two background task triggers associated with an *on-demand hotspot*:
+
+- [WiFiOnDemandHotspotUpdateMetadataTrigger](/uwp/api/windows.applicationmodel.background.wifiondemandhotspotupdatemetadatatrigger)
+- [WiFiOnDemandHotspotConnectTrigger](/uwp/api/windows.applicationmodel.background.wifiondemandhotspotconnecttrigger)
+
 ## -examples
+
+[On-Demand Hotspot Sample](/samples/microsoft/windows-universal-samples/ondemandhotspot)
 
 ## -capabilities
 onDemandHotspotControl

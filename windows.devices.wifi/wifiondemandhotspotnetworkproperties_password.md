@@ -25,6 +25,8 @@ A value containing the password of the hotspot network.
 
 ## -remarks
 
+Hotspot networks must be secured with a password - enterprise networks and open networks are not supported.
+
 ## -see-also
 
 ## -examples

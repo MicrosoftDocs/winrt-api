@@ -31,10 +31,9 @@ The object that was created or retrieved.
 
 ## -remarks
 
-The id can be any value the app chooses to use to distinguish multiple on-demand hotspots.
-The id need only be unique within an app.
-
-The calling app must have package identity.
+* The Id can be any value the app chooses to use to distinguish multiple on-demand hotspots. However, for best performance with ephemeral connections, we recommend reusing the same Id and updating the SSID and Password instead of creating new networks for each one.
+* The Id need only be unique within an app.
+* The calling app must have package identity.
 
 ## -see-also
 

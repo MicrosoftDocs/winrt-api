@@ -18,6 +18,8 @@ A read-only collection of [WiFiAvailableNetwork](/uwp/api/windows.devices.wifi.w
 
 ## -remarks
 
+This list will not show any [On-Demand Hotspot networks](/uwp/api/windows.devices.wifi.wifiondemandhotspotnetwork). Those networks are only exposed in the Windows UI. 
+
 ## -examples
 
 ## -see-also
