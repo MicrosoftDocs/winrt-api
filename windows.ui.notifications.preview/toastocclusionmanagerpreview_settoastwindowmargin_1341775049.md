@@ -18,7 +18,7 @@ Requests that the OS display app notifications with the specified vertical offse
 
 ### -param appWindowId
 
-The **WindowId** of the window for associated with the notification offset request. For the offset to be applied, the specified window must be maximized, in focus, not right-to-left (RTL), and the onscreen keyboard must not be visible. 
+The **WindowId** of the window for associated with the notification offset request. For the offset to be applied, the specified window must be maximized, in focus, and the onscreen keyboard must not be visible. 
 
 ### -param margin
 
