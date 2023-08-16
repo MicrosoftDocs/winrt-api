@@ -22,7 +22,7 @@ The **WindowId** of the window for associated with the notification offset reque
 
 ### -param margin
 
-The vertical offset with which app notifications are displayed, in view pixels. The current maximum value for the margin is 180 pixels. Requests for margins greater than 180 pixels will succeed, but will be clamped to 180 pixels.
+The vertical offset with which app notifications are displayed, in view pixels. The current maximum value for the margin is 180 pixels. Requests for margins greater than 180 pixels will succeed, but will be clamped to 180 pixels. If negative a negative value is specified, it is clamped to 0.
 
 ## -remarks
 
