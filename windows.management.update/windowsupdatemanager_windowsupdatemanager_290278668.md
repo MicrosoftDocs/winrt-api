@@ -11,10 +11,12 @@ public WindowsUpdateManager (string clientId);
 
 
 ## -description
+Constructs a new [WindowsUpdateManager](./windowsupdatemanager.md) object.
 
 ## -parameters
 
 ### -param clientId
+Identifier used to distinguish the update manager instance.
 
 ## -remarks
 

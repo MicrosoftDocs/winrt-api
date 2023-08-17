@@ -11,10 +11,13 @@ public static string GetRegisteredAdministratorName ();
 
 
 ## -description
+Used to query the organization name of the currently registered update administrator.
 
 ## -returns
+The organization name associated with the current [WindowsUpdateAdministrator](./windowsupdateadministrator.md) on the device.
 
 ## -remarks
+If there is no registered update administrator on the device, the call will return an empty string.
 
 ## -see-also
 

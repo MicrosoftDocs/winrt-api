@@ -11,6 +11,7 @@ public bool IsForOS { get; }
 
 
 ## -description
+Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as being for the OS.
 
 ## -property-value
 

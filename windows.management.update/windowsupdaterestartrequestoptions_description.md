@@ -11,6 +11,7 @@ public string Description { get; set; }
 
 
 ## -description
+Description metadata that gives more detailed information about an update.
 
 ## -property-value
 

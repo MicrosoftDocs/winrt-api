@@ -11,6 +11,7 @@ public sealed class WindowsUpdateActionResult
 
 
 ## -description
+Returned by the [ActionResult](./windowsupdate_actionresult.md) property of [WindowsUpdate](./windowsupdate.md).
 
 ## -remarks
 

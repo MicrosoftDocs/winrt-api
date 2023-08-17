@@ -11,6 +11,7 @@ public string UpdateId { get; }
 
 
 ## -description
+The unique ID associated with an update to identify it.
 
 ## -property-value
 

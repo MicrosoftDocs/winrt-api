@@ -11,14 +11,21 @@ public void ApproveWindowsUpdateAction (string updateId, string action);
 
 
 ## -description
+Allows a [WindowsUpdateAdministrator](./windowsupdateadministrator.md) to mark an update action as approved.
 
 ## -parameters
 
 ### -param updateId
+The unique ID associated with an update to identify it.
 
 ### -param action
+The string associated with the action that the administrator wants to approve.
 
 ## -remarks
+The update ID will generally be a GUID but it can be any string that uniquely identifies it.
+The action string will most commonly be "Download" or "Install". Other possible actions include "Uninstall", "Commit", and "PostReboot".
+
+This call will fail if the updateId provided does not match any updates found by a previous scan.
 
 ## -see-also
 

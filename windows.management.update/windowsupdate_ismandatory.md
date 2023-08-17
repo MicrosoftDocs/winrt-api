@@ -11,6 +11,7 @@ public bool IsMandatory { get; }
 
 
 ## -description
+Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as mandatory.
 
 ## -property-value
 

@@ -11,6 +11,7 @@ public string Title { get; }
 
 
 ## -description
+The title of the update.
 
 ## -property-value
 

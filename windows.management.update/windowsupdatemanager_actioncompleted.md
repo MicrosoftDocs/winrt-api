@@ -11,10 +11,12 @@ public event Windows.Foundation.TypedEventHandler<Windows.Management.Update.Wind
 
 
 ## -description
+This event is fired when an action has been completed for an update.
 
 ## -remarks
 
 ## -see-also
+[WindowsUpdateActionCompletedEventArgs](./windowsupdateactioncompletedeventargs.md)
 
 ## -examples
 

@@ -11,6 +11,7 @@ public bool IsWorking { get; }
 
 
 ## -description
+Query if the [WindowsUpdateManager](./windowsupdatemanager.md) is actively working on updates.
 
 ## -property-value
 

@@ -11,6 +11,7 @@ public event Windows.Foundation.TypedEventHandler<Windows.Management.Update.Wind
 
 
 ## -description
+This event is fired when the working state changes.
 
 ## -remarks
 

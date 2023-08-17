@@ -11,6 +11,7 @@ public WindowsUpdateApprovalData ();
 
 
 ## -description
+Constructs a new WindowsUpdateApprovalData instance with all underlying members set to default values.
 
 ## -remarks
 

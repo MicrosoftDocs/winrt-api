@@ -11,6 +11,7 @@ public sealed class WindowsUpdateProgressChangedEventArgs
 
 
 ## -description
+Event data for the corresponding [WindowsUpdateManager](./windowsupdatemanager.md) [ProgressChanged](./windowsupdatemanager_progresschanged.md) event.
 
 ## -remarks
 

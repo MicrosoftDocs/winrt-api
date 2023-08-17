@@ -11,6 +11,7 @@ public sealed class WindowsUpdateGetAdministratorResult
 
 
 ## -description
+The result of calling [GetRegisteredAdministrator](./windowsupdateadministrator_getregisteredadministrator_1823331721.md).
 
 ## -remarks
 

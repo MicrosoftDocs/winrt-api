@@ -11,12 +11,14 @@ public Windows.Management.Update.WindowsUpdateAdministrator Administrator { get;
 
 
 ## -description
+The Windows update administrator object associated with the requested API call.
 
 ## -property-value
 
 ## -remarks
 
 ## -see-also
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
 
 ## -examples
 

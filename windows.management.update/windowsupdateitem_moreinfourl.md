@@ -11,6 +11,7 @@ public System.Uri MoreInfoUrl { get; }
 
 
 ## -description
+A URL that links to detailed information regarding the update.
 
 ## -property-value
 

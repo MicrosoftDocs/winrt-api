@@ -11,6 +11,7 @@ public sealed class WindowsUpdateAttentionRequiredInfo
 
 
 ## -description
+A grouping of a WindowsUpdateAttentionRequiredReason and timestamp.
 
 ## -remarks
 

@@ -11,18 +11,24 @@ public WindowsUpdateRestartRequestOptions (string title, string description, Sys
 
 
 ## -description
+Constructor for [WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md) that sets all required fields for use.
 
 ## -parameters
 
 ### -param title
+The title of the update.
 
 ### -param description
+Description metadata that gives more detailed information about an update.
 
 ### -param moreInfoUrl
+A URL that links to detailed information regarding the update.
 
 ### -param complianceDeadlineInDays
+Indicates the compliance deadline in days before a reboot must occur to complete the update.
 
 ### -param complianceGracePeriodInDays
+Indicates the compliance grace period in days before a reboot must occur to complete the update.
 
 ## -remarks
 

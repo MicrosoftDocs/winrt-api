@@ -11,6 +11,7 @@ public Windows.Management.Update.WindowsUpdateAttentionRequiredReason Reason { g
 
 
 ## -description
+The specific reason that attention is required for an update that was blocked from proceeding.
 
 ## -property-value
 

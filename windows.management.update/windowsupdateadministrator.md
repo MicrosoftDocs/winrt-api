@@ -11,6 +11,7 @@ public sealed class WindowsUpdateAdministrator
 
 
 ## -description
+This class enables administration over Windows Updates on a device.
 
 ## -remarks
 

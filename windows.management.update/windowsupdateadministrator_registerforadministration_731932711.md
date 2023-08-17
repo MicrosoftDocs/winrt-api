@@ -11,16 +11,25 @@ public static Windows.Management.Update.WindowsUpdateAdministratorStatus Registe
 
 
 ## -description
+Registers a Windows update administrator on the device to allow fine-grained control of update activity.
 
 ## -parameters
 
 ### -param organizationName
+The organization name associated with the update administrator.
 
 ### -param options
+A combination of [WindowsUpdateAdministratorOptions](./windowsupdateadministratoroptions.md) flags that determine which aspects the admin requires explicit approval for.
 
 ## -returns
+A [WindowsUpdateAdministratorStatus](./windowsupdateadministratorstatus.md) indicating if registration was successful.
 
 ## -remarks
+This registration must be performed from a SYSTEM or Administrator elevation on the device.
+
+If there is already a Windows update administrator registered on the device, this call will fail as there can only be one active administrator at a time.
+
+The organization name used at registration is required to acquire the WindowsUpdateAdministrator object via [GetRegisteredAdministrator](./windowsupdateadministrator_getregisteredadministrator_1823331721.md). It is also required to call [UnregisterForAdministration](./windowsupdateadministrator_unregisterforadministration_1234576495.md).
 
 ## -see-also
 

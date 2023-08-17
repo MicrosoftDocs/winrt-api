@@ -11,6 +11,7 @@ public string Title { get; }
 
 
 ## -description
+Returns the title for a given [WindowsUpdate](./windowsupdate.md).
 
 ## -property-value
 

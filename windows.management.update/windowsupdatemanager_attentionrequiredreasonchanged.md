@@ -11,10 +11,12 @@ public event Windows.Foundation.TypedEventHandler<Windows.Management.Update.Wind
 
 
 ## -description
+This event is fired when the attention required reason changed for an update.
 
 ## -remarks
 
 ## -see-also
+[WindowsUpdateAttentionRequiredReasonChangedEventArgs](./windowsupdateattentionrequiredreasonchangedeventargs.md)
 
 ## -examples
 

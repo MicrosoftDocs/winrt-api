@@ -11,10 +11,13 @@ public System.Collections.Generic.IReadOnlyList<Windows.Management.Update.Window
 
 
 ## -description
+Retrieves a list of all applicable updates currently known to the [WindowsUpdateManager](./windowsupdatemanager.md).
 
 ## -returns
+A list of applicable updates.
 
 ## -remarks
+If a [WindowsUpdateAdministrator](./windowsupdateadministrator.md) has been registered using [RequireAdministratorApprovalForUpdates](./windowsupdateadministratoroptions.md), updates will not be considered applicable until they have been approved using [ApproveWindowsUpdate](./windowsupdateadministrator_approvewindowsupdate_1582950728.md).
 
 ## -see-also
 

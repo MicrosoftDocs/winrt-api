@@ -11,6 +11,7 @@ public void AcceptEula ();
 
 
 ## -description
+Accepts the End-User License Agreement (EULA) associated with a given [WindowsUpdate](./windowsupdate.md).
 
 ## -remarks
 

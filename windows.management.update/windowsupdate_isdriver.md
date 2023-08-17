@@ -11,6 +11,7 @@ public bool IsDriver { get; }
 
 
 ## -description
+Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as a driver update.
 
 ## -property-value
 

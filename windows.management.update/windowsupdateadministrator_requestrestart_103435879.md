@@ -11,14 +11,20 @@ public static string RequestRestart (Windows.Management.Update.WindowsUpdateRest
 
 
 ## -description
+Requests a restart that will allow the device to complete updates at an opportune time.
 
 ## -parameters
 
 ### -param restartOptions
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md) that specify details about the restart request.
 
 ## -returns
+An identifier associated with the restart request.
 
 ## -remarks
+This API creates a dummy update that is pending restart so it will be treated the same as an actual update that requires a restart.
+
+The identifier returned from this API can be passed to [CancelRestartRequest](./windowsupdateadministrator_cancelrestartrequest_1241125889.md) in order to cancel a previously requested restart.
 
 ## -see-also
 

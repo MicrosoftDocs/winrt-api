@@ -11,6 +11,7 @@ public Windows.Management.Update.WindowsUpdate Update { get; }
 
 
 ## -description
+The [WindowsUpdate](./windowsupdate.md) associated with the progress change event.
 
 ## -property-value
 

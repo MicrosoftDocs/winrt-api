@@ -11,10 +11,12 @@ public System.DateTimeOffset Timestamp { get; }
 
 
 ## -description
+The timestamp at which an action was completed.
 
 ## -property-value
 
 ## -remarks
+This time is reported in the local time of the device.
 
 ## -see-also
 
