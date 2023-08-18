@@ -11,18 +11,18 @@ public void RevokeWindowsUpdateApproval (string updateId);
 
 
 ## -description
+Revokes approval for an update action previously approved via [ApproveWindowsUpdate](./windowsupdateadministrator_approvewindowsupdate_1582950728.md).
 
 ## -parameters
 
 ### -param updateId
+The unique ID associated with an update to identify it.
 
 ## -remarks
-This call will fail if:
-- [RegisterForAdministration](./windowsupdateadministrator_registerforadministration_731932711.md) was not previously called to register a [WindowsUpdateAdministrator](./windowsupdateadministrator.md) on the device, this call will fail.
-- The updateId provided does not match any updates found by a previous scan.
+This call will fail in any of these cases:
+- [RegisterForAdministration](./windowsupdateadministrator_registerforadministration_731932711.md) wasn't previously called to register a [WindowsUpdateAdministrator](./windowsupdateadministrator.md) on the device.
+- The updateId provided doesn't match a previously approved update.
 
 ## -see-also
 
 ## -examples
-
-
