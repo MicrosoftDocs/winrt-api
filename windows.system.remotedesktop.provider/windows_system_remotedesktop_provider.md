@@ -9,7 +9,7 @@
 
 ## -description
 
-Provides APIs for implementing remote desktop host apps.
+Provides APIs for implementing remote desktop client apps.
 
 ## -remarks
 

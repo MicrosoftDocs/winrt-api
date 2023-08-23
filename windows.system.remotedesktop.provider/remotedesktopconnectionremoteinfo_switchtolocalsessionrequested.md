@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler<Windows.System.RemoteDesktop.P
 
 ## -description
 
-Raised in the remote desktop host app when the user requests to switch to the local desktop.
+Raised in the remote desktop host service when the user requests to switch to the local desktop.
 
 ## -remarks
 

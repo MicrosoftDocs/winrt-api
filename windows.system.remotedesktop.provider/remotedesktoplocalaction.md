@@ -12,7 +12,7 @@ public enum RemoteDesktopLocalAction
 
 ## -description
 
-Specifies a local action that can be performed by a remote desktop host app.
+Specifies a local action that can be performed by a remote desktop client app.
 
 ## -enum-fields
 

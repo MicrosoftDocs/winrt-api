@@ -12,7 +12,7 @@ public static Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemot
 
 ## -description
 
-Identifies the calling app to the OS as the host app running on the remote machine of a remote desktop connection.
+Identifies the calling app to the OS as the remote desktop host service running on the remote machine of a remote desktop connection.
 
 ## -returns
 

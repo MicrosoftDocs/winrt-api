@@ -30,7 +30,7 @@ A **RemoteDesktopConnectionInfo** associated with the remote desktop connection.
 
 ## -remarks
 
-This call is made by the remote desktop host app running on the local desktop.
+This call is made by the remote desktop client app running on the local desktop.
 
 Remote desktop provider apps are launched by the OS using a URI scheme with the following syntax.
 

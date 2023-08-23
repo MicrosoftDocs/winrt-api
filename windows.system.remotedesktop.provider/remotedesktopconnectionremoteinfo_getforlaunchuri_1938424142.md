@@ -26,7 +26,7 @@ A **RemoteDesktopConnectionRemoteInfo** associated with the remote desktop conne
 
 ## -remarks
 
-This call is made by the remote desktop host app running on the remote desktop.
+This call is made by the remote desktop host service running on the remote desktop.
 
 ## -see-also
 
