@@ -23,5 +23,3 @@ The name of the printer device.
 ## -see-also
 
 ## -examples
-
-

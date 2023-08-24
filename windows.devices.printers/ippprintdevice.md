@@ -23,5 +23,3 @@ For more information about this class, see [Print support app design guide](/win
 [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide),[Internet Printing Protocol (IPP) specification](https://tools.ietf.org/html/rfc8011)
 
 ## -examples
-
-

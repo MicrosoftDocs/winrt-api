@@ -29,5 +29,3 @@ A map of Internet Printing Protocol (IPP) attribute names and value pairs.
 ## -see-also
 
 ## -examples
-
-
