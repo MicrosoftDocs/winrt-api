@@ -16,6 +16,7 @@ Provides properties for getting H.264 profile ids.
 You can set the value of [VideoEncodingProperties.ProfileId](videoencodingproperties_profileid.md) to one of the profile ids provided by this class.
 
 ## -examples
+
 Here is some code that creates an instance of the [VideoEncodingProperties](videoencodingproperties.md) class using [CreateH264](videoencodingproperties_createh264_510168634.md) and sets the [ProfileId](videoencodingproperties_profileid.md) to the H.264 high profile.
 
 
