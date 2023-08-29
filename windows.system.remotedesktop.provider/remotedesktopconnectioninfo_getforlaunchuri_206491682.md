@@ -30,13 +30,15 @@ A **RemoteDesktopConnectionInfo** associated with the remote desktop connection.
 
 ## -remarks
 
-This call is made by the remote desktop client app running on the local desktop.
+This call is made by the remote desktop client app running on the local desktop. 
 
 Remote desktop provider apps are launched by the OS using a URI scheme with the following syntax.
 
 `ms-remotedesktop:switch?remoteDesktopId={ID}&sessionId={sessionID}`
 
 The provider app completes the launch handshake by passing the launch protocol string to **GetForLaunchUri**.
+
+ The *launchUri* is the URI used in the local PC’s shell to launch the client app. The client app should pass this URI to the remote desktop client app which will in turn call [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.GetForLaunchUri(Windows.Foundation.Uri) passing this launchUri as the parameter.
 
 ## -see-also
 

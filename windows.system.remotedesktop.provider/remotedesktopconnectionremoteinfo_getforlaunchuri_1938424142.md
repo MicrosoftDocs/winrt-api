@@ -18,7 +18,7 @@ Retrieves a [RemoteDesktopConnectionRemoteInfo](xref:Windows.System.RemoteDeskto
 
 ### -param launchUri
 
-The launch URI containing the remote desktop ID and session ID for the remote desktop.
+The launch URI containing the remote desktop ID and session ID for the remote desktop. This URI is passed over a network connection from the remote desktop client running on the local machine to the host service running on the remote machine.
 
 ## -returns
 
