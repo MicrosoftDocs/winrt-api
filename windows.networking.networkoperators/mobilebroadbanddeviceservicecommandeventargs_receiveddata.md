@@ -12,7 +12,11 @@ public Windows.Storage.Streams.IBuffer ReceivedData { get; }
 
 ## -description
 
+Gets the raw data for the Device Service notification. The caller is responsible for interpreting the data.
+
 ## -property-value
+
+A buffer containing the raw data for the Device Service notification. The caller is responsible for interpreting the data.
 
 ## -remarks
 
@@ -20,4 +24,5 @@ public Windows.Storage.Streams.IBuffer ReceivedData { get; }
 
 ## -examples
 
-
+## -capabilities
+cellularDeviceControl

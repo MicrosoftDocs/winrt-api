@@ -12,7 +12,11 @@ public uint EventId { get; }
 
 ## -description
 
+Gets the unique Event Identifier for the Device Service trigger event.
+
 ## -property-value
+
+The unique Event Identifier for the Device Service trigger event.
 
 ## -remarks
 
@@ -20,4 +24,5 @@ public uint EventId { get; }
 
 ## -examples
 
-
+## -capabilities
+cellularDeviceControl

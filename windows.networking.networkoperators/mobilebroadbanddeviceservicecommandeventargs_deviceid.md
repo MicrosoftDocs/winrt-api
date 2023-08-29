@@ -12,7 +12,11 @@ public string DeviceId { get; }
 
 ## -description
 
+Gets the unique Device Identifier of the [MobileBroadbandModem](./mobilebroadbandmodem.md) device.
+
 ## -property-value
+
+A string containing the unique Device Identifier of the [MobileBroadbandModem](./mobilebroadbandmodem.md) device.
 
 ## -remarks
 
@@ -20,4 +24,5 @@ public string DeviceId { get; }
 
 ## -examples
 
-
+## -capabilities
+cellularDeviceControl

@@ -20,4 +20,5 @@ public uint EventId { get; }
 
 ## -examples
 
-
+## -capabilities
+cellularDeviceControl
