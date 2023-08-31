@@ -14,7 +14,7 @@ public class SwapChainBackgroundPanel : Windows.UI.Xaml.Controls.Grid, Windows.U
 Implements a XAML layout surface target for Microsoft DirectX interoperation scenarios. This panel has some atypical restrictions on its usage within an app window; see Remarks.
 
 > [!IMPORTANT]
-> SwapChainBackgroundPanel may be altered or unavailable for releases after Windows 8.1 Instead, use [SwapChainPanel](swapchainpanel.md).
+> SwapChainBackgroundPanel may be altered or unavailable for releases after Windows 8.1. Instead, use [SwapChainPanel](swapchainpanel.md).
 
 
 ## -xaml-syntax
@@ -26,7 +26,7 @@ Implements a XAML layout surface target for Microsoft DirectX interoperation sce
 ## -remarks
 
 > [!IMPORTANT]
-> SwapChainBackgroundPanel is deprecated and may not be supported in future releases. Change any existing code that used SwapChainBackgroundPanel to use [SwapChainPanel](swapchainpanel.md) instead. There's no downside to using [SwapChainPanel](swapchainpanel.md), the API is new because it relies upon an upgrade in the internal rendering and composition systems that were introduced starting with Windows 8.1.
+> SwapChainBackgroundPanel is deprecated and may not be supported in future releases. Change any existing code that used SwapChainBackgroundPanel to use [SwapChainPanel](swapchainpanel.md) instead. There's no downside to using [SwapChainPanel](swapchainpanel.md); the API is new because it relies upon an upgrade in the internal rendering and composition systems that were introduced starting with Windows 8.1.
 
 For most scenarios a [SwapChainPanel](swapchainpanel.md) will provide a more versatile Microsoft DirectX interop render surface than a SwapChainBackgroundPanel does. That's because a [SwapChainPanel](swapchainpanel.md) doesn't have many of the XAML-side composition limitations that are listed in the "Composition limitations" section below. For example you can apply a [RenderTransform](../windows.ui.xaml/uielement_rendertransform.md) to a [SwapChainPanel](swapchainpanel.md). For more info, see [DirectX and XAML interop](/previous-versions/windows/apps/hh825871(v=win.10)) and [SwapChainPanel](swapchainpanel.md).
 
