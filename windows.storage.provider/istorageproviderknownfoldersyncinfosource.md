@@ -52,9 +52,9 @@ namespace winrt::CloudMirror::implementation
         std::vector<StorageProviderKnownFolderEntry> m_knownFolderEntries;
     };
 }
-```
 
-```cppwinrt
+...
+
 using namespace winrt::Windows::Storage::Provider;
 
 namespace winrt::CloudMirror::implementation
