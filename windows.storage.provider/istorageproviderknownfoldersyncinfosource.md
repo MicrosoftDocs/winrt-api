@@ -62,8 +62,8 @@ namespace winrt::CloudMirror::implementation
     MyKnownFolderInfoSource::MyKnownFolderInfoSource()
     {
         // The cloud provider would assess its current state and use it to
-        // inform File Explorer. In this example Documents is available for
-        // backup, Pictures is currently enrolling,and Downloads is already
+        // inform File Explorer. In this example, Documents is available for
+        // backup, Pictures is currently enrolling, and Downloads is already
         // backed up (enrolled).
         winrt::StorageProviderKnownFolderEntry documents{};
         documents.KnownFolderId(FOLDERID_Documents);
@@ -86,7 +86,7 @@ namespace winrt::CloudMirror::implementation
     // StorageProviderKnownFolderSyncInfo is considered immutable.
     //
     // A SyncRequested handler must be set on the returned object to be considered valid
-    // and get displayed in File Explorer.
+    // and to be displayed in File Explorer.
     StorageProviderKnownFolderSyncInfo MyKnownFolderInfoSource::GetKnownFolderSyncInfo()
     {
         winrt::StorageProviderKnownFolderSyncInfo info{};
