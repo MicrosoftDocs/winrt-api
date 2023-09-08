@@ -20,6 +20,8 @@ A list of **RemoteDesktopInfo** objects.
 
 ## -remarks
 
+When the URI `ms-remotedesktop:setup` is invoked, remote desktop client apps should call **Append** on the **DesktopInfos** collection to register Cloud PCs to the Windows shell.
+
 ## -see-also
 
 ## -examples
