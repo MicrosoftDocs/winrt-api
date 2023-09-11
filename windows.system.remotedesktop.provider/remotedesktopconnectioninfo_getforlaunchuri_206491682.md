@@ -41,11 +41,11 @@ The *launchUri* is the URI used in the local PC’s shell to launch the client a
 
 Remote desktop provider apps are launched by the OS through URI schemes with the following syntax.
 
-`ms-remotedesktop:switch? remoteDesktopId={remote desktop Id}&correlationId={correlation Id}& supportBluetoothSettings=false`
+`ms-remotedesktop:switch?remoteDesktopId={remote desktop Id}&correlationId={correlation Id}& supportBluetoothSettings=false`
 
 Remote desktop client apps must subscribe to the `ms-remotedesktop` URI scheme to enable launching Cloud PCs using FastSwitch.
 
-`ms-remotedesktop-launch:?supportBluetoothSettings ={true if local PC supports Bluetooth settings page} &correlationId={correlation Id}`
+`ms-remotedesktop-launch:?supportBluetoothSettings={true if local PC supports Bluetooth settings page} &correlationId={correlation Id}`
 
 Remote desktop client apps must subscribe to the `ms-remotedesktop-launch` Uri scheme if they want to launch Cloud PCs using Boot to Cloud.
 
