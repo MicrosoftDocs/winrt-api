@@ -15,11 +15,11 @@ Raised when [ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_54
 
 ## -remarks
 
-**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md.md) returns `false`.
+**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md) returns `false`.
 
 ## -see-also
 
-[ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md), [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md.md)
+[ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md), [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md)
 
 ## -examples
 
