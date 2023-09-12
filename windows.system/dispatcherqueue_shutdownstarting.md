@@ -11,13 +11,15 @@ public event TypedEventHandler ShutdownStarting<DispatcherQueue, DispatcherQueue
 
 ## -description
 
-Raised when [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md) is called. For a full list of the events raised, and in what order, see the Remarks for [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
+Raised when [ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md) is called. For a full list of the events raised, and in what order, see the Remarks for [ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
 
 ## -remarks
 
-**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](./dispatcherqueue_tryenqueue_530434839.md) returns `false`.
+**ShutdownStarting** is raised *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md.md) returns `false`.
 
 ## -see-also
+
+[ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md), [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md.md)
 
 ## -examples
 
