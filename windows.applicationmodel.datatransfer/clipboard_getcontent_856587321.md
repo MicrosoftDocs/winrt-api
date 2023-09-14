@@ -15,7 +15,7 @@ Gets the current content that is stored in the clipboard object.
 
 ## -returns
 
-Contains the content of the Clipboard.
+Contains the content of the Clipboard, or an empty DataPackageView if the Clipboard is empty or unavailable.
 
 ## -remarks
 

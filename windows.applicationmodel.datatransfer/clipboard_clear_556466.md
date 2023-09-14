@@ -13,7 +13,7 @@ public void Clear()
 Removes all data from the Clipboard.
 
 ## -remarks
-Use the Clear method when you want to cancel an action that put data on the Clipboard.
+If the Clipboard cannot be cleared, the method throws an exception.
 
 ## -examples
 
