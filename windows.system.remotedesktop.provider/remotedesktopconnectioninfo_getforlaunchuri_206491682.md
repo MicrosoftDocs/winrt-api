@@ -43,11 +43,11 @@ Remote desktop provider apps are launched by the OS through URI schemes with the
 
 `ms-remotedesktop:switch?remoteDesktopId={remote desktop Id}&correlationId={correlation Id}&supportBluetoothSettings=false`
 
-Remote desktop client apps must subscribe to the `ms-remotedesktop` URI scheme to enable launching Cloud PCs using FastSwitch.
+Remote desktop client apps must subscribe to the `ms-remotedesktop` URI scheme to enable launching Windows 365 Cloud PCs using Windows 365 Switch.
 
 `ms-remotedesktop-launch:?supportBluetoothSettings={true if local PC supports Bluetooth settings page}&correlationId={correlation Id}`
 
-Remote desktop client apps must subscribe to the `ms-remotedesktop-launch` Uri scheme if they want to launch Cloud PCs using Boot to Cloud.
+Remote desktop client apps must subscribe to the `ms-remotedesktop-launch` Uri scheme if they want to launch Windows 365 Cloud PCs using Windows 365 Boot.
 
 ## -see-also
 
