@@ -37,17 +37,15 @@ The provider app completes the launch handshake by passing the launch protocol s
 
 ### Launch URIs
 
-The *launchUri* is the URI used in the local PC’s shell to launch the client app. The client app should pass this URI to the remote desktop client app which will in turn call [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.GetForLaunchUri(Windows.Foundation.Uri) passing this launchUri as the parameter.
-
-Remote desktop provider apps are launched by the OS through URI schemes with the following syntax.
+The *launchUri* is the URI used in the local PC’s shell to launch the client app. The client app should pass this URI to the remote desktop client app which will in turn call [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.GetForLaunchUri(Windows.Foundation.Uri) passing this launchUri as the parameter. Example URI format:
 
 `ms-remotedesktop:switch?remoteDesktopId={remote desktop Id}&correlationId={correlation Id}&supportBluetoothSettings=false`
 
-Remote desktop client apps must subscribe to the `ms-remotedesktop` URI scheme to enable launching Windows 365 Cloud PCs using Windows 365 Switch.
+Remote desktop client apps must register to handle the `ms-remotedesktop` URI scheme to enable launching Windows 365 Cloud PCs using Windows 365 Switch. Example URI format:
 
 `ms-remotedesktop-launch:?supportBluetoothSettings={true if local PC supports Bluetooth settings page}&correlationId={correlation Id}`
 
-Remote desktop client apps must subscribe to the `ms-remotedesktop-launch` Uri scheme if they want to launch Windows 365 Cloud PCs using Windows 365 Boot.
+Remote desktop client apps must register to handle the `ms-remotedesktop-launch` Uri scheme if they want to launch Windows 365 Cloud PCs using Windows 365 Boot.
 
 ## -see-also
 
