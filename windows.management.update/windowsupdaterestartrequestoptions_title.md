@@ -11,14 +11,15 @@ public string Title { get; set; }
 
 
 ## -description
-The title of the update.
+
+Gets or sets the title of the update.
 
 ## -property-value
+
+The title of the update.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

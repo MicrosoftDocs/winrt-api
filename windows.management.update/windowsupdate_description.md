@@ -11,14 +11,15 @@ public string Description { get; }
 
 
 ## -description
-Get the underlying description metadata string associated with a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the underlying description metadata string associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying description metadata string associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

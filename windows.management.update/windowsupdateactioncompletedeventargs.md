@@ -11,12 +11,11 @@ public sealed class WindowsUpdateActionCompletedEventArgs
 
 
 ## -description
-Event data for the corresponding [WindowsUpdateManager](./windowsupdatemanager.md) [ActionCompleted](./windowsupdatemanager_actioncompleted.md) event.
+
+Event data for the corresponding [WindowsUpdateManager.ActionCompleted](./windowsupdatemanager_actioncompleted.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -11,14 +11,15 @@ public bool IsMinorImpact { get; }
 
 
 ## -description
-Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as minor impact.
+
+Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified as minor impact.
 
 ## -property-value
+
+`true` if the [WindowsUpdate](./windowsupdate.md) object is classified as minor impact; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

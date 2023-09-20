@@ -11,14 +11,15 @@ public bool IsScanning { get; }
 
 
 ## -description
-Query if the [WindowsUpdateManager](./windowsupdatemanager.md) is actively scanning for updates.
+
+Gets a value indicating whether the [WindowsUpdateManager](./windowsupdatemanager.md) is actively scanning for updates.
 
 ## -property-value
+
+`true` if the [WindowsUpdateManager](./windowsupdatemanager.md) is actively scanning for updates; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

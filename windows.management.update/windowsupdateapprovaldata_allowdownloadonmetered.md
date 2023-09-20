@@ -11,14 +11,14 @@ public System.Nullable<bool> AllowDownloadOnMetered { get; set; }
 
 
 ## -description
-Indicates if the update is permitted to download over a metered network connection.
+Gets or sets a value indicating whether the update is permitted to download over a metered network connection.
 
 ## -property-value
+
+`true` if the update is permitted to download over a metered network connection; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

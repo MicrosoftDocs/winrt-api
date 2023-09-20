@@ -11,15 +11,18 @@ public Windows.Foundation.IAsyncOperation<System.Collections.Generic.IReadOnlyLi
 
 
 ## -description
-Asynchronously get information about the most recently completed updates.
+
+Asynchronously retrieves information about the most recently completed updates.
 
 ## -parameters
 
 ### -param count
+
 The number of recently completed updates to retrieve.
 
 ## -returns
-A list of the X most recently completed updates where X cannot exceed the count passed in.
+
+An asynchronous operation object which, when it completes, contains a list of the *N* most recently completed updates, where *N* can't exceed *count*.
 
 ## -remarks
 
@@ -27,5 +30,3 @@ A list of the X most recently completed updates where X cannot exceed the count 
 [WindowsUpdateItem](./windowsupdateitem.md)
 
 ## -examples
-
-

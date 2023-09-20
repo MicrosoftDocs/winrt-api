@@ -11,15 +11,17 @@ public string UpdateId { get; }
 
 
 ## -description
-Returns the update ID associated with a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the update ID associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
 
+The update ID associated with the [WindowsUpdate](./windowsupdate.md) object.
+
 ## -remarks
-The update ID will generally be a GUID but it can be any string that uniquely identifies it. This identifier is required for calling many [WindowsUpdateAdministrator](./windowsupdateadministrator.md) methods.
+
+The update ID will generally be a GUID, but it can be any string that uniquely identifies. This identifier is required for calling many [WindowsUpdateAdministrator](./windowsupdateadministrator.md) methods.
 
 ## -see-also
 
 ## -examples
-
-

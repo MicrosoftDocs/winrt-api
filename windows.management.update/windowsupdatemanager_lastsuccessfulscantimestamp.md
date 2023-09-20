@@ -11,15 +11,17 @@ public System.Nullable<System.DateTimeOffset> LastSuccessfulScanTimestamp { get;
 
 
 ## -description
-Query the last successful scan timestamp from [WindowsUpdateManager](./windowsupdatemanager.md).
+
+Gets a value indicating the last successful scan timestamp from [WindowsUpdateManager](./windowsupdatemanager.md).
 
 ## -property-value
 
+A value indicating the last successful scan timestamp from [WindowsUpdateManager](./windowsupdatemanager.md).
+
 ## -remarks
-This timestamp is reported in the local time of the device. If there has not yet been a successful scan, the value returned will be null.
+
+The timestamp is reported in the local time of the device. If there has not yet been a successful scan, then the value returned is null.
 
 ## -see-also
 
 ## -examples
-
-

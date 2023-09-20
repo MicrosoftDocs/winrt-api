@@ -11,14 +11,15 @@ public bool IsSecurity { get; }
 
 
 ## -description
-Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as a security update.
+
+Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified as a security update.
 
 ## -property-value
+
+`true` if the [WindowsUpdate](./windowsupdate.md) object is classified as a security update; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

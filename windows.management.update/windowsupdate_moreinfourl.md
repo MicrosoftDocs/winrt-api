@@ -11,14 +11,15 @@ public System.Uri MoreInfoUrl { get; }
 
 
 ## -description
-Get the underlying more info URL associated with a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the underlying *more info* URL associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying *more info* URL associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

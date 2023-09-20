@@ -11,14 +11,15 @@ public bool IsMandatory { get; }
 
 
 ## -description
-Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as mandatory.
+
+Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified as mandatory.
 
 ## -property-value
+
+`true` if the [WindowsUpdate](./windowsupdate.md) object is classified as mandatory; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

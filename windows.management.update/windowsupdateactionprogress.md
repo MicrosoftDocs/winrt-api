@@ -11,12 +11,11 @@ public sealed class WindowsUpdateActionProgress
 
 
 ## -description
-Returned by the ActionProgress properties of [WindowsUpdate](./windowsupdate.md) and [WindowsUpdateProgressChangedEventArgs](./windowsupdateprogresschangedeventargs.md). Contains Action (string) and Progress (double 0.0-1.0)
+
+Returned by the **ActionProgress** properties of [WindowsUpdate](./windowsupdate.md) and [WindowsUpdateProgressChangedEventArgs](./windowsupdateprogresschangedeventargs.md).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

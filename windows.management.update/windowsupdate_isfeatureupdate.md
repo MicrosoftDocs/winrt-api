@@ -11,14 +11,15 @@ public bool IsFeatureUpdate { get; }
 
 
 ## -description
-Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as a feature update.
+
+Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified as a feature update.
 
 ## -property-value
+
+`true` if the [WindowsUpdate](./windowsupdate.md) object is classified as a feature update; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -11,14 +11,15 @@ public string EulaText { get; }
 
 
 ## -description
-Get the underlying End-User License Agreement (EULA) text associated with a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the underlying End-User License Agreement (EULA) text associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying End-User License Agreement (EULA) text associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -11,7 +11,8 @@ public Windows.Management.Update.WindowsUpdateAdministratorStatus Status { get; 
 
 
 ## -description
-The status of the result of the requested Windows update administrator call.
+
+Gets the status of the result of the requested Windows update administrator call.
 
 ## -property-value
 
@@ -21,5 +22,3 @@ The status of the result of the requested Windows update administrator call.
 [WindowsUpdateAdministratorStatus](./windowsupdateadministratorstatus.md)
 
 ## -examples
-
-

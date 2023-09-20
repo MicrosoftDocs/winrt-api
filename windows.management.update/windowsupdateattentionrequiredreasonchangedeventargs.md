@@ -11,12 +11,11 @@ public sealed class WindowsUpdateAttentionRequiredReasonChangedEventArgs
 
 
 ## -description
-Event data for the corresponding [WindowsUpdateManager](./windowsupdatemanager.md) [AttentionRequiredReasonChanged](./windowsupdatemanager_attentionrequiredreasonchanged.md) event.
+
+Event data for the corresponding [WindowsUpdateManager.AttentionRequiredReasonChanged](./windowsupdatemanager_attentionrequiredreasonchanged.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

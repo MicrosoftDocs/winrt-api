@@ -11,15 +11,17 @@ public System.DateTimeOffset Timestamp { get; }
 
 
 ## -description
-The timestamp at which the update was completed.
+
+Gets the timestamp at which the update was completed.
 
 ## -property-value
 
+A value indicating the timestamp at which the update was completed.
+
 ## -remarks
-This is stored in the local time of the device.
+
+The time is stored in the local time of the device.
 
 ## -see-also
 
 ## -examples
-
-

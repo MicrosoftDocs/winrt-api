@@ -11,15 +11,17 @@ public System.Nullable<System.DateTimeOffset> Timestamp { get; }
 
 
 ## -description
-The timestamp at which an update was blocked due to needing additional attention.
+
+Gets the timestamp at which an update was blocked due to needing additional attention.
 
 ## -property-value
 
+The timestamp at which an update was blocked due to needing additional attention.
+
 ## -remarks
-This time is reported in the local time of the device.
+
+The time is reported in the local time of the device.
 
 ## -see-also
 
 ## -examples
-
-

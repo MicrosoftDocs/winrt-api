@@ -11,7 +11,8 @@ public event Windows.Foundation.TypedEventHandler<Windows.Management.Update.Wind
 
 
 ## -description
-This event is fired when a scan for updates completed.
+
+Raised when a scan for updates completes.
 
 ## -remarks
 
@@ -19,5 +20,3 @@ This event is fired when a scan for updates completed.
 [WindowsUpdateScanCompletedEventArgs](./windowsupdatescancompletedeventargs.md)
 
 ## -examples
-
-

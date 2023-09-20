@@ -11,14 +11,14 @@ public Windows.Management.Update.WindowsUpdateAttentionRequiredInfo AttentionReq
 
 
 ## -description
-Get the underlying [WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequiredinfo.md) associated with a given [WindowsUpdate](./windowsupdate.md).
+Gets the underlying [WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequiredinfo.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying [WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequiredinfo.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

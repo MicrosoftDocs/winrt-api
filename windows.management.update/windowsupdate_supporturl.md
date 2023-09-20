@@ -11,14 +11,15 @@ public System.Uri SupportUrl { get; }
 
 
 ## -description
-Get the underlying support URL associated with a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the underlying support URL associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying support URL associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

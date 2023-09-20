@@ -11,14 +11,15 @@ public Windows.Management.Update.WindowsUpdate Update { get; }
 
 
 ## -description
-The [WindowsUpdate](./windowsupdate.md) associated with the completed action.
+
+Gets the [WindowsUpdate](./windowsupdate.md) associated with the completed action.
 
 ## -property-value
+
+The [WindowsUpdate](./windowsupdate.md) associated with the completed action.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

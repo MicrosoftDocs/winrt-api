@@ -11,14 +11,15 @@ public bool IsEulaAccepted { get; }
 
 
 ## -description
-Returns if the End-User License Agreement (EULA) has been accepted for a given [WindowsUpdate](./windowsupdate.md).
+
+Indicates whether the End-User License Agreement (EULA) has been accepted for the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+`true` if the End-User License Agreement (EULA) has been accepted for the [WindowsUpdate](./windowsupdate.md) object.; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

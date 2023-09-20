@@ -11,12 +11,11 @@ public sealed class WindowsUpdateItem
 
 
 ## -description
-This class is a property bag of information regarding an update that was previously completed.
+
+Represents a property bag of information regarding an update that was previously completed.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

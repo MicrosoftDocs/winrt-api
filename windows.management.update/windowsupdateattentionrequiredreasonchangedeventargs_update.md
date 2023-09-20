@@ -11,7 +11,8 @@ public Windows.Management.Update.WindowsUpdate Update { get; }
 
 
 ## -description
-The [WindowsUpdate](./windowsupdate.md) associated with the attention required reason change event.
+
+Gets the [WindowsUpdate](./windowsupdate.md) associated with the attention-required-reason change event.
 
 ## -property-value
 
@@ -20,5 +21,3 @@ The [WindowsUpdate](./windowsupdate.md) associated with the attention required r
 ## -see-also
 
 ## -examples
-
-

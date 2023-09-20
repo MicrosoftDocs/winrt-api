@@ -11,12 +11,11 @@ public sealed class WindowsUpdateAttentionRequiredInfo
 
 
 ## -description
-A grouping of a WindowsUpdateAttentionRequiredReason and timestamp.
+
+Represents a tuple of a [WindowsUpdateAttentionRequiredReason](./windowsupdateattentionrequiredreason.md) and a timestamp.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

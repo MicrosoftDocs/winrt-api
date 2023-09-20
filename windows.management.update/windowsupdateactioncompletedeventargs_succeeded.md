@@ -11,15 +11,17 @@ public bool Succeeded { get; }
 
 
 ## -description
-Boolean value indicating if the completed action succeeded.
+
+Gets a value indicating whether the completed action succeeded.
 
 ## -property-value
 
+`true` if the completed action succeeded; otherwise, `false`.
+
 ## -remarks
-This field allows quick reference as to whether an action was successful. If the action failed, more information can be found by checking the [ExtendedError](./windowsupdateactioncompletedeventargs_extendederror.md) code.
+
+This property affords quick reference as to whether an action was successful. If the action failed, then you can obtain more information by checking the [ExtendedError](./windowsupdateactioncompletedeventargs_extendederror.md) code.
 
 ## -see-also
 
 ## -examples
-
-

@@ -11,15 +11,15 @@ public string Category { get; }
 
 
 ## -description
-The categoric classification of an update.
+
+Gets a value indicating the categoric classification of an update.
 
 ## -property-value
 
+A value indicating the categoric classification of an update. Classifications include "Feature", "Quality", "Driver", "Definition", and "Other".
+
 ## -remarks
-Current classifications include "Feature", "Quality", "Driver", "Definition", and "Other".
 
 ## -see-also
 
 ## -examples
-
-

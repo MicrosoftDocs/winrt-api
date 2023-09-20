@@ -11,15 +11,17 @@ public System.Exception ExtendedError { get; }
 
 
 ## -description
-HRESULT value with detailed information of an error associated with a completed action event.
+
+Gets detailed information about an error associated with a completed action event.
 
 ## -property-value
 
+A **HRESULT** value containing detailed information about an error associated with a completed action event.
+
 ## -remarks
-If the action completed successfully, this will be S_OK (0). Otherwise it will provide an error code as to why the action failed.
+
+If the action completed successfully, then the value is **S_OK** (0). Otherwise, the value is an error code explaining why the action failed.
 
 ## -see-also
 
 ## -examples
-
-

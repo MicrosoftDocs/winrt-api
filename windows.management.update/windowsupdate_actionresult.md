@@ -11,14 +11,14 @@ public Windows.Management.Update.WindowsUpdateActionResult ActionResult { get; }
 
 
 ## -description
-Get the underlying [WindowsUpdateActionResult](./windowsupdateactionresult.md) associated with a given [WindowsUpdate](./windowsupdate.md).
+Gets the underlying [WindowsUpdateActionResult](./windowsupdateactionresult.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying [WindowsUpdateActionResult](./windowsupdateactionresult.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

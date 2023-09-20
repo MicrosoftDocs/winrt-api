@@ -11,14 +11,15 @@ public string ProviderId { get; }
 
 
 ## -description
-The identity of the provider that processed the update.
+
+Gets the identity of the provider that processed the update.
 
 ## -property-value
+
+A string value indicating the identity of the provider that processed the update.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

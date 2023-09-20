@@ -11,14 +11,15 @@ public System.Uri MoreInfoUrl { get; }
 
 
 ## -description
-A URL that links to detailed information regarding the update.
+
+Gets a URL that links to detailed information regarding the update.
 
 ## -property-value
+
+A URL that links to detailed information regarding the update.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

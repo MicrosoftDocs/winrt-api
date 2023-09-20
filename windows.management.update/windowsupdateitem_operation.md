@@ -11,15 +11,15 @@ public string Operation { get; }
 
 
 ## -description
-The operation associated with the update item.
+
+Gets the operation associated with the update item.
 
 ## -property-value
 
+A string value indicating the operation associated with the update item. Can be either "Installation" or "Uninstallation".
+
 ## -remarks
-This can either be "Installation" or "Uninstallation".
 
 ## -see-also
 
 ## -examples
-
-

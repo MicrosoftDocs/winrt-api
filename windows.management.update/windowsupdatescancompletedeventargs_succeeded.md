@@ -11,15 +11,17 @@ public bool Succeeded { get; }
 
 
 ## -description
-Boolean value indicating if the completed scan succeeded.
+
+Gets a value indicating whether the completed scan succeeded.
 
 ## -property-value
 
+`true` if the completed scan succeeded; otherwise, `false`.
+
 ## -remarks
-This field allows quick reference as to whether an action was successful. If the action failed, more information can be found by checking the [ExtendedError](./windowsupdatescancompletedeventargs_extendederror.md) code.
+
+This property affords quick reference as to whether a scan was successful. If the scan failed, then you can obtain more information by checking the [ExtendedError](./windowsupdatescancompletedeventargs_extendederror.md) code.
 
 ## -see-also
 
 ## -examples
-
-

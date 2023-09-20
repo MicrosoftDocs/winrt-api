@@ -11,14 +11,15 @@ public bool IsSeeker { get; }
 
 
 ## -description
-Returns if a given [WindowsUpdate](./windowsupdate.md) is classified as seeker.
+
+Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified as seeker.
 
 ## -property-value
+
+`true` if the [WindowsUpdate](./windowsupdate.md) object is classified as seeker; otherwise, `false`.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

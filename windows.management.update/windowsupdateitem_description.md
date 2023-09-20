@@ -11,14 +11,15 @@ public string Description { get; }
 
 
 ## -description
-Description metadata that gives more detailed information about an update.
+
+Gets description metadata that gives more detailed information about an update.
 
 ## -property-value
+
+Description metadata that gives more detailed information about an update.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

@@ -11,15 +11,17 @@ public string Action { get; }
 
 
 ## -description
-The current action that the associated [WindowsUpdate](./windowsupdate.md) has completed.
+
+Gets the current action that the associated [WindowsUpdate](./windowsupdate.md) has completed.
 
 ## -property-value
 
+The current action that the associated [WindowsUpdate](./windowsupdate.md) has completed.
+
 ## -remarks
+
 This will most commonly be "Download" or "Install". Other possible actions include "Uninstall", "Commit", and "PostReboot".
 
 ## -see-also
 
 ## -examples
-
-

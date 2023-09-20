@@ -11,7 +11,8 @@ public enum WindowsUpdateAttentionRequiredReason
 
 
 ## -description
-Detailed reasons as to why attention is required for an update before it can proceed.
+
+Defines constants that specify a detailed reason as to why attention is required for an update before it can proceed.
 
 ## -enum-fields
 
@@ -40,7 +41,7 @@ More disk space is needed to complete the update.
 The update was blocked due to Battery Saver being enabled.
 
 ### -field NeedUserInteraction: 8
-The update requires user interaction to proceed.
+The update requires user interaction in order to proceed.
 
 ### -field NeedUserAgreementForPolicy: 9
 A policy is configured that requires user agreement before the update can proceed.
@@ -49,10 +50,10 @@ A policy is configured that requires user agreement before the update can procee
 The update encountered a compatibility error.
 
 ### -field NeedUserInteractionForEula: 11
-User interaction is needed to approve the EULA associated with the update.
+User interaction is needed to approve the End-User License Agreement (EULA) associated with the update.
 
 ### -field NeedUserInteractionForCta: 12
-User interaction is needed to approve the CTA (China Type Approval) block for the update.
+User interaction is needed to approve the China Type Approval (CTA) block for the update.
 
 ### -field Regulated: 13
 The update was blocked due to regulation.
@@ -61,7 +62,7 @@ The update was blocked due to regulation.
 An external reboot prevented the update from proceeding.
 
 ### -field OtherUpdate: 15
-The update couldn't proceed due to another update in progress.
+The update couldn't proceed due to another update being in progress.
 
 ### -field BlockedByProvider: 16
 The update was blocked by the update provider.
@@ -119,5 +120,3 @@ The update was deferred to attempt again during a more sustainable (eco-friendly
 ## -see-also
 
 ## -examples
-
-

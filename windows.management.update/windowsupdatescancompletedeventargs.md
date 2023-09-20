@@ -11,12 +11,11 @@ public sealed class WindowsUpdateScanCompletedEventArgs
 
 
 ## -description
-Event data for the corresponding [WindowsUpdateManager](./windowsupdatemanager.md) [ScanCompleted](./windowsupdatemanager_scancompleted.md) event.
+
+Event data for the corresponding [WindowsUpdateManager.ScanCompleted](./windowsupdatemanager_scancompleted.md) event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

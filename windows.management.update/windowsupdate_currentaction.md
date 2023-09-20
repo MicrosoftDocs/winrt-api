@@ -11,15 +11,16 @@ public string CurrentAction { get; }
 
 
 ## -description
-Get the current action that with a given [WindowsUpdate](./windowsupdate.md) is in the process of.
+Gets the current action that the [WindowsUpdate](./windowsupdate.md) object is in the process of.
 
 ## -property-value
 
+The current action that the [WindowsUpdate](./windowsupdate.md) object is in the process of.
+
 ## -remarks
+
 This will most commonly be "Download" or "Install". Other possible actions include "Uninstall", "Commit", and "PostReboot".
 
 ## -see-also
 
 ## -examples
-
-

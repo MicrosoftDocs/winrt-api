@@ -11,14 +11,15 @@ public string UpdateId { get; }
 
 
 ## -description
-The unique ID associated with an update to identify it.
+
+Gets the unique ID associated with an update (in order to identify it).
 
 ## -property-value
+
+The unique ID associated with an update (in order to identify it).
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

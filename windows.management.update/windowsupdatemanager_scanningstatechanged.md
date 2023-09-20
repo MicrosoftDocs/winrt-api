@@ -11,13 +11,13 @@ public event Windows.Foundation.TypedEventHandler<Windows.Management.Update.Wind
 
 
 ## -description
-This event is fired when the scanning state changes.
+
+Raised when the scanning state changes.
 
 ## -remarks
-Unlike the [ScanCompleted](./windowsupdatemanager_scancompleted.md) event, this event will also fire when a scan begins so it can be leveraged to detect the start of scan activity.
+
+Unlike the [ScanCompleted](./windowsupdatemanager_scancompleted.md) event, this event is also raised when a scan begins; so you can leverage it to detect the start of scan activity.
 
 ## -see-also
 
 ## -examples
-
-

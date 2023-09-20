@@ -11,12 +11,11 @@ public sealed class WindowsUpdateManager
 
 
 ## -description
-Interface used for monitoring update activity via callbacks and retrieving update history.
+
+Interface used for monitoring update activity via callbacks, and retrieving update history.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

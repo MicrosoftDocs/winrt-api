@@ -11,14 +11,15 @@ public string Title { get; }
 
 
 ## -description
-Returns the title for a given [WindowsUpdate](./windowsupdate.md).
+
+Gets the title for the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The title for the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

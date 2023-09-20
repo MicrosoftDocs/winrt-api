@@ -11,14 +11,14 @@ public Windows.Management.Update.WindowsUpdateActionProgress ActionProgress { ge
 
 
 ## -description
-Get the underlying [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with a given [WindowsUpdate](./windowsupdate.md).
+Gets the underlying [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -property-value
+
+The underlying [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

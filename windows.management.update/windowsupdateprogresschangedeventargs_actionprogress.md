@@ -11,14 +11,15 @@ public Windows.Management.Update.WindowsUpdateActionProgress ActionProgress { ge
 
 
 ## -description
-The [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with the progress change event.
+
+Gets the [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with the progress change event.
 
 ## -property-value
+
+The [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) associated with the progress change event.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

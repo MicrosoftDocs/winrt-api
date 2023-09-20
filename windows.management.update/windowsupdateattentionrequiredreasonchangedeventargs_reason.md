@@ -11,7 +11,8 @@ public Windows.Management.Update.WindowsUpdateAttentionRequiredReason Reason { g
 
 
 ## -description
-The [WindowsUpdateAttentionRequiredReason](./windowsupdateattentionrequiredreason.md) associated with the attention required reason change event.
+
+Gets the [WindowsUpdateAttentionRequiredReason](./windowsupdateattentionrequiredreason.md) associated with the attention-required-reason change event.
 
 ## -property-value
 
@@ -20,5 +21,3 @@ The [WindowsUpdateAttentionRequiredReason](./windowsupdateattentionrequiredreaso
 ## -see-also
 
 ## -examples
-
-
