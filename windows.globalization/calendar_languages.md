@@ -15,7 +15,7 @@ Gets the priority list of language identifiers that is used when formatting comp
 ## -property-value
 The list of language identifiers.
 
-**Starting in :** Language tags can support Unicode extensions. See the Remarks for the [Calendar(IIterable(String))](calendar_calendar_1181929246.md) constructor.
+Language tags can support Unicode extensions. See the Remarks for the [Calendar(IIterable(String))](calendar_calendar_1181929246.md) constructor.
 
 ## -remarks
 
