@@ -9,15 +9,16 @@
 public string Description { get; }
 -->
 
-
 ## -description
 
+Provides the description of the packaged extension.
+
 ## -property-value
+
+Description of the packaged extension.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

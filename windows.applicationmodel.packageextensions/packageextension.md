@@ -11,7 +11,7 @@ public sealed class PackageExtension
 
 ## -description
 
-Provides information about a package extension.
+Provides information about a packaged extension.
 
 ## -remarks
 

@@ -9,15 +9,16 @@
 public Windows.ApplicationModel.Package Package { get; }
 -->
 
-
 ## -description
 
+Gets the package extension package that is uninstalling.
+
 ## -property-value
+
+The package extension package that is uninstalling.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

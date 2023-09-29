@@ -11,11 +11,11 @@ public Windows.ApplicationModel.Package Package { get; }
 
 ## -description
 
-Gets the package information for the package extension.
+Gets the package information for the packaged extension.
 
 ## -property-value
 
-The package information which includes the package description, logo, display name, etc.
+The package information, which includes the package description, logo, display name, etc.
 
 ## -remarks
 

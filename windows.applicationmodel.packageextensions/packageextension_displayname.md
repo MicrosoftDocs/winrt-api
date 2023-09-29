@@ -9,15 +9,16 @@
 public string DisplayName { get; }
 -->
 
-
 ## -description
 
+Provides the display name of the packaged extension.
+
 ## -property-value
+
+Display name of the packaged extension.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

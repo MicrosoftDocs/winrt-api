@@ -9,13 +9,12 @@
 public sealed class PackageExtensionCatalog
 -->
 
-
 ## -description
+
+Provides information about available extensions within a package-scope extension group.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-

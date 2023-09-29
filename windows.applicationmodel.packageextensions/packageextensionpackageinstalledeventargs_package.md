@@ -9,15 +9,16 @@
 public Windows.ApplicationModel.Package Package { get; }
 -->
 
-
 ## -description
 
+Gets the package containing the extension that was installed.
+
 ## -property-value
+
+The extension package that was installed.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
