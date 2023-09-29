@@ -9,7 +9,6 @@
 public Windows.ApplicationModel.Package Package { get; }
 -->
 
-
 ## -description
 
 Gets the package information for the package extension.
@@ -23,5 +22,3 @@ The package information which includes the package description, logo, display na
 ## -see-also
 
 ## -examples
-
-

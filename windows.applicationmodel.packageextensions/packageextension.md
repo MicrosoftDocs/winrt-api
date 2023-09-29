@@ -9,13 +9,12 @@
 public sealed class PackageExtension
 -->
 
-
 ## -description
+
+Provides information about a package extension.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
-
-
