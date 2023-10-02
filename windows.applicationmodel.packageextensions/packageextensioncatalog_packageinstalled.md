@@ -17,7 +17,7 @@ Event that is fired when an extension package is installed.
 
 The event argument, [PackageExtensionPackageInstalledEventArgs.Extensions](packageextensionpackageinstalledeventargs_extensions.md), contains a list of extensions within the extension package.
 
-Extensions are scoped by the `<uap16:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the `<uap16:PackageExtension Name=...>` defined in the host's Package.appxmanifest file, are in the list of extensions.
+Extensions are scoped by the `<uap17:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the `<uap17:PackageExtension Name=...>` defined in the host's Package.appxmanifest file, are in the list of extensions.
 
 An event handler for this event is a good place to examine each package extension for correctness and to provide the user the option to use it.
 

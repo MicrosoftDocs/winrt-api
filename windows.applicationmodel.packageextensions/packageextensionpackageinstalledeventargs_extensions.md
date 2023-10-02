@@ -17,7 +17,7 @@ Provides a list of extensions in the extension package that was just installed.
 
 The list of extensions within the extension package.
 
-Extensions are scoped by the `<uap16:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the `<uap16:PackageExtension Name=...>` defined in the host's Package.appxmanifest file are returned.
+Extensions are scoped by the `<uap17:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the `<uap17:PackageExtension Name=...>` defined in the host's Package.appxmanifest file are returned.
 
 ## -remarks
 

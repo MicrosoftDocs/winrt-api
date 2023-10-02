@@ -19,7 +19,7 @@ The list of extensions in the catalog. Note that this method returns a list of [
 
 ## -remarks
 
-Package extensions are scoped by the `<uap16:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. This method returns the list of extensions installed on the machine that match the `<uap16:PackageExtension Name=...>` defined in the host's Package.appxmanifest file.
+Package extensions are scoped by the `<uap17:PackageExtension Name=...>` defined in the extension's Package.appxmanifest file. This method returns the list of extensions installed on the machine that match the `<uap17:PackageExtension Name=...>` defined in the host's Package.appxmanifest file.
 
 You typically call this method when your app launches or resumes from suspension. Then use the events on this class to listen for updates to the extensions in the catalog.
 
