@@ -16,7 +16,7 @@ Represents a remote desktop connection on the remote desktop.
 
 ## -remarks
 
-Get an instance of this class by calling [Current](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.Current) or [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.GetForLaunchUri(Windows.Foundation.Uri,Windows.UI.WindowId)).
+Get an instance of this class by calling [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo.GetForLaunchUri(Windows.Foundation.Uri,Windows.UI.WindowId)).
 
 ## -see-also
 
