@@ -16,6 +16,8 @@ Closes the **RemoteDesktopConnectionRemoteInfo** and cleans up associated resour
 
 ## -remarks
 
+For C++, use Close(). For C# and Visual Basic, use Dispose().
+
 ## -see-also
 
 ## -examples
