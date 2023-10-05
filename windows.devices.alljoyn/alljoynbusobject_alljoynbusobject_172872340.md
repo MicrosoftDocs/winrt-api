@@ -11,6 +11,10 @@ public AllJoynBusObject(System.String objectPath, Windows.Devices.AllJoyn.AllJoy
 # Windows.Devices.AllJoyn.AllJoynBusObject.AllJoynBusObject
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Devices.AllJoyn** namespace are deprecated, and might not be available in future versions of Windows. [AllJoyn](https://www.alljoyn.org/)&mdash;sponsored by AllSeen Alliance&mdash;was an open-source discovery and communication protocol for Internet of Things (IoT) scenarios such as turning lights on and off, and reading temperatures. For alternatives, such as [Iotivity Lite](https://github.com/iotivity/iotivity-lite) and [Iotivity](https://github.com/iotivity/iotivity), refer to the [Iotivity.org](https://iotivity.org/) website.
+
 Create an [AllJoynBusObject](alljoynbusobject.md) that will implement one or more interfaces at the specified object path with the [AllJoynBusAttachment](alljoynbusattachment.md) specified.
 
 ## -parameters

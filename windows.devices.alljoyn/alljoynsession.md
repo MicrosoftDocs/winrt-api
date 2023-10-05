@@ -11,6 +11,10 @@ public class AllJoynSession : Windows.Devices.AllJoyn.IAllJoynSession
 # Windows.Devices.AllJoyn.AllJoynSession
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Devices.AllJoyn** namespace are deprecated, and might not be available in future versions of Windows. [AllJoyn](https://www.alljoyn.org/)&mdash;sponsored by AllSeen Alliance&mdash;was an open-source discovery and communication protocol for Internet of Things (IoT) scenarios such as turning lights on and off, and reading temperatures. For alternatives, such as [Iotivity Lite](https://github.com/iotivity/iotivity-lite) and [Iotivity](https://github.com/iotivity/iotivity), refer to the [Iotivity.org](https://iotivity.org/) website.
+
 Represents an AllJoyn session created with a provider to consume the services available from that provider.
 
 ## -remarks
