@@ -22,7 +22,7 @@ Provides simple effects for common LampArray scenarios.
 
         [LampArray sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/LampArray)
         
-        Demonstrates how to control RGB lighting of peripheral devices using the Windows.Devices.Lights and Windows.Devices.Lights.Effects APIs.
+        Demonstrates how to control RGB lighting of peripheral devices using the [**Windows.Devices.Lights**](/uwp/api/windows.devices.lights) and [**Windows.Devices.Lights.Effects**](/uwp/api/windows.devices.lights.effects) APIs.
 
     :::column-end:::
     :::column:::
