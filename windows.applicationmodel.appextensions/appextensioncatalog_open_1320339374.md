@@ -20,7 +20,14 @@ The extension namespace name.
 A catalog containing the extensions declared with the specified extension namespace name.
 
 ## -remarks
-Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. Only extensions that match the  `<uap3:AppExtension Name=...>` defined in the host's Package.appxmanifest file appear in the catalog.  
+
+For a packaged app to see/enumerate appextensions it must meet at least one of the following criteria:
+
+- Run as MediumIL (or higher)
+- Run in an AppContainer and declare a matching appextensionhost
+- Run in an AppContainer and have the packageQuery capability
+
+This check is called by [AppExtensionCatalog.Open](/uwp/api/windows.applicationmodel.appextensions.appextensioncatalog.open) and [AppExtensionCatalog::RequestRemovePackageAsync](/uwp/api/windows.applicationmodel.appextensions.
 
 If you have multiple `<uap3:AppExtensionHost>` declarations in your host app, you need to open a separate catalog for each one.
 
