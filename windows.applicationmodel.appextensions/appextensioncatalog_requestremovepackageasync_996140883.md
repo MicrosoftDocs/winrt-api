@@ -27,7 +27,13 @@ This function will return **false** if you try to use a **Package** name that is
 
 ## -remarks
 
-The user is prompted to allow or deny the package removal. You can only remove packages that contain extensions found in the **AppExtensionCatalog** instance you make the call from.
+The user is prompted to allow or deny the package removal. You can only remove packages that contain extensions found in the **AppExtensionCatalog** instance you make the call from. See [AppExtensionCatalog.Open](appextensioncatalog_open_1320339374.md) for more details.
+
+Extensions are scoped by the `<uap3:AppExtension Name=...>` defined in the extension's Package.appxmanifest file. For a packaged app to see and enumerate app extensions, it must meet at least one of the following criteria:
+
+- Run as MediumIL (or higher)
+- Run in an AppContainer and declare a matching `<uap3:AppExtensionHost>`
+- Run in an AppContainer and have the **packageQuery** capability
 
 The unit of deployment for [AppExtensions](appextension.md) is the [Package](/uwp/api/windows.applicationmodel.package). You cannot remove **AppExtensions**; you can only remove **Packages**. **Packages** may contain multiple **AppExtensions**.
 
