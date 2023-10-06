@@ -6,10 +6,13 @@
 # Windows.ApplicationModel.AppExtensions
 
 ## -description
-Enable your UWP app to host content provided by other UWP apps. Discover, enumerate, and access read-only content from those apps.
+
+Enable your app to use content provided by other apps. Discover, enumerate, and access read-only content from those apps.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
+[Windows.ApplicationModel.PackageExtensions](../windows.applicationmodel.packageextensions/windows_applicationmodel_packageextensions.md)
