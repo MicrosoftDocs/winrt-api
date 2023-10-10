@@ -17,10 +17,11 @@ Closes and asynchronously releases any resources used by this [WindowsXamlManage
 
 The Close method operates asynchronously.
 Before exiting the thread on which the WindowsXamlManager was initialized,
-ensure that all asynchronous work has completed
-by calling
+ensure that all asynchronous work has completed.
+One way to do this is to call
 [DispatcherQueueController.ShutdownQueueAsync](../windows.system/dispatcherqueuecontroller_shutdownqueueasync_542547627.md)
-and awaiting its completion.
+and await its completion.
+In a desktop app, another way to do this is to run the top-level message pump until `PeekMessage` returns `FALSE`.
 
 ## -see-also
 
