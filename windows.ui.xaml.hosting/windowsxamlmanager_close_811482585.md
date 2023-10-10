@@ -21,7 +21,7 @@ ensure that all asynchronous work has completed.
 One way to do this is to call
 [DispatcherQueueController.ShutdownQueueAsync](../windows.system/dispatcherqueuecontroller_shutdownqueueasync_542547627.md)
 and await its completion.
-In a desktop app, another way to do this is to run the top-level message pump until `PeekMessage` returns `FALSE`.
+Another way is to run the top-level message pump until `PeekMessage` returns `FALSE`.
 
 ## -see-also
 
