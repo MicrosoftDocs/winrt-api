@@ -11,10 +11,17 @@ public void WindowsXamlManager.Close()
 # Windows.UI.Xaml.Hosting.WindowsXamlManager.Close
 
 ## -description
-Closes and releases any resources used by this [WindowsXamlManager](windowsxamlmanager.md).
-
+Closes and asynchronously releases any resources used by this [WindowsXamlManager](windowsxamlmanager.md).
 
 ## -remarks
+
+The Close method operates asynchronously.
+Before exiting the thread on which the WindowsXamlManager was initialized,
+ensure that all asynchronous work has completed.
+One way to do this is to call
+[DispatcherQueueController.ShutdownQueueAsync](../windows.system/dispatcherqueuecontroller_shutdownqueueasync_542547627.md)
+and await its completion.
+Another way is to run the top-level message pump until `PeekMessage` returns `FALSE`.
 
 ## -see-also
 
