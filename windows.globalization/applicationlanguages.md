@@ -34,6 +34,11 @@ The [ApplicationLanguages.Languages](applicationlanguages_languages.md) property
 
 If a language is in the main app package but is not a match for any language in the user's preference, it is returned by the [ManifestLanguages](applicationlanguages_manifestlanguages.md) property but not the [Languages](applicationlanguages_languages.md) property. These can also be used for setting the [PrimaryLanguageOverride](applicationlanguages_primarylanguageoverride.md) property. However, since these languages are not reflected in the user's preferences, the user might not understand those languages. Such settings should be used only when chosen directly by the user.
 
+### Version history
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | GetLanguagesForUser |
+
 ## -examples
 
 ## -see-also
