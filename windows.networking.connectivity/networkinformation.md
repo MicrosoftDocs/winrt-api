@@ -22,4 +22,4 @@ For examples of how NetworkInformation class methods are implemented, see [Quick
 
 ## -see-also
 
-[RSS reader end-to-end (JavaScript) sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/FeedReader)
+[NetworkInformation sample app](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
