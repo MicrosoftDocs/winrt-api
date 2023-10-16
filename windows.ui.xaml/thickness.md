@@ -93,8 +93,8 @@ This table shows the equivalent methods available in .NET and C++.
 
 | .NET ([Thickness](/dotnet/api/windows.ui.xaml.thickness?view=dotnet-uwp-10.0&preserve-view=true)) | C++ ([ThicknessHelper](thicknesshelper.md)) |
 | ---- | --- |
-| [Thickness(Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_) | [FromUniformLength(Double)](thicknesshelper_fromuniformlength_155036416.md) |
-| [Thickness(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.gridlength.-ctor?view=dotnet-uwp-10.0&preserve-view=true#Windows_UI_Xaml_GridLength__ctor_System_Double_Windows_UI_Xaml_GridUnitType_) | [FromLengths(Double, Double, Double, Double)](thicknesshelper_fromlengths_582957363.md) |
+| [Thickness(Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor?view=dotnet-uwp-10.0&preserve-view=true#windows-ui-xaml-thickness-ctor(system-double)) | [FromUniformLength(Double)](thicknesshelper_fromuniformlength_155036416.md) |
+| [Thickness(Double, Double, Double, Double)](/dotnet/api/windows.ui.xaml.thickness.-ctor?view=dotnet-uwp-10.0&preserve-view=true#windows-ui-xaml-thickness-ctor(system-double-system-double-system-double-system-double)) | [FromLengths(Double, Double, Double, Double)](thicknesshelper_fromlengths_582957363.md) |
 
 ## -examples
 
