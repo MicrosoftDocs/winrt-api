@@ -12,6 +12,13 @@ public sealed class WiFiOnDemandHotspotNetwork
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 Represents a device that supports *on-demand hotspot*. The app registers that device with the operating system (OS), where the app can remotely enable the mobile hotspot. By updating properties on this object, the app can signal to the OS to update the user interface (UI). The object is keyed on a caller-chosen globally-unique identifier (GUID) that is intended to identify the device (the [Id](wifiondemandhotspotnetwork_id.md) property).
 
 > [!NOTE]

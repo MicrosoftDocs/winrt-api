@@ -12,6 +12,13 @@ public void UpdateProperties (Windows.Devices.WiFi.WiFiOnDemandHotspotNetworkPro
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 Sets on a [WiFiOnDemandHotspotNetwork](wifiondemandhotspotnetwork.md) object various properties of the hotspot network, such as battery percentage, display name, availability, and SSID/password. If any property is invalid, **UpdateProperties** throws an invalid argument exception.
 
 > [!NOTE]

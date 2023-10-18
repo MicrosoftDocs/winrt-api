@@ -12,6 +12,13 @@ public System.Nullable<Windows.Devices.WiFi.WiFiOnDemandHotspotCellularBars> Cel
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 Gets or sets an optional (nullable) value indicating the number of cellular bars (out of five) of the hotspot network.
 
 > [!NOTE]
