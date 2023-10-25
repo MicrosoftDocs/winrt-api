@@ -15,7 +15,7 @@ Raised when [ShutdownQueueAsync](./dispatcherqueuecontroller_shutdownqueueasync_
 
 ## -remarks
 
-**ShutdownCompleted** is raised *after* the event loop has exited. You can use the handler for this event to clean up any state maintained by partner components that were maintained on the dedicated thread.
+The **ShutdownCompleted** event is raised from the event loop thread *after* the event loop has exited. You can use the handler for this event to clean up any state maintained by partner components that were maintained on the dedicated thread.
 
 ## -see-also
 
