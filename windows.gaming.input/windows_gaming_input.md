@@ -11,7 +11,7 @@ Provides access to game controller input for Windows applications.
 
 ## -remarks
 
-A Windows application must have focus to receive input from an Xbox One Controller.
+A Windows application must have focus to receive input from a controller.
 
 > [!Important]
 > Legacy Win32 console applications should use the [XInput Game Controller APIs](/windows/win32/xinput/xinput-game-controller-apis-portal) instead.

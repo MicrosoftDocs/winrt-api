@@ -12,7 +12,7 @@ public string DeviceId { get; }
 ## -description
 Gets a unique ID for the input device that generated this key event.
 
-Use DeviceId to differentiate between devices that can generate key events, such as multiple Xbox controllers.
+Use DeviceId to differentiate between devices that can generate key events, such as multiple game controllers.
 
 > DeviceId is not supported for all input devices.
 
