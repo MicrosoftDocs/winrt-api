@@ -17,7 +17,7 @@ A common scenario for using this class is adding a flashlight feature to your ap
 
 The underlying device that this Lamp API represents is often shared with the device's camera flash and video light. 
 If the Lamp is shared device, the camera use cases have priority over the underlying lamp device. 
-Thus, simultaneous camera usage will result [AvaibilityChanged](lamp_availabilitychanged.md) event to be fired for the corresponding Lamp device, and reporting the device being unavailable.
+Thus, simultaneous camera usage will result [AvailabilityChanged](lamp_availabilitychanged.md) event to be fired for the corresponding Lamp device, and reporting the device being unavailable.
 
 ## -examples
 
