@@ -10,7 +10,7 @@ public bool IsEnabled { get;  set; }
 # Windows.Devices.Lights.Lamp.IsEnabled
 
 ## -description
-Gets a value indicating whether the lamp device is enabled.
+Gets or sets a value indicating whether the lamp device is enabled.
 
 ## -property-value
 True if the lamp is enabled; otherwise, false.
