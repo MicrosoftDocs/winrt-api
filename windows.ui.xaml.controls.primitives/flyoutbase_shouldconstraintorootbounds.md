@@ -22,7 +22,7 @@ Gets or sets a value that indicates whether the flyout should be shown within th
 
 The default value depends on the derived type. For [Flyout](../windows.ui.xaml.controls/flyout.md), the default is `true`. For [MenuFlyout](../windows.ui.xaml.controls/menuflyout.md) and [CommandBarFlyout](../windows.ui.xaml.controls/commandbarflyout.md), the default is `false`.
 
-This property is applicable only to apps running on the desktop. On other platforms (such as Xbox, HoloLens, etc.), it does not have an effect. To check if the flyout is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property.
+This property is applicable only to apps running on the desktop. To check if the flyout is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](flyoutbase_isconstrainedtorootbounds.md) property.
 
 In an app running on the desktop, when this property is **true**, the flyout is shown within the main XAML window handle (HWND). When this property is **false**, the flyout is shown in its own top level HWND. In this case, the flyout might be positioned to extend beyond the main app window.
 

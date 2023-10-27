@@ -12,7 +12,7 @@ public Windows.UI.Xaml.FocusVisualKind FocusVisualKind { get;  set; }
 ## -description
 Gets or sets the type of visual feedback that an app can use to indicate the UI element with focus.
 
-> This property is valid only for input devices that can generate key events, such as a keyboard or Xbox controller.
+> This property is valid only for input devices that can generate key events, such as a keyboard or game pad.
 
 
 
