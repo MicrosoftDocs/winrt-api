@@ -51,11 +51,11 @@ If the start index is greater than the size of the collection,
 the view will throw an exception.
 
 > [**C++/WinRT**](/windows/uwp/cpp-and-winrt-apis/)
-> If the start index is greater than the size of the collection,
+> If the start index is greater than or equal to the size of the collection,
 > the view will throw a `hresult_out_of_bounds` exception.
 
 > [**C++/CX**](/cpp/cppcx/)
-> If the start index is greater than the size of the collection,
+> If the start index is greater than or equal to the size of the collection,
 > the view will throw a `OutOfBoundsException` exception.
 
 If the underlying collection has changed,
