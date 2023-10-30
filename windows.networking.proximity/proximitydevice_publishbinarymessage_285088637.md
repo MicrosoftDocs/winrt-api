@@ -123,13 +123,13 @@ This protocol will launch a properly configured application to handle these even
 ```
 
 > [!NOTE]
-> The URI format used in the app manifest is slightly different from the URI format used on the NFC tag, in that the manifest URI uses a '**+**' character rather than a '**:**' character. The URI on the NFC tag that activates the app with the manifest sample above is contoso.com:testapp.
+> The URI format used in the app manifest is slightly different from the URI format used on the NFC tag, in that the manifest URI uses a '**+**' character rather than a '**:**' character. The URI on the NFC tag that activates the app with the manifest sample above is `contoso.com:testapp`.
 
 #### "NDEF:MIME" protocol
 The message data is a properly-formatted NDEF mime message (TNF field value of 0x02). For example, "NDEF:MIME.image/jpeg". This protocol only applies to subscriptions, when publishing NDEF content, use **NDEF**.
 
 #### "NDEF:URI" protocol
-The message data is a properly-formatted NDEF message of a type defined by a URI namespace (TNF field value of 0x03).This protocol only applies to subscriptions, when publishing NDEF content, use **NDEF**. This means that the data format is identified by the specified URI. An example of this protocol is "NDEF:URI.http://contoso.com/sometype".
+The message data is a properly-formatted NDEF message of a type defined by a URI namespace (TNF field value of 0x03).This protocol only applies to subscriptions, when publishing NDEF content, use **NDEF**. This means that the data format is identified by the specified URI. An example of this protocol is "`NDEF:URI.http://contoso.com/sometype`".
 
 #### "NDEF:wkt" protocol
 The message data is a properly-formatted NDEF message of a type defined by the NFC forum (TNF field value of 0x01).An example of this type is "NDEF:wkt.U" for the well known type of URI. This protocol only applies to subscriptions, when publishing NDEF content, use **NDEF**.
