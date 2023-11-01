@@ -51,9 +51,9 @@ The following characters are used as separators and can't be used in the *name* 
 + tab ('\t")
 
 
-The *domain * parameter specifies those hosts to which the [HttpCookie](httpcookie.md) will be sent. A cookie with a *domain * parameter of *.contoso.com* will be sent to the *contoso.com* domain and all subdomains (*www.contoso.com* and *info.contoso.com*, for example).
+The *domain * parameter specifies those hosts to which the [HttpCookie](httpcookie.md) will be sent. A cookie with a *domain * parameter of *.contoso.com* will be sent to the *contoso.com* domain and all subdomains (`www.contoso.com` and *info.contoso.com*, for example).
 
-A cookie with a *domain * parameter of *info.contoso.com* will not be sent to *contoso.com* or *www.contoso.com*, but will be sent to *info.contoso.com* and all subdomains (*uk.info.contoso.com* and *us.info.contoso.com*, for example).
+A cookie with a *domain * parameter of *info.contoso.com* will not be sent to *contoso.com* or `www.contoso.com`, but will be sent to *info.contoso.com* and all subdomains (*uk.info.contoso.com* and *us.info.contoso.com*, for example).
 
 If the *domain* parameter is not specified, then the [HttpCookie](httpcookie.md) will be sent only to the host and subdomains of the host that this cookie was received from.
 
