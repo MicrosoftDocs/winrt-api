@@ -32,7 +32,7 @@ The remote desktop redirection of Windows devices and features for Cloud PC swit
 | USB ports | HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\CloudPCSetting\AllowUSBPortsRedirection |
 | COM ports | HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\CloudPCSetting\AllowCOMPortsRedirection |
 
-The values of each key is a REG_DWORD and is interpreted using the following semantics:
+The value for each key is a REG_DWORD and is interpreted using the following semantics:
 
 - Off value: 0
 - On value: 1
