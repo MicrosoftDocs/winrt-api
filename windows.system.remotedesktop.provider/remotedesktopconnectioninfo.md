@@ -18,7 +18,7 @@ Represents a remote desktop connection on the local desktop.
 
 Get an instance of this class by calling [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionInfo.GetForLaunchUri(Windows.Foundation.Uri,Windows.UI.WindowId)).
 
-The remote desktop redirection of Windows devices and features for Cloud PC switch scenarios can be set by end users in the **Privacy and Security** tab Settings app. The following table lists the registry keys that are set by the settings app to control remote desktop redirection. 
+For the remote desktop connections to CloudPCs that are launched from Task view, users can configure which redirections they allow in the Settings app under the **Privacy and security > CloudPC** tab. Applications using this API may want to read the following registry keys to honor the Cloud PC configuration set by the user in the Settings application: 
 
 |Feature | Registry Key |
 |--------|--------------|
