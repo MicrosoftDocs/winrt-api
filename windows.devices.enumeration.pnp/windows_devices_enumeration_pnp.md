@@ -17,7 +17,7 @@ Provides classes for enumerating a collection of Pnp device objects, and event h
 The following are typical uses of the Windows.Devices.Enumeration.Pnp API.
 
 + Building a user interface for selecting the device to be used by an application. For example, a voice chat application may present a list of microphones or webcams for the user to select from, or a photo import application may present a list of removable storage devices for the user to import photos from.
-+ Device discovery and notifications about devices for apps that use them (see [Windows Hardware Dev Center](/windows/hardware/)).
++ Device discovery and notifications about devices for apps that use them (see [Windows Hardware Dev Center](https://developer.microsoft.com/windows/hardware/)).
 
 ## -remarks
 

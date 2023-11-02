@@ -12,7 +12,7 @@ public void Submit ();
 
 ## -description
 
-Indicates that the PDL stream is finished. Call [Close](./pdlpassthroughtarget_close_811482585) before calling **Submit**, otherwise the print job will fail.
+Indicates that the PDL stream is finished. Call [Close](./pdlpassthroughtarget_close_811482585.md) before calling **Submit**, otherwise the print job will fail.
 
 ## -remarks
 
