@@ -49,6 +49,8 @@ To use this event, you must declare the "com.microsoft.windows.lighting" AppExte
     :::column-end:::
 :::row-end:::
 
+### AvailabilityChanged event example
+
 The following example shows how to set up a handler for an <xref:Windows.Devices.Lights.Lamp.AvailabilityChanged> event. Note how the code first checks whether the <xref:Windows.Devices.Lights.LampArray.IsAvailable> property is available before declaring the handler.
 
 ```csharp
