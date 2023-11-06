@@ -183,7 +183,7 @@ namespace Sample
 ```
 
 ```cppwinrt
-#include "windows.h"
+#include <windows.h>
 
 #include <algorithm>
 #include <memory>
@@ -198,6 +198,7 @@ namespace Sample
 #include <winrt/windows.devices.lights.effects.h>
 #include <winrt/windows.devices.enumeration.h>
 #include <winrt/windows.foundation.h>
+#include <winrt/windows.foundation.metadata.h>
 #include <winrt/windows.ui.h>
 
 namespace winrt
@@ -206,6 +207,7 @@ namespace winrt
     using namespace winrt::Windows::Devices::Lights;
     using namespace winrt::Windows::Devices::Lights::Effects;
     using namespace winrt::Windows::Foundation;
+    using namespace winrt::Windows::Foundation::Metadata;
     using namespace winrt::Windows::UI;
 }
 
@@ -213,7 +215,7 @@ wil::srwlock lampArraysLock;
 std::shared_ptr<std::map<winrt::hstring, winrt::LampArray>> lampArrays;
 
 wil::srwlock playlistsLock;
-winrt::LampArrayEffectPlaylist playlist;
+std::shared_ptr<std::map<winrt::hstring, winrt::LampArrayEffectPlaylist>> playlists;
  
 void DoEffectSetup(winrt::LampArray device)
 {
@@ -246,55 +248,57 @@ void DoEffectSetup(winrt::LampArray device)
 int __cdecl main()
 {
     lampArrays = std::make_shared<std::map<winrt::hstring, winrt::LampArray>>();
-playlists = std::make_shared<std::map<winrt::hstring, winrt::LampArrayEffectPlaylist>>();
+    playlists = std::make_shared<std::map<winrt::hstring, winrt::LampArrayEffectPlaylist>>();
  
     auto deviceWatcher = winrt::DeviceInformation::CreateWatcher(winrt::LampArray::GetDeviceSelector());
  
     auto deviceAddedRevoker = deviceWatcher.Added(winrt::auto_revoke, [](winrt::DeviceWatcher, winrt::DeviceInformation info)
     {
         auto deviceId = info.Id();
-        auto lampArray = winrt::LampArray::FromIdAsync(deviceId.c_str()).get();
- 
-        wprintf(L"LampArray %s added\n", deviceId.c_str());
- 
+        auto lampArray = winrt::LampArray::FromIdAsync(deviceId).get();
+
+        if (lampArray)
         {
-            auto lock = lampArraysLock.lock_exclusive();
-            lampArrays->emplace(std::make_pair(deviceId, lampArray));
-        }
- 
-        auto lampArray2 = lampArray.try_as<winrt::ILampArray2>();
-        if (lampArray2)
-        {
-            if (lampArray2.IsAvailable())
+            wprintf(L"LampArray %s added\n", deviceId.c_str());
+     
+            {
+                auto lock = lampArraysLock.lock_exclusive();
+                lampArrays->emplace(std::make_pair(deviceId, lampArray));
+            }
+     
+            if (winrt::ApiInformation::IsPropertyPresent(L"Windows.Devices.Lights.LampArray", L"IsAvailable"))
+            {
+                if (lampArray.IsAvailable())
+                {
+                    DoEffectSetup(lampArray);
+                }
+     
+                lampArray.AvailabilityChanged([](winrt::LampArray device, winrt::IInspectable)
+                {
+                    if (device.IsAvailable())
+                    {
+                        wprintf(L"Device available: %s\n", device.DeviceId().c_str());
+                        DoEffectSetup(device);
+                    }
+                    else
+                    {
+                        wprintf(L"Device unavailable: %s\n", device.DeviceId().c_str());
+                        
+                        auto lock = playlistsLock.lock_exclusive();
+
+                        auto entry = playlists->find(device.DeviceId());
+                        if (entry != playlists->end())
+                        {
+                            entry->second.Stop();
+                            playlists->erase(entry);
+                        }
+                    }
+                });
+            }
+            else
             {
                 DoEffectSetup(lampArray);
             }
- 
-            lampArray2.AvailabilityChanged([](winrt::LampArray device, winrt::IInspectable)
-            {
-                if (device.IsAvailable())
-                {
-                    wprintf(L"Device available: %s\n", device.DeviceId().c_str());
-                    DoEffectSetup(device);
-                }
-                else
-                {
-                    wprintf(L"Device unavailable: %s\n", device.DeviceId().c_str());
-                    
-                    auto lock = playlistsLock.lock_exclusive();
-
-                    auto entry = playlists->find(id);
-                    if (entry != playlists->end())
-                    {
-                        entry->second.Stop();
-                        playlists->erase(entry);
-                    }
-                }
-            });
-        }
-        else
-        {
-            DoEffectSetup(lampArray);
         }
     });
  
