@@ -9,15 +9,19 @@
 public bool AllowWrite { get; set; }
 -->
 
-
 ## -description
-Determines whether applications running inside the Isolated Windows Environment can write data to this file/folder being shared.
+
+**Deprecated.** Determines whether applications running inside the Isolated Windows Environment can write data to this file/folder being shared.
+
 ## -property-value
+
 Boolean
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

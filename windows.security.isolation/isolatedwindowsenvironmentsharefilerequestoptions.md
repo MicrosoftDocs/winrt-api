@@ -9,14 +9,15 @@
 public sealed class IsolatedWindowsEnvironmentShareFileRequestOptions
 -->
 
-
 ## -description
-Options for how to perform the share file operation.
+
+**Deprecated.** Options for how to perform the share file operation.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

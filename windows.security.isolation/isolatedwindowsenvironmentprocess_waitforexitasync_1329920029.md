@@ -10,12 +10,18 @@ public IAsyncAction IsolatedWindowsEnvironmentProcess.WaitForExitAsync()
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess.WaitForExitAsync
 
 ## -description
-Allows caller to wait for process completion asynchronously.
+
+**Deprecated.** Allows caller to wait for process completion asynchronously.
+
 ## -returns
+
 HRESULT
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

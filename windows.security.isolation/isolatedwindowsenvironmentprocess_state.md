@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentProcessState State { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess.State
 
 ## -description
-Returns current state of process execution.
+
+**Deprecated.** Returns current state of process execution.
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

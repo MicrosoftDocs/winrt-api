@@ -9,19 +9,25 @@
 public static void RegisterHostMessageReceiver (Guid receiverId, Windows.Security.Isolation.HostMessageReceivedCallback hostMessageReceivedCallback);
 -->
 
-
 ## -description
-Register host message receiver callback.
+
+**Deprecated.** Register host message receiver callback.
+
 ## -parameters
 
 ### -param receiverId
+
 GUID for message receiver.
+
 ### -param hostMessageReceivedCallback
+
 Callback function [hostmessageReceivedCallback](hostmessagereceivedcallback.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

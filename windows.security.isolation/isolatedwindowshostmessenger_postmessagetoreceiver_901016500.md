@@ -10,16 +10,24 @@ public void IsolatedWindowsHostMessenger.PostMessageToReceiver(Guid receiverId, 
 # Windows.Security.Isolation.IsolatedWindowsHostMessenger.PostMessageToReceiver
 
 ## -description
-Post a message from the Isolated Windows Environment to the receiver that is registered on the host side.
+
+**Deprecated.** Post a message from the Isolated Windows Environment to the receiver that is registered on the host side.
+
 ## -parameters
+
 ### -param receiverId
+
 GUID for message receiver.
 
 ### -param message
+
 IVectorView
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

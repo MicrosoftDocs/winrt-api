@@ -10,19 +10,32 @@ public IAsyncOperation<IsolatedWindowsEnvironmentShareFolderResult> IsolatedWind
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.ShareFolderAsync
 
 ## -description
-Share host folder with Isolated Windows Environment with telemetry correlation.
+
+**Deprecated.** Share host folder with Isolated Windows Environment with telemetry correlation.
+
 ## -parameters
+
 ### -param hostFolder
+
 String of of host folder name.
+
 ### -param requestOptions
+
 [isolatedwindowsenvironmentsharefolderrequestoptions](isolatedwindowsenvironmentsharefolderrequestoptions.md)
+
 ### -param telemetryParameters
+
 Telemetry parameters defined by [isolatedwindowsenvironmenttelemetryparameters](isolatedwindowsenvironmenttelemetryparameters.md)
+
 ## -returns
+
 [IsolatedWindowsEnvironmentShareFolderResult](isolatedwindowsenvironmentsharefolderresult.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironment Environment { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentCreateResult.Environment
 
 ## -description
-Queries for result of Isolated Windows Environment creation.
+
+**Deprecated.** Queries for result of Isolated Windows Environment creation.
+
 ## -property-value
+
 String for Isolated Windows Environment ID.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

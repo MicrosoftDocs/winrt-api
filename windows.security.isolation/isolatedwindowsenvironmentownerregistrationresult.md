@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentOwnerRegistrationResult
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationResult
 
 ## -description
-Runtime class that returns the results for [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
+**Deprecated.** Runtime class that returns the results for [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

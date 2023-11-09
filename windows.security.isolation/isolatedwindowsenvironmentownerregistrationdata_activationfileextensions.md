@@ -10,12 +10,18 @@ public IVector<string> ActivationFileExtensions { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationData.ActivationFileExtensions
 
 ## -description
-Extensions of files that can be activated in the Isolated Windows Environment.
+
+**Deprecated.** Extensions of files that can be activated in the Isolated Windows Environment.
+
 ## -property-value
+
 IVector
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

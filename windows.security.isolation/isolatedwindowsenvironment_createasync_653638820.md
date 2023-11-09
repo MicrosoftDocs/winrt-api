@@ -10,17 +10,27 @@ public IAsyncOperationWithProgress<IsolatedWindowsEnvironmentCreateProgress> Iso
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.CreateAsync
 
 ## -description
-Create an Isolated Windows Environment asynchronously.
+
+**Deprecated.** Create an Isolated Windows Environment asynchronously.
 
 ## -parameters
+
 ### -param options
+
 Isolated Windows Environment configuration options defined by [isolatedwindowsenvironmentoptions](isolatedwindowsenvironmentoptions.md)
+
 ## -returns
+
 [IsolatedWindowsEnvironmentCreateResult](isolatedwindowsenvironmentcreateresult.md)
 [IsolatedWindowsEnvironmentCreateProgress](isolatedwindowsenvironmentcreateprogress.md)
+
 ## -remarks
 
-## -see-also
-[CreateAsync](isolatedwindowsenvironment_createasync_807531092.md)
-## -examples
+> [!WARNING]
+> This is a deprecated API.
 
+## -see-also
+
+[CreateAsync](isolatedwindowsenvironment_createasync_807531092.md)
+
+## -examples

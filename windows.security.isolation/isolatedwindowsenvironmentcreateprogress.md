@@ -13,16 +13,24 @@ public struct IsolatedWindowsEnvironmentCreateProgress  {
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentCreateProgress
 
 ## -description
-Queries for progress of the creation of an Isolated Windows Environment
+
+**Deprecated.** Queries for progress of the creation of an Isolated Windows Environment
+
 ## -struct-fields
 
 ### -field PercentComplete
+
 UINT32 for percent completion for Isolated Windows Environment creation
+
 ### -field State
+
 [IsolatedWindowsEnvironmentProgressState](isolatedwindowsenvironmentprogressstate.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

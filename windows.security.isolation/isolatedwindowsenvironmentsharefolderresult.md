@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentShareFolderResult
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentShareFolderResult
 
 ## -description
-Object containing information about the result of the share folder request.
+
+**Deprecated.** Object containing information about the result of the share folder request.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

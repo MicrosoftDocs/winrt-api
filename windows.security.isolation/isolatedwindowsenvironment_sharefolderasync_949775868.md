@@ -10,20 +10,28 @@ public IAsyncOperation<IsolatedWindowsEnvironmentShareFolderResult> IsolatedWind
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.ShareFolderAsync
 
 ## -description
-Share host folder with Isolated Windows Environment.
+
+**Deprecated.** Share host folder with Isolated Windows Environment.
+
 ## -parameters
+
 ### -param hostFolder
+
 Name of host folder.
 
 ### -param requestOptions
+
 [isolatedwindowsenvironmentsharefolderrequestoptions](isolatedwindowsenvironmentsharefolderrequestoptions.md)
 
 ## -returns
+
 [IsolatedWindowsEnvironmentShareFolderResult](isolatedwindowsenvironmentsharefolderresult.md)
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

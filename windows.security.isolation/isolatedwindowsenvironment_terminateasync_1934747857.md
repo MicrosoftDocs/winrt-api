@@ -10,16 +10,22 @@ public IAsyncAction IsolatedWindowsEnvironment.TerminateAsync(IsolatedWindowsEnv
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.TerminateAsync
 
 ## -description
-Terminate Isolated Windows Environment asynchronously with telemetry correlation.
+
+**Deprecated.** Terminate Isolated Windows Environment asynchronously with telemetry correlation.
+
 ## -parameters
+
 ### -param telemetryParameters
+
 Telemetry parameters defined by [isolatedwindowsenvironmenttelemetryparameters](isolatedwindowsenvironmenttelemetryparameters.md)
 
 ## -returns
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

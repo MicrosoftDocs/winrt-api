@@ -10,18 +10,24 @@ public IVectorView<IsolatedWindowsEnvironment> IsolatedWindowsEnvironment.FindBy
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.FindByOwnerId
 
 ## -description
-Returns a list of Isolated Windows Environments registered to specific owner.
+
+**Deprecated.** Returns a list of Isolated Windows Environments registered to specific owner.
 
 ## -parameters
+
 ### -param environmentOwnerId
+
 Unique identifier for owner of Isolated Windows Environment.
 
 ## -returns
+
 [IsolatedWindowsEnvironment](isolatedwindowsenvironment.md)
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

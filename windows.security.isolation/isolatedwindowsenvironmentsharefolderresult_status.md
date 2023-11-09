@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentShareFolderStatus Status { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentShareFolderResult.Status
 
 ## -description
-Status of the share folder operation: success or failure.
+
+**Deprecated.** Status of the share folder operation: success or failure.
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

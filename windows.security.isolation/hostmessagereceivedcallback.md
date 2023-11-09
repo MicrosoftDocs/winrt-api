@@ -9,19 +9,25 @@
 public delegate void HostMessageReceivedCallback(Guid receiverId, IReadOnlyList<object> message);
 -->
 
-
 ## -description
-Callback function that will be invoked when a message is sent to the Isolated Windows Environment
+
+**Deprecated.** Callback function that will be invoked when a message is sent to the Isolated Windows Environment
+
 ## -parameters
 
 ### -param receiverId
+
 GUID for message receiver.
+
 ### -param message
+
 IIterable
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

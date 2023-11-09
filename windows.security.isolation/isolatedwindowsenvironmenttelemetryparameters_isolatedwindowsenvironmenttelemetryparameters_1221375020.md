@@ -10,10 +10,14 @@ public IsolatedWindowsEnvironmentTelemetryParameters.IsolatedWindowsEnvironmentT
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentTelemetryParameters.IsolatedWindowsEnvironmentTelemetryParameters
 
 ## -description
-Parameters used in Microsoft Telemetry to improve the quality of the APIs.
+
+**Deprecated.** Parameters used in Microsoft Telemetry to improve the quality of the APIs.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

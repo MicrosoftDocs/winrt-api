@@ -11,7 +11,7 @@ public void ChangeCreationPriority (Windows.Security.Isolation.IsolatedWindowsEn
 
 ## -description
 
-Change the priority of isolated environment creation.
+**Deprecated.** Change the priority of isolated environment creation.
 
 ## -parameters
 
@@ -20,6 +20,9 @@ Change the priority of isolated environment creation.
 The new priority of the isolated environment creation.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 

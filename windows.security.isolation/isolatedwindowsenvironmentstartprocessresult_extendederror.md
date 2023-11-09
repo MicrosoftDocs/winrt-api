@@ -10,12 +10,18 @@ public HResult ExtendedError { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentStartProcessResult.ExtendedError
 
 ## -description
-Queries for exented errors if the start process for Isolated Windows Environment fails.
+
+**Deprecated.** Queries for extended errors if the start process for Isolated Windows Environment fails.
+
 ## -property-value
+
 HRESULT
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

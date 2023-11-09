@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperationWithProgress<bool,Windows.Security.Isol
 
 ## -description
 
-An asynchronous function which allows callers to wait for the environment sign-in process to complete before continuing. This function provides progress updates as it waits for sign-in; [TryWaitForSignInAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninasync_2135355077.md) does not.
+**Deprecated.** An asynchronous function which allows callers to wait for the environment sign-in process to complete before continuing. This function provides progress updates as it waits for sign-in; [TryWaitForSignInAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninasync_2135355077.md) does not.
 
 ## -returns
 
@@ -19,13 +19,16 @@ An asynchronous operation which returns a boolean value indicating whether sign-
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 [TryWaitForSignInAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninasync_2135355077.md), [IsolatedWindowsEnvironmentSignInProgress](isolatedwindowsenvironmentsigninprogress.md)
 
 ## -examples
 
-The following example gets an isolated environment by its Id and attempts to sign in using `TryWaitForSignInWithProgressAsync()` while checking the progress of the sign in operation.
+The following example gets an isolated environment by its Id and attempts to sign in using `TryWaitForSignInWithProgressAsync` while checking the progress of the sign in operation.
 
 ``` cpp
 void GetEnvironmentSignInInfo()

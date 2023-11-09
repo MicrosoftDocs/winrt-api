@@ -10,10 +10,14 @@ public void IsolatedWindowsEnvironmentFile.Close()
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentFile.Close
 
 ## -description
-Call to close a file in the Isolated Windows Environment.
+
+**Deprecated.** Call to close a file in the Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

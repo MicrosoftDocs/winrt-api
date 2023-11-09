@@ -10,10 +10,14 @@ public IsolatedWindowsEnvironmentOptions.IsolatedWindowsEnvironmentOptions()
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.IsolatedWindowsEnvironmentOptions
 
 ## -description
-Returns of various [IsolatedWindowsEnvironmentOptions](isolatedwindowsenvironmentoptions.md)for the Isolated Windows Environment.
+
+**Deprecated.** Returns of various [IsolatedWindowsEnvironmentOptions](isolatedwindowsenvironmentoptions.md)for the Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

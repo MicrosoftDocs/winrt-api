@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentStartProcessResult
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentStartProcessResult
 
 ## -description
-Runtime class that queries the result of the start process in the Isolated Windows Environment.
+
+**Deprecated.** Runtime class that queries the result of the start process in the Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

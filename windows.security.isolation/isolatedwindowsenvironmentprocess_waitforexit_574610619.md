@@ -10,10 +10,14 @@ public void IsolatedWindowsEnvironmentProcess.WaitForExit()
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess.WaitForExit
 
 ## -description
-Allows caller to wait for process completion.
+
+**Deprecated.** Allows caller to wait for process completion.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

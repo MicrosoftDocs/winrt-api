@@ -9,14 +9,15 @@
 public sealed class IsolatedWindowsEnvironmentShareFileResult
 -->
 
-
 ## -description
-Runtime class containing result properties for a file shared into an Isolated Windows Environment.
+
+**Deprecated.** Runtime class containing result properties for a file shared into an Isolated Windows Environment.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentProcess Process { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentStartProcessResult.Process
 
 ## -description
-Represents lifetime of the process in execution in the Isolated Windows Environment. 
+
+**Deprecated.** Represents lifetime of the process in execution in the Isolated Windows Environment.
+
 ## -property-value
+
 String
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

@@ -11,13 +11,16 @@ public Windows.Security.Isolation.IsolatedWindowsEnvironmentAllowedClipboardForm
 
 ## -description
 
-Configures the allowed clipboard formats allowed to be copied to the environment.
+**Deprecated.** Configures the allowed clipboard formats allowed to be copied to the environment.
 
 ## -property-value
 
 The allowed clipboard formats.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 

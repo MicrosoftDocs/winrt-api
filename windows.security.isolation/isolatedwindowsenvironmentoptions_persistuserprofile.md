@@ -10,12 +10,18 @@ public bool PersistUserProfile { get;  set; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.PersistUserProfile
 
 ## -description
-Allows user profile to persist in the Isolated Windows Environment from session to session.
+
+**Deprecated.** Allows user profile to persist in the Isolated Windows Environment from session to session.
+
 ## -property-value
+
 Boolean
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

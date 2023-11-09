@@ -10,12 +10,18 @@ public HResult ExtendedError { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentCreateResult.ExtendedError
 
 ## -description
-Queries for extended errors in case of Isolated Windows Environment creation failure.
+
+**Deprecated.** Queries for extended errors in case of Isolated Windows Environment creation failure.
+
 ## -property-value
+
 HRESULT
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

@@ -11,7 +11,7 @@ public enum IsolatedWindowsEnvironmentSignInProgress
 
 ## -description
 
-Specifies the progress of a sign-in operation.
+**Deprecated.** Specifies the progress of a sign-in operation.
 
 ## -enum-fields
 
@@ -40,6 +40,9 @@ Configuring user session settings in the Isolated Windows Environment.
 Sign-in to the Isolated Windows Environment is complete.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 The progress state values are expected to arrive in order (`Connecting` -> `Connected` -> `Authenticating` -> `SettingUpAccount` -> `Finalizing` -> `Completed`), but may skip states if [TryWaitForSignInWithProgressAsync](isolatedwindowsenvironmentuserinfo_trywaitforsigninwithprogressasync_50246521.md) is called while sign-in is already underway.
 

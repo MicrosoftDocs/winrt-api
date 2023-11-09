@@ -11,7 +11,7 @@ public enum IsolatedWindowsEnvironmentProgressState : int
 
 ## -description
 
-Returned during Isolated Windows Environment creation, it represents the state of the creation process.
+**Deprecated.** Returned during Isolated Windows Environment creation, it represents the state of the creation process.
 
 ## -enum-fields
 
@@ -44,6 +44,9 @@ Isolated Windows Environment is starting.
 Isolated Windows Environment settings are being configured.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 

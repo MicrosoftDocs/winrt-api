@@ -9,13 +9,15 @@
 public sealed class IsolatedWindowsEnvironmentPostMessageResult
 -->
 
-
 ## -description
-Runtime class that queries for results of post message from host to Isolated Windows Environment such as status and extended errors.
+
+**Deprecated.** Runtime class that queries for results of post message from host to Isolated Windows Environment such as status and extended errors.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

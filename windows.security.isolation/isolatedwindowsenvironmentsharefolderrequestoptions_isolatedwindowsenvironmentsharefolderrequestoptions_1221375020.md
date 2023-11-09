@@ -10,10 +10,14 @@ public IsolatedWindowsEnvironmentShareFolderRequestOptions.IsolatedWindowsEnviro
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentShareFolderRequestOptions.IsolatedWindowsEnvironmentShareFolderRequestOptions
 
 ## -description
-Results of [IsolatedWindowsEnvironmentShareFolderRequestOptions](isolatedwindowsenvironmentsharefolderrequestoptions.md).
+
+**Deprecated.** Results of [IsolatedWindowsEnvironmentShareFolderRequestOptions](isolatedwindowsenvironmentsharefolderrequestoptions.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

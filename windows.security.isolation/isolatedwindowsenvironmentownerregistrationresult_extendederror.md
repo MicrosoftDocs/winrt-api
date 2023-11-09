@@ -10,12 +10,18 @@ public HResult ExtendedError { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationResult.ExtendedError
 
 ## -description
-Returns the extended error for [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
+**Deprecated.** Returns the extended error for [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
 ## -property-value
+
 HRESULT
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

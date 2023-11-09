@@ -10,24 +10,36 @@ public IAsyncOperation<IsolatedWindowsEnvironmentStartProcessResult> IsolatedWin
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.StartProcessSilentlyAsync
 
 ## -description
-Allow processes to execute inside an Isolated Windows Environment with telemetry correlation.
+
+**Deprecated.** Allow processes to execute inside an Isolated Windows Environment with telemetry correlation.
+
 ## -parameters
+
 ### -param hostExePath
+
 String of host execution path.
+
 ### -param arguments
+
 String
+
 ### -param activator
+
 [IsolatedWindowsEnvironmentActivator](isolatedwindowsenvironmentactivator.md)
 
 ### -param telemetryParameters
+
 Telemetry parameters defined by [isolatedwindowsenvironmenttelemetryparameters](isolatedwindowsenvironmenttelemetryparameters.md)
 
 ## -returns
+
 [IsolatedWindowsEnvironmentStartProcessResult](isolatedwindowsenvironmentstartprocessresult.md)
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

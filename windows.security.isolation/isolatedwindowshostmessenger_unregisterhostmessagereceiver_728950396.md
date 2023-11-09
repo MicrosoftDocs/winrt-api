@@ -9,17 +9,21 @@
 public static void UnregisterHostMessageReceiver (Guid receiverId);
 -->
 
-
 ## -description
-Unregister host message receiver callback.
+
+**Deprecated.** Unregister host message receiver callback.
+
 ## -parameters
 
 ### -param receiverId
+
 GUID for message receiver.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

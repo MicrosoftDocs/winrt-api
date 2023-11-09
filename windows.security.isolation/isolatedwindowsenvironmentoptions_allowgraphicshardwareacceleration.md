@@ -10,12 +10,18 @@ public bool AllowGraphicsHardwareAcceleration { get;  set; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.AllowGraphicsHardwareAcceleration
 
 ## -description
-Boolean of whether Isolated Windows Environment renders graphics using hardware or software acceleration.
+
+**Deprecated.** Boolean of whether Isolated Windows Environment renders graphics using hardware or software acceleration.
+
 ## -property-value
+
 Boolean
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

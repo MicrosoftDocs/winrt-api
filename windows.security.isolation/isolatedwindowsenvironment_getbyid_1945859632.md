@@ -10,17 +10,24 @@ public IsolatedWindowsEnvironment IsolatedWindowsEnvironment.GetById(String envi
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.GetById
 
 ## -description
-Returns reference to the Isolated Windows Environment based on the [ID](isolatedwindowsenvironment_id.md).
+
+**Deprecated.** Returns reference to the Isolated Windows Environment based on the [Id](isolatedwindowsenvironment_id.md).
 
 ## -parameters
+
 ### -param environmentId
+
 ID assigned to an Isolated Windows Environment.
 
 ## -returns
+
 [IsolatedWindowsEnvironment](isolatedwindowsenvironment.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

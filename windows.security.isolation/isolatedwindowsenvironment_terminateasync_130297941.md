@@ -10,12 +10,16 @@ public IAsyncAction IsolatedWindowsEnvironment.TerminateAsync()
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.TerminateAsync
 
 ## -description
-Terminate Isolated Windows Environment asynchronously.
+
+**Deprecated.** Terminate Isolated Windows Environment asynchronously.
+
 ## -returns
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

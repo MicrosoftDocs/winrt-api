@@ -10,12 +10,18 @@ public bool AllowCameraAndMicrophoneAccess { get;  set; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.AllowCameraAndMicrophoneAccess
 
 ## -description
-Boolean of whether applications running inside Isolated Windows Environment can access the device’s camera and microphone.
+
+**Deprecated.** Boolean of whether applications running inside Isolated Windows Environment can access the device’s camera and microphone.
+
 ## -property-value
+
 Boolean
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

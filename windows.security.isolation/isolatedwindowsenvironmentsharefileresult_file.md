@@ -9,15 +9,19 @@
 public Windows.Security.Isolation.IsolatedWindowsEnvironmentFile File { get; }
 -->
 
-
 ## -description
-Instantiates the [IsolatedWindowsEnvironmentFile](isolatedwindowsenvironmentfile.md) runtime class.
+
+**Deprecated.** Instantiates the [IsolatedWindowsEnvironmentFile](isolatedwindowsenvironmentfile.md) runtime class.
+
 ## -property-value
+
 String
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentClipboardCopyPasteDirections ClipboardCopyPaste
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.ClipboardCopyPasteDirections
 
 ## -description
-Enum of clipboard direction options for Isolated Windows Environment.
+
+**Deprecated.** Enum of clipboard direction options for Isolated Windows Environment.
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

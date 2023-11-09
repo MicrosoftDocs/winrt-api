@@ -10,13 +10,20 @@ public void IsolatedWindowsEnvironmentProcess.WaitForExitWithTimeout(UInt32 time
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess.WaitForExitWithTimeout
 
 ## -description
-Allows caller to specify a timeout for process completion.
+
+**Deprecated.** Allows caller to specify a timeout for process completion.
+
 ## -parameters
+
 ### -param timeoutMilliseconds
+
 Amount of time allowed before timeout.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

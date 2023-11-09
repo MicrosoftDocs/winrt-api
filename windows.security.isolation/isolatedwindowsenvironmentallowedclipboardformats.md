@@ -11,7 +11,7 @@ public enum IsolatedWindowsEnvironmentAllowedClipboardFormats : uint
 
 ## -description
 
-Determines what kind of content is allowed to be copied and pasted to/from an Isolated Windows Environment.
+**Deprecated.** Determines what kind of content is allowed to be copied and pasted to/from an Isolated Windows Environment.
 
 ## -enum-fields
 
@@ -32,6 +32,9 @@ Allow image content.
 Allow rich text format (RTF) content.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
