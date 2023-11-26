@@ -75,7 +75,7 @@ if (SecondaryTile.Exists(tileId)) {
 }
 ```
 
-The following example demonstrates how to use the [FindAllForPackageAsync](secondarytile_findallforpackageasync_2029224098.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
+The following example demonstrates how to use the [FindAllAsync](secondarytile_findallasync_326280522.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
 
 ```csharp
 // Get all secondary tiles
