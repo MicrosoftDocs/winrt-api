@@ -13,7 +13,7 @@ public uint KeyCode { get; }
 Gets the key code of the character received by the input queue.
 
 ## -property-value
-The character in UTF-16 encoding. Each supplementary character consist of a [surrogate pair](/windows/win32/intl/surrogates-and-supplementary-characters) sent as two separate events.
+The character in UTF-16 encoding. Each supplementary character consists of a [surrogate pair](/windows/win32/intl/surrogates-and-supplementary-characters) sent as two separate events.
 
 ## -remarks
 > **Windows 10**
