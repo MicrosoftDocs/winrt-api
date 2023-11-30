@@ -27,7 +27,9 @@ The most common way to specify the icon for an app bar button is to use one of t
 > [!NOTE]
 > You can set the **Foreground** property on the [AppBarButton](appbarbutton.md) or on the SymbolIcon. If you set the [Foreground](control_foreground.md) on the [AppBarButton](appbarbutton.md), it's applied only to the default visual state. It's not applied to the other visual states defined in the [AppBarButton](appbarbutton.md) template, like `MouseOver`. If you set the [Foreground](iconelement_foreground.md) on the SymbolIcon, the color is applied to all visual states.
 
-> **Windows 8/8.1**
+### Notes for previous versions
+
+> **Windows 8.x**
 > On Windows 8, the standard glyphs are provided by the Segoe UI Symbol font.
 
 ## -examples

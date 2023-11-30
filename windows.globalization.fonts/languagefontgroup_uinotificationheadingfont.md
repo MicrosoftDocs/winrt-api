@@ -25,4 +25,4 @@ A UINotificationHeadingFont recommendation is available for every supported lang
 ## -examples
 
 ## -see-also
-[Typography in Windows Apps](/windows/apps/design/style/typography), [Understanding the Windows 8 silhouette](/previous-versions/windows/apps/hh872191(v=win.10))
+[Typography in Windows Apps](/windows/apps/design/style/typography)

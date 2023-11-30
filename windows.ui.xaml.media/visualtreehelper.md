@@ -37,17 +37,19 @@ However, there are cases where it is not possible or practical to give an object
 
 Traversing the tree downwards (away from the root) multiple levels can be done using [GetChildrenCount](visualtreehelper_getchildrencount_1601318699.md) for nonzero values and then [GetChild](visualtreehelper_getchild_2017450836.md) to request a specific index. You might have to use **try/catch** techniques or the equivalent if you are trying to cast elements as specific [UIElement](../windows.ui.xaml/uielement.md) subtypes. Generally the VisualTreeHelper  API return elements as a [DependencyObject](../windows.ui.xaml/dependencyobject.md) and you will need to cast it in order to do anything useful (even for as simple an operation as checking its **Name** value).
 
-### Windows 8 behavior
+### Notes for previous versions
+
+> **Windows 8**
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462593-->
-### UI threading
+#### UI threading
 
 Windows 8 permitted VisualTreeHelper function calls that were referencing objects on the wrong (not the current) UI thread. Starting with Windows 8.1, the function throws an exception if it's not being called from the current UI thread. Accounting for this new behavior should be a very uncommon app migration scenario; it's difficult to get UI elements across threads in the first place.
 
 Apps that were compiled for Windows 8 but running on Windows 8.1 use the Windows 8.1 behavior, and will throw specifically on the VisualTreeHelper function call rather than on any downstream app code that uses a cross-thread object.
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 461907-->
-### App UI for On-Screen Keyboard
+#### App UI for On-Screen Keyboard
 
 Windows 8 had an internally implemented logic that would associate a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) with the overall app UI whenever the user invokes the On-Screen Keyboard. This On-Screen Keyboard is a specific accessibility feature that users request through the Ease of Access Center. It's not the same as the soft keyboard that can appear in app UI for text input controls, if the system detects no keyboard device. What the internal [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) does here is to make it possible to scroll the area where the app is, if scrolling it is forced because the keyboard is taking UI space.
 

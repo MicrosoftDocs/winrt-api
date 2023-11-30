@@ -28,13 +28,6 @@ The [FrameworkElement.DataContext](frameworkelement_datacontext.md) property has
 
 DataContextChanged is useful for scenarios where control logic or other code-based logic wants notification that the data context for bindings has changed, which often means that data bound values will change. This can be useful as a trigger to run code that makes context-driven changes, and then the new context can be used by existing bindings to recalculate values. It's also useful for cases where you don't want a pre-existing declared binding in data templates, but need a notification for changes. In this scenario you can handle DataContextChanged to detect changes to the data context and make direct changes to other properties in your code in response, just like a XAML-declared binding does dynamically through the data binding engine. For example, you might have a custom control that's mainly for use inside data templates, and you want the control to be able to perform binding operations without any explicit **Binding** declarations either in the app UI XAML or in the data template.
 
-
-<!--Open question - can the event get through intermediates that are not FE? And presume routing here is in visual tree so things like collections are not in the chain.-->
-
-<!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 454659-->
-
-<!--Win8 section removed, it should never have been here. This is a new for Win8.1 event. There is no compat issue to report.-->
-
 ## -examples
 
 ## -see-also

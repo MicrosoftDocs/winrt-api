@@ -33,16 +33,16 @@ Use a ProgressRing to visually indicate that an operation is in progress. Set th
 
 ### Control style and template
 
-You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the `generic.xaml` file. For design purposes, `generic.xaml` is available locally with the SDK or NuGet package installation. The default locations are:
+You can modify the default [Style](../windows.ui.xaml/style.md) and [ControlTemplate](controltemplate.md) to give the control a unique appearance. For information about modifying a control's style and template, see [Styling controls](/windows/uwp/controls-and-patterns/styling-controls). The default style, template, and resources that define the look of the control are included in the `generic.xaml` file. For design purposes, `generic.xaml` is available locally with the SDK or NuGet package installation.
 
 - **WinUI Styles (recommended):** Use [Microsoft.UI.Xaml.Controls.ProgressRing](/windows/winui/api/microsoft.ui.xaml.controls.progressring).
-- **Non-WinUI styles:** When you use the built-in styles, `%ProgramFiles(x86)%\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\<SDK version>\Generic\generic.xaml`.
+- **Non-WinUI styles:** For built-in styles, see `%ProgramFiles(x86)%\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\UAP\<SDK version>\Generic\generic.xaml`.
 
-Styles and resources from different versions of the SDK might have different values.
+Locations might be different if you customized the installation. Styles and resources from different versions of the SDK might have different values.
 
 XAML also includes resources that you can use to modify the colors of a control in different visual states without modifying the control template. Modifying these resources is preferred to setting properties such as [Background](control_background.md) and [Foreground](control_foreground.md). For more info, see the [Light-weight styling](/windows/apps/design/style/xaml-styles#lightweight-styling) section of the [XAML styles](/windows/apps/design/style/xaml-styles) article. Light-weight styling resources are available starting in Windows 10, version 1607 (SDK 14393).
 
-### Notes for Windows 8.x
+### Notes for previous versions
 
 > **Windows 8.x**
 > In an app compiled for Windows 8, when the ProgressRing is active, the progress animation continues even if its not visible on the screen, such as when its [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the ProgressRing is not visible, you should disable the animation by setting [IsActive](progressring_isactive.md) to **false**.

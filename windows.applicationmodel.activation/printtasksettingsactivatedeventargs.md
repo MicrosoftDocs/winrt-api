@@ -12,8 +12,6 @@ public class PrintTaskSettingsActivatedEventArgs : Windows.ApplicationModel.Acti
 ## -description
 Provides information in response to the event that is raised when print task settings are activated.
 
- Overview of Printing in Windows 8
-
 > **JavaScript**
 > This type appears as [WebUIPrintTaskSettingsActivatedEventArgs](../windows.ui.webui/webuiprinttasksettingsactivatedeventargs.md).
 
