@@ -75,11 +75,11 @@ if (SecondaryTile.Exists(tileId)) {
 }
 ```
 
-The following example demonstrates how to use the [FindAllAsync](secondarytile_findallasync_326280522.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
+The following example demonstrates how to use the [FindAllForPackageAsync](secondarytile_findallforpackageasync_2029224098.md) method to retrieve a list of IDs for all secondary tiles created for the calling app and any other app in the same package.
 
 ```csharp
 // Get all secondary tiles
-var tiles = await SecondaryTile.FindAllAsync();
+var tiles = await SecondaryTile.FindAllForPackageAsync();
 ```
 
 The following example demonstrates how to use the [TileUpdateManager.createTileUpdaterForSecondaryTile](../windows.ui.notifications/tileupdatemanager_createtileupdaterforsecondarytile_445640521.md) method to send a notification to a secondary tile with an ID of "SecondaryTile.Dynamic". Note that the example provides both a wide and square version of the notification because the user has control over which form of the tile is showing.
