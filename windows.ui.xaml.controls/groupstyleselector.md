@@ -19,4 +19,3 @@ Enables custom group style selection logic as a function of the parent group and
 ## -examples
 
 ## -see-also
-[How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10))

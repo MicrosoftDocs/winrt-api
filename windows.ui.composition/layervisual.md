@@ -28,7 +28,8 @@ A LayerVisual is a special input type that can be used to select a tree of visua
 | 1709 | 16299 | Shadow |
 
 ## -examples
-Apply Effects to a LayerVisual
+
+This example shows how to apply a [GaussianBlurEffect](https://microsoft.github.io/Win2D/WinUI3/html/T_Microsoft_Graphics_Canvas_Effects_GaussianBlurEffect.htm) to a LayerVisual.
 
 ```csharp
 
@@ -76,7 +77,13 @@ private async void InitComposition()
 }        
          
 ```
-Add a [DropShadow](dropshadow.md)
+
+The result looks like this.
+
+:::image type="content" source="images/layer-visual-blur.png" alt-text="A red square overlapping a blue square with a blur effect applied.":::
+
+This example shows how to apply a [DropShadow](dropshadow.md) to a LayerVisual.
+
 ```csharp
 
 private async void InitComposition()
@@ -117,6 +124,9 @@ private async void InitComposition()
          
 ```
 
+The result looks like this.
+
+:::image type="content" source="images/layer-visual-shadow.png" alt-text="A red square overlapping a blue square with a shadow applied to each square.":::
 
 ## -see-also
 [ContainerVisual](containervisual.md), [IClosable](../windows.foundation/iclosable.md)

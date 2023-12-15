@@ -26,4 +26,4 @@ The page type of the navigation entry, as a type reference ([System.Type](/dotne
 
 ## -see-also
 
-[XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation), [Frame.Navigate](/uwp/api/windows.ui.xaml.controls.frame.navigate), [Frame.SourcePageType](/uwp/api/windows.ui.xaml.controls.frame.sourcepagetype)
+[Frame.Navigate](/uwp/api/windows.ui.xaml.controls.frame.navigate), [Frame.SourcePageType](/uwp/api/windows.ui.xaml.controls.frame.sourcepagetype)

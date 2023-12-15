@@ -10,13 +10,13 @@ public bool Navigate(Windows.UI.Xaml.Interop.TypeName sourcePageType)
 # Windows.UI.Xaml.Controls.Frame.Navigate
 
 ## -description
-Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md).
+Causes the [Frame](frame.md) to load content represented by the specified [Page](page.md)-derived data type.
 
 
 
 ## -parameters
 ### -param sourcePageType
-The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The page to navigate to, specified as a type reference to its partial class type. Must be a [Page](page.md)-derived data type; otherwise, an exception is thrown. (A type reference is given as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ## -returns
 **false** if a [NavigationFailed](frame_navigationfailed.md) event handler has set [Handled](../windows.ui.xaml.navigation/navigationfailedeventargs_handled.md) to **true**; otherwise, **true**. See Remarks for more info.
@@ -34,4 +34,4 @@ The parameter value can have a complex type if you do not use [GetNavigationStat
 ## -examples
 
 ## -see-also
-[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)
+[Page](page.md), [Navigate(Type, Object)](frame_navigate_1603787821.md), [NavigationFailed](frame_navigationfailed.md), [Navigation](/windows/uwp/layout/navigation-basics)
