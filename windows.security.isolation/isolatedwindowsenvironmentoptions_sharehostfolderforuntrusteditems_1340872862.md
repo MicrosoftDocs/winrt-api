@@ -10,15 +10,24 @@ public void IsolatedWindowsEnvironmentOptions.ShareHostFolderForUntrustedItems(S
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.ShareHostFolderForUntrustedItems
 
 ## -description
-Sets both [SharedFolderNameInEnvironment](isolatedwindowsenvironmentoptions_sharedfoldernameinenvironment.md) and [SharedHostFolderPath](isolatedwindowsenvironmentoptions_sharedhostfolderpath.md) to configure folder to be shared for sharing of untrusted items with the Isolated Windows Environment.
+
+**Deprecated.** Sets both [SharedFolderNameInEnvironment](isolatedwindowsenvironmentoptions_sharedfoldernameinenvironment.md) and [SharedHostFolderPath](isolatedwindowsenvironmentoptions_sharedhostfolderpath.md) to configure folder to be shared for sharing of untrusted items with the Isolated Windows Environment.
+
 ## -parameters
+
 ### -param SharedHostFolderPath
+
 Path of shared host folder.
+
 ### -param ShareFolderNameInEnvironment
+
 Name of folder in Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

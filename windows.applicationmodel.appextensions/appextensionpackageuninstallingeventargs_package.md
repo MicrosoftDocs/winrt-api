@@ -10,10 +10,10 @@ public Windows.ApplicationModel.Package Package { get; }
 # Windows.ApplicationModel.AppExtensions.AppExtensionPackageUninstallingEventArgs.Package
 
 ## -description
-Gets the app extension package that is uninstalilng.
+Gets the app extension package that is uninstalling.
 
 ## -property-value
-The app extension package that was uninstalled.
+The app extension package that is uninstalling.
 
 ## -remarks
 

@@ -10,6 +10,10 @@ public void RequestNewOutgoingCall(System.String context, System.String contactN
 # Windows.Phone.Networking.Voip.VoipCallCoordinator.RequestNewOutgoingCall
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Phone.Networking.Voip** namespace are deprecated, and may not be available in future versions of Windows. Instead, use the equivalent types in the [Windows.ApplicationModel.Calls](/uwp/api/windows.applicationmodel.calls) namespace.
+
 Notifies the system of a new outgoing call.
 
 ## -parameters
@@ -33,7 +37,6 @@ The object representing the new outgoing call.
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 ID_CAP_VOIP [Windows Phone]

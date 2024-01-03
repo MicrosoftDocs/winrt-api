@@ -10,13 +10,13 @@ public Windows.UI.Xaml.ApplicationRequiresPointerMode RequiresPointerMode { get;
 # Windows.UI.Xaml.Application.RequiresPointerMode
 
 ## -description
-Gets or sets whether a UWP app supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an Xbox gamepad or remote control. (All nested elements inherit this behavior.)
+Gets or sets whether a UWP app supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an game pad or remote control. (All nested elements inherit this behavior.)
 
 ## -property-value
 The pointer emulation mode. The default is [Auto](applicationrequirespointermode.md) (the default system experience for the input device).
 
 ## -remarks
-For non-pointer input devices, focus is moved between controls through a variety of methods, such as the Tab and arrow keys on a keyboard, the directional pad (D-pad) on a remote, or thumb sticks on an Xbox controller. For some user experiences, such as maps and drawing surfaces, it is not possible or practical to use XY focus navigation. RequiresPointerMode enables an app to provide a more pointer-like interaction experience through a cursor that can be moved freely using the Xbox input devices.
+For non-pointer input devices, focus is moved between controls through a variety of methods, such as the Tab and arrow keys on a keyboard, the directional pad (D-pad) on a remote, or thumb sticks on a controller. For some user experiences, such as maps and drawing surfaces, it is not possible or practical to use XY focus navigation. RequiresPointerMode enables an app to provide a more pointer-like interaction experience through a cursor that can be moved freely using the game input devices.
 
 RequiresPointerMode is supported only on the Xbox device family, and only when using a game pad or remote control. The property is ignored otherwise.
 

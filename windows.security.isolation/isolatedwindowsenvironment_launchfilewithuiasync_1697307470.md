@@ -10,12 +10,17 @@ public IAsyncOperation<IsolatedWindowsEnvironmentLaunchFileResult> IsolatedWindo
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.LaunchFileWithUIAsync
 
 ## -description
-Allows applications to open files in an Isolated Windows Environment.
+
+**Deprecated.** Allows applications to open files in an Isolated Windows Environment.
+
 ## -parameters
+
 ### -param appExePath
+
 String of application execution path.
 
 ### -param argumentsTemplate
+
 String to specify the relative position of filepath with respect to other arguments to be passed:
 "%1 /foo" will execute the file launch as "appname.exe fileapth /foo" in the container
 %1 is replace by filepath
@@ -23,14 +28,18 @@ String to specify the relative position of filepath with respect to other argume
 "/foo %1 /bar" => "appname.exe /foo filepath /bar"
 
 ### -param filePath
+
 String for path of file to be opened in Isolated Windows Environment.
 
 ## -returns
+
 [IsolatedWindowsEnvironmentLaunchFileResult](isolatedwindowsenvironmentlaunchfileresult.md)
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-

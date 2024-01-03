@@ -20,7 +20,7 @@ A unique identifier for the input device associated with the key event, or an em
 After a key event is processed, this method returns an empty string.
 
 ## -remarks
-Use GetCurrentKeyEventDeviceId to differentiate between devices that can generate key events, such as multiple Xbox controllers. The device id is useful for associating the input device with a specific user account.
+Use GetCurrentKeyEventDeviceId to differentiate between devices that can generate key events, such as multiple game controllers. The device id is useful for associating the input device with a specific user account.
 
 To get a valid device ID, this method must be called from your [KeyUp](corewindow_keyup.md) and [KeyDown](corewindow_keydown.md) event handlers.
 

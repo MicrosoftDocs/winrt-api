@@ -244,7 +244,5 @@ Private Sub OnNavigationFailed(sender As Object, e As NavigationFailedEventArgs)
 End Sub
 ```
 
-For a more detailed sample, see the [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation).
-
 ## -see-also
 [Page](page.md), [ContentControl](contentcontrol.md), [INavigate](inavigate.md)

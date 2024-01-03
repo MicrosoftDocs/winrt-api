@@ -9,17 +9,19 @@
 public string GuestPath { get; }
 -->
 
-
 ## -description
-Gets the full guest path of a file.
+
+**Deprecated.** Gets the full guest path of a file.
 
 ## -property-value
+
 String for guest path.
 
 ## -remarks
 
+> [!WARNING]
+> This is a deprecated API.
+
 ## -see-also
 
 ## -examples
-
-

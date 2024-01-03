@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentOwnerRegistrationData
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationData
 
 ## -description
-Class that returns all the registration data from [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
+**Deprecated.** Class that returns all the registration data from [isolatedwindowsenvironmentownerregistration](isolatedwindowsenvironmentownerregistration.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

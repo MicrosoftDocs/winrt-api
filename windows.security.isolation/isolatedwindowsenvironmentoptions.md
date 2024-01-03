@@ -10,11 +10,14 @@ public class IsolatedWindowsEnvironmentOptions
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions
 
 ## -description
-Runtime class that controls various attributes that are applied to the Isolated Windows Environment during creation.
+
+**Deprecated.** Runtime class that controls various attributes that are applied to the Isolated Windows Environment during creation.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

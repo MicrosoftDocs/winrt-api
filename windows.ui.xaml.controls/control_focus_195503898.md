@@ -28,6 +28,8 @@ You typically pass [FocusState.Programmatic](../windows.ui.xaml/focusstate.md) a
 
 Pass [FocusState.Pointer](../windows.ui.xaml/focusstate.md) if you’re setting focus as the direct result of a pointer interaction. Pass [FocusState.Keyboard](../windows.ui.xaml/focusstate.md) as the parameter if you’re setting focus as a result of a keyboard interaction, like a tab sequence or key press. For example, if you’re implementing an [ItemsControl](itemscontrol.md) and handle key presses to let the user move focus between items in the control, use the [Keyboard](../windows.ui.xaml/focusstate.md) focus state when you call Focus in your key press handler.
 
+### Notes for previous versions
+
 > [!NOTE]
 > In Windows 8, when [FocusState](control_focusstate.md) is [Programmatic](../windows.ui.xaml/focusstate.md), the keyboard focus visual is shown even if the prior method of input was pointer. In Windows 8.1, when you call Focus (*FocusState.Programmatic*), the prior [FocusState](control_focusstate.md), either [Pointer](../windows.ui.xaml/focusstate.md) or [Keyboard](../windows.ui.xaml/focusstate.md), is retained so that the correct focus visual is shown. This means that if you check the value of the [FocusState](control_focusstate.md) property after you call Focus (*FocusState.Programmatic*), the [FocusState](control_focusstate.md) property will have a value of either [Pointer](../windows.ui.xaml/focusstate.md) or [Keyboard](../windows.ui.xaml/focusstate.md).
 

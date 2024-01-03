@@ -10,15 +10,24 @@ public void IsolatedWindowsEnvironment.RegisterMessageReceiver(Guid receiverId, 
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.RegisterMessageReceiver
 
 ## -description
-Register message receiver callback.
+
+**Deprecated.** Register message receiver callback.
+
 ## -parameters
+
 ### -param receiverId
+
 GUID for message receiver.
+
 ### -param messageReceivedCallback
+
 Callback function [messageReceivedCallback](messagereceivedcallback.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

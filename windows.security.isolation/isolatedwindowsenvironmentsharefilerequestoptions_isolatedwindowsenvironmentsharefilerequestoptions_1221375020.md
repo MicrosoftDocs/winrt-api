@@ -9,13 +9,15 @@
 public IsolatedWindowsEnvironmentShareFileRequestOptions ();
 -->
 
-
 ## -description
-Results of [IsolatedWindowsEnvironmentShareFileRequestOptions](isolatedwindowsenvironmentsharefilerequestoptions.md).
+
+**Deprecated.** Results of [IsolatedWindowsEnvironmentShareFileRequestOptions](isolatedwindowsenvironmentsharefilerequestoptions.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

@@ -9,15 +9,19 @@
 public System.Exception ExtendedError { get; }
 -->
 
-
 ## -description
-Returns the extended error for [isolatedwindowsenvironmentpostmessageresult](isolatedwindowsenvironmentpostmessageresult.md).
+
+**Deprecated.** Returns the extended error for [isolatedwindowsenvironmentpostmessageresult](isolatedwindowsenvironmentpostmessageresult.md).
+
 ## -property-value
+
 System.Exception
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

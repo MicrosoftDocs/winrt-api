@@ -10,16 +10,19 @@ public event TypedEventHandler ShutdownStarting<DispatcherQueue, DispatcherQueue
 # Windows.System.DispatcherQueue.ShutdownStarting
 
 ## -description
-Fires before the dispatcher queue initiates an exit from its event loop.
+
+Raised when [ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md) is called. For a full list of the events raised, and in what order, see the Remarks for [ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md).
 
 ## -remarks
-The event is fired on the thread running the **DispatcherQueue** event loop.
 
-This event fires before the **DispatcherQueue** initiates the exit from the event loop. Event handlers for this event can queue work from within the handler. The event handler can take a deferral and continue to post work to the **DispatcherQueue** until the deferral completes. Once the deferral completes, no new work will be accepted by the **DispatcherQueue**.
+The **ShutdownStarting** event is raised from the event loop thread *before* the event loop exits. The handler for this event can take a deferral, and can continue to post work until the deferral completes. Once the deferral completes, the **DispatcherQueue** no longer accepts work, and [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md) returns `false`.
 
 ## -see-also
 
+[ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md), [DispatcherQueue.TryEnqueue](dispatcherqueue_tryenqueue_591440238.md)
+
 ## -examples
+
 ```csharp
 _dispatcherQueue.ShutdownStarting += (s, e) =>
 {

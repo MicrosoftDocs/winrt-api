@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentCreateResult
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentCreateResult
 
 ## -description
-Runtime class that queries for results of environment creation such as status and extended errors.
+
+**Deprecated.** Runtime class that queries for results of environment creation such as status and extended errors.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

@@ -10,12 +10,18 @@ public IVector<string> ProcessesRunnableAsSystem { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationData.ProcessesRunnableAsSystem
 
 ## -description
-Processes run as System.
+
+**Deprecated.** Processes run as System.
+
 ## -property-value
+
 IVector
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

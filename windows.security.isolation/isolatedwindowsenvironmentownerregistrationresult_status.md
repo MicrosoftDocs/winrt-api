@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentOwnerRegistrationStatus Status { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationResult.Status
 
 ## -description
-Calls for the [isolatedwindowsenvironmentownerregistrationstatus](isolatedwindowsenvironmentownerregistrationstatus.md).
+
+**Deprecated.** Calls for the [isolatedwindowsenvironmentownerregistrationstatus](isolatedwindowsenvironmentownerregistrationstatus.md).
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

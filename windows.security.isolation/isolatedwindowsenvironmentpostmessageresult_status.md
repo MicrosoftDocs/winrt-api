@@ -9,15 +9,19 @@
 public Windows.Security.Isolation.IsolatedWindowsEnvironmentPostMessageStatus Status { get; }
 -->
 
-
 ## -description
-Calls for the [isolatedwindowsenvironmentpostmessagestatus](isolatedwindowsenvironmentpostmessagestatus.md).
+
+**Deprecated.** Calls for the [isolatedwindowsenvironmentpostmessagestatus](isolatedwindowsenvironmentpostmessagestatus.md).
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

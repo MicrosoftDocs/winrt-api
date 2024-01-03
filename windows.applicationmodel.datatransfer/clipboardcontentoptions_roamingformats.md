@@ -18,6 +18,10 @@ The list of data formats that can be synced to other devices for the content bei
 
 ## -remarks
 
+If this property is an empty list, then all data formats are eligible for syncing.
+
+This property is ignored if the clipboard data is not synced to other devices.
+
 ## -see-also
 
 ## -examples

@@ -11,6 +11,10 @@ public IAsyncOperation<AllJoynAboutDataView> AllJoynBusAttachment.GetAboutDataAs
 # Windows.Devices.AllJoyn.AllJoynBusAttachment.GetAboutDataAsync
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Devices.AllJoyn** namespace are deprecated, and might not be available in future versions of Windows. [AllJoyn](https://openconnectivity.org/technology/reference-implementation/alljoyn/)&mdash;sponsored by AllSeen Alliance&mdash;was an open-source discovery and communication protocol for Internet of Things (IoT) scenarios such as turning lights on and off, and reading temperatures. For alternatives, such as [IoTivity Lite](https://github.com/iotivity/iotivity-lite) and [IoTivity](https://github.com/iotivity/iotivity), refer to the [iotivity.org](https://iotivity.org/) website.
+
 Gets the About data for a specific AllJoyn endpoint in a specific language. This method is intended to replace the less intuitive static [AllJoynAboutDataView.GetDataBySessionPortAsync()](alljoynaboutdataview_getdatabysessionportasync_561097955.md).
 
 ## -parameters

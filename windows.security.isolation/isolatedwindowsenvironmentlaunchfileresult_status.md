@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentLaunchFileStatus Status { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentLaunchFileResult.Status
 
 ## -description
-Calls the [IsolatedWindowsEnvironmentLaunchFileStatus](isolatedwindowsenvironmentlaunchfilestatus.md).
+
+**Deprecated.** Calls the [IsolatedWindowsEnvironmentLaunchFileStatus](isolatedwindowsenvironmentlaunchfilestatus.md).
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

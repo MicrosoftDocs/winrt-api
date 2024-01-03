@@ -173,7 +173,7 @@ The app was activated because the user is printing to a printer that has a Print
 
 ### -field GameUIProvider:1019
 
-The app was activated because it was launched by the OS due to a game's request for Xbox-specific UI. Introduced in Windows 10, version 1703 (10.0.15063).
+The app was activated because it was launched by the OS due to a request for game-specific UI. Introduced in Windows 10, version 1703 (10.0.15063).
 
 ### -field StartupTask:1020
 

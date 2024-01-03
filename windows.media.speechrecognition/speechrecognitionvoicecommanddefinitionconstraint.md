@@ -10,7 +10,7 @@ public class SpeechRecognitionVoiceCommandDefinitionConstraint : Windows.Media.S
 # Windows.Media.SpeechRecognition.SpeechRecognitionVoiceCommandDefinitionConstraint
 
 ## -description
-A constraint for a [SpeechRecognizer](speechrecognizer.md) object based on a [](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
+A constraint for a [SpeechRecognizer](speechrecognizer.md) object based on a [Voice Command Definition](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
 
 ## -remarks
 Access the [SpeechRecognitionResult.Constraint](speechrecognitionresult_constraint.md) property to obtain an instance of this class.

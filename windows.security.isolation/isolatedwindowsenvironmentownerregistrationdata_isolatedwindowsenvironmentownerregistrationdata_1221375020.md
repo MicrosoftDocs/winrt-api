@@ -10,10 +10,14 @@ public IsolatedWindowsEnvironmentOwnerRegistrationData.IsolatedWindowsEnvironmen
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationData.IsolatedWindowsEnvironmentOwnerRegistrationData
 
 ## -description
-All the attributes for owner registered to Isolated Windows Environment.
+
+**Deprecated.** All the attributes for owner registered to Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

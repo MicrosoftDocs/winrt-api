@@ -15,6 +15,9 @@ Adds a new item to the end of the collection.
 
 ## -parameters
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 ### -param value
 
 The new item to add.

@@ -26,7 +26,7 @@ Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.ProgressRing.IsA
 ## -remarks
 Set the IsActive property to turn the [ProgressRing](progressring.md) on or off. If IsActive is false, the [ProgressRing](progressring.md) is not shown, but space is reserved for it in the UI layout. To not reserve space for the [ProgressRing](progressring.md), set its [Visibility](../windows.ui.xaml/uielement_visibility.md) property to [Collapsed](../windows.ui.xaml/visibility.md).
 
-### Notes for Windows 8.x
+### Notes for previous versions
 
 > **Windows 8.x**
 > In an app compiled for Windows 8, when the [ProgressRing](progressring.md) is active, the progress animation continues even if its not visible on the screen, such as when its [Visibility](../windows.ui.xaml/uielement_visibility.md) is [Collapsed](../windows.ui.xaml/visibility.md). This can keep the UI thread awake, use resources, and impair app performance. When the [ProgressRing](progressring.md) is not visible, you should disable the animation by setting IsActive to **false**.

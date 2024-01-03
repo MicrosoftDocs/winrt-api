@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentTelemetryParameters
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentTelemetryParameters
 
 ## -description
-Runtime class which encapsulates the [correlationid](isolatedwindowsenvironmenttelemetryparameters_correlationid.md).
+
+**Deprecated.** Runtime class which encapsulates the [correlationid](isolatedwindowsenvironmenttelemetryparameters_correlationid.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

@@ -10,20 +10,31 @@ public IAsyncOperationWithProgress<IsolatedWindowsEnvironmentCreateProgress> Iso
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.CreateAsync
 
 ## -description
-Create an Isolated Windows Environment Asynchronously and correlate with telemetry events.
+
+**Deprecated.** Create an Isolated Windows Environment Asynchronously and correlate with telemetry events.
 
 ## -parameters
+
 ### -param options
+
 Isolated Windows Environment configuration options defined by [isolatedwindowsenvironmentoptions](isolatedwindowsenvironmentoptions.md)
 
 ### -param telemetryParameters
+
 Telemetry parameters defined by [isolatedwindowsenvironmenttelemetryparameters](isolatedwindowsenvironmenttelemetryparameters.md)
+
 ## -returns
+
 [IsolatedWindowsEnvironmentCreateResult](isolatedwindowsenvironmentcreateresult.md)
 [IsolatedWindowsEnvironmentCreateProgress](isolatedwindowsenvironmentcreateprogress.md)
+
 ## -remarks
 
-## -see-also
-[CreateAsync](isolatedwindowsenvironment_createasync_653638820.md) with telemetry correlation
-## -examples
+> [!WARNING]
+> This is a deprecated API.
 
+## -see-also
+
+[CreateAsync](isolatedwindowsenvironment_createasync_653638820.md) with telemetry correlation
+
+## -examples

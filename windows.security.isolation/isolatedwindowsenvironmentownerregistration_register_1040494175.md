@@ -10,17 +10,28 @@ public IsolatedWindowsEnvironmentOwnerRegistrationResult IsolatedWindowsEnvironm
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistration.Register
 
 ## -description
-Registers the owner of the Isolated Windows Environment.
+
+**Deprecated.** Registers the owner of the Isolated Windows Environment.
+
 ## -parameters
+
 ### -param ownerName
+
 Name of owner of Isolated Windows Environment.
+
 ### -param ownerRegistrationData
+
 [isolatedwindowsenvironmentownerregistrationdata](isolatedwindowsenvironmentownerregistrationdata.md)
+
 ## -returns
+
 [IsolatedWindowsEnvironmentOwnerRegistrationResult](isolatedwindowsenvironmentownerregistrationresult.md)
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

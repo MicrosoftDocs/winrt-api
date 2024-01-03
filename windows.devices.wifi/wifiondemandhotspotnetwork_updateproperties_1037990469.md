@@ -12,6 +12,13 @@ public void UpdateProperties (Windows.Devices.WiFi.WiFiOnDemandHotspotNetworkPro
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 Sets on a [WiFiOnDemandHotspotNetwork](wifiondemandhotspotnetwork.md) object various properties of the hotspot network, such as battery percentage, display name, availability, and SSID/password. If any property is invalid, **UpdateProperties** throws an invalid argument exception.
 
 > [!NOTE]
@@ -26,6 +33,8 @@ Sets on a [WiFiOnDemandHotspotNetwork](wifiondemandhotspotnetwork.md) object var
 An object representing the properties to set.
 
 ## -remarks
+
+`UpdateMetadata` should be called regularly by the app, even if no properties have changed. This is to ensure that Windows will show the network in the Wi-Fi available networks list (in other words, so Windows doesn't hide it for being stale). We recommend registering for the [WiFiOnDemandHotspotUpdateMetadataTrigger](/uwp/api/windows.applicationmodel.background.wifiondemandhotspotupdatemetadatatrigger) background task and calling `UpdateMetadata` there.
 
 ## -see-also
 

@@ -15,6 +15,9 @@ Lets an app manage the relationship between its in-app UI tabs and representatio
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 If your app uses visual tabs to organize and separate content, you can use `WindowTabManager` to expose those tabs in system shell UI for easier access.
 
 The `WindowTabManager` lets an app share information about its in-app tab views to the Windows shell. How the shell chooses to respond to the information, if at all, is at the shell's discretion. (In other words, the implementation may be inert on some shells.)

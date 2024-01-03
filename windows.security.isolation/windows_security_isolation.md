@@ -10,10 +10,14 @@ namespace Windows.Security.Isolation
 # Windows.Security.Isolation
 
 ## -description
-Namespace for Windows Security Isolation APIs.
+
+**Deprecated.** Namespace for Windows Security Isolation APIs.
+
 ## -remarks
+
+> [!WARNING]
+> The APIs in this namespace are deprecated.
 
 ## -see-also
 
 ## -examples
-

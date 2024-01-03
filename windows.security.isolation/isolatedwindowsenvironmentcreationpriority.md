@@ -11,7 +11,7 @@ public enum IsolatedWindowsEnvironmentCreationPriority
 
 ## -description
 
-Represents the priority of an isolated environment.
+**Deprecated.** Represents the priority of an isolated environment.
 
 ## -enum-fields
 
@@ -24,6 +24,9 @@ Low priority.
 Normal priority.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 

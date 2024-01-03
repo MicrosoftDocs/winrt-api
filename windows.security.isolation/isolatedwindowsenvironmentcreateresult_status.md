@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentCreateStatus Status { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentCreateResult.Status
 
 ## -description
-Calls for [isolatedwindowsenvironmentcreatestatus](isolatedwindowsenvironmentcreatestatus.md)
+
+**Deprecated.** Calls for [isolatedwindowsenvironmentcreatestatus](isolatedwindowsenvironmentcreatestatus.md)
+
 ## -property-value
+
 String
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

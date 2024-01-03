@@ -1,31 +1,31 @@
-# Contributing to Windows UWP Reference Docs
+# Contributing to Windows Runtime (WinRT) API reference
 
-Thank you for your interest in contributing to the Windows UWP API docs. If you want to make updates to how-to topics for Windows UWP, go to https://github.com/MicrosoftDocs/windows-uwp.
+Thank you for your interest in contributing to the API reference content for system Windows Runtime (WinRT) APIs. If, alternatively, you want to make updates to *conceptual* topics for this set of APIs, then go to https://github.com/MicrosoftDocs/windows-dev-docs.
 
 ## Prerequisites
 
-If you want to contribute more than just minor fixes (a line or two), you'll need to sign a [Microsoft Contribution Licensing Agreement (CLA)](https://cla.microsoft.com/).
+If you want to contribute more than just minor fixes (a line or two), then you'll need to sign a [Microsoft Contribution Licensing Agreement (CLA)](https://cla.microsoft.com/).
 
-If you've already contributed to Microsoft GitHub projects in the past, congratulations! You've already completed this step.
+If you've already contributed to Microsoft GitHub projects in the past, then you've already completed that step.
 
 ## Proposing a change
 
-If you'd like to suggest a change to the docs, follow these steps:
+If you'd like to suggest a change to the docs, then follow these steps:
 
 1. Click **Edit**. You will be redirected to the page's markdown source file in the [GitHub repository](https://github.com/MicrosoftDocs/winrt-api).
 2. Modify the file as desired.
-3. Use the preview tab to ensure the changes look good.
-4. When you're done, commit your changes and open a pull request.
+3. Use the preview tab to ensure that your changes look good.
+4. When you're done, commit your changes, and open a pull request (PR).
 
-After you create the pull request, a member of the Windows docs team will review your changes and provide any feedback as needed.
+After you create the pull request, a member of the Windows docs team will review your changes, and provide any feedback as needed.
 
-**Note:** If you're a Microsoft employee, please see https://review.docs.microsoft.com/en-us/windows-authoring-guide/uwp/winrt-api/?branch=master.
+**Note:** If you're a Microsoft employee, then don't contribute to this repo. Instead, see [Quickstart—contribute to Windows developer content](https://review.learn.microsoft.com/windows-authoring-guide/quickstart?branch=main).
 
 ## Making more substantial changes
 
-To make substantial changes to an existing article, add or change images, or contribute a new article, we recommend forking the official repo into your GitHub account, and then creating a local clone.
+To make more substantial changes to an existing topic, or to add or change images, or to contribute a new topic, we recommend that you fork the official repo into your GitHub account, and then create a local clone.
 
-For more info, see [Fork a Repo](https://help.github.com/articles/fork-a-repo).
+For more info, see [Fork a repo](https://help.github.com/articles/fork-a-repo).
 
 ## Resources
 

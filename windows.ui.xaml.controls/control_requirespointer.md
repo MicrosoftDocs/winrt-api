@@ -10,7 +10,7 @@ public Windows.UI.Xaml.Controls.RequiresPointer RequiresPointer { get;  set; }
 # Windows.UI.Xaml.Controls.Control.RequiresPointer
 
 ## -description
-Gets or sets whether a UI element supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an Xbox gamepad or remote control.
+Gets or sets whether a UI element supports mouse mode, which emulates pointer interaction experiences with non-pointer input devices such as an game pad or remote control.
 
 
 
@@ -27,7 +27,7 @@ Gets or sets whether a UI element supports mouse mode, which emulates pointer in
 The pointer emulation mode. The default is **Never**.
 
 ## -remarks
-For non-pointer input devices, focus is moved between controls through a variety of methods, such as the Tab and arrow keys on a keyboard, the directional pad (D-pad) on a remote, or thumb sticks on an Xbox controller. For some user experiences, such as maps and drawing surfaces, it is not possible or practical to use XY focus navigation. RequiresPointer enables an app to provide a more pointer-like interaction experience through a cursor that can be moved freely using the Xbox input devices.
+For non-pointer input devices, focus is moved between controls through a variety of methods, such as the Tab and arrow keys on a keyboard, the directional pad (D-pad) on a remote, or thumb sticks on a game controller. For some user experiences, such as maps and drawing surfaces, it is not possible or practical to use XY focus navigation. RequiresPointer enables an app to provide a more pointer-like interaction experience through a cursor that can be moved freely using game input devices.
 
 RequiresPointer is supported only on the Xbox device family, and only when using a game pad or remote control. The property is ignored otherwise.
 

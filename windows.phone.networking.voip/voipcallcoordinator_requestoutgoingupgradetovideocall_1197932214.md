@@ -10,6 +10,10 @@ public void RequestOutgoingUpgradeToVideoCall(System.Guid callUpgradeGuid, Syste
 # Windows.Phone.Networking.Voip.VoipCallCoordinator.RequestOutgoingUpgradeToVideoCall
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Phone.Networking.Voip** namespace are deprecated, and may not be available in future versions of Windows. Instead, use the equivalent types in the [Windows.ApplicationModel.Calls](/uwp/api/windows.applicationmodel.calls) namespace.
+
 Notifies the system of a new outgoing video call that will replace an existing cellular call.
 
 ## -parameters

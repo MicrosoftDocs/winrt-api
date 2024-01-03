@@ -12,6 +12,13 @@ public Windows.Security.Credentials.PasswordCredential Password { get; set; }
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 Gets or sets a value containing the password of the hotspot network.
 
 > [!NOTE]
@@ -24,6 +31,8 @@ Gets or sets a value containing the password of the hotspot network.
 A value containing the password of the hotspot network.
 
 ## -remarks
+
+Hotspot networks must be secured with a password - enterprise networks and open networks are not supported.
 
 ## -see-also
 

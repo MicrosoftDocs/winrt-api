@@ -27,7 +27,7 @@ This function will return **false** if you try to use a **Package** name that is
 
 ## -remarks
 
-The user is prompted to allow or deny the package removal. You can only remove packages that contain extensions found in the **AppExtensionCatalog** instance you make the call from.
+The user is prompted to allow or deny the package removal. You can only remove packages that contain extensions found in the **AppExtensionCatalog** instance you make the call from. See [AppExtensionCatalog::Open](/uwp/api/windows.applicationmodel.appextensions.appextensioncatalog.open) for more details.
 
 The unit of deployment for [AppExtensions](appextension.md) is the [Package](/uwp/api/windows.applicationmodel.package). You cannot remove **AppExtensions**; you can only remove **Packages**. **Packages** may contain multiple **AppExtensions**.
 

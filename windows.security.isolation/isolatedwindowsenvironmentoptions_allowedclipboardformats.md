@@ -10,12 +10,18 @@ public IsolatedWindowsEnvironmentAllowedClipboardFormats AllowedClipboardFormats
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOptions.AllowedClipboardFormats
 
 ## -description
-Enum of clipboard formats for Isolated Windows Environment.
+
+**Deprecated.** Enum of clipboard formats for Isolated Windows Environment.
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

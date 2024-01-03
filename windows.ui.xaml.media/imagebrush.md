@@ -41,9 +41,10 @@ You should create your image sources at several recommended sizes, to ensure tha
 
 For more info on how to design for scaling, see [UX guidelines for layout and scaling](https://developer.microsoft.com/windows/design).
 
+### Notes for previous versions
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 462561-->
-### Windows 8 behavior
+> **Windows 8**
 
 Windows 8 had an issue with [ImageSource](imagebrush_imagesource.md) resolution from a XAML attribute URI value, if the ImageBrush is part of a XAML style or template that's applied to a control. The control usage would sometimes use a component-specific base URI rather than the appropriate base URI for the style or template, which usually comes from the app. The issue is fixed starting with Windows 8.1; the base URI is correctly determined for app resources or component resources depending on the scope that needs the base URI. Apps that were compiled for Windows 8 might have used workarounds for this behavior, by putting their image source files in the "wrong" place, where the XAML URI would resolve and the app would show the images. If you are migrating XAML from Windows 8 to Windows 8.1 you should test any ImageBrush usages in a style or template from your XAML and verify that the image resolution in your app is working with Windows 8.1. If you have a problem, you should move your image source files within the package so that they're in the correct resource scope for the new behavior.
 

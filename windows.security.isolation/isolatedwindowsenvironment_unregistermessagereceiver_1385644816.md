@@ -10,13 +10,20 @@ public void IsolatedWindowsEnvironment.UnregisterMessageReceiver(Guid receiverId
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.UnregisterMessageReceiver
 
 ## -description
-Unregisters message receiver callback.
+
+**Deprecated.** Unregisters message receiver callback.
+
 ## -parameters
+
 ### -param receiverId
+
 GUID for message receiver.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

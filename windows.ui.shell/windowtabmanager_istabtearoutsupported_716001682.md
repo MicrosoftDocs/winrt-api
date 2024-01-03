@@ -19,6 +19,9 @@ Gets a value that indicates whether the current system shell supports tearing a 
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 Call `IsTabTearOutSupported` before subscribing to the [TabTearOutRequested](windowtabmanager_tabtearoutrequested.md) event and subscribe only if it returns `true`.
 
 This method indicates only whether the system supports surfaces that can request tab tear out, such as Snap Assist. If your app does not support tab tear out, its tabs will not show in Snap Assist.

@@ -10,10 +10,12 @@ public class InputPane : Windows.UI.ViewManagement.IInputPane, Windows.UI.ViewMa
 # Windows.UI.ViewManagement.InputPane
 
 ## -description
+
 Enables an app to receive notifications when the docked touch keyboard, or Soft Input Panel (SIP), is about to be displayed or hidden, and to determine which portion of the application's window is obscured by the input pane.
 
 > [!NOTE]
-> The InputPane APIs provide accurate occlusion information for a docked panel only. For Windows 10 Creators Fall Update and newer, we reccomend using the following APIs to handle occlusion by docked, undocked, moveable, and transitory input panes such as Soft Input Panels (SIP), Input Method Editor (IME) candidate windows, floating toolbars, and so on. 
+> The InputPane APIs provide accurate occlusion information for a docked panel only. For Windows 10 Creators Fall Update and newer, we reccomend using the following APIs to handle occlusion by docked, undocked, moveable, and transitory input panes such as Soft Input Panels (SIP), Input Method Editor (IME) candidate windows, floating toolbars, and so on.
+>
 > - [CoreInputView](../windows.ui.viewmanagement.core/coreinputview.md)
 > - [CoreInputViewOcclusion](../windows.ui.viewmanagement.core/coreinputviewocclusion.md)
 > - [CoreInputViewOcclusionKind](../windows.ui.viewmanagement.core/coreinputviewocclusionkind.md)
@@ -24,8 +26,8 @@ The input pane appears when the user performs an action that requires them to en
 
 In some cases, overlay UI such as an InputPane is not fully supported. This includes:
 
-+ apps in full-screen mode, like [games](/windows/uwp/gaming/index).
-+ Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
+- apps in full-screen mode, like [games](/windows/uwp/gaming/index).
+- Windows Holographic apps in [holographic view](https://developer.microsoft.com/mixed-reality#app_views).
 
 Call [GetForCurrentView](inputpane_getforcurrentview_1363600702.md) to get an InputPane object.
 

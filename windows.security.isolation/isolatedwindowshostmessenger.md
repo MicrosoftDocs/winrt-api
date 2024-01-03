@@ -10,10 +10,14 @@ public class IsolatedWindowsHostMessenger
 # Windows.Security.Isolation.IsolatedWindowsHostMessenger
 
 ## -description
-Runtime class for two methods: [PostMessageToReceivier](isolatedwindowshostmessenger_postmessagetoreceiver_901016500.md) and [getfileid](isolatedwindowshostmessenger_getfileid_1663057180.md).
+
+**Deprecated.** Runtime class for two methods: [PostMessageToReceivier](isolatedwindowshostmessenger_postmessagetoreceiver_901016500.md) and [getfileid](isolatedwindowshostmessenger_getfileid_1663057180.md).
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

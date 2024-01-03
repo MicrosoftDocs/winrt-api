@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction InstallCommandSetsFromStorageFileAsync(Wi
 # Windows.Media.SpeechRecognition.VoiceCommandManager.InstallCommandSetsFromStorageFileAsync
 
 ## -description
-Installs the [CommandSet](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) elements in a [](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
+Installs the [CommandSet](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) elements in a [Voice Command Definition](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
 
 ## -parameters
 ### -param file

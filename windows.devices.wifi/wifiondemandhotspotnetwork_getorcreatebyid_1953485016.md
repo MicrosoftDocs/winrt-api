@@ -12,6 +12,13 @@ public static Windows.Devices.WiFi.WiFiOnDemandHotspotNetwork GetOrCreateById (G
 
 ## -description
 
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
+
 If the operating system (OS) is already configured with a hotspot from the calling app, then **GetOrCreateById** retrieves the [WiFiOnDemandHotspotNetwork](wifiondemandhotspotnetwork.md) object that corresponds to the given *networkId*. Otherwise, the method creates a new network for that id.
 
 > [!NOTE]
@@ -31,7 +38,9 @@ The object that was created or retrieved.
 
 ## -remarks
 
-The id is unique per calling app, but it might be the same between apps.
+* The Id can be any value the app chooses to use to distinguish multiple on-demand hotspots. However, for best performance with ephemeral connections, we recommend reusing the same Id and updating the SSID and Password instead of creating new networks for each one.
+* The Id need only be unique within an app.
+* The calling app must have package identity.
 
 ## -see-also
 

@@ -18,6 +18,10 @@ The list of data formats supported in the clipboard history for the content bein
 
 ## -remarks
 
+If this property is an empty list, then all data formats are eligible for clipboard history.
+
+This property is ignored if the clipboard data does not get added to clipboard history.
+
 ## -see-also
 
 ## -examples

@@ -20,7 +20,7 @@ Gets or sets a value that indicates whether the popup should be shown within the
 
 ## -remarks
 
-This property is applicable only to apps running on the desktop. On other platforms (such as Xbox, HoloLens, etc.), it does not have an effect. To check if the popup is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](popup_isconstrainedtorootbounds.md) property.
+This property is applicable only to apps running on the desktop. To check if the popup is actually constrained to the root bounds, check the [IsConstrainedToRootBounds](popup_isconstrainedtorootbounds.md) property.
 
 In an app running on the desktop, when this property is **true**, the popup is shown within the main XAML window handle (HWND). When this property is **false**, the popup is shown in its own top level HWND. In this case, the popup might be positioned to extend beyond the main app window.
 

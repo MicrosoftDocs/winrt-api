@@ -42,4 +42,3 @@ An [ItemsPanelTemplate](itemspaneltemplate.md) object element should contain exa
 ## -examples
 
 ## -see-also
-[How to group items in a list or grid](/previous-versions/windows/apps/hh780627(v=win.10))

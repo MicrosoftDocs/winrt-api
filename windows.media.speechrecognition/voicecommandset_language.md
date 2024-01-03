@@ -10,7 +10,7 @@ public string Language { get; }
 # Windows.Media.SpeechRecognition.VoiceCommandSet.Language
 
 ## -description
-Gets the language ([xml:lang](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2)) value of the [CommandSet](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) element in the [](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
+Gets the language ([xml:lang](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2)) value of the [CommandSet](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) element in the [Voice Command Definition](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2) file.
 
 ## -property-value
 The language ([xml:lang](/uwp/schemas/voicecommands/voice-command-elements-and-attributes-1-2)) of the command set.

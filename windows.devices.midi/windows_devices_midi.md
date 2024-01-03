@@ -7,19 +7,19 @@
 
 ## -description
 
-This namespace provides classes for using MIDI devices in Windows Runtime app.
+This namespace provides types for using MIDI devices in a Windows Runtime (WinRT) app.
 
-The classes included in this namespace enable you to:
+The types included in this namespace enable you to:
 
-+ Enumerate MIDI ports.
-+ Create a MIDI port object, which opens a stream to the port.
-+ Send MIDI messages.
-+ Receive MIDI messages.
-+ Destroy the MIDI port object, which also closes the stream to the port.
+* Enumerate MIDI ports.
+* Create a MIDI port object, which opens a stream to the port.
+* Send MIDI messages.
+* Receive MIDI messages.
+* Destroy the MIDI port object, which also closes the stream to the port.
 
-For more info on the MIDI specification see [MIDI Manufacturers Association](https://www.midi.org/).
+For more info about the MIDI specification, see the [MIDI Association](https://www.midi.org/).
 
-See the [MIDI  sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI) for an example of how to use these classes.
+For conceptual documentation, see [MIDI](/windows/uwp/audio-video-camera/midi). And for a sample app showing how to use these types, see the UWP [MIDI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI).
 
 ## -remarks
 
@@ -27,4 +27,4 @@ See the [MIDI  sample](https://github.com/Microsoft/Windows-universal-samples/tr
 
 ## -see-also
 
-[MIDI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)
+[MIDI](/windows/uwp/audio-video-camera/midi), [MIDI sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MIDI)

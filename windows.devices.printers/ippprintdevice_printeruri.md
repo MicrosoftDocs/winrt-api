@@ -12,7 +12,7 @@ public System.Uri PrinterUri { get; }
 
 ## -description
 
-Gets the URI of the printer device.
+Gets the URI of the printer device (for contacting the printer directly).
 
 ## -property-value
 
@@ -20,10 +20,8 @@ The URI of the printer device.
 
 ## -remarks
 
-For Internet Printing Protocol (IPP) over USB, the printer device URI is 127.0.0.1.
+In some cases&mdash;such as Internet Printing Protocol (IPP) over USB&mdash;the printer device URI is the default address (127.0.0.1).
 
 ## -see-also
 
 ## -examples
-
-

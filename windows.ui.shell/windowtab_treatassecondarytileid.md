@@ -19,6 +19,9 @@ A string that matches a [SecondaryTile.TileId](../windows.ui.startscreen/seconda
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 If your app uses a [SecondaryTile](../windows.ui.startscreen/secondarytile.md), you can set this property to associate the tab with it. The tab will be treated as if it were launched by the `SecondaryTile`.
 
 For more info, see [Secondary tiles](/windows/apps/design/shell/tiles-and-notifications/secondary-tiles), the [SecondaryTile](../windows.ui.startscreen/secondarytile.md) class, and the [SecondaryTile.TileId](../windows.ui.startscreen/secondarytile_tileid.md) property.

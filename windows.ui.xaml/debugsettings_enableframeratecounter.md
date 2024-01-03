@@ -31,11 +31,11 @@ The *App fps* value is specifically reporting on the UI thread. There could be a
 
 [OnLaunched](application_onlaunched_859642554.md) is a good place to change [DebugSettings](debugsettings.md) values. Another possibility is the `App()` constructor.
 
+### Notes for previous versions
 
 <!--The following remark is relevant for Windows 8 > 8.1 migration. No WBB not breaking-->
-### Windows 8 behavior
-
-In Windows 8, the counters used a different format and didn't incorporate the Microsoft DirectComposition counters. That format was:
+> **Windows 8**
+> In Windows 8, the counters used a different format and didn't incorporate the Microsoft DirectComposition counters. That format was:
 
 <table>
    <tr><td>000</td><td>000</td><td>000000</td><td>000</td><td>000</td><td>000</td></tr>

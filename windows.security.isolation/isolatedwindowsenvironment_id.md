@@ -10,12 +10,18 @@ public string Id { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironment.Id
 
 ## -description
-Returns ID for Isolated Windows Environment.
+
+**Deprecated.** Returns ID for Isolated Windows Environment.
+
 ## -property-value
+
 String of Id.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

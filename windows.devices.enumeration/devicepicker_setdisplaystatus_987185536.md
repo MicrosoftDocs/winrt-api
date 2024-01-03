@@ -11,7 +11,7 @@ public void SetDisplayStatus(Windows.Devices.Enumeration.DeviceInformation devic
 # Windows.Devices.Enumeration.DevicePicker.SetDisplayStatus
 
 ## -description
-Updates the picker UI to reflect the provided status and display options for a specified device.
+Updates the picker UI to reflect the provided status and display options for a specified device. The state of the picker UI typically persists until the operating system (OS) is restarted.
 
 ## -parameters
 ### -param device

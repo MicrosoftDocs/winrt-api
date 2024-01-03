@@ -10,6 +10,13 @@ public IAsyncOperation<WiFiConnectionResult> WiFiAdapter.ConnectAsync(WiFiAvaila
 # Windows.Devices.WiFi.WiFiAdapter.ConnectAsync
 
 ## -description
+
+> [!NOTE]
+> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+
+> [!IMPORTANT]
+> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
+
 Connect this Wi-Fi device to a hidden network, with the given passphrase, connection method, and reconnection policy.
 ## -parameters
 ### -param availableNetwork

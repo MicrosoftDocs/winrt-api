@@ -25,6 +25,9 @@ The value to set.
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 [InsertAt](windowtabcollection_insertat_1626840122.md) expands the collection and moves all subsequent index items by one.
 
 In contrast, `SetAt` replaces the item at the index, and the collection count remains the same.

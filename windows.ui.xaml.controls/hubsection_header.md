@@ -43,13 +43,12 @@ You can make a section header interactive by setting the [IsHeaderInteractive](h
 
 You can respond to a tapped header by handling the [Hub.SectionHeaderClick](hub_sectionheaderclick.md) event. You get the section that was clicked from the [SectionHeaderClickEventArgs.Section](hubsectionheaderclickeventargs_section.md) property of the event data.
 
-### Windows 10
-
 When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes the text, **See more**. When a user taps the **See more** text, the [SectionHeaderClick](hub_sectionheaderclick.md) event is raised. The text is rendered as a hyperlink, which uses the user selected system accent color by default.
 
-### Windows 8.x
+### Notes for previous versions
 
-When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes a chevron glyph, and "Hover" and "Pressed" visual states. If you use a custom [HeaderTemplate](hubsection_headertemplate.md), you should provide similar visual cues to indicate that the header is interactive.
+>Windows 8.x
+> When its [IsHeaderInteractive](hubsection_isheaderinteractive.md) property is **true**, the default header includes a chevron glyph, and "Hover" and "Pressed" visual states. If you use a custom [HeaderTemplate](hubsection_headertemplate.md), you should provide similar visual cues to indicate that the header is interactive.
 
 ## -examples
 

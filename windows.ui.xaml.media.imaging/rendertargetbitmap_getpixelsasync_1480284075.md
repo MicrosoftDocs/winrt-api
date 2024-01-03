@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.Streams.IBuffer> GetPi
 # Windows.UI.Xaml.Media.Imaging.RenderTargetBitmap.GetPixelsAsync
 
 ## -description
-Retrieves the previously rendered [RenderTargetBitmap](rendertargetbitmap.md) image as a buffered stream of bytes in **BGRA8** format.
+Retrieves the previously rendered [RenderTargetBitmap](rendertargetbitmap.md) image as a buffered stream of bytes in **BGRA8**, [premultiplied alpha](/windows/apps/develop/win2d/premultiplied-alpha) format.
 
 
 

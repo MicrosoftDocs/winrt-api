@@ -14,7 +14,7 @@ public DropDownButtonAutomationPeer.DropDownButtonAutomationPeer(DropDownButton 
 
 Initializes a new instance of the [DropDownButtonAutomationPeer](dropdownbuttonautomationpeer.md) class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DropDownButtonAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.DropDownButton)](/windows/winui/api/microsoft.ui.xaml.controls.dropdownbuttonautomationpeer.#ctor(microsoft.ui.xaml.controls.dropdownbutton)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.DropDownButtonAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.DropDownButton)](/windows/winui/api/microsoft.ui.xaml.automation.peers.dropdownbuttonautomationpeer.-ctor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param owner

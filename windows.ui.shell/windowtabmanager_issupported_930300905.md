@@ -19,6 +19,9 @@ Gets a value that indicates whether tab management is supported by the current s
 
 ## -remarks
 
+> [!IMPORTANT]
+> This API is for Win32 desktop apps only. UWP and other app types are not supported.
+
 Call `IsSupported` to ensure that tab management is supported by the current system shell before you call [GetForWindow](windowtabmanager_issupported_930300905.md) to request an instance of `WindowTabManager`.
 
 ## -examples

@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentProcess
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess
 
 ## -description
-Class that returns object by start process that represents process in the Isolated Windows Environment.
+
+**Deprecated.** Class that returns object by start process that represents process in the Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

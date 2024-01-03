@@ -15,12 +15,13 @@ Sets the content that is stored in the clipboard object with options for the con
 
 ## -parameters
 ### -param content
-Contains the content to store in the clipboard. If null, the clipboard is emptied.
+Contains the content to store in the clipboard. This parameter may not be null.
 
 ### -param options
-An object that specifies options for the clipboard content, such as whether the content is allowed in the clipboard history and whether it will be synced to other devices.
+An object that specifies options for the clipboard content, such as whether the content is allowed in the clipboard history and whether it will be synced to other devices. This parameter may be null, in which case default options are used.
 
 ## -returns
+True if the content was set to the clipboard. False if the content could not be set, for example, because the clipboard is already in use by another process.
 
 ## -remarks
 

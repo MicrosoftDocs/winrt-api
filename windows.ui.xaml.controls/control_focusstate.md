@@ -20,6 +20,8 @@ This property supports controls that use different visual styles depending on wh
 
 Another way to use this property is to use [FocusManager](../windows.ui.xaml.input/focusmanager.md) to determine which element in the overall UI has focus, and then call FocusState on that element to get information on how that control received focus.
 
+### Notes for previous versions
+
 > [!NOTE]
 > In Windows 8, when FocusState is [Programmatic](../windows.ui.xaml/focusstate.md), the keyboard focus visual is shown even if the prior method of input was pointer. In Windows 8.1, when you call [Focus](control_focus_195503898.md) (*FocusState.Programmatic*), the prior FocusState, either [Pointer](../windows.ui.xaml/focusstate.md) or [Keyboard](../windows.ui.xaml/focusstate.md), is retained so that the correct focus visual is shown. This means that if you check the value of the FocusState property after you call [Focus](control_focus_195503898.md) (*FocusState.Programmatic*), the FocusState property will have a value of either [Pointer](../windows.ui.xaml/focusstate.md) or [Keyboard](../windows.ui.xaml/focusstate.md).
 

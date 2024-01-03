@@ -10,10 +10,14 @@ public class IsolatedWindowsEnvironmentShareFolderRequestOptions
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentShareFolderRequestOptions
 
 ## -description
-Options for how to perform the share folder operation.
+
+**Deprecated.** Options for how to perform the share folder operation.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

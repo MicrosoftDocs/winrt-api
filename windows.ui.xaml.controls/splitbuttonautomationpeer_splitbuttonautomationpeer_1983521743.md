@@ -14,7 +14,7 @@ public SplitButtonAutomationPeer.SplitButtonAutomationPeer(SplitButton owner)
 
 Initializes a new instance of the [SplitButtonAutomationPeer](splitbuttonautomationpeer.md) class.
 
-Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitButtonAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.SplitButton)](/windows/winui/api/microsoft.ui.xaml.controls.splitbuttonautomationpeer.#ctor(microsoft.ui.xaml.controls.splitbutton)) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
+Equivalent **WinUI 2 API for UWP**: [Microsoft.UI.Xaml.Controls.SplitButtonAutomationPeer.#ctor(Microsoft.UI.Xaml.Controls.SplitButton)](/windows/winui/api/microsoft.ui.xaml.controls.splitbuttonautomationpeer.-ctor) (for WinUI in the [Windows App SDK](/windows/apps/windows-app-sdk/), see the **[Windows App SDK namespaces](/windows/windows-app-sdk/api/winrt/)**).
 
 ## -parameters
 ### -param owner

@@ -32,8 +32,10 @@ Overriding this method to return the implementation of patterns that your peer c
 >
 > See [XAML accessibility sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/XAML%20accessibility%20sample) for an implementation of [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) that defines the custom peer returned by [OnCreateAutomationPeer](../windows.ui.xaml/uielement_oncreateautomationpeer_1478162674.md) (the peer implementation is part of Scenario 3 in this sample). 
 
+### Notes for previous versions
+
 <!--The following remark is relevant for Windows 8 > 8.1 migration. See WBB 466373-->
-### Windows 8 behavior
+> **Windows 8.x**
 
 Windows 8 peer-selection behavior is potentially impacted by whether the control is intended to display data as items. The automation logic for Windows 8 might select a dedicated data peer and use its patterns, even if there is a peer indicated for the overall control and that peer overrides GetPatternCore. For example, you might have the [ListViewAutomationPeer](listviewautomationpeer.md) override for patterns, but in Windows 8 the acting patterns for data items might take precedence, for example the default implementation of [ListViewItemDataAutomationPeer](listviewitemdataautomationpeer.md) might be used and will handle the scrolling pattern when UI Automation looks for patterns in items. This is different starting with Windows 8.1; if there is pattern support indicated in a GetPatternCore implementation for the overall control, that implementation is used instead of internal item data peers.
 

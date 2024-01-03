@@ -9,13 +9,15 @@
 public sealed class IsolatedWindowsEnvironmentUserInfo
 -->
 
-
 ## -description
-Runtime class containing properties for the Isolated Windows Environment user. 
+
+**Deprecated.** Runtime class containing properties for the Isolated Windows Environment user.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

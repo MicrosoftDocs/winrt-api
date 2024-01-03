@@ -10,15 +10,24 @@ public Guid IsolatedWindowsHostMessenger.GetFileId(String filePath)
 # Windows.Security.Isolation.IsolatedWindowsHostMessenger.GetFileId
 
 ## -description
-Gets an unique identifier of the file that is opened in the Isolated Windows Environment.
+
+**Deprecated.** Gets an unique identifier of the file that is opened in the Isolated Windows Environment.
+
 ## -parameters
+
 ### -param filePath
+
 Path of the file on the host.
+
 ## -returns
+
 Guid
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

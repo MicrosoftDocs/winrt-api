@@ -10,12 +10,18 @@ public IVector<string> ProcessesRunnableAsUser { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistrationData.ProcessesRunnableAsUser
 
 ## -description
-Processes run as User.
+
+**Deprecated.** Processes run as User.
+
 ## -property-value
+
 IVector
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

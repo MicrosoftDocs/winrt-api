@@ -11,7 +11,7 @@ public void ChangePriority (Windows.Security.Isolation.IsolatedWindowsEnvironmen
 
 ## -description
 
-Allows the caller to set the execution priority of the isolated environment.
+**Deprecated.** Allows the caller to set the execution priority of the isolated environment.
 
 ## -parameters
 
@@ -20,6 +20,9 @@ Allows the caller to set the execution priority of the isolated environment.
 The new execution priority for the environment.
 
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 

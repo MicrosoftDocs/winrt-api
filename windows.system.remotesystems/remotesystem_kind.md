@@ -10,7 +10,7 @@ public string Kind { get; }
 # Windows.System.RemoteSystems.RemoteSystem.Kind
 
 ## -description
-Gets a String representation of the device type of the given remote system (desktop, Xbox, ...).
+Gets a String representation of the device type of the given remote system.
 
 ## -property-value
 The device type of the remote system.

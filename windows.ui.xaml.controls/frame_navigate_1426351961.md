@@ -16,7 +16,7 @@ Causes the [Frame](frame.md) to load content represented by the specified [Page]
 
 ## -parameters
 ### -param sourcePageType
-The page to navigate to, specified as a type reference to its partial class type. (A type reference is given as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
+The page to navigate to, specified as a type reference to its partial class type. Must be a [Page](page.md)-derived data type; otherwise, an exception is thrown. (A type reference is given as [System.Type](/dotnet/api/system.type?view=dotnet-uwp-10.0&preserve-view=true) for Microsoft .NET, or a [TypeName](../windows.ui.xaml.interop/typename.md) helper struct for Visual C++ component extensions (C++/CX)).
 
 ### -param parameter
 The navigation parameter to pass to the target page; must have a basic type (string, char, numeric, or [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)) to support parameter serialization using [GetNavigationState](frame_getnavigationstate_1352043812.md).
@@ -55,4 +55,4 @@ myFrame.Navigate(typeof(Page2), null, new SuppressNavigationTransitionInfo());
 ```
 
 ## -see-also
-[Navigate(Type, Object)](frame_navigate_1603787821.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](/windows/uwp/layout/navigation-basics), [XAML Navigation sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/XamlNavigation)
+[Navigate(Type, Object)](frame_navigate_1603787821.md), [Navigate(Type)](frame_navigate_442648331.md), [Navigation](/windows/uwp/layout/navigation-basics)

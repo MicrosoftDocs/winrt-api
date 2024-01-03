@@ -10,12 +10,18 @@ public uint ExitCode { get; }
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentProcess.ExitCode
 
 ## -description
-Returns exit code of executed process.
+
+**Deprecated.** Returns exit code of executed process.
+
 ## -property-value
+
 UInt32
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

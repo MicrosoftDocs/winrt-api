@@ -10,13 +10,20 @@ public void IsolatedWindowsEnvironmentOwnerRegistration.Unregister(String ownerN
 # Windows.Security.Isolation.IsolatedWindowsEnvironmentOwnerRegistration.Unregister
 
 ## -description
-Unregister owner of Isolated Windows Environment.
+
+**Deprecated.** Unregister owner of Isolated Windows Environment.
+
 ## -parameters
+
 ### -param ownerName
+
 String for name of owner of Isolated Windows Environment.
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-

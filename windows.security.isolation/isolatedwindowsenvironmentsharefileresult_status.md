@@ -9,15 +9,19 @@
 public Windows.Security.Isolation.IsolatedWindowsEnvironmentShareFileStatus Status { get; }
 -->
 
-
 ## -description
-Calls the [IsolatedWindowsEnvironmentShareFileStatus](isolatedwindowsenvironmentsharefilestatus.md).
+
+**Deprecated.** Calls the [IsolatedWindowsEnvironmentShareFileStatus](isolatedwindowsenvironmentsharefilestatus.md).
+
 ## -property-value
+
 Enum
+
 ## -remarks
+
+> [!WARNING]
+> This is a deprecated API.
 
 ## -see-also
 
 ## -examples
-
-

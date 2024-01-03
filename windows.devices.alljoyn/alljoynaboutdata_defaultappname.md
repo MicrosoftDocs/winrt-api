@@ -11,6 +11,10 @@ public string DefaultAppName { get;  set; }
 # Windows.Devices.AllJoyn.AllJoynAboutData.DefaultAppName
 
 ## -description
+
+> [!IMPORTANT]
+> The types in the **Windows.Devices.AllJoyn** namespace are deprecated, and might not be available in future versions of Windows. [AllJoyn](https://openconnectivity.org/technology/reference-implementation/alljoyn/)&mdash;sponsored by AllSeen Alliance&mdash;was an open-source discovery and communication protocol for Internet of Things (IoT) scenarios such as turning lights on and off, and reading temperatures. For alternatives, such as [IoTivity Lite](https://github.com/iotivity/iotivity-lite) and [IoTivity](https://github.com/iotivity/iotivity), refer to the [iotivity.org](https://iotivity.org/) website.
+
 The default app name assigned by the manufacturer- either the developer or the OEM. This property is a shortcut to the entry in the [AppNames](alljoynaboutdata_appnames.md) property for the [DefaultLanguage](alljoynaboutdataview_defaultlanguage.md).
 
 ## -property-value
