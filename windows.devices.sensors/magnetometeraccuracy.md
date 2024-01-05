@@ -10,14 +10,15 @@ public enum Windows.Devices.Sensors.MagnetometerAccuracy : int
 # MagnetometerAccuracy
 
 ## -description
+
 The sensor's accuracy.
 
-This short video gives an overview of how to calibrate the magnetometer's accuracy.
-
-> [!VIDEO https://learn.microsoft.com/en-us/shows/one-dev-minute/sensor-calibration]
+See [One Dev Minute - Sensor calibration](https://learn.microsoft.com/shows/one-dev-minute/sensor-calibration) for a short video overview on how to calibrate the magnetometer.
 
 ## -enum-fields
+
 ### -field Unknown:0
+
 The accuracy is currently not available, typically because the driver can't report it.
 
 You should determine, based on your app's needs, whether your app will want to ask users to calibrate the device whenever this value is returned.
