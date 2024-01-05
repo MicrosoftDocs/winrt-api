@@ -14,7 +14,7 @@ The sensor's accuracy.
 
 This short video gives an overview of how to calibrate the magnetometer's accuracy.
 
-<video />
+> [!VIDEO https://learn.microsoft.com/en-us/shows/one-dev-minute/sensor-calibration]
 
 ## -enum-fields
 ### -field Unknown:0
