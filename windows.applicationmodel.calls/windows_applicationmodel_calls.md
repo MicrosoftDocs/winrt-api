@@ -7,7 +7,7 @@
 
 ## -description
 
-Controls multiple aspects of how an application on the phone behaves, including lock-screen interaction, the phone call history, and various telephony options and information.
+Controls multiple aspects of how an application can interact with a phone device, including lock-screen interaction, the phone call history, and various telephony options and information.
 
 ## -remarks
 
@@ -23,10 +23,10 @@ The telephony options and information classes use the **CallsPhoneContract**. In
 > [!IMPORTANT]
 > If your application uses the **phoneCall** capability, you must request a waiver if you want to publish your application in China. Contact your premier support representative if you need the waiver.
 
+## -examples
+
 An example that demonstrates how to use much of the functionality of the Windows.ApplicationModel.Calls API can be found
 [here](https://github.com/microsoft/Windows-universal-samples/tree/v8.0.7/archived/PhoneCall).
-
-## -examples
 
 ## -see-also
 
