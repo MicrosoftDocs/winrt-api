@@ -46,13 +46,13 @@
        "author": "GrantMeStrength",
        "ms.author": "jken",
        "extendBreadcrumb": true,
-       "ms.prod": "uwp",
+       "ms.service": "uwp",
        "products": [
        "https://authoring-docs-microsoft.poolparty.biz/devrel/caec7b7f-4941-4578-b79f-c63b1c1f5af4",   
        "https://authoring-docs-microsoft.poolparty.biz/devrel/e0ffb20c-01c6-407b-a9bd-29111652a1dc",
        "https://authoring-docs-microsoft.poolparty.biz/devrel/e9b7979e-fb8b-40a7-a19f-c987950324dc"
        ],
-       "ms.technology": "winrt-reference",
+       "ms.subservice": "winrt-reference",
        "ms.topic": "managed-reference",
        "ms.date": "02/08/2017",
        "keywords": "windows 10, uwp, winrt, api",
