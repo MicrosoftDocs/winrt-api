@@ -17,7 +17,7 @@ When the call to this method completes successfully, it returns a [filePickerSel
 
 ## -remarks
 > [!WARNING]
-> If you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The code examples in [FileOpenPicker](fileopenpicker.md) and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
+> On Windows 8, if you try to show the file picker while your app is snapped the file picker will not be shown and an exception will be thrown. You can avoid this by making sure your app is not snapped or by unsnapping it before you call the file picker. The code examples in [FileOpenPicker](fileopenpicker.md) and the [File picker sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker) show you how.
 
 ## -examples
 
