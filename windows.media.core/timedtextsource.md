@@ -17,6 +17,8 @@ Get an instance of **TimedTextSource** from one of the factory methods, [CreateF
 
 For how-to guidance for working with external timed text sources, see [Media items, playlists, and tracks](/windows/uwp/audio-video-camera/media-playback-with-mediasource).
 
+For a list of supported timed text formats, see [Supported codecs](/windows/uwp/audio-video-camera/supported-codecs).
+
 ### Version history
 
 | Windows version | SDK version | Value added |
