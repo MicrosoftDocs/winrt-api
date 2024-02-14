@@ -26,7 +26,7 @@ You can get a StorageFolderQueryResult object by calling the following methods f
 + [FolderInformation.CreateFolderQuery methods](../windows.storage.bulkaccess/folderinformation_createfolderquery_325438332.md)
 + [FolderInformation.CreateFolderQueryWithOptions method](../windows.storage.bulkaccess/folderinformation_createfolderquerywithoptions_573382953.md)
 
-For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](/samples/browse/).
+For more code examples that show you how to use storageFolderQueryResult objects, see the [Folder enumeration sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/FolderEnumeration).
 
 To get a StorageFolderQueryResult object to enumerate the folders or file groups in a location, you must get a [storageFolder](../windows.storage/storagefolder.md) that represents the location and then create a folder query.
 

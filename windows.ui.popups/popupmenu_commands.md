@@ -16,7 +16,7 @@ Gets the commands for the context menu.
 The commands for the context menu.
 
 ## -remarks
-You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample) on the [ sample home page](/samples/browse/).
+You can see complete code examples that demonstrate how to create and customize context menus in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample).
 
 ## -examples
 Add your commands to the context menu after you create a new [PopupMenu](popupmenu.md). Create a [UICommand](uicommand.md) object for each command and append the commands to the context menu.

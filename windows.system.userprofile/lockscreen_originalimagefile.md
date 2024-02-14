@@ -21,4 +21,4 @@ This property retrieves only files. If the image was set through a stream, this 
 ## -examples
 
 ## -see-also
-[LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.setImageFileAsync](lockscreen_setimagefileasync_1369237904.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](/previous-versions/windows/apps/hh779720(v=win.10)), [Personalization app sample](/samples/browse/)
+[LockScreen.getImageStream](lockscreen_getimagestream_155459607.md), [LockScreen.setImageFileAsync](lockscreen_setimagefileasync_1369237904.md), [LockScreen.setImageStreamAsync](lockscreen_setimagestreamasync_1444410973.md), [Lock screen overview](/previous-versions/windows/apps/hh779720(v=win.10)), [Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585)
