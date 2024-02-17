@@ -10,7 +10,8 @@ public class AudioCaptureEffectsManager : Windows.Media.Effects.IAudioCaptureEff
 # Windows.Media.Effects.AudioCaptureEffectsManager
 
 ## -description
-Represent an audio capture effects manager which can be used to discover the audio processing chain on a device for a specific media category and audio processing mode.
+
+Represents an audio capture effects manager which can be used to discover the audio processing chain on a device for a specific media category and audio processing mode.
 
 ## -remarks
 To create an instance of **AudioCaptureEffectsManager**, call [AudioEffectsManager.CreateAudioCaptureEffectsManager](audioeffectsmanager_createaudiocaptureeffectsmanager_1036225902.md). Or, you can get an instance of this class from an <xref:Windows.Media.Devices.AudioDeviceController> by accessing the <xref:Windows.Media.Devices.AudioDeviceController.AudioCaptureEffectsManager> property.
