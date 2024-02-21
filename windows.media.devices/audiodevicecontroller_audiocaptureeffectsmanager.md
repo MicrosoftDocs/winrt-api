@@ -12,7 +12,12 @@ public Windows.Media.Effects.AudioCaptureEffectsManager AudioCaptureEffectsManag
 
 ## -description
 
+Gets the <xref:Windows.Media.Effects.AudioCaptureEffectsManager> associated with the **AudioDeviceController**.
+
 ## -property-value
+
+An instance of **AudioCaptureEffectsManager**.
+
 
 ## -remarks
 
