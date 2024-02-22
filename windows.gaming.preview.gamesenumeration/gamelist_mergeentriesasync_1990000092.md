@@ -10,7 +10,7 @@ public IAsyncOperation<GameListEntry> GameList.MergeEntriesAsync(GameListEntry l
 # Windows.Gaming.Preview.GamesEnumeration.GameList.MergeEntriesAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Explicity merge two [GameListEntries](gamelistentry.md) to remove duplicates from the GameList. 
 
 ## -parameters
 ### -param left
@@ -20,6 +20,7 @@ This API is not available to all apps. Unless your developer account is speciall
 ## -returns
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

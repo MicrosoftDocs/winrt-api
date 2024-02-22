@@ -10,11 +10,12 @@ public Windows.Foundation.Collections.IMapView<string, object> Properties { get;
 # Windows.Gaming.Preview.GamesEnumeration.IGameListEntry.Properties
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Gets a collection of all properties that pertain to the [IGameListEntry](igamelistentry.md) object.
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

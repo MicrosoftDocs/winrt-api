@@ -10,11 +10,12 @@ public IReference<int> PercentGpuTimeAllocatedToGame { get;  set; }
 # Windows.Gaming.Preview.GamesEnumeration.GameModeConfiguration.PercentGpuTimeAllocatedToGame
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+The percentage of GPU time that will be dedicated to the game when Game Mode is enabled.
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

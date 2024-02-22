@@ -8,13 +8,14 @@ public delegate void GameListChangedEventHandler(Windows.Gaming.Preview.GamesEnu
 # Windows.Gaming.Preview.GamesEnumeration.GameListChangedEventHandler
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Returns the [GameListEntry](gamelistentry.md) that was added or updated to the [GameList](gamelist.md)
 
 ## -parameters
 ### -param game
 
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 
