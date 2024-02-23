@@ -11,10 +11,12 @@ public class GameControllerProviderInfo
 
 ## -description
 
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+> [!IMPORTANT]
+> Access to this class requires declaring the xboxAccessoryManagement capability
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

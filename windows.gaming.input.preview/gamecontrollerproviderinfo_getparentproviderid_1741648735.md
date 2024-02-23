@@ -11,7 +11,8 @@ public string GameControllerProviderInfo.GetParentProviderId(IGameControllerProv
 
 ## -description
 
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+> [!IMPORTANT]
+> Access to this API requires declaring the xboxAccessoryManagement capability
 
 ## -parameters
 
