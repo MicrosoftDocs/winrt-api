@@ -37,7 +37,7 @@
        "breadcrumb_path": "/uwp/api/breadcrumbs/toc.json",
        "feedback_system": "Standard",
        "feedback_product_url": "https://www.microsoft.com/windowsinsider/feedbackhub/fb",
-       "feedback_help_link_url": "https://learn.microsoft.com/answers/windows-app-sdk",
+       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/184/windows-app-sdk/",
        "feedback_help_link_type": "get-help-at-qna",
        "uhfHeaderId": "MSDocsHeader-WinDevCenter",
        "titleSuffix": "Windows UWP applications",
