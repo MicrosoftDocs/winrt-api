@@ -2,6 +2,7 @@ public void EnumerateControllerProperties()
 {
     foreach (Gamepad gamepad in Gamepad.Gamepads)
     {
+        // Create the provider
         LegacyGipGameControllerProvider legacyGipGameControllerProvider =
             LegacyGipGameControllerProvider.FromGameController(gamepad);
         if (legacyGipGameControllerProvider == null)
@@ -10,6 +11,7 @@ public void EnumerateControllerProperties()
             continue;
         }
 
+        // Check properties
         GameControllerBatteryChargingState chargeState =
             legacyGipGameControllerProvider.BatteryChargingState;
         GameControllerBatteryLevel batteryLevel =
@@ -20,6 +22,7 @@ public void EnumerateControllerProperties()
             legacyGipGameControllerProvider.GetDeviceFirmwareCorruptionState()
             != GameControllerFirmwareCorruptReason.NotCorrupt;
         bool isSynthetic = legacyGipGameControllerProvider.IsSyntheticDevice;
+        byte[] extendedDeviceInfo = legacyGipGameControllerProvider.GetExtendedDeviceInfo();
 
         // Check for a particular GIP interface
         bool supportsSomeCustomInterface =
@@ -31,5 +34,8 @@ public void EnumerateControllerProperties()
             legacyGipGameControllerProvider.PreferredTypes;
         bool isGamepad = preferredTypes.Contains("Windows.Xbox.Input.Gamepad");
         bool isHeadset = preferredTypes.Contains("Windows.Xbox.Input.Headset");
+
+        // Change the LED to half brightness
+        legacyGipGameControllerProvider.SetHomeLedIntensity(50);
     }
 }

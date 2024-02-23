@@ -7,8 +7,9 @@ public void SetupHeadset(IGameControllerProvider headsetProvider)
     legacyGipGameControllerProvider.ExecuteCommand(DeviceCommand.Reset);
 
     // Check the smart mute level
-    byte[] smartMuteValue =
+    byte[] smartMuteBuffer =
         legacyGipGameControllerProvider.GetHeadsetOperation(HeadsetOperation.SmartMute);
+    HeadsetLevel smartMuteValue = (HeadsetLevel)smartMuteBuffer[0];
 
     // Set bass boost to 3db
     byte[] bassBuffer = BitConverter.GetBytes((UInt32)3);

@@ -23,6 +23,10 @@ User to check the pairing for.
 
 Provider id for the controller to check for pairings.
 
+## -returns
+
+The id of the copilot controller if this controller is a pilot, null otherwise.
+
 ## -remarks
 
 ## -examples
