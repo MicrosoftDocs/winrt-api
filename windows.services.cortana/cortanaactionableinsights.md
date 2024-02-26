@@ -14,9 +14,6 @@ public class CortanaActionableInsights
 
 Derives contextual insights from images or text that let the user learn more about the content, or perform an action based on it.
 
-> [!IMPORTANT]
-> The CortanaActionableInsights APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
-
 ## -capabilities
 
 cortanaSurface

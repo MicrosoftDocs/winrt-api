@@ -14,8 +14,6 @@ public IAsyncAction CortanaActionableInsights.ShowInsightsAsync(DataPackage data
 
 Asynchronously retrieves and displays insights based on the specified text and image content.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -parameters
 
