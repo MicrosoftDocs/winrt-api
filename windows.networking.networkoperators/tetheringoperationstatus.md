@@ -41,6 +41,14 @@ The operation could not begin because Bluetooth or a required Bluetooth device i
 ### -field NetworkLimitedConnectivity:8
 The operation did not complete because of limited network connectivity.
 
+### -field AlreadyOn: 9
+The hotspot is already running.
+
+### -field RadioRestriction: 10
+Can't start at 6 GHz due to radio restrictions (2x2 + dual radio).
+
+### -field BandInterference: 11
+Can't start at 6 GHz because a 5 GHz connection interferes.
 
 ## -remarks
 
