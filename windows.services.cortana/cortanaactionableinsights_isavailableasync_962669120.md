@@ -14,8 +14,6 @@ public IAsyncOperation<bool> CortanaActionableInsights.IsAvailableAsync()
 
 Asynchronously retrieves whether insights can be generated on the user's current system.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -returns
 

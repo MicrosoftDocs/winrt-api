@@ -14,8 +14,7 @@ public string SurroundingText { get;  set; }
 
 Text from the surrounding context of the content supplied to [CortanaActionableInsights](cortanaactionableinsights.md) for showing insights.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
+
 
 ## -property-value
 

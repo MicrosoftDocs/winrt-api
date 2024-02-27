@@ -14,8 +14,6 @@ public Uri ContentSourceWebLink { get;  set; }
 
 A URI that identifies where the specified text or image content originated.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -property-value
 
