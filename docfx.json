@@ -38,7 +38,7 @@
        "feedback_system": "Standard",
        "feedback_product_url": "https://www.microsoft.com/windowsinsider/feedbackhub/fb",
        "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/184/windows-app-sdk/",
-       "feedback_help_link_type": "get-help-at-qna",
+       "feedback_help_link_type": "get-product-support",
        "uhfHeaderId": "MSDocsHeader-WinDevCenter",
        "titleSuffix": "Windows UWP applications",
        "hideEdit": "true",
