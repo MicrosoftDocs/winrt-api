@@ -14,6 +14,8 @@ public void EnumerateControllerProperties()
         // Check properties
         GameControllerBatteryChargingState chargeState =
             legacyGipGameControllerProvider.BatteryChargingState;
+        GameControllerBatteryKind batteryKind =
+            legacyGipGameControllerProvider.BatteryKind;
         GameControllerBatteryLevel batteryLevel =
             legacyGipGameControllerProvider.BatteryLevel;
         bool isOldFirmwareCorrupted =

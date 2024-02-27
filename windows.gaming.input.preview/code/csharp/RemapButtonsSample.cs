@@ -8,27 +8,6 @@ void RemapButtons(IGameController controller, IGameControllerProvider controller
         legacyGipGameControllerProvider.GetStandardControllerButtonRemapping(
             controller.User, false);
 
-    // Depending on the remapping button category a different type is
-    // expected (if present):
-    // ButtonSettings
-    //  A uint64 composed of 16 nibbles. Each nibble represents a button's assignment.
-    //  The standard assignment is: 0xfedcba9876543210
-    //
-    // AnalogSettings
-    //  A uint32 with the following effects
-    //  0x1 : Swaps triggers
-    //  0x2 : Swaps thumbsticks
-    //  0x4 : Inverts the left thumbstick
-    //  0x8 : Inverts the right thumbstick
-    //
-    //  The standard assignment is 0
-    //
-    // VibrationSettings
-    //  A uint32 with the following effects:
-    //  0x01 : Disables vibration
-    //
-    //  The standard assignment is 0
-
     // Swap two of the buttons
     Dictionary<RemappingButtonCategory, object> remaps =
         new Dictionary<RemappingButtonCategory, object>();
