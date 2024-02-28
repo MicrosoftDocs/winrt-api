@@ -16,6 +16,6 @@ public void CopilotSample(GipGameControllerProvider pilotProvider,
 
     // Removes the pairing for both controllers
     LegacyGipGameControllerProvider.ClearPairing(user, pilotId);
-    // Also removes the pairing for both controllers
+    // Also removes the pairing for both controllers (unnecessary since the pairing was already removed)
     LegacyGipGameControllerProvider.ClearPairing(user, copilotId);
 }

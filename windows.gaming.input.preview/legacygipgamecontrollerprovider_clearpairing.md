@@ -25,7 +25,7 @@ Provider id for the controller to remove from parings.
 
 ## -remarks
 
-Removes the given controller from any pairings where it is either a pilot or copilot for the given user. The controller does not need to be connected to be unpaired.
+Removes the given controller from any pairings where it is either a pilot or copilot for the given user. The controller does not need to be connected to be unpaired. Removing one controller from a pairing removes the pairing entirely &mdash; that is, if a controller is paired as a copilot to another controller, removing the copilot controller will also remove the pairing for the pilot controller and vice versa.
 
 > [!CAUTION]
 > Copilot pairing is system-wide and persistent for the given user. This should only be done at the user's direction.
