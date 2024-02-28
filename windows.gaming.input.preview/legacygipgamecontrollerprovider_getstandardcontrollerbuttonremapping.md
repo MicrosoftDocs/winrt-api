@@ -21,7 +21,7 @@ The user to get controller mappings for.
 
 ### -param previous
 
-<!-- TODO: What is this? -->
+```True``` if the mapping should be read from the inactive Previous store; ```false``` if the active mapping should be read.
 
 ## -returns
 
@@ -34,6 +34,8 @@ A dictionary matching each [RemappingButtonCategory](remappingbuttoncategory.md)
 |VibrationSettings  |A uint32 with the following effects: 0x01 : Disables vibration. The standard assignment is 0. |
 
 ## -remarks
+
+Normally, the ```previous``` parameter should be ```false```. This will read the current controller mapping. ```Previous``` may be used to read a mapping that was saved for later. For example, it may be useful to read a saved mapping to restore a previous state.
 
 > [!CAUTION]
 > Controller mapping is system-wide and persistent for the given user. This should only be done at the user's direction.

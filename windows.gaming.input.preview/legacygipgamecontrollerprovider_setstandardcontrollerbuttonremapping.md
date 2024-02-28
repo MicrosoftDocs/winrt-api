@@ -23,7 +23,7 @@ The user to remap the controller for.
 
 ### -param previous
 
-<!-- TODO: What is this? -->
+```True``` if the mapping should be stored in the inactive Previous store; ```false``` if the mapping should be applied.
 
 ### -param remapping
 
@@ -36,6 +36,8 @@ A dictionary matching each [RemappingButtonCategory](remappingbuttoncategory.md)
 |VibrationSettings  |A uint32 with the following effects: 0x01 : Disables vibration. The standard assignment is 0. |
 
 ## -remarks
+
+Normally, the ```previous``` parameter should be ```false```. This will apply the remapping. ```Previous``` may be used to save a mapping for later. For example, it may be useful to save the default mapping before applying a custom mapping, so that the default mapping can be restored later.
 
 > [!CAUTION]
 > Controller mapping is system-wide and persistent for the given user. This should only be done at the user's direction.
