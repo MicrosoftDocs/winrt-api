@@ -12,11 +12,17 @@ public Windows.Foundation.IAsyncOperation<bool> IsAuthenticationKindSupportedAsy
 
 ## -description
 
+Asynchronously gets a value indicating whether the Wi-Fi adapter allows configuring the tethering hotspot with a specific authentication kind. Similar to [NetworkOperatorTetheringAccessPointConfiguration.IsAuthenticationKindSupportedAsync](./networkoperatortetheringaccesspointconfiguration_isauthenticationkindsupportedasync_453305428.md).
+
 ## -parameters
 
 ### -param authenticationKind
 
+Specifies the authentication kind to query for.
+
 ## -returns
+
+An asynchronous operation object which, when it completes, contains the value `true` if the authentication kind is supported; otherwise, `false`.
 
 ## -remarks
 
@@ -24,4 +30,5 @@ public Windows.Foundation.IAsyncOperation<bool> IsAuthenticationKindSupportedAsy
 
 ## -examples
 
-
+## -capabilities
+wiFiControl

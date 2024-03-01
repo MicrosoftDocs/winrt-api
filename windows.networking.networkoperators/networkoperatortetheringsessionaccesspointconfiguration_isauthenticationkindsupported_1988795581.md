@@ -12,11 +12,17 @@ public bool IsAuthenticationKindSupported (Windows.Networking.NetworkOperators.T
 
 ## -description
 
+Gets a value indicating whether the Wi-Fi adapter allows configuring the tethering hotspot with a specific authentication kind. Similar to [NetworkOperatorTetheringAccessPointConfiguration.IsAuthenticationKindSupported](./networkoperatortetheringaccesspointconfiguration_isauthenticationkindsupported_1988795581.md).
+
 ## -parameters
 
 ### -param authenticationKind
 
+Specifies the authentication kind to query for.
+
 ## -returns
+
+`true` if the authentication kind is supported; otherwise, `false`.
 
 ## -remarks
 
@@ -24,4 +30,5 @@ public bool IsAuthenticationKindSupported (Windows.Networking.NetworkOperators.T
 
 ## -examples
 
-
+## -capabilities
+wiFiControl

@@ -12,10 +12,13 @@ public NetworkOperatorTetheringSessionAccessPointConfiguration ();
 
 ## -description
 
+Creates an instance of the [NetworkOperatorTetheringSessionAccessPointConfiguration](./networkoperatortetheringsessionaccesspointconfiguration.md).
+
 ## -remarks
 
 ## -see-also
 
 ## -examples
 
-
+## -capabilities
+wiFiControl
