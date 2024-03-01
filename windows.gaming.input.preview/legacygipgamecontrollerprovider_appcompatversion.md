@@ -21,6 +21,11 @@ The current app compat version of the GIP driver.
 
 The app compat version may be used to determine whether the GIP driver is new enough to support a given feature.
 
+Features supported as of each version:
+|Version  |Features  |
+|---------|---------|
+|2     |Initial release         |
+
 ## -see-also
 
 ## -examples

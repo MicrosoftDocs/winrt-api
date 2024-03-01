@@ -11,25 +11,25 @@ public enum Windows.Gaming.Input.Preview.HeadsetLevel : int
 
 ## -description
 
-Settings that can be read from or written to a headset that supports them.
+Indicates levels of variable settings like volume for headsets.
 
 ## -enum-fields
 
 ### -field Off:0
 
-Turns off the volume.
+The level is off.
 
 ### -field Low:1
 
-Sets the volume level to low.
+The level is low.
 
 ### -field Medium:2
 
-Sets the volume level to medium.
+The level is medium.
 
 ### -field High:3
 
-Sets the volume level to high.
+The level is high.
 
 ## -remarks
 

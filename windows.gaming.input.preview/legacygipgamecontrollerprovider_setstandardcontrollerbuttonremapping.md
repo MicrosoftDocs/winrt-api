@@ -37,6 +37,8 @@ A dictionary matching each [RemappingButtonCategory](remappingbuttoncategory.md)
 
 ## -remarks
 
+The order of the buttons for ButtonSettings from most significant to least significant is: Right Thumbstick, Left Thumbstick, Right Shoulder, Left Shoulder, DPad Right, DPad Left, DPad Down, DPad Up, Y, X, B, A, View, Menu, Guide, and Bind.
+
 Normally, the ```previous``` parameter should be ```false```. This will apply the remapping. ```Previous``` may be used to save a mapping for later. For example, it may be useful to save the default mapping before applying a custom mapping, so that the default mapping can be restored later.
 
 > [!CAUTION]
