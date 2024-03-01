@@ -19,7 +19,7 @@ Instances of the **ArcadeStick** class cannot be created directly; instead, inst
 
 ### Supported Devices
 
-**ArcadeStick** supports any Xbox One-certified or Xbox 360-compatible arcade stick.
+**ArcadeStick** supports any GIP or XUSB arcade stick.
 
 ### Version history
 
