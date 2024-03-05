@@ -1,6 +1,5 @@
 ---
--api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.SetStandardControllerButtonRemapping(Windows.System.User, bool, IReadOnlyDictionary<RemappingButtonCategory, Object>
-)
+-api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.SetStandardControllerButtonRemapping(Windows.System.User, bool, IReadOnlyDictionary<RemappingButtonCategory, Object>)
 -api-type: winrt method
 ---
 
