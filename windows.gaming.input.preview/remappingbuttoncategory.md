@@ -3,11 +3,13 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.RemappingButtonCategory : int
+# Windows.Gaming.Input.Preview.RemappingButtonCategory
+
+<!--
+public enum RemappingButtonCategory
 -->
 
-# RemappingButtonCategory
+# RemappingButtonCategory enum
 
 ## -description
 
@@ -15,51 +17,51 @@ Types of gamepad remapping.
 
 ## -enum-fields
 
-### -field ButtonSettings:0
+### -field ButtonSettings: 0
 
 Used to remap buttons.
 
-### -field AnalogSettings:1
+### -field AnalogSettings: 1
 
 Used to swap analog controls.
 
-### -field VibrationSettings:2
+### -field VibrationSettings: 2
 
 Used to disable vibration.
 
-### -field ShareShortPress:3
+### -field ShareShortPress: 3
 
 Not implemented.
 
-### -field ShareShortPressMetaData:4
+### -field ShareShortPressMetaData: 4
 
 Not implemented.
 
-### -field ShareShortPressMetaDataDisplay:5
+### -field ShareShortPressMetaDataDisplay: 5
 
 Not implemented.
 
-### -field ShareLongPress:6
+### -field ShareLongPress: 6
 
 Not implemented.
 
-### -field ShareLongPressMetaData:7
+### -field ShareLongPressMetaData: 7
 
 Not implemented.
 
-### -field ShareLongPressMetaDataDisplay:8
+### -field ShareLongPressMetaDataDisplay: 8
 
 Not implemented.
 
-### -field ShareDoublePress:9
+### -field ShareDoublePress: 9
 
 Not implemented.
 
-### -field ShareDoublePressMetaData:10
+### -field ShareDoublePressMetaData: 10
 
 Not implemented.
 
-### -field ShareDoublePressMetaDataDisplay:11
+### -field ShareDoublePressMetaDataDisplay: 11
 
 Not implemented.
 
@@ -67,6 +69,8 @@ Not implemented.
 
 > [!CAUTION]
 > Controller mapping is system-wide and persistent for the given user. This should only be done at the user's direction.
+
+## -see-also
 
 ## -examples
 
