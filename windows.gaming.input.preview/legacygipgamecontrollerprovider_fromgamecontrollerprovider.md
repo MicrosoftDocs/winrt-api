@@ -1,5 +1,5 @@
 ---
--api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.FromGameControllerProvider(Windows.Gaming.Input.Custom.IGameControllerProvider)
+-api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.FromGameControllerProvider(Windows.Gaming.Input.IGameControllerProvider)
 -api-type: winrt method
 ---
 

@@ -1,13 +1,13 @@
 ---
--api-id: T:Windows.Gaming.Input.Custom.LegacyGipGameControllerProvider
+-api-id: T:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider
 -api-type: winrt class
 ---
 
-<!-- Class syntax.
-public class LegacyGipGameControllerProvider : Windows.Gaming.Input.Preview.ILegacyGipGameControllerProvider
--->
-
 # Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider
+
+<!--
+public sealed class LegacyGipGameControllerProvider
+-->
 
 ## -description
 
