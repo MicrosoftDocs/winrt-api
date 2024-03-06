@@ -15,7 +15,7 @@ Types of gamepad remapping.
 
 ## -enum-fields
 
-### -field ButtonsSettings:0
+### -field ButtonSettings:0
 
 Used to remap buttons.
 
