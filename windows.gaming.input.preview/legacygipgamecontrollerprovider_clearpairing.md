@@ -1,13 +1,13 @@
 ---
--api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.ClearPairing(Windows.System.User, System.String)
+-api-id: M:Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.ClearPairing(Windows.System.User,System.String)
 -api-type: winrt method
 ---
 
-<!-- Method syntax.
-public void LegacyGipGameControllerProvider.ClearPairing(User user, string controllerProviderId)
--->
+# Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.ClearPairing(Windows.System.User,System.String)
 
-# Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.ClearPairing
+<!--
+public static void ClearPairing (Windows.System.User user, string controllerProviderId);
+-->
 
 ## -description
 
