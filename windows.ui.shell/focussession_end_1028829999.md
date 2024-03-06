@@ -19,8 +19,6 @@ Ends the focus session.
 
 ## -remarks
 
-This method is a limited access feature which require specific approval to be used in an application. For more information, see [LimitedAccessFeatures](xref:Windows.ApplicationModel.LimitedAccessFeatures).
-
 ## -see-also
 
 ## -examples
