@@ -3,18 +3,16 @@
 -api-type: winrt namespace
 ---
 
-<!-- Namespace syntax.
-namespace Windows.Gaming.Input.Preview 
--->
-
 # Windows.Gaming.Input.Preview
 
 ## -description
 
-> [!IMPORTANT]
-> Access to this namespace requires declaring the xboxAccessoryManagement capability
+Provides APIs that support functionality for legacy gaming devices.
 
 ## -remarks
+
+> [!IMPORTANT]
+> Access to this namespace requires declaring the xboxAccessoryManagement capability
 
 ## -see-also
 

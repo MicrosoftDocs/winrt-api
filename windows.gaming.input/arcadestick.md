@@ -19,7 +19,7 @@ Instances of the **ArcadeStick** class cannot be created directly; instead, inst
 
 ### Supported Devices
 
-**ArcadeStick** supports any GIP or XUSB arcade stick.
+**ArcadeStick** supports any GIP (Gaming Input Protocol) or XUSB arcade stick.
 
 ### Version history
 

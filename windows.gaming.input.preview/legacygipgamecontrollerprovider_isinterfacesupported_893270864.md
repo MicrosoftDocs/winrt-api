@@ -11,7 +11,7 @@ public bool IsInterfaceSupported (Guid interfaceId);
 
 ## -description
 
-Queries whether the given GIP interface guid is supported by the controller.
+Queries whether the given GIP (Gaming Input Protocol) interface guid is supported by the controller.
 
 ## -parameters
 

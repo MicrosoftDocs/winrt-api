@@ -27,7 +27,7 @@ See [Flight stick](/windows/uwp/gaming/flight-stick) for more information about 
 
 ### Supported Devices
 
-**FlightStick** supports any GIP or XUSB flight stick.
+**FlightStick** supports any GIP (Gaming Input Protocol) or XUSB flight stick.
 
 ## -see-also
 

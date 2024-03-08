@@ -3,11 +3,11 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.GameControllerBatteryLevel : int
--->
+# Windows.Gaming.Input.Preview.GameControllerBatteryLevel
 
-# GameControllerBatteryLevel
+<!--
+public enum GameControllerBatteryLevel
+-->
 
 ## -description
 

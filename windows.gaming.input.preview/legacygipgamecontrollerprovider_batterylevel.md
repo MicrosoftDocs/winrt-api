@@ -3,11 +3,11 @@
 -api-type: winrt property
 ---
 
-<!-- Property syntax.
-public GameControllerBatteryLevel BatteryLevel { get; }
--->
-
 # Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.BatteryLevel
+
+<!--
+public Windows.Gaming.Input.Preview.GameControllerBatteryLevel BatteryLevel { get; }
+-->
 
 ## -description
 

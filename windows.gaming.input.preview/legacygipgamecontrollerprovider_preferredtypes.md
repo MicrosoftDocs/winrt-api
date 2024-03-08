@@ -3,15 +3,15 @@
 -api-type: winrt property
 ---
 
-<!-- Property syntax.
-public IReadOnlyList<string> PreferredTypes { get; }
--->
-
 # Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.PreferredTypes
+
+<!--
+public System.Collections.Generic.IReadOnlyList<string> PreferredTypes { get; }
+-->
 
 ## -description
 
-Gets the set of GIP types reported by the controller.
+Gets the set of GIP (Gaming Input Protocol) types reported by the controller.
 
 ## -property-value
 
