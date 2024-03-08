@@ -3,11 +3,11 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.GameControllerBatteryKind : int
--->
+# Windows.Gaming.Input.Preview.GameControllerBatteryKind
 
-# GameControllerBatteryKind
+<!--
+public enum GameControllerBatteryKind
+-->
 
 ## -description
 

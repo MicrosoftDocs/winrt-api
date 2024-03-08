@@ -11,6 +11,8 @@ public string GameControllerProviderInfo.GetProviderId(IGameControllerProvider p
 
 ## -description
 
+Retrieves the persistent ID of a physical game controller connected to the system using GIP.SYS.
+
 > [!IMPORTANT]
 > Access to this class requires declaring the xboxAccessoryManagement capability
 
@@ -18,10 +20,16 @@ public string GameControllerProviderInfo.GetProviderId(IGameControllerProvider p
 
 ### -param provider
 
+A physical game controller device connected to the system.
+
 ## -returns
+
+The persistent ID of a physical game controller.
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+
+

@@ -11,7 +11,7 @@ public void ExecuteCommand (Windows.Gaming.Input.Preview.DeviceCommand command);
 
 ## -description
 
-Executes a command on a legacy GIP headset.
+Executes a command on a legacy GIP (Gaming Input Protocol) headset.
 
 ## -parameters
 

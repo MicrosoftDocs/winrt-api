@@ -3,15 +3,15 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.DeviceCommand : int
--->
+# Windows.Gaming.Input.Preview.DeviceCommand
 
-# DeviceCommand
+<!--
+public enum DeviceCommand
+-->
 
 ## -description
 
-Commands that can be executed on a GIP headset.
+Commands that can be executed on a GIP (Gaming Input Protocol) headset.
 
 ## -enum-fields
 

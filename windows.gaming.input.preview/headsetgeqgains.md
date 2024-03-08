@@ -3,11 +3,11 @@
 -api-type: winrt struct
 ---
 
-<!-- Structure syntax.
-public struct HeadsetGeqGains 
--->
+# Windows.Gaming.Input.Preview.HeadsetGeqGains
 
-# HeadsetGeqGains
+<!--
+public struct HeadsetGeqGains
+-->
 
 ## -description
 

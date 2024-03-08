@@ -15,7 +15,7 @@ Retrieves identification information for the device.
 
 ## -returns
 
-An array of GIP device information provided by the device.
+An array of GIP (Gaming Input Protocol) device information provided by the device.
 
 ## -remarks
 

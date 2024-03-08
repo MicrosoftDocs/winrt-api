@@ -11,6 +11,8 @@ public string GameControllerProviderInfo.GetParentProviderId(IGameControllerProv
 
 ## -description
 
+Retrieves the persistent ID of the parent device of a physical game controller connected to the system using GIP.SYS.
+
 > [!IMPORTANT]
 > Access to this API requires declaring the xboxAccessoryManagement capability
 
@@ -18,7 +20,11 @@ public string GameControllerProviderInfo.GetParentProviderId(IGameControllerProv
 
 ### -param provider
 
+A physical game controller device connected to the system.
+
 ## -returns
+
+The persistent ID of the parent device of a physical game controller.
 
 ## -remarks
 

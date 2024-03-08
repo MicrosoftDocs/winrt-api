@@ -3,11 +3,11 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.HeadsetLevel : int
--->
+# Windows.Gaming.Input.Preview.HeadsetLevel
 
-# HeadsetLevel
+<!--
+public enum HeadsetLevel
+-->
 
 ## -description
 

@@ -3,15 +3,15 @@
 -api-type: winrt property
 ---
 
-<!-- Property syntax.
+# Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.AppCompatVersion
+
+<!--
 public uint AppCompatVersion { get; }
 -->
 
-# Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.AppCompatVersion
-
 ## -description
 
-Gets the app compat version reported by the GIP driver.
+Gets the app compat version reported by the GIP (Gaming Input Protocol) driver.
 
 ## -property-value
 
@@ -22,6 +22,7 @@ The current app compat version of the GIP driver.
 The app compat version may be used to determine whether the GIP driver is new enough to support a given feature.
 
 Features supported as of each version:
+
 |Version  |Features  |
 |---------|---------|
 |2     |Initial release         |

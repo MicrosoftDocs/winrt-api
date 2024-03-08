@@ -3,11 +3,11 @@
 -api-type: winrt property
 ---
 
-<!-- Property syntax.
-public GameControllerBatteryKind BatteryKind { get; }
--->
-
 # Windows.Gaming.Input.Preview.LegacyGipGameControllerProvider.BatteryKind
+
+<!--
+public Windows.Gaming.Input.Preview.GameControllerBatteryKind BatteryKind { get; }
+-->
 
 ## -description
 

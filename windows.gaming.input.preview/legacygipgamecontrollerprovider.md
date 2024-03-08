@@ -11,7 +11,7 @@ public sealed class LegacyGipGameControllerProvider
 
 ## -description
 
-Exposes a set of properties and functionality for administering gaming accessories, such as gamepads and headsets, that use the GIP protocol.
+Exposes a set of properties and functionality for administering gaming accessories, such as gamepads and headsets, that use the GIP (Gaming Input Protocol) protocol.
 
 > [!IMPORTANT]
 > Access to this class requires declaring the xboxAccessoryManagement capability

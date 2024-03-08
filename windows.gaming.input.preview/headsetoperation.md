@@ -3,11 +3,11 @@
 -api-type: winrt enum
 ---
 
-<!-- Enumeration syntax
-public enum Windows.Gaming.Input.Preview.HeadsetOperation : int
--->
+# Windows.Gaming.Input.Preview.HeadsetOperation
 
-# HeadsetOperation
+<!--
+public enum HeadsetOperation
+-->
 
 ## -description
 
@@ -49,5 +49,6 @@ Controls whether the mix and volume dials are in-place or swapped. The buffer mu
 :::code language="csharp" source="code/csharp/HeadsetManagementSample.cs":::
 
 ## -see-also
+
 [GetHeadsetOperation](legacygipgamecontrollerprovider_GetHeadsetOperation.md)
 [SetHeadsetOperation](legacygipgamecontrollerprovider_SetHeadsetOperation.md)

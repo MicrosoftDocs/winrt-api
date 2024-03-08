@@ -21,7 +21,7 @@ Controller to construct a LegacyGipGameControllerProvider for.
 
 ## -returns
 
-A LegacyGipGameControllerProvider if the controller is a GIP controller. Null if the controller is not a GIP controller.
+A LegacyGipGameControllerProvider if the controller is a GIP (Gaming Input Protocol) controller. Null if the controller is not a GIP controller.
 
 ## -remarks
 
