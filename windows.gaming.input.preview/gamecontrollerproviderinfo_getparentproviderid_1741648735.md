@@ -1,13 +1,13 @@
 ---
--api-id: M:Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId(Windows.Gaming.Input.IGameControllerProvider)
+-api-id: M:Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId(Windows.Gaming.Input.Custom.IGameControllerProvider)
 -api-type: winrt method
 ---
 
-<!-- Method syntax.
-public string GameControllerProviderInfo.GetParentProviderId(IGameControllerProvider provider)
--->
+# Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId(Windows.Gaming.Input.Custom.IGameControllerProvider)
 
-# Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId
+<!--
+public static string GetParentProviderId (Windows.Gaming.Input.Custom.IGameControllerProvider provider);
+-->
 
 ## -description
 
