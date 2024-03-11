@@ -10,7 +10,7 @@ public class GipGameControllerProvider : Windows.Gaming.Input.Custom.IGameContro
 # Windows.Gaming.Input.Custom.GipGameControllerProvider
 
 ## -description
-Represents a physical game controller connected to the system using GIP.SYS (for Xbox One accesories).
+Represents a physical game controller connected to the system using GIP.SYS.
 
 ## -remarks
 

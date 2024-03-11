@@ -10,7 +10,7 @@ public IAsyncOperation<GameListEntry>> GameList.UnmergeEntryAsync(GameListEntry 
 # Windows.Gaming.Preview.GamesEnumeration.GameList.UnmergeEntryAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Unmerge a [GameListEntry](gamelistentry.md) if previously combined. The [GameListEntry’s](gamelistentry.md) may be remerged in the new enumeration call. 
 
 ## -parameters
 ### -param mergedEntry
@@ -18,6 +18,7 @@ This API is not available to all apps. Unless your developer account is speciall
 ## -returns
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

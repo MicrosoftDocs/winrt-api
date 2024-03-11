@@ -17,7 +17,7 @@ For background info, see [Bluetooth](/windows/uwp/devices-sensors/bluetooth). Fo
 
 ## -see-also
 
-[Apps for Bluetooth Smart Devices devices (Video)](https://go.microsoft.com/fwlink/p/?LinkID=317799), [Bluetooth Generic Attribute Profile - Heart Rate Service (Windows 8.1) Sample](/samples/browse/), [Bluetooth](/windows/uwp/devices-sensors/bluetooth), [How to specify device capabilities for Bluetooth](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Bluetooth low energy sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BluetoothLE)
+[Apps for Bluetooth Smart Devices devices (Video)](https://go.microsoft.com/fwlink/p/?LinkID=317799), [Bluetooth Generic Attribute Profile - Heart Rate Service (Windows 8.1) Sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Bluetooth%20Generic%20Attribute%20Profile%20-%20Heart%20Rate%20Service), [Bluetooth](/windows/uwp/devices-sensors/bluetooth), [How to specify device capabilities for Bluetooth](/uwp/schemas/appxpackage/how-to-specify-device-capabilities-for-bluetooth), [Bluetooth low energy sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BluetoothLE)
 
 ## -capabilities
 bluetooth

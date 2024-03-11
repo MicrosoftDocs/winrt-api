@@ -36,7 +36,6 @@ if (Boolean(canSignOut)){
 
 ```
 
-
-
 ## -see-also
-[Windows Account Authorization sample](/samples/browse/)
+
+[Windows Account Authorization sample](https://github.com/microsoft/VCSamples/tree/9e1d4475555b76a17a3568369867f1d7b6cc6126/VC2012Samples/Windows%208%20samples/C%2B%2B/Windows%208%20app%20samples/Windows%20account%20authorization%20sample%20(Windows%208))

@@ -10,9 +10,10 @@ public class GameListEntry : Windows.Gaming.Preview.GamesEnumeration.IGameListEn
 # Windows.Gaming.Preview.GamesEnumeration.GameListEntry
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Provides a game's display info such as its display info, launch parameters, and game mode configuration, category and a method to launch the game. 
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ### Version history
 

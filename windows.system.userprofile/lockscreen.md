@@ -53,4 +53,4 @@ auto imageStream = Windows::System::UserProfile::LockScreen::GetImageStream();
 
 ## -see-also
 
-[Lock screen overview](/previous-versions/windows/apps/hh779720(v=win.10)), [Personalization app sample](/samples/browse/), [Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585)
+[Lock screen overview](/previous-versions/windows/apps/hh779720(v=win.10)), [Lock screen personalization sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620585)

@@ -3,17 +3,16 @@
 -api-type: winrt namespace
 ---
 
-<!-- Namespace syntax.
-namespace Windows.Gaming.Input.Preview 
--->
-
 # Windows.Gaming.Input.Preview
 
 ## -description
 
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Provides APIs that support functionality for legacy gaming devices.
 
 ## -remarks
+
+> [!IMPORTANT]
+> Access to this namespace requires declaring the xboxAccessoryManagement capability
 
 ## -see-also
 

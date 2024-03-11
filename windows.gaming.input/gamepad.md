@@ -19,7 +19,7 @@ Instances of the **Gamepad** class cannot be created directly; instead, instance
 
 ### Supported Devices
 
-**Gamepad** supports any Xbox One certified or Xbox 360 compatible gamepad.
+**Gamepad** supports any GIP (Gaming Input Protocol) or XUSB compatible gamepad.
 
 ### Version history
 

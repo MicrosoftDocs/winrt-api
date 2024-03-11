@@ -10,11 +10,12 @@ public bool IsEnabled { get;  set; }
 # Windows.Gaming.Preview.GamesEnumeration.GameModeConfiguration.IsEnabled
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+The associated [GameListEntry](gamelistentry.md) is enabled for Game Mode
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

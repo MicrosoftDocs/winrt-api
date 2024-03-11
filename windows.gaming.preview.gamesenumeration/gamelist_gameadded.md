@@ -10,9 +10,10 @@ static public event Windows.Gaming.Preview.GamesEnumeration.GameListChangedEvent
 # Windows.Gaming.Preview.GamesEnumeration.GameList.GameAdded
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Indicates that a new [GameListEntry](gamelistentry.md) has been added to the [GameList](gamelist.md).
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

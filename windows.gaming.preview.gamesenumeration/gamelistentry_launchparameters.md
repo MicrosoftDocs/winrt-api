@@ -10,11 +10,12 @@ public string LaunchParameters { get; }
 # Windows.Gaming.Preview.GamesEnumeration.GameListEntry.LaunchParameters
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+The game’s current launch parameters.
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

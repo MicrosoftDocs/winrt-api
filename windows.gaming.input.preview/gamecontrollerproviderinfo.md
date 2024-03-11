@@ -3,18 +3,22 @@
 -api-type: winrt class
 ---
 
-<!-- Class syntax.
-public class GameControllerProviderInfo 
--->
-
 # Windows.Gaming.Input.Preview.GameControllerProviderInfo
+
+<!--
+public static class GameControllerProviderInfo
+-->
 
 ## -description
 
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Provides info on a physical game controller connected to the system using GIP.SYS.
+
+> [!IMPORTANT]
+> Access to this class requires declaring the xboxAccessoryManagement capability
 
 ## -remarks
 
 ## -see-also
 
 ## -examples
+

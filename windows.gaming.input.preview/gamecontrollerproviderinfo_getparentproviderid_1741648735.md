@@ -3,21 +3,28 @@
 -api-type: winrt method
 ---
 
-<!-- Method syntax.
-public string GameControllerProviderInfo.GetParentProviderId(IGameControllerProvider provider)
--->
+# Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId(Windows.Gaming.Input.Custom.IGameControllerProvider)
 
-# Windows.Gaming.Input.Preview.GameControllerProviderInfo.GetParentProviderId
+<!--
+public static string GetParentProviderId (Windows.Gaming.Input.Custom.IGameControllerProvider provider);
+-->
 
 ## -description
 
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Retrieves the persistent ID of the parent device of a physical game controller connected to the system using GIP.SYS.
+
+> [!IMPORTANT]
+> Access to this API requires declaring the xboxAccessoryManagement capability
 
 ## -parameters
 
 ### -param provider
 
+A physical game controller device connected to the system.
+
 ## -returns
+
+The persistent ID of the parent device of a physical game controller.
 
 ## -remarks
 
