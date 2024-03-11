@@ -15,7 +15,7 @@ Enumerate the scheme handlers on the device.
 
 ## -parameters
 ### -param scheme
-The scheme name that you find to find handlers for. For example, "ms-lens".
+The scheme name that you want to find handlers for. For example, "ms-lens".
 
 ## -returns
 A list of [AppInfo](../windows.applicationmodel/appinfo.md)s for each application that handles the specified scheme.
