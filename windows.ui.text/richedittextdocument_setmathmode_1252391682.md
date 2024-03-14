@@ -14,7 +14,7 @@ public void RichEditTextDocument.SetMathMode(RichEditMathMode mode)
 Configures a [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) to interpret input based on the specified math mode.
 
 > [!IMPORTANT]
-> The math mode APIs are a limited access feature. Please contact [richeditmathml@microsoft.com](mailto:richeditmathml@microsoft.com) for more info, or to request an unlock token.
+> **Windows 11, version 23H2 and earlier:** the math mode APIs are a limited access feature. Please contact [richeditmathml@microsoft.com](mailto:richeditmathml@microsoft.com) for more info, or to request an unlock token.
 
 ## -parameters
 
