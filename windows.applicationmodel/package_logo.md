@@ -17,7 +17,7 @@ The logo of the package.
 
 ## -remarks
 
-This property is intended for use by [packaged](/windows/apps/package-and-deploy/) apps. On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Logo** will throw an exception.
+On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Logo** will throw an exception.
 
 ## -examples
 
