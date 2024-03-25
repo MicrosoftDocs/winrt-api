@@ -14,6 +14,7 @@ public enum Windows.Devices.Enumeration.DevicePairingKinds : uint
 Indicates the kinds of pairing supported by your application or requested by the system. As an input value, use this value to indicate what kinds of pairing your application supports. When this datatype is received as an output value, it indicates the kind of pairing requested by the system. In this case, your code will need to respond accordingly.
 
 ## -enum-fields
+
 ### -field None:0
 No pairing is supported.
 
@@ -31,6 +32,10 @@ The application must display the given PIN to the user and ask the user to confi
 
 ### -field ProvidePasswordCredential:16
 The application must request a user name and password from the user. With a value of **ProvidePasswordCredential**, call [AcceptWithPasswordCredential](devicepairingrequestedeventargs_acceptwithpasswordcredential_1073078053.md) from the event args of the [PairingRequested](deviceinformationcustompairing_pairingrequested.md) event handler to accept the pairing. Pass in the [PasswordCredential](../windows.security.credentials/passwordcredential.md) that encapsulates the user name and password as a parameter.
+
+### -field ProvideAddress:32
+
+TBD
 
 ## -remarks
 This value is a collection of flags. It is possible to have multiple values set for a single pairing action.

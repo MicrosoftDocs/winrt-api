@@ -71,6 +71,10 @@ The [DeviceInformation](deviceinformation.md) object represents a single physica
 
 The [Id](deviceinformation_id.md) for this object as a string.
 
+### -field AssociationEndpointProtocol:9
+
+TBD
+
 ## -remarks
 
 A **DeviceInformationKind** value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](/windows/uwp/devices-sensors/enumerate-devices).

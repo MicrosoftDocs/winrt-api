@@ -56,6 +56,10 @@ The [PnpObject](pnpobject.md) represents an association endpoint service.
 
 The [PnpObject](pnpobject.md) represents a device input panel.
 
+### -field AssociationEndpointProtocol: 9
+
+TBD
+
 ## -remarks
 
 ### Version history
