@@ -12,11 +12,11 @@ public Windows.Devices.Enumeration.DevicePairingAddPairingSetMemberStatus Status
 
 ## -description
 
-TBD. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
+Gets a status value describing the result of adding member(s) to a pairing set. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
 
 ## -property-value
 
-TBD
+A status value describing the result of adding member(s) to a pairing set.
 
 ## -remarks
 

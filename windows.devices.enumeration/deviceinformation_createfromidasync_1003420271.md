@@ -30,7 +30,9 @@ The type of [DeviceInformation](deviceinformation.md) object that you want to cr
 
 ### -param settings
 
-Enumeration settings come from a device API's **GetDeviceEnumerationSettings** method, and contain opaque data. An object implementing this must also implement the **IDeviceEnumerationSettings** interface.
+The argument passed in *settings* is an object that implements **IDeviceEnumerationSettings**; but otherwise, the object is of an opaque marker class (that is, it has no public properties or methods). The purpose of *settings* is to retrieve extended parameters from a device-specific API for device-specific scenarios that aren't possible in the standard WDE API. You can think of the parameters like extra knobs that the API surface doesn't allow.
+
+The *settings* object would come from a device API's **GetDeviceEnumerationSettings** method, and would contain opaque data. But currently there are no APIs that produce the object.
 
 ## -returns
 

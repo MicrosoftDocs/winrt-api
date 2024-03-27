@@ -16,7 +16,7 @@ public enum Windows.Devices.Enumeration.Pnp.PnpObjectType : int
 >
 > The alternative to **PnpObjectType** is the [Windows.Devices.Enumeration.DeviceInformationKind](/uwp/api/windows.devices.enumeration.deviceinformationkind) enum, which you can pass as a parameter to **Windows.Devices.Enumeration** APIs. For example, instead of using **PnpObjectType** when you create a **PnpObjectWatcher**, use **DeviceInformationKind** when you create a [DeviceWatcher](/uwp/api/windows.devices.enumeration.devicewatcher).
 
-Indicates the type of device represented by the [PnpObject](pnpobject.md).
+Defines constants that specify the type of device represented by the [PnpObject](pnpobject.md).
 
 ## -enum-fields
 
@@ -58,7 +58,7 @@ The [PnpObject](pnpobject.md) represents a device input panel.
 
 ### -field AssociationEndpointProtocol: 9
 
-TBD
+Specifies that the [PnpObject](pnpobject.md) represents an association endpoint protocol.
 
 ## -remarks
 

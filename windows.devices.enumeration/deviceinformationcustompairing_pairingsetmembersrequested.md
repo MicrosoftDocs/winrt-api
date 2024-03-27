@@ -12,7 +12,7 @@ public event Windows.Foundation.TypedEventHandler<Windows.Devices.Enumeration.De
 
 ## -description
 
-TBD. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
+Raised when the member(s) of a pairing set have been requested. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
 
 ## -remarks
 

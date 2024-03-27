@@ -18,7 +18,7 @@ Accepts a [PairingRequested](deviceinformationcustompairing_pairingrequested.md)
 
 ### -param address
 
-TBD
+Your app must provide an address from the device. This is typically used for directed discovery over a network protocol such as IPP or UPnP, where the application already knows the IP/address/URL of the device. You should call **AcceptWithAddress** if you want the pairing to complete. Pass in the address as a parameter.
 
 ## -remarks
 

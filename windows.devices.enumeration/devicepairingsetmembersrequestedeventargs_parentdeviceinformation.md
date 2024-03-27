@@ -12,13 +12,17 @@ public Windows.Devices.Enumeration.DeviceInformation ParentDeviceInformation { g
 
 ## -description
 
-Gets TBD. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
+Gets the primary device/endpoint of the set. For more info, and code examples, see [Pairing a set with the DeviceInformationPairing.Custom property](/windows/uwp/devices-sensors/pairing-a-set).
 
 ## -property-value
 
-TBD
+An object representing the primary device/endpoint of the set.
 
 ## -remarks
+
+In the case of Bluetooth LE, if you'd started by pairing the left earbud, then **ParentDeviceInformation** would be that earbud.
+
+In the case of IPP, if you'd you started pairing the WSD device (and added the others), then **ParentDeviceInformation** would be the WSD device.
 
 ## -see-also
 
