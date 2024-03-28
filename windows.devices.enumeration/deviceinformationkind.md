@@ -73,37 +73,9 @@ The [Id](deviceinformation_id.md) for this object as a string.
 
 ### -field AssociationEndpointProtocol:9
 
-Specifies that the [DeviceInformation](deviceinformation.md) object represents a protocol through which association endpoints (AEPs) can be discovered. You can scope an association endpoint discovery to specific protocols by using the protocol ID. For example, the following selector scopes discovery to Bluetooth LE or Bluetooth Classic.
+The [DeviceInformation](deviceinformation.md) object represents a protocol through which association endpoints (AEPs) can be discovered. You can scope an association endpoint discovery to specific protocols by using the protocol ID. For example, the following selector scopes discovery to Bluetooth LE or Bluetooth Classic.
 
-`System.Devices.Aep.ProtocolId:="{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}"` or `DEVPKEY_Aep_ProtocolId:="{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}"`.
-
-System.Devices.Aep.ProtocolId is the protocol's name in propsys; and DEVPKEY_Aep_ProtocolId is the Win32 DEVPKEY.
-
-Here's a representative example of what enumerating a protocol looks like, and how it matches up to the AEP properties (with annotations inside square brackets).
-
-```console
-> pairtool /enum-protocols
-...
-Protocol ID:                Bluetooth [DEVPKEY_Aep_ProviderName]
-Protocol Provider Name:     Bluetooth
-Protocol Name:              Bluetooth Classic
-Universal Protocol ID:      {e0cbf06c-cd8b-4647-bb8a-263b43f0f974} [DEVPKEY_Aep_ProtocolId // <propertyDescription name="System.Devices.Aep.ProtocolId" formatID="{3B2CE006-5E61-4FDE-BAB8-9B8AAC9B26DF}" propID="5">]
-Protocol Provider Class ID: {4aa383d6-337a-43d3-a3fa-c14b26004130}
-
-Protocol ID:                BluetoothLE [DEVPKEY_Aep_ProviderName]
-Protocol Provider Name:     BluetoothLE
-Protocol Name:              Bluetooth Low Energy
-Universal Protocol ID:      {bb7bb05e-5972-42b5-94fc-76eaa7084d49} [DEVPKEY_Aep_ProtocolId]
-Protocol Provider Class ID: {0829c308-d361-49f4-828b-506d552029ef} 
-...
-> pairtool /enum-endpoints
-
-BluetoothLE#BluetoothLEdc:46:28:6a:16:01-20:4c:03:45:07:ca
-  1)DEVPKEY_Aep_ContainerId [SYS] (null) DEVPROP_TYPE_GUID 16 {72888bff-567a-54f9-861a-73a3f2df469c} 
-...
-  30)DEVPKEY_Aep_ProviderName [SYS] (null) DEVPROP_TYPE_STRING 24 "BluetoothLE"
-  33)DEVPKEY_Aep_ProtocolId [SYS] (null) DEVPROP_TYPE_GUID 16 {bb7bb05e-5972-42b5-94fc-76eaa7084d49}
-```
+See **Remarks** for more info.
 
 ## -remarks
 
@@ -133,9 +105,42 @@ Here's another example; this time of a Bluetooth headset. The devnode is selecte
 
 <img src="images/example_4.png" alt="X" />
 
-Lastly, Here's an example of a devnode that shows what panel it belongs to, together with its Id. The panel represents the USB ports on the top of a personal computer's chassis. This illustrates the relationship between **DevicePanel** (at the top of the illustration) and **Device** (or devnode; at the bottom of the illustration). Devnodes and device interfaces can have a *System.Devices.Panel.PanelId* property value. You can then use that value to find a **DevicePanel** object whose core Id matches the value.
+And here's an example of a devnode that shows what panel it belongs to, together with its Id. The panel represents the USB ports on the top of a personal computer's chassis. This illustrates the relationship between **DevicePanel** (at the top of the illustration) and **Device** (or devnode; at the bottom of the illustration). Devnodes and device interfaces can have a *System.Devices.Panel.PanelId* property value. You can then use that value to find a **DevicePanel** object whose core Id matches the value.
 
 <img src="images/example_5.png" alt="X" />
+
+
+For the **AssociationEndpointProtocol** constant, an example AQS selector string is:
+
+`System.Devices.Aep.ProtocolId:="{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}"` (for Bluetooth Classic) or `System.Devices.Aep.ProtocolId:=:"{bb7bb05e-5972-42b5-94fc-76eaa7084d49}"` (for Bluetooth LE).
+
+System.Devices.Aep.ProtocolId is the protocol's name in propsys; and DEVPKEY_Aep_ProtocolId is the Win32 DEVPKEY.
+
+Here's a representative example of what enumerating a protocol looks like, and how it matches up to the AEP properties (with annotations inside square brackets).
+
+```console
+> pairtool /enum-protocols
+...
+Protocol ID:                Bluetooth [DEVPKEY_Aep_ProviderName]
+Protocol Provider Name:     Bluetooth
+Protocol Name:              Bluetooth Classic
+Universal Protocol ID:      {e0cbf06c-cd8b-4647-bb8a-263b43f0f974} [DEVPKEY_Aep_ProtocolId // <propertyDescription name="System.Devices.Aep.ProtocolId" formatID="{3B2CE006-5E61-4FDE-BAB8-9B8AAC9B26DF}" propID="5">]
+Protocol Provider Class ID: {4aa383d6-337a-43d3-a3fa-c14b26004130}
+
+Protocol ID:                BluetoothLE [DEVPKEY_Aep_ProviderName]
+Protocol Provider Name:     BluetoothLE
+Protocol Name:              Bluetooth Low Energy
+Universal Protocol ID:      {bb7bb05e-5972-42b5-94fc-76eaa7084d49} [DEVPKEY_Aep_ProtocolId]
+Protocol Provider Class ID: {0829c308-d361-49f4-828b-506d552029ef} 
+...
+> pairtool /enum-endpoints
+
+BluetoothLE#BluetoothLEdc:46:28:6a:16:01-20:4c:03:45:07:ca
+  1)DEVPKEY_Aep_ContainerId [SYS] (null) DEVPROP_TYPE_GUID 16 {72888bff-567a-54f9-861a-73a3f2df469c} 
+...
+  30)DEVPKEY_Aep_ProviderName [SYS] (null) DEVPROP_TYPE_STRING 24 "BluetoothLE"
+  33)DEVPKEY_Aep_ProtocolId [SYS] (null) DEVPROP_TYPE_GUID 16 {bb7bb05e-5972-42b5-94fc-76eaa7084d49}
+```
 
 ### Version history
 
@@ -147,4 +152,4 @@ Lastly, Here's an example of a devnode that shows what panel it belongs to, toge
 
 ## -see-also
 
-[[DeviceInformation.Kind](deviceinformation_kind.md), [DeviceInformationUpdate.Kind](deviceinformationupdate_kind.md), [CreateFromIdAsync(System.String deviceId, Windows.Foundation.Collections.IIterable<System.String> additionalProperties, Windows.Devices.Enumeration.DeviceInformationKind kind)](deviceinformation_createfromidasync_270724983.md), [CreateWatcher(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)](deviceinformation_createwatcher_990788373.md), [FindAllAsync(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)](deviceinformation_findallasync_1907805458.md), [devicepairingresultstatus.md](devicepairingresultstatus.md)
+[DeviceInformation.Kind](deviceinformation_kind.md), [DeviceInformationUpdate.Kind](deviceinformationupdate_kind.md), [CreateFromIdAsync(System.String deviceId, Windows.Foundation.Collections.IIterable<System.String> additionalProperties, Windows.Devices.Enumeration.DeviceInformationKind kind)](deviceinformation_createfromidasync_270724983.md), [CreateWatcher(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)](deviceinformation_createwatcher_990788373.md), [FindAllAsync(System.String,Windows.Foundation.Collections.IIterable{System.String},Windows.Devices.Enumeration.DeviceInformationKind)](deviceinformation_findallasync_1907805458.md), [devicepairingresultstatus.md](devicepairingresultstatus.md)
