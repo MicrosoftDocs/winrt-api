@@ -191,7 +191,6 @@ You can use the [PosterSource](mediaplayerelement_postersource.md) property to p
 + When media is streaming to another device.
 + When the media is audio only.
 
-
 ## -examples
 
 > [!TIP]
