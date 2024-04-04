@@ -14,8 +14,6 @@ public CortanaActionableInsightsOptions.CortanaActionableInsightsOptions()
 
 Creates a [CortanaActionableInsightsOptions](cortanaactionableinsightsoptions.md) object.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -capabilities
 

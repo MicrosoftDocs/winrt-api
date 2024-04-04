@@ -17,7 +17,7 @@ Represents a racing wheel.
 
 ### Supported Devices
 
-**RacingWheel** supports any Xbox One-certified or Xbox 360-compatible racing wheel without force feedback support.
+**RacingWheel** supports any GIP (Gaming Input Protocol) or XUSB compatible racing wheel without force feedback support.
 
 Force feedback is supported on the following device models:
 

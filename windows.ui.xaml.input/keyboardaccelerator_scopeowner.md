@@ -40,9 +40,9 @@ This example demonstrates how to create a scoped accelerator. The Ctrl+Menu+S ac
     </Button>
     …
 </Grid>
-<Grid x:Name="SecondaryGrid"> >
+<Grid x:Name="SecondaryGrid">
     …
-    <Button Content="Edit" Click Click="OnEdit"/>
+    <Button Content="Edit" Click="OnEdit" />
     …
 </Grid>
 ```

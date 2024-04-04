@@ -20,3 +20,4 @@ All properties in BatteryReport will return **null** when the battery is not pre
 
 ## -see-also
 [Get battery information](/previous-versions/windows/apps/dn895210(v=win.10))
+

@@ -15,32 +15,32 @@ Represents the destination of logged messages from [LoggingChannel](loggingchann
 
 ## -remarks
 
-Use the FileLoggingSession class to log messages and data to a file continuously as your app runs. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
+Use the **FileLoggingSession** class to log messages and data to a file continuously as your app runs. You can view the log files by using the Windows Performance Toolkit (WPT) and other utilities like tracerpt.exe.
 
-Add [LoggingChannel](loggingchannel.md) instances to a FileLoggingSession, and call FileLoggingSession instance methods to remove channels, dispose, and perform other operations. The number of channels is not currently limited.
+Add [LoggingChannel](loggingchannel.md) instances to a **FileLoggingSession**, and call **FileLoggingSession** instance methods to remove channels, dispose, and perform other operations. The number of channels is not currently limited.
 
-> **Windows Server 2012 R2Windows 8.1**
-> Each app is limited to 4 active channels, and channels must have unique names.
+> [!NOTE]
+> In **Windows Server 2012 R2** and **Windows 8.1**, each app is limited to 4 active channels, and channels must have unique names.
 
-The FileLoggingSession class sends logged messages to disk files as they are logged. The FileLoggingSession class uses sequential logging, which means that all messages are sent to a disk file, and a sequential history of messages is retained. This is distinct from the [LoggingSession](loggingsession.md) class, which sends logged messages to disk on-demand, i.e. when the app detects a problem and saves the in-memory messages for analysis.
+The **FileLoggingSession** class sends logged messages to disk files when a buffer is filled or when the user calls [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md). The **FileLoggingSession** class uses sequential logging, which means that all messages are sent to a disk file, and a sequential history of messages is retained. This is distinct from the [LoggingSession](loggingsession.md) class, which sends logged messages to disk on-demand, i.e. when the app detects a problem and saves the in-memory messages for analysis.
 
-Use the FileLoggingSession class when you know that all messages need to be saved, usually over a long period of time, and when the app can't be burdened with on-demand saving steps. Like the [LoggingSession](loggingsession.md) class, [LoggingChannel](loggingchannel.md) instances are added to a FileLoggingSession instance, and the FileLoggingSession instance has methods to remove channels and dispose. FileLoggingSession instances are initialized with a delegate to a new file callback, which notifies the app when a log file rollover has occurred. The feature invokes the delegate when the current internal log file has reached capacity and a new file is being created for continued sequential logging. The delegate callback can also be called at suspend boundaries, or when the FileLoggingSession is disposed.
+Use the **FileLoggingSession** class when you know that all messages need to be saved, usually over a long period of time, and when the app can't be burdened with on-demand saving steps. Like the [LoggingSession](loggingsession.md) class, [LoggingChannel](loggingchannel.md) instances are added to a **FileLoggingSession** instance, and the **FileLoggingSession** instance has methods to remove channels and dispose. **FileLoggingSession** instances are initialized with a delegate to a new file callback, which notifies the app when a log file rollover has occurred. The feature invokes the delegate when the current internal log file has reached capacity and a new file is being created for continued sequential logging. The delegate callback can also be called at suspend boundaries, or when the **FileLoggingSession** is disposed.
 
 When the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event is invoked, the app receives an [StorageFile](../windows.storage/storagefile.md) that represents the now-closed log file. The app can forward the log file for processing in an application-defined way. After this, the session continues logging to a newly created and now-open current log file. When this log file reaches capacity, the callback delegate is invoked again for the new file, and the process repeats.
 
 When you are done logging events, call [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) in order to get the last log file since the last log file may be still open if it has not yet reached capacity. You can also use [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) to close the session and get access to the last log file. Note that if the last log file was empty, or if all log files have already been reported by the [LogFileGenerated](fileloggingsession_logfilegenerated.md) method, the [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) method will return null.
 
-The log files are created in the of the **ApplicationData\Logs** folder.
+The log files are created in the **ApplicationData\Logs** folder.
 
 The name of each log file is based on the name of the session plus an index. The index is reset each time a new session is created. Each time a log file reaches maximum size, it is closed, the index is incremented, and a new log file is opened using the new index. (As a consequence, each time you restart an app, it will begin overwriting the log files generated by the previous instance of the app.)
 
 You can add a handler for the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event so that your app is notified each time a log file is closed.
 
-If you do not use the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event or the [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) method, the FileLoggingSession will not delete stale log files (though a new session may overwrite files generated by a previous session). Your app is responsible for locating and cleaning up the log files as needed.
+If you do not use the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event or the [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) method, the **FileLoggingSession** will not delete stale log files (though a new session may overwrite files generated by a previous session). Your app is responsible for locating and cleaning up the log files as needed.
 
 Before a log file is provided to an app via the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event or the [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) method, it is renamed to a special log file name. The same log file name is always used, so new logs will overwrite older logs. In this way, the [LogFileGenerated](fileloggingsession_logfilegenerated.md) event and [CloseAndSaveToFileAsync](fileloggingsession_closeandsavetofileasync_867561099.md) methods help prevent stale log files from wasting space in the ApplicationData folder.
 
-FileLoggingSession will close the current log file and start a new log file when the current log file reaches 256KB.
+**FileLoggingSession** will close the current log file and start a new log file when the current log file reaches 256KB.
 
 ## -examples
 

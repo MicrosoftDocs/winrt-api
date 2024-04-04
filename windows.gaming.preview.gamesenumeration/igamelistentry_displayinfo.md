@@ -10,11 +10,12 @@ public Windows.ApplicationModel.AppDisplayInfo DisplayInfo { get; }
 # Windows.Gaming.Preview.GamesEnumeration.IGameListEntry.DisplayInfo
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Provides the application’s name, description, and logo for the associated [IGameListEntry](igamelistentry.md)
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

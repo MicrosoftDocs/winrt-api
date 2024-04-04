@@ -28,7 +28,6 @@ An object for starting and managing the asynchronous creation of the [DeviceInfo
 The following example builds a list of properties to include in the [DeviceInformation](deviceinformation.md) object to create from a [DeviceInformation](deviceinformation.md) ID.The savedId variable in this example is a [DeviceInformation](deviceinformation.md) ID previously saved by the application, obtained from the [id](deviceinformation_id.md) property of the last-used [DeviceInformation](deviceinformation.md) object.
 
 ```javascript
-
     // Create a set of two additional properties
     var propertiesToRetrieve = new Array();
     propertiesToRetrieve.push("System.InterfaceClassGuid");
@@ -45,12 +44,7 @@ The following example builds a list of properties to include in the [DeviceInfor
         function (e) {
             displayError("Failed to create DeviceInformation: " + e.message);
         });
-
-
-
 ```
-
-
 
 ## -see-also
 [CreateFromIdAsync(String)](deviceinformation_createfromidasync_728202765.md)

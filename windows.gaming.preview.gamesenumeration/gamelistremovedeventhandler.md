@@ -8,13 +8,14 @@ public delegate void GameListRemovedEventHandler(System.String identifier)
 # Windows.Gaming.Preview.GamesEnumeration.GameListRemovedEventHandler
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Returns the identifier of [GameListEntry](gamelistentry.md) that was removed from the [GameList](gamelist.md)
 
 ## -parameters
 ### -param identifier
 
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

@@ -27,7 +27,7 @@ See [Flight stick](/windows/uwp/gaming/flight-stick) for more information about 
 
 ### Supported Devices
 
-**FlightStick** supports any Xbox One-certified or Xbox 360-compatible flight stick.
+**FlightStick** supports any GIP (Gaming Input Protocol) or XUSB flight stick.
 
 ## -see-also
 

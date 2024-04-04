@@ -14,8 +14,6 @@ public CortanaActionableInsights CortanaActionableInsights.GetForUser(User user)
 
 Retrieves a [CortanaActionableInsights](cortanaactionableinsights.md) object for the specified user.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -parameters
 

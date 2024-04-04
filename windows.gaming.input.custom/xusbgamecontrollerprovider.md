@@ -10,7 +10,7 @@ public class XusbGameControllerProvider : Windows.Gaming.Input.Custom.IGameContr
 # Windows.Gaming.Input.Custom.XusbGameControllerProvider
 
 ## -description
-Represents the physical game controller devices connected to the system using XUSB22.SYS (for Xbox 360 accessories).
+Represents the physical game controller devices connected to the system using XUSB22.SYS.
 
 ## -remarks
 

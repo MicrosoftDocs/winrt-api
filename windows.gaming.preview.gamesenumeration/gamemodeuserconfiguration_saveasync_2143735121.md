@@ -10,11 +10,12 @@ public IAsyncAction GameModeUserConfiguration.SaveAsync()
 # Windows.Gaming.Preview.GamesEnumeration.GameModeUserConfiguration.SaveAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Saves the changes to the [GamingRelatedProcessNames](gamemodeuserconfiguration_gamingrelatedprocessnames.md) property.
 
 ## -returns
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -see-also
 

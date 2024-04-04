@@ -17,7 +17,7 @@ The description of the package.
 
 ## -remarks
 
-This property is supported only for UWP apps. On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Description** will return an empty string.
+On operating systems earlier than 10.0.19041.0, you must call this property on the package returned by [Package.Current](package_current.md), otherwise **Description** will return an empty string.
 
 ## -examples
 

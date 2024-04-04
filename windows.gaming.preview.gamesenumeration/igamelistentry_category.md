@@ -10,11 +10,12 @@ public Windows.Gaming.Preview.GamesEnumeration.GameListCategory Category { get; 
 # Windows.Gaming.Preview.GamesEnumeration.IGameListEntry.Category
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+The current [GameListCategory](gamelistcategory.md) value for the associated [IGameListEntry](igamelistentry.md)
 
 ## -property-value
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

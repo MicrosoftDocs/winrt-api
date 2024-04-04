@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncAction SetCategoryAsync(Windows.Gaming.Preview.G
 # Windows.Gaming.Preview.GamesEnumeration.GameListEntry.SetCategoryAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Sets the [GameListCategory](gamelistcategory.md).
 
 ## -parameters
 ### -param value
@@ -18,6 +18,7 @@ This API is not available to all apps. Unless your developer account is speciall
 ## -returns
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

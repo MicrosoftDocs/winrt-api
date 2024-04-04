@@ -9,9 +9,6 @@
 
 Provides preview APIs for Windows notification features.
 
-> [!IMPORTANT]
-> **Limited Access API**: This API is a limited access feature. To use this API, please contact [taskbarsecondarytile@microsoft.com](mailto:toastocclusionapi@microsoft.com?Subject=Limited%20Access%20permission%20to%20use%toast%20occlusion%20on%20APIs).
-
 
 ## -remarks
 

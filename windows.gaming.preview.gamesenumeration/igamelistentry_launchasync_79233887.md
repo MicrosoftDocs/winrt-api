@@ -10,11 +10,12 @@ public Windows.Foundation.IAsyncOperation<bool> LaunchAsync()
 # Windows.Gaming.Preview.GamesEnumeration.IGameListEntry.LaunchAsync
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Launch the game associated with the [IGameListEntry](igamelistentry.md)
 
 ## -returns
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

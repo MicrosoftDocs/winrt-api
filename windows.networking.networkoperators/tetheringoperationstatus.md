@@ -41,6 +41,14 @@ The operation could not begin because Bluetooth or a required Bluetooth device i
 ### -field NetworkLimitedConnectivity:8
 The operation did not complete because of limited network connectivity.
 
+### -field AlreadyOn: 9
+The hotspot is already on (already running). This status is returned only when calling [StartTetheringAsync](./networkoperatortetheringmanager_starttetheringasync_1060696031.md) with a specified per-session configuration.
+
+### -field RadioRestriction: 10
+Can't start a mobile hotspot on the requested frequency band due to radio restrictions (for example, the 6 GHz band requires 2x2 antennae / dual radio).
+
+### -field BandInterference: 11
+Can't start a mobile hotspot on the requested frequency band due to the main connection frequency band interfering (for example, the 6 GHz band can't be configured for the mobile hotspot access point if the main station connection is over the 5 GHz band).
 
 ## -remarks
 
@@ -54,5 +62,6 @@ The operation did not complete because of limited network connectivity.
 ## -examples
 
 ## -see-also
+
 ## -capabilities
 cellularDeviceIdentity, cellularDeviceControl
