@@ -11,19 +11,19 @@ public System.Nullable<double> PitchInDegrees { get; }
 
 ## -description
 
-Gets the counterclockwise rotation of the user's head around the X-axis (or lateral axis), in degrees.
+Gets the counterclockwise rotation of the user's head around the X'-axis (or lateral axis), in degrees.
 
 ## -property-value
 
-The counterclockwise rotation of the user's head around the X-axis (or lateral axis), in degrees.
+The counterclockwise rotation of the user's head around the X'-axis (or lateral axis), in degrees.
 
-This value has a range of -180 degrees to 180 degrees.
+This value has a range of [-180, 180) degrees.
 
 ## -remarks
 
 Similar to tilting the nose of an aeroplane up or down.
 
-In the zero position, the X-axis is parallel to the device's X-axis and points from the center of the person's face towards the right, from the device perspective.
+In the zero position, the X'-axis is parallel to the device's X-axis and points from the center of the person's face towards the right, from the device perspective.
 
 :::image type="content" source="images/human-presence-roll-pitch-yaw.png" alt-text="Diagram depicting how roll, pitch, and yaw are described by the human presence APIs.":::
 
