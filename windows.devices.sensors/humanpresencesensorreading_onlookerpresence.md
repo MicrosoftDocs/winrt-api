@@ -11,7 +11,7 @@ public Windows.Devices.Sensors.HumanPresence OnlookerPresence { get; }
 
 ## -description
 
-Gets whether a person other than the primary user is detected.
+Gets whether a person other than the primary user is detected and engaged with the device.
 
 ## -property-value
 

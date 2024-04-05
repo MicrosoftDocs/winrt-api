@@ -11,11 +11,11 @@ public Windows.Devices.Sensors.HumanEngagement Engagement { get; }
 
 ## -description
 
-Gets how the detected person is engaged with the human presence sensor.
+Gets how the detected person is engaged with the device.
 
 ## -property-value
 
-How the detected person is engaged with the human presence sensor.
+How the detected person is engaged with the device.
 
 ## -remarks
 
