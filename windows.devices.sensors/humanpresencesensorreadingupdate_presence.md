@@ -11,7 +11,7 @@ public System.Nullable<Windows.Devices.Sensors.HumanPresence> Presence { get; se
 
 ## -description
 
-Gets whether a primary user is detected.
+Gets or sets whether a primary user is detected.
 
 ## -property-value
 

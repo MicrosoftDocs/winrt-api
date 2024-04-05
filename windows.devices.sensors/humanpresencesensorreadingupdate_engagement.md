@@ -11,7 +11,7 @@ public System.Nullable<Windows.Devices.Sensors.HumanEngagement> Engagement { get
 
 ## -description
 
-Gets whether a user is engaged with the device.
+Gets or sets whether a user is engaged with the device.
 
 ## -property-value
 
