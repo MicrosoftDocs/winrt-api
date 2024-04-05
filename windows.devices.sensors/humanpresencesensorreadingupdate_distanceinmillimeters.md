@@ -11,7 +11,7 @@ public System.Nullable<uint> DistanceInMillimeters { get; set; }
 
 ## -description
 
-Gets or sets the udpated distance between the [HumanPresenceSensor](humanpresencesensor.md) and the detected user.
+Gets or sets the updated distance between the [HumanPresenceSensor](humanpresencesensor.md) and the detected user.
 
 ## -property-value
 
