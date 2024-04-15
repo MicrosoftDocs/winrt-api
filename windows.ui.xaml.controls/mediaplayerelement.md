@@ -29,7 +29,7 @@ For info about the media formats that MediaPlayerElement supports, see [Supporte
 
 ### Architectural overview
 
-MediaPlayerElement is a lightweight XAML control that serves as a rendering surface for the robust [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which is part of the [Windows.Media.Playback](../windows.media.playback/windows_media_playback.md) namespace. The majority of the media functionality is located on the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which you can access through the [MediaPlayerElement.MediaPlayer](mediaplayerelement_mediaplayer.md) property. To change the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) for an instance of MediaPlayerElement, use the [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md) method.
+MediaPlayerElement is a lightweight XAML control that serves as a rendering surface for the robust [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which is part of the [Windows.Media.Playback](../windows.media.playback/windows_media_playback.md) namespace. The majority of the media functionality is located on the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) class, which you can access through the [MediaPlayerElement.MediaPlayer](mediaplayerelement_mediaplayer.md) property.
 
 For more information about the [MediaPlayer](../windows.media.playback/mediaplayer.md) class, including guidelines on how to transition from [MediaElement](mediaelement.md) to MediaPlayerElement, see the [Media playback](/windows/uwp/audio-video-camera/media-playback) page.
 
@@ -39,7 +39,7 @@ Set the [Source](mediaplayerelement_source.md) property of the MediaPlayerElemen
 
 By default, the media that is defined by the [Source](mediaplayerelement_source.md) property does not immediately play after the MediaPlayerElement object has loaded. To start media playback automatically, set the [AutoPlay](mediaelement_autoplay.md) property to **true**.
 
-Here’s how to create a MediaPlayerElement in XAML with the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app and the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true**.
+Here's how to create a MediaPlayerElement in XAML with the [Source](mediaplayerelement_source.md) set to the path of a video file that is included in the app and the [AutoPlay](mediaelement_autoplay.md) property explicitly set to **true**.
 
 ```xaml
 <MediaPlayerElement Source="ms-appx:///Media/video1.mp4" AutoPlay="True"/>
@@ -51,6 +51,62 @@ Here’s how to create the MediaPlayerElement in code.
 MediaPlayerElement mediaPlayerElement1 = new MediaPlayerElement();
 mediaPlayerElement1.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Media/video1.mp4"));
 mediaPlayerElement1.AutoPlay = true;
+```
+
+### Set the underlying media player
+
+When the [Source](mediaplayerelement_source.md) property or [AutoPlay](mediaelement_autoplay.md) property is set on MediaPlayerElement, it will automatically create an underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) if one doesn't already exist. Alternatively, you can create your own [MediaPlayer](../windows.media.playback/mediaplayer.md) and set it on MediaPlayerElement using the [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md) method. Here's an example of how to set the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) in code.
+
+
+```xaml
+<MediaPlayerElement x:Name="mpe"/>
+```
+
+```csharp
+MediaPlayer mediaPlayer = new MediaPlayer();
+mpe.SetMediaPlayer(mediaPlayer);
+mpe.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Media/video1.mp4"));
+mpe.AutoPlay = true;
+```
+> [!NOTE]
+> Setting MediaPlayerElement properties will set the corresponding properties on its underlying [MediaPlayer](../windows.media.playback/mediaplayer.md). You have the option to use the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) directly instead of using MediaPlayerElement properties. Be aware that using [MediaPlayer](../windows.media.playback/mediaplayer.md) directly where an equivalent MediaPlayerElement property could otherwise be used can cause unexpected behavior. This is because the MediaPlayerElement is not aware of everything happening to its underlying [MediaPlayer](../windows.media.playback/mediaplayer.md). For example, if you set the source directly on [MediaPlayer](../windows.media.playback/mediaplayer.md), then MediaPlayerElement's [Source](mediaplayerelement_source.md) property will not reflect the change. For this reason, you must be consistent in using MediaPlayerElement properties or directly using the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md). This documentation will use MediaPlayerElement properties whenever possible.
+
+### Detach the underlying media player
+
+The [MediaPlayer](../windows.media.playback/mediaplayer.md) is detached from MediaPlayerElement when the MediaPlayerElement is destroyed or when a new [MediaPlayer](../windows.media.playback/mediaplayer.md) is set using [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md). When detached, MediaPlayerElement treats the underlying [MediaPlayer](../windows.media.playback/mediaplayer.md) differently depending on whether it was created by MediaPlayerElement or set using [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md).
+
+If the [MediaPlayer](../windows.media.playback/mediaplayer.md) was created by MediaPlayerElement, it will properly [Close](../windows.media.playback/mediaplayer_close_811482585.md) the [MediaPlayer](../windows.media.playback/mediaplayer.md) for you.
+
+If the [MediaPlayer](../windows.media.playback/mediaplayer.md) was set on MediaPlayerElement using [SetMediaPlayer](mediaplayerelement_setmediaplayer_932380017.md), you are responsible for ensuring the [MediaPlayer](../windows.media.playback/mediaplayer.md) is properly closed. Failing to do so may result in fatal playback errors in [MediaPlayer](../windows.media.playback/mediaplayer.md). Here's how to properly detach and [Close](../windows.media.playback/mediaplayer_close_811482585.md) [MediaPlayer](../windows.media.playback/mediaplayer.md) in code.
+
+```xaml
+<MediaPlayerElement x:Name="mpe"/>
+```
+
+```csharp
+MediaPlayer mediaPlayer = mpe.MediaPlayer;
+IMediaPlaybackSource source = mpe.Source;
+
+// 1. Pause playback if able.
+if (mediaPlayer.PlaybackSession.CanPause)
+{
+    mediaPlayer.Pause();
+}
+
+// 2. Disconnect the MediaPlayer from its source. This can be done by setting 
+//    the MediaPlayerElement Source property to null or by directly setting the
+//    source to null on the underlying MediaPlayer.
+mpe.Source = null;
+
+// 3. Disconnect the MediaPlayer from MediaPlayerElement.
+mpe.SetMediaPlayer(null);
+
+// 4. Dispose of the MediaPlayer or Source if they're no longer needed.
+if (source is MediaSource mediaSource)
+{
+    mediaSource.Dispose();
+}
+mediaPlayer.Dispose();
 ```
 
 ### Handle media events
