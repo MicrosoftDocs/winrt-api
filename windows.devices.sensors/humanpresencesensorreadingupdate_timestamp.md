@@ -11,11 +11,11 @@ public System.Nullable<System.DateTimeOffset> Timestamp { get; set; }
 
 ## -description
 
-Gets or sets the updated time at which the sensor reported the reading.
+Gets or sets the time at which the sensor reported the reading.
 
 ## -property-value
 
-The updated time at which the sensor reported the reading.
+The time at which the sensor reported the reading.
 
 ## -remarks
 
