@@ -15,7 +15,7 @@ Represents an object that your communications app can use to set up communicatio
 Obtain an instance of **ShareWindowCommandSource**, and register to handle the instance's [ShareWindowCommandSource.CommandRequested](sharewindowcommandsource_commandrequested.md) and [ShareWindowCommandSource.CommandInvoked](sharewindowcommandsource_commandinvoked.md) events. Those events are raised by the Windows Shell.
 
 > [!IMPORTANT]
-> The **Windows.UI.Shell.ShareWindowCommandSource** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d15d3aa2-0512-7cb8-1df9-86221f5cbfde).
+> The **Windows.UI.Shell.ShareWindowCommandSource** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://aka.ms/LAFAccessRequests).
 
 ## -remarks
 This functionality augments the window sharing feature that your application already implements, providing an alternative method for selecting windows. The design allows your app to present start sharing and stop sharing commands; and to implement those in a way that corresponds to your app's ability to share one or more windows.
