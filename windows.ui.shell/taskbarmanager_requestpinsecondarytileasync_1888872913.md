@@ -15,7 +15,7 @@ public IAsyncOperation<bool> TaskbarManager.RequestPinSecondaryTileAsync(Seconda
 Requests to pin the specified tile to taskbar. Requires user approval as described [here](/windows/uwp/design/shell/pin-to-taskbar#4-pin-your-app).
 
 > [!IMPORTANT]
-> The **TaskbarManager.RequestPinSecondaryTileAsync** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d15d3aa2-0512-7cb8-1df9-86221f5cbfde).
+> The **TaskbarManager.RequestPinSecondaryTileAsync** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://aka.ms/LAFAccessRequests).
 
 ## -parameters
 
