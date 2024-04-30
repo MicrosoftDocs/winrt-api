@@ -30,6 +30,8 @@ A collection that holds all inline text elements from the [TextBlock](textblock.
 
 ## -remarks
 
+Objects of type `UIElement` and `InlineUICollection` are not supported.
+
 ## -examples
 
 ## -see-also
