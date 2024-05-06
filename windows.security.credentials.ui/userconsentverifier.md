@@ -27,50 +27,38 @@ private async System.Threading.Tasks.Task<string> RequestConsent(string userMess
 {
     string returnMessage;
 
-    if (String.IsNullOrEmpty(userMessage))
-    {
-        userMessage = "Please provide fingerprint verification.";
-    }
+    // Retrieve the window handle of the current WinUI 3 window.
+    var hwnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
 
-    try
-    {
-        // Retrieve the window handle by passing a reference to the WinUI 3 window object 
-        var hwnd = ...
-        // Request the logged on user's consent via fingerprint swipe using the interop interface
-        var consentResult = await Windows.Security.Credentials.UI.UserConsentVerifierInterop.RequestVerificationForWindowAsync(hwnd, userMessage);
+    // Use the interop interface to request the logged on user's consent via device authentication
+    var consentResult = await Windows.Security.Credentials.UI.UserConsentVerifierInterop.RequestVerificationForWindowAsync(hwnd, userMessage);
 
-        switch (consentResult)
-        {
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.Verified:
-                returnMessage = "Fingerprint verified.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceBusy:
-                returnMessage = "Biometric device is busy.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceNotPresent:
-                returnMessage = "No biometric device found.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.DisabledByPolicy:
-                returnMessage = "Biometric verification is disabled by policy.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.NotConfiguredForUser:
-                returnMessage = "The user has no fingerprints registered. Please add a fingerprint to the " +
-                                "fingerprint database and try again.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.RetriesExhausted:
-                returnMessage = "There have been too many failed attempts. Fingerprint authentication canceled.";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerificationResult.Canceled:
-                returnMessage = "Fingerprint authentication canceled.";
-                break;
-            default:
-                returnMessage = "Fingerprint authentication is currently unavailable.";
-                break;
-        }
-    }
-    catch (Exception ex)
+    switch (consentResult)
     {
-        returnMessage = "Fingerprint authentication failed: " + ex.ToString();
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.Verified:
+            returnMessage = "User verified.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceBusy:
+            returnMessage = "Authentication device is busy.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceNotPresent:
+            returnMessage = "No authentication device found.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.DisabledByPolicy:
+            returnMessage = "Authentication device verification is disabled by policy.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.NotConfiguredForUser:
+            returnMessage = "Please go to Account Settings to set up PIN or other advanced authentication.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.RetriesExhausted:
+            returnMessage = "There have been too many failed attempts. Device authentication canceled.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerificationResult.Canceled:
+            returnMessage = "Device authentication canceled.";
+            break;
+        default:
+            returnMessage = "Authentication device is currently unavailable.";
+            break;
     }
 
     return returnMessage;
@@ -83,6 +71,62 @@ This code example is for a Universal Windows Platform (UWP) app. It shows a requ
 
 [!code-csharp[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
 
+### Desktop apps using C++/WinRT
+
+For a desktop app, instead of calling the [UserConsentVerifier.RequestVerificationAsync](/uwp/api/windows.security.credentials.ui.userconsentverifier.requestverificationasync) method, you'll need to:
+
+* First obtain the handle to the window that will request the verification. See [Retrieve a window handle (HWND)](/windows/apps/develop/ui-input/retrieve-hwnd) for details on how to do this for the Windows UI Library (WinUI) 3.
+* Obtain the activation factory for the **Windows.Security.Credentials.UI.UserConsentVerifier** object.
+* Call the **RequestVerificationForWindowAsync** method of the **IUserConsentVerifierInterop** interop interface.
+
+```cppwinrt
+winrt::Windows::Foundation::IAsyncOperation<winrt::hstring> MainWindow::RequestConsent(winrt::hstring userMessage)
+{
+    auto lifetime = get_strong();
+
+    winrt::hstring returnMessage;
+
+    // Retrieve the window handle of the current WinUI 3 window.
+    HWND hwnd;
+    winrt::check_hresult(m_inner->as<::IWindowNative>()->get_WindowHandle(&hwnd));
+
+    // Use the interop interface to request the logged on user's consent via device authentication
+    auto interop = winrt::get_activation_factory<winrt::Windows::Security::Credentials::UI::UserConsentVerifier, ::IUserConsentVerifierInterop>();
+    auto consentResult =
+        co_await winrt::capture<winrt::Windows::Foundation::IAsyncOperation<winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult>>(
+            interop, &::IUserConsentVerifierInterop::RequestVerificationForWindowAsync, hwnd, reinterpret_cast<HSTRING>(winrt::get_abi(userMessage))));
+
+    switch (consentResult)
+    {
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::Verified:
+            returnMessage = L"User verified.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::DeviceBusy:
+            returnMessage = L"Authentication device is busy.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::DeviceNotPresent:
+            returnMessage = L"No authentication device found.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::DisabledByPolicy:
+            returnMessage = L"Authentication device verification is disabled by policy.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::NotConfiguredForUser:
+            returnMessage = L"Please go to Account Settings to set up PIN or other advanced authentication.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::RetriesExhausted:
+            returnMessage = L"There have been too many failed attempts. Device authentication canceled.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerificationResult::Canceled:
+            returnMessage = L"Device authentication canceled.";
+            break;
+        default:
+            returnMessage = L"Authentication device is currently unavailable.";
+            break;
+    }
+
+    co_return returnMessage;
+}
+```
 ## -remarks
 
 You can use **UserConsentVerifier** to enhance the security of your app by including a request for verification whenever the user is required to consent to a particular action. For example, you can require fingerprint authentication before authorizing an in-app purchase or access to restricted resources. You can use **UserConsentVerifier** to determine whether fingerprint authentication is supported for the current computer by using the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method, and then request user consent from a fingerprint scan by using the [RequestVerificationAsync](userconsentverifier_requestverificationasync_1054783001.md) method.

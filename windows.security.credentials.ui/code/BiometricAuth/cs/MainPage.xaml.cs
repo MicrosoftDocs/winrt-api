@@ -30,51 +30,43 @@ namespace BiometricAuth
 
         private async void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            OutputTextBlock.Text = await CheckFingerprintAvailability();
+            OutputTextBlock.Text = await CheckDeviceAvailability();
         }
 
         private async void AuthenticateButton_Click(object sender, RoutedEventArgs e)
         {
-            var consentResult = await RequestConsent("Fingerprint authentication is required for that action.");
+            var consentResult = await RequestConsent("Let's make sure it's really you.");
             OutputTextBlock.Text += "\n" + consentResult;
         }
 
         //<Snippet1>
-        public async System.Threading.Tasks.Task<string> CheckFingerprintAvailability()
+        public async System.Threading.Tasks.Task<string> CheckDeviceAvailability()
         {
-            string returnMessage = "";
+            string returnMessage;
 
-            try
-            {
-                // Check the availability of fingerprint authentication.
-                var ucvAvailability = await Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
+            // Check the availability of device authentication.
+            var ucvAvailability = await Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
 
-                switch (ucvAvailability)
-                {
-                    case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.Available:
-                        returnMessage = "Fingerprint verification is available.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceBusy:
-                        returnMessage = "Biometric device is busy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceNotPresent:
-                        returnMessage = "No biometric device found.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DisabledByPolicy:
-                        returnMessage = "Biometric verification is disabled by policy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.NotConfiguredForUser:
-                        returnMessage = "The user has no fingerprints registered. Please add a fingerprint to the " +
-                                        "fingerprint database and try again.";
-                        break;
-                    default:
-                        returnMessage = "Fingerprints verification is currently unavailable.";
-                        break;
-                }
-            }
-            catch (Exception ex)
+            switch (ucvAvailability)
             {
-                returnMessage = "Fingerprint authentication availability check failed: " + ex.ToString();
+                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.Available:
+                    returnMessage = "Authentication device is available.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceBusy:
+                    returnMessage = "Authentication device is busy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceNotPresent:
+                    returnMessage = "No authentication device found.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DisabledByPolicy:
+                    returnMessage = "Authentication device verification is disabled by policy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.NotConfiguredForUser:
+                    returnMessage = "Please go to Account Settings to set up a PIN or other advanced authentication.";
+                    break;
+                default:
+                    returnMessage = "Authentication device is currently unavailable.";
+                    break;
             }
 
             return returnMessage;
@@ -86,50 +78,36 @@ namespace BiometricAuth
         {
             string returnMessage;
 
-            if (String.IsNullOrEmpty(userMessage))
-            {
-                userMessage = "Please provide fingerprint verification.";
-            }
+            // Request the logged on user's consent via authentication device.
+            var consentResult = await Windows.Security.Credentials.UI.UserConsentVerifier.RequestVerificationAsync(userMessage);
 
-            try
+            switch (consentResult)
             {
-                // Request the logged on user's consent via fingerprint swipe.
-                var consentResult = await Windows.Security.Credentials.UI.UserConsentVerifier.RequestVerificationAsync(userMessage);
-
-                switch (consentResult)
-                {
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.Verified:
-                        returnMessage = "Fingerprint verified.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceBusy:
-                        returnMessage = "Biometric device is busy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceNotPresent:
-                        returnMessage = "No biometric device found.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.DisabledByPolicy:
-                        returnMessage = "Biometric verification is disabled by policy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.NotConfiguredForUser:
-                        returnMessage = "The user has no fingerprints registered. Please add a fingerprint to the " +
-                                        "fingerprint database and try again.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.RetriesExhausted:
-                        returnMessage = "There have been too many failed attempts. Fingerprint authentication canceled.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.Canceled:
-                        returnMessage = "Fingerprint authentication canceled.";
-                        break;
-                    default:
-                        returnMessage = "Fingerprint authentication is currently unavailable.";
-                        break;
-                }
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.Verified:
+                    returnMessage = "User verified.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceBusy:
+                    returnMessage = "Authentication device is busy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.DeviceNotPresent:
+                    returnMessage = "No authentication device found.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.DisabledByPolicy:
+                    returnMessage = "Authentication device verification is disabled by policy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.NotConfiguredForUser:
+                    returnMessage = "Please go to Account Settings to set up PIN or other advanced authentication.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.RetriesExhausted:
+                    returnMessage = "There have been too many failed attempts. Device authentication canceled.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.Canceled:
+                    returnMessage = "Device authentication canceled.";
+                    break;
+                default:
+                    returnMessage = "Authentication device is currently unavailable.";
+                    break;
             }
-            catch (Exception ex)
-            {
-                returnMessage = "Fingerprint authentication failed: " + ex.ToString();
-            }
-
             return returnMessage;
         }
         // </Snippet2>

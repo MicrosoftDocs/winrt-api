@@ -14,19 +14,19 @@ Describes the result of a verification operation.
 
 ## -enum-fields
 ### -field Verified:0
-The fingerprint was verified.
+The user was verified.
 
 ### -field DeviceNotPresent:1
-There is no biometric verifier device available.
+There is no authentication device available.
 
 ### -field NotConfiguredForUser:2
-A biometric verifier device is not configured for this user.
+An authentication verifier device is not configured for this user.
 
 ### -field DisabledByPolicy:3
-Group policy has disabled the biometric verifier device.
+Group policy has disabled authentication device verification.
 
 ### -field DeviceBusy:4
-The biometric verifier device is performing an operation and is unavailable.
+The authentication device is performing an operation and is unavailable.
 
 ### -field RetriesExhausted:5
 After 10 attempts, the original verification request and all subsequent attempts at the same verification were not verified.
@@ -39,7 +39,7 @@ The verification operation was canceled.
 
 ## -examples
 
-The following example shows a method that requests fingerprint verification and returns a message that describes the result based on the UserConsentVerificationResult value.
+The following example shows a method that requests verification from an authentication device and returns a message that describes the result based on the UserConsentVerificationResult value.
 
 [!code-csharp[2](../windows.security.credentials.ui/code/BiometricAuth/cs/MainPage.xaml.cs#Snippet2)]
 

@@ -10,17 +10,17 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Credentials.UI.UserCo
 # Windows.Security.Credentials.UI.UserConsentVerifier.RequestVerificationAsync
 
 ## -description
-Performs a verification using a device such as Microsoft Passport PIN, Windows Hello, or a fingerprint reader. This API is for Universal Windows Platform (UWP) apps. The alternative API to use for a desktop app is described in **Examples** in [UserConsentVerifier class](/uwp/api/windows.security.credentials.ui.userconsentverifier).
+Performs a verification using an authentication device such as Microsoft Passport PIN, Windows Hello, or a fingerprint reader. This API is for Universal Windows Platform (UWP) apps. The alternative API to use for a desktop app is described in **Examples** in [UserConsentVerifier class](/uwp/api/windows.security.credentials.ui.userconsentverifier).
 
 ## -parameters
 ### -param message
-A message to display to the user for this biometric verification request.
+A message to display to the user for this verification request.
 
 ## -returns
-A [UserConsentVerificationResult](userconsentverificationresult.md) value that describes the result of the biometric verification.
+A [UserConsentVerificationResult](userconsentverificationresult.md) value that describes the result of the verification.
 
 ## -remarks
-You can use the RequestVerificationAsync method to request user consent for authentication. For example, you can require fingerprint authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current computer .
+You can use the RequestVerificationAsync method to request user consent for a sensitive operation. For example, you can require device authentication before authorizing an in-app purchase, or access to restricted resources. You can use the [CheckAvailabilityAsync](userconsentverifier_checkavailabilityasync_167910294.md) method to determine if authentication is supported for the current user.
 
 ## -examples
 
