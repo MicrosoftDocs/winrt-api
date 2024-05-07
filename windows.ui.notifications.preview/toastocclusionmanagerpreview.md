@@ -15,7 +15,7 @@ public static class ToastOcclusionManagerPreview
 Provides a preview API for requesting that the OS apply a vertical offset when displaying app notifications, to avoid obscuring the UI of the calling app.
 
 > [!IMPORTANT]
-> The **Windows.UI.Notifications.Preview.ToastOcclusionManagerPreview** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, contact [Microsoft Support](https://aka.ms/LAFAccessRequests).
+> The **Windows.UI.Notifications.Preview.ToastOcclusionManagerPreview** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
 
 ## -remarks
 
