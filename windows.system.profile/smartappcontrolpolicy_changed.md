@@ -11,12 +11,12 @@ public static event System.EventHandler<object> Changed;
 
 ## -description
 
-This event is invoked when the **Smart App Control** state has changed.
+This event is invoked when the **Smart App Control** state changes.
 
 ## -remarks
 
 ## -see-also
 
-[IsEnabled](smartappcontrolpolicy_isenabled.md)
+[IsEnabled](smartappcontrolpolicy_isenabled.md), [SmartAppControlPolicy](smartappcontrolpolicy.md)
 
 ## -examples

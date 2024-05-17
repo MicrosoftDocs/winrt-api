@@ -19,6 +19,6 @@ Indicates whether **Smart App Control** is enabled.
 
 ## -see-also
 
-[Changed](smartappcontrolpolicy_changed.md)
+[Changed](smartappcontrolpolicy_changed.md), [SmartAppControlPolicy](smartappcontrolpolicy.md)
 
 ## -examples
