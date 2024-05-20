@@ -20,16 +20,15 @@ See the [Audio effects discovery sample](https://github.com/microsoftarchive/msd
 
 ## -examples
 
-The following example demonstrates the [CaptureEffectsManager.GetAudioCaptureEffects](audiocaptureeffectsmanager_getaudiocaptureeffects_1705960470.md) to detect whether the [DeepNoiseSuppression](audioeffecttype.md) effect is present on the current device.
+The following example demonstrates the [CaptureEffectsManager.GetAudioCaptureEffects](audiocaptureeffectsmanager_getaudiocaptureeffects_1705960470.md) to detect whether the [DeepNoiseSuppression](audioeffecttype.md) effect is present on the specified capture device.
 
 ```csharp
 private bool IsDeepNoiseSuppressionSupported()
 {
     var captureEffectsManager = Windows.Media.Effects.AudioEffectsManager.CreateAudioCaptureEffectsManager(
-    MediaDevice.GetDefaultAudioCaptureId(AudioDeviceRole.Default),
-    Windows.Media.Capture.MediaCategory.Speech,
-
-    Windows.Media.AudioProcessing.Default);
+        MediaDevice.GetDefaultAudioCaptureId(AudioDeviceRole.Default),
+        Windows.Media.Capture.MediaCategory.Speech,
+        Windows.Media.AudioProcessing.Default);
 
     // Check for the presence of DeepNoiseSuppression
     IReadOnlyList<AudioEffect> effectslist = captureEffectsManager.GetAudioCaptureEffects();
