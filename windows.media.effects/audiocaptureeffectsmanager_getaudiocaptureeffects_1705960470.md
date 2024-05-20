@@ -19,7 +19,7 @@ The list of audio effects.
 
 ## -examples
 
-The following example demonstrates the [CaptureEffectsManager.GetAudioCaptureEffects](audiocaptureeffectsmanager_getaudiocaptureeffects_1705960470.md) to detect whether the [DeepNoiseSuppression](audioeffecttype.md) effect is present on the current device.
+The following example demonstrates the **GetAudioCaptureEffects** to detect whether the [DeepNoiseSuppression](audioeffecttype.md) effect is present on the current device.
 
 ```csharp
 private bool IsDeepNoiseSuppressionSupported()
