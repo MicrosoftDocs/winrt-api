@@ -31,6 +31,6 @@ Human is not engaged with device.
 
 ## -see-also
 
-[HumanPresenceSensorReading.Engagement](humanpresencesensorreading_engagement.md)
+[HumanPresenceSensorReading.Engagement](humanpresencesensorreading_engagement.md), [Device experiences - Presence sensing](/windows-hardware/design/device-experiences/sensors-presence-sensing)
 
 ## -examples
