@@ -31,6 +31,6 @@ Human presence is not detected.
 
 ## -see-also
 
-[HumanPresenceSensorReading.Presence](humanpresencesensorreading_presence.md)
+[HumanPresenceSensorReading.Presence](humanpresencesensorreading_presence.md), [Device experiences - Presence sensing](/windows-hardware/design/device-experiences/sensors-presence-sensing)
 
 ## -examples

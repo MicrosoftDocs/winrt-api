@@ -29,6 +29,6 @@ The user can specify their preferred dimming behavior in the System settings (se
 
 ## -see-also
 
-[HumanPresenceSettings.IsAttentionAwareDimmingEnabled](humanpresencesettings_isattentionawaredimmingenabled.md)
+[HumanPresenceSettings.IsAttentionAwareDimmingEnabled](humanpresencesettings_isattentionawaredimmingenabled.md), [Device experiences - Adaptive dimming](/windows-hardware/design/device-experiences/sensors-presence-adaptive-dimming)
 
 ## -examples

@@ -21,6 +21,6 @@ True, if supported. Otherwise, false. The default is false.
 
 ## -see-also
 
-[HumanPresenceSettings.LockOnLeaveTimeout](humanpresencesettings_lockonleavetimeout.md), [HumanPresenceSettings.LockOnLeaveTimeout](humanpresencesettings_lockonleavetimeout.md)
+[HumanPresenceSettings.LockOnLeaveTimeout](humanpresencesettings_lockonleavetimeout.md), [HumanPresenceSettings.LockOnLeaveTimeout](humanpresencesettings_lockonleavetimeout.md), [Device experiences - Wake on approach](/windows-hardware/design/device-experiences/sensors-presence-wake-on-approach), [Device experiences - Lock on leave](/windows-hardware/design/device-experiences/sensors-presence-lock-on-leave)
 
 ## -examples
