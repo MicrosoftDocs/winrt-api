@@ -16,7 +16,7 @@ Gets or sets the navigation mode that indicates whether this [Page](page.md) is 
 
 ## -xaml-syntax
 ```xaml
-<page NavigationCacheMode="navigationCacheModeMemberName" />
+<Page NavigationCacheMode="navigationCacheModeMemberName" />
 ```
 
 
