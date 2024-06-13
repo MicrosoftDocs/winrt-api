@@ -24,10 +24,10 @@ When set to **Auto**, the framework automatically applies the following adjustme
 * An opaque rectangle is rendered immediately behind the text to enforce a high contrast ratio.
 * Non-zero values for [Opacity](uielement_opacity.md) are ignored.  The element and its children will appear as if they had an opacity of 1.0.
 
-For example, compare **Auto** (which is the default **Application** value) to **None**:
+For example, the following images show the difference between **Auto** (which is the default **Application** value) and **None**:
 
-<img src="images/HighContrastAdjustment_auto.png" alt="Example buttons with HighContrastAdjustment auto" />
-<img src="images/HighContrastAdjustment_none.png" alt="Example buttons with HighContrastAdjustment none" />
+:::image type="content" source="images/HighContrastAdjustment_auto.png" alt-text="Example of buttons with HighContrastAdjustment set to auto.":::
+:::image type="content" source="images/HighContrastAdjustment_none.png" alt-text="Example of buttons with HighContrastAdjustment set to none.":::
 
 It is possible to set HighContrastAdjustment = None on a UIElement and then have HighContrastAdjustment = Auto on one of its descendants.  However, the framework does not guarantee that the descendent will be fully opaque if an opacity is applied on any of its ancestors.
 
