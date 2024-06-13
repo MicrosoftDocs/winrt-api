@@ -15,7 +15,7 @@ public static void SetToastWindowMargin (Windows.UI.WindowId appWindowId, double
 Requests that the OS display app notifications with the specified vertical offset, in view pixels, in order to avoid the notification occluding content in the specified window.
 
 > [!IMPORTANT]
-> **Limited Access API**: This API is a limited access feature. To use this API, please contact [taskbarsecondarytile@microsoft.com](mailto:toastocclusionapi@microsoft.com?Subject=Limited%20Access%20permission%20to%20use%toast%20occlusion%20on%20APIs).
+> The **ToastOcclusionManagerPreview.SetToastWindowMargin** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
 
 
 ## -parameters

@@ -14,8 +14,6 @@ public class CortanaActionableInsightsOptions
 
 Specifies options for refining the insights retrieved through the [CortanaActionableInsights](cortanaactionableinsights.md) methods.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -capabilities
 

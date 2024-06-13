@@ -14,6 +14,9 @@ public Windows.UI.Shell.FocusSession TryStartFocusSession (System.DateTimeOffset
 
 Attempts to start a focus session that is active until explicitly cancelled.
 
+> [!IMPORTANT]
+> The **FocusSessionManager.TryStartFocusSession** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
+
 ## -parameters
 
 ### -param endTime
@@ -25,9 +28,6 @@ The end time for the created focus session.
 A [FocusSession](focussession.md) object if a focus session was successfully started; otherwise, null.
 
 ## -remarks
-
-
-This method is a limited access feature which require specific approval to be used in an application. For more information, see [LimitedAccessFeatures](xref:Windows.ApplicationModel.LimitedAccessFeatures).
 
 ## -see-also
 

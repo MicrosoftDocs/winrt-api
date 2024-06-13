@@ -21,6 +21,14 @@ An object that the caller can observe to track progress and completion for the c
 
 ## -remarks
 
+For a call to this method to be successful, the caller needs to fulfil one of these conditions:
+
+* The caller is running in an AppContainer (Low IL) *and* it has the **packageManagement** restricted capability.
+* The caller is running with Medium IL, or higher.
+* The caller’s publisher matches the publisher of the package (or volume) being removed.
+
+For descriptions of the terms above, and links to more info, see [Packaging, deployment, and process](/windows/apps/get-started/intro-pack-dep-proc).
+
 ## -examples
 
 ## -see-also

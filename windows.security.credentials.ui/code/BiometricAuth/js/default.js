@@ -38,90 +38,73 @@
 
     
     function AuthenticateButton_Click() {
-        requestConsent("Fingerprint authentication is required for that action.");
+        requestConsent("Let's make sure it's really you.");
     }
 
 //<Snippet1_JS>
 function checkFingerprintAvailability() {
-    try {
-        // Check the availability of fingerprint authentication.
+    Windows.Security.Credentials.UI.UserConsentVerifier.checkAvailabilityAsync().then(
+    function (ucvAvailability) {
 
-        Windows.Security.Credentials.UI.UserConsentVerifier.checkAvailabilityAsync().then(
-        function (ucvAvailability) {
-
-            switch (ucvAvailability)
-            {
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.available:
-                    outputDiv.innerHTML = "<br/>Fingerprint verification is available.";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceBusy:
-                    outputDiv.innerHTML = "<br/>Biometric device is busy.";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceNotPresent:
-                    outputDiv.innerHTML = "<br/>No biometric device found.";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.disabledByPolicy:
-                    outputDiv.innerHTML = "<br/>Biometric verification is disabled by policy.";
-                    break;
-                case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.notConfiguredForUser:
-                    outputDiv.innerHTML = "<br/>The user has no fingerprints registered. Please add a fingerprint to the " +
-                                    "fingerprint database and try again.";
-                    break;
-                default:
-                    outputDiv.innerHTML = "<br/>Fingerprints verification is currently unavailable.";
-                    break;
-            }
-        });
-    }
-    catch (ex) {
-        outputDiv.innerHTML = "<br/>Fingerprint authentication availability check failed: " + ex.toString();
-    }
+        switch (ucvAvailability)
+        {
+            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.available:
+                outputDiv.innerHTML = "<br/>Authentication device is available.";
+                break;
+            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceBusy:
+                outputDiv.innerHTML = "<br/>Authentication device is busy.";
+                break;
+            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.deviceNotPresent:
+                outputDiv.innerHTML = "<br/>No authentication device found.";
+                break;
+            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.disabledByPolicy:
+                outputDiv.innerHTML = "<br/>Authentication device verification is disabled by policy.";
+                break;
+            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.notConfiguredForUser:
+                outputDiv.innerHTML = "<br/>Please go to Account Settings to set up a PIN or other advanced authentication.";
+                break;
+            default:
+                outputDiv.innerHTML = "<br/>Authentication device is currently unavailable.";
+                break;
+        }
+    });
+}
 }
 // </Snippet1_JS>
 
 // <Snippet2_JS>
 function requestConsent(userMessage) {
-    if (!userMessage) {
-        userMessage = "Please provide fingerprint verification.";
-    }
-
-    try {
-        // Request the logged on user's consent via fingerprint swipe.
-        Windows.Security.Credentials.UI.UserConsentVerifier.requestVerificationAsync(userMessage) 
-        .then(
-            function (consentResult) { 
-                switch (consentResult) {
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.verified:
-                        outputDiv.innerHTML = "<br/>Fingerprint verified.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.deviceBusy:
-                        outputDiv.innerHTML = "<br/>Biometric device is busy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.deviceNotPresent:
-                        outputDiv.innerHTML = "<br/>No biometric device found.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.disabledByPolicy:
-                        outputDiv.innerHTML = "<br/>Biometric verification is disabled by policy.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.notConfiguredForUser:
-                        outputDiv.innerHTML = "<br/>The user has no fingerprints registered. Please add a fingerprint to the " +
-                                        "fingerprint database and try again.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.retriesExhausted:
-                        outputDiv.innerHTML = "<br/>There have been too many failed attempts. Fingerprint authentication canceled.";
-                        break;
-                    case Windows.Security.Credentials.UI.UserConsentVerificationResult.canceled:
-                        outputDiv.innerHTML = "<br/>Fingerprint authentication canceled.";
-                        break;
-                    default:
-                        outputDiv.innerHTML = "<br/>Fingerprint authentication is currently unavailable.";
-                        break;
-                }
-            });
-    }
-    catch (ex) {
-        outputDiv.innerHTML = "<br/>Fingerprint authentication failed: " + ex.toString();
-    }
+    // Request the logged on user's consent via authentication device.
+    Windows.Security.Credentials.UI.UserConsentVerifier.requestVerificationAsync(userMessage)
+    .then(
+        function (consentResult) {
+            switch (consentResult) {
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.verified:
+                    outputDiv.innerHTML = "<br/>User verified.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.deviceBusy:
+                    outputDiv.innerHTML = "<br/>Authentication device is busy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.deviceNotPresent:
+                    outputDiv.innerHTML = "<br/>No authentication device found.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.disabledByPolicy:
+                    outputDiv.innerHTML = "<br/>Authentication device verification is disabled by policy.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.notConfiguredForUser:
+                    outputDiv.innerHTML = "<br/>Please go to Account Settings to set up a PIN or other advanced authentication.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.retriesExhausted:
+                    outputDiv.innerHTML = "<br/>There have been too many failed attempts. Device authentication canceled.";
+                    break;
+                case Windows.Security.Credentials.UI.UserConsentVerificationResult.canceled:
+                    outputDiv.innerHTML = "<br/>Device authentication canceled.";
+                    break;
+                default:
+                    outputDiv.innerHTML = "<br/>Authentication device is currently unavailable.";
+                    break;
+            }
+        });
 }
 // </Snippet2_JS>
 

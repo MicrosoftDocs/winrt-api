@@ -10,46 +10,81 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Credentials.UI.UserCo
 # Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync
 
 ## -description
-Checks to see whether a verifier device, such as a Microsoft Passport PIN, Windows Hello, or fingerprint reader, is available.
+Checks to see whether an authentication device, such as a Microsoft Passport PIN, Windows Hello, or fingerprint reader, is available.
 
 ## -returns
 A [UserConsentVerifierAvailability](userconsentverifieravailability.md) value that describes the result of the availability check operation.
 
 ## -remarks
-The following example shows a method that checks to see if fingerprint authentication is supported for the current computer and returns a message that describes the result.
+The following example shows a method that checks to see if an authentication device is supported for the current user and returns a message that describes the result.
 
 ```csharp
-public async Task<string> CheckConsentAvailability()
+public async Task<string> CheckDeviceAvailability()
 {
-    string returnMessage = "";
+    string returnMessage;
 
-    try
-    {
-        // Check the availability of Hello authentication.
-        var ucvAvailability = await Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
+    // Check the availability of device authentication.
+    var ucvAvailability = await Windows.Security.Credentials.UI.UserConsentVerifier.CheckAvailabilityAsync();
 
-        switch (ucvAvailability)
-        {
-            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.Available:
-                returnMessage = "User consent verification available!";
-                break;
-            case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceNotPresent:
-                returnMessage = "No PIN found, please set one up.";
-                break;
-            default:
-                returnMessage = "User consent verification is currently unavailable.";
-                break;
-        }
-    }
-    catch (Exception ex)
+    switch (ucvAvailability)
     {
-        returnMessage = "User consent verification failed: " + ex.ToString();
+        case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.Available:
+            returnMessage = "Authentication device is available.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceBusy:
+            returnMessage = "Authentication device is busy.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DeviceNotPresent:
+            returnMessage = "No authentication device found.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.DisabledByPolicy:
+            returnMessage = "Authentication device verification is disabled by policy.";
+            break;
+        case Windows.Security.Credentials.UI.UserConsentVerifierAvailability.NotConfiguredForUser:
+            returnMessage = "Please go to Account Settings to set up a PIN or other advanced authentication.";
+            break;
+        default:
+            returnMessage = "Authentication device is currently unavailable.";
+            break;
     }
 
     return returnMessage;
 }
 ```
 
+```cppwinrt
+winrt::Windows::Foundation::IAsyncOperation<winrt::hstring> CheckDeviceAvailability()
+{
+    winrt::hstring returnMessage;
+
+    // Check the availability of device authentication.
+    auto ucvAvailability = co_await Windows::Security::Credentials::UI::UserConsentVerifier::CheckAvailabilityAsync();
+
+    switch (ucvAvailability)
+    {
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerifierAvailability::Available:
+            returnMessage = L"Authentication device is available.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerifierAvailability::DeviceBusy:
+            returnMessage = L"Authentication device is busy.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerifierAvailability::DeviceNotPresent:
+            returnMessage = L"No authentication device found.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerifierAvailability::DisabledByPolicy:
+            returnMessage = L"Authentication device verification is disabled by policy.";
+            break;
+        case winrt::Windows::Security::Credentials::UI::UserConsentVerifierAvailability::NotConfiguredForUser:
+            returnMessage = L"Please go to Account Settings to set up a PIN or other advanced authentication.";
+            break;
+        default:
+            returnMessage = L"Authentication device is currently unavailable.";
+            break;
+    }
+
+    co_return returnMessage;
+}
+```
 ## -examples
 
 ## -see-also

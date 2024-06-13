@@ -14,6 +14,9 @@ namespace Windows.ApplicationModel.ConversationalAgent
 
 Provides applications the ability to expose functionality through any digital assistant supported by the Windows Conversational Agent platform.
 
+> [!IMPORTANT]
+> The Windows.ApplicationModel.ConversationalAgent APIs are part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
+
 ## -remarks
 
 Users can enable a platform-level detection signal for a conversational agent in Settings. This signal can include a keyword utterance, Bluetooth transmission, system keyboard accelerator, in-app speech recognition, or other sounds (door slam, smoke detector). For example, the "Hey Cortana" keyword that begins a voice interaction with Cortana.

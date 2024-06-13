@@ -10,17 +10,23 @@ public Windows.Foundation.AsyncActionCompletedHandler Completed { get;  set; }
 # Windows.Foundation.IAsyncAction.Completed
 
 ## -description
-Gets or sets the method that handles the action completed notification.
+Gets or sets the delegate that is called when the action completes.
 
 ## -property-value
-The method that handles the notification.
+The delegate that is called when the action completes.
 
 ## -remarks
-The Windows Runtime enforces that this property can only be set once on an action.
+You're not allowed to set the **Completed** property more than once.
 
-Generally, a completed [IAsyncAction](iasyncaction.md) method called using language-specific awaitable syntax does nothing further than to return **null** when it completes.
+Most applications don't use the **Completed** property directly,
+but instead use a language-specific syntax for awaiting the completion
+of an asynchronous action,
+such as `co_await` (C++/WinRT), `await` (C#, Javascript), or `then` (Javascript, C++/CX).
 
-If you're implementing [IAsyncAction](iasyncaction.md), then the set implementation of **Completed** should store the handler, and the surrounding logic should invoke it when [Close](iasyncinfo_close_811482585.md) is called. The implementation should set the *asyncStatus* parameter of invoked callbacks appropriately if there is a [Cancel](iasyncinfo_cancel_1985564044.md) call, [Status](iasyncinfo_status.md) is not **Completed**, errors occurred, and so on.
+If the **Completed** property is set after the action has already completed,
+then the action behaves as if it had completed immediately after the handler was received.
+Note that this can result in the handler being called before the **Completed** property setter
+has returned; possibly even from the same thread.
 
 <!--Needed- topic on roll-your-own async that covers stuff like that-->
 

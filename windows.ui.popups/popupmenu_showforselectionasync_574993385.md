@@ -25,7 +25,7 @@ A [IUICommand](iuicommand.md) object that represents the context menu command in
 If no command is invoked, ShowForSelectionAsync returns **null**.
 
 ## -remarks
-You can see complete code examples that demonstrate how to create and customize context menu in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample) on the [ sample home page](/samples/browse/).
+You can see complete code examples that demonstrate how to create and customize context menus in the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample).
 
 ## -examples
 Before you can show a context menu, you must add an event listener for the [oncontextmenu](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa704010(v=vs.85)) event. For example, the [Context menu sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Context%20menu%20sample) listens for the event on specific HTML elements, and then calls the `scenario1AttachmentHandler` function.

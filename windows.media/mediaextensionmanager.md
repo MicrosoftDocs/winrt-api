@@ -32,4 +32,4 @@ Media extensions have the following limitations.
 
 ## -see-also
 
-[Media extension sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20extensions%20sample), [Transcoding media sample](/samples/browse/), [Real-Time communication sample](/samples/browse/), [Real-time communication sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620600)
+[Media extension sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Media%20extensions%20sample), [Transcoding Media Sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/MediaTranscoding), [Real-time communication sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/SimpleCommunication)

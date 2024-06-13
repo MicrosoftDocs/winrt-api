@@ -14,6 +14,9 @@ public sealed class FocusSession
 
 Represents a focus session.
 
+> [!IMPORTANT]
+> The **Windows.UI.Shell.FocusSession** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
+
 ## -remarks
 
 Get an instance of this class by calling one of the overloads of [TryStartFocusSession](focussessionmanager_trystartfocussession_982259691.md) or [GetSession](focussessionmanager_getsession_996400911.md).

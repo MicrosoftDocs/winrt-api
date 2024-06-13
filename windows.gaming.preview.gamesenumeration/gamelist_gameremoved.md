@@ -10,9 +10,10 @@ static public event Windows.Gaming.Preview.GamesEnumeration.GameListRemovedEvent
 # Windows.Gaming.Preview.GamesEnumeration.GameList.GameRemoved
 
 ## -description
-This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+Indicates that a [GameListEntry](gamelistentry.md) has been removed from the [GameList](gamelist.md).
 
 ## -remarks
+This API is not available to all apps. Unless your developer account is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 
 ## -examples
 

@@ -14,7 +14,7 @@ public void RichEditTextDocument.SetMath(String value)
 Sets the [RichEditBox](../windows.ui.xaml.controls/richeditbox.md) content to the specified [MathML](https://www.w3.org/Math/).
 
 > [!IMPORTANT]
-> The math mode APIs are a limited access feature. Please contact [richeditmathml@microsoft.com](mailto:richeditmathml@microsoft.com) for more info, or to request an unlock token.
+> **Windows 11, version 23H2 and earlier:** the math mode APIs are part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
 
 ## -parameters
 

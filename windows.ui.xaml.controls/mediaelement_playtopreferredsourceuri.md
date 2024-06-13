@@ -31,13 +31,6 @@ A forward slash ("/") is appended to the Uniform Resource Identifier (URI) strin
 ## -examples
 Here is some code that shows how to set up Play To by reference.
 
-<!--<snippet type="code" devlang="html"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[<video src="http://www.contoso.com/videos/video.mp4"  
-       msPlayToPreferredSourceUri="http://www.contoso.com/catalogid=1234" /> ]]></snippet><snippet type="code" devlang="jscript"><![CDATA[var video = document.createElement('video');
-document.body.appendChild(video);
-
-video.src = "http://www.contoso.com/videos/video.mp4";
-video.msPlayToPreferredSourceUri = "http://www.contoso.com/catalogid=1234";]]></snippet> -->
-
 ```xaml
 <MediaElement Source="http://www.contoso.com/videos/video.mp4" 
    PlayToPreferredSourceUri="http://www.contoso.com/catalogid=1234">

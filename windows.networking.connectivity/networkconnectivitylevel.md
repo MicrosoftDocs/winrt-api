@@ -22,14 +22,15 @@ Local network access only.
 ### -field ConstrainedInternetAccess:2
 Limited internet access.
 
-This value indicates captive portal connectivity, where local access to a web portal is provided, but access to the Internet requires that specific credentials are provided via the portal. This level of connectivity is generally encountered when using connections hosted in public locations (for example, coffee shops and book stores).
+This value is an indication that the connection is constrained, possibly due to a captive portal. Or possibly due to some other reason; for example, a proxy between the client and the internet that's modifying the HTTP header in some unknown way. In the case of captive portal connectivity, local access to a web portal is provided, but access to the internet requires that specific credentials are provided via the portal.
+
+This level of connectivity (limited internet access) is generally encountered when using connections hosted in public locations (for example, coffee shops and book stores).
 
 > [!NOTE]
-> This doesn't guarantee detection of a captive portal. UWP apps should also test if the captive portal can be reached using a URL for the captive portal, or by attempting access to a public web site which will then redirect to the captive portal when Windows reports **LocalAccess** as the current NetworkConnectivityLevel.
+> As mentioned, this doesn't necessarily mean that a captive portal has been detected. You should also test whether the captive portal can be reached by using a URL for the captive portal, or by attempting access to a public web site, which will then redirect to the captive portal when Windows reports **LocalAccess** as the current NetworkConnectivityLevel.
 
 ### -field InternetAccess:3
-Local and Internet access.
-
+Local and internet access.
 
 ## -remarks
 For an example of how these values are used to indicate connection changes, see [Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10)).

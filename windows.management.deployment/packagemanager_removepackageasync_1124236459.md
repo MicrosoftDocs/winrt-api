@@ -20,7 +20,16 @@ A string representation of the package identity to identify the package to be re
 The status of the deployment request. The [DeploymentResult](deploymentresult.md) contains the final returned value of the deployment operation, once it is completed. The [DeploymentProgress](deploymentprogress.md) can be used to obtain the percentage of completion over the entire course of the deployment operation.
 
 ## -remarks
-This request cannot be canceled. The package full name is an alternate form of the package identity that is shorter and is suitable for naming objects such as files and directories. A package identity is represented by the [Identity](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the package manifest. When a package is removed it is removed for the current user, which means that the package payload continues to exist if other users have installed the package, but it will not be accessible to the current user. If no other users have the specified package installed, its payload will be removed from the %ProgramFiles%\WindowsApps directory. Any app associated with the package that is being removed will be shutdown automatically as part of the package removal.
+
+For a call to this method to be successful, the caller needs to fulfil one of these conditions:
+
+* The caller is running in an AppContainer (Low IL) *and* it has the **packageManagement** restricted capability.
+* The caller is running with Medium IL, or higher.
+* The caller’s publisher matches the publisher of the package (or volume) being removed.
+
+For descriptions of the terms above, and links to more info, see [Packaging, deployment, and process](/windows/apps/get-started/intro-pack-dep-proc).
+
+This request can't be canceled. The package full name is an alternate form of the package identity that is shorter and is suitable for naming objects such as files and directories. A package identity is represented by the [Identity](/uwp/schemas/appxpackage/appxmanifestschema/element-identity) element of the package manifest. When a package is removed it is removed for the current user, which means that the package payload continues to exist if other users have installed the package, but it will not be accessible to the current user. If no other users have the specified package installed, its payload will be removed from the %ProgramFiles%\WindowsApps directory. Any app associated with the package that is being removed will be shutdown automatically as part of the package removal.
 
 ## -examples
 Call the RemovePackageAsync(String) method to uninstall the app package. Notice that the package full name in *packageFullName* comes from a command-line argument.

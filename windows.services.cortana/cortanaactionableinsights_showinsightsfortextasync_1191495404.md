@@ -14,8 +14,6 @@ public IAsyncAction CortanaActionableInsights.ShowInsightsForTextAsync(String te
 
 Asynchronously retrieves and displays insights based on the specified text content.
 
-> [!IMPORTANT]
-> The [CortanaActionableInsights](cortanaactionableinsights.md) APIs are a limited access feature. Please contact [InsightsAPISupport@microsoft.com](mailto://InsightsAPISupport@microsoft.com) for more info, or to request an unlock token.
 
 ## -parameters
 
