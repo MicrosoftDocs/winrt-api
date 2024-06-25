@@ -26,6 +26,13 @@ Represents a symbolic or photorealistic map of the Earth.
 
 ## -remarks
 
+> [!IMPORTANT]
+> **Bing Maps for Enterprise service retirement**
+>
+> The UWP [MapControl](mapcontrol.md) and map services from the [Windows.Services.Maps](../windows.services.maps/windows_services_maps.md) namespaces rely on Bing Maps. Bing Maps for Enterprise is deprecated and will be retired, at which point the MapControl and services will no longer receive data.
+>
+> For more information, see the [Bing Maps Developer Center](https://www.bingmapsportal.com/) and [Bing Maps documentation](/bingmaps/getting-started/).
+
 ### XAML attached properties
 
 MapControl is the host service class for several [XAML attached properties](/windows/uwp/xaml-platform/attached-properties-overview).

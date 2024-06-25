@@ -26,6 +26,6 @@ Presence detection can have a significant impact on security, responsiveness, an
 
 ## -see-also
 
-[HumanPresenceSensorReading](humanpresencesensorreading.md), [HumanPresenceFeatures](humanpresencefeatures.md), [HumanPresenceSettings](humanpresencesettings.md)
+[HumanPresenceSensorReading](humanpresencesensorreading.md), [HumanPresenceFeatures](humanpresencefeatures.md), [HumanPresenceSettings](humanpresencesettings.md), [Device experiences - Presence sensing](/windows-hardware/design/device-experiences/sensors-presence-sensing), [Device experiences - Wake on approach](/windows-hardware/design/device-experiences/sensors-presence-wake-on-approach), [Device experiences - Lock on leave](/windows-hardware/design/device-experiences/sensors-presence-lock-on-leave), [Device experiences - Adaptive dimming](/windows-hardware/design/device-experiences/sensors-presence-adaptive-dimming)
 
 ## -examples

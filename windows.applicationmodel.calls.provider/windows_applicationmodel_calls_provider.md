@@ -15,15 +15,13 @@ This namespace is used to set information such as the call location and the cate
 
 In order to use this API, you will need to define a new category in your application manifest file.
 
-```
+```xml
 <Extension Category="windows.phoneCallOriginProvider" />
 ```
 
 ## -examples
 
 ## -see-also
-
-[Caller ID sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/CallerID)
 
 ## -capabilities
 
