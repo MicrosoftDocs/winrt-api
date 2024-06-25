@@ -22,6 +22,8 @@ The message to display in the dialog box.
 ### -param caption
 The caption to display in the dialog box.
 
+Note: this value must be set for a non-UWP app.
+
 ## -returns
 The credential and options from the user.
 
