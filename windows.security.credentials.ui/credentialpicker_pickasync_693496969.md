@@ -24,8 +24,7 @@ The credential and options from the user.
 
 ## -remarks
 
-This method is only supported in a UWP app.
-In a non-UWP app use the 3 parameter overload and set the `caption` parameter.
+This method is supported only in UWP apps. In a non-UWP (that is, desktop) app, use the three-parameter overload, and set the *caption* parameter.
 
 ## -examples
 
