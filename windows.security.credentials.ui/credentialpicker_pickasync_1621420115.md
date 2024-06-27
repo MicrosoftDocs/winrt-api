@@ -16,6 +16,9 @@ Displays a dialog box to the user and collects credentials from the user.
 ### -param options
 The options on displaying and collecting the credential box.
 
+> [!NOTE]
+> In a non-UWP (that is, desktop) app, the [CredentialPickerOptions.Caption](/uwp/api/Windows.Security.Credentials.UI.CredentialPickerOptions.Caption) must be set.
+
 ## -returns
 The credential and options from the user.
 
