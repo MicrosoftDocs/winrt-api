@@ -93,8 +93,7 @@
       },
       "author":
       {
-        "windows.ai.machinelearning*.yml": "QuinnRadich",
-        "windows.ai.machinelearning/*.md": "QuinnRadich",
+        "windows.ai.machinelearning*": "QuinnRadich",
         "windows.ai.machinelearning.preview*.yml": "QuinnRadich",
         "windows.ai.machinelearning.preview/*.md": "QuinnRadich",
         "windows.applicationmodel*.yml": "alvinashcraft",
@@ -729,6 +728,8 @@
         "windows.ui.xaml.automation.text/*.md": "Karl-Bridge-Microsoft",
         "windows.ui.xaml.controls*.yml": "jwmsft",
         "windows.ui.xaml.controls/*.md": "jwmsft",
+        "windows.ui.xaml.controls/ink*.yml": "Karl-Bridge-Microsoft",
+        "windows.ui.xaml.controls/ink*.md": "Karl-Bridge-Microsoft",
         "windows.ui.xaml.controls.maps*.yml": "jwmsft",
         "windows.ui.xaml.controls.maps/*.md": "jwmsft",
         "windows.ui.xaml.controls.primitives*.yml": "jwmsft",
@@ -784,8 +785,7 @@
       },
       "ms.author":
       {
-        "windows.ai.machinelearning*.yml": "quradic",
-        "windows.ai.machinelearning.preview*.yml": "quradic",
+        "windows.ai.machinelearning*": "quradic",
         "windows.applicationmodel*.yml": "aashcraft",
         "windows.applicationmodel.activation*.yml": "aashcraft",
         "windows.applicationmodel.appextensions*.yml": "aashcraft",
