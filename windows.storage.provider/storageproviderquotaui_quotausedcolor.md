@@ -21,6 +21,8 @@ It is expected that the provider will handle theme changes, including high contr
 
 If no color is provided, the System accent color defined in Settings [UIColorType](../windows.ui.viewmanagement/uicolortype.md) will be used.
 
+This property is advisory. Windows determines if or how it uses these values.
+
 ## -see-also
 
 [StorageProviderQuotaUI](storageproviderquotaui.md)

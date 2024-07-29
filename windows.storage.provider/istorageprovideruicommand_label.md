@@ -27,6 +27,8 @@ Each of the secondary commands, [ProviderSecondaryCommands](storageproviderstatu
 
 For all of the commands, this label is read aloud by the screen reader.
 
+Windows may choose to display "Hidden"-requested commands as "Disabled". This property must be specified and non-empty even if [IStorageProviderUICommand.State](istorageprovideruicommand_state.md) is Hidden. 
+
 ## -see-also
 
 [IStorageProviderUICommand](istorageprovideruicommand.md)

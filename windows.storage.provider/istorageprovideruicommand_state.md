@@ -21,7 +21,9 @@ Returns the [IStorageProviderUICommand](istorageprovideruicommand.md) state ([St
 
 ## -remarks
 
-When the State is Hidden, the command will not display at all. When the State is Disabled, the command will be visible but not click-able. When the State is Enabled, the command will be visible and click-able.
+When the State is Disabled, the command will be visible but not click-able. When the State is Enabled, the command will be visible and click-able.
+
+Windows may choose to display "Hidden"-requested commands as "Disabled". Those commands will be visible but not click-able.
 
 ## -see-also
 

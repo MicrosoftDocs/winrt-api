@@ -15,6 +15,10 @@ The total amount of storage available in the current cloud files account.
 
 ## -property-value
 
+## -remarks
+
+This property is advisory. Windows determines if or how it uses these values.
+
 ## -see-also
 
 [StorageProviderQuotaUI](storageproviderquotaui.md)

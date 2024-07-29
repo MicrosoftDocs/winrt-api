@@ -17,6 +17,10 @@ The icon displayed in the Command Bar area of File Explorer when the current fol
 
 Fully qualified path to an SVG file.
 
+## -remarks
+
+This property is advisory. Windows determines if or how it uses these values.
+
 ## -see-also
 
 [StorageProviderStatusUI](storageproviderstatusui.md)

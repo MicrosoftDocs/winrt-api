@@ -15,6 +15,10 @@ The label displayed in the Command Bar area of File Explorer when the current fo
 
 ## -property-value
 
+## -remarks
+
+Windows may use a default string if this property is not present.
+
 ## -see-also
 
 [StorageProviderStatusUI](storageproviderstatusui.md)
