@@ -14,7 +14,7 @@ public class Printing3DMesh : Windows.Graphics.Printing3D.IPrinting3DMesh
 Represents a mesh in the 3D model.
 
 ## -remarks
-The Printing3DMesh class corresponds to the `<mesh>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://3mf.io/3mf-specification/).
+The Printing3DMesh class corresponds to the `<mesh>` element in the 3D Manufacturing Format (3MF) specification. For more info, see the [3MF Specification](https://3mf.io/spec/).
 
 ## -examples
 
