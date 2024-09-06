@@ -16,13 +16,13 @@ Gets or sets the template that defines the panel that controls the layout of ite
 
 ## -xaml-syntax
 ```xaml
-<itemsControl>
-  <itemsControl.ItemsPanel>
+<ItemsControl>
+  <ItemsControl.ItemsPanel>
     singlePanelTemplate
-  </itemsControl.ItemsPanel>
-</itemsControl>
+  </ItemsControl.ItemsPanel>
+</ItemsControl>
 - or -
-<itemsControl ItemsPanel="resourceReferenceToPanelTemplate"/>
+<ItemsControl ItemsPanel="resourceReferenceToPanelTemplate"/>
 ```
 
 
