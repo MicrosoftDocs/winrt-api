@@ -12,7 +12,7 @@ public Windows.ApplicationModel.AppInfo SourceAppInfo { get; }
 
 ## -description
 
-Gets an object that provides information about the source app associated with the [PrintSupportExtensionSession.PrinterSelected](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportExtensionSession.PrinterSelected) event. 
+Gets an object that provides information about the source app associated with the [PrintSupportExtensionSession.PrinterSelected](/uwp/api/windows.graphics.printing.printsupport.printsupportextensionsession.printerselected) event. 
 
 ## -property-value
 

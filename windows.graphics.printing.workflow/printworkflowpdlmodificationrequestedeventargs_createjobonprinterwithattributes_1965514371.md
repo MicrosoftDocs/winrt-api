@@ -28,11 +28,11 @@ A collection operation job attributes.
 
 ### -param jobAttributesMergePolicy
 
-A member of the [PrintWorkflowAttributesMergePolicy](xref:Windows.Graphics.Printing.Workflow.PrintWorkflowAttributesMergePolicy) enumeration specifying how PSA-provided job attributes are merged with PrintTicket attributes.
+A member of the [PrintWorkflowAttributesMergePolicy](/uwp/api/windows.graphics.printing.workflow.printworkflowattributesmergepolicy) enumeration specifying how PSA-provided job attributes are merged with PrintTicket attributes.
 
 ### -param operationAttributesMergePolicy
 
-A member of the [PrintWorkflowAttributesMergePolicy](xref:Windows.Graphics.Printing.Workflow.PrintWorkflowAttributesMergePolicy) enumeration specifying how PSA-provided operation attributes are merged with PrintTicket attributes.
+A member of the [PrintWorkflowAttributesMergePolicy](/uwp/api/windows.graphics.printing.workflow.printworkflowattributesmergepolicy) enumeration specifying how PSA-provided operation attributes are merged with PrintTicket attributes.
 
 ## -returns
 

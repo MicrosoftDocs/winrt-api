@@ -18,11 +18,11 @@ Requests exclusive control of the camera with the specified device ID.
 
 ### -param deviceId
 
-The device ID of the camera for which exclusive control is requested. The device ID can be obtained with the [DeviceInformation](xref:Windows.Devices.Enumeration.DeviceInformation) class.
+The device ID of the camera for which exclusive control is requested. The device ID can be obtained with the [DeviceInformation](/uwp/api/windows.devices.enumeration.deviceinformation) class.
 
 ### -param mode
 
-A value from the [MediaCaptureDeviceExclusiveControlReleaseMode](xref:Windows.Media.Capture.MediaCaptureDeviceExclusiveControlReleaseMode) enumeration specifying the conditions under which exclusive control is released.
+A value from the [MediaCaptureDeviceExclusiveControlReleaseMode](/uwp/api/windows.media.capture.mediacapturedeviceexclusivecontrolreleasemode) enumeration specifying the conditions under which exclusive control is released.
 
 ## -returns
 

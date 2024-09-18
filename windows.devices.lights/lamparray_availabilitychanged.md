@@ -51,7 +51,7 @@ To use this event, you must declare the "com.microsoft.windows.lighting" AppExte
 
 ### AvailabilityChanged event example
 
-The following example shows how to set up a handler for an <xref:Windows.Devices.Lights.Lamp.AvailabilityChanged> event. Note how the code first checks whether the <xref:Windows.Devices.Lights.LampArray.IsAvailable> property is available before declaring the handler.
+The following example shows how to set up a handler for an [AvailabilityChanged](/uwp/api/windows.devices.lights.lamp.availabilitychanged) event. Note how the code first checks whether the [IsAvailable](/uwp/api/windows.devices.lights.lamparray.isavailable) property is available before declaring the handler.
 
 ```csharp
 using System;
