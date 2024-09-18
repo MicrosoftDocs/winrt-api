@@ -18,7 +18,7 @@ Sets the connection status for the remote desktop connection associated with the
 
 ### -param value
 
-A member of the [RemoteDesktopConnectionStatus](/uwp/api/windows.system.remotedesktop.provider/remotedesktopconnectionstatus) enumeration specifying the connection status of a remote desktop connection.
+A member of the [RemoteDesktopConnectionStatus](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionStatus) enumeration specifying the connection status of a remote desktop connection.
 
 ## -remarks
 

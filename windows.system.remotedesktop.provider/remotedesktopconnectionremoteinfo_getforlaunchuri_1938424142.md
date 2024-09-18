@@ -12,7 +12,7 @@ public static Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemot
 
 ## -description
 
-Retrieves a [RemoteDesktopConnectionRemoteInfo](/uwp/api/windows.system.remotedesktop.provider/remotedesktopconnectionremoteinfo) associated with a remote desktop connection
+Retrieves a [RemoteDesktopConnectionRemoteInfo](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionRemoteInfo) associated with a remote desktop connection
 
 ## -parameters
 

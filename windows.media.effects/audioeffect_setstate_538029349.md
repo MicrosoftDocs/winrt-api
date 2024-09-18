@@ -18,7 +18,7 @@ Sets the current state of the audio effect.
 
 ### -param newState
 
-A value from the [AudioEffectState](/uwp/api/windows.media.effects/audioeffectstate) enumeration specifying the new state of the audio effect.
+A value from the <xref:Windows.Media.Effects.AudioEffectState> enumeration specifying the new state of the audio effect.
 
 ## -remarks
 

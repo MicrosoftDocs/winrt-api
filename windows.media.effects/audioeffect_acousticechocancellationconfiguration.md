@@ -12,7 +12,7 @@ public Windows.Media.Effects.AcousticEchoCancellationConfiguration AcousticEchoC
 
 ## -description
 
-Gets the [AcousticEchoCancellationConfiguration](/uwp/api/windows.media.effects/acousticechocancellationconfiguration) associated with the audio effect.
+Gets the <xref:Windows.Media.Effects.AcousticEchoCancellationConfiguration> associated with the audio effect.
 
 ## -property-value
 

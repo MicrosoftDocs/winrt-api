@@ -26,7 +26,7 @@ The audio effect is enabled.
 
 ## -remarks
 
-This enumeration is used in calls to [AudioEffectState)](/uwp/api/windows.media.effects/audioeffect_setstate_538029349).
+This enumeration is used in calls to <xref:Windows.Media.Effects.AudioEffect.SetState(Windows.Media.Effects.AudioEffectState)>.
 
 ## -see-also
 
