@@ -12,7 +12,7 @@ public void SetAdaptiveCard (Windows.UI.Shell.IAdaptiveCard adaptiveCard);
 
 ## -description
 
-Sets the adaptive card to be shown by the print system in the print dialog in response to the [PrintSupportExtensionSession.PrinterSelected](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportExtensionSession.PrinterSelected) event.
+Sets the adaptive card to be shown by the print system in the print dialog in response to the [PrintSupportExtensionSession.PrinterSelected](/uwp/api/windows.graphics.printing.printsupport/printsupportextensionsession_printerselected) event.
 
 ## -parameters
 
