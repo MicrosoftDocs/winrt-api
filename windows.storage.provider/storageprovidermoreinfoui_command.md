@@ -19,6 +19,11 @@ The [MoreInfoUI](storageproviderstatusui_moreinfoui.md) section's command.
 
 When the user's display settings are standard (e.g., no high contrast theme is currently applied), this button uses the user's accent color.
 
+Windows may choose to disable Storage Provider Status UI if neither this command nor [ProviderPrimaryCommand](storageproviderstatusui_providerprimarycommand.md) are specified.
+
+Additionally, Windows may choose this command to take precedence over [ProviderPrimaryCommand](storageproviderstatusui_providerprimarycommand.md) when both commands are present.
+
+
 ## -see-also
 
 [MoreInfoUI](storageproviderstatusui_moreinfoui.md)

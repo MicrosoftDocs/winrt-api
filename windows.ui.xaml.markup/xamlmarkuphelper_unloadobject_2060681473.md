@@ -10,9 +10,8 @@ public void XamlMarkupHelper.UnloadObject(DependencyObject element)
 # Windows.UI.Xaml.Markup.XamlMarkupHelper.UnloadObject
 
 ## -description
-Unloads an element from the XAML visual tree.
 
-
+Unloads an element from the XAML visual tree that was loaded by [x:Load](/windows/uwp/xaml-platform/x-load-attribute).
 
 ## -parameters
 
@@ -22,7 +21,12 @@ The element to unload.
 
 ## -remarks
 
+This method supports functionality provided by the [x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute). Calling this method with an element that is not marked with the `x:Load` attribute will cause an error.
+
+For more information and examples, see [Unloading elements](/windows/uwp/xaml-platform/x-load-attribute#unloading-elements) in the [x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute) page.
+
 ## -see-also
 
-## -examples
+[x:Load attribute](/windows/uwp/xaml-platform/x-load-attribute)
 
+## -examples

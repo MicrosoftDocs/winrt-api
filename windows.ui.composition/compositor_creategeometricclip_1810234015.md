@@ -7,23 +7,18 @@
 public CompositionGeometricClip Compositor.CreateGeometricClip()
 -->
 
-## -returns
-
-
 # Windows.UI.Composition.Compositor.CreateGeometricClip
 
 ## -description
 
 Creates an instance of [CompositionGeometricClip](compositiongeometricclip.md).
 
-
-
-## -remarks
+## -returns
 
 The created [CompositionGeometricClip](compositiongeometricclip.md) object.
+
+## -remarks
 
 ## -see-also
 
 ## -examples
-
-

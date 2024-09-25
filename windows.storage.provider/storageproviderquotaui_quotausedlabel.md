@@ -15,6 +15,10 @@ This string is intended to provide explicit context on the quota bar value, such
 
 ## -property-value
 
+## -remarks
+
+Windows may use a default string if this property is not present.
+
 ## -see-also
 
 [StorageProviderStatusUI_QuotaUI](storageproviderstatusui_quotaui.md)
