@@ -9,11 +9,11 @@
 
 ## -description
 
-Provides APIs related to Windows Protected Print Mode (WPP). 
+Provides APIs related to Windows protected print mode. Windows protected print mode exclusively uses the Windows modern print stack which provides additional print security benefits on PCs. Enabling Windows protected print mode is highly recommended.  
 
 ## -remarks
 
-For information on WPP, see [A new, modern, and secure print experience from Windows](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/a-new-modern-and-secure-print-experience-from-windows/ba-p/4002645).
+For information on WPP, see [Windows protected print mode](/windows-hardware/drivers/print/windows-protected-print-mode).
 
 ## -see-also
 
