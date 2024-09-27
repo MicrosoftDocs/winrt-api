@@ -12,11 +12,11 @@ public static bool IsProtectedPrintEnabled { get; }
 
 ## -description
 
-Gets a value indicating wether Windows Protected Print Mode (WPP) is enabled on the current device.
+Gets a value indicating wether Windows protected print mode is enabled on the current device.
 
 ## -property-value
 
-True if WPP is enabled; otherwise, false.
+True if Windows protected print mode is enabled; otherwise, false.
 
 ## -remarks
 
