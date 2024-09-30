@@ -16,7 +16,7 @@ Represents the configuration of an Acoustic Echo Cancellation (AEC) audio captur
 
 ## -remarks
 
-Get an instance of this class by calling <xref:Windows.Media.Effects.AudioEffect.AcousticEchoCancellationConfiguration>.
+Get an instance of this class by calling [AcousticEchoCancellationConfiguration](/uwp/api/windows.media.effects.audioeffect.acousticechocancellationconfiguration).
 
 ## -see-also
 

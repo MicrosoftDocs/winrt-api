@@ -31,7 +31,7 @@ The converted print document in the translated PDL format.
 
 ### -param hostBasedProcessingOperations
 
-A combination of flags from the [PdlConversionHostBasedProcessingOperations](xref:Windows.Graphics.Printing.Workflow.PdlConversionHostBasedProcessingOperations) enumeration, specifying the operations that should be performed by the host.
+A combination of flags from the [PdlConversionHostBasedProcessingOperations](/uwp/api/windows.graphics.printing.workflow.pdlconversionhostbasedprocessingoperations) enumeration, specifying the operations that should be performed by the host.
 
 ## -returns
 

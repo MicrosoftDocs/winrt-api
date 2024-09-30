@@ -12,7 +12,7 @@ public RemoteDesktopInfo (string id, string displayName);
 
 ## -description
 
-Initializes a new instance of [RemoteDesktopInfo](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopInfo) with the supplied ID and display name.
+Initializes a new instance of [RemoteDesktopInfo](/uwp/api/windows.system.remotedesktop.provider.remotedesktopinfo) with the supplied ID and display name.
 
 ## -parameters
 
