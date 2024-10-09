@@ -12,7 +12,7 @@ public static System.Collections.Generic.IList<Windows.System.RemoteDesktop.Prov
 
 ## -description
 
-Gets the list of [RemoteDesktopInfo](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopInfo) objects representing the currently enabled remote desktop connections.
+Gets the list of [RemoteDesktopInfo](/uwp/api/windows.system.remotedesktop.provider.remotedesktopinfo) objects representing the currently enabled remote desktop connections.
 
 ## -property-value
 

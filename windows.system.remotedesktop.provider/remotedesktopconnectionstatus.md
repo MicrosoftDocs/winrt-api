@@ -37,7 +37,7 @@ The connection is disconnected.
 
 ## -remarks
 
-Remote desktop providers inform the OS of the current status of a remote desktop connection by calling [SetConnectionStatus](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionInfo.SetConnectionStatus(Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionStatus)).
+Remote desktop providers inform the OS of the current status of a remote desktop connection by calling [SetConnectionStatus](/uwp/api/windows.system.remotedesktop.provider.remotedesktopconnectioninfo.setconnectionstatus)).
 
 ## -see-also
 
