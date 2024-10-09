@@ -26,7 +26,7 @@ Exclusive control is released when all streams from the associated camera are st
 
 ## -remarks
 
-Obtain exclusive access to a camera by calling [TryAcquireExclusiveControl](xref:Windows.Media.Devices.VideoDeviceController.TryAcquireExclusiveControl(System.String,Windows.Media.Capture.MediaCaptureDeviceExclusiveControlReleaseMode).
+Obtain exclusive access to a camera by calling [TryAcquireExclusiveControl](/uwp/api/windows.media.devices.videodevicecontroller.tryacquireexclusivecontrol).
 
 ## -see-also
 

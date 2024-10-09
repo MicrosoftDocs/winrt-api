@@ -19,7 +19,7 @@ Represents a remote desktop connection on the local desktop.
 
 ## -remarks
 
-Get an instance of this class by calling [GetForLaunchUri](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionInfo.GetForLaunchUri(Windows.Foundation.Uri,Windows.UI.WindowId)).
+Get an instance of this class by calling [GetForLaunchUri](/uwp/api/windows.system.remotedesktop.provider.remotedesktopconnectioninfo.getforlaunchuri)).
 
 For the remote desktop connections to CloudPCs that are launched from Task view, users can configure which redirections they allow in the Settings app under the **Privacy and security > CloudPC** tab. Applications using this API may want to read the following registry keys to honor the Cloud PC configuration set by the user in the Settings application: 
 

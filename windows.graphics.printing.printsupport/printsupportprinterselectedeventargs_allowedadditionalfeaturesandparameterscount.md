@@ -20,7 +20,7 @@ The number of features and parameters that can be displayed in the print dialog.
 
 ## -remarks
 
-Specify additional features and parameters for the print dialog by calling [SetAdditionalFeatures](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalFeatures(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})) and [SetAdditionalParameters](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportPrinterSelectedEventArgs.SetAdditionalParameters(Windows.Foundation.Collections.IIterable{Windows.Graphics.Printing.PrintSupport.PrintSupportPrintTicketElement})).
+Specify additional features and parameters for the print dialog by calling [SetAdditionalFeatures](/uwp/api/windows.graphics.printing.printsupport.printsupportprinterselectedeventargs.setadditionalfeatures)) and [SetAdditionalParameters](/uwp/api/windows.graphics.printing.printsupport.printsupportprinterselectedeventargs.setadditionalparameters)).
 
 
 

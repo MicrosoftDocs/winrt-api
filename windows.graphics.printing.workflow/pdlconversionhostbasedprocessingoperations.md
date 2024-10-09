@@ -42,7 +42,7 @@ Blank page insertion is performed by the host.
 
 ## -remarks
 
-This enumeration is used by an overload of the [ConvertPdlAsync](xref:Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConverter.ConvertPdlAsync(Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket,Windows.Storage.Streams.IInputStream,Windows.Storage.Streams.IOutputStream,Windows.Graphics.Printing.Workflow.PdlConversionHostBasedProcessingOperations)) method.
+This enumeration is used by an overload of the [ConvertPdlAsync](/uwp/api/windows.graphics.printing.workflow.printworkflowpdlconverter.convertpdlasync)) method.
 
 ## -see-also
 

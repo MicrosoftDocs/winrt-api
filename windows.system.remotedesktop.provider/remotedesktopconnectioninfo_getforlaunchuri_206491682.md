@@ -12,7 +12,7 @@ public static Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionInfo 
 
 ## -description
 
-Retrieves a [RemoteDesktopConnectionInfo](xref:Windows.System.RemoteDesktop.Provider.RemoteDesktopConnectionInfo) associated with a remote desktop connection and registers a window with the OS to represent the remote desktop.
+Retrieves a [RemoteDesktopConnectionInfo](/uwp/api/windows.system.remotedesktop.provider.remotedesktopconnectioninfo) associated with a remote desktop connection and registers a window with the OS to represent the remote desktop.
 
 ## -parameters
 

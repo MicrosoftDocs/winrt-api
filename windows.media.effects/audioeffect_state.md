@@ -16,7 +16,7 @@ Gets the current state of the audio effect.
 
 ## -property-value
 
-A value from the <xref:Windows.Media.Effects.AudioEffectState> enumeration indicating the current state of the audio effect.
+A value from the [AudioEffectState](/uwp/api/windows.media.effects.audioeffectstate) enumeration indicating the current state of the audio effect.
 
 ## -remarks
 
