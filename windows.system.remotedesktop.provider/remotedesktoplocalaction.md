@@ -25,7 +25,7 @@ Show Bluetooth settings.
 
 ## -remarks
 
-This enumeration is used by the [PerformLocalActionRequestedEventArgs](/uwp/api/windows.system.remotedesktop.provider.performlocalactionrequestedeventargs) class.
+This enumeration is used by the [PerformLocalActionRequestedEventArgs](xref:Windows.System.RemoteDesktop.Provider.PerformLocalActionRequestedEventArgs) class.
 
 ## -see-also
 
