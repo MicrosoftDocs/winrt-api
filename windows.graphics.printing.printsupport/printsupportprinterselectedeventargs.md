@@ -12,7 +12,7 @@ public sealed class PrintSupportPrinterSelectedEventArgs
 
 ## -description
 
-Provides data for the [PrintSupportExtensionSession.PrinterSelected](/uwp/api/windows.graphics.printing.printsupport.printsupportextensionsession.printerselected) event, which is raised when the selected printer in the printer dialog is changed to the printer associated with printer support app.
+Provides data for the [PrintSupportExtensionSession.PrinterSelected](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportExtensionSession.PrinterSelected) event, which is raised when the selected printer in the printer dialog is changed to the printer associated with printer support app.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public Windows.Media.Effects.AudioCaptureEffectsManager AudioCaptureEffectsManag
 
 ## -description
 
-Gets the [AudioCaptureEffectsManager](/uwp/api/windows.media.effects.audiocaptureeffectsmanager) associated with the **AudioDeviceController**.
+Gets the <xref:Windows.Media.Effects.AudioCaptureEffectsManager> associated with the **AudioDeviceController**.
 
 ## -property-value
 

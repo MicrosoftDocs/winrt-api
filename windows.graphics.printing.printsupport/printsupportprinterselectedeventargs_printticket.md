@@ -12,7 +12,7 @@ public Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket PrintTicket { g
 
 ## -description
 
-Gets the PrintTicket associated with the [PrintSupportExtensionSession.PrinterSelected](/uwp/api/windows.graphics.printing.printsupport.printsupportextensionsession.printerselected) event.
+Gets the PrintTicket associated with the [PrintSupportExtensionSession.PrinterSelected](xref:Windows.Graphics.Printing.PrintSupport.PrintSupportExtensionSession.PrinterSelected) event.
 
 ## -property-value
 
