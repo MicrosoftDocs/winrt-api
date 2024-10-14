@@ -10,13 +10,17 @@ public Windows.Security.Authentication.Web.Core.WebAccountMonitor CreateWebAccou
 # Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager.CreateWebAccountMonitor
 
 ## -description
+
 Creates a web account monitor to watch given accounts.
 
 ## -parameters
+
 ### -param webAccounts
+
 The web accounts to monitor.
 
 ## -returns
+
 A web account monitor watching the given accounts.
 
 ## -remarks
