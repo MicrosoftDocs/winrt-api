@@ -29,7 +29,7 @@ To use the input injection APIs, open the Package.appxmanifest file and add the 
 
 The following example shows how to inject basic mouse input.
 
-1. Create an instance of an [InputInjector](inputinjector.md) object by calling its static [TryCreate](inputinjector_trycreate_508033141.md) method and then prepare for the mouse input through the [InputInjector.InjectMouseInput](inputinjector_injectmouseinput_469589153.md) method.
+1. Create an instance of an [InputInjector](inputinjector.md) object by calling its static [TryCreate](inputinjector_trycreate_508033141.md) method and use the [InputInjector.InjectMouseInput](inputinjector_injectmouseinput_469589153.md) method to set up for the mouse input.
 
     ```csharp
     InjectedInputMouseInfo inputInfo = new InjectedInputMouseInfo();
@@ -37,7 +37,7 @@ The following example shows how to inject basic mouse input.
     inputInjector.InjectMouseInput(new[] { inputInfo });
     ```
 
-1. Initiate mouse input through the [InjectedInputMouseInfo](injectedinputmouseinfo.md) class using [InjectedInputMouseOptions](injectedinputmouseoptions.md) to specify the input action. Here we use the [DeltaX](injectedinputmouseinfo_deltax.md) and [DeltaY](injectedinputmouseinfo_deltay.md) properties move the mouse pointer to the right 20 pixels and down 20 pixels.
+1. Initiate mouse input through the [InjectedInputMouseInfo](injectedinputmouseinfo.md) class using [InjectedInputMouseOptions](injectedinputmouseoptions.md) to specify the input action. Here we use the [DeltaX](injectedinputmouseinfo_deltax.md) and [DeltaY](injectedinputmouseinfo_deltay.md) properties to move the mouse pointer to the right 20 pixels and down 20 pixels.
 
     ```csharp
     var inputMouseInfo = new InjectedInputMouseInfo();
