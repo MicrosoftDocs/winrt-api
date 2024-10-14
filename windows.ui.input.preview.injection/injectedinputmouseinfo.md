@@ -70,7 +70,7 @@ The following example shows how to inject basic mouse input.
     inputInjector.InjectMouseInput(new[] { down, up });
     ```
 
-1. Finally, we show how to use the [Wheel](injectedinputmouseoptions.md) field and the [MouseData](injectedinputmouseinfo_mousedata.md) property to simulate a negative mouse wheel rotation.
+1. Finally, we show how to use the [Wheel](injectedinputmouseoptions.md) field and the [MouseData](injectedinputmouseinfo_mousedata.md) property to simulate a negative mouse wheel rotation of three detents.
 
     ```csharp
     var mouseWheelDetent = -360;
