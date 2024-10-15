@@ -41,7 +41,7 @@ The windows constant, WHEEL_DELTA (defined as a value of 120), describes one det
 A positive value indicates that the wheel was rotated forward (away from the user) or tilted to the right; a negative value indicates that the wheel was rotated backward (toward the user) or tilted to the left.
 
 > [!NOTE]
-> [MouseData](injectedinputmouseinfo_mousedata.md) is of type `uint`, which doesn't support negative values. You must use an unchecked block or use a temporary local variable (see [InjectedInputMouseInfo](injectedinputmouseinfo.md) for an example).
+> [MouseData](injectedinputmouseinfo_mousedata.md) is of type `uint`, which doesn't support negative values. You must use an unchecked block or a temporary local variable (see [InjectedInputMouseInfo](injectedinputmouseinfo.md) for an example).
 
 - [XDown](injectedinputmouseinfo_mousedata.md) or [XUp](injectedinputmouseinfo_mousedata.md): 1 for XBUTTON1 or 2 for XBUTTON2XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices, often for forward and backward navigation in Web browsers. They return the same data as standard mouse buttons.
 
