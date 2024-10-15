@@ -10,23 +10,24 @@ public Windows.UI.Input.Preview.Injection.InjectedInputMouseOptions MouseOptions
 # Windows.UI.Input.Preview.Injection.InjectedInputMouseInfo.MouseOptions
 
 ## -description
+
 Gets or sets the various options, or modifiers, used to simulate mouse input.
 
 ## -property-value
+
 The options, or modifiers, for the mouse input.
 
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) to be declared in the application manifest. For more information on app capability requirements, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
-Using input injection requires the following be added to the Package.appxmanifest:
+To use the input injection APIs, open the Package.appxmanifest file and add the following (the `rescap` namespace hosts the restricted capabilities, whuch lets you declare the `inputInjectionBrokered` capability in the `Capabilities` section).
 
 - To `<Package>`
-    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
-    - `IgnorableNamespaces="rescap"`
-- To `<Capabilities>`
-    - `<rescap:Capability Name="inputInjectionBrokered" />`
+  - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="rescap"`
+- In `<Capabilities>`
+  - `<rescap:Capability Name="inputInjectionBrokered" />`
 
 ## -examples
 
@@ -38,4 +39,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[Simulate user input through input injection](/windows/uwp/design/input/input-injection)
+[MouseData](injectedinputmouseinfo_mousedata.md), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)
