@@ -11,11 +11,11 @@ public Windows.System.VirtualKey VirtualKey { get; }
 
 ## -description
 
-Gets the virtual key code (or ASCII/unicode character code depending on the key pressed) for the accelerator key event.
+Gets the virtual key code (or ASCII/unicode character code depending on the [EventType](acceleratorkeyeventargs_eventtype.md)) for the accelerator key event.
 
 ## -property-value
 
-The virtual key code (or ASCII/unicode character code depending on the key pressed) for the accelerator key event.
+The virtual key code (or ASCII/unicode character code depending on the [EventType](acceleratorkeyeventargs_eventtype.md)) for the accelerator key event.
 
 ## -remarks
 
