@@ -40,7 +40,7 @@
        "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/184/windows-app-sdk/",
        "feedback_help_link_type": "get-product-support",
        "uhfHeaderId": "MSDocsHeader-WinDevCenter",
-       "titleSuffix": "Windows UWP applications",
+       "titleSuffix": "Windows apps",
        "hideEdit": "true",
        "hideViewSource": "true",
        "defaultDevLang": "csharp",
