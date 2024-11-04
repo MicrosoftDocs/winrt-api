@@ -1,9 +1,7 @@
 ---
-layout: NamespaceListPage
-ms.topic: landing-page
-page_type: dotnet
+-api-id: TP:winrt-api
+-api-name: Windows Runtime namespaces
 ---
-
 # Windows Runtime (WinRT) Namespaces
 
 This section provides detailed information about the Windows Runtime (WinRT) APIs.
