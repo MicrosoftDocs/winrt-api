@@ -13,6 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Security.Credentials.UI.Creden
 Constructor used to initiate asynchronous prompting operations using three inputs.
 
 ## -parameters
+
 ### -param targetName
 The target name to display.
 
@@ -21,6 +22,9 @@ The message to display in the dialog box.
 
 ### -param caption
 The caption to display in the dialog box.
+
+> [!NOTE]
+> This value must be set for a non-UWP (that is, desktop) app.
 
 ## -returns
 The credential and options from the user.

@@ -22,6 +22,8 @@ By default, the array of commands for a dialog is empty. If no commands are appe
 
 To delay interaction with commands for a short period when the dialog is first shown, set the *AcceptUserInputAfterDelay* option with [MessageDialogOptions](messagedialogoptions.md).
 
+A maximum number of 3 [UICommand](uicommand.md) objects can be added, and an exception will be thrown if adding over 3.
+
 ## -examples
 
 ## -see-also
