@@ -51,6 +51,7 @@ namespace ShareTargetBetaCS
             }
             // </Snippetcs_HandleSharedText>
 
+            // <Snippetcs_HandleSharedStorageItems>
             if (shareOperation.Data.Contains(StandardDataFormats.StorageItems)) 
             {
                 // <Snippetcs_ReportStarted>
@@ -74,6 +75,7 @@ namespace ShareTargetBetaCS
 
                 shareOperation.ReportCompleted();
             }
+            // </Snippetcs_HandleSharedStorageItems>
 
             Window.Current.Content = this;
             Window.Current.Activate();
