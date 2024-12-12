@@ -12,7 +12,11 @@ public Windows.Graphics.Printing.PrintTicket.WorkflowPrintTicket GetJobPrintTick
 
 ## -description
 
+Gets the XML PrintTicket document for the current virtual print job in the print support UI context. The PrintTicket document contains instructions on how the printer should set its various features for a printing task.
+
 ## -returns
+
+The XML PrintTicket document for the current virtual print job.
 
 ## -remarks
 

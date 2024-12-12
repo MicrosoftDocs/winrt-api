@@ -12,6 +12,8 @@ public sealed class PrintWorkflowVirtualPrinterUIEventArgs
 
 ## -description
 
+Provides data for the [PrintWorkflowJobUISession.VirtualPrinterUIDataAvailable](printworkflowjobuisession_virtualprinteruidataavailable.md) event.
+
 ## -remarks
 
 ## -see-also

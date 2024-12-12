@@ -12,7 +12,11 @@ public Windows.Graphics.Printing.Workflow.PrintWorkflowConfiguration Configurati
 
 ## -description
 
+Gets a [PrintWorkflowConfiguration](printworkflowconfiguration.md) object that contains information about the current virtual print job and session in the print support UI context.
+
 ## -property-value
+
+A [PrintWorkflowConfiguration](printworkflowconfiguration.md) object.
 
 ## -remarks
 

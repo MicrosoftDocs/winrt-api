@@ -12,6 +12,8 @@ public Windows.Graphics.Printing.Workflow.PrintWorkflowPdlSourceContent SourceCo
 
 ## -description
 
+Gets the source page description language (PDL) content for the current virtual printer job in the print support UI context.
+
 ## -property-value
 
 ## -remarks
