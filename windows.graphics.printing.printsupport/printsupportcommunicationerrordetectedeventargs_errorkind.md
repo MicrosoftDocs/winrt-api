@@ -12,7 +12,11 @@ public Windows.Graphics.Printing.PrintSupport.IppCommunicationErrorKind ErrorKin
 
 ## -description
 
+A value from the [IppPrinterCommunicationKind](ippcommunicationerrorkind.md) enumeration specifying the kind of error that was encountered.
+
 ## -property-value
+
+A value from the [IppPrinterCommunicationKind](ippcommunicationerrorkind.md) enumeration.
 
 ## -remarks
 
