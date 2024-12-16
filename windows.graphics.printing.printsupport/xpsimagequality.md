@@ -30,7 +30,7 @@ JPEG, low compression.
 
 ### -field Png: 3
 
-PNG.
+PNG, no compression.
 
 ## -remarks
 

@@ -12,7 +12,7 @@ public bool CanModifyUserDefaultPrintTicket { get; }
 
 ## -description
 
-Gets a boolean value indicating whether the [UserDefaultPrintTicket](ippprintdevice_userdefaultprintticket.md).
+Gets a boolean value indicating whether the [UserDefaultPrintTicket](ippprintdevice_userdefaultprintticket.md) can be modified.
 
 ## -property-value
 

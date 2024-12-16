@@ -12,7 +12,7 @@ public Windows.Graphics.Printing.PrintSupport.XpsImageQuality AutomaticOutputQua
 
 ## -description
 
-Gets or sets the image quality for XPS images when the output quality is set to "Normal".
+Gets or sets the image quality for XPS images when the output quality is set to "Automatic".
 
 ## -property-value
 
