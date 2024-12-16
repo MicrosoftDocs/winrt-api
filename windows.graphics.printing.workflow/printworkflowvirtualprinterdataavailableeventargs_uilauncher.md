@@ -16,6 +16,8 @@ Gets an object that can show a UI for gathering user input that the virtual prin
 
 ## -property-value
 
+A [PrintWorkflowUILauncher](printworkflowuilauncher.md) object.
+
 ## -remarks
 
 ## -see-also

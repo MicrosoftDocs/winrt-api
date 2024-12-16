@@ -16,6 +16,8 @@ Gets the source page description language (PDL) content for the current virtual 
 
 ## -property-value
 
+A [PrintWorkflowPdlSourceContent](printworkflowpdlsourcecontent.md) object representing the PDL content.
+
 ## -remarks
 
 ## -see-also
