@@ -1,9 +1,9 @@
 ---
--api-id: M:Windows.Graphics.Printing.Workflow.PrintWorkflowPdlModificationRequestedEventArgs.GetPdlConverter(Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConversionType)
+-api-id: M:Windows.Graphics.Printing.Workflow.PrintWorkflowVirtualPrinterDataAvailableEventArgs.GetPdlConverter(Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConversionType)
 -api-type: winrt method
 ---
 
-# Windows.Graphics.Printing.Workflow.PrintWorkflowPdlModificationRequestedEventArgs.GetPdlConverter(Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConversionType)
+# Windows.Graphics.Printing.Workflow.PrintWorkflowVirtualPrinterDataAvailableEventArgs.GetPdlConverter(Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConversionType)
 
 <!--
 public Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConverter GetPdlConverter (Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConversionType conversionType);
@@ -12,7 +12,7 @@ public Windows.Graphics.Printing.Workflow.PrintWorkflowPdlConverter GetPdlConver
 
 ## -description
 
-Gets the page description language (PDL) converter for the specified conversion type.
+Gets the page description language (PDL) converter for the specified conversion type for the virtual print job.
 
 ## -parameters
 
