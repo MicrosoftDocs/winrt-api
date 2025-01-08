@@ -20,6 +20,8 @@ A [Deferral](/uwp/api/windows.foundation.deferral) object.
 
 ## -remarks
 
+The print job operation is delayed until the app calls the [Deferral.Complete](/uwp/api/windows.foundation.deferral.complete) method.
+
 ## -see-also
 
 ## -examples
