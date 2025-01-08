@@ -28,6 +28,10 @@ XPS to PWGR converter.
 
 XPS to PCLM converter.
 
+### -field XpsToTiff: 3
+
+XPS to TIFF converter.
+
 ## -remarks
 
 For more information, see [Print support app design guide](/windows-hardware/drivers/devapps/print-support-app-design-guide).
