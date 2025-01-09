@@ -10,14 +10,19 @@ public void SetTrigger(Windows.ApplicationModel.Background.IBackgroundTrigger tr
 # Windows.ApplicationModel.Background.BackgroundTaskBuilder.SetTrigger
 
 ## -description
+
 Sets the event trigger for a background task.
 
 ## -parameters
+
 ### -param trigger
+
 An instance of an event trigger object such as a [SystemTrigger](systemtrigger.md), [TimeTrigger](timetrigger.md), or [NetworkOperatorNotificationTrigger](networkoperatornotificationtrigger.md).
 
 ## -remarks
+
 In addition to specifying the type of event trigger for a background task, an application must also enable background tasks that use the event trigger type in the `<Extensions><Extension><BackgroundTasks>` section of its manifest. Valid types include the following:
+
 + `<Task Type="audio"/>`
 + `<Task Type="timer"/>`
 + `<Task Type="systemEvent"/>`
@@ -83,4 +88,3 @@ List of triggers:
 ## -examples
 
 ## -see-also
-

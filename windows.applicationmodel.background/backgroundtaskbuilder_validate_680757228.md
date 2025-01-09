@@ -11,7 +11,7 @@ public bool Validate ();
 
 ## -description
 
-Validates the background task that has been configured with the [SetTrigger](backgroundtaskbuilder_settrigger_1223384297.md) method. This method is called by the system to determine whether the background task meets the requirements to run.
+Validates the background task that has been configured with the [SetTrigger](backgroundtaskbuilder_settrigger_2125876510.md) method. This method is called by the system to determine whether the background task meets the requirements to run.
 
 ## -returns
 
