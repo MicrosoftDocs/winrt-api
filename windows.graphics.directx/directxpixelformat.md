@@ -499,6 +499,10 @@ See [DXGI_FORMAT_SAMPLER_FEEDBACK_MIN_MIP_OPAQUE](/windows/win32/api/dxgiformat/
 
 See [DXGI_FORMAT_SAMPLER_FEEDBACK_MIP_REGION_USED_OPAQUE](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
+### -field A4B4G4R4: 191
+
+See [DXGI_FORMAT_A4B4G4R4_UNORM](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format).
+
 ## -remarks
 
 Refer to [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) for descriptions of these formats.
