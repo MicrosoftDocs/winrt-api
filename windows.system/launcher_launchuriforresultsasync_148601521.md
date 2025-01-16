@@ -34,9 +34,11 @@ When this method completes, it returns the results of the launch.
 
 ## -remarks
 
-Launching an app for results allows you to launch an app from another app and exchange data between the two.
+Unless you are calling this API from a Windows desktop application, this API must be called from within an ASTA thread (also known as the UI thread).
 
-This API must be called from within an ASTA thread (also known as a UI thread).
+This API may also be called from a Windows desktop application.
+
+Launching an app for results allows you to launch an app from another app and exchange data between the two.
 
 When calling this method, the *options* parameter must contain a valid value for [LauncherOptions.TargetApplicationPackageFamilyName](launcheroptions_targetapplicationpackagefamilyname.md).
 
