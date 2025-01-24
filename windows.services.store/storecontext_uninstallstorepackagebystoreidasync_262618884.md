@@ -25,10 +25,11 @@ You can use this method to free up disk space by uninstalling DLC packages that 
 > [!NOTE]
 > DLC packages are not available to all developer accounts.
 
-When you call this method, the OS silently uninstalls the package without displaying a notification dialog. This method requires the restricted **storePackageManagement** capability to perform this operation. If you don't have access to this restricted capability, you can use the [RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md) or [RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md) methods instead (these methods display a notification dialog that requests the user's permission to uninstall the package).
+When you call this method, the OS silently uninstalls the package without displaying a notification dialog. This method requires the restricted **storeOptionalPackageInstallManagement** capability to perform this operation. 
 
 > [!NOTE]
-> The restricted **storePackageManagement** capability is only available to desktop applications and games that use the [Desktop Bridge](https://developer.microsoft.com/windows/bridges/desktop) and to Xbox games that use XVC packages and are developed as part of a managed partner program, such as the [ID@Xbox](https://www.xbox.com/developers/id) program. These applications and games have this capability by default.
+> If you don't have access to the **storeOptionalPackageInstallManagement** restricted capability, you can use the [RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md) or [RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md) methods instead (these methods display a notification dialog that requests the user's permission to uninstall the package).
+
 
 The Store ID for an add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information, see [Store IDs](/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
 
@@ -38,4 +39,4 @@ The Store ID for an add-on is available in [Partner Center](https://partner.micr
 ## -examples
 
 ## -capabilities
-storePackageManagement
+storeOptionalPackageInstallManagement
