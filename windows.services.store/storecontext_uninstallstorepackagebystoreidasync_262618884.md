@@ -28,7 +28,7 @@ You can use this method to free up disk space by uninstalling DLC packages that 
 When you call this method, the OS silently uninstalls the package without displaying a notification dialog. This method requires the restricted **storeOptionalPackageInstallManagement** capability to perform this operation. 
 
 > [!NOTE]
-> If you don't have access to the **storeOptionalPackageInstallManagement** restricted capability, you can use the [RequestDownloadAndInstallStorePackagesAsync](storecontext_requestdownloadandinstallstorepackagesasync_1733414901.md) methods instead (these methods display a notification dialog that requests the user's permission to uninstall the package).
+> If you don't have access to the **storeOptionalPackageInstallManagement** restricted capability, you can use the [RequestUninstallStorePackageAsync](storecontext_requestuninstallstorepackageasync_1329597038.md) or [RequestUninstallStorePackageByStoreIdAsync](storecontext_requestuninstallstorepackagebystoreidasync_1267943069.md) methods instead (these methods display a notification dialog that requests the user's permission to uninstall the package).
 
 
 The Store ID for an add-on is available in [Partner Center](https://partner.microsoft.com/dashboard), and it also is returned by the [StoreId](storeproduct_storeid.md) property of the [StoreProduct](storeproduct.md) that represents the add-on. For more information, see [Store IDs](/windows/uwp/monetize/in-app-purchases-and-trials#store-ids).
