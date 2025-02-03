@@ -22,7 +22,7 @@ The platform provides the following set of commands.
 
 | Command/Label | Description | Icon | Keyboard shortcut |
 | ------- | ---- | ----------------- | ----- |
-| Cut | Delete the selected content and copy it to the clipboard. | :::image type="icon" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/E8C6.png" alt-text="Cut icon." border="false":::<br>E8C6 | Ctrl + X |
+| Cut | Delete the selected content and copy it to the clipboard. | :::image type="icon" source="./../windows.ui.xaml.controls/images/segoe-fluent-icons/E8C6.png" alt-text="Cut icon." border="false":::<br>E8C6 | Ctrl + X |
 | Copy | Copy the selected content to the clipboard. | :::image type="icon" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/E8C8.png" alt-text="Copy icon." border="false":::<br>E8C8  |Ctrl + C |
 | Paste | Insert the the clipboard content. | :::image type="icon" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/E77F.png" alt-text="Paste icon." border="false":::<br>E77F | Ctrl + P |
 | Select All | Select all content. | :::image type="icon" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/E8B3.png" alt-text="Select all icon." border="false":::<br>E8B3 | Ctrl + A |
