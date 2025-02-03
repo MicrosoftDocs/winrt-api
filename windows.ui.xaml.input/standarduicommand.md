@@ -19,7 +19,7 @@ Derives from [XamlUICommand](xamluicommand.md), adding a set of standard platfor
 [XamlUICommand](xamluicommand.md) implements the ICommand interface ([Windows.UI.Xaml.Input.ICommand](icommand.md) for C++ or [System.Windows.Input.ICommand](/dotnet/api/system.windows.input.icommand?view=dotnet-uwp-10.0&preserve-view=true) for C#), adding various UI properties, methods, and events.
 
 The platform provides the following set of commands.
-:::image type="content" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/e769.png" alt-text="t":::
+
 | Command/Label | Description | Icon | Keyboard shortcut |
 | ------- | ---- | ----------------- | ----- |
 | Cut | Delete the selected content and copy it to the clipboard. | :::image type="icon" source="../windows.ui.xaml.controls/images/segoe-fluent-icons/E8C6.png" alt-text="Cut icon." border="false":::<br>E8C6 | Ctrl + X |
