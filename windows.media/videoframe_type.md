@@ -17,6 +17,8 @@ A string indicating the type of video data the video frame contains.
 
 ## -remarks
 
+This value is non-standardized and can be set to an aribtrary value. For example, a camera device driver may set this to an OEM-specific string.
+
 ## -examples
 
 ## -see-also
