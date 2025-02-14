@@ -11,7 +11,7 @@ public Windows.Storage.Provider.IStorageProviderStatusUISource GetStatusUISource
 
 ## -description
 
-Returns the [IStorageProviderStatusUISource](istorageproviderstatusuisource.md) for a cloud provider.
+Returns the [IStorageProviderStatusUISource](istorageproviderstatusuisource.md) for a cloud files provider.
 
 ## -parameters
 
@@ -21,7 +21,7 @@ The sync root id is created by providers to register as a sync root. For more de
 
 ## -returns
 
-[IStorageProviderStatusUISource](istorageproviderstatusuisource.md) for a cloud provider.
+[IStorageProviderStatusUISource](istorageproviderstatusuisource.md) for a cloud files provider.
 
 ## -see-also
 

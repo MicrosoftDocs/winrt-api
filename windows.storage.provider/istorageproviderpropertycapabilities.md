@@ -10,6 +10,7 @@ public interface IStorageProviderPropertyCapabilities
 # Windows.Storage.Provider.IStorageProviderPropertyCapabilities
 
 ## -description
+
 Provides access to the property capabilities supported by the sync root.
 
 ## -remarks
@@ -17,4 +18,3 @@ Provides access to the property capabilities supported by the sync root.
 ## -see-also
 
 ## -examples
-

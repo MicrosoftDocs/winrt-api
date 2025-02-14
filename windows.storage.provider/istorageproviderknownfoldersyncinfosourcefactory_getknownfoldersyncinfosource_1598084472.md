@@ -17,7 +17,7 @@ The method that File Explorer calls to obtain an instance of [IStorageProviderKn
 
 ## -remarks
 
-Changing a property on the object after it has been returned by **GetKnownFolderSyncInfoSource** could result in undefined behavior. To update any property on [StorageProviderKnownFolderSyncInfo](storageproviderknownfoldersyncinfo.md), the cloud provider should raise the [KnownFolderSyncInfoChanged](istorageproviderknownfoldersyncinfosource_knownfoldersyncinfochanged.md) event on **IStorageProviderKnownFolderSyncInfoSource** and be ready to provide a new **StorageProviderKnownFolderSyncInfo** object.
+Changing a property on the object after it has been returned by **GetKnownFolderSyncInfoSource** could result in undefined behavior. To update any property on [StorageProviderKnownFolderSyncInfo](storageproviderknownfoldersyncinfo.md), the cloud files provider should raise the [KnownFolderSyncInfoChanged](istorageproviderknownfoldersyncinfosource_knownfoldersyncinfochanged.md) event on **IStorageProviderKnownFolderSyncInfoSource** and be ready to provide a new **StorageProviderKnownFolderSyncInfo** object.
 
 ## -see-also
 

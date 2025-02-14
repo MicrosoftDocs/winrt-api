@@ -11,11 +11,11 @@ public interface IStorageProviderKnownFolderSyncInfoSourceFactory
 
 ## -description
 
-The interface that a cloud provider implements to provide instances of [IStorageProviderKnownFolderSyncInfoSource](istorageproviderknownfoldersyncinfosource.md) to File Explorer.
+The interface that a cloud files provider implements to provide instances of [IStorageProviderKnownFolderSyncInfoSource](istorageproviderknownfoldersyncinfosource.md) to File Explorer.
 
 ## -remarks
 
-Cloud providers implement this interface and register it as an extension in the app manifest. A new manifest element will be added to the package manifest schema under the `CloudFiles` extension element. You can use this element in the `CloudFiles` namespace:
+Cloud files providers implement this interface and register it as an extension in the app manifest. A new manifest element will be added to the package manifest schema under the `CloudFiles` extension element. You can use this element in the `CloudFiles` namespace:
 
 ```xml
 <Package
@@ -40,7 +40,7 @@ Alternatively, for non-packaged Win32 apps, registration of this class can be do
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StorageProvider
 ```
 
-This is consistent with the existing mechanism for unpackaged provider registration. This registration allows a storage provider to offer the entry point before a cloud user account is added. When installed globally, cloud providers should register the factory in each user's profile.
+This is consistent with the existing mechanism for unpackaged provider registration. This registration allows a storage provider to offer the entry point before a cloud user account is added. When installed globally, cloud files providers should register the factory in each user's profile.
 
 ## -see-also
 

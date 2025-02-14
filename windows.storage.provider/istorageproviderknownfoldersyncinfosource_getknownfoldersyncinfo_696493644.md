@@ -11,7 +11,7 @@ public Windows.Storage.Provider.StorageProviderKnownFolderSyncInfo GetKnownFolde
 
 ## -description
 
-**GetKnownFolderSyncInfo** is called by File Explorer whenever it needs to get the latest known folder sync status from the cloud provider.
+**GetKnownFolderSyncInfo** is called by File Explorer whenever it needs to get the latest known folder sync status from the cloud files provider.
 
 ## -returns
 
@@ -29,7 +29,7 @@ A [SyncRequested](storageproviderknownfoldersyncinfo_syncrequested.md) handler m
 
 ## -examples
 
-The following example shows how to implement **GetKnownFolderSyncInfo** in a cloud provider.
+The following example shows how to implement **GetKnownFolderSyncInfo** in a cloud files provider.
 
 ```cppwinrt
 StorageProviderKnownFolderSyncInfo MyKnownFolderInfoSource::GetKnownFolderSyncInfo()
@@ -41,7 +41,7 @@ StorageProviderKnownFolderSyncInfo MyKnownFolderInfoSource::GetKnownFolderSyncIn
     auto syncRequestHandler = [](
     winrt::CloudMirror::StorageProviderKnownFolderSyncRequestArgs const& args)
     {
-        // The user wants to sync some known folders with our cloud provider.
+        // The user wants to sync some known folders with our cloud files provider.
         // We can show some UI to sign in, confirm their choice, etc.
         MyStorageProviderSyncManager::ShowFolderEnrollmentUI(args.KnownFolders(), args.Source());
 
