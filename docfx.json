@@ -54,7 +54,7 @@
        "https://authoring-docs-microsoft.poolparty.biz/devrel/e9b7979e-fb8b-40a7-a19f-c987950324dc"
        ],
        "ms.subservice": "winrt-reference",
-       "ms.topic": "managed-reference",
+       "ms.topic": "generated-reference",
        "ms.date": "02/08/2017",
        "keywords": "windows 10, uwp, winrt, api",
        "searchScope": ["UWP"],
