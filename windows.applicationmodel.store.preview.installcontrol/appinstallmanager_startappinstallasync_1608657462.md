@@ -10,39 +10,56 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Preview
 # Windows.ApplicationModel.Store.Preview.InstallControl.AppInstallManager.StartAppInstallAsync
 
 ## -description
+
+> [!NOTE]
+> Please note that the `AppInstallManager.StartAppInstallAsync` method has been officially retired. Please refer to the [AppInstallManager](appinstallmanager.md) documentation for alternative APIs for your needs.
+
 Starts the installation of the specified app, with the option to generate telemetry data.
 
 ## -parameters
+
 ### -param productId
+
 The product ID of the app to install.
 
 ### -param skuId
+
 The SKU ID of the app to install.
 
 ### -param repair
+
 True to attempt to repair the installation of an app that is already installed; otherwise, false.
 
 ### -param forceUseOfNonRemovableStorage
+
 True to install the app to non-removable storage even if the user has configured apps to install to SD card; false to install the app to non-removable storage or SD card according to the user's settings.
 
 ### -param catalogId
+
 The catalog ID of the app to install.
 
 ### -param bundleId
+
 The bundle ID of the app to install.
 
 ### -param correlationVector
+
 A correlation vector string that can be used to generate telemetry data.
 
 ## -returns
+
 An asynchronous operation that, on successful completion, returns an [AppInstallItem](appinstallitem.md) that represents the app that was added to the installation queue.
 
 ## -remarks
+
 The remarks for [StartAppInstallAsync(String, String, Boolean, Boolean)](appinstallmanager_startappinstallasync_1749232586.md) also apply to this method.
 
 ## -examples
 
 ## -see-also
+
 [StartAppInstallAsync(String, String, Boolean, Boolean)](appinstallmanager_startappinstallasync_1749232586.md)
+
 ## -capabilities
+
 runFullTrust
