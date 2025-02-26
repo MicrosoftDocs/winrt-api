@@ -26,8 +26,6 @@ The flags indicating the current state of the supplied virtual key when the inpu
 
 ## -remarks
 
-All keys support the **Locked** state (not just the standard Caps Lock and Num Lock keys).
-
 ## -examples
 
 ## -see-also
