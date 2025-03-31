@@ -25,6 +25,8 @@ The user can specify their preferred wake behavior in the System settings (see [
 
 ## -see-also
 
-[DimmingOptions](humanpresencesettings_dimmingoptions.md), [LockOptions](humanpresencesettings_lockoptions.md)
+[DimmingOptions](humanpresencesettings_dimmingoptions.md),
+[LockOptions](humanpresencesettings_lockoptions.md),
+[OnlookerDetectionOptions](humanpresencesettings_onlookerdetectionoptions.md)
 
 ## -examples

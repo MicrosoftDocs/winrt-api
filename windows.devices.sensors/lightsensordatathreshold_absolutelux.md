@@ -21,6 +21,7 @@ The light data threshold, in absolute units of lux.
 
 ## -see-also
 
-[LightSensorDataThreshold.LuxPercentage](lightsensordatathreshold_luxpercentage.md)
+[LightSensorDataThreshold.LuxPercentage](lightsensordatathreshold_luxpercentage.md),
+[LightSensorDataThreshold.Chromaticity](lightsensordatathreshold_chromaticity.md)
 
 ## -examples

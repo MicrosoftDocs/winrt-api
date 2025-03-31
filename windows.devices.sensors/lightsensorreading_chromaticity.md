@@ -11,12 +11,15 @@ public Windows.Devices.Sensors.LightSensorChromaticity Chromaticity { get; }
 
 
 ## -description
+Gets the chromaticity values for both X and Y.
 
 ## -property-value
+The chromaticity values for both X and Y.
 
 ## -remarks
 
 ## -see-also
+[IsChromaticitySupported](lightsensor_ischromaticitysupported_620535635.md)
 
 ## -examples
 

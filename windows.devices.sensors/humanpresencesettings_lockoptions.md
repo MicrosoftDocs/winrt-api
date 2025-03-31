@@ -25,6 +25,8 @@ The user can specify their preferred lock on leave behavior in the System settin
 
 ## -see-also
 
-[WakeOptions](humanpresencesettings_wakeoptions.md), [DimmingOptions](humanpresencesettings_dimmingoptions.md)
+[WakeOptions](humanpresencesettings_wakeoptions.md),
+[DimmingOptions](humanpresencesettings_dimmingoptions.md),
+[OnlookerDetectionOptions](humanpresencesettings_onlookerdetectionoptions.md)
 
 ## -examples

@@ -11,12 +11,16 @@ public Windows.Devices.Sensors.OnlookerDetectionAction Action { get; set; }
 
 
 ## -description
+Gets or sets the onlooker detection action behavior.
 
 ## -property-value
 
 ## -remarks
 
 ## -see-also
+[OnlookerDetectionAction](onlookerdetectionaction.md),
+[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
+[IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
 
 ## -examples
 

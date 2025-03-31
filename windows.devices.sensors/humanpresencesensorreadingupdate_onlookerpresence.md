@@ -12,11 +12,18 @@ public System.Nullable<Windows.Devices.Sensors.HumanPresence> OnlookerPresence {
 
 ## -description
 
+Gets or sets whether an onlooker is detected.
+
 ## -property-value
+
+The onlooker state is reported by a [HumanPresenceSensor](humanpresencesensor.md).
 
 ## -remarks
 
 ## -see-also
+
+[HumanPresenceSensor.MaxDetectablePersons](humanpresencesensor_maxdetectablepersons.md.md),
+[IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
 
 ## -examples
 
