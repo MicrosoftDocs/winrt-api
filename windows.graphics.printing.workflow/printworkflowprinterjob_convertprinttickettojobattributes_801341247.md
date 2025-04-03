@@ -12,7 +12,7 @@ public System.Collections.Generic.IDictionary<string,Windows.Devices.Printers.Ip
 
 ## -description
 
-Converts a [WorkflowPrintTicket](../windows.graphics.printing.printticket.workflowprintticket.md) to Internet Printing Protocol (IPP) job attributes.
+Converts a [WorkflowPrintTicket](../windows.graphics.printing.printticket/workflowprintticket.md) to Internet Printing Protocol (IPP) job attributes.
 
 ## -parameters
 
