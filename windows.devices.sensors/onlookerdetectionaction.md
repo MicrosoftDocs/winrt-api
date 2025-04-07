@@ -31,7 +31,7 @@ The user can specify their preferred onlooker detection behavior in the System s
 
 ## -see-also
 
-[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
+[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md), 
 [IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
 [Device experiences - Onlooker Detection](/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection)
 

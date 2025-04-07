@@ -12,9 +12,11 @@ public bool IsChromaticitySupported ();
 
 ## -description
 
-Gets whether chromaticity is supported with the device.
+Returns a value that indicates whether chromaticity is supported with the device.
 
 ## -returns
+
+`true` if chromaticity is supported with the device; otherwise, `false`.
 
 ## -remarks
 

@@ -31,7 +31,7 @@ After one day the onlooker detection feature will be activated again
 
 ## -see-also
 
-[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
+[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md), 
 [IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
 
 ## -examples

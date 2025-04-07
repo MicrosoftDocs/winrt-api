@@ -22,7 +22,7 @@ The onlooker state is reported by a [HumanPresenceSensor](humanpresencesensor.md
 
 ## -see-also
 
-[HumanPresenceSensor.MaxDetectablePersons](humanpresencesensor_maxdetectablepersons.md.md),
+[HumanPresenceSensor.MaxDetectablePersons](humanpresencesensor_maxdetectablepersons.md),
 [IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
 
 ## -examples

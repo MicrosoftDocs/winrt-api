@@ -20,7 +20,7 @@ The user can specify their preferred onlooker detection behavior in the System s
 
 ## -see-also
 
-[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
+[IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md), 
 [IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md),
 [OnlookerDetectionOptions](humanpresencesettings_onlookerdetectionoptions.md)
 
