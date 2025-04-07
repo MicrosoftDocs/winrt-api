@@ -33,7 +33,7 @@ The user can specify their preferred onlooker detection behavior in the System s
 
 [IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
 [IsOnlookerDetectionSupported](humanpresencefeatures_isonlookerdetectionsupported.md)
-<!-- [Device experiences - Multi Presence Detection](/windows-hardware/design/device-experiences/sensors-presence-multi-presence-detection) -->
+[Device experiences - Onlooker Detection](/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection)
 
 ## -examples
 

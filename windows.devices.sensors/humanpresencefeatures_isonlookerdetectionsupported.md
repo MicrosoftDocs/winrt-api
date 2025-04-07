@@ -23,7 +23,7 @@ True, if supported. Otherwise, false. The default is false.
 ## -see-also
 
 [OnlookerDetectionOptions](onlookerdetectionoptions.md), [IsOnlookerDetectionEnabled](humanpresencesettings_isonlookerdetectionenabled.md.md), 
-<!-- [Device experiences - Multi Presence Detection](/windows-hardware/design/device-experiences/sensors-presence-multi-presence-detection) -->
+[Device experiences - Onlooker Detection](/windows-hardware/design/device-experiences/sensors-presence-onlooker-detection)
 
 
 ## -examples

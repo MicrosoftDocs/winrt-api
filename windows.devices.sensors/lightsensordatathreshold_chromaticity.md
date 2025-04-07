@@ -12,11 +12,11 @@ public Windows.Devices.Sensors.LightSensorChromaticity Chromaticity { get; set; 
 
 ## -description
 
-Gets or sets the minimum change in chromaticity (X and Y) which is required to reach the threshold.
+Gets or sets the minimum change in chromaticity (x and y) which is required to reach the threshold. The values x and y are coordinates in the CIE xyY color space. 
 
 ## -property-value
 
-The chromaticity threshold for both X and Y. 
+The chromaticity threshold for both x and y. 
 
 ## -remarks
 

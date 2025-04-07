@@ -11,10 +11,10 @@ public Windows.Devices.Sensors.LightSensorChromaticity Chromaticity { get; }
 
 
 ## -description
-Gets the chromaticity values for both X and Y.
+Gets the chromaticity values for both x and y in the CIE xyY color space. 
 
 ## -property-value
-The chromaticity values for both X and Y.
+The chromaticity values for both x and y.
 
 ## -remarks
 
