@@ -10,25 +10,28 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.FileProperties.BasicPr
 # Windows.Storage.StorageFile.GetBasicPropertiesAsync
 
 ## -description
+
 Gets the basic properties of the current file.
 
 ## -returns
+
 When this method completes successfully, it returns the basic properties of the current file as a [BasicProperties](../windows.storage.fileproperties/basicproperties.md) object.
 
 ## -remarks
-This method will return E_ILLEGAL_METHOD_CALL if there are other async operations in progress on the same StorageItem instance. Make sure that another thread isn't modifying the StorageItem at the same time.  
+
+This method will return **E_ILLEGAL_METHOD_CALL** if there are other async operations in progress on the same [IStorageItem](istorageitem.md) instance. Make sure that another thread isn't modifying the **IStorageItem** at the same time.
 
 ## -examples
-This example shows you how to access basic properties of a file using the storageFile.getBasicPropertiesAsync method.
 
-```javascript
-storageFile.getBasicPropertiesAsync().then(
-    function (basicProperties) {
-        var size  = basicProperties.size;
-    }
-);
+This example shows you how to access basic properties of a file using the **GetBasicPropertiesAsync** method of a [StorageFile](storagefile.md) object:
+
+```csharp
+BasicProperties basicProperties = await storageFile.GetBasicPropertiesAsync();
+ulong size = basicProperties.Size;
 ```
 
-You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to use the storageFile.getBasicPropertiesAsync method.
+You must have a [StorageFile](storagefile.md) object (`storageFile` in the example) that represents your file in order to invoke the storageFile.GetBasicPropertiesAsync method.
 
 ## -see-also
+
+[IStorageItem](istorageitem.md), [StorageFile](storagefile.md)
