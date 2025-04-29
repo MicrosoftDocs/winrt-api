@@ -50,5 +50,5 @@ Controls whether the mix and volume dials are in-place or swapped. The buffer mu
 
 ## -see-also
 
-[GetHeadsetOperation](legacygipgamecontrollerprovider_GetHeadsetOperation.md)
-[SetHeadsetOperation](legacygipgamecontrollerprovider_SetHeadsetOperation.md)
+- [GetHeadsetOperation(Windows.Gaming.Input.Preview.HeadsetOperation)](legacygipgamecontrollerprovider_getheadsetoperation_1395817803.md)
+- [SetHeadsetOperation(Windows.Gaming.Input.Preview.HeadsetOperation,System.Byte[])](legacygipgamecontrollerprovider_setheadsetoperation_1034087833.md)
