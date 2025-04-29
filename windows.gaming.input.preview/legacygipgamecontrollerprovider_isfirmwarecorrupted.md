@@ -17,7 +17,7 @@ Returns whether the controller firmware is corrupted.
 
 Battery charging state of the controller.
 
-`GetDeviceFirmwareCorruptionState` should be used rather than `IsFirmwareCorrupted` as it is supported by most devices. `IsFirmwareCorrupted` is only supported by older devices and should only be used if `GetDeviceFirmwareCorruptionState` is not supported.
+[**GetDeviceFirmwareCorruptionState**](legacygipgamecontrollerprovider_getdevicefirmwarecorruptionstate_2021274220.md) should be used rather than **IsFirmwareCorrupted** as it is supported by most devices. **IsFirmwareCorrupted** is only supported by older devices and should only be used if **GetDeviceFirmwareCorruptionState** is not supported.
 
 > [!CAUTION]
 > To avoid damaging devices, the firmware corruption and update APIs should only be used with hardware you have developed.
@@ -25,8 +25,6 @@ Battery charging state of the controller.
 ## -remarks
 
 ## -see-also
-
-[GetDeviceFirmwareCorruptionState](legacygipgamecontrollerprovider_getdevicefirmwarecorruptionstate.md)
 
 ## -examples
 
