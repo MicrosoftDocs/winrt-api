@@ -12,7 +12,7 @@ public enum ActionFeedbackKind
 
 ## -description
 
-Specifies the kind of user feedback represented by an [ActionFeedback](action-feedback.md).
+Specifies the kind of user feedback represented by an [ActionFeedback](actionfeedback.md).
 
 ## -enum-fields
 

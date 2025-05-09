@@ -12,6 +12,8 @@
 
 ## -description
 
+Closes and releases any resources used by this **ActionInvocationHelpDetails**.
+
 ## -remarks
 
 ## -see-also

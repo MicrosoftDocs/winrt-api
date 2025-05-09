@@ -18,7 +18,7 @@ Sets the input entity for an app action invocation.
 
 ### -param inputName
 
-The name of the input entity. The name must match the name declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/action-json).
+The name of the input entity. The name must match the name declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
 
 ### -param inputValue
 

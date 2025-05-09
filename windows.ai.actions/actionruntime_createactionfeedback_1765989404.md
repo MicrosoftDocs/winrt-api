@@ -12,11 +12,17 @@ public Windows.AI.Actions.ActionFeedback CreateActionFeedback (Windows.AI.Action
 
 ## -description
 
+Creates a new instance of the [ActionFeedback](actionfeedback.md) class that provides information about user feedback for an action.
+
 ## -parameters
 
 ### -param feedbackKind
 
+A member of the [ActionFeedbackKind](actionfeedbackkind.md) enumeration specifying the kind of user feedback represented by the new **ActionFeedback** object.
+
 ## -returns
+
+A new **ActionFeedback** object.
 
 ## -remarks
 

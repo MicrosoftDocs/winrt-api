@@ -12,7 +12,11 @@ public string Title { get; set; }
 
 ## -description
 
+Gets or sets the displayed title of the help details.
+
 ## -property-value
+
+The help details title.
 
 ## -remarks
 

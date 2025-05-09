@@ -12,7 +12,11 @@ public System.Uri HelpUri { get; set; }
 
 ## -description
 
+Gets or sets the URI that links to content related to the help details.
+
 ## -property-value
+
+The help URI.
 
 ## -remarks
 

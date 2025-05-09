@@ -12,13 +12,21 @@ public enum ActionInvocationHelpKind
 
 ## -description
 
+Specifies the kind of help represented by an [ActionInvocationHelpDetails](actioninvocationhelpdetails.md) object.
+
 ## -enum-fields
 
 ### -field None: 0
 
+None.
+
 ### -field Error: 1
 
+Error.
+
 ### -field Warning: 2
+
+Warning.
 
 ## -remarks
 

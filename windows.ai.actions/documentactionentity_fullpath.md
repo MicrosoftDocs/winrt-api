@@ -12,7 +12,11 @@ public string FullPath { get; }
 
 ## -description
 
+Gets the full path to the document file.
+
 ## -property-value
+
+The full path to the document file.
 
 ## -remarks
 
