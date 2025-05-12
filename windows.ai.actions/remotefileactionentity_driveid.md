@@ -12,9 +12,11 @@ public string DriveId { get; }
 
 ## -description
 
-TBD
+Gets the identifier for the remote drive associated with the remote file.
 
 ## -property-value
+
+The identifier for the remote drive associated with the remote file.
 
 ## -remarks
 

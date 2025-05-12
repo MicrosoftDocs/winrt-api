@@ -38,7 +38,7 @@ The MIME type of the remote file.
 
 ### -param driveId
 
-TBD
+The identifier for the remote drive associated with the remote file.
 
 ### -param accountId
 
