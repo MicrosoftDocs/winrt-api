@@ -12,7 +12,11 @@ public string AccountId { get; }
 
 ## -description
 
+Gets the identifier of the cloud service account associated with the remote file. 
+
 ## -property-value
+
+The identifier of the cloud service account associated with the remote file. 
 
 ## -remarks
 

@@ -12,13 +12,21 @@ public enum RemoteFileKind
 
 ## -description
 
+Specifies the kind of a remote file.
+
 ## -enum-fields
 
 ### -field Document: 0
 
+Document.
+
 ### -field Photo: 1
 
+Photo.
+
 ### -field File: 2
+
+File.
 
 ## -remarks
 

@@ -12,7 +12,11 @@ public string Extension { get; }
 
 ## -description
 
+Gets the extension of the remote file.
+
 ## -property-value
+
+The extension of the remote file.
 
 ## -remarks
 

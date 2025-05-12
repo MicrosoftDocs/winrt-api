@@ -12,7 +12,11 @@ public string ContentType { get; }
 
 ## -description
 
+Gets the MIME type of the remote file.
+
 ## -property-value
+
+The MIME type of the remote file.
 
 ## -remarks
 

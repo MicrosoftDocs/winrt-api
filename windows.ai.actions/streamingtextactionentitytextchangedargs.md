@@ -12,6 +12,8 @@ public sealed class StreamingTextActionEntityTextChangedArgs
 
 ## -description
 
+Provides data for the [StreamingTextActionEntity.TextChanged](streamingtextactionentity_textchanged.md) event.
+
 ## -remarks
 
 ## -see-also

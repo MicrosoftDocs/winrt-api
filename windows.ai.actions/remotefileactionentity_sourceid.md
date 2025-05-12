@@ -12,7 +12,11 @@ public string SourceId { get; }
 
 ## -description
 
+Gets the identifier of the cloud storage provider that hosts the remote file.
+
 ## -property-value
+
+The identifier of the cloud storage provider that hosts the remote file.
 
 ## -remarks
 

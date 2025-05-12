@@ -12,7 +12,7 @@ public Windows.AI.Actions.StreamingTextActionEntityWriter CreateStreamingTextAct
 
 ## -description
 
-Creates a new instance of [CreateStreamingTextActionEntityWriter](streamingtextactionentitywriter.md) which supports the [StreamingTextActionEntity](streamingtextactionentity.md) class.
+Creates a new instance of [StreamingTextActionEntityWriter](streamingtextactionentitywriter.md) which supports the [StreamingTextActionEntity](streamingtextactionentity.md) class.
 
 ## -parameters
 

@@ -12,7 +12,10 @@ public sealed class NamedActionEntity : System.IDisposable
 
 ## -description
 
+A subclass of [ActionEntity](actionentity.md) that associates the name of an entity with an entity object.
+
 ## -remarks
+
 
 ## -see-also
 

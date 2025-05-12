@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler<Windows.AI.Actions.StreamingTe
 
 ## -description
 
+Raised when the text content of a **StreamingTextActionEntity** has changed.
+
 ## -remarks
 
 ## -see-also

@@ -12,7 +12,11 @@ public string GetText ();
 
 ## -description
 
+Gets the current text content of the **StreamingTextActionEntity**.
+
 ## -returns
+
+A string containing the current text content.
 
 ## -remarks
 

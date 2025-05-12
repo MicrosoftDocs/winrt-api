@@ -12,7 +12,11 @@ public string Name { get; set; }
 
 ## -description
 
+Gets or sets the name of the action entity that is the value of the [Entity](namedactionentity_entity.md) property.
+
 ## -property-value
+
+The name of the action entity. The action entity name is declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
 
 ## -remarks
 

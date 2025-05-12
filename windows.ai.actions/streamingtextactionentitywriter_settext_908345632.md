@@ -12,9 +12,13 @@ public void SetText (string text);
 
 ## -description
 
+Sets the current text of the associated [StreamingTextActionEntity](streamingtextactionentity.md).
+
 ## -parameters
 
 ### -param text
+
+The current text of the **StreamingTextActionEntity**.
 
 ## -remarks
 

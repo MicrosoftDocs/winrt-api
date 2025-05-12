@@ -26,7 +26,7 @@ A member of the [RemoteFileKind](remotefilekind.md) enumeration specifying the r
 
 ### -param sourceUri
 
-The URI of the remote file. Optional. Some cloud storage providers may use the *sourfileIdceId* parameter instead.
+The URI of the remote file. Optional. Some cloud storage providers may use the *sourfileId* parameter instead.
 
 ### -param fileId
 
@@ -54,7 +54,7 @@ A new **RemoteFileActionEntity**.
 
 ## -remarks
 
-This method has parameters that are commonly used across different cloud providers. The implementation and behavior of these parameters will vary between providers. Action provider developers should consult the documentation for each supported cloud storage provider for usage information for these parameters.
+This method has parameters that represent values that are commonly used across different cloud providers. The implementation and behavior of these parameters will vary between providers. App action provider developers should consult the documentation for each supported cloud storage provider for usage information for these parameters.
 
 ## -see-also
 

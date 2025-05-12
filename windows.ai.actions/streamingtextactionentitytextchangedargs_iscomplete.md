@@ -12,7 +12,11 @@ public bool IsComplete { get; }
 
 ## -description
 
+Gets a value indicating whether the text provided by the [StreamingTextActionEntity](streamingtextaxtionentity.md) is complete.
+
 ## -property-value
+
+True if the text is complete; otherwise, false.
 
 ## -remarks
 
