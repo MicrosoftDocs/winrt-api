@@ -42,13 +42,13 @@ Show the emoji pane with symbols view enabled. If it is not available, it will s
 
 Show the clipboard history pane view.
 
-### -field Dictation: 6
+### -field Dictation:6
 
 Show the dictation pane view.
 
-### -field Clipboard:5
+### -field Gamepad:7
 
-Show the clipboard history pane view.
+Show the gamepad keyboard view.
 
 ## -remarks
 
@@ -63,7 +63,7 @@ This allows apps to build specific experiences around certain input views, if th
 | Windows version | SDK version | Value added |
 | -- | -- | -- |
 | 2004 | 19041 | Symbols |
-| ?? | ?? | Clipboard |
+| Windows 11 | 10.0.26100.3624 | Gamepad |
 
 ## -see-also
 
