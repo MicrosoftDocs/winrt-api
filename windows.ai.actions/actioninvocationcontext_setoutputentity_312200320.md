@@ -22,7 +22,7 @@ The name of the output entity. The name must match the name declared in the Acti
 
 ### -param outputValue
 
-An instance of one of the entity classes that inherits from [ActionEntity](actionentity).
+An instance of one of the entity classes that inherits from [ActionEntity](actionentity.md).
 
 ## -remarks
 

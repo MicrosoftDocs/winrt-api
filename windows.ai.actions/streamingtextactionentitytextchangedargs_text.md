@@ -12,7 +12,7 @@ public string Text { get; }
 
 ## -description
 
-Gets the current text content of the [StreamingTextActionEntity](streamingtextaxtionentity.md) associated with the event.
+Gets the current text content of the [StreamingTextActionEntity](streamingtextactionentity.md) associated with the event.
 
 ## -property-value
 

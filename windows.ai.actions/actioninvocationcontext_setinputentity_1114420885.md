@@ -22,7 +22,7 @@ The name of the input entity. The name must match the name declared in the Actio
 
 ### -param inputValue
 
-An instance of one of the entity classes that inherits from [ActionEntity](actionentity).
+An instance of one of the entity classes that inherits from [ActionEntity](actionentity.md).
 
 ## -remarks
 

@@ -30,7 +30,7 @@ The app action was unsupported.
 
 ### -field Unavailable: 3
 
-The app action was unavailable. For information on app action availability, see [Toggle availability of an App Action for Windows](/windows/ai/app-actions/action-availability).
+The app action was unavailable. For information on app action availability, see [Toggle availability of an App Action for Windows](/windows/ai/app-actions/actions-availability).
 
 ## -remarks
 
