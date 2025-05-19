@@ -14,7 +14,7 @@ Provides APIs for implementing an App Actions on Windows provider app.
 ## -remarks
 
 For information on implementing an App Actions on Windows provider app using **IActionProvider**, see [Use COM activation with App Actions for Windows
-](/windows/ai/app-actions/actions-com-activation).
+](/windows/ai/app-actions/get-started).
 
 ## -see-also
 

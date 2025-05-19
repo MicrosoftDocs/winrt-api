@@ -26,7 +26,7 @@ True if the action is available, otherwise false.
 
 ## -remarks
 
-For information on app action availability, see [Toggle availability of an App Action for Windows](/windows/ai/app-actions/action-availability).
+For information on app action availability, see [Toggle availability of an App Action for Windows](/windows/ai/app-actions/actions-availability).
 
 ## -see-also
 

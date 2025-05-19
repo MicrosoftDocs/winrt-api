@@ -18,7 +18,7 @@ Gets the app action entity with the specified ID.
 
 ### -param entityId
 
-The ID of the entity to retrieve. The ID is dynamically assigned by the system when the entity is created, such as through one of the [ActionEntityFactory](actionentityfactory) entity creation methods.
+The ID of the entity to retrieve. The ID is dynamically assigned by the system when the entity is created, such as through one of the [ActionEntityFactory](actionentityfactory.md) entity creation methods.
 
 ## -returns
 
