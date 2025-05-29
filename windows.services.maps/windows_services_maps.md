@@ -11,7 +11,7 @@ The Windows.Services.Maps namespace contains classes that provide location, rout
 ## -remarks
 
 > [!IMPORTANT]
-> The UWP [MapControl](mapcontrol.md) and Windows Maps platform APIs (Windows.Services.Maps.*) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
+> The UWP  [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs (Windows.Services.Maps.*) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**

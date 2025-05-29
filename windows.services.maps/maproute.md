@@ -18,7 +18,7 @@ A MapRoute object is returned through the [Route](maproutefinderresult_route.md)
 To display a MapRoute on a [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md), construct a [MapRouteView](../windows.ui.xaml.controls.maps/maprouteview.md) with the MapRoute and add the [MapRouteView](../windows.ui.xaml.controls.maps/maprouteview.md) to the [Routes](../windows.ui.xaml.controls.maps/mapcontrol_routes.md) collection of the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md).
 
 > [!IMPORTANT]
-> The UWP [MapControl](mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
+> The UWP  [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**
