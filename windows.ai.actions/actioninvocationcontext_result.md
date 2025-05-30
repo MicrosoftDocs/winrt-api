@@ -16,7 +16,7 @@ Gets or sets the result status of an app action invocation.
 
 ## -property-value
 
-A value from the [ActionInvocationResult](actioninvocationresult.md) specifying the result status.
+A value from the [ActionInvocationResult](actioninvocationresult.md) enumeration specifying the result status.
 
 ## -remarks
 

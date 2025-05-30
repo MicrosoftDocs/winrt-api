@@ -18,7 +18,7 @@ Sets the output entity for an app action invocation.
 
 ### -param outputName
 
-The name of the output entity. The name must match the name declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
+The name of the output entity. The name must match the name declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions on Windows](/windows/ai/app-actions/actions-json).
 
 ### -param outputValue
 
