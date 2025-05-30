@@ -7,7 +7,7 @@
 
 ## -description
 
-Defines classes for the Map control. Also defines tile sources and elements that can be placed on a map.
+[Deprecated - see Remarks.] Defines classes for the Map control. Also defines tile sources and elements that can be placed on a map.
 
 ## -remarks
 

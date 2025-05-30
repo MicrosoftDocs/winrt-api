@@ -10,14 +10,13 @@ public class MapAddress : Windows.Services.Maps.IMapAddress, Windows.Services.Ma
 # Windows.Services.Maps.MapAddress
 
 ## -description
-Represents an address.
+
+[Deprecated - see Remarks.] Represents an address.
 
 ## -remarks
 
-A collection of [MapLocation](maplocation.md) objects is returned through the [Locations](maplocationfinderresult_locations.md) property of the [MapLocationFinderResult](maplocationfinderresult.md) when you call the methods of the [MapLocationFinder](maplocationfinder.md) class. Each [MapLocation](maplocation.md) object has an [Address](maplocation_address.md) property which returns a MapAddress.
-
 > [!IMPORTANT]
-> The UWP  [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
+> The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**
@@ -25,6 +24,8 @@ A collection of [MapLocation](maplocation.md) objects is returned through the [L
 > The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services from the [Windows.Services.Maps](windows_services_maps.md) namespaces rely on Bing Maps. Bing Maps for Enterprise is deprecated and will be retired, at which point the MapControl and services will no longer receive data.
 >
 > For more information, see the [Bing Maps Developer Center](https://www.bingmapsportal.com/) and [Bing Maps documentation](/bingmaps/getting-started/).
+
+A collection of [MapLocation](maplocation.md) objects is returned through the [Locations](maplocationfinderresult_locations.md) property of the [MapLocationFinderResult](maplocationfinderresult.md) when you call the methods of the [MapLocationFinder](maplocationfinder.md) class. Each [MapLocation](maplocation.md) object has an [Address](maplocation_address.md) property which returns a MapAddress.
 
 Your app must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
 
