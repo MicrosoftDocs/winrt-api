@@ -12,7 +12,7 @@ public class ActionRuntime : System.IDisposable
 
 ## -description
 
-Represents the App Actions for Windows runtime.
+Represents the App Actions on Windows runtime.
 
 ## -remarks
 

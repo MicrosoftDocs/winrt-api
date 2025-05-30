@@ -20,7 +20,7 @@ The version number of the latest supported app action definition schema.
 
 ## -remarks
 
-For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
+For more information, see [Action definition JSON schema for App Actions on Windows](/windows/ai/app-actions/actions-json).
 
 ## -see-also
 

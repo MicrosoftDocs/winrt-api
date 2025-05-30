@@ -18,7 +18,7 @@ Creates an [ActionInvocationContext](actioninvocationcontext.md) object associat
 
 ### -param actionId
 
-The ID of the app action for which the invocation context is created. The action ID is declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
+The ID of the app action for which the invocation context is created. The action ID is declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions on Windows](/windows/ai/app-actions/actions-json).
 
 ### -param invokerWindowId
 

@@ -16,7 +16,7 @@ Gets or sets the name of the action entity that is the value of the [Entity](nam
 
 ## -property-value
 
-The name of the action entity. The action entity name is declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions for Windows](/windows/ai/app-actions/actions-json).
+The name of the action entity. The action entity name is declared in the Action definition JSON file. For more information, see [Action definition JSON schema for App Actions on Windows](/windows/ai/app-actions/actions-json).
 
 ## -remarks
 

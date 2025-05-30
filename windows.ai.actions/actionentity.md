@@ -16,7 +16,7 @@ The base class for all entity types.
 
 ## -remarks
 
-App Actions for Windows defines several different entity types for different kinds of content. Each supported type has a dedicated subclass of **ActionEntity** that exposes properties specific to the type of content they represent. Supported action entity subclasses include the following:
+App Actions on Windows defines several different entity types for different kinds of content. Each supported type has a dedicated subclass of **ActionEntity** that exposes properties specific to the type of content they represent. Supported action entity subclasses include the following:
 
 - [DocumentActionEntity](documentactionentity.md)
 - [FileActionEntity](fileactionentity.md)
