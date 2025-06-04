@@ -10,7 +10,8 @@ public enum Windows.Services.Maps.MapRouteFinderStatus : int
 # MapRouteFinderStatus
 
 ## -description
-Returns the status of a [MapRouteFinder](maproutefinder.md) query. This enumeration provides values for the [Status](maproutefinderresult_status.md) property of a [MapRouteFinderResult](maproutefinderresult.md).
+
+[Deprecated - see Remarks.] Returns the status of a [MapRouteFinder](maproutefinder.md) query. This enumeration provides values for the [Status](maproutefinderresult_status.md) property of a [MapRouteFinderResult](maproutefinderresult.md).
 
 ## -enum-fields
 ### -field Success:0
@@ -46,7 +47,7 @@ The query is not supported.
 
 ## -remarks
 > [!IMPORTANT]
-> The UWP  [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
+> The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**

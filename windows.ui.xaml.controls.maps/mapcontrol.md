@@ -11,7 +11,7 @@ public class MapControl : Windows.UI.Xaml.Controls.Control, Windows.UI.Xaml.Cont
 
 ## -description
 
-Represents a symbolic or photorealistic map of the Earth.
+[Deprecated - see Remarks.] Represents a symbolic or photorealistic map of the Earth.
 
 ## -xaml-syntax
 

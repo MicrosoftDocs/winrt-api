@@ -10,7 +10,8 @@ public enum Windows.Services.Maps.MapLocationDesiredAccuracy : int
 # MapLocationDesiredAccuracy
 
 ## -description
-Indicates the desired accuracy to use when converting latitude and longitude coordinates to a physical location like a city or address.
+
+[Deprecated - see Remarks.] Indicates the desired accuracy to use when converting latitude and longitude coordinates to a physical location like a city or address.
 
 ## -enum-fields
 ### -field High:0
@@ -22,7 +23,7 @@ Leverage the maps disk cache to get accurate info up to the city level.
 ## -remarks
 
 > [!IMPORTANT]
-> The UWP  [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
+> The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**
