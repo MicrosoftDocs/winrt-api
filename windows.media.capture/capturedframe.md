@@ -10,10 +10,14 @@ public class CapturedFrame : Windows.Foundation.IClosable, Windows.Media.Capture
 # Windows.Media.Capture.CapturedFrame
 
 ## -description
+
 Represents a captured video frame.
 
 ## -remarks
+
 There are several different techniques for capturing photos using the [MediaCapture](mediacapture.md) class, including [AdvancedPhotoCapture](advancedphotocapture.md), [LowLagPhotoCapture](lowlagphotocapture.md), [LowLagPhotoSequenceCapture](lowlagphotosequencecapture.md), and [VariablePhotoSequenceCapture](../windows.media.capture.core/variablephotosequencecapture.md). Though the sets of APIs used for each of these techniques vary, ultimately they all return the captured photo to you in the form of a **CapturedFrame** object.
+
+For more information on capturing photos and videos, see [Camera](/windows/apps/develop/camera/camera).
 
 ### Version history
 
