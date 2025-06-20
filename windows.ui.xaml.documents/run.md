@@ -10,38 +10,35 @@ public class Run : Windows.UI.Xaml.Documents.Inline, Windows.UI.Xaml.Documents.I
 # Windows.UI.Xaml.Documents.Run
 
 ## -description
+
 Represents a discrete section of formatted or unformatted text.
 
-
-
 ## -xaml-syntax
+
 ```xaml
 <Run .../>
 -or-
 <Run ...>text</Run>
 ```
 
-
 ## -remarks
+
 A Run represents a discrete section of formatted or unformatted text and can be used in a [TextBlock](../windows.ui.xaml.controls/textblock.md) or [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md). You can place multiple Run elements inside of a [Span](span.md).
 
 When you use a [TextBlock](../windows.ui.xaml.controls/textblock.md), set the [TextBlock.Text](../windows.ui.xaml.controls/textblock_text.md) property directly for best performance. You typically use the Run element only when you want to format a discrete section of text within the [TextBlock](../windows.ui.xaml.controls/textblock.md).
 
+For more details on the TextBlock and RichTextBlock controls, see:
 
-For more examples, see
-
-+ [TextBlock](../windows.ui.xaml.controls/textblock.md)
 + [TextBlock control guide](/windows/uwp/controls-and-patterns/text-block)
-+ [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md)
 + [RichTextBlock control guide](/windows/uwp/controls-and-patterns/rich-text-block)
 
-
 ## -examples
-Each example shown here renders the same result. However, setting the [Text](../windows.ui.xaml.controls/textblock_text.md) property directly on the [TextBlock](../windows.ui.xaml.controls/textblock.md) has the best performance.
+
+Each of the following examples render the same result. However, setting the [Text](../windows.ui.xaml.controls/textblock_text.md) property directly on the [TextBlock](../windows.ui.xaml.controls/textblock.md) provides the best performance.
 
 ```xaml
 
-<!-- Set the TextBlock.Text property directy for best performance. -->
+<!-- Set the TextBlock.Text property directly for best performance. -->
 <TextBlock Text="This is some text."/>
 
 <TextBlock><Run>This is some text.</Run></TextBlock>
@@ -52,7 +49,7 @@ Each example shown here renders the same result. However, setting the [Text](../
 
 ```csharp
 
-// Set the TextBlock.Text property directy for best performance.
+// Set the TextBlock.Text property directly for best performance.
 TextBlock textblock = new TextBlock();
 textblock.Text = "This is some text.";
 
@@ -63,7 +60,6 @@ textblock.Inlines.Add(run);
 
 ```
 
-
-
 ## -see-also
+
 [Inline](inline.md), [TextBlock](../windows.ui.xaml.controls/textblock.md), [RichTextBlock](../windows.ui.xaml.controls/richtextblock.md)
