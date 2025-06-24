@@ -26,7 +26,16 @@ Contains the calendar identifiers for the supported calendars, as static propert
 | 1607 | 14393 | VietnameseLunar |
 
 ## -examples
-
+Using the [Windows.Globalization.Calendar](calendar.md) API,
+```
+winrt::Windows::Globalization::Calendar calendar;
+calendar.ChangeCalendarSystem(winrt::Windows::Globalization::CalendarIdentifiers::Gregorian);
+...
+// Perform some Gregorian-dependent calculations
+...
+calendar.ChangeCalendarSystem(winrt::Windows::Globalization::CalendarIdentifiers::Hebrew);
+// Perform Hebrew calendar calculations
+```
 ## -see-also
 
-[Date and time formatting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting), [Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043)
+[Date and time formatting sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DateTimeFormatting), [Calendar sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=624043), 
