@@ -25,21 +25,21 @@ The list of language identifiers, in priority order, that represent the choice o
 
 ### -param geographicRegion
 
-The identifier for the geographic region. This identifier is used for resolving the template to a pattern.
+The identifier for the geographic region. This identifier is used for resolving the template to a pattern. It should be a valid constructor for a [GeographicRegion](windows.globalization.geographicregion.md); in other words, one of the ISO 3166-1 two-letter or three-letter codes that identify the country, or one of the three-digit UN-M49 codes that identify the geographical region.
 
 ### -param calendar
 
-The calendar identifier to use.
+The calendar identifier to use. This should be one of the well-known [CalendarIdentifiers](windows.globalization.calendaridentifiers.md).
 
 ### -param clock
 
-The clock identifier to use.
+The clock identifier to use. This should be one of the well-known [ClockIdentifiers](windows.globalization.clockidentifiers.md).
 
 ## -remarks
 
 If your app passes language tags used in this class to any [National Language Support](/windows/desktop/Intl/national-language-support) functions, it must first convert the tags by calling [ResolveLocaleName](/windows/desktop/api/winnls/nf-winnls-resolvelocalename).
 
-Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions).) Note that these extensions can affect the calendar used by Calendar objects.
+Language tags support the Unicode extensions "ca-" and "nu-". (See [Unicode Key/Type Definitions](https://www.unicode.org/reports/tr35/#Key_Type_Definitions).) Note that these extensions can affect the calendar used by Clock objects.
 
 ## -examples
 
