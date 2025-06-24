@@ -14,7 +14,7 @@ Sets a new calendar system to be used by this [Calendar](calendar.md) object.
 
 ## -parameters
 ### -param value
-The calendar identifier to use.
+The calendar identifier to use. This can be any identifier from the [CalendarIdentifiers](calendaridentifiers.md) class.
 
 ## -remarks
 
