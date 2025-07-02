@@ -25,7 +25,7 @@ The list of language identifiers, in priority order, that represent the choice o
 
 ### -param geographicRegion
 
-The identifier for the geographic region. This identifier is used for resolving the template to a pattern. It should be a valid constructor for a [GeographicRegion](windows.globalization.geographicregion.md); in other words, one of the ISO 3166-1 two-letter or three-letter codes that identify the country, or one of the three-digit UN-M49 codes that identify the geographical region.
+The identifier for a [GeographicRegion](windows.globalization.geographicregion.md) used to resolve the template to a pattern. This should be an ISO 3166-1 two-letter or three-letter code that identifies the country, or one of the three-digit UN-M49 codes that identify the geographical region.
 
 ### -param calendar
 
