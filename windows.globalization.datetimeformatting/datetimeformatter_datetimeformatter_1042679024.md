@@ -29,11 +29,11 @@ The identifier for a [GeographicRegion](windows.globalization.geographicregion.m
 
 ### -param calendar
 
-The calendar identifier to use. This should be one of the well-known [CalendarIdentifiers](windows.globalization.calendaridentifiers.md).
+The calendar identifier to use. This should be a value from [CalendarIdentifiers](windows.globalization.calendaridentifiers.md).
 
 ### -param clock
 
-The clock identifier to use. This should be one of the well-known [ClockIdentifiers](windows.globalization.clockidentifiers.md).
+The clock identifier to use. This should be a value from [ClockIdentifiers](windows.globalization.clockidentifiers.md).
 
 ## -remarks
 
