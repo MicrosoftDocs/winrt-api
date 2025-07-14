@@ -11,7 +11,7 @@ public Windows.Storage.StorageFolder GetPublicFolder ();
 
 ## -description
 
-Gets the subfolder provided by the `PublicFolder` in the app extension for sharing files between the extension and the host.
+Gets the subfolder provided by the `PublicFolder` attribute in the app extension for sharing files between the extension and the host.
 
 ## -returns
 
