@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Storage.StorageFolder> GetPubl
 
 ## -description
 
-Gets the readable subfolder in the extension's isolated storage.
+Gets the subfolder provided by the `PublicFolder` attribute in the app extension for sharing files between the extension and the host.
 
 ## -returns
 
@@ -19,7 +19,8 @@ The public sub-folder.
 
 ## -remarks
 
-An extension can provide a subfolder containing files that hosting apps can read from. Hosts cannot write to the folder.
+Extensions must create this folder by populating it with files as part of their package defintion. It is read-only to both the
+extension and its host.
 
 ## -examples
 
