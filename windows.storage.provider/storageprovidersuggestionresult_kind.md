@@ -18,7 +18,7 @@ Gets or sets the kind of the suggestion result.
 
 ## -property-value
 
-The kind of the suggestion result as a [StorageProviderResultKind](storageproviderresultkind.md).
+The kind of the suggestion result as a [StorageProviderResultKind](storageproviderresultkind.md) value.
 
 ## -remarks
 

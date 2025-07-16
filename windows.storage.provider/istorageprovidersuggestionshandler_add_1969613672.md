@@ -11,7 +11,7 @@ public void Add (Windows.Storage.Provider.StorageProviderResultKind kind, string
 
 ## -description
 
-Adds to the recent list of items.
+Adds an item to the cloud storage provider's suggestions of the given result kind.
 
 > [!IMPORTANT]
 > The **Windows.Storage.Provider.IStorageProviderSuggestionsHandler** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
@@ -24,9 +24,15 @@ The kind of item to add.
 
 ### -param remoteFileId
 
-The remote ID of the item to add.
+The remote file ID of the item to add. See [StorageProviderSuggestionResult.RemoteFileId](storageprovidersuggestionresult_remotefileid.md).
 
 ## -remarks
+
+After **Add** is successfully called for an item, the cloud storage provider should ensure that the item is eligible to be returned in future calls to [GetSuggestions](istorageprovidersuggestionshandler_getsuggestions_613374749.md) for that result kind.
+
+If the given [StorageProviderResultKind](storageproviderresultkind.md) is not supported by the cloud provider, they should no-op the API call.
+
+The given remote file ID will be the same value as the [System.StorageProviderFileIdentifier](windows/desktop/properties/props-system-storageproviderfileidentifier) property for the item. The ID may not correspond to an item returned by a previous call to [GetSuggestions](istorageprovidersuggestionshandler_getsuggestions_613374749.md). This can occur if the user interacts with an item in the provider's sync root (for example, pinning a new item to Favorites).
 
 This is expected to be a blocking call and should not be called on a UI thread.
 

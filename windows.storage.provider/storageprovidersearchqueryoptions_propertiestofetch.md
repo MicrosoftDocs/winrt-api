@@ -11,16 +11,18 @@ public System.Collections.Generic.IReadOnlyList<string> PropertiesToFetch { get;
 
 ## -description
 
-Gets the vector of additional properties to return for the search query.
+Gets the vector of additional properties to return for each query result. These are canonical property names from the [Windows Property System](/windows/desktop/properties/windows-properties-system) (e.g. **System.FileName** or **System.DateModified**).
 
 ## -property-value
 
-The list of properties to fetch for the search query as a read-only list of strings.
+The vector of additional properties to return for each query result.
 
 ## -remarks
 
-The property entries are canonical property names from the Windows property system (i.e. System.DisplayName or System.DateModified).
+The set of requested properties may vary depending on the [SuggestionKind](storageprovidersuggestionsqueryoptions_suggestionskind.md) assigned to the query, or the OS version. Unsupported or unrecognized properties should be ignored by the provider.
 
 ## -see-also
+
+[Windows Properties](/windows/desktop/properties/props)
 
 ## -examples

@@ -11,7 +11,7 @@ public Windows.Storage.Provider.IStorageProviderSuggestionsHandler CreateSuggest
 
 ## -description
 
-Activated in the cloud provider process as a local server and creates a suggestions handler for a given sync root identifier to provide suggestions for files and folders in a location that the provider manages.
+Creates a suggestions handler for a given sync root identifier.
 
 > [!IMPORTANT]
 > The **Windows.Storage.Provider.IStorageProviderSuggestionsHandlerFactory** API is part of a Limited Access Feature (see [LimitedAccessFeatures class](/uwp/api/windows.applicationmodel.limitedaccessfeatures)). For more information or to request an unlock token, please use the [LAF Access Token Request Form](https://go.microsoft.com/fwlink/?linkid=2271232&clcid=0x409).
@@ -20,11 +20,11 @@ Activated in the cloud provider process as a local server and creates a suggesti
 
 ### -param cloudProviderId
 
-The identifier for the sync root that the suggestions handler will provide suggestions for.
+The sync root identifier for the cloud files provider, see [SyncRootId](./storageprovidersyncrootinfo_id.md).
 
 ## -returns
 
-The suggestions handler for the specified sync root identifier.
+Returns a suggestions handler that can be used to query for suggested files from the provider.
 
 ## -remarks
 

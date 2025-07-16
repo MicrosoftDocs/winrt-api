@@ -11,11 +11,11 @@ public string RemoteFileId { get; set; }
 
 ## -description
 
-Gets or sets the unique identifier for the remote file.
+Gets or sets the remote file ID of the query result.
 
 ## -property-value
 
-The unique identifier for the remote file.
+The remote file ID of the query result.
 
 ## -remarks
 

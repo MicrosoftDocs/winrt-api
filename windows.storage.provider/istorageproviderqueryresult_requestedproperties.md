@@ -11,11 +11,11 @@ public Windows.Foundation.Collections.PropertySet RequestedProperties { get; }
 
 ## -description
 
-Gets the properties that the app has requested for the query result.
+Gets the properties that were requested for the query result.
 
 ## -property-value
 
-The properties that the app has requested for the query result.
+The properties that were requested for the query result.
 
 ## -remarks
 

@@ -22,8 +22,6 @@ The remote file ID.
 
 ## -remarks
 
-The remote file ID is used for related files and conversations queries.
-
 ## -see-also
 
 ## -examples

@@ -24,11 +24,11 @@ The kind of usage to report.
 
 ### -param remoteFileId
 
-The remote ID of the file or folder.
+The remote file ID of the file or folder. See [StorageProviderSuggestionResult.RemoteFileId](storageprovidersuggestionresult_remotefileid.md).
 
 ### -param resultId
 
-The ID of the usage to report.
+The result ID of the usage to report. See [StorageProviderSuggestionResult.ResultId](storageprovidersuggestionresult_resultid.md).
 
 ### -param latency
 

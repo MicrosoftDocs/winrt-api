@@ -11,11 +11,11 @@ public string FilePath { get; set; }
 
 ## -description
 
-Gets or sets the file path for the query result.
+Gets or sets the local file path for the query result.
 
 ## -property-value
 
-The file path for the query result.
+The local file path for the query result.
 
 ## -remarks
 
