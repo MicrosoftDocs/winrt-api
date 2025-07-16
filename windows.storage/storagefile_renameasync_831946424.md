@@ -10,18 +10,23 @@ public Windows.Foundation.IAsyncAction RenameAsync(System.String desiredName, Wi
 # Windows.Storage.StorageFile.RenameAsync
 
 ## -description
+
 Renames the current file. This method also specifies what to do if an existing item in the current file's location has the same name.
 
 ## -parameters
+
 ### -param desiredName
+
 The desired, new name of the current file.
 
-If there is an existing item in the current file's location that already has the specified *desiredName*, the specified [NameCollisionOption](namecollisionoption.md) determines how Windows responds to the conflict.
+If there's an existing item in the current file's location that already has the specified *desiredName*, the specified [NameCollisionOption](namecollisionoption.md) determines how Windows responds to the conflict.
 
 ### -param option
+
 The enum value that determines how Windows responds if the *desiredName* is the same as the name of an existing item in the current file's location.
 
 ## -returns
+
 No object or value is returned by this method when it completes.
 
 ## -remarks
@@ -29,4 +34,5 @@ No object or value is returned by this method when it completes.
 ## -examples
 
 ## -see-also
-[RenameAsync(String)](storagefile_renameasync_247762898.md)
+
+[RenameAsync(String)](storagefile_renameasync_247762898.md), [NameCollisionOption](namecollisionoption.md)

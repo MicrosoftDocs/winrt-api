@@ -42,6 +42,8 @@ Launching an app for results allows you to launch an app from another app and ex
 
 When calling this method, the *options* parameter must contain a valid value for [LauncherOptions.TargetApplicationPackageFamilyName](launcheroptions_targetapplicationpackagefamilyname.md).
 
+When calling **LaunchUriForResultsAsync** to launch a UWP app, the [OnActivated](/uwp/api/windows.ui.xaml.application.onactivated) method in the app that's launched will be invoked on a background thread, not the UI thread. Developers should ensure that any UI updates or interactions are marshaled to the UI thread appropriately.
+
 ## -examples
 
 ## -see-also
