@@ -19,8 +19,7 @@ The public sub-folder.
 
 ## -remarks
 
-Extensions must create this folder by populating it with files as part of their package defintion. It is read-only to both the
-extension and its host.
+Extensions must create this folder by populating it with files as part of their package definition. It is read-only to both the extension and its host.
 
 ## -examples
 
