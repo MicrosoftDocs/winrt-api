@@ -11,6 +11,10 @@ public TensorFloat TensorFloat.CreateFromBuffer(Int64[] shape, IBuffer buffer)
 # Windows.AI.MachineLearning.TensorFloat.CreateFromBuffer
 
 ## -description
+
+> [!IMPORTANT]
+> For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App SDK. Those APIs supersede the ones documented here, which are in the **Windows.AI.MachineLearning** namespace, and were shipped in 2018.
+
 Creates a float tensor object with the given *shape* and uses the underlying buffer in *data* for subsequent evaluation.
 
 ## -parameters

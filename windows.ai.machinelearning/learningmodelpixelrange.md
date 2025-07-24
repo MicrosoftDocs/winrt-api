@@ -9,8 +9,11 @@
 public enum LearningModelPixelRange
 -->
 
-
 ## -description
+
+> [!IMPORTANT]
+> For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App SDK. Those APIs supersede the ones documented here, which are in the **Windows.AI.MachineLearning** namespace, and were shipped in 2018.
+
 Defines the list of image nominal pixel range suppored by Windows ML. The proper value is specified in a machine learning model's metadata.
 
 ## -enum-fields
