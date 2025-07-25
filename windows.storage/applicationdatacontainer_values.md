@@ -10,12 +10,17 @@ public Windows.Foundation.Collections.IPropertySet Values { get; }
 # Windows.Storage.ApplicationDataContainer.Values
 
 ## -description
+
 Gets an object that represents the settings in this settings container.
 
 ## -property-value
+
 The settings map object.
 
 ## -remarks
+
+Note that the value is limited to 8192 bytes. If you attempt to write a larger value into the property, it leads to an exception indicating that the size of the state manager setting value has exceeded the limit.
+
 For an example of using an [ApplicationData](applicationdata.md) property to get its associated ApplicationDataContainer.Values, see [LocalSettings](applicationdata_localsettings.md).
 
 ## -examples
