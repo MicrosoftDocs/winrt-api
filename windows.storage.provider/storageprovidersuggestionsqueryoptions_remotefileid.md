@@ -22,6 +22,8 @@ The remote file ID.
 
 ## -remarks
 
+This property is optional and will only be specified for suggestion queries related to a specific item.
+
 ## -see-also
 
 ## -examples

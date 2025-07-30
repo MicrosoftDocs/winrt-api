@@ -30,11 +30,11 @@ The remote file ID of the item to remove. See [StorageProviderSuggestionResult.R
 
 After **Remove** is successfully called for an item, the cloud storage provider should ensure that the item is never returned in future calls to [GetSuggestions](istorageprovidersuggestionshandler_getsuggestions_613374749.md) for that result kind.
 
+To support offline scenarios and improve reliability, the cloud storage provider should ensure that added suggestions are cached locally and synchronized with any backing service once service connectivity is restored.
+
 If the given [StorageProviderResultKind](storageproviderresultkind.md) is not supported by the cloud provider, they should no-op the API call.
 
 The given remote file ID will be the same value as the [System.StorageProviderFileIdentifier](windows/desktop/properties/props-system-storageproviderfileidentifier) property for the item. The ID may not correspond to an item returned by a previous call to [GetSuggestions](istorageprovidersuggestionshandler_getsuggestions_613374749.md). This can occur if the user interacts with an item in the provider's sync root (for example, hiding an item located in the provider's sync root that is already present in the local recents list).
-
-This is expected to be a blocking call and should not be called on a UI thread.
 
 ## -see-also
 

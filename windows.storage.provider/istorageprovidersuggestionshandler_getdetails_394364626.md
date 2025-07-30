@@ -36,8 +36,6 @@ The result of the operation as a [StorageProviderSuggestionResult](storageprovid
 
 ## -remarks
 
-This is expected to be a blocking call and should not be called on a UI thread.
-
 ## -see-also
 
 ## -examples

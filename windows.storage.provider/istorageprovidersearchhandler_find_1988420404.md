@@ -23,8 +23,6 @@ The search query options.
 
 ## -remarks
 
-This is a blocking call and should not be called on a UI thread.
-
 ## -see-also
 
 ## -examples

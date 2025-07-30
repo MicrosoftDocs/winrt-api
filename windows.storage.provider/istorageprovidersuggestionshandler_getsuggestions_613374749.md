@@ -32,7 +32,7 @@ The returned [StorageProviderQueryResultSet](storageproviderqueryresultset.md) i
 
 If the [SuggestionsKind](storageprovidersuggestionsqueryoptions_suggestionskind.md) passed in the options object is not supported by the cloud provider, they should return a [StorageProviderQueryResultSet](storageproviderqueryresultset.md) object with the [Status](storageproviderqueryresultset_status.md) set to **QueryNotSupported**.
 
-This is expected to be a blocking call and should not be called on a UI thread.
+To support offline scenarios and improve reliability, the cloud storage provider should cache the results of any requests made to backing services and return cached results when appropriate.
 
 ## -see-also
 
