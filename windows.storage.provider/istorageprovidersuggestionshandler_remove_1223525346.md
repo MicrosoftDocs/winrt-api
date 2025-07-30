@@ -30,7 +30,7 @@ The remote file ID of the item to remove. See [StorageProviderSuggestionResult.R
 
 After **Remove** is successfully called for an item, the cloud storage provider should ensure that the item is never returned in future calls to [GetSuggestions](istorageprovidersuggestionshandler_getsuggestions_613374749.md) for that result kind.
 
-To support offline scenarios and improve reliability, the cloud storage provider should ensure that added suggestions are cached locally and synchronized with any backing service once service connectivity is restored.
+To support offline scenarios and improve reliability, the cloud storage provider should ensure that removed suggestions are cached locally and synchronized with any backing service once service connectivity is restored.
 
 If the given [StorageProviderResultKind](storageproviderresultkind.md) is not supported by the cloud provider, they should no-op the API call.
 
