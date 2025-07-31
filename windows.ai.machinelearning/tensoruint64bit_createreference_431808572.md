@@ -2,6 +2,7 @@
 -api-id: M:Windows.AI.MachineLearning.TensorUInt64Bit.CreateReference
 -api-type: winrt method
 ms.custom: 19H1
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

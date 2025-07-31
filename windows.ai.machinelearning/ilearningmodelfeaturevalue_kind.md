@@ -2,6 +2,7 @@
 -api-id: P:Windows.AI.MachineLearning.ILearningModelFeatureValue.Kind
 -api-type: winrt property
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.

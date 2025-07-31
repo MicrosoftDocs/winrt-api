@@ -2,6 +2,7 @@
 -api-id: P:Windows.AI.MachineLearning.SequenceFeatureDescriptor.IsRequired
 -api-type: winrt property
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.

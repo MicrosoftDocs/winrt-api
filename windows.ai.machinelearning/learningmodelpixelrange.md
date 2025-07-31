@@ -1,6 +1,7 @@
 ---
 -api-id: T:Windows.AI.MachineLearning.LearningModelPixelRange
 -api-type: winrt enum
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 # Windows.AI.MachineLearning.LearningModelPixelRange

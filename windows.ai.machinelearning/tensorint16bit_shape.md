@@ -2,6 +2,7 @@
 -api-id: P:Windows.AI.MachineLearning.TensorInt16Bit.Shape
 -api-type: winrt property
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.
