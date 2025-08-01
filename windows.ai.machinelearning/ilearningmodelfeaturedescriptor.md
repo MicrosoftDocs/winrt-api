@@ -2,6 +2,7 @@
 -api-id: T:Windows.AI.MachineLearning.ILearningModelFeatureDescriptor
 -api-type: winrt interface
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Interface syntax.

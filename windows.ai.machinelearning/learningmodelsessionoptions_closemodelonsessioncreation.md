@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.LearningModelSessionOptions.CloseModelOnSessionCreation
 -api-type: winrt property
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.

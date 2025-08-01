@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.TensorDouble.Create
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

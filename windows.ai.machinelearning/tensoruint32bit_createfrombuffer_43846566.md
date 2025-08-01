@@ -2,6 +2,7 @@
 -api-id: M:Windows.AI.MachineLearning.TensorUInt32Bit.CreateFromBuffer(System.Int64[],Windows.Storage.Streams.IBuffer)
 -api-type: winrt method
 ms.custom: 19H1
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

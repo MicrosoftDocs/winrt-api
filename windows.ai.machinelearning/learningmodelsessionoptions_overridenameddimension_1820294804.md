@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.LearningModelSessionOptions.OverrideNamedDimension(System.String,System.UInt32)
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 # Windows.AI.MachineLearning.LearningModelSessionOptions.OverrideNamedDimension(System.String,System.UInt32)

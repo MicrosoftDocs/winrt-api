@@ -2,6 +2,7 @@
 -api-id: M:Windows.AI.MachineLearning.TensorBoolean.CreateFromShapeArrayAndDataArray(System.Int64[],System.Boolean[])
 -api-type: winrt method
 ms.custom: 19H1
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

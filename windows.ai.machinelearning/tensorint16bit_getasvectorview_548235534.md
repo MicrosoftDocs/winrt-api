@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.TensorInt16Bit.GetAsVectorView
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

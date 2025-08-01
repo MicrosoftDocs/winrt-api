@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.TensorInt8Bit.CreateFromArray(Windows.Foundation.Collections.IIterable{System.Int64},System.Byte[])
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

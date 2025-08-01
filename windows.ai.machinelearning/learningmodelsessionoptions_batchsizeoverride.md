@@ -2,6 +2,7 @@
 -api-id: P:Windows.AI.MachineLearning.LearningModelSessionOptions.BatchSizeOverride
 -api-type: winrt property
 ms.custom: 19H1
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.

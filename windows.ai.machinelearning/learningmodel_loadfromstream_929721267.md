@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.LearningModel.LoadFromStream(Windows.Storage.Streams.IRandomAccessStreamReference)
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

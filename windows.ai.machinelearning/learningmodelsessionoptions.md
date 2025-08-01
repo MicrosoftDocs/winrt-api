@@ -2,6 +2,7 @@
 -api-id: T:Windows.AI.MachineLearning.LearningModelSessionOptions
 -api-type: winrt class
 ms.custom: 19H1
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Class syntax.

@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.LearningModelBinding.Bind(System.String,System.Object,Windows.Foundation.Collections.IPropertySet)
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

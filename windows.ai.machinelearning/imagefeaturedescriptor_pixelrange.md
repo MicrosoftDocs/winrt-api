@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.AI.MachineLearning.ImageFeatureDescriptor.PixelRange
 -api-type: winrt property
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 # Windows.AI.MachineLearning.ImageFeatureDescriptor.PixelRange

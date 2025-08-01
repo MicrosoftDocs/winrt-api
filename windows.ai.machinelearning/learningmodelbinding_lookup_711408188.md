@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.LearningModelBinding.Lookup(System.String)
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.

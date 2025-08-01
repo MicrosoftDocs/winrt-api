@@ -2,6 +2,7 @@
 -api-id: T:Windows.AI.MachineLearning.MapFeatureDescriptor
 -api-type: winrt class
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Class syntax.

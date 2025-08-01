@@ -2,6 +2,7 @@
 -api-id: T:Windows.AI.MachineLearning.LearningModel
 -api-type: winrt class
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Class syntax.
