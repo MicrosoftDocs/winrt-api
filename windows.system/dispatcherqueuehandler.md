@@ -46,7 +46,9 @@ if (_queue.TryEnqueue(handler))
 }
 else
 {
-    // The handler could not be enqueued
+    // The handler could not be enqueued, because
+    // ShutdownQueueAsync() was called on the DispatcherQueueController
+    // or the DispatcherQueue is no longer active.
     Console.WriteLine("Failed to enqueue handler.");
 }
 ```
