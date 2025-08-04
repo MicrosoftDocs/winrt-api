@@ -38,5 +38,15 @@ _queue = _queueController.DispatcherQueue;
 // The callback is guaranteed to be invoked first despite Priority on the
 // newly created thread.
 
-bool isQueued = _queue.TryEnqueue(handler);
+// Attempt to enqueue the handler and check if it was successful
+if (_queue.TryEnqueue(handler))
+{
+    // The handler was successfully enqueued
+    Console.WriteLine("Handler enqueued successfully.");
+}
+else
+{
+    // The handler could not be enqueued
+    Console.WriteLine("Failed to enqueue handler.");
+}
 ```
