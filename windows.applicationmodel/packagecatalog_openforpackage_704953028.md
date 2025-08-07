@@ -25,9 +25,9 @@ The **PackageCatalog** used to listen for deployment notifications.
 
 ## -remarks
 
-This API requires the **PackageQuery** capability (unless the call is for the current package).
+**OpenForPackage** allows a package to listen to deployment notifications for another package and its dependents (like PWAs).
 
-This API allows a package to listen to deployment notifications for another package and its dependents (like PWAs).
+In terms of capability requirements, **OpenForPackage** requires that the caller has either the `packageQuery` or the `packageManagement` capability; or else that the caller has integrity level (IL) greater than or equal to Medium; or else that the caller's process has the same package family as the target package.
 
 ## -examples
 
@@ -57,3 +57,6 @@ void OptionalPackageUpdatingCallback(object sender, PackageUpdatingEventArgs arg
 ## -see-also
 
 [OpenForCurrentPackage](packagecatalog_openforcurrentpackage_1766019189.md),[Package](package.md),[PackageCatalog](packagecatalog.md)
+
+## -capabilities
+packageQuery, packageManagement
