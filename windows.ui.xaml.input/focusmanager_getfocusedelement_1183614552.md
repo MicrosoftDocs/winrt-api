@@ -26,7 +26,7 @@ The object that has focus. Typically, this is a [Control](../windows.ui.xaml.con
 > For WinUI 3 apps, this method always returns `null` as it relies on CoreWindow APIs not supported by WinUI 3.
 >
 > Instead, use the [FocusManager.GetFocusedElement(XamlRoot)](./windows.ui.xaml.input.focusmanager.getfocusedelement#windows-ui-xaml-input-focusmanager-getfocusedelement(windows-ui-xaml-xamlroot))
-> overload, where `XamlRoot` can be retrieved any loaded UIElement through the [XamlRoot](/uwp/api/windows.ui.xaml.uielement.xamlroot) property.
+> overload, where `XamlRoot` can be retrieved from any loaded UIElement through the [XamlRoot](/uwp/api/windows.ui.xaml.uielement.xamlroot) property.
 
 ## -examples
 
