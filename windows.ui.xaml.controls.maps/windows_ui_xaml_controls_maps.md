@@ -7,9 +7,12 @@
 
 ## -description
 
-Defines classes for the Map control. Also defines tile sources and elements that can be placed on a map.
+[Deprecated - see Remarks.] Defines classes for the Map control. Also defines tile sources and elements that can be placed on a map.
 
 ## -remarks
+
+> [!IMPORTANT]
+> The UWP [MapControl](mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**

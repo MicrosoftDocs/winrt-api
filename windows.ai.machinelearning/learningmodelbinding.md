@@ -2,6 +2,7 @@
 -api-id: T:Windows.AI.MachineLearning.LearningModelBinding
 -api-type: winrt class
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Class syntax.
@@ -11,6 +12,10 @@ public class LearningModelBinding : IIterable<Object>>, IMapView<Object>
 # Windows.AI.MachineLearning.LearningModelBinding
 
 ## -description
+
+> [!IMPORTANT]
+> For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App SDK. Those APIs supersede the ones documented here, which are in the **Windows.AI.MachineLearning** namespace, and were shipped in 2018.
+
 Used to bind values to named input and output features.
 
 ## -remarks

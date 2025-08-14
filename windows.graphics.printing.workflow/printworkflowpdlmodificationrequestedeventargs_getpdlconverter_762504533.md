@@ -18,7 +18,7 @@ Gets the page description language (PDL) converter for the specified conversion 
 
 ### -param conversionType
 
-A value that indicates the PDL conversion type.
+A value from the [PrintWorkflowPdlConversionType](printworkflowpdlconversiontype.md) enumeration that indicates the PDL conversion type.
 
 ## -returns
 

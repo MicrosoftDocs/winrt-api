@@ -1,6 +1,7 @@
 ---
 -api-id: M:Windows.AI.MachineLearning.TensorInt64Bit.CreateFromArray(Windows.Foundation.Collections.IIterable{System.Int64},System.Int64[])
 -api-type: winrt method
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Method syntax.
@@ -10,6 +11,10 @@ public TensorInt64Bit TensorInt64Bit.CreateFromArray(IIterable<Int64> shape, Int
 # Windows.AI.MachineLearning.TensorInt64Bit.CreateFromArray
 
 ## -description
+
+> [!IMPORTANT]
+> For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App SDK. Those APIs supersede the ones documented here, which are in the **Windows.AI.MachineLearning** namespace, and were shipped in 2018.
+
 Creates a 64-bit signed integer tensor object, allocates a buffer of size *shape*, and copies all of *data* into it.
 
 ## -parameters

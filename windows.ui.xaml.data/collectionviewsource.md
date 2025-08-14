@@ -49,7 +49,7 @@ The following code example demonstrates how to bind a [ListBox](../windows.ui.xa
   </Grid.Resources>
 
   <ListBox x:Name="lbGroupInfoCVS" 
-    ItemsSource="{Binding Source={StaticResource groupInfoCVS}}">
+    ItemsSource="{Binding Source={StaticResource groupInfoCVS.View}}">
 
     <ListBox.GroupStyle>
       <GroupStyle>

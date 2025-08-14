@@ -10,14 +10,17 @@ public Windows.System.VirtualKey VirtualKey { get; }
 # Windows.UI.Core.AcceleratorKeyEventArgs.VirtualKey
 
 ## -description
-Gets the virtual key code for the keypress in the accelerator key event.
+
+Gets the virtual key code (or ASCII/unicode character code depending on the [EventType](acceleratorkeyeventargs_eventtype.md)) for the accelerator key event.
 
 ## -property-value
-The virtual key code of the key that was pressed.
+
+The virtual key code (or ASCII/unicode character code depending on the [EventType](acceleratorkeyeventargs_eventtype.md)) for the accelerator key event.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [AcceleratorKeyActivated](coreacceleratorkeys_acceleratorkeyactivated.md)

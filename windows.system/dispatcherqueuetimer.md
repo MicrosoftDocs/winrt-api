@@ -10,9 +10,11 @@ public class DispatcherQueueTimer
 # Windows.System.DispatcherQueueTimer
 
 ## -description
+
 Periodically executes a task on a **DispatcherQueue** thread after a time interval has elapsed.
 
 ## -remarks
+
 The system guarantees to invoke the event handler only after the specified duration expires. However, there may be some delay before the tick handler is invoked if there are other pending work items in the queue.
 
 Timer tasks run at a priority lower than idle.
@@ -22,13 +24,16 @@ Timers don’t keep the **DispatcherQueue** event loop alive. Timers created aft
 ## -see-also
 
 ## -examples
+
+The following example demonstrates how to create a repeating timer that executes a task every 5 seconds on a dedicated thread using the [DispatcherQueue](dispatcherqueue.md).
+
 ```csharp
 public void ConfigureRepeatingTimer()
 {
     _queueController = DispatcherQueueController.CreateOnDedicatedThread();
     _queue = _queueController.DispatcherQueue;
 
-    _repeatingTimer = _queue.CreateTimer ();
+    _repeatingTimer = _queue.CreateTimer();
     _repeatingTimer.Interval = TimeSpan.FromSeconds(5);
 
     // The tick handler will be invoked repeatedly after every 5
@@ -46,3 +51,5 @@ private DispatcherQueue _queue;
 private DispatcherQueueController _queueController;
 private DispatcherQueueTimer _repeatingTimer;
 ```
+
+Note that the created **DispatcherQueue** continues running on its dedicated thread until explicitly shut down. To avoid thread and memory leaks, call [DispatcherQueueController.ShutdownQueueAsync](dispatcherqueuecontroller_shutdownqueueasync_542547627.md) when you are finished with the **DispatcherQueue**.

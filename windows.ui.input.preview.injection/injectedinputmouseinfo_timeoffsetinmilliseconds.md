@@ -10,23 +10,24 @@ public uint TimeOffsetInMilliseconds { get;  set; }
 # Windows.UI.Input.Preview.Injection.InjectedInputMouseInfo.TimeOffsetInMilliseconds
 
 ## -description
+
 Gets or sets the baseline, or reference value, for timed input events such as a double click/tap.
 
 ## -property-value
+
 The reference value for timed input events in milliseconds. If TimeOffsetInMilliseconds is set to 0, the current tick count is used.
 
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) to be declared in the application manifest. For more information on app capability requirements, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
-Using input injection requires the following be added to the Package.appxmanifest:
+To use the input injection APIs, open the Package.appxmanifest file and add the following (the `rescap` namespace hosts the restricted capabilities, whuch lets you declare the `inputInjectionBrokered` capability in the `Capabilities` section).
 
 - To `<Package>`
-    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
-    - `IgnorableNamespaces="rescap"`
-- To `<Capabilities>`
-    - `<rescap:Capability Name="inputInjectionBrokered" />`
+  - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="rescap"`
+- In `<Capabilities>`
+  - `<rescap:Capability Name="inputInjectionBrokered" />`
 
 ## -examples
 

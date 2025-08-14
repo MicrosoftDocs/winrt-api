@@ -50,119 +50,90 @@ In order to support XAML processor access to the attached properties, and also t
 | [TargetProperty](storyboard_targetproperty.md) | Gets or sets the property that should be animated. |
 
 ## -examples
+
 The following example shows how to use the [Begin](storyboard_begin_1621727531.md), [Stop](storyboard_stop_1201535524.md), [Pause](storyboard_pause_1953642114.md), and [Resume](storyboard_resume_406343050.md) methods to control the playback of a storyboard (animation). A set of buttons allow the user to call these methods.
-
-
 
 [!code-xaml[Interactive_animation](../windows.ui.xaml.media.animation/code/interactive_animation/csharp/Page.xaml#SnippetInteractive_animation)]
 
-
 [!code-csharp[Interactive_animation_cs](../windows.ui.xaml.media.animation/code/interactive_animation/csharp/Page.xaml.cs#SnippetInteractive_animation_cs)]
 
-[!code-vb[Interactive_animation_cs](../windows.ui.xaml.media.animation/code/interactive_animation/vbnet/Page.xaml.vb#SnippetInteractive_animation_cs)]
+This example shows how to create and run an animation entirely in code.
+
+```xaml
+<Button Content="Create animation" Click="Button_Click"/>
+```
 
 ```csharp
-        //using Windows.UI.Xaml.Media.Animation;
-        //using Windows.UI.Xaml.Shapes;
-        //using Windows.UI
+//using Windows.UI.Xaml.Media.Animation;
+//using Windows.UI.Xaml.Shapes;
+//using Windows.UI
 
-        private void Create_And_Run_Animation(object sender, RoutedEventArgs e)
-        {
-            // Create a red rectangle that will be the target
-            // of the animation.
-            Rectangle myRectangle = new Rectangle();
-            myRectangle.Width = 200;
-            myRectangle.Height = 200;
-            SolidColorBrush myBrush = new SolidColorBrush(Colors.Red);
-            myRectangle.Fill = myBrush;
+private void Button_Click(object sender, RoutedEventArgs e)
+{
+    Create_And_Run_Animation();
+}
 
-            // Create the transform
-            TranslateTransform moveTransform = new TranslateTransform();
-            moveTransform.X = 0;
-            moveTransform.Y = 0;
-            myRectangle.RenderTransform = moveTransform;
+private void Create_And_Run_Animation()
+{
+    Storyboard justintimeStoryboard = null;
+    // If the storyboard already exists in the resources dictionary,
+    // get it and make sure it's stopped.
+    if (LayoutRoot.Resources.ContainsKey("justintimeStoryboard"))
+    {
+        justintimeStoryboard = (Storyboard)LayoutRoot.Resources["justintimeStoryboard"];
+        justintimeStoryboard.Stop();
+    }
+    // Otherwise, create the storyboard and add it to the resources dictionary.
+    else
+    {
+        // Create a red rectangle that will be the target
+        // of the animation.
+        Rectangle myRectangle = new Rectangle();
+        myRectangle.Width = 200;
+        myRectangle.Height = 200;
+        SolidColorBrush myBrush = new SolidColorBrush(Colors.Red);
+        myRectangle.Fill = myBrush;
 
-            // Add the rectangle to the tree.
-            LayoutRoot.Children.Add(myRectangle);
+        // Create the transform
+        TranslateTransform moveTransform = new TranslateTransform();
+        moveTransform.X = 0;
+        moveTransform.Y = 0;
+        myRectangle.RenderTransform = moveTransform;
 
-            // Create a duration of 2 seconds.
-            Duration duration = new Duration(TimeSpan.FromSeconds(2));
-            // Create two DoubleAnimations and set their properties.
-            DoubleAnimation myDoubleAnimationX = new DoubleAnimation();
-            DoubleAnimation myDoubleAnimationY = new DoubleAnimation();
-            myDoubleAnimationX.Duration = duration;
-            myDoubleAnimationY.Duration = duration;
-            Storyboard justintimeStoryboard = new Storyboard();
-            justintimeStoryboard.Duration = duration;
-            justintimeStoryboard.Children.Add(myDoubleAnimationX);
-            justintimeStoryboard.Children.Add(myDoubleAnimationY);
-            Storyboard.SetTarget(myDoubleAnimationX, moveTransform);
-            Storyboard.SetTarget(myDoubleAnimationY, moveTransform);
+        // Add the rectangle to the tree.
+        LayoutRoot.Children.Add(myRectangle);
 
-            // Set the X and Y properties of the Transform to be the target properties
-            // of the two respective DoubleAnimations.
-            Storyboard.SetTargetProperty(myDoubleAnimationX, "X");
-            Storyboard.SetTargetProperty(myDoubleAnimationY, "Y");
-            myDoubleAnimationX.To = 200;
-            myDoubleAnimationY.To = 200;
+        // Create a duration of 2 seconds.
+        Duration duration = new Duration(TimeSpan.FromSeconds(2));
+        // Create two DoubleAnimations and set their properties.
+        DoubleAnimation myDoubleAnimationX = new DoubleAnimation();
+        DoubleAnimation myDoubleAnimationY = new DoubleAnimation();
+        myDoubleAnimationX.Duration = duration;
+        myDoubleAnimationY.Duration = duration;
+        justintimeStoryboard = new Storyboard();
+        justintimeStoryboard.Duration = duration;
+        justintimeStoryboard.Children.Add(myDoubleAnimationX);
+        justintimeStoryboard.Children.Add(myDoubleAnimationY);
+        Storyboard.SetTarget(myDoubleAnimationX, moveTransform);
+        Storyboard.SetTarget(myDoubleAnimationY, moveTransform);
 
-            // Make the Storyboard a resource.
-            LayoutRoot.Resources.Add("justintimeStoryboard", justintimeStoryboard);
-            // Begin the animation.
-            justintimeStoryboard.Begin();
-        }
+        // Set the X and Y properties of the Transform to be the target properties
+        // of the two respective DoubleAnimations.
+        Storyboard.SetTargetProperty(myDoubleAnimationX, "X");
+        Storyboard.SetTargetProperty(myDoubleAnimationY, "Y");
+        myDoubleAnimationX.To = 200;
+        myDoubleAnimationY.To = 200;
+
+        // Make the Storyboard a resource.
+        LayoutRoot.Resources.Add("justintimeStoryboard", justintimeStoryboard);
+    }
+
+    // Begin the animation.
+    justintimeStoryboard.Begin();
+}
 ```
-
-```vb
-    ' need Imports for Windows.UI.Xaml.Shapes, Windows.UI.Media.Animation, Windows.UI
-    Private Sub Create_And_Run_Animation(sender As Object, e As RoutedEventArgs)
-        ' Create a red rectangle that will be the target
-        ' of the animation.
-        Dim myRectangle As Rectangle = New Rectangle
-        myRectangle.Width = 200
-        myRectangle.Height = 200
-        Dim myBrush As SolidColorBrush = New SolidColorBrush(Colors.Red)
-        myRectangle.Fill = myBrush
- 
-       ' Create the transform
-        Dim moveTransform As TranslateTransform = New TranslateTransform
-        moveTransform.X = 0
-        moveTransform.Y = 0
-        myRectangle.RenderTransform = moveTransform
-
-        ' Add the rectangle to the tree.
-        LayoutRoot.Children.Add(myRectangle)
-
-        ' Create a duration of 2 seconds.
-        Dim duration As Duration = New Duration(TimeSpan.FromSeconds(2))
-        ' Create two DoubleAnimations and set their properties.
-        Dim myDoubleAnimationX As DoubleAnimation = New DoubleAnimation
-        Dim myDoubleAnimationY As DoubleAnimation = New DoubleAnimation
-        myDoubleAnimationX.Duration = duration
-        myDoubleAnimationY.Duration = duration
-        Dim justintimeStoryboard As Storyboard = New Storyboard
-        justintimeStoryboard.Duration = duration
-        justintimeStoryboard.Children.Add(myDoubleAnimationX)
-        justintimeStoryboard.Children.Add(myDoubleAnimationY)
-        Storyboard.SetTarget(myDoubleAnimationX, moveTransform)
-        Storyboard.SetTarget(myDoubleAnimationY, moveTransform)
-
-        ' Set the X and Y properties of the Transform to be the target properties
-        ' of the two respective DoubleAnimations.
-        Storyboard.SetTargetProperty(myDoubleAnimationX, "X")
-        Storyboard.SetTargetProperty(myDoubleAnimationY, "Y")
-        myDoubleAnimationX.To = 200
-        myDoubleAnimationY.To = 200
-
-        ' Make the Storyboard a resource.
-        LayoutRoot.Resources.Add("justintimeStoryboard", justintimeStoryboard)
-        ' Begin the animation.
-        justintimeStoryboard.Begin()
-    End Sub
-```
-
-
 
 ## -see-also
+
 [Timeline](timeline.md), [TimelineCollection](timelinecollection.md), [VisualState.Storyboard](../windows.ui.xaml/visualstate_storyboard.md), [VisualTransition.Storyboard](../windows.ui.xaml/visualtransition_storyboard.md), [Storyboarded animations](/windows/uwp/graphics/storyboarded-animations), [Storyboarded animations for visual states](/previous-versions/windows/apps/jj819808(v=win.10)), [Key-frame animations and easing function animations](/windows/uwp/graphics/key-frame-and-easing-function-animations), [Quickstart: Animating your UI using library animations](/previous-versions/windows/apps/hh452703(v=win.10)), [Property-path syntax](/windows/uwp/xaml-platform/property-path-syntax), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)
 p://msdn.microsoft.com/library/098c1de0-d640-48b1-9961-d0adf33266e2)

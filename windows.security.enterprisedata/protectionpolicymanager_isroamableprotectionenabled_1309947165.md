@@ -16,7 +16,7 @@ public bool IsRoamableProtectionEnabled(System.String identity)
 >
 > For your data protection needs, Microsoft recommends that you use [Microsoft Purview Information Protection](/microsoft-365/compliance/information-protection) and [Microsoft Purview Data Loss Prevention](/microsoft-365/compliance/dlp-learn-about-dlp). Purview simplifies the configuration set-up and provides an advanced set of capabilities.
 
-Determines whether the policy is configured to protect files that are copied to removable drives by using [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection).
+Determines whether the policy is configured to protect files that are copied to removable drives by using [Microsoft Purview Information Protection](https://www.microsoft.com/security/business/information-protection/microsoft-purview-information-protection).
 
 ## -parameters
 

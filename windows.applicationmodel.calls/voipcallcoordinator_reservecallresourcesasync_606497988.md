@@ -11,6 +11,10 @@ public IAsyncOperation<VoipPhoneCallResourceReservationStatus> VoipCallCoordinat
 # Windows.ApplicationModel.Calls.VoipCallCoordinator.ReserveCallResourcesAsync
 
 ## -description
+
+> [!IMPORTANT]
+> The need to reserve the CPU and memory resources necessary for a VoIP call is unique to the Universal Windows Platform (UWP) environment. For a desktop app, resource management isn't necessary, so you can omit any call to **ReserveCallResourcesAsync**.
+
 Reserves the CPU and memory resources necessary for a VoIP call. You should use this method only in a single-process application model.
 
 ## -returns

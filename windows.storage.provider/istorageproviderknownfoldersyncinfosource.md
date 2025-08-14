@@ -11,13 +11,13 @@ public interface IStorageProviderKnownFolderSyncInfoSource
 
 ## -description
 
-The interface that a cloud provider implements to provide information about the sync status of known folders.
+The interface that a cloud files provider implements to provide information about the sync status of known folders.
 
 ## -remarks
 
 File Explorer obtains an instance of **IStorageProviderKnownFolderSyncInfoSource** for a given provider by calling [GetKnownFolderSyncInfoSource](istorageproviderknownfoldersyncinfosourcefactory_getknownfoldersyncinfosource_1598084472.md).
 
-This interface provides a [KnownFolderSyncInfoChanged](istorageproviderknownfoldersyncinfosource_knownfoldersyncinfochanged.md) event, which the app raises when any property or folder status changes, including the display name. The cloud provider should not expect **GetKnownFolderSyncInfoSource** to be called immediately after raising the event. File Explorer will only request a new object as it's needed.
+This interface provides a [KnownFolderSyncInfoChanged](istorageproviderknownfoldersyncinfosource_knownfoldersyncinfochanged.md) event, which the app raises when any property or folder status changes, including the display name. The cloud files provider should not expect **GetKnownFolderSyncInfoSource** to be called immediately after raising the event. File Explorer will only request a new object as it's needed.
 
 ## -see-also
 
@@ -61,7 +61,7 @@ namespace winrt::CloudMirror::implementation
 {
     MyKnownFolderInfoSource::MyKnownFolderInfoSource()
     {
-        // The cloud provider would assess its current state and use it to
+        // The cloud files provider would assess its current state and use it to
         // inform File Explorer. In this example, Documents is available for
         // backup, Pictures is currently enrolling, and Downloads is already
         // backed up (enrolled).
@@ -82,7 +82,7 @@ namespace winrt::CloudMirror::implementation
     }
     
     // GetKnownFolderSyncInfo is called by File Explorer whenever it needs to get the
-    // latest known folder sync status from the cloud provider. Once returned, the
+    // latest known folder sync status from the cloud files provider. Once returned, the
     // StorageProviderKnownFolderSyncInfo is considered immutable.
     //
     // A SyncRequested handler must be set on the returned object to be considered valid
@@ -95,7 +95,7 @@ namespace winrt::CloudMirror::implementation
         auto syncRequestHandler = [](
             winrt::CloudMirror::StorageProviderKnownFolderSyncRequestArgs const& args)
         {
-            // The user wants to sync some known folders with our cloud provider.
+            // The user wants to sync some known folders with our cloud files provider.
             // We can show some UI to sign in, confirm their choice, etc.
             MyStorageProviderSyncManager::ShowFolderEnrollmentUI(args.KnownFolders(), args.Source());
 

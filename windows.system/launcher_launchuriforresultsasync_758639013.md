@@ -30,11 +30,15 @@ When this method completes, it returns the results of the launch.
 
 ## -remarks
 
+Unless you are calling this API from a Windows desktop application, this API must be called from within an ASTA thread (also known as the UI thread).
+
+This API may also be called from a Windows desktop application.
+
 Launching an app for results allows you to launch an app from another app and exchange data between the two.
 
-This API must be called from within an ASTA thread (also known as a UI thread).
-
 When calling this method, the *options* parameter must contain a valid value for [LauncherOptions.TargetApplicationPackageFamilyName](launcheroptions_targetapplicationpackagefamilyname.md).
+
+When calling **LaunchUriForResultsAsync** to launch a UWP app, the [OnActivated](/uwp/api/windows.ui.xaml.application.onactivated) method in the app that's launched will be invoked on a background thread, not the UI thread. Developers should ensure that any UI updates or interactions are marshaled to the UI thread appropriately.
 
 ## -examples
 

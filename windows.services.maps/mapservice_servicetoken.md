@@ -10,12 +10,16 @@ public string ServiceToken { get;  set; }
 # Windows.Services.Maps.MapService.ServiceToken
 
 ## -description
-Gets or sets the application ID and the authentication token required for use of the online mapping services.
+
+[Deprecated - see Remarks.] Gets or sets the application ID and the authentication token required for use of the online mapping services.
 
 ## -property-value
 The application ID and the authentication token required for use of the online mapping services.
 
 ## -remarks
+
+> [!IMPORTANT]
+> The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**

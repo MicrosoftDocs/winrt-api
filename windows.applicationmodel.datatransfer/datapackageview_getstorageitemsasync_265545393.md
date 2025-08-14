@@ -10,16 +10,19 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.ApplicationModel.DataTransfer.DataPackageView.GetStorageItemsAsync
 
 ## -description
+
 Gets the files and folders stored in a [DataPackageView](datapackageview.md) object.
 
 ## -returns
+
 An array of files and folders stored in a [DataPackageView](datapackageview.md).
 
 ## -remarks
 
 ## -examples
 
+The following example shows how to receive files and folders shared with your app as a collection of objects implementing [IStorageItem](../windows.storage/istorageitem.md).
 
-[!code-js[HowToReceiveFiles](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/javascript/js/ReceivedSharedFiles.js#SnippetHowToReceiveFiles)]
+[!code-csharp[HowToReceiveFiles](../windows.applicationmodel.datatransfer.sharetarget/code/ShareTargetBeta/cs/MainPage.xaml.cs#Snippetcs_HandleSharedStorageItems)]
 
 ## -see-also

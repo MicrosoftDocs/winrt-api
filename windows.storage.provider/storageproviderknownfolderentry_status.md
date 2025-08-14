@@ -21,9 +21,9 @@ Gets or sets the sync enrollment status of the known folder.
 
 The three possible states are:
 
-- **Available**: A specific known folder is eligible to be backed up by the cloud provider and is not already enrolled or enrolling.
-- **Enrolling**: A cloud provider started the process of enrolling a known folder. Typically, this represents the time during which files are moved from the known folder to the storage provider’s root and the known folder redirection is applied.
-- **Enrolled**: A specific folder is already backed up by the cloud provider.
+- **Available**: A specific known folder is eligible to be backed up by the cloud files provider and is not already enrolled or enrolling.
+- **Enrolling**: A cloud files provider started the process of enrolling a known folder. Typically, this represents the time during which files are moved from the known folder to the storage provider’s root and the known folder redirection is applied.
+- **Enrolled**: A specific folder is already backed up by the cloud files provider.
 
 ## -see-also
 

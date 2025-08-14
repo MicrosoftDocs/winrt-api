@@ -17,15 +17,15 @@ An enumeration that describes the sync enrollment status of a known folder.
 
 ### -field Available: 0
 
-A specific known folder is eligible to be backed up by the cloud provider and is not already enrolled or enrolling.
+A specific known folder is eligible to be backed up by the cloud files provider and is not already enrolled or enrolling.
 
 ### -field Enrolling: 1
 
-A cloud provider started the process of enrolling a known folder. Typically, this represents the time during which files are moved from the known folder to the storage provider’s root and the known folder redirection is applied.
+A cloud files provider started the process of enrolling a known folder. Typically, this represents the time during which files are moved from the known folder to the storage provider’s root and the known folder redirection is applied.
 
 ### -field Enrolled: 2
 
-A specific folder is already backed up by the cloud provider.
+A specific folder is already backed up by the cloud files provider.
 
 ## -remarks
 

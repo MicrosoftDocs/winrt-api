@@ -27,6 +27,8 @@ We recommend using the AdaptiveDimming APIs instead of the AttentionAwareDimming
 
 ## -see-also
 
-[WakeOptions](humanpresencesettings_wakeoptions.md), [LockOptions](humanpresencesettings_lockoptions.md)
+[WakeOptions](humanpresencesettings_wakeoptions.md), 
+[LockOptions](humanpresencesettings_lockoptions.md), 
+[OnlookerDetectionOptions](humanpresencesettings_onlookerdetectionoptions.md)
 
 ## -examples

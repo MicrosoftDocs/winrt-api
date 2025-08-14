@@ -10,34 +10,24 @@ public int DeltaX { get;  set; }
 # Windows.UI.Input.Preview.Injection.InjectedInputMouseInfo.DeltaX
 
 ## -description
-Gets or sets the change in value of an x-coordinate since the last mouse wheel event.
+
+Gets or sets the change in the x-coordinate value of the mouse cursor.
 
 ## -property-value
-The number of notches or distance thresholds crossed since the last pointer event. The default value is 0.
+
+The change in the x-coordinate value of the mouse cursor. The default value is 0.
 
 ## -remarks
 
 > [!Important]
-> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities).
+> The APIs in this namespace require the inputInjectionBrokered [restricted capability](/windows/uwp/packaging/app-capability-declarations#restricted-capabilities) to be declared in the application manifest. For more information on app capability requirements, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations).
 
-Using input injection requires the following be added to the Package.appxmanifest:
+To use the input injection APIs, open the Package.appxmanifest file and add the following (the `rescap` namespace hosts the restricted capabilities, whuch lets you declare the `inputInjectionBrokered` capability in the `Capabilities` section).
 
 - To `<Package>`
-    - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"`
-    - `IgnorableNamespaces="rescap"`
-- To `<Capabilities>`
-    - `<rescap:Capability Name="inputInjectionBrokered" />`
-
-The x-coordinate value being changed is dependent on the flags set with [MouseOptions](injectedinputmouseinfo_mouseoptions.md). Some examples include:
-+ [HWheel](injectedinputmouseinfo_mousedata.md): the distance that a mouse wheel has rotated around the x-axis (horizontal). The mouse wheel button has discrete, evenly spaced notches or distance thresholds (also called detents). When you rotate or tilt the wheel, a wheel message is sent as each detent is encountered.
-
-The windows constant, WHEEL_DELTA (defined as a value of 120), describes one detent. Each detent marks the threshold for a single increment of an associated action (for example, scrolling a line or page).
-
-> [!NOTE]
-> The delta was set to 120 to enable finer-resolution wheels (such as freely-rotating wheels with no notches) that send more messages per rotation, but with smaller values per message.
-
-A positive value indicates that the wheel was rotated forward (away from the user) or tilted to the right; a negative value indicates that the wheel was rotated backward (toward the user) or tilted to the left.
-+ [XDown](injectedinputmouseinfo_mousedata.md) or [XUp](injectedinputmouseinfo_mousedata.md): 1 for XBUTTON1 or 2 for XBUTTON2XBUTTON1 and XBUTTON2 are additional buttons used on many mouse devices, often for forward and backward navigation in Web browsers. They return the same data as standard mouse buttons.
+  - `xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="rescap"`
+- In `<Capabilities>`
+  - `<rescap:Capability Name="inputInjectionBrokered" />`
 
 ## -examples
 
@@ -49,4 +39,4 @@ Here are some downloadable samples demonstrating basic input and input injection
 
 ## -see-also
 
-[Simulate user input through input injection](/windows/uwp/design/input/input-injection)
+[MouseData](injectedinputmouseinfo_mousedata.md), [MouseOptions](injectedinputmouseinfo_mouseoptions.md), [Simulate user input through input injection](/windows/uwp/design/input/input-injection)

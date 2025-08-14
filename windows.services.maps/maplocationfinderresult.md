@@ -10,11 +10,13 @@ public class MapLocationFinderResult : Windows.Services.Maps.IMapLocationFinderR
 # Windows.Services.Maps.MapLocationFinderResult
 
 ## -description
-Returns the result of a [MapLocationFinder](maplocationfinder.md) query.
+
+[Deprecated - see Remarks.] Returns the result of a [MapLocationFinder](maplocationfinder.md) query.
 
 ## -remarks
 
-A MapLocationFinderResult is returned when you call the methods of the [MapLocationFinder](maplocationfinder.md) class.
+> [!IMPORTANT]
+> The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and Windows Maps platform APIs ([Windows.Services.Maps.*](../windows.services.maps/windows_services_maps.md)) are deprecated and may not be available in future versions of Windows. For more information, see [Resources for deprecated features](/windows/whats-new/deprecated-features-resources#windows-uwp-map-control-and-windows-maps-platform-apis).
 
 > [!IMPORTANT]
 > **Bing Maps for Enterprise service retirement**
@@ -22,6 +24,8 @@ A MapLocationFinderResult is returned when you call the methods of the [MapLocat
 > The UWP [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services from the [Windows.Services.Maps](windows_services_maps.md) namespaces rely on Bing Maps. Bing Maps for Enterprise is deprecated and will be retired, at which point the MapControl and services will no longer receive data.
 >
 > For more information, see the [Bing Maps Developer Center](https://www.bingmapsportal.com/) and [Bing Maps documentation](/bingmaps/getting-started/).
+
+A MapLocationFinderResult is returned when you call the methods of the [MapLocationFinder](maplocationfinder.md) class.
 
 Your app must be authenticated before it can use the [MapControl](../windows.ui.xaml.controls.maps/mapcontrol.md) and map services in the [Windows.Services.Maps](windows_services_maps.md) namespace. To authenticate your app, you must specify a maps authentication key.
 

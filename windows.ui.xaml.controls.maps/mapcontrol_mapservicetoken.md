@@ -10,7 +10,8 @@ public string MapServiceToken { get;  set; }
 # Windows.UI.Xaml.Controls.Maps.MapControl.MapServiceToken
 
 ## -description
-Gets or sets the authentication key required for using the [MapControl](mapcontrol.md) and online mapping services.
+
+[Deprecated - see Remarks.] Gets or sets the authentication key required for using the [MapControl](mapcontrol.md) and online mapping services.
 
 ## -property-value
 The authentication key required for using the [MapControl](mapcontrol.md) and online mapping services.
