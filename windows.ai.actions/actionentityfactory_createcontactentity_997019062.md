@@ -12,11 +12,17 @@ public Windows.AI.Actions.ContactActionEntity CreateContactEntity (Windows.Appli
 
 ## -description
 
+Creates a new instance of [ContactActionEntity](contactactionentity.md).
+
 ## -parameters
 
 ### -param contact
 
+A [Contact](/uwp/api/windows.applicationmodel.contacts.contact) object.
+
 ## -returns
+
+A new **ContactActionEntity**.
 
 ## -remarks
 
