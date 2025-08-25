@@ -10,12 +10,10 @@ static public event Windows.Foundation.EventHandler Suspending<Windows.Applicati
 # Windows.ApplicationModel.Core.CoreApplication.Suspending
 
 ## -description
+
 Occurs when the app is suspending.
 
 ## -remarks
-### Windows Phone 8
-
-This API is supported in native apps only.
 
 ## -examples
 

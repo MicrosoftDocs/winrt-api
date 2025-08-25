@@ -10,12 +10,10 @@ static public event Windows.Foundation.EventHandler Exiting<object>
 # Windows.ApplicationModel.Core.CoreApplication.Exiting
 
 ## -description
+
 Occurs when the app is shutting down.
 
 ## -remarks
-### Windows Phone 8
-
-This API is supported in native apps only.
 
 ## -examples
 
