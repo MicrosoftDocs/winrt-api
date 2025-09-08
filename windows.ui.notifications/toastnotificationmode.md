@@ -12,6 +12,8 @@ public enum ToastNotificationMode
 
 ## -description
 
+Specifies the notification mode, which determines which notifications are shown to the user.
+
 ## -enum-fields
 
 ### -field Unrestricted: 0
@@ -27,6 +29,8 @@ Allows only notifications marked as “priority” to be displayed, which is sim
 Allows only alert-like notifications to be shown, meaning that any non-alarm notifications are suppressed.
 
 ## -remarks
+
+This enumeration is used by the [ToastNotificationManagerForUser.NotificationMode](toastnotificationmanagerforuser_notificationmode.md) property.
 
 ## -see-also
 
