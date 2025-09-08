@@ -12,7 +12,7 @@ public enum ToastNotificationMode
 
 ## -description
 
-Specifies the notification mode, which determines which notifications are shown to the user.
+Specifies the notification mode, which determines the set of notifications that are shown to the user.
 
 ## -enum-fields
 
@@ -22,7 +22,7 @@ All notifications are allowed, including push notifications and other types of s
 
 ### -field PriorityOnly: 1
 
-Allows only notifications marked as “priority” to be displayed, which is similar to the Do Not Disturb mode in Windows 11, where only certain priority notifications are allowed to be displayed (e.g. notifications from important contacts or apps). 
+Allows only notifications marked as “priority” to be displayed, which is similar to the Do Not Disturb mode in Windows 11, where only certain priority notifications are allowed to be displayed (e.g. notifications from important contacts or apps).
 
 ### -field AlarmsOnly: 2
 
