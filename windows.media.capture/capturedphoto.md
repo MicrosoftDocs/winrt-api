@@ -13,9 +13,9 @@ public class CapturedPhoto : Windows.Media.Capture.ICapturedPhoto
 Represents a photo taken from a capture device such as a webcam attached.
 
 ## -remarks
-Get an instance of this class by calling [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md). For how-to guidance for using **LowLagPhotoCapture**, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+Get an instance of this class by calling [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md). For how-to guidance for using **LowLagPhotoCapture**, see [Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture).
 
 ## -examples
 
 ## -see-also
-[Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture), [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md)
+[Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture), [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md)
