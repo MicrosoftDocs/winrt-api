@@ -34,5 +34,3 @@ Any changes to the other property values on the [DatagramSocketControl](datagram
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocketControl](datagramsocketcontrol.md), [DontFragment](datagramsocketcontrol_dontfragment.md), [InboundBufferSizeInBytes](datagramsocketcontrol_inboundbuffersizeinbytes.md), [OutboundUnicastHopLimit](datagramsocketcontrol_outboundunicasthoplimit.md), [QualityOfService](datagramsocketcontrol_qualityofservice.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

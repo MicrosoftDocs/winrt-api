@@ -25,10 +25,6 @@ The state of the connection profile for which usage data should be returned.
 ## -returns
 When the method completes, it returns a list of [AttributedNetworkUsage](attributednetworkusage.md) objects, which indicate the sent and received values, in bytes, and the total amount of time the app was connected during the corresponding time interval.
 
-## -remarks
-> [!NOTE]
-> Data usage tracking is not supported when an app is run on the emulator under Microsoft Visual Studio 2013 Update 2 instead of an actual device. As a result, the GetAttributedNetworkUsageAsync method in a Windows Phone 8.x app will fail when run on the emulator.
-
 ## -examples
 
 ## -see-also

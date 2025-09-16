@@ -12,9 +12,6 @@ public class ProxyConfiguration : Windows.Networking.Connectivity.IProxyConfigur
 ## -description
 Represents the proxy configuration for the current user. 
 
-> [!NOTE]
-> This class is not supported on Windows Phone.
-
 ## -remarks
 A ProxyConfiguration object is returned by calling the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method on the [NetworkInformation](networkinformation.md) object. If the [GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method is successful, the [IAsyncOperation(ProxyConfiguration)](../windows.foundation/iasyncoperation_1.md) handler for the method is passed a ProxyConfiguration object.
 

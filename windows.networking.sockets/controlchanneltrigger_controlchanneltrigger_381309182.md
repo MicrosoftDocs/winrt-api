@@ -12,9 +12,6 @@ public ControlChannelTrigger(System.String channelId, System.UInt32 serverKeepAl
 ## -description
 Creates a new [ControlChannelTrigger](controlchanneltrigger.md) object with a control channel trigger ID and a value for the server keep-alive interval. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -parameters
 ### -param channelId
 A string used to differentiate various control channel triggers on the local computer. The maximum length allowed for this string is 64 characters.

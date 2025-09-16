@@ -32,4 +32,3 @@ The DataAsString property is available only if the binary data of the message co
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

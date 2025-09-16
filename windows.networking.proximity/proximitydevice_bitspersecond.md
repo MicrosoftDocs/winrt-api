@@ -25,4 +25,3 @@ The transfer rate of a proximity device.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

@@ -90,4 +90,4 @@ The SocketProtectionLevel enumeration also allow servers to control protocol neg
 [StreamSocket](streamsocket.md), [StreamSocketInformation.ProtectionLevel](streamsocketinformation_protectionlevel.md)
 
 ## -capabilities
-ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm
+bluetooth.rfcomm

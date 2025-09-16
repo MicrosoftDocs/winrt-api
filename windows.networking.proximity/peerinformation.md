@@ -28,4 +28,3 @@ A PeerInformation instance is created when you call the [FindAllPeersAsync](peer
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

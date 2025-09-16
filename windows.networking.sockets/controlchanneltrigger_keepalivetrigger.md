@@ -12,9 +12,6 @@ public Windows.ApplicationModel.Background.IBackgroundTrigger KeepAliveTrigger {
 ## -description
 Gets an object that represents the keep-alive trigger associated with the [ControlChannelTrigger](controlchanneltrigger.md) object that an app should use to bind the activation class with the background broker infrastructure. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -property-value
 A string that represents the activation class ID for the keep-alive background task.
 

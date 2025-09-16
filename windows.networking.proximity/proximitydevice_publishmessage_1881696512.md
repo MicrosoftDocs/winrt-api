@@ -54,4 +54,3 @@ For UWP apps, publications and subscriptions are active only if the calling app 
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

@@ -26,4 +26,3 @@ Messages are delivered to all applications that have subscribed to the message t
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

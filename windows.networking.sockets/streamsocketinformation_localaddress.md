@@ -27,5 +27,3 @@ If the local hostname or IP address passed to the [ConnectAsync(EndpointPair)](s
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [ConnectAsync](streamsocket_connectasync_13692504.md), [HostName](../windows.networking/hostname.md), [LocalPort](streamsocketinformation_localport.md), [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

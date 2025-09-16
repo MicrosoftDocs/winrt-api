@@ -27,6 +27,3 @@ An app receiving multicast packets may also need to deal with network adapter ch
 
 ## -see-also
 
-
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

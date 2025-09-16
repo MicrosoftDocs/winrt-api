@@ -37,4 +37,4 @@ The [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md) and
 [BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [BindServiceNameAsync(String, NetworkAdapter)](datagramsocket_bindservicenameasync_440542334.md), [DatagramSocketInformation](datagramsocketinformation.md)
 
 ## -capabilities
-internetClientServer, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone]
+internetClientServer, privateNetworkClientServer

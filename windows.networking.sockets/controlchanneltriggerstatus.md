@@ -12,9 +12,6 @@ public enum Windows.Networking.Sockets.ControlChannelTriggerStatus : int
 ## -description
 Specifies if the system was able to complete configuration of a [ControlChannelTrigger](controlchanneltrigger.md) object for use by class elements in the [Windows.Networking.Sockets](windows_networking_sockets.md) and related namespaces. 
 
-> [!NOTE]
-> This enumeration is not supported on Windows Phone.
-
 ## -enum-fields
 ### -field HardwareSlotRequested:0
 The policy check succeeded and a hardware slot has been requested from the system.

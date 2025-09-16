@@ -12,9 +12,6 @@ public void FlushTransport()
 ## -description
 Flushes any networking data used by the transport connection associated with the [ControlChannelTrigger](controlchanneltrigger.md) to the networking stack. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -remarks
 The FlushTransport method flushes any networking data used by the transport connection associated with the [ControlChannelTrigger](controlchanneltrigger.md) to the networking stack. This method is called at the end of a background task. It ensures any networking data that is being sent leaves the process and has a chance to get to networking stack.
 

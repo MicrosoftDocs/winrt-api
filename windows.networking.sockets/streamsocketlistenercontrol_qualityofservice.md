@@ -22,5 +22,3 @@ The quality of service set on a [StreamSocket](streamsocket.md) object created w
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocketListener](streamsocketlistener.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

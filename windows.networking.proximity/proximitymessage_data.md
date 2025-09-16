@@ -25,4 +25,3 @@ The binary data of the message.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

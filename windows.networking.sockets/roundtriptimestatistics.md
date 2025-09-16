@@ -46,5 +46,3 @@ This value is always 0 on systems that do not have extended TCP statistics enabl
 ## -see-also
 [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

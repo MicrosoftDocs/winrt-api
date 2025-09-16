@@ -24,5 +24,3 @@ The **Close** method is used by Windows apps using JavaScript. For apps written 
 ## -see-also
 [Dispose](/uwp/api/windows.networking.sockets.datagramsocket.dispose)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

@@ -12,9 +12,6 @@ public Windows.Networking.Sockets.ControlChannelTriggerStatus WaitForPushEnabled
 ## -description
 Allows an app to notify the system that a connection has been established and the system should complete the internal configuration of the control channel trigger. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -returns
 A value that indicates if the system was able to complete configuration of a [ControlChannelTrigger](controlchanneltrigger.md) object.
 

@@ -28,5 +28,3 @@ Low latency quality of service commonly used for audio.
 ## -see-also
 [DatagramSocket](datagramsocket.md), [DatagramSocketControl.QualityOfService](datagramsocketcontrol_qualityofservice.md), [StreamSocket](streamsocket.md), [StreamSocketControl.QualityOfService](streamsocketcontrol_qualityofservice.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

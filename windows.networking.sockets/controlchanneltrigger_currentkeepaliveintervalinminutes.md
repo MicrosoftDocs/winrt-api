@@ -12,9 +12,6 @@ public uint CurrentKeepAliveIntervalInMinutes { get; }
 ## -description
 Gets the network keep-alive interval, in minutes, maintained by low-level network components in the TCP stack based on current network conditions. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -property-value
 The network keep-alive interval, in minutes, maintained by low-level network components in the TCP stack based on current network conditions.
 

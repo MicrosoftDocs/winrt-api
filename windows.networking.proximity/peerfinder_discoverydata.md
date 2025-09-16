@@ -16,9 +16,6 @@ Gets or sets user or device data to include during device discovery.
 ## -property-value
 User or device data to include during device discovery. Must be less than 32 bytes.
 
-## -remarks
-> Windows Phone 8.x app: This property is not supported. Setting it has no effect and no data is returned from this property on a phone.
-
 ## -examples
 
 

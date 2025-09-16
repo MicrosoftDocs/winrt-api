@@ -31,5 +31,3 @@ The message type is UTF-8 text.
 [WebSockets](/windows/uwp/networking/websockets),
 [WebSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebSocket),
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

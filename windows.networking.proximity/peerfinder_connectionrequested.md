@@ -32,4 +32,3 @@ The **ConnectionRequested** event occurs when a remote peer calls the [FindAllPe
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone], ID_CAP_NETWORKING [Windows Phone]

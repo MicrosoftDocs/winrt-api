@@ -12,9 +12,6 @@ public object TransportObject { get; }
 ## -description
 Gets the transport object that the system is using for the transport connection associated with the [ControlChannelTrigger](controlchanneltrigger.md) object. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -property-value
 The transport object that the system is using for the transport connection
 

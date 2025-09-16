@@ -43,8 +43,6 @@ An app can retrieve a valid [NetworkAdapter](../windows.networking.connectivity/
 
 In a UWP app, the [StreamSocket](streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. However, connecting through proxies is not supported when a specific network adapter is selected. So proxy support is disabled when the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter) method is used. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](streamsocket.md) class reference.
 
-In a Windows Phone 8.x app, the [StreamSocket](streamsocket.md) class does not provide automatic support for proxies.
-
 ## -examples
 
 ## -see-also

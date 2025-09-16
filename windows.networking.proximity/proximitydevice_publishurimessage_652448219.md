@@ -56,4 +56,3 @@ You can use the [PublishMessage](proximitydevice_publishmessage_1881696512.md) m
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

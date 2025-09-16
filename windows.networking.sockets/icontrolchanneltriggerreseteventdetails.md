@@ -12,9 +12,6 @@ public interface IControlChannelTriggerResetEventDetails :
 ## -description
 An object instantiated by the background broker infrastructure for a **ControlChannelReset** event to indicate that a [ControlChannelTrigger](controlchanneltrigger.md) was reset. 
 
-> [!NOTE]
-> This interface is not supported on Windows Phone.
-
 ## -remarks
 The IControlChannelTriggerResetEventDetails object is instantiated by the background broker infrastructure for a [SystemTriggerType](../windows.applicationmodel.background/systemtriggertype.md) set to the **ControlChannelReset** event.
 
