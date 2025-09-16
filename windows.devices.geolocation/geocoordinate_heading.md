@@ -25,4 +25,3 @@ This optional property will be set if it is available. If the property is not av
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

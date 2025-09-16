@@ -25,4 +25,3 @@ The **LocationStatus** property is updated dynamically only when a tracking sess
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

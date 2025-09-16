@@ -23,4 +23,3 @@ Values for the [Latitude](geocoordinate_latitude.md), [Longitude](geocoordinate_
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

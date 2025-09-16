@@ -25,4 +25,3 @@ You can access information about the event with the [PositionChangedEventArgs](p
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

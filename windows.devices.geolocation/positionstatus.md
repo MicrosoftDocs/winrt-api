@@ -45,4 +45,3 @@ Location services is not available on this version of Windows.
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]
