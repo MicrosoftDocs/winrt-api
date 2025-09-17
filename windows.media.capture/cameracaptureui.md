@@ -16,7 +16,7 @@ Provides a full window UI for capturing audio, video, and photos from a camera. 
 ## -remarks
 CameraCaptureUI provides a full window UI experience for capturing audio, video, and images. It provides controls for setting a time delay on photo captures, trimming video, and for adjusting the camera's settings such as video resolution, the audio device, brightness, and contrast.
 
-Call [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) to launch the UI. The user has control over when to start the capture. When the asynchronous [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned. For how-to guidance for using **CameraCaptureUI**, see [Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)
+Call [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) to launch the UI. The user has control over when to start the capture. When the asynchronous [CaptureFileAsync](cameracaptureui_capturefileasync_1903527183.md) operation completes, a [StorageFile](../windows.storage/storagefile.md) object is returned. For how-to guidance for using **CameraCaptureUI**, see [Capture photos and video in a desktop app with the Windows built-in camera UI](/windows/apps/develop/camera/cameracaptureui)
 
 > [!NOTE]
 > You should not specify the **webcam** or **microphone** capabilities in your app manifest file if you are using **CameraCaptureUI**. If you do so, your app will be displayed in the device's camera privacy settings, but even if the user denies camera access to your app, it will not prevent the **CameraCaptureUI** from capturing media. This is because the Windows built-in camera app is a trusted first-party app that requires the user to initiate photo, audio, and video capture with a button press. Your app may fail Windows Application Certification Kit certification when submitted to the Store if you specify the **webcam** or **microphone** capabilities when using **CameraCaptureUI**.
@@ -35,7 +35,7 @@ This code shows how to use the **CameraCaptureUI** class to take a picture. The 
 [!code-csharp[CameraCaptureUI_CSharp](../windows.media.capture/code/CameraCaptureUI/cs/CapturePhoto.xaml.cs#SnippetCameraCaptureUI_CSharp)]
 
 ## -see-also
-[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Capture photos and video with Windows built-in camera UI](/windows/uwp/audio-video-camera/capture-photos-and-video-with-cameracaptureui)
+[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Capture photos and video in a desktop app with the Windows built-in camera UI](/windows/apps/develop/camera/cameracaptureui)
 
 
 ## -capabilities
