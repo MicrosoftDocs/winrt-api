@@ -9,7 +9,6 @@
 public Windows.UI.Input.Preview.Text.TextConversionMode NewConversionMode { get; }
 -->
 
-
 ## -description
 
 Gets the new conversion mode for the focused textbox after the conversion mode change event.
