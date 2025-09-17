@@ -24,4 +24,3 @@ The system time at which the location was determined.
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

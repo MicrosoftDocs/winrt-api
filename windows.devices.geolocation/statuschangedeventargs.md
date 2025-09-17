@@ -88,4 +88,3 @@ async private void OnStatusChanged(Geolocator sender, StatusChangedEventArgs e)
 ## -capabilities
 
 location
-ID_CAP_LOCATION [Windows Phone]

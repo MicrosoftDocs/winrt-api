@@ -23,5 +23,5 @@ Gets the source used to obtain a Geocoordinate.
 
 
 ## -capabilities
-locationHistory, ID_CAP_LOCATION [Windows Phone]
+locationHistory
 location

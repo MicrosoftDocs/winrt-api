@@ -25,4 +25,3 @@ The default report interval is 1 second or as frequent as the hardware can suppo
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

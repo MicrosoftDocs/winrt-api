@@ -31,4 +31,3 @@ The properties of this class convey information about the satellite geometry wit
 ## -capabilities
 
 location
-ID_CAP_LOCATION [Windows Phone]

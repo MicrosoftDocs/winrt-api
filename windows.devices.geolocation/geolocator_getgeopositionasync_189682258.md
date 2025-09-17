@@ -36,4 +36,3 @@ The user sets the privacy of their location data with the **location privacy set
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

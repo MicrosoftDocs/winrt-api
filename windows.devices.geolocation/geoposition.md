@@ -22,4 +22,3 @@ Retrieve a Geoposition object by using the [GetGeopositionAsync](geolocator_getg
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

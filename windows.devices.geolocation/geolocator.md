@@ -67,4 +67,3 @@ switch (accessStatus)
 ## -capabilities
 
 location
-ID_CAP_LOCATION [Windows Phone]

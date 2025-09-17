@@ -27,4 +27,3 @@ If another application has requested more frequent updates, by specifying a smal
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]
