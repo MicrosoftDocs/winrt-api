@@ -27,7 +27,27 @@ The connection is costed on a per-byte basis.
 
 
 ## -remarks
-For examples of how these values are used in cost-based connection scenarios, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
+Use `NetworkCostType` together with `ConnectionCost` boolean flags (`Roaming`, `OverDataLimit`, `ApproachingDataLimit`, `BackgroundDataUsageRestricted`) to decide whether to:
+
+* Delay or throttle large background transfers (`Fixed` or `Variable`).
+* Provide UI to the user before streaming HD media when not `Unrestricted`.
+* Automatically pause sync if `OverDataLimit`.
+
+Decision example (C#):
+
+```csharp
+var profile = NetworkInformation.GetInternetConnectionProfile();
+var cost = profile?.GetConnectionCost();
+bool allowLargeTransfer = false;
+if (cost != null)
+{
+	allowLargeTransfer = cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming && !cost.OverDataLimit;
+}
+```
+
+Classic desktop components might query NLM / DUSM directly, but WinRT apps should rely on these abstractions. For samples that illustrate reacting to cost changes, see the Network Cost (DUSM) classic sample and the UWP connectivity sample.
+
+For additional scenario guidance, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
 
 ## -examples
 

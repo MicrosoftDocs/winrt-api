@@ -35,7 +35,15 @@ The entries are in chronological order, starting at the startTime.
 If the time span is not an exact multiple of the granularity, then the last entry will report usage only up to the endTime.
 
 ## -remarks
-For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
+Guidance:
+
+* Align `startTime` and `endTime` to the granularity boundary (for `PerMinute`, round down the start to the previous minute) to avoid an extra leading partial bucket.
+* An empty vector is a valid result (no recorded usage or provider unavailable) — treat as “no data” rather than an error and retry in the next collection cycle.
+* Avoid querying very large spans at fine granularity (e.g., multiple days with `PerMinute`)—aggregate in your own code if you need rolled‑up statistics.
+* `NetworkUsageStates` roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
+* This API returns estimated usage, not real‑time byte counts; expect some delay from actual wire usage.
+
+Legacy guidance link (archived): [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

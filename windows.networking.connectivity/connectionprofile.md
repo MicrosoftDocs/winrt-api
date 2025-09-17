@@ -13,23 +13,88 @@ public class ConnectionProfile : Windows.Networking.Connectivity.IConnectionProf
 Represents a network connection, which includes either the currently connected network or prior network connections. Provides information about the connection status and connectivity statistics.
 
 ## -remarks
-The following example function demonstrates how to retrieve data from a ConnectionProfile.
+`ConnectionProfile` represents a snapshot of a specific network interface’s connectivity attributes (WLAN, WWAN, Ethernet, etc.). Always re‑query the profile when you receive a network status change event because properties do not automatically update on previously cached instances.
 
-```javascript
-function getConnectionProfileInfo(connectionProfile) {
-     
-     returnString += "Connection Cost Information:\n\r";
-     returnString += "===============\n\r";
-     var connectionCost = connectionProfile.getConnectionCost();
-     returnString += "Cost Type: " + getCostType(connectionCost.networkCostType) + "\n\r";
-     returnString += "Roaming: " + connectionCost.roaming + "\n\r";
-     returnString += "Over Datalimit: " + connectionCost.overDataLimit + "\n\r";
-     returnString += "Approaching Datalimit: " + connectionCost.approachingDataLimit + "\n\r";
+Common tasks:
+
+* Determine effective connectivity level (`GetNetworkConnectivityLevel`).
+* Inspect data plan and metering (`GetConnectionCost`, `GetDataPlanStatus`).
+* Get adapter and network names (`NetworkAdapter`, `ProfileName`).
+* Retrieve per‑profile usage statistics (`GetNetworkUsageAsync`, `GetAttributedNetworkUsageAsync`).
+* Identify WLAN SSID (`WlanConnectionProfileDetails.GetConnectedSsid`) or WWAN home/roaming state (`WwanConnectionProfileDetails`).
+* Determine if the profile can be deleted (e.g., user saved Wi‑Fi profile) via `CanDelete` / `TryDeleteAsync`.
+
+Cost / data usage considerations:
+
+* Respect metered networks: If `connectionCost.NetworkCostType` is not `Unrestricted`, delay large background transfers unless initiated by the user.
+* If `connectionCost.Roaming` is true, avoid non‑critical sync to prevent unexpected charges.
+* If `OverDataLimit` or `ApproachingDataLimit`, surface a UI warning or reduce quality (e.g., lower bitrate streaming).
+
+Deletion guidance:
+
+`TryDeleteAsync` only succeeds for user‑removable profiles (e.g., some WLAN profiles) and when the caller has appropriate permissions. Always check the returned `ConnectionProfileDeleteStatus` and handle `DeniedBySystem` or `UnknownError` gracefully.
+
+Example: Summarize active internet profile (C#):
+
+```csharp
+using Windows.Networking.Connectivity;
+
+ConnectionProfile profile = NetworkInformation.GetInternetConnectionProfile();
+if (profile != null)
+{
+     var level = profile.GetNetworkConnectivityLevel();
+     var cost = profile.GetConnectionCost();
+     var plan = profile.GetDataPlanStatus();
+     bool metered = cost.NetworkCostType != NetworkCostType.Unrestricted || cost.Roaming || cost.OverDataLimit;
+     // Use 'metered' flag to gate background sync
 }
-
 ```
 
-For more examples of how these class methods are implemented to access connection information, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
+Enumerate usage over last hour (C++/WinRT):
+
+```cpp
+#include <winrt/Windows.Foundation.h>
+#include <winrt/Windows.Foundation.Collections.h>
+#include <winrt/Windows.Networking.Connectivity.h>
+using namespace winrt; using namespace Windows::Foundation; using namespace Windows::Networking::Connectivity;
+
+IAsyncAction LogUsage(ConnectionProfile const& profile)
+{
+     auto endTime = DateTime::clock::now();
+     auto startTime = endTime - std::chrono::hours(1);
+     auto granularity = NetworkUsageStates(); // default (all)
+     auto usages = co_await profile.GetNetworkUsageAsync(startTime, endTime, DataUsageGranularity::PerMinute, L"");
+     for (auto const& u : usages)
+     {
+          auto bytes = u.BytesSent() + u.BytesReceived();
+          // Aggregate or log bytes
+     }
+}
+```
+
+C++/WinRT helper to log cost state:
+
+```cpp
+void LogCost(ConnectionProfile const& profile)
+{
+          if (!profile) return;
+          auto cost = profile.GetConnectionCost();
+          // Example logging; replace with your telemetry mechanism
+          // (Pseudo logging macro) LOG_INFO << L"CostType=" << to_underlying(cost.NetworkCostType())
+          //           << L" roaming=" << cost.Roaming()
+          //           << L" overLimit=" << cost.OverDataLimit();
+}
+```
+
+Performance tips:
+
+* Avoid calling usage APIs (`GetNetworkUsageAsync`) too frequently; aggregate intervals (e.g., per 15 minutes) for telemetry.
+* Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
+* For background tasks, check cost state late (immediately before transfer) to ensure freshness.
+
+Interoperability note: Classic desktop components may still use NLM (`INetworkListManager`) or DUSM cost APIs directly; the WinRT surface (`ConnectionProfile`, `NetworkInformation`) abstracts these for most app scenarios.
+
+For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
 
 ### Version history
 
@@ -40,6 +105,26 @@ For more examples of how these class methods are implemented to access connectio
 | 1809 | 17763 | TryDeleteAsync |
 
 ## -examples
+Delete a removable Wi‑Fi profile if allowed (C#):
+
+```csharp
+var profiles = await NetworkInformation.FindConnectionProfilesAsync(new ConnectionProfileFilter{ IsWlanConnectionProfile = true });
+foreach (var p in profiles)
+{
+     if (p.CanDelete == TriStates.Yes)
+     {
+          var status = await p.TryDeleteAsync();
+          // Check status (Success, DeniedBySystem, UnknownError)
+     }
+}
+```
+
+Query attributed usage for a specific app (C++/WinRT snippet pattern):
+
+```cpp
+// Supply an IVectorView<HostName> to GetAttributedNetworkUsageAsync if attributing by host.
+// Example omitted for brevity; see NetworkConnectivity sample for full pattern.
+```
 
 ## -see-also
 [NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)
