@@ -12,11 +12,17 @@ public Windows.AI.Actions.TableActionEntity CreateTableEntity (string[] data, ui
 
 ## -description
 
+Creates a new instance of [TableActionEntity](tableactionentity.md).
+
 ## -parameters
 
 ### -param data
 
+A one-dimensional array of strings representing a two-dimensional string table.
+
 ### -param columnCount
+
+The number of columns in the table. The system determines the number of rows by dividing the length of the *data* array by the *columnCount*, casting the row count to an integer. If the product of the column count and row count is not the same as the data length, an exception will be raised.
 
 ## -returns
 

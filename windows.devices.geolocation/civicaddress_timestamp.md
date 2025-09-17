@@ -24,4 +24,3 @@ Unsupported API.
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

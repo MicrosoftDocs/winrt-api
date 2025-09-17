@@ -48,4 +48,3 @@ You can publish a message to a subscriber by using the [PublishMessage](proximit
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

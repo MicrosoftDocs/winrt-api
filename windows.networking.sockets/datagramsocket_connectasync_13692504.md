@@ -64,4 +64,4 @@ Using **ConnectAsync** with a broadcast IP address such as 255.255.255.255 will 
 [ConnectAsync(HostName, String)](datagramsocket_connectasync_1841953676.md), [EndpointPair](../windows.networking/endpointpair.md), [OutputStream](datagramsocket_outputstream.md), [DataWriter](../windows.storage.streams/datawriter.md), [IOutputStream](../windows.storage.streams/ioutputstream.md)
 
 ## -capabilities
-internetClientServer, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone]
+internetClientServer, privateNetworkClientServer

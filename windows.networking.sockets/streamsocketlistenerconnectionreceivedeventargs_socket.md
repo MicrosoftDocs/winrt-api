@@ -24,5 +24,3 @@ The [StreamSocket](streamsocket.md) object created when a connection is received
 ## -see-also
 [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

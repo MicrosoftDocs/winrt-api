@@ -2,6 +2,7 @@
 -api-id: P:Windows.AI.MachineLearning.LearningModelEvaluationResult.CorrelationId
 -api-type: winrt property
 ms.custom: RS5
+ROBOTS: NOFOLLOW, NOINDEX
 ---
 
 <!-- Property syntax.
@@ -11,6 +12,10 @@ public string CorrelationId { get; }
 # Windows.AI.MachineLearning.LearningModelEvaluationResult.CorrelationId
 
 ## -description
+
+> [!IMPORTANT]
+> For the latest documentation about Windows Machine Learning, see [What is Windows ML](/windows/ai/new-windows-ml/overview). That documentation describes APIs that are in the **Microsoft.Windows.AI.MachineLearning** namespace, which ships in the Windows App SDK. Those APIs supersede the ones documented here, which are in the **Windows.AI.MachineLearning** namespace, and were shipped in 2018.
+
 The optional string that was passed to [LearningModelSession.Evaluate](learningmodelsession_evaluate_291797498.md).
 
 ## -property-value

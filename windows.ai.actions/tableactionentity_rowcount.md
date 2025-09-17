@@ -12,7 +12,11 @@ public uint RowCount { get; }
 
 ## -description
 
+Gets the number of rows in the table.
+
 ## -property-value
+
+The number of rows in the table.
 
 ## -remarks
 

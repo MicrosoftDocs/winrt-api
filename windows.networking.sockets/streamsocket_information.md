@@ -22,5 +22,3 @@ Socket information on a [StreamSocket](streamsocket.md) object.
 ## -see-also
 [StreamSocketInformation](streamsocketinformation.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

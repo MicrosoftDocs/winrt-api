@@ -121,6 +121,3 @@ For more detailed information on network isolation, see [How to configure networ
 [Wi-Fi Direct services sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WiFiDirectServices),
 [Socket activity trigger stream socket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SocketActivityStreamSocket)
 
-## -capabilities
-
-ID_CAP_NETWORKING [Windows Phone]

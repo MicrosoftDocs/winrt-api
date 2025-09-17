@@ -16,7 +16,8 @@ Gets or sets an object that specifies the sharing mode for the [MediaCapture](me
 An object that specifies the sharing mode for the [MediaCapture](mediacapture.md).
 
 ## -remarks
-Multiple apps can simultaneously acquire frames from the same [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md), but only a single app can acquire exclusive control of and modify the settings for the frame source. Set **SharingMode** to [ExclusiveControl](mediacapturesharingmode.md) if you need to adjust the configuration of any of the frame sources included the requested [SourceGroup](mediacaptureinitializationsettings_sourcegroup.md). However, this means that the call to [InitializeAsync](mediacapture_initializeasync_315323248.md) will fail if another app already has exclusive control of one of the frame sources in the group. If you only need to acquire frames without modifying the configuration, set **SharingMode** to [SharedReadOnly](mediacapturesharingmode.md).
+Multiple apps can simultaneously acquire frames from the same [MediaFrameSource](../windows.media.capture.frames/mediaframesource.md), but only a single active MediaCapture instance can acquire exclusive control and modify the settings for the frame source. Set **SharingMode** to [ExclusiveControl](mediacapturesharingmode.md) if you need to adjust the configuration (of any of the frame sources included the requested [SourceGroup](mediacaptureinitializationsettings_sourcegroup.md). A MediaCapture instance becomes active when a stream has been started or after a camera control value is set by using the [MediaCapture.VideoDeviceController](../windows.media.devices/videodevicecontroller.md). Attempting to render active a MediaCapture instance when another controlling mode instance is already active will result in a sharing violation failure.
+If you only need to acquire frames without modifying the configuration, set **SharingMode** to [SharedReadOnly](mediacapturesharingmode.md).
 
 When the **SharingMode** is set to [SharedReadOnly](mediacapturesharingmode.md), some of the MediaCaptureInitializationSettings properties can't be configured. See below table for details.
 
@@ -43,6 +44,7 @@ When the **SharingMode** is set to [SharedReadOnly](mediacapturesharingmode.md),
 ## -examples
 
 ## -see-also
+- [Configure sharing mode using win32 and IMFMediaSource or IMFCaptureEngine](https://learn.microsoft.com/en-us/windows/win32/medfound/mf-devsource-attribute-frameserver-share-mode)
 
 ## -capabilities
 backgroundMediaRecording

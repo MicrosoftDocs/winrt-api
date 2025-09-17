@@ -21,7 +21,7 @@ Use the following methods on the [MediaCapture](mediacapture.md) class to initia
 
 If the media type is changed or an effect is added, you must call [PrepareLowLagRecordToStreamAsync](mediacapture_preparelowlagrecordtostreamasync_1450185294.md), [PrepareLowLagRecordToStorageFileAsync](mediacapture_preparelowlagrecordtostoragefileasync_1085563722.md), or [PrepareLowLagRecordToCustomSinkAsync](mediacapture_preparelowlagrecordtocustomsinkasync_1787918353.md) to create a new LowLagMediaRecording object.
 
-For how-to guidance for using **LowLagMediaCapture** to capture video, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance for using **LowLagMediaCapture** to capture video, see [Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture).
 
 ### Version history
 

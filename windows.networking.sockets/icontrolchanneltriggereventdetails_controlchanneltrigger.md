@@ -12,9 +12,6 @@ public Windows.Networking.Sockets.ControlChannelTrigger ControlChannelTrigger { 
 ## -description
 Gets the [ControlChannelTrigger](controlchanneltrigger.md) object associated with an [IControlChannelTriggerEventDetails](icontrolchanneltriggereventdetails.md) object. 
 
-> [!NOTE]
-> The IControlChannelTriggerEventDetails interface is not supported on Windows Phone.
-
 ## -property-value
 A [ControlChannelTrigger](controlchanneltrigger.md) object.
 

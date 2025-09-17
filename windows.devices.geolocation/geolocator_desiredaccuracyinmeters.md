@@ -24,4 +24,3 @@ The desired accuracy in meters for data returned from the location service.
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

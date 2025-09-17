@@ -23,5 +23,3 @@ The [Information](datagramsocket_bindendpointasync_1396029045.md) property gets 
 ## -see-also
 [StreamSocketListenerInformation](streamsocketlistenerinformation.md), [StreamSocketListenerInformation.LocalPort](streamsocketlistenerinformation_localport.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

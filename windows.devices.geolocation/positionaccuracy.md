@@ -29,4 +29,3 @@ Deliver the most accurate report possible. This includes using services that mig
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

@@ -21,6 +21,3 @@ The Close is used by UWP apps written in JavaScript. For apps written using the 
 
 ## -see-also
 
-
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

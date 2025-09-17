@@ -35,5 +35,3 @@ After a connection is established, the [RemoteAddress](streamsocketinformation_r
 ## -see-also
 [ConnectAsync](streamsocket_connectasync_13692504.md), [HostName](../windows.networking/hostname.md), [RemoteAddress](streamsocketinformation_remoteaddress.md), [RemotePort](streamsocketinformation_remoteport.md), [RemoteServiceName](streamsocketinformation_remoteservicename.md), [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

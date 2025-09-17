@@ -15,10 +15,6 @@ Provides access to property values that indicate the current cost of a network c
 ## -remarks
 For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
 
-
-
-> On Windows Phone 8.1 the [Roaming](connectioncost_roaming.md) property indicates roaming for international roaming only.
-
 ## -examples
 
 ## -see-also

@@ -25,4 +25,3 @@ The subscription ID of the message.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

@@ -21,4 +21,3 @@ Initializes a new [Geolocator](geolocator.md) object.
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

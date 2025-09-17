@@ -14,9 +14,6 @@ Enables real time notifications to be received in the background for objects tha
 
 Call [**BackgroundExecutionManager.RequestAccessAsync**](../windows.applicationmodel.background/backgroundexecutionmanager_requestaccessasync_1328635663.md) before using **ControlChannelTrigger**.
 
-> [!NOTE]
-> This class is not supported on Windows Phone.
-
 ## -remarks
 The ControlChannelTrigger class and related interfaces are used to enable your app to use the network when your app is not the foreground app. A Universal Windows app is normally suspended when it is no longer in the foreground app and moved to the background. There are some exceptions to suspending an app (actively printing, accessing an audio stream, and transferring files in the background, for example). The ControlChannelTrigger class allows a network app that has established a TCP connection to notify the system that an established network connection should be kept operational and the system should wake up the suspended app when network data is received for the app or the server keep-alive timer interval expires. Use control channel triggers when your app needs to maintain a network connection even if it is in the background.
 

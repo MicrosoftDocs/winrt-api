@@ -38,4 +38,3 @@ You can tap to connect to peers by using the [PeerFinder](peerfinder.md) class.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

@@ -12,9 +12,6 @@ public Windows.Networking.Sockets.ControlChannelTriggerResetReason ResetReason {
 ## -description
 A value that indicates the reason why a [ControlChannelTrigger](controlchanneltrigger.md) was reset. 
 
-> [!NOTE]
-> The IControlChannelTriggerResetEventDetails interface is not supported on Windows Phone.
-
 ## -property-value
 A value that indicates the reason why a [ControlChannelTrigger](controlchanneltrigger.md) was reset.
 

@@ -61,4 +61,4 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ## -capabilities
 
-internetClientServer, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm
+internetClientServer, privateNetworkClientServer, bluetooth.rfcomm

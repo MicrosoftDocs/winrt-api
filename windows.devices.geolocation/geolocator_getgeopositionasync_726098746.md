@@ -32,4 +32,3 @@ A location will be returned immediately if the latest location is within an acce
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

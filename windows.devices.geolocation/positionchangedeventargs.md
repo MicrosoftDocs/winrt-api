@@ -22,4 +22,3 @@ This object is the argument passed to the event handler for a [PositionChanged](
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

@@ -30,7 +30,7 @@ private void ShowWebcamSettings()
 ```
 
 ## -see-also
-[Audio, video, and camera](/windows/uwp/audio-video-camera/index), [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/CameraCaptureUI%20Sample)
+[Audio, video, and camera](/windows/apps/develop/audio-video-camera), [Camera capture UI sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/CameraCaptureUI%20Sample)
 
 ## -capabilities
 microphone, webcam

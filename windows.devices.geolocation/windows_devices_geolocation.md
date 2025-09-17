@@ -46,4 +46,3 @@ Sample applications that use classes from this namespace include the [Geolocatio
 ## -capabilities
 
 location
-ID_CAP_LOCATION [Windows Phone]

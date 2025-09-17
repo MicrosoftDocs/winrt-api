@@ -32,4 +32,3 @@ The proximity device that raised the [DeviceDeparted](proximitydevice_devicedepa
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

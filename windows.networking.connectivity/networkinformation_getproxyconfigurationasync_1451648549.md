@@ -13,9 +13,6 @@ public Windows.Foundation.IAsyncOperation<Windows.Networking.Connectivity.ProxyC
 ## -description
 Gets proxy configuration for a connection using the specified URI.
 
-> [!NOTE]
-> This class method is not supported on Windows Phone.
-
 ## -parameters
 ### -param uri
 The proxy configuration URI.

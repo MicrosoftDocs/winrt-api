@@ -37,8 +37,8 @@
        "breadcrumb_path": "/uwp/api/breadcrumbs/toc.json",
        "feedback_system": "Standard",
        "feedback_product_url": "https://www.microsoft.com/windowsinsider/feedbackhub/fb",
-       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/184/windows-app-sdk/",
-       "feedback_help_link_type": "get-product-support",
+       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/105/windows-app-sdk/",
+       "feedback_help_link_type": "get-help-at-qna",
        "uhfHeaderId": "MSDocsHeader-WinDevCenter",
        "titleSuffix": "Windows apps",
        "hideEdit": "true",
@@ -64,32 +64,6 @@
     "fileMetadata": {
       "langs": {
         "winrt-api-build/**.yml": ["csharp", "vb", "fsharp","cppcx","cppwinrt","cpp"]
-      },
-      "feedback_product_url": 
-      {
-        "windows.ui.xaml*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose", 
-        "windows.ui.xaml.automation*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.automation.peers*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.automation.provider*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.automation.text*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.controls*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.controls.maps*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.controls.primitives*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.core.direct*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.data*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.documents*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.hosting*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.input*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.interop*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.markup*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.media*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.media.animation*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.media.imaging*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.media.media3d*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.navigation*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.printing*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.resources*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose",
-        "windows.ui.xaml.shapes*.yml": "https://github.com/microsoft/microsoft-ui-xaml/issues/new/choose"
       },
       "author":
       {

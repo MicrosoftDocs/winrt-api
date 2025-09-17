@@ -29,4 +29,3 @@ Contains properties that are passed to an application with the [ConnectionReques
 ## -capabilities
 
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

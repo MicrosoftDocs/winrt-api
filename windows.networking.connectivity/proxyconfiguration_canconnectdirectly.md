@@ -12,9 +12,6 @@ public bool CanConnectDirectly { get; }
 ## -description
 Gets a value that indicates if this configuration can connect directly. 
 
-> [!NOTE]
-> This class property is not supported on Windows Phone.
-
 ## -property-value
 TRUE if this configuration can connect directly; otherwise, FALSE.
 

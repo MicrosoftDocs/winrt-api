@@ -88,4 +88,4 @@ The [GetOutputStreamAsync](datagramsocket_getoutputstreamasync_1619245957.md) an
 
 ## -capabilities
 
-internetClient, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone]
+internetClient, privateNetworkClientServer
