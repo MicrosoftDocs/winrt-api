@@ -27,5 +27,3 @@ Setting the [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimi
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

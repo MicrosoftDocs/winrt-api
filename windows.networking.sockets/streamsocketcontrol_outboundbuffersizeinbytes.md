@@ -27,5 +27,3 @@ The OutboundBufferSizeInBytes property must be set before the [StreamSocket](str
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [SOL_SOCKET Socket Options](/windows/desktop/WinSock/sol-socket-socket-options), [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

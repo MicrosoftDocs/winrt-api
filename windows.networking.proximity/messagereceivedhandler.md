@@ -34,4 +34,3 @@ The message and related data that were passed to the event handler.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

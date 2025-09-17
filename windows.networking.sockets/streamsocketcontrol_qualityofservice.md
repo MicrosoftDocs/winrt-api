@@ -27,5 +27,3 @@ This property may be set before the [StreamSocket](streamsocket.md) is connected
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

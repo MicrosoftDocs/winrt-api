@@ -29,5 +29,3 @@ The [SocketError](socketerror.md) object and the GetStatus method would be used 
 ## -see-also
 [SocketErrorStatus](socketerrorstatus.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

@@ -12,9 +12,6 @@ public enum Windows.Networking.Sockets.ControlChannelTriggerResourceType : int
 ## -description
 The resource type used by a control channel trigger. 
 
-> [!NOTE]
-> This enumeration is not supported on Windows Phone.
-
 ## -enum-fields
 ### -field RequestSoftwareSlot:0
 Request a software slot from the system.

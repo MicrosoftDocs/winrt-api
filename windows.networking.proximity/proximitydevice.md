@@ -38,4 +38,3 @@ The ProximityDevice class uses publish/subscribe semantics and is useful for adv
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

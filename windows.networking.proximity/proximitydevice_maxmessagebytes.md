@@ -25,4 +25,3 @@ The maximum size of a published message that this proximity device supports.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]

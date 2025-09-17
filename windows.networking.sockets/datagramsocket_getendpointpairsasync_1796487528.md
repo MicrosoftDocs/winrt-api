@@ -32,5 +32,3 @@ A [DatagramSocket](datagramsocket.md) can use the list returned by the GetEndpoi
 ## -see-also
 [ConnectAsync(EndpointPair)](datagramsocket_connectasync_13692504.md), [GetEndpointPairsAsync(HostName, String, HostNameSortOptions)](datagramsocket_getendpointpairsasync_903639760.md), [HostName](../windows.networking/hostname.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

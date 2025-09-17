@@ -63,4 +63,3 @@ This value is always false on systems that do not have extended TCP statistics e
 [MessageWebSocket](messagewebsocket.md), [StreamSocket](streamsocket.md), [StreamWebSocket](streamwebsocket.md)
 
 ## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

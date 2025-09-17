@@ -56,5 +56,3 @@ The [BindServiceNameAsync(String, NetworkAdapter)](datagramsocket_bindservicenam
 ## -see-also
 [GetOutputStreamAsync(HostName, String)](datagramsocket_getoutputstreamasync_1619245957.md), [EndpointPair](../windows.networking/endpointpair.md), [IOutputStream](../windows.storage.streams/ioutputstream.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

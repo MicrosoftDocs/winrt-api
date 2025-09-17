@@ -12,9 +12,6 @@ public enum Windows.Networking.Sockets.ControlChannelTriggerResetReason : int
 ## -description
 The reason why a [ControlChannelTrigger](controlchanneltrigger.md) was reset. 
 
-> [!NOTE]
-> This enumeration is not supported on Windows Phone.
-
 ## -enum-fields
 ### -field FastUserSwitched:0
 The [ControlChannelTrigger](controlchanneltrigger.md) was reset as a result of fast user switching.

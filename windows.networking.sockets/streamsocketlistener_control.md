@@ -31,5 +31,3 @@ Any changes to the [StreamSocketListenerControl](streamsocketlistenercontrol.md)
 ## -see-also
 [StreamSocket](streamsocket.md), [StreamSocketListenerControl](streamsocketlistenercontrol.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

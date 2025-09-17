@@ -21,6 +21,3 @@ The Close method is used by Windows app using JavaScript. For apps written using
 
 ## -see-also
 
-
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

@@ -24,5 +24,3 @@ Round trip time information for a [StreamSocket](streamsocket.md) object.
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [RoundTripTimeStatistics](roundtriptimestatistics.md), [StreamSocket](streamsocket.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

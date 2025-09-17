@@ -31,4 +31,3 @@ The Socket property is null until a successful connection has been completed. Wh
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

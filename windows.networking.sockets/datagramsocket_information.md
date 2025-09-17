@@ -22,5 +22,3 @@ Socket information for the [DatagramSocket](datagramsocket.md) object.
 ## -see-also
 [DatagramSocketInformation](datagramsocketinformation.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

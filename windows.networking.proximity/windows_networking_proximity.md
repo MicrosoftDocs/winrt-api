@@ -30,4 +30,3 @@ This example shows how you can use the [ProximityDevice](proximitydevice.md) cla
 ## -capabilities
 
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

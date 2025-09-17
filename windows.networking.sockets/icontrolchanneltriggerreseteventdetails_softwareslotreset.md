@@ -12,9 +12,6 @@ public bool SoftwareSlotReset { get; }
 ## -description
 A value that indicates if a software slot was affected by a [ControlChannelTrigger](controlchanneltrigger.md) reset event. 
 
-> [!NOTE]
-> The IControlChannelTriggerResetEventDetails interface is not supported on Windows Phone.
-
 ## -property-value
 A value that indicates if a software slot was affected by a [ControlChannelTrigger](controlchanneltrigger.md) reset event.
 

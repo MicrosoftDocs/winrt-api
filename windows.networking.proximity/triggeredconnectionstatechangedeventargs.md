@@ -27,4 +27,3 @@ Contains properties that the [TriggeredConnectionStateChanged](peerfinder_trigge
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

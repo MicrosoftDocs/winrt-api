@@ -25,4 +25,3 @@ The unique identifier for the connection in progress.
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone]
