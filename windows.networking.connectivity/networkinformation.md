@@ -64,7 +64,7 @@ Related classic (Win32) technologies include Network List Manager (NLM / `INetwo
 
 For broader scenario guidance, see:
 
-* [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) (archived)
+* [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10))
 * Network connectivity UWP sample (linked below)
 * Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
 

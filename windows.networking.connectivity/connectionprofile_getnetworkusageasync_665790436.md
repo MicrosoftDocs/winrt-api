@@ -43,7 +43,7 @@ Guidance:
 * `NetworkUsageStates` roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
 * This API returns estimated usage, not real‑time byte counts; expect some delay from actual wire usage.
 
-Legacy guidance link (archived): [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
+Reference: [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 
