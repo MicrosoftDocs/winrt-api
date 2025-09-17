@@ -10,11 +10,13 @@ public class AccessKeyManager : Windows.UI.Xaml.Input.IAccessKeyManager
 # Windows.UI.Xaml.Input.AccessKeyManager
 
 ## -description
+
 A helper class that enables access keys (mnemonics) for XAML user interfaces.
 
-
-
 ## -remarks
+
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 Available starting in Windows 10, version 1607.
 
 ### Version history
@@ -30,4 +32,5 @@ Available starting in Windows 10, version 1607.
 ## -examples
 
 ## -see-also
+
 [Access keys](/windows/uwp/design/input/access-keys)

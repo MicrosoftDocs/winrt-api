@@ -10,9 +10,8 @@ public KeyTipPlacementMode KeyTipPlacementMode { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipPlacementMode
 
 ## -description
-Gets or sets a value that indicates where the access key Key Tip is placed in relation to the boundary of the UIElement.
 
-
+Gets or sets a value that indicates where the access key keytip is placed in relation to the boundary of the UIElement.
 
 ## -xaml-syntax
 ```xaml
@@ -24,13 +23,17 @@ Gets or sets a value that indicates where the access key Key Tip is placed in re
 </dl>
 
 ## -property-value
+
 A value of the enumeration. The default is **Auto**.
 
 ## -remarks
+
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 Use the [KeyTipTarget](uielement_keytiptarget.md) property to specify a target element other than this element.
 
 ## -examples
 
 ## -see-also
-[KeyTipTarget](uielement_keytiptarget.md)
 
+[Access keys](/windows/apps/design/input/access-keys), [KeyTipTarget](uielement_keytiptarget.md)
