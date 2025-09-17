@@ -19,3 +19,6 @@ Civic address is no longer available. Even when a Civic Address provider is inst
 
 ## -see-also
 
+
+## -capabilities
+location
