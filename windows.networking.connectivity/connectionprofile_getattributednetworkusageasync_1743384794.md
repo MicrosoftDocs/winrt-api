@@ -13,6 +13,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 Gets network usage data for each individual application.
 
 ## -parameters
+
 ### -param startTime
 The start time of the usage window.
 
@@ -28,7 +29,6 @@ When the method completes, it returns a list of [AttributedNetworkUsage](attribu
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 networkDataPlanProvisioning
