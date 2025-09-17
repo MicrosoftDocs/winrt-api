@@ -29,11 +29,11 @@ Represents a specialized app bar that provides layout for [AppBarButton](appbarb
 > [!TIP]
 > For more info, design guidance, and code examples, see [Command bar](/windows/uwp/design/controls-and-patterns/app-bars).
 
-Use a CommandBar to provide users with quick access to your app’s most common tasks. It's a general-purpose, flexible, light-weight control that can display both complex content, such as images, progress bars, or text blocks, as well as simple commands such as [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), and [AppBarSeparator](appbarseparator.md) controls.
+Use a CommandBar to provide users with quick access to your app's most common tasks. It's a general-purpose, flexible, light-weight control that can display both complex content, such as images, progress bars, or text blocks, as well as simple commands such as [AppBarButton](appbarbutton.md), [AppBarToggleButton](appbartogglebutton.md), and [AppBarSeparator](appbarseparator.md) controls.
 
 ### Anatomy
 
-By default, the CommandBar shows a row of icon buttons and a "More" button, which is represented by an ellipsis [•••]. Here's the CommandBar created by the example code shown later. It's shown in its default closed state.
+By default, the CommandBar shows a row of icon buttons and a "More" button, which is represented by an ellipsis [***]. Here's the CommandBar created by the example code shown later. It's shown in its default closed state.
 
 <img src="images/controls/CommandBar_Compact.png" alt="A compact command bar" />
 
@@ -50,7 +50,7 @@ The CommandBar is divided into 4 main areas:
 
 The layout is reversed when the [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md) is [RightToLeft](../windows.ui.xaml/flowdirection.md).
 
-Assigning an access key to CommandBar will place the key tip over the "More" button without changing the scope of the access keys.
+Assigning an access key to CommandBar will place the keytip over the "More" button without changing the scope of the access keys.
 
 ### Content and commands
 
@@ -64,7 +64,7 @@ The app bar button controls are characterized by an icon and associated label. T
 
 If the width of a button needs to be greater than the default when shown in the [PrimaryCommands](commandbar_primarycommands.md), use the [MinWidth](../windows.ui.xaml/frameworkelement_minwidth.md) property to achieve the desired size. Then, if you later move it to the [SecondaryCommands](commandbar_secondarycommands.md), it will still stretch to fill the width of the overflow menu.
 
-If a text label for an app bar button is too long to fit on one line it will wrap to another line, increasing the overall height of the bar when it’s opened. You can include a soft-hyphen character (0x00AD) in the text for a label to hint at the character boundary where a word break should occur. In XAML, you express this using an escape sequence, like this:
+If a text label for an app bar button is too long to fit on one line it will wrap to another line, increasing the overall height of the bar when it's opened. You can include a soft-hyphen character (0x00AD) in the text for a label to hint at the character boundary where a word break should occur. In XAML, you express this using an escape sequence, like this:
 
 ```xaml
 <AppBarButton Icon="Back" Label="Areally&#x00AD;longlabel"/>
@@ -80,7 +80,7 @@ The CommandBar can be open or closed. A user can switch between these states by 
 
 When open, the primary command buttons are shown with text labels and the overflow menu is open if secondary commands are present. The default overflow menu is styled to be distinct from the bar. You can adjust the styling by setting the [CommandBarOverflowPresenterStyle](commandbar_commandbaroverflowpresenterstyle.md) property to a [Style](../windows.ui.xaml/style.md) that targets the [CommandBarOverflowPresenter](commandbaroverflowpresenter.md).
 
-You can control how the CommandBar is shown in its closed state by setting the [ClosedDisplayMode](appbar_closeddisplaymode.md) property. By default, it’s shown in the **Compact** mode, with content, icons without labels, and the "More" button. You can set the mode to **Minimal** to show only a thin bar that acts as the "More" button. In **Minimal** mode, the user can press anywhere on the bar to open it. Here's how the CommandBar looks in **Minimal** mode.
+You can control how the CommandBar is shown in its closed state by setting the [ClosedDisplayMode](appbar_closeddisplaymode.md) property. By default, it's shown in the **Compact** mode, with content, icons without labels, and the "More" button. You can set the mode to **Minimal** to show only a thin bar that acts as the "More" button. In **Minimal** mode, the user can press anywhere on the bar to open it. Here's how the CommandBar looks in **Minimal** mode.
 
 <img src="images/controls/CommandBar_Minimal.png" alt="A minimal command bar" />
 
