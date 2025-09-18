@@ -20,7 +20,7 @@ This method throws an exception if the app doesn't have location permissions or 
 
 This method times out after 60 seconds, except when in Connected Standby. During Connected Standby, [Geolocator](geolocator.md) objects can be instantiated but the [Geolocator](geolocator.md) object will not find any sensors to aggregate and calls to GetGeopositionAsync will time out after 7 seconds. Upon time out, the [StatusChanged](geolocator_statuschanged.md) event listeners will be called once with the **NoData** status, and the [PositionChanged](geolocator_positionchanged.md) event listeners will never be called.
 
-The user sets the privacy of their location data with the **location privacy settings** in the **Settings** app. Your app can access the user's location only when:
+The user sets the privacy of their location data with the **Location privacy settings** in Windows **Settings**. Your app can access the user's location only when:
 + **Location for this device...** is turned **on** (not applicable to Windows 10 Mobile)
 + The location services setting, **Location**, is turned **on**
 + Under **Choose apps that can use your location**, your app is set to **on**

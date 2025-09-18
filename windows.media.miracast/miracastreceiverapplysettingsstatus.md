@@ -50,7 +50,7 @@ The operation failed because the app is not allowed to change the settings.
 ## -remarks
 
 Store apps must declare the **PrivateNetworkClientServer** capability in their app manifest in order to be allowed to change the Miracast settings. If the capability is missing, it results in an *AccessDenied* status value.
-If Miracast has been enabled by the system, such as through the Settings app, other apps are not allowed to change the settings, and attempts to do so will result in the *AccessDenied* status value.
+If Miracast has been enabled by the system, such as through Windows Settings, other apps are not allowed to change the settings, and attempts to do so will result in the *AccessDenied* status value.
 
 ## -see-also
 

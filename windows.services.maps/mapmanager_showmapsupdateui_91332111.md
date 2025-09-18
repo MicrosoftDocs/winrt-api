@@ -18,4 +18,4 @@ See the remarks section of the [ShowDownloadedMapsUI](mapmanager_showdownloadedm
 ## -examples
 
 ## -see-also
-[Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app)
+[Launch Windows Settings](/windows/apps/develop/launch/launch-settings)
