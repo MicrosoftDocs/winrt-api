@@ -15,6 +15,8 @@ public class NetworkInformation
 Provides access to network connection information for the local machine.
 
 ## -remarks
+For examples of how `NetworkInformation` class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
+
 Use this class to:
 
 1. Query the current internet connection profile (`GetInternetConnectionProfile`).
