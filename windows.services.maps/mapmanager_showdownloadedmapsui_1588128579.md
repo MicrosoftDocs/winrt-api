@@ -19,4 +19,4 @@ Displays the UI that lets users download maps for offline use.
 ## -examples
 
 ## -see-also
-[Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app)
+[Launch Windows Settings](/windows/apps/develop/launch/launch-settings)

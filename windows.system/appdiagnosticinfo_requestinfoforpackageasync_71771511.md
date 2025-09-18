@@ -20,7 +20,7 @@ The identifier of the app package for which to get the [AppDiagnosticInfo](appdi
 A collection of [AppDiagnosticInfo](appdiagnosticinfo.md) objects for all instances of the app package specified by *packageFamilyName*. 
 
 ## -remarks
-If you call this method for the current app package, there is no capability check. Calling the method for any other package requires user consent, which defaults to denied. Users can provide consent in the Settings app. An app can request consent programmatically by calling [AppDiagnosticInfo.RequestAccessAsync](appdiagnosticinfo_requestaccessasync_380675631.md). 
+If you call this method for the current app package, there is no capability check. Calling the method for any other package requires user consent, which defaults to denied. Users can provide consent in Windows Settings. An app can request consent programmatically by calling [AppDiagnosticInfo.RequestAccessAsync](appdiagnosticinfo_requestaccessasync_380675631.md).
 
 ## -see-also
 

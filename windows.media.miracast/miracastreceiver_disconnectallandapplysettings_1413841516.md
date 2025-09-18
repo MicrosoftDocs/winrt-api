@@ -27,10 +27,7 @@ A [MiracastReceiverApplySettingsResult](miracastreceiverapplysettingsresult.md) 
 
 Because this method may block for a noticeable period of time, you should not call it from the UI thread or from a single-threaded apartment. Instead, use the asyncronous method [DisconnectAllAndApplySettingsAsync](miracastreceiver_disconnectallandapplysettingsasync_404771925.md).
 
-Check the [MiracastReceiverApplySettingsResult](miracastreceiverapplysettingsresult.md) return parameter to confirm that the settings were
-successfully applied. If Miracast has been enabled by the operating system, such as through the Settings app,
-changes to the settings will not be allowed and the **MiracastReceiverApplySettingsResult** return value will 
-indicate that access was denied.
+Check the [MiracastReceiverApplySettingsResult](miracastreceiverapplysettingsresult.md) return parameter to confirm that the settings were successfully applied. If Miracast has been enabled by the operating system, such as through Windows Settings, changes to the settings will not be allowed and the **MiracastReceiverApplySettingsResult** return value will indicate that access was denied.
 
 ## -see-also
 

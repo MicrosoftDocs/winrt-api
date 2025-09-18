@@ -17,7 +17,7 @@ Provides the ability to manage the waking behavior of the PC screen based on whe
 
 **Introduced in the May Moment update for Windows 11, Version 22H2, Build 22621.**
 
-The user can specify their preferred wake behavior in the System settings (see [Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app#system)).
+The user can specify their preferred wake behavior in the System settings (see [Launch Windows Settings](/windows/apps/develop/launch/launch-settings#system)).
 
 ## -see-also
 
