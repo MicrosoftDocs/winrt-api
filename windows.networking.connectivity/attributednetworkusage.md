@@ -1,7 +1,7 @@
 ---
--api-id: T:Windows.Networking.Connectivity.AttributedNetworkUsage
--api-type: winrt class
--api-device-family-note: xbox
+- api-id: T:Windows.Networking.Connectivity.AttributedNetworkUsage
+- api-type: winrt class
+- api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -18,7 +18,7 @@ Instances are produced by calling [ConnectionProfile](connectionprofile.md).[Get
 
 Behavioral clarifications:
 
-* `AttributionId` identifies the app or logical bucket; system / service traffic can appear under an aggregated identifier.
+* AttributionId identifies the app or logical bucket; system / service traffic can appear under an aggregated identifier.
 * Byte counts are aggregated over the interval used in the originating query and represent estimates (not real‑time counters).
 * Some buckets may report only sent or only received traffic depending on activity; zero values are valid.
 * Absence of an expected attribution ID in a given interval does not imply uninstall—only that no usage was recorded during that window.

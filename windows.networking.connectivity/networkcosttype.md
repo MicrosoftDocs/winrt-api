@@ -7,10 +7,10 @@
 public enum Windows.Networking.Connectivity.NetworkCostType : int
 -->
 
-# NetworkCostType
+# Windows.Networking.Connectivity.NetworkCostType
 
 ## -description
-Defines the network cost types.
+Defines values for cost limits on a network connection.
 
 ## -enum-fields
 ### -field Unknown:0
@@ -27,29 +27,35 @@ The connection is costed on a per-byte basis.
 
 
 ## -remarks
-Use `NetworkCostType` together with `ConnectionCost` boolean flags (`Roaming`, `OverDataLimit`, `ApproachingDataLimit`, `BackgroundDataUsageRestricted`) to decide whether to:
+Use ConnectionProfile.GetConnectionCost to obtain the ConnectionCost object and inspect its properties (NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit) before deciding how aggressively to transfer data.
 
-* Delay or throttle large background transfers (`Fixed` or `Variable`).
-* Provide UI to the user before streaming HD media when not `Unrestricted`.
-* Automatically pause sync if `OverDataLimit`.
+Scenario guidance:
 
-Decision example (C#):
+1. If NetworkCostType is Unrestricted you can perform full‑fidelity sync operations. Still check Roaming to respect user metering preferences when on certain enterprise or roaming scenarios that may not strictly enforce cost.
+2. If NetworkCostType is Fixed set conservative background transfer sizes and respect MaxTransferSizeInMegabytes if provided via the associated DataPlanStatus.
+3. If NetworkCostType is Variable treat the connection similarly to a fixed cost near its limit: batch opportunistically and provide user controls to defer high‑volume tasks.
+4. Always gate large downloads on Roaming == false and OverDataLimit == false to avoid surprise charges.
+5. For real‑time streaming, adapt bitrate based on NetworkCostType and remaining quota (if available) rather than hard disabling features.
+
+Decision pseudo‑logic:
 
 ```csharp
-var profile = NetworkInformation.GetInternetConnectionProfile();
-var cost = profile?.GetConnectionCost();
-bool allowLargeTransfer = false;
-if (cost != null)
+var cost = profile.GetConnectionCost();
+if (cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming)
 {
-	allowLargeTransfer = cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming && !cost.OverDataLimit;
+    EnableHighBandwidthFeatures();
+}
+else
+{
+    EnterConservativeMode();
+    if (cost.OverDataLimit || cost.Roaming)
+    {
+        SuspendBackgroundVideo();
+    }
 }
 ```
-
-Classic desktop components might query NLM / DUSM directly, but WinRT apps should rely on these abstractions. For samples that illustrate reacting to cost changes, see the Network Cost (DUSM) classic sample and the UWP connectivity sample.
-
-For additional scenario guidance, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
+ConnectionProfile.GetConnectionCost, [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md)

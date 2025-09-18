@@ -1,6 +1,6 @@
 ---
--api-id: M:Windows.Networking.Connectivity.ConnectionProfile.GetAttributedNetworkUsageAsync(Windows.Foundation.DateTime,Windows.Foundation.DateTime,Windows.Networking.Connectivity.NetworkUsageStates)
--api-type: winrt method
+- api-id: M:Windows.Networking.Connectivity.ConnectionProfile.GetAttributedNetworkUsageAsync(Windows.Foundation.DateTime,Windows.Foundation.DateTime,Windows.Networking.Connectivity.NetworkUsageStates)
+- api-type: winrt method
 ---
 
 <!-- Method syntax

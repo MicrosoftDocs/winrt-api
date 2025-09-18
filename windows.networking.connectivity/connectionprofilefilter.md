@@ -10,74 +10,61 @@ public class ConnectionProfileFilter : Windows.Networking.Connectivity.IConnecti
 # Windows.Networking.Connectivity.ConnectionProfileFilter
 
 ## -description
-The ConnectionProfileFilter class defines a set of properties that are used to improve the relevance of [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) results.
-
-At least one property must be set; an empty filter is ignored and yields no filtering effect.
+Represents the desired criteria for a connection profile. The filter is used to generate a list of [ConnectionProfile](connectionprofile.md) objects.
 
 ## -remarks
+Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the current profile returned by NetworkInformation.GetInternetConnectionProfile.
 
 Usage guidance:
 
-Create a filter with only the predicates you actually need; unspecified properties are treated as wildcards. At least one property must be set or the filter is ignored.
+1. Start with the minimal set of properties. Many filters (for example IsWlanConnectionProfile and IsWwanConnectionProfile) are mutually exclusive or naturally reduce the result set to zero if over-constrained.
+2. Use the PurposeGuid only when you know the target scenario (for example a VPN or specific provisioned profile) and have obtained the GUID from policy or management infrastructure. An incorrect GUID will silently yield no matches.
+3. Combine NetworkCostType and NetworkConnectivityLevel constraints only if you must; connectivity state can vary frequently (especially on mobile / metered connections) and may cause races if evaluated before connection stabilization.
+4. If you need usage data after filtering, enumerate the resulting profiles and then call GetNetworkUsageAsync on each rather than attempting to predict usage characteristics from filter inputs.
+5. Prefer using IsWlanConnectionProfile or IsWwanConnectionProfile over examining the profile name string to determine access technology.
 
-Common patterns:
+Common pitfalls:
 
-* Enumerate only currently connected WLAN profiles.
-* Find WWAN profiles that are roaming or metered.
-* Select profiles with a specific purpose identifier (`PurposeGuid`).
+* Setting both IsWlanConnectionProfile and IsWwanConnectionProfile to true expecting a union results in no profiles (they are treated as AND conditions). Leave both false for "any technology".
+* Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
+* Setting multiple cost related constraints (for example NetworkCostType plus Roaming or OverDataLimit states) can lead to brittle logic—query the profile's ConnectionCost after selection instead.
 
-Best practices:
-
-* Do not set mutually exclusive booleans (for example, `IsWlanConnectionProfile` and `IsWwanConnectionProfile`) to true simultaneously; this will always return zero results.
-* Avoid over‑filtering: start broad (e.g., connected + WLAN) then refine using properties on returned `ConnectionProfile` objects.
-* Re‑issue the query after a `NetworkInformation.NetworkStatusChanged` event rather than caching earlier results.
-* `PurposeGuid` is for advanced scenarios (OEM / enterprise provisioning). Only specify it when you know the provisioning GUID.
-
-Examples:
-
-Filter for connected Wi‑Fi profiles (C#):
+Example (C#):
 
 ```csharp
-var filter = new ConnectionProfileFilter
+var filter = new Windows.Networking.Connectivity.ConnectionProfileFilter
 {
-	IsConnected = true,
-	IsWlanConnectionProfile = true
+    IsWlanConnectionProfile = true,
+    NetworkCostType = Windows.Networking.Connectivity.NetworkCostType.Unrestricted
 };
-var wifiProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
+
+var profiles = await Windows.Networking.Connectivity.NetworkInformation.FindConnectionProfilesAsync(filter);
 ```
 
-Filter for roaming WWAN profiles with cost awareness (C++/WinRT):
+### Selecting a cellular profile with minimum connectivity level
 
-```cpp
-ConnectionProfileFilter filter;
-filter.IsWwanConnectionProfile(true);
-filter.IsConnected(true);
-// 'IsRoaming' property is on ConnectionCost, so filter first then inspect.
-auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
-for (auto const& p : profiles)
+```csharp
+var filter = new Windows.Networking.Connectivity.ConnectionProfileFilter
 {
-	auto cost = p.GetConnectionCost();
-	if (cost.Roaming())
-	{
-		// Handle roaming profile
-	}
+    IsWwanConnectionProfile = true,
+    NetworkConnectivityLevel = Windows.Networking.Connectivity.NetworkConnectivityLevel.InternetAccess
+};
+
+var cellularProfiles = await Windows.Networking.Connectivity.NetworkInformation.FindConnectionProfilesAsync(filter);
+```
+
+After filtering, validate cost:
+
+```csharp
+foreach (var p in cellularProfiles)
+{
+    var cost = p.GetConnectionCost();
+    if (cost.Roaming) { /* adjust behavior */ }
 }
 ```
 
-### Version history
-
-| Windows version | SDK version | Value added |
-| -- | -- | -- |
-| 1803 | 17134 | PurposeGuid |
-
 ## -examples
-Find profiles matching a provisioning purpose (C#):
-
-```csharp
-Guid purpose = /* known provisioning GUID */;
-var filter = new ConnectionProfileFilter { PurposeGuid = purpose };
-var matches = await NetworkInformation.FindConnectionProfilesAsync(filter);
-```
+(See code snippets above.)
 
 ## -see-also
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+[ConnectionProfile](connectionprofile.md), NetworkInformation.FindConnectionProfilesAsync

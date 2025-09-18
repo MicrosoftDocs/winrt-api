@@ -1,7 +1,7 @@
 ---
--api-id: T:Windows.Networking.Connectivity.NetworkInformation
--api-type: winrt class
--api-device-family-note: xbox
+- api-id: T:Windows.Networking.Connectivity.NetworkInformation
+- api-type: winrt class
+- api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -12,23 +12,23 @@ public class NetworkInformation
 
 ## -description
 
-Provides access to network connection information for the local machine. This is a static (non-instantiable) class; you never create a `NetworkInformation` object. Instead you call its static members to obtain connectivity state:
+Provides access to network connection information for the local machine. This is a static (non-instantiable) class; you never create a NetworkInformation object. Instead you call its static members to obtain connectivity state:
 
-* Call `NetworkInformation.GetInternetConnectionProfile()` to get the current active connection profile (may return null if offline).
-* Call `NetworkInformation.FindConnectionProfilesAsync(filter)` with a `ConnectionProfileFilter` to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
-* Subscribe to the `NetworkInformation.NetworkStatusChanged` event to be notified when connectivity changes instead of polling.
+* Call NetworkInformation.GetInternetConnectionProfile() to get the current active connection profile (may return null if offline).
+* Call NetworkInformation.FindConnectionProfilesAsync(filter) with a ConnectionProfileFilter to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
+* Subscribe to the NetworkInformation.NetworkStatusChanged event to be notified when connectivity changes instead of polling.
 
-The returned `ConnectionProfile` instances expose cost, data plan, adapter, and technology‑specific detail objects (`WlanConnectionProfileDetails`, `WwanConnectionProfileDetails`). Always re‑query inside the status changed event handler because previously cached profile objects are not live‑updating.
+The returned ConnectionProfile instances expose cost, data plan, adapter, and technology‑specific detail objects (WlanConnectionProfileDetails, WwanConnectionProfileDetails). Always re‑query inside the status changed event handler because previously cached profile objects are not live‑updating.
 
 ## -remarks
-For examples of how `NetworkInformation` class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
+For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
 
 Use this class to:
 
-1. Query the current internet connection profile (`GetInternetConnectionProfile`).
-2. Enumerate all connection profiles that match specific criteria (`FindConnectionProfilesAsync` with `ConnectionProfileFilter`).
-3. Listen for network status changes (the `NetworkStatusChanged` event) instead of polling.
-4. Retrieve LAN/WLAN/WWAN specific details (for example, `WlanConnectionProfileDetails`, `WwanConnectionProfileDetails`).
+1. Query the current internet connection profile (GetInternetConnectionProfile).
+2. Enumerate all connection profiles that match specific criteria (FindConnectionProfilesAsync with ConnectionProfileFilter).
+3. Listen for network status changes (the NetworkStatusChanged event) instead of polling.
+4. Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
 5. Obtain localized names or signal / data plan information through the associated profile objects.
 
 Event subscription pattern (C#):
@@ -52,9 +52,9 @@ NetworkInformation.NetworkStatusChanged += handler;
 
 Important guidance:
 
-* Always re‑query `GetInternetConnectionProfile()` inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
+* Always re‑query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
-* If your scenario depends on cost awareness (metered vs unrestricted), query `connectionCost = profile?.GetConnectionCost()` and check `connectionCost.NetworkCostType` before large background transfers.
+* If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
 
 Filtering examples:
@@ -68,11 +68,10 @@ var filter = new ConnectionProfileFilter
 var wifiProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
 ```
 
-Related classic (Win32) technologies include Network List Manager (NLM / `INetworkListManager`) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer `NetworkInformation` and `ConnectionProfile` over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
+Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
 
 For broader scenario guidance, see:
 
-* [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10))
 * Network connectivity UWP sample (linked below)
 * Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
 

@@ -1,7 +1,6 @@
 ---
 -api-id: T:Windows.Networking.Connectivity.DataPlanStatus
 -api-type: winrt class
--api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -11,55 +10,54 @@ public class DataPlanStatus : Windows.Networking.Connectivity.IDataPlanStatus
 # Windows.Networking.Connectivity.DataPlanStatus
 
 ## -description
-Represents the current status information for the data plan associated with a connection.
+Represents the current status of a network data plan.
 
 ## -remarks
-Use this object (obtained from `ConnectionProfile.GetDataPlanStatus()`) to adapt behavior based on provisioning / quota information, for example:
+Obtain an instance using ConnectionProfile.GetDataPlanStatus on a profile returned by NetworkInformation.GetInternetConnectionProfile or FindConnectionProfilesAsync.
 
-* Defer large background sync if `DataPlanUsage` is near `DataLimitInMegabytes`.
-* Show remaining quota to the user using `DataLimitInMegabytes - DataPlanUsage.MegabytesUsed` (when both present).
-* Reduce media quality when approaching limit or when `MaxTransferSizeInMegabytes` is low.
-* Anticipate quota reset by checking `NextBillingCycle`.
+Usage guidance:
 
-Properties can be null / unspecified depending on the operator or connection type; always null‑check before using values.
+1. Always null‑check the returned DataPlanStatus. Some profiles do not expose plan information (for example unmanaged Wi‑Fi hotspots) and will return null.
+2. DataPlanUsage and DataLimitInMegabytes should be interpreted together. If DataLimitInMegabytes is null you cannot enforce a hard cap based solely on usage trends.
+3. MaxTransferSizeInMegabytes indicates the largest recommended chunk for a single network transfer to avoid excessive metered charges. Respect this when designing background sync logic that can batch work.
+4. NextBillingCycle can be null; when present it allows you to compute remaining quota windows. Avoid assuming month boundaries—operators can define custom cycles.
+5. If you are implementing quota warnings, use both usage percentage and time remaining in the cycle to avoid overly aggressive throttling early in the period.
 
 Example (C#):
 
 ```csharp
-var profile = NetworkInformation.GetInternetConnectionProfile();
+var profile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
 var status = profile?.GetDataPlanStatus();
-if (status?.DataPlanUsage != null && status.DataLimitInMegabytes != null)
+if (status?.DataPlanUsage != null && status.DataLimitInMegabytes.HasValue)
 {
-	var remaining = status.DataLimitInMegabytes.Value - status.DataPlanUsage.MegabytesUsed;
-	if (remaining < 200) // threshold
-	{
-		// Warn user or throttle background operations
-	}
+    var used = status.DataPlanUsage.MegabytesUsed;
+    var limit = status.DataLimitInMegabytes.Value;
+    double pct = (double)used / limit;
+    if (pct > 0.8)
+    {
+        // Enter reduced bandwidth mode.
+    }
 }
 ```
 
 Example (C++/WinRT):
 
 ```cpp
-auto profile = NetworkInformation::GetInternetConnectionProfile();
-if (profile)
+auto profile = Windows::Networking::Connectivity::NetworkInformation::GetInternetConnectionProfile();
+auto status = profile ? profile.GetDataPlanStatus() : nullptr;
+if (status && status.DataPlanUsage() && status.DataLimitInMegabytes())
 {
-	auto status = profile.GetDataPlanStatus();
-	if (status && status.DataPlanUsage())
-	{
-		auto usage = status.DataPlanUsage();
-		if (status.DataLimitInMegabytes())
-		{
-			auto remaining = status.DataLimitInMegabytes().Value() - usage.MegabytesUsed();
-			if (remaining < 200) { /* warn */ }
-		}
-	}
+    auto used = status.DataPlanUsage().MegabytesUsed();
+    auto limit = status.DataLimitInMegabytes().Value();
+    double pct = static_cast<double>(used) / limit;
+    if (pct > 0.8) {
+        // Enter reduced bandwidth mode
+    }
 }
 ```
 
-For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
-
 ## -examples
+(See usage guidance examples.)
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
+[ConnectionProfile](connectionprofile.md), NetworkInformation.GetInternetConnectionProfile, ConnectionProfile.GetConnectionCost
