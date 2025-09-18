@@ -12,7 +12,13 @@ public class NetworkInformation
 
 ## -description
 
-Provides access to network connection information for the local machine.
+Provides access to network connection information for the local machine. This is a static (non-instantiable) class; you never create a `NetworkInformation` object. Instead you call its static members to obtain connectivity state:
+
+* Call `NetworkInformation.GetInternetConnectionProfile()` to get the current active connection profile (may return null if offline).
+* Call `NetworkInformation.FindConnectionProfilesAsync(filter)` with a `ConnectionProfileFilter` to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
+* Subscribe to the `NetworkInformation.NetworkStatusChanged` event to be notified when connectivity changes instead of polling.
+
+The returned `ConnectionProfile` instances expose cost, data plan, adapter, and technology‑specific detail objects (`WlanConnectionProfileDetails`, `WwanConnectionProfileDetails`). Always re‑query inside the status changed event handler because previously cached profile objects are not live‑updating.
 
 ## -remarks
 For examples of how `NetworkInformation` class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).

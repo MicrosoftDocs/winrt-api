@@ -14,7 +14,7 @@ public class AttributedNetworkUsage : Windows.Networking.Connectivity.IAttribute
 Provides access to property values containing information on current usage of the attributed network connection.
 
 ## -remarks
-Instances are produced by calling `ConnectionProfile.GetAttributedNetworkUsageAsync` for a specified time window.
+Instances are produced by calling [ConnectionProfile](connectionprofile.md).[GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md) for a specified time window.
 
 Behavioral clarifications:
 
