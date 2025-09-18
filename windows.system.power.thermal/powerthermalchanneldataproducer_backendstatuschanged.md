@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler<Windows.System.Power.Thermal.P
 
 ## -description
 
+Raised when the backend status of a channel data producer changes, such as when the backend starts or stops.
+
 ## -remarks
 
 ## -see-also

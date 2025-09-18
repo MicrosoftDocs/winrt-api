@@ -12,6 +12,8 @@ public void Start ();
 
 ## -description
 
+Starts the producer so it begins accepting and publishing channel data.
+
 ## -remarks
 
 ## -see-also

@@ -12,6 +12,8 @@ public void Stop ();
 
 ## -description
 
+Stops the producer from publishing channel data until it is started again.
+
 ## -remarks
 
 ## -see-also

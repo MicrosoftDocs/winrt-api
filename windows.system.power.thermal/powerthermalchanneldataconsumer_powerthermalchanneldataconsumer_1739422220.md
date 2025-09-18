@@ -9,12 +9,15 @@
 public PowerThermalChannelDataConsumer (Windows.System.Power.Thermal.PowerThermalChannelId[] channelIds);
 -->
 
-
 ## -description
+
+Initializes a PowerThermalChannelDataConsumer for the specified channel identifiers.
 
 ## -parameters
 
 ### -param channelIds
+
+An array of [PowerThermalChannelId](./powerthermalchannelid.md) values indicating which channels the consumer should subscribe to.
 
 ## -remarks
 

@@ -12,11 +12,17 @@ public static Windows.System.Power.Thermal.PowerThermalChannelId[] FindChannels 
 
 ## -description
 
+Searches the system for available power/thermal channels that match the specified interface type.
+
 ## -parameters
 
 ### -param channelInterfaceType
 
+A Guid that identifies the channel interface type to search for.
+
 ## -returns
+
+An array of [PowerThermalChannelId](./powerthermalchannelid.md) values for channels that match the provided interface type.
 
 ## -remarks
 

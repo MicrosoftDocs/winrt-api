@@ -12,7 +12,11 @@ public Windows.System.Power.Thermal.PowerThermalChannelData[] GetData ();
 
 ## -description
 
+Retrieves the array of PowerThermalChannelData samples carried by the event.
+
 ## -returns
+
+An array of [PowerThermalChannelData](./powerthermalchanneldata.md) structures representing the data included in the event.
 
 ## -remarks
 

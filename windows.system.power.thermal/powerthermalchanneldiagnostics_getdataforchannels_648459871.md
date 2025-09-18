@@ -12,11 +12,17 @@ public static Windows.System.Power.Thermal.PowerThermalChannelData[] GetDataForC
 
 ## -description
 
+Retrieves diagnostic data samples for the specified channels.
+
 ## -parameters
 
 ### -param channelIds
 
+An array of [PowerThermalChannelId](./powerthermalchannelid.md) values specifying which channels to query.
+
 ## -returns
+
+An array of [PowerThermalChannelData](./powerthermalchanneldata.md) structures containing diagnostic data for the requested channels.
 
 ## -remarks
 

@@ -12,7 +12,11 @@ public static Windows.System.Power.Thermal.PowerThermalChannelDiagnostics Curren
 
 ## -description
 
+Gets the singleton diagnostics object for querying current channel metrics and health.
+
 ## -property-value
+
+A [PowerThermalChannelDiagnostics](./powerthermalchanneldiagnostics.md) instance that provides access to diagnostic APIs.
 
 ## -remarks
 

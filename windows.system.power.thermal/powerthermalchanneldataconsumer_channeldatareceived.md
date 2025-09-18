@@ -12,6 +12,8 @@ public event Windows.Foundation.TypedEventHandler<Windows.System.Power.Thermal.P
 
 ## -description
 
+Raised when the channel data consumer receives new power/thermal channel samples; handlers receive event args containing the data.
+
 ## -remarks
 
 ## -see-also

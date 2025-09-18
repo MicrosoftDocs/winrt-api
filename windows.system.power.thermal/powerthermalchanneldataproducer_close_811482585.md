@@ -12,6 +12,8 @@
 
 ## -description
 
+Closes the channel data producer and releases any resources it holds.
+
 ## -remarks
 
 ## -see-also

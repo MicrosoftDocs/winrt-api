@@ -12,6 +12,8 @@
 
 ## -description
 
+Closes the channel data consumer and releases any resources associated with it.
+
 ## -remarks
 
 ## -see-also

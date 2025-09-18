@@ -12,7 +12,11 @@ public System.Collections.Generic.IReadOnlyDictionary<Windows.System.Power.Therm
 
 ## -description
 
+Returns the map of available channel identifiers to their configurations that the consumer can access.
+
 ## -returns
+
+A read-only dictionary mapping [PowerThermalChannelId](./powerthermalchannelid.md) to [PowerThermalChannelConfiguration](./powerthermalchannelconfiguration.md).
 
 ## -remarks
 

@@ -9,8 +9,9 @@
 public static class PowerThermalChannelFinder
 -->
 
-
 ## -description
+
+Provides helper APIs to locate power/thermal channels exposed by the system.
 
 ## -remarks
 
