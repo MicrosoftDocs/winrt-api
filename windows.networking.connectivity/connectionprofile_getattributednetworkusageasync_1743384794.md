@@ -29,14 +29,12 @@ When the method completes, it returns a list of [AttributedNetworkUsage](attribu
 ## -examples
 This method returns per‑application (or attribution bucket) usage over the specified window.
 
-Behavioral notes:
+Usage considerations:
 
-* An empty list is a valid outcome (no recorded usage in the interval or provider not available).
-* Attribution identifiers may represent apps, system buckets, or aggregated service usage. System / service usage may be combined when detailed separation is not available.
-* Time boundaries and partial final intervals follow the same rules as `GetNetworkUsageAsync`.
-* Data is subject to accounting latency and should not be used for real‑time enforcement.
-* Filtering via `NetworkUsageStates` should be applied sparingly; over‑constraining (e.g., forcing a roaming state) can hide legitimate usage.
-* Do not assume stability of attribution identifiers across device resets or provisioning changes.
+* Empty result: Valid when no usage is recorded or attribution data is unavailable.
+* Time window: Partial final interval handling matches GetNetworkUsageAsync.
+* Filtering: Over‑restricting NetworkUsageStates (for example forcing a roaming state) can hide legitimate usage.
+* Stability: Attribution identifiers can change across resets or provisioning changes; avoid treating them as permanent keys.
 
 ## -see-also
 

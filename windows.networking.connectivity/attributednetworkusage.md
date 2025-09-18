@@ -16,13 +16,13 @@ Provides access to property values containing information on current usage of th
 ## -remarks
 Instances are produced by calling [ConnectionProfile](connectionprofile.md).[GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md) for a specified time window.
 
-Behavioral clarifications:
+Usage considerations:
 
-* AttributionId identifies the app or logical bucket; system / service traffic can appear under an aggregated identifier.
-* Byte counts are aggregated over the interval used in the originating query and represent estimates (not real‑time counters).
-* Some buckets may report only sent or only received traffic depending on activity; zero values are valid.
-* Absence of an expected attribution ID in a given interval does not imply uninstall—only that no usage was recorded during that window.
-* Do not cache instances long term; re‑query to reflect new usage.
+* Identity: AttributionId may map to an app, a system bucket, or an aggregated service bucket.
+* Coverage: Some buckets can show only sent or only received bytes; zero values are valid.
+* Accounting: Values are aggregated for the requested window and reflect provider accounting latency (not real‑time counters).
+* Lifetime: Re‑query when you need fresh usage instead of holding instances long term.
+* Absence: Missing an expected identifier for a window means no recorded usage in that interval, not necessarily uninstall.
 
 ## -examples
 

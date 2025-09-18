@@ -15,13 +15,13 @@ Represents network usage statistics returned by the [ConnectionProfile](connecti
 ## -remarks
 Each `NetworkUsage` entry represents aggregated usage over a contiguous interval defined by the granularity supplied to `ConnectionProfile.GetNetworkUsageAsync`.
 
-Behavioral notes:
+Usage considerations:
 
-* Entries are returned in chronological order.
-* If the requested time span is not an exact multiple of the granularity, the final entry may represent a shorter, partial interval.
-* Intervals with zero traffic may still appear (depending on provider data), but callers should not rely on explicitly receiving every possible quiet interval.
-* Reported byte counts are estimates with accounting latency; they should not be used for real‑time throttling at sub‑minute precision.
-* Always treat an empty result set from `GetNetworkUsageAsync` as “no data for that window” rather than a failure; the underlying provider may not have records yet.
+* Sequence: Entries are chronological; the last entry may be a partial interval if the span does not align with the granularity.
+* Sparsity: Zero‑traffic intervals might be omitted depending on provider data—do not assume a perfectly dense series.
+* Estimation: Byte counts reflect accounting latency; avoid sub‑minute enforcement decisions.
+* Empty list: Interpret as “no data recorded” for the window, not an error; retry later or widen the interval as needed.
+* Aggregation: Sum BytesSent and BytesReceived (use 64‑bit arithmetic) across entries for totals; discard large raw lists once summarized.
 
 
 ## -examples
