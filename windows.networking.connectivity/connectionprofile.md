@@ -89,6 +89,10 @@ Performance tips:
 
 Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly; the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
 
+Domain authentication:
+
+Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re‑query after network status change events rather than caching earlier results because authentication state can change with network transitions.
+
 For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
 
 ### Version history
@@ -134,6 +138,21 @@ IAsyncAction LogAttributedUsage(ConnectionProfile const& profile)
      {
           auto total = u.BytesSent() + u.BytesReceived();
           // u.AttributionId() identifies the bucket
+     }
+}
+```
+
+Check domain authentication mechanism (C#):
+
+```csharp
+var profile = NetworkInformation.GetInternetConnectionProfile();
+if (profile != null)
+{
+     bool ldap = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap);
+     bool tls  = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls);
+     if (ldap || tls)
+     {
+          // Enable enterprise-only resources; optionally branch on ldap vs tls
      }
 }
 ```

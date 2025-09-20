@@ -30,8 +30,30 @@ Specifies the domain authentication method for an Active Directory network; and/
 Specifies the Transport Layer Security (TLS) domain authentication method; and/or that the network connection was able to successfully complete a HTTPS connection with verified TLS authentication to an endpoint configured by the `AllowedTlsAuthenticationEndpoints` Mobile Device Management (MDM) policy.
 
 ## -remarks
+Use this enumeration to identify the mechanism (if any) that established enterprise domain authentication for a `ConnectionProfile`.
+
+Key points:
+
+* Exclusivity: Only one non-`None` value is active at a time. If both LDAP (Active Directory) and TLS trust conditions are satisfied, LDAP takes precedence.
+* Evolution: TLS-based domain authentication enables Azure AD–joined or MDM-managed devices to recognize corporate networks without requiring traditional LDAP reachability.
+* Policy dependency: The `Tls` value depends on an MDM policy that defines allowed TLS authentication endpoints. If that policy is absent or misconfigured, `Tls` will remain unused.
+* Diagnostic flow: Query `IsDomainAuthenticatedBy(Ldap)` and, if false, optionally query `IsDomainAuthenticatedBy(Tls)` before concluding the device is not domain authenticated.
+* Negative form: Treat `IsDomainAuthenticatedBy(None)` as a precise statement that no recognized enterprise domain authentication mechanism has succeeded for the profile.
+
+Scenarios:
+
+* Conditional enterprise features (enable when LDAP or TLS is present).
+* UI indicators distinguishing classic (LDAP) vs modern (TLS) trust.
+* Telemetry to monitor rollout of TLS-based trust in mixed environments.
+
+Best practices:
+
+* Always re-query on network status change events; do not assume stability across roam / resume.
+* Implement timeouts or retries after resume since authentication may lag physical connectivity.
+* Log both the enum value and network identifier (e.g., ProfileName) for support diagnostics.
 
 ## -see-also
 [ConnectionProfile.IsDomainAuthenticatedBy method](connectionprofile_isdomainauthenticatedby_590452087.md)
+[ConnectionProfile](connectionprofile.md)
 
 ## -examples
