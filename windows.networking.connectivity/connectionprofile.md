@@ -53,11 +53,6 @@ if (profile != null)
 Enumerate usage over last hour (C++/WinRT):
 
 ```cpp
-#include <winrt/Windows.Foundation.h>
-#include <winrt/Windows.Foundation.Collections.h>
-#include <winrt/Windows.Networking.Connectivity.h>
-using namespace winrt; using namespace Windows::Foundation; using namespace Windows::Networking::Connectivity;
-
 IAsyncAction LogUsage(ConnectionProfile const& profile)
 {
      auto endTime = DateTime::clock::now();
@@ -77,12 +72,12 @@ C++/WinRT helper to log cost state:
 ```cpp
 void LogCost(ConnectionProfile const& profile)
 {
-          if (!profile) return;
-          auto cost = profile.GetConnectionCost();
-          // Example logging; replace with your telemetry mechanism
-          // (Pseudo logging macro) LOG_INFO << L"CostType=" << to_underlying(cost.NetworkCostType())
-          //           << L" roaming=" << cost.Roaming()
-          //           << L" overLimit=" << cost.OverDataLimit();
+     if (!profile) return;
+     auto cost = profile.GetConnectionCost();
+     // Example logging; replace with your telemetry mechanism
+     // (Pseudo logging macro) LOG_INFO << L"CostType=" << to_underlying(cost.NetworkCostType())
+     //           << L" roaming=" << cost.Roaming()
+     //           << L" overLimit=" << cost.OverDataLimit();
 }
 ```
 
@@ -122,8 +117,25 @@ foreach (var p in profiles)
 Query attributed usage for a specific app (C++/WinRT snippet pattern):
 
 ```cpp
-// Supply an IVectorView<HostName> to GetAttributedNetworkUsageAsync if attributing by host.
-// Example omitted for brevity; see NetworkConnectivity sample for full pattern.
+IAsyncAction LogAttributedUsage(ConnectionProfile const& profile)
+{
+     if (!profile) co_return;
+     auto endTime = clock::now();
+     auto startTime = endTime - std::chrono::minutes(30);
+     NetworkUsageStates states; // no roaming/shared constraints
+
+     // Optional: attribute by a set of host names (e.g., your service endpoints)
+     std::vector<HostName> hosts { HostName{ L"api.contoso.com" }, HostName{ L"cdn.contoso.com" } };
+     auto hostView = single_threaded_vector(std::move(hosts)).GetView();
+
+     // Per-app usage
+     auto appUsages = co_await profile.GetAttributedNetworkUsageAsync(startTime, endTime, states);
+     for (auto const& u : appUsages)
+     {
+          auto total = u.BytesSent() + u.BytesReceived();
+          // u.AttributionId() identifies the bucket
+     }
+}
 ```
 
 ## -see-also

@@ -26,7 +26,7 @@ The state of the connection profile for which usage data should be returned.
 ## -returns
 When the method completes, it returns a list of [AttributedNetworkUsage](attributednetworkusage.md) objects, which indicate the sent and received values, in bytes, and the total amount of time the app was connected during the corresponding time interval.
 
-## -examples
+## -remarks
 This method returns per-application (or attribution bucket) usage over the specified window.
 
 Usage considerations:
@@ -35,6 +35,8 @@ Usage considerations:
 * Time window: Partial final interval handling matches GetNetworkUsageAsync.
 * Filtering: Over-restricting NetworkUsageStates (for example forcing a roaming state) can hide legitimate usage.
 * Stability: Attribution identifiers can change across resets or provisioning changes; avoid treating them as permanent keys.
+
+## -examples
 
 ## -see-also
 

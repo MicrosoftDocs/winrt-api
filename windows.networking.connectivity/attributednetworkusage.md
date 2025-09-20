@@ -19,9 +19,9 @@ Usage considerations:
 
 * Identity: AttributionId may map to an app, a system bucket, or an aggregated service bucket.
 * Coverage: Some buckets can show only sent or only received bytes; zero values are valid.
-* Accounting: Values are aggregated for the requested window and reflect provider accounting latency (not real‑time counters).
-* Lifetime: Re‑query when you need fresh usage instead of holding instances long term.
-* Absence: Missing an expected identifier for a window means no recorded usage in that interval, not necessarily uninstall.
+* Accounting: Values are aggregated for the requested window and reflect provider accounting latency (not real-time counters).
+* Lifetime: Re-query when you need fresh usage instead of holding instances long term.
+* Absence: Missing an expected identifier for a window means no recorded usage in that interval, not necessarily that an app was uninstalled.
 
 ## -examples
 

@@ -25,7 +25,6 @@ The use of this connection is unrestricted up to a specific limit.
 ### -field Variable:3
 The connection is costed on a per-byte basis.
 
-
 ## -remarks
 Use ConnectionProfile.GetConnectionCost to obtain the ConnectionCost object and inspect its properties (NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit) before deciding how aggressively to transfer data.
 

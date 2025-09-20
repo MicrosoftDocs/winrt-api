@@ -38,13 +38,13 @@ using Windows.Networking.Connectivity;
 
 NetworkStatusChangedEventHandler handler = sender =>
 {
-	var profile = NetworkInformation.GetInternetConnectionProfile();
-	var level = profile?.GetNetworkConnectivityLevel();
-	// React only when connectivity allowing Internet access changes
-	if (level == NetworkConnectivityLevel.InternetAccess)
-	{
-		// Safe to (re)try outbound requests
-	}
+    var profile = NetworkInformation.GetInternetConnectionProfile();
+    var level = profile?.GetNetworkConnectivityLevel();
+    // React only when connectivity allowing Internet access changes
+    if (level == NetworkConnectivityLevel.InternetAccess)
+    {
+        // Safe to (re)try outbound requests
+    }
 };
 
 NetworkInformation.NetworkStatusChanged += handler;
@@ -62,8 +62,8 @@ Filtering examples:
 ```csharp
 var filter = new ConnectionProfileFilter
 {
-	IsConnected = true,
-	IsWlanConnectionProfile = true
+    IsConnected = true,
+    IsWlanConnectionProfile = true
 };
 var wifiProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
 ```
@@ -84,8 +84,8 @@ bool hasInternet = profile?.GetNetworkConnectivityLevel() == NetworkConnectivity
 bool unrestricted = false;
 if (profile != null)
 {
-	var cost = profile.GetConnectionCost();
-	unrestricted = cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming && !cost.OverDataLimit;
+    var cost = profile.GetConnectionCost();
+    unrestricted = cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming && !cost.OverDataLimit;
 }
 
 // Use hasInternet/unrestricted to decide whether to start background sync
@@ -99,18 +99,18 @@ using namespace winrt; using namespace Windows::Networking::Connectivity;
 
 IAsyncAction ListWifiProfiles()
 {
-	ConnectionProfileFilter filter;
-	filter.IsWlanConnectionProfile(true);
-	filter.IsConnected(true);
-	auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
-	for (auto const& p : profiles)
-	{
-		if (auto wlan = p.WlanConnectionProfileDetails())
-		{
-			auto ssid = wlan.GetConnectedSsid();
-			// Log or display ssid
-		}
-	}
+    ConnectionProfileFilter filter;
+    filter.IsWlanConnectionProfile(true);
+    filter.IsConnected(true);
+auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
+    for (auto const& p : profiles)
+    {
+        if (auto wlan = p.WlanConnectionProfileDetails())
+        {
+            auto ssid = wlan.GetConnectedSsid();
+            // Log or display ssid
+        }
+    }
 }
 ```
 
@@ -123,23 +123,23 @@ using namespace winrt; using namespace Windows::Networking::Connectivity;
 
 struct NetworkWatcher
 {
-	winrt::event_token token;
-	void Start()
-	{
-		token = NetworkInformation::NetworkStatusChanged({ this, &NetworkWatcher::OnChanged });
-	}
-	void Stop()
-	{
-		if (token.value) NetworkInformation::NetworkStatusChanged(token);
-	}
-	void OnChanged(IInspectable const&)
-	{
-		auto profile = NetworkInformation::GetInternetConnectionProfile();
-		if (profile && profile.GetNetworkConnectivityLevel() == NetworkConnectivityLevel::InternetAccess)
-		{
-			// Online logic
-		}
-	}
+    winrt::event_token token;
+    void Start()
+    {
+        token = NetworkInformation::NetworkStatusChanged({ this, &NetworkWatcher::OnChanged });
+    }
+    void Stop()
+    {
+        if (token.value) NetworkInformation::NetworkStatusChanged(token);
+    }
+    void OnChanged(IInspectable const&)
+    {
+        auto profile = NetworkInformation::GetInternetConnectionProfile();
+        if (profile && profile.GetNetworkConnectivityLevel() == NetworkConnectivityLevel::InternetAccess)
+        {
+            // Online logic
+        }
+    }
 };
 ```
 
