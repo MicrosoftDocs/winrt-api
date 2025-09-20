@@ -10,7 +10,9 @@ public class ConnectionProfileFilter : Windows.Networking.Connectivity.IConnecti
 # Windows.Networking.Connectivity.ConnectionProfileFilter
 
 ## -description
-Represents the desired criteria for a connection profile. The filter is used to generate a list of [ConnectionProfile](connectionprofile.md) objects.
+The ConnectionProfileFilter class defines a set of properties that are used to improve the relevance of [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) results.
+
+At least one property must be specified, otherwise the object is not used as for filtering.
 
 ## -remarks
 Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the current profile returned by NetworkInformation.GetInternetConnectionProfile.
@@ -29,7 +31,8 @@ Common pitfalls:
 * Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
 * Setting multiple cost related constraints (for example NetworkCostType plus Roaming or OverDataLimit states) can lead to brittle logic—query the profile's ConnectionCost after selection instead.
 
-Example (C#):
+## -examples
+### Example (C#):
 
 ```csharp
 var filter = new Windows.Networking.Connectivity.ConnectionProfileFilter
@@ -63,8 +66,5 @@ foreach (var p in cellularProfiles)
 }
 ```
 
-## -examples
-(See code snippets above.)
-
 ## -see-also
-[ConnectionProfile](connectionprofile.md), NetworkInformation.FindConnectionProfilesAsync
+[ConnectionProfile](connectionprofile.md), [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)

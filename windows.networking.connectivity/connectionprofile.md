@@ -1,6 +1,6 @@
 ---
-- api-id: T:Windows.Networking.Connectivity.ConnectionProfile
-- api-type: winrt class
+-api-id: T:Windows.Networking.Connectivity.ConnectionProfile
+-api-type: winrt class
 ---
 
 <!-- Class syntax.
@@ -20,19 +20,19 @@ Common tasks:
 * Determine effective connectivity level (GetNetworkConnectivityLevel).
 * Inspect data plan and metering (GetConnectionCost, GetDataPlanStatus).
 * Get adapter and network names (NetworkAdapter, ProfileName).
-* Retrieve per‑profile usage statistics (GetNetworkUsageAsync, GetAttributedNetworkUsageAsync).
+* Retrieve per-profile usage statistics (GetNetworkUsageAsync, GetAttributedNetworkUsageAsync).
 * Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state (WwanConnectionProfileDetails).
-* Determine if the profile can be deleted (e.g., user saved Wi‑Fi profile) via CanDelete / TryDeleteAsync.
+* Determine if the profile can be deleted (e.g., user saved Wi-Fi profile) via CanDelete / TryDeleteAsync.
 
 Cost / data usage considerations:
 
 * Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers unless initiated by the user.
-* If connectionCost.Roaming is true, avoid non‑critical sync to prevent unexpected charges.
+* If connectionCost.Roaming is true, avoid non-critical sync to prevent unexpected charges.
 * If OverDataLimit or ApproachingDataLimit, surface a UI warning or reduce quality (e.g., lower bitrate streaming).
 
 Deletion guidance:
 
-TryDeleteAsync only succeeds for user‑removable profiles (e.g., some WLAN profiles) and when the caller has appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError gracefully.
+TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError gracefully.
 
 Example: Summarize active internet profile (C#):
 
@@ -105,7 +105,7 @@ For more examples, see: [Quickstart: Retrieving network connection information](
 | 1809 | 17763 | TryDeleteAsync |
 
 ## -examples
-Delete a removable Wi‑Fi profile if allowed (C#):
+Delete a removable Wi-Fi profile if allowed (C#):
 
 ```csharp
 var profiles = await NetworkInformation.FindConnectionProfilesAsync(new ConnectionProfileFilter{ IsWlanConnectionProfile = true });

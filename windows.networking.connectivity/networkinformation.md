@@ -1,7 +1,7 @@
 ---
-- api-id: T:Windows.Networking.Connectivity.NetworkInformation
-- api-type: winrt class
-- api-device-family-note: xbox
+-api-id: T:Windows.Networking.Connectivity.NetworkInformation
+-api-type: winrt class
+-api-device-family-note: xbox
 ---
 
 <!-- Class syntax.
@@ -18,7 +18,7 @@ Provides access to network connection information for the local machine. This is
 * Call NetworkInformation.FindConnectionProfilesAsync(filter) with a ConnectionProfileFilter to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
 * Subscribe to the NetworkInformation.NetworkStatusChanged event to be notified when connectivity changes instead of polling.
 
-The returned ConnectionProfile instances expose cost, data plan, adapter, and technology‑specific detail objects (WlanConnectionProfileDetails, WwanConnectionProfileDetails). Always re‑query inside the status changed event handler because previously cached profile objects are not live‑updating.
+The returned ConnectionProfile instances expose cost, data plan, adapter, and technology-specific detail objects (WlanConnectionProfileDetails, WwanConnectionProfileDetails). Always re-query inside the status changed event handler because previously cached profile objects are not live-updating.
 
 ## -remarks
 For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
@@ -52,7 +52,7 @@ NetworkInformation.NetworkStatusChanged += handler;
 
 Important guidance:
 
-* Always re‑query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
+* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.

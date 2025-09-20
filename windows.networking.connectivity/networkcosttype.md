@@ -7,7 +7,7 @@
 public enum Windows.Networking.Connectivity.NetworkCostType : int
 -->
 
-# Windows.Networking.Connectivity.NetworkCostType
+# NetworkCostType
 
 ## -description
 Defines values for cost limits on a network connection.
@@ -35,9 +35,10 @@ Scenario guidance:
 2. If NetworkCostType is Fixed set conservative background transfer sizes and respect MaxTransferSizeInMegabytes if provided via the associated DataPlanStatus.
 3. If NetworkCostType is Variable treat the connection similarly to a fixed cost near its limit: batch opportunistically and provide user controls to defer high‑volume tasks.
 4. Always gate large downloads on Roaming == false and OverDataLimit == false to avoid surprise charges.
-5. For real‑time streaming, adapt bitrate based on NetworkCostType and remaining quota (if available) rather than hard disabling features.
+5. For real-time streaming, adapt bitrate based on NetworkCostType and remaining quota (if available) rather than hard disabling features.
 
-Decision pseudo‑logic:
+## -examples
+Decision pseudo-logic:
 
 ```csharp
 var cost = profile.GetConnectionCost();
@@ -55,7 +56,6 @@ else
 }
 ```
 
-## -examples
-
 ## -see-also
-ConnectionProfile.GetConnectionCost, [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md)
+ConnectionProfile.GetConnectionCost, [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md),
+[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
