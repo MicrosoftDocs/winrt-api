@@ -28,7 +28,28 @@ Functional behavior:
 * Different radio technologies (for example, Wi‑Fi, Bluetooth, Mobile Broadband) are managed independently. The state of one does not imply the presence or state of another.
 * Enumeration calls present a snapshot. Each call reflects the set of radios known and active at that moment.
 * System or administrative policy can limit which radios are visible or which state changes are permitted.
+* Attach only one handler per component to a radio's [StateChanged](radio_statechanged.md) event to avoid redundant processing of the same transition.
 
 ## -examples
+### Enumerate, subscribe, and control radios (C#)
+```csharp
+var access = await Radio.RequestAccessAsync();
+if (access == RadioAccessStatus.Allowed)
+{
+	var radios = await Radio.GetRadiosAsync();
+	foreach (var r in radios)
+	{
+		r.StateChanged += (sender, _) => UpdateRadioDisplay(sender);
+	}
+	// Example: turn on all Wi-Fi radios that are currently off.
+	foreach (var r in radios)
+	{
+		if (r.Kind == RadioKind.WiFi && r.State == RadioState.Off)
+		{
+			await r.SetStateAsync(RadioState.On);
+		}
+	}
+}
+```
 
 ## -see-also
