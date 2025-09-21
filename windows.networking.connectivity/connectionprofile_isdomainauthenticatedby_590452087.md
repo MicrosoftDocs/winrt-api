@@ -28,7 +28,7 @@ Use this method to differentiate which enterprise domain authentication mechanis
 
 Behavior and guidance:
 
-* Precedence: Only one mechanism reports true. If both LDAP (Active Directory) and a TLS-based endpoint would succeed, 
+* Precedence: Only one mechanism reports true. If both LDAP (Active Directory) and a TLS-based endpoint would succeed,
   LDAP takes precedence and `IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap)` returns true while TLS returns false.
 * Negative check: `IsDomainAuthenticatedBy(DomainAuthenticationKind.None)` is logically equivalent to saying the profile is not domain authenticated.
 * Scope: This method is meaningful primarily when overall domain connectivity is established (for example when related connectivity level APIs indicate an authenticated enterprise domain context). It may transiently return `None` during network transitions or captive portal resolution.

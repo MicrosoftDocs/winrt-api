@@ -21,13 +21,13 @@ An unspecified kind of radio device.
 A Wi-Fi radio.
 
 ### -field MobileBroadband:2
-A mobile broadband radio.
+A mobile broadband radio. This value became available in Windows 10 version 1703.
 
 ### -field Bluetooth:3
 A Bluetooth radio.
 
 ### -field FM:4
-An FM radio. 
+An FM radio.
 
 > [!NOTE]
 > This value is defined for future use, and is not currently available.

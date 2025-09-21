@@ -27,19 +27,18 @@ code hasn't requested and received permission, then [SetStateAsync](radio_setsta
 of user permission.
 
 Functional behavior:
-
 * Radios can appear or disappear while your app is running; enumeration is not fixed after launch.
 * A newly discovered radio may already be On or Off based on prior system configuration or policy.
-* Removing a radio (for example, unplugging a USB adapter) causes it simply to stop appearing in subsequent
-    enumerations; there is no transient "removed" state object.
+* Removing a radio (for example, unplugging a USB adapter) causes it simply to stop appearing in subsequent enumerations;
+  there is no transient "removed" state object.
 * Rapid internal state transitions may be coalesced; only a final observable state might surface through events.
 * Friendly names can change. Do not use a friendly name as a persistent identifier.
-* Different radio technologies (for example, Wi-Fi, Bluetooth, Mobile Broadband) are managed independently. The state of
-    one does not imply the presence or state of another.
+* Different radio technologies (for example, Wi-Fi, Bluetooth, Mobile Broadband) are managed independently. The state
+  of one does not imply the presence or state of another.
 * Enumeration calls present a snapshot. Each call reflects the set of radios known and active at that moment.
 * System or administrative policy can limit which radios are visible or which state changes are permitted.
 * Attach only one handler per component to a radio's [StateChanged](radio_statechanged.md) event to avoid redundant
-    processing of the same transition.
+  processing of the same transition.
 
 ## -examples
 ### Enumerate, subscribe, and control radios (C#)

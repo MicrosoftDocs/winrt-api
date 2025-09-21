@@ -5,7 +5,7 @@
 ---
 
 <!-- Class syntax.
-public class NetworkInformation 
+public class NetworkInformation
 -->
 
 # Windows.Networking.Connectivity.NetworkInformation

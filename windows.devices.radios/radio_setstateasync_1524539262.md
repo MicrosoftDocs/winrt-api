@@ -15,7 +15,7 @@ An asynchronous operation that attempts to set the state of the radio represente
 
 ## -parameters
 ### -param value
-The desired radio state. 
+The desired radio state.
 
 > [!NOTE]
 > Only **RadioState.On** and **RadioState.Off** may be set using SetStateAsync.
