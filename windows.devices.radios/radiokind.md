@@ -32,9 +32,10 @@ An FM radio.
 > [!NOTE]
 > This value is defined for future use, and is not currently available.
 
-
 ## -remarks
-Presence of a given kind does not guarantee that its state can be changed. Some kinds (for example MobileBroadband) can require additional capabilities or policy allowance to be user-controllable. A radio that is not controllable still reports its current state.
+Presence of a given kind does not guarantee that its state can be changed. Some kinds (for example MobileBroadband) can
+require additional capabilities or policy allowance to be user-controllable. A radio that is not controllable still
+reports its current state.
 
 ## -examples
 

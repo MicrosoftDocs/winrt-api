@@ -11,13 +11,18 @@ public string GetDeviceSelector()
 # Windows.Devices.Radios.Radio.GetDeviceSelector
 
 ## -description
-A static method that returns an Advanced Query Syntax (AQS) string to be used to enumerate or monitor [Radio](radio.md) devices with [Windows.Devices.Enumeration.DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md) and related methods.
+A static method that returns an Advanced Query Syntax (AQS) string to be used to enumerate or monitor
+[Radio](radio.md) devices with
+[Windows.Devices.Enumeration.DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md)
+and related methods.
 
 ## -returns
 An identifier to be used to enumerate radio devices.
 
 ## -remarks
-The returned selector yields the same set of radios that [GetRadiosAsync](radio_getradiosasync_548754145.md) would return at the time of enumeration. Use this when you need to integrate radio discovery into a broader device query or subscribe to general device enumeration updates.
+The returned selector yields the same set of radios that [GetRadiosAsync](radio_getradiosasync_548754145.md) would
+return at the time of enumeration. Use this when you need to integrate radio discovery into a broader device query or
+subscribe to general device enumeration updates.
 
 ## -examples
 

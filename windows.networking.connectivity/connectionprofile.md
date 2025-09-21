@@ -13,7 +13,9 @@ public class ConnectionProfile : Windows.Networking.Connectivity.IConnectionProf
 Represents a network connection, which includes either the currently connected network or prior network connections. Provides information about the connection status and connectivity statistics.
 
 ## -remarks
-ConnectionProfile represents a snapshot of a specific network interface’s connectivity attributes (WLAN, WWAN, Ethernet, etc.). Always re‑query the profile when you receive a network status change event because properties do not automatically update on previously cached instances.
+ConnectionProfile represents a snapshot of a specific network interface’s connectivity attributes (WLAN, WWAN,
+Ethernet, etc.). Always re‑query the profile when you receive a network status change event because properties do not
+automatically update on previously cached instances.
 
 Common tasks:
 
@@ -21,42 +23,60 @@ Common tasks:
 * Inspect data plan and metering (GetConnectionCost, GetDataPlanStatus).
 * Get adapter and network names (NetworkAdapter, ProfileName).
 * Retrieve per-profile usage statistics (GetNetworkUsageAsync, GetAttributedNetworkUsageAsync).
-* Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state (WwanConnectionProfileDetails).
+* Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state
+     (WwanConnectionProfileDetails).
 * Determine if the profile can be deleted (e.g., user saved Wi-Fi profile) via CanDelete / TryDeleteAsync.
 
 Cost / data usage considerations:
 
-* Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers unless initiated by the user.
+* Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers
+     unless initiated by the user.
 * If connectionCost.Roaming is true, avoid non-critical sync to prevent unexpected charges.
 * If OverDataLimit or ApproachingDataLimit, surface a UI warning or reduce quality (e.g., lower bitrate streaming).
 
 Deletion guidance:
 
-TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError gracefully.
+TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate
+permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError
+gracefully.
 
 Performance tips:
 
-* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for telemetry.
+* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for
+     telemetry.
 * Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
 * For background tasks, check cost state late (immediately before transfer) to ensure freshness.
 
-Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly; the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
+Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly;
+the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
 
 Connectivity level evolution:
 
-* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the decision point instead of assuming the level present when the profile was first retrieved.
+* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
+     `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
+     decision point instead of assuming the level present when the profile was first retrieved.
 
 Independent cost flag changes:
 
-* Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on `NetworkCostType` transitions.
+* Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains
+     constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on
+     `NetworkCostType` transitions.
 
 Domain authentication:
 
-Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re‑query after network status change events rather than caching earlier results because authentication state can change with network transitions.
+Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
+configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or
+IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true
+(LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not
+domain authenticated". Re‑query after network status change events rather than caching earlier results because
+authentication state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:
 
-`GetDomainConnectivityLevel()` reports the broader domain trust state (None / Unauthenticated / Authenticated) while `IsDomainAuthenticatedBy(...)` identifies which mechanism (LDAP or TLS) established that trust. Typically you first ensure `GetDomainConnectivityLevel()` returns `Authenticated` and then branch on the authentication kind if you need to distinguish behavior or telemetry.
+`GetDomainConnectivityLevel()` reports the broader domain trust state (None / Unauthenticated / Authenticated) while
+`IsDomainAuthenticatedBy(...)` identifies which mechanism (LDAP or TLS) established that trust. Typically you first
+ensure `GetDomainConnectivityLevel()` returns `Authenticated` and then branch on the authentication kind if you need to
+distinguish behavior or telemetry.
 
 For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
 
