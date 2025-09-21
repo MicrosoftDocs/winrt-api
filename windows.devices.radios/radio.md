@@ -14,6 +14,10 @@ public class Radio : Windows.Devices.Radios.IRadio
 Represents a radio device on the system.
 
 ## -remarks
+Platform notes:
+* **Xbox:** This API surface isn’t supported for UWP apps on Xbox. Enumeration can return an empty set and state change
+  requests may fail or be denied by the system.
+
 Your code uses static members of this class like [GetRadiosAsync](radio_getradiosasync_548754145.md),
 [GetDeviceSelector](radio_getdeviceselector_838466080.md), and [FromIdAsync](radio_fromidasync_1322863552.md) to query for
 radios and to retrieve instantiated Radio objects representing particular radios on the device.

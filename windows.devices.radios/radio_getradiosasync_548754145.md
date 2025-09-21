@@ -19,6 +19,9 @@ An asynchronous retrieval operation. When the operation is complete, contains a 
 [Windows.Devices.Radios.Radio](radio.md) objects describing the radios present at the time of the call.
 
 ## -remarks
+Platform notes:
+* **Xbox:** Not supported for UWP apps. Enumeration may return no radios and state control APIs are unavailable.
+
 General guidance:
 * Each call returns a fresh snapshot; radios added or removed since the previous call appear/disappear in the new result
   set.

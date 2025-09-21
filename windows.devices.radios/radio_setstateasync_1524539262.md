@@ -25,6 +25,9 @@ An asynchronous state setting operation. On successful completion, contains an e
 status of the state change request.
 
 ## -remarks
+Platform notes:
+* **Xbox:** Not supported for UWP apps. Attempts to change radio state may fail or be denied.
+
 The `radios` capability is required for all radios. If the radio Kind is **RadioKind.MobileBroadband**, then this also
 requires `cellularDeviceControl`, a restricted capability granted to Mobile Operators.
 
