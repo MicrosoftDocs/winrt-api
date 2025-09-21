@@ -35,6 +35,7 @@ Usage considerations:
 * Time window: Partial final interval handling matches GetNetworkUsageAsync.
 * Filtering: Over-restricting NetworkUsageStates (for example forcing a roaming state) can hide legitimate usage.
 * Stability: Attribution identifiers can change across resets or provisioning changes; avoid treating them as permanent keys.
+* Aggregate reconciliation: Summing all attributed usage entries may not exactly equal the aggregate usage returned by `GetNetworkUsageAsync`; some traffic can reside in non-attributed or system buckets.
 
 ## -examples
 

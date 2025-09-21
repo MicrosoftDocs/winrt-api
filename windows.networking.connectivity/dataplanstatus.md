@@ -22,6 +22,7 @@ Usage guidance:
 3. MaxTransferSizeInMegabytes indicates the largest recommended chunk for a single network transfer to avoid excessive metered charges. Respect this when designing background sync logic that can batch work.
 4. NextBillingCycle can be null; when present it allows you to compute remaining quota windows. Avoid assuming month boundaries—operators can define custom cycles.
 5. If you are implementing quota warnings, use both usage percentage and time remaining in the cycle to avoid overly aggressive throttling early in the period.
+6. If `DataPlanStatus` is null or `DataLimitInMegabytes` is absent, treat the limit as unspecified (neither explicitly limited nor guaranteed unlimited). Avoid inferring an "unlimited" plan from missing values alone.
 
 ## -examples
 ### Example (C#):

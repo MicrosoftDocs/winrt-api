@@ -42,6 +42,7 @@ Guidance:
 * Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute)—aggregate in your own code if you need rolled-up statistics.
 * NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
 * This API returns estimated usage, not real-time byte counts; expect some delay from actual wire usage.
+* If `endTime` truncates the final granularity bucket, the last `NetworkUsage` element covers only the partial span ending exactly at `endTime`.
 
 Reference: [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 

@@ -38,6 +38,7 @@ Important guidance:
 * If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
 * If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
+* Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet profile reference changing. Re-check `GetNetworkConnectivityLevel()` inside each event invocation.
 
 Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
 

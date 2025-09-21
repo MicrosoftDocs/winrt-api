@@ -42,6 +42,14 @@ Performance tips:
 
 Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly; the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
 
+Connectivity level evolution:
+
+* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the decision point instead of assuming the level present when the profile was first retrieved.
+
+Independent cost flag changes:
+
+* Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on `NetworkCostType` transitions.
+
 Domain authentication:
 
 Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re‑query after network status change events rather than caching earlier results because authentication state can change with network transitions.
