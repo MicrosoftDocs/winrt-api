@@ -21,9 +21,9 @@ An asynchronous retrieval operation. When the operation is complete, contains a 
 ## -remarks
 General guidance:
 * Each call returns a fresh snapshot; radios added or removed since the previous call appear/disappear in the new
-	result set.
+    result set.
 * Handle an empty result set gracefully—do not assume an error; validate that required capabilities are declared
-	before retrying.
+    before retrying.
 * Re-enumerate after device add/remove if you maintain a cached list.
 
 Architecture considerations:

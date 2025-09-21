@@ -35,10 +35,10 @@ per the specified granularity; for example, usage per hour.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent and
-received values, in bytes, and the total amount of time the profile was connected during the corresponding time
-interval. The entries are in chronological order, starting at the startTime. If the time span is not an exact multiple
-of the granularity, then the last entry will report usage only up to the endTime.
+When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent
+and received values, in bytes, and the total amount of time the profile was connected during the corresponding
+time interval. The entries are in chronological order, starting at the startTime. If the time span is not an
+exact multiple of the granularity, then the last entry will report usage only up to the endTime.
 
 ## -remarks
 Guidance:

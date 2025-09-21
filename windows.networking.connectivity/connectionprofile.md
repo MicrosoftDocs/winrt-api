@@ -10,12 +10,13 @@ public class ConnectionProfile : Windows.Networking.Connectivity.IConnectionProf
 # Windows.Networking.Connectivity.ConnectionProfile
 
 ## -description
-Represents a network connection, which includes either the currently connected network or prior network connections. Provides information about the connection status and connectivity statistics.
+Represents a network connection, which includes either the currently connected network or prior network connections.
+Provides information about the connection status and connectivity statistics.
 
 ## -remarks
 ConnectionProfile represents a snapshot of a specific network interface’s connectivity attributes (WLAN, WWAN,
-Ethernet, etc.). Always re-query the profile when you receive a network status change event because properties do not
-automatically update on previously cached instances.
+Ethernet, etc.). Always re-query the profile when you receive a network status change event because properties do
+not automatically update on previously cached instances.
 
 Common tasks:
 
@@ -36,9 +37,9 @@ Cost / data usage considerations:
 
 Deletion guidance:
 
-TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate
-permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError
-gracefully.
+TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has
+appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or
+UnknownError gracefully.
 
 Performance tips:
 
@@ -53,8 +54,8 @@ the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for mo
 Connectivity level evolution:
 
 * A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
-     `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
-     decision point instead of assuming the level present when the profile was first retrieved.
+     `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at
+     the decision point instead of assuming the level present when the profile was first retrieved.
 
 Independent cost flag changes:
 
@@ -64,21 +65,22 @@ Independent cost flag changes:
 
 Domain authentication:
 
-Some enterprise networks can be domain-authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
-configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or
-IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true
-(LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not
-domain authenticated". Re-query after network status change events rather than caching earlier results because
-authentication state can change with network transitions.
+Some enterprise networks can be domain-authenticated via classic Active Directory (LDAP) or via a TLS-based
+mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap)
+or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report
+true (LDAP takes precedence when both could succeed). Treat
+IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re-query after network status
+change events rather than caching earlier results because authentication state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:
 
 `GetDomainConnectivityLevel()` reports the broader domain trust state (None / Unauthenticated / Authenticated) while
 `IsDomainAuthenticatedBy(...)` identifies which mechanism (LDAP or TLS) established that trust. Typically you first
-ensure `GetDomainConnectivityLevel()` returns `Authenticated` and then branch on the authentication kind if you need to
-distinguish behavior or telemetry.
+ensure `GetDomainConnectivityLevel()` returns `Authenticated` and then branch on the authentication kind if you
+need to distinguish behavior or telemetry.
 
-For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
+For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10))
+and the connectivity samples referenced below.
 
 ### Version history
 

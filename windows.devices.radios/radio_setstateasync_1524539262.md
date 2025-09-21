@@ -21,7 +21,8 @@ The desired radio state.
 > Only **RadioState.On** and **RadioState.Off** may be set using SetStateAsync.
 
 ## -returns
-An asynchronous state setting operation. On successful completion, contains an enumeration value describing status of the state change request.
+An asynchronous state setting operation. On successful completion, contains an enumeration value describing the
+status of the state change request.
 
 ## -remarks
 The `radios` capability is required for all radios. If the radio Kind is **RadioKind.MobileBroadband**, then this also

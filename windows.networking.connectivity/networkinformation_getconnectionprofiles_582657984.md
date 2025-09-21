@@ -29,7 +29,7 @@ function DisplayConnectionProfileList() {
             for (var i = 0; i < ConnectionProfiles.length; i++) {
 
                 //Display Connection profile info for each profile by passing it
-																//to a function that accesses and displays the connection properties
+                //to a function that accesses and displays the connection properties
                 profileList += getConnectionProfileInfo(ConnectionProfiles[i]);
                 profileList += "-------------------------\n\r";
             }
