@@ -42,12 +42,12 @@ Example pattern (C#):
 var profile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
 if (profile != null)
 {
-	var end = DateTime.UtcNow;
-	var start = end - TimeSpan.FromHours(24);
-	var states = new Windows.Networking.Connectivity.NetworkUsageStates();
-	var intervals = await profile.GetConnectivityIntervalsAsync(start, end, states);
-	double connectedMinutes = intervals.Sum(i => i.ConnectionDuration.TotalMinutes);
-	// Optionally fetch usage and compute bytes per connected minute
+    var end = DateTime.UtcNow;
+    var start = end - TimeSpan.FromHours(24);
+    var states = new Windows.Networking.Connectivity.NetworkUsageStates();
+    var intervals = await profile.GetConnectivityIntervalsAsync(start, end, states);
+    double connectedMinutes = intervals.Sum(i => i.ConnectionDuration.TotalMinutes);
+    // Optionally fetch usage and compute bytes per connected minute
 }
 ```
 

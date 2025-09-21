@@ -44,30 +44,30 @@ of the granularity, then the last entry will report usage only up to the endTime
 Guidance:
 
 * Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute)
-	to avoid an extra leading partial bucket.
+    to avoid an extra leading partial bucket.
 * An empty vector is a valid result (no recorded usage or provider unavailable) — treat as “no data” rather than an
-	error and retry in the next collection cycle.
+    error and retry in the next collection cycle.
 * Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute)—aggregate in your own code
-	if you need rolled-up statistics.
+    if you need rolled-up statistics.
 * NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them
-	unconstrained yields a complete view.
+    unconstrained yields a complete view.
 * This API returns estimated usage, not real-time byte counts; expect some delay from actual wire usage.
 * If `endTime` truncates the final granularity bucket, the last `NetworkUsage` element covers only the partial span
-	ending exactly at `endTime`.
+    ending exactly at `endTime`.
 * Provider accounting can lag actual traffic. For near-real-time display, advance a sliding window but accept that the
-	most recent bucket may later increase when re-queried.
+    most recent bucket may later increase when re-queried.
 * To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary
-	rather than reusing prior `endTime` values.
+    rather than reusing prior `endTime` values.
 
 Incremental (cursor) pattern:
 
 1. Choose a granularity (e.g., PerHour). Compute an aligned initial `startTime` (floor to the granularity boundary) and
-	`endTime = startTime + granularity`.
+    `endTime = startTime + granularity`.
 2. Query usage. Discard the last element if its interval end is after (now - granularity) because it's still
-	accumulating.
+    accumulating.
 3. Persist the boundary (end of the last fully closed bucket) as the new `startTime` for the next run.
 4. On the next invocation, set `endTime = now` (or `startTime + N*granularity` if batching) and repeat, summing only
-	newly closed buckets.
+    newly closed buckets.
 5. Periodically (e.g., daily) re-query the recent past (one or two buckets) to reconcile late adjustments.
 
 This pattern minimizes overlap and handles late provider adjustments without double counting.
@@ -82,7 +82,7 @@ Reference: [How to retrieve connection usage data for a specific period of time]
 DateTimeOffset now = DateTimeOffset.UtcNow;
 // Load persisted cursor; if none, seed to (now - 24h) aligned to hour.
 DateTimeOffset cursor = LoadCursor() ?? new DateTimeOffset(
-	now.UtcDateTime.AddHours(-24)).AddMinutes(-(now.Minute)).AddSeconds(-now.Second).AddMilliseconds(-now.Millisecond);
+    now.UtcDateTime.AddHours(-24)).AddMinutes(-(now.Minute)).AddSeconds(-now.Second).AddMilliseconds(-now.Millisecond);
 
 // Always align cursor to the hour boundary.
 cursor = new DateTimeOffset(cursor.Year, cursor.Month, cursor.Day, cursor.Hour, 0, 0, TimeSpan.Zero);
@@ -95,19 +95,19 @@ long bytesSentCommitted = 0;
 
 foreach (var entry in usage)
 {
-	// Determine the interval represented by this entry.
-	DateTimeOffset intervalStart = cursor;
-	DateTimeOffset intervalEnd = intervalStart.AddHours(1);
+    // Determine the interval represented by this entry.
+    DateTimeOffset intervalStart = cursor;
+    DateTimeOffset intervalEnd = intervalStart.AddHours(1);
 
-	// If intervalEnd extends past (now - 1 hour) this bucket is still "open" and subject to change.
-	if (intervalEnd > now.AddHours(-1))
-	{
-		break; // Skip provisional bucket; will be included on a future run.
-	}
+    // If intervalEnd extends past (now - 1 hour) this bucket is still "open" and subject to change.
+    if (intervalEnd > now.AddHours(-1))
+    {
+        break; // Skip provisional bucket; will be included on a future run.
+    }
 
-	bytesReceivedCommitted += (long)entry.BytesReceived;
-	bytesSentCommitted += (long)entry.BytesSent;
-	cursor = intervalEnd; // advance cursor
+    bytesReceivedCommitted += (long)entry.BytesReceived;
+    bytesSentCommitted += (long)entry.BytesSent;
+    cursor = intervalEnd; // advance cursor
 }
 
 PersistCursor(cursor);

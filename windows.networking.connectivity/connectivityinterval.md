@@ -47,14 +47,14 @@ Enumerate recent connectivity intervals (C#):
 var profile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
 if (profile != null)
 {
-	var end = DateTime.UtcNow;
-	var start = end - TimeSpan.FromHours(6);
-	var states = new Windows.Networking.Connectivity.NetworkUsageStates(); // unconstrained
-	var intervals = await profile.GetConnectivityIntervalsAsync(start, end, states);
-	foreach (var iv in intervals)
-	{
-		// iv.StartTime; iv.ConnectionDuration
-	}
+    var end = DateTime.UtcNow;
+    var start = end - TimeSpan.FromHours(6);
+    var states = new Windows.Networking.Connectivity.NetworkUsageStates(); // unconstrained
+    var intervals = await profile.GetConnectivityIntervalsAsync(start, end, states);
+    foreach (var iv in intervals)
+    {
+        // iv.StartTime; iv.ConnectionDuration
+    }
 }
 ```
 
