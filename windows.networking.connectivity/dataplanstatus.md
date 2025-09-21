@@ -47,9 +47,10 @@ if (status?.DataPlanUsage != null && status.DataLimitInMegabytes.HasValue)
 ```cpp
 auto profile = Windows::Networking::Connectivity::NetworkInformation::GetInternetConnectionProfile();
 auto status = profile ? profile.GetDataPlanStatus() : nullptr;
-if (status && status.DataPlanUsage() && status.DataLimitInMegabytes())
+auto usage = (status && status.DataPlanUsage()) ? status.DataPlanUsage() : nullptr;
+if (status && usage && status.DataLimitInMegabytes())
 {
-    auto used = status.DataPlanUsage().MegabytesUsed();
+    auto used = usage.MegabytesUsed();
     auto limit = status.DataLimitInMegabytes().Value();
     double pct = static_cast<double>(used) / limit;
     if (pct > 0.8) {

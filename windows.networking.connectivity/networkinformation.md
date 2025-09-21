@@ -44,7 +44,7 @@ Related classic (Win32) technologies include Network List Manager (NLM / INetwor
 
 For broader scenario guidance, see:
 
-* Network connectivity UWP sample (linked below)
+* [Network connectivity UWP sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
 * Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
 
 ## -examples

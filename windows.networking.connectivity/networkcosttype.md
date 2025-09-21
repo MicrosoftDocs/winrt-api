@@ -27,36 +27,71 @@ The connection is costed on a per-byte basis.
 
 ## -remarks
 Use ConnectionProfile.GetConnectionCost to obtain the ConnectionCost object and inspect its properties
-(NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit) before deciding how aggressively to transfer data.
+(NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit, BackgroundDataUsageRestricted) before deciding how
+aggressively to transfer data. Evaluate flags individually; do not rely solely on NetworkCostType transitions.
 
 Scenario guidance:
 
-1. If NetworkCostType is Unrestricted you can perform full-fidelity sync operations. Still check Roaming to respect
-   user metering preferences when on certain enterprise or roaming scenarios that may not strictly enforce cost.
-2. If NetworkCostType is Fixed set conservative background transfer sizes and respect MaxTransferSizeInMegabytes if
-   provided via the associated DataPlanStatus.
-3. If NetworkCostType is Variable treat the connection similarly to a fixed cost near its limit: batch
-   opportunistically and provide user controls to defer high-volume tasks.
-4. Always gate large downloads on Roaming == false and OverDataLimit == false to avoid surprise charges.
-5. For real-time streaming, adapt bitrate based on NetworkCostType and remaining quota (if available) rather than
-   hard disabling features.
+1. Unrestricted: Perform full-fidelity sync operations unless Roaming is true (still respect user preferences while
+   roaming). BackgroundDataUsageRestricted can still require throttling even if unrestricted.
+2. Fixed: Use conservative background transfer sizes; respect MaxTransferSizeInMegabytes if provided via
+   DataPlanStatus. Provide progressive disclosure for large optional downloads.
+3. Variable: Treat similar to a fixed plan near its limit. Batch opportunistically and give users a deferral option
+   for high-volume tasks.
+4. ApproachingDataLimit: Preemptively reduce quality (bitrate, resolution) and surface a subtle UI indicator. Offer a
+   user override for critical tasks.
+5. OverDataLimit: Pause non-essential background sync. Require explicit user action to proceed with large transfers.
+6. BackgroundDataUsageRestricted: Defer background-only telemetry or sync; allow user-initiated foreground actions
+   with confirmation.
+7. Roaming: Avoid silent large downloads; compress or batch where possible even if NetworkCostType is Unrestricted.
+8. Streaming / adaptive content: Dynamically target lower initial bitrate and ramp cautiously when any of
+   ApproachingDataLimit, OverDataLimit, Roaming, or BackgroundDataUsageRestricted is active.
 
 ## -examples
 Decision pseudo-logic:
 
 ```csharp
 var cost = profile.GetConnectionCost();
-if (cost.NetworkCostType == NetworkCostType.Unrestricted && !cost.Roaming)
+
+bool unrestricted = cost.NetworkCostType == NetworkCostType.Unrestricted;
+bool fixedPlan   = cost.NetworkCostType == NetworkCostType.Fixed;
+bool variable    = cost.NetworkCostType == NetworkCostType.Variable;
+
+// Base operating mode
+if (unrestricted && !cost.Roaming && !cost.BackgroundDataUsageRestricted)
 {
-    EnableHighBandwidthFeatures();
+   EnableHighBandwidthFeatures();
 }
 else
 {
-    EnterConservativeMode();
-    if (cost.OverDataLimit || cost.Roaming)
-    {
-        SuspendBackgroundVideo();
-    }
+   EnterConservativeMode();
+}
+
+// Progressive constraints
+if (cost.ApproachingDataLimit)
+{
+   ThrottleBitrate(targetKbps: 1500); // example adaptive choice
+}
+
+if (cost.OverDataLimit)
+{
+   PauseNonEssentialBackgroundSync();
+}
+
+if (cost.BackgroundDataUsageRestricted)
+{
+   DeferBackgroundTelemetry();
+}
+
+if (cost.Roaming)
+{
+   CompressLargePayloads();
+}
+
+// Optional: adapt chunk sizing based on plan type
+if (fixedPlan || variable)
+{
+   SetMaxTransferChunkSize(cost.MaxTransferSizeInMegabytes ?? 8); // fallback chunk size
 }
 ```
 
