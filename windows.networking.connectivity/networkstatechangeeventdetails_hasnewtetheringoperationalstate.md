@@ -27,7 +27,7 @@ Guidance:
     this flag; do not infer the new state purely from context.
 * Latency: A small delay can exist between low-level adapter changes and the surfaced operational state transition;
     design UI to tolerate brief indeterminate states.
-* Policy gating: Transitions caused by policy or entitlement changes can occur without user initiation—listen
+* Policy gating: Transitions caused by policy or entitlement changes can occur without user initiation. Listen
     continuously rather than only after user actions.
 * Idempotency: If you re-query and the state equals your cached value, treat it as a benign duplicate notification.
 * Sequencing with client count: `HasNewTetheringOperationalState` may appear before or after `HasNewTetheringClientCount`;

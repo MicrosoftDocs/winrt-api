@@ -30,7 +30,7 @@ Guidance:
 
 * Combine with `GetNetworkUsageAsync` to correlate connected time and transferred bytes. Intervals capture presence; usage captures volume.
 * Align query bounds (start/end) with your reporting window. The API can return partial leading or trailing intervals if your bounds cut through an active connection.
-* Empty results are valid (no connectivity in that window) — treat as "no data" not an error.
+* Empty results are valid (no connectivity in that window); treat as "no data" not an error.
 * Avoid overly fine periodic polling (e.g., every few seconds). Typical aggregation windows are 15 minutes or larger.
 * When computing utilization, sum interval durations and compare to total wall-clock span; derive idle vs active byte density by overlaying usage results.
 * Historical limits (e.g., maximum 60 days) mirror usage API constraints; segment longer history queries.

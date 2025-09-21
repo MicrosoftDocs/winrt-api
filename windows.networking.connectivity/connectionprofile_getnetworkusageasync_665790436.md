@@ -35,19 +35,19 @@ per the specified granularity; for example, usage per hour.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent
-and received values, in bytes, and the total amount of time the profile was connected during the corresponding
-time interval. The entries are in chronological order, starting at the startTime. If the time span is not an
-exact multiple of the granularity, then the last entry will report usage only up to the endTime.
+When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent and
+received values, in bytes, and the total amount of time the profile was connected during the corresponding time
+interval. The entries are in chronological order, starting at the startTime. If the time span is not an exact multiple
+of the granularity, then the last entry will report usage only up to the endTime.
 
 ## -remarks
 Guidance:
 
 * Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute)
     to avoid an extra leading partial bucket.
-* An empty vector is a valid result (no recorded usage or provider unavailable) — treat as “no data” rather than an
+* An empty vector is a valid result (no recorded usage or provider unavailable) - treat as "no data" rather than an
     error and retry in the next collection cycle.
-* Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute)—aggregate in your own code
+* Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute). Aggregate in your own code
     if you need rolled-up statistics.
 * NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them
     unconstrained yields a complete view.

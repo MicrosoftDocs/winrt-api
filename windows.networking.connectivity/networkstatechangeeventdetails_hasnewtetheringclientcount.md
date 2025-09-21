@@ -25,7 +25,7 @@ Guidance:
     number of connected tethering clients is observed to differ from the previously reported value.
 * Race avoidance: Treat the flag as a prompt to re-query the authoritative tethering manager / hotspot API rather than
     assuming you know the new count implicitly.
-* Aggregation latency: Short delays can occur between a client attaching/detaching and the flag being surfaced—avoid
+* Aggregation latency: Short delays can occur between a client attaching/detaching and the flag being surfaced. Avoid
     tight polling loops; rely on the event to minimize power/network scans.
 * Policy / entitlement: If policy disables tethering between two client transitions, this flag might not appear again
     until tethering is re-enabled; code should handle a disabled feature even if the prior state reported active

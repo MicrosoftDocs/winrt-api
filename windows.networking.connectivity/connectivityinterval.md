@@ -18,16 +18,11 @@ Provides the start time and duration for an established or prior connection.
 
 Key characteristics:
 
-* Presence vs traffic: An interval indicates connectivity existed; it does not imply data transfer. Pair with
-    usage APIs (`GetNetworkUsageAsync`) if you need volume metrics.
-* Gaps: If the device disconnected, slept, or the interface transitioned, gaps appear between intervals. Do not
-    assume back-to-back coverage of a query window.
-* Partial windows: The first or last interval in a query can be truncated if your start or end time falls
-    mid-interval.
-* Coalescing: Very brief disconnects may be absorbed by higher layer accounting; avoid relying on sub-second
-    precision.
-* Time bounds: Queries (via `GetConnectivityIntervalsAsync`) are subject to the same historical limits as usage
-    APIs (for example 60 days of history).
+* Presence vs traffic: An interval indicates connectivity existed; it does not imply data transfer. Pair with usage APIs (`GetNetworkUsageAsync`) if you need volume metrics.
+* Gaps: If the device disconnected, slept, or the interface transitioned, gaps appear between intervals. Do not assume back-to-back coverage of a query window.
+* Partial windows: The first or last interval in a query can be truncated if your start or end time falls mid-interval.
+* Coalescing: Very brief disconnects may be absorbed by higher layer accounting; avoid relying on sub-second precision.
+* Time bounds: Queries (via `GetConnectivityIntervalsAsync`) are subject to the same historical limits as usage APIs (for example 60 days of history).
 
 Common pattern:
 
@@ -37,15 +32,12 @@ Common pattern:
 
 Edge cases:
 
-* Empty result set: No connectivity recorded in the window (device offline or history unavailable) — treat as "no data", not failure.
-* Overlapping queries: You can stitch results from successive overlapping windows; deduplicate identical tail
-    intervals by start time.
+* Empty result set: No connectivity recorded in the window (device offline or history unavailable); treat as "no data", not failure.
+* Overlapping queries: You can stitch results from successive overlapping windows; deduplicate identical tail intervals by start time.
 
-Performance guidance: Summarize or aggregate intervals promptly. Storing large raw lists in memory provides little
-additional value once summarized.
+Performance guidance: Summarize or aggregate intervals promptly. Storing large raw lists in memory provides little additional value once summarized.
 
-Functional correlation note: A connectivity interval does not guarantee non-zero data transfer. Zero usage within
-an interval is valid, and small usage bursts can appear in multiple intervals if the active interface changes.
+Functional correlation note: A connectivity interval does not guarantee non-zero data transfer. Zero usage within an interval is valid, and small usage bursts can appear in multiple intervals if the active interface changes.
 
 
 ## -examples

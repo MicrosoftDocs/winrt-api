@@ -45,7 +45,7 @@ Edge cases:
 
 Performance:
 
-This call is lightweight (property-based) and can be invoked in response handlers; avoid polling in tight loops—prefer event-driven updates.
+This call is lightweight (property-based) and can be invoked in response handlers; avoid polling in tight loops. Prefer event-driven updates.
 
 ## -see-also
 [DomainAuthenticationKind](domainauthenticationkind.md)

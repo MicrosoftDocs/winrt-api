@@ -31,7 +31,7 @@ Functional behavior:
 * Radios can appear or disappear while your app is running; enumeration is not fixed after launch.
 * A newly discovered radio may already be On or Off based on prior system configuration or policy.
 * Removing a radio (for example, unplugging a USB adapter) causes it simply to stop appearing in subsequent
-    enumerations; there is no transient “removed” state object.
+    enumerations; there is no transient "removed" state object.
 * Rapid internal state transitions may be coalesced; only a final observable state might surface through events.
 * Friendly names can change. Do not use a friendly name as a persistent identifier.
 * Different radio technologies (for example, Wi-Fi, Bluetooth, Mobile Broadband) are managed independently. The state of
