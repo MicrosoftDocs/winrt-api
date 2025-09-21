@@ -22,6 +22,11 @@ Usage considerations:
 * Estimation: Byte counts reflect accounting latency; avoid sub-minute enforcement decisions.
 * Empty list: Interpret as “no data recorded” for the window, not an error; retry later or widen the interval as needed.
 * Aggregation: Sum BytesSent and BytesReceived (use 64-bit arithmetic) across entries for totals; discard large raw lists once summarized.
+* Partial trailing interval: If the requested end time falls inside a granularity bucket, that bucket’s values are provisional and may grow—re-query if you need finalized numbers.
+* Reconciliation with attributed usage: Summing all [AttributedNetworkUsage](attributednetworkusage.md) entries for the same window can be less than or equal to the aggregate from `NetworkUsage`; residual bytes can represent un-attributed system activity or accounting alignment.
+* Multi-interface scenarios: Query each relevant `ConnectionProfile` separately—this type does not merge across interfaces for you. Perform aggregation in your code if you present a holistic device view.
+* Sliding cursor collection: Maintain the boundary of the last fully closed bucket (aligned to granularity) and only commit complete buckets to avoid double counting when polling.
+* Overflow safety: Use checked 64-bit accumulation when summing long historical ranges; do not downcast to 32-bit.
 
 
 ## -examples
