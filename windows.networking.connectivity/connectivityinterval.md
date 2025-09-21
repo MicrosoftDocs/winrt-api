@@ -19,9 +19,9 @@ Provides the start time and duration for an established or prior connection.
 Key characteristics:
 
 * Presence vs traffic: An interval indicates connectivity existed; it does not imply data transfer. Pair with usage APIs (`GetNetworkUsageAsync`) if you need volume metrics.
-* Gaps: If the device disconnected, slept, or the interface transitioned, gaps appear between intervals. Do not assume back‑to‑back coverage of a query window.
-* Partial windows: The first or last interval in a query can be truncated if your start or end time falls mid‑interval.
-* Coalescing: Very brief disconnects may be absorbed by higher layer accounting; avoid relying on sub‑second precision.
+* Gaps: If the device disconnected, slept, or the interface transitioned, gaps appear between intervals. Do not assume back-to-back coverage of a query window.
+* Partial windows: The first or last interval in a query can be truncated if your start or end time falls mid-interval.
+* Coalescing: Very brief disconnects may be absorbed by higher layer accounting; avoid relying on sub-second precision.
 * Time bounds: Queries (via `GetConnectivityIntervalsAsync`) are subject to the same historical limits as usage APIs (for example 60 days of history).
 
 Common pattern:

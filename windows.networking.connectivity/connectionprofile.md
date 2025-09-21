@@ -14,7 +14,7 @@ Represents a network connection, which includes either the currently connected n
 
 ## -remarks
 ConnectionProfile represents a snapshot of a specific network interface’s connectivity attributes (WLAN, WWAN,
-Ethernet, etc.). Always re‑query the profile when you receive a network status change event because properties do not
+Ethernet, etc.). Always re-query the profile when you receive a network status change event because properties do not
 automatically update on previously cached instances.
 
 Common tasks:
@@ -64,11 +64,11 @@ Independent cost flag changes:
 
 Domain authentication:
 
-Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
+Some enterprise networks can be domain-authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
 configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or
 IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true
 (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not
-domain authenticated". Re‑query after network status change events rather than caching earlier results because
+domain authenticated". Re-query after network status change events rather than caching earlier results because
 authentication state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:

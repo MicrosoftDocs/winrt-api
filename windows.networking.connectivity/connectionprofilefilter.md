@@ -31,11 +31,11 @@ Common pitfalls:
 * Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
 * Setting multiple cost related constraints (for example NetworkCostType plus Roaming or OverDataLimit states) can lead to brittle logic—query the profile's ConnectionCost after selection instead.
 
-Avoid reusing and toggling properties on a single filter instance between calls—leftover state can unintentionally over‑constrain and yield zero results (see carrier / service provider filtering example below).
+Avoid reusing and toggling properties on a single filter instance between calls—leftover state can unintentionally over-constrain and yield zero results (see carrier / service provider filtering example below).
 
 Functional selection notes:
 
-* To enumerate all currently connected profiles across technologies (e.g., Ethernet and Wi‑Fi), set `IsConnected = true` and leave `IsWlanConnectionProfile` / `IsWwanConnectionProfile` unset.
+* To enumerate all currently connected profiles across technologies (e.g., Ethernet and Wi-Fi), set `IsConnected = true` and leave `IsWlanConnectionProfile` / `IsWwanConnectionProfile` unset.
 * Setting both `IsWlanConnectionProfile` and `IsWwanConnectionProfile` never produces a union; it yields no results because both conditions must be true simultaneously.
 * A single filter cannot express logical OR across technologies with `ServiceProviderGuid`; construct separate filters per technology when needed.
 
