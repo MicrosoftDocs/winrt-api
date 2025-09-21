@@ -21,7 +21,7 @@ An unspecified kind of radio device.
 A Wi-Fi radio.
 
 ### -field MobileBroadband:2
-A mobile broadband radio. This value became available in Windows 10 version 1703.
+A mobile broadband radio.
 
 ### -field Bluetooth:3
 A Bluetooth radio.

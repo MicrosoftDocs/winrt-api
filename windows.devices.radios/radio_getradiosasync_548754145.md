@@ -19,14 +19,17 @@ An asynchronous retrieval operation. When the operation is complete, contains a 
 [Windows.Devices.Radios.Radio](radio.md) objects describing the radios present at the time of the call.
 
 ## -remarks
-Each call returns a fresh snapshot. Radios that have been added or removed since the previous call are reflected in the new result set.
+General guidance:
+* Each call returns a fresh snapshot; radios added or removed since the previous call appear/disappear in the new
+	result set.
+* Handle an empty result set gracefully—do not assume an error; validate that required capabilities are declared
+	before retrying.
+* Re-enumerate after device add/remove if you maintain a cached list.
 
-When called from a UWP app, there is no architecture requirement. This method will work on the native architecture,
-as well as x86 architecture on x64 or ARM64 architectures.
-
-When this method is called from a desktop application (Win32), it will retrieve radio instances only when the
-application is natively compiled for the target architecture (for example, an x86 application running on an x64
-computer will not obtain radio instances).
+Architecture considerations:
+* UWP apps: Works for any app architecture (x86, x64, ARM64).
+* Desktop (Win32) apps: Radios are returned only when the process architecture matches the OS (for example x64 on x64,
+  ARM64 on ARM64). An x86 desktop process on an x64 or ARM64 system typically returns no radios.
 
 ## -examples
 
