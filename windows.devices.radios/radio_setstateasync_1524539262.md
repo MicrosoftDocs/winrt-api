@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Radios.RadioAccessStat
 # Windows.Devices.Radios.Radio.SetStateAsync
 
 ## -description
-An asynchronous operation that attempts to set the state of the radio represented by this object.
+Attempts to set the state of the radio represented by this object.
 
 ## -parameters
 ### -param value
@@ -21,24 +21,24 @@ The desired radio state.
 > Only **RadioState.On** and **RadioState.Off** may be set using SetStateAsync.
 
 ## -returns
-An asynchronous state setting operation. On successful completion, contains an enumeration value describing the
-status of the state change request.
+When complete, returns a [RadioAccessStatus](radioaccessstatus.md) value describing the result of the state change
+request.
 
 ## -remarks
 Platform notes:
-* **Xbox:** Not supported for UWP apps. Attempts to change radio state may fail or be denied.
+* **Xbox:** Not supported for UWP apps. Attempts to change radio state fail or are denied.
 
-The `radios` capability is required for all radios. If the radio Kind is **RadioKind.MobileBroadband**, then this also
-requires `cellularDeviceControl`, a restricted capability granted to Mobile Operators.
+The `radios` capability is required for all radios. If the radio Kind is **RadioKind.MobileBroadband**, it also
+requires `cellularDeviceControl`, a restricted capability granted to mobile operators.
 
 Only **On** and **Off** states are settable. A requested change can be superseded by system or user actions. Rapid
-internal transitions may not surface individually through events.
+internal transitions may be coalesced and not surface individually through events.
 
-If the state changes externally at the same time as the request, the operation can complete with a status indicating
+If the state changes externally while the request is in flight, the operation may complete with a status indicating
 the final effective state rather than an intermediate step.
 
- A radio can be present but not user-controllable if required capabilities or policies are not in place; in that case
- its reported state is observable but attempts to change it have no effect.
+ A radio can be present but not user-controllable if required capabilities or policies are missing; its reported state
+ is observable but attempts to change it have no effect.
 
 ## -examples
 

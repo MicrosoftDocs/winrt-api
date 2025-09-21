@@ -17,21 +17,20 @@ When true, the tethering client count has changed.
 
 ## -remarks
 Use this flag inside a `NetworkInformation.NetworkStatusChanged` handler (after casting the event details) to decide
-whether you need to refresh the tethering client list / count.
+whether you need to refresh the tethering client list or count.
 
 Guidance:
 
 * Event selectivity: Not every underlying link or session change produces this flag; it is raised when the effective
-  number of connected tethering clients is observed to differ from the previously reported value.
-* Race avoidance: Treat the flag as a prompt to re-query the authoritative tethering manager / hotspot API rather than
-  assuming you know the new count implicitly.
-* Aggregation latency: Short delays can occur between a client attaching/detaching and the flag being surfaced. Avoid
-  tight polling loops; rely on the event to minimize power/network scans.
+  number of connected tethering clients differs from the previously reported value.
+* Race avoidance: Treat the flag as a prompt to re-query the authoritative tethering manager or hotspot API rather
+  than assuming you know the new count implicitly.
+* Aggregation latency: Short delays can occur between a client attaching or detaching and the flag being surfaced.
+  Avoid tight polling loops; rely on the event to minimize power and network scans.
 * Policy / entitlement: If policy disables tethering between two client transitions, this flag might not appear again
-  until tethering is re-enabled; code should handle a disabled feature even if the prior state reported active
-  clients.
-* Reconciliation: Maintain your own last committed count; if the flag is true but the re-queried count matches your
-  cache, treat it as a benign transient and keep listening.
+  until tethering is re-enabled; handle a disabled feature even if the prior state reported active clients.
+* Reconciliation: Maintain your last committed count. If the flag is true but the re-queried count matches your cache,
+  treat it as a benign transient and keep listening.
 
 Typical pattern (pseudo):
 

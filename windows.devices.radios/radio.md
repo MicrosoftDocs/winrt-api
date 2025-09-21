@@ -15,33 +15,30 @@ Represents a radio device on the system.
 
 ## -remarks
 Platform notes:
-* **Xbox:** This API surface isn’t supported for UWP apps on Xbox. Enumeration can return an empty set and state change
-  requests may fail or be denied by the system.
+* **Xbox:** This API surface isn't supported for UWP apps on Xbox. Enumeration can return an empty set, and state
+  change requests may fail or be denied by the system.
 
-Your code uses static members of this class like [GetRadiosAsync](radio_getradiosasync_548754145.md),
+Use static members such as [GetRadiosAsync](radio_getradiosasync_548754145.md),
 [GetDeviceSelector](radio_getdeviceselector_838466080.md), and [FromIdAsync](radio_fromidasync_1322863552.md) to query for
-radios and to retrieve instantiated Radio objects representing particular radios on the device.
+radios and retrieve instantiated Radio objects representing specific device radios.
 
-Note that your code should call [RequestAccessAsync](radio_requestaccessasync_380675631.md) at least once, from the UI
-thread, before trying to call [SetStateAsync](radio_setstateasync_1524539262.md). This is because in some regions, with
-some user settings choices, attempting to change radio state requires user permission. In this situation, calling
-[RequestAccessAsync](radio_requestaccessasync_380675631.md) shows the user a prompt asking if they want to allow your
-app to have permission to control the radio. If your app is running on a device that requires user permission and your
-code hasn't requested and received permission, then [SetStateAsync](radio_setstateasync_1524539262.md) will fail for lack
-of user permission.
+Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) at least once from the UI thread before calling
+[SetStateAsync](radio_setstateasync_1524539262.md). In some regions, and with certain user settings, changing radio
+state requires user consent. Calling [RequestAccessAsync](radio_requestaccessasync_380675631.md) prompts the user to
+grant permission. If permission is required but not granted, [SetStateAsync](radio_setstateasync_1524539262.md) fails.
 
 Functional behavior:
-* Radios can appear or disappear while your app is running; enumeration is not fixed after launch.
-* A newly discovered radio may already be On or Off based on prior system configuration or policy.
-* Removing a radio (for example, unplugging a USB adapter) causes it simply to stop appearing in subsequent enumerations;
-  there is no transient "removed" state object.
-* Rapid internal state transitions may be coalesced; only a final observable state might surface through events.
+* Radios can appear or disappear while your app runs; enumeration is not fixed after launch.
+* A newly discovered radio may already be On or Off based on prior configuration or policy.
+* Removing a radio (for example, unplugging a USB adapter) simply causes it to stop appearing in subsequent
+  enumerations; there is no transient "removed" state object.
+* Rapid internal state transitions may be coalesced; only a final observable state may surface through events.
 * Friendly names can change. Do not use a friendly name as a persistent identifier.
 * Different radio technologies (for example, Wi-Fi, Bluetooth, Mobile Broadband) are managed independently. The state
   of one does not imply the presence or state of another.
-* Enumeration calls present a snapshot. Each call reflects the set of radios known and active at that moment.
+* Each enumeration call returns a snapshot of the radios known and active at that moment.
 * System or administrative policy can limit which radios are visible or which state changes are permitted.
-* Attach only one handler per component to a radio's [StateChanged](radio_statechanged.md) event to avoid redundant
+* Attach only one handler per component to a radio's [StateChanged](radio_statechanged.md) event to avoid duplicate
   processing of the same transition.
 
 ## -examples

@@ -14,7 +14,7 @@ Represents a network connection, which includes either the currently connected n
 
 ## -remarks
 ConnectionProfile represents a snapshot of a specific network interface's connectivity attributes (WLAN, WWAN,
-Ethernet, etc.). Always re-query the profile when you receive a network status change event because properties do not
+Ethernet, etc.). Re-query the profile when you receive a network status change event because properties do not
 automatically update on previously cached instances.
 
 Common tasks:
@@ -30,19 +30,19 @@ Common tasks:
 Cost / data usage considerations:
 
 * Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers
-  unless initiated by the user.
+  unless the user initiates them.
 * If connectionCost.Roaming is true, avoid non-critical sync to prevent unexpected charges.
-* If OverDataLimit or ApproachingDataLimit, surface a UI warning or reduce quality (e.g., lower bitrate streaming).
+* If OverDataLimit or ApproachingDataLimit is set, surface a UI warning or reduce quality (for example, lower bitrate streaming).
 
 Deletion guidance:
 
-TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate
-permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError
-gracefully.
+TryDeleteAsync succeeds only for user-removable profiles (for example, some WLAN profiles) and when the caller has
+appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or
+UnknownError gracefully.
 
 Performance tips:
 
-* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for
+* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (for example, per 15 minutes) for
   telemetry.
 * Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
 * For background tasks, check cost state late (immediately before transfer) to ensure freshness.
@@ -54,22 +54,21 @@ Connectivity level evolution:
 
 * A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
   `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
-  decision point instead of assuming the level present when the profile was first retrieved.
+  decision point instead of assuming the level when the profile was first retrieved.
 
 Independent cost flag changes:
 
 * Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains
-  constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on
-  `NetworkCostType` transitions.
+  constant. Re-evaluate individual flags when behavior depends on them; do not rely solely on `NetworkCostType` transitions.
 
 Domain authentication:
 
 Some enterprise networks can be domain-authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
 configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or
-IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true
-(LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not
-domain authenticated". Re-query after network status change events rather than caching earlier results because
-authentication state can change with network transitions.
+IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method reports true (LDAP
+takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain
+authenticated". Re-query after network status change events rather than caching earlier results because authentication
+state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:
 
