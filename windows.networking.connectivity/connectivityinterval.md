@@ -39,7 +39,6 @@ Performance guidance: Summarize or aggregate intervals promptly. Storing large r
 
 Functional correlation note: A connectivity interval does not guarantee non-zero data transfer. Zero usage within an interval is valid, and small usage bursts can appear in multiple intervals if the active interface changes.
 
-
 ## -examples
 Enumerate recent connectivity intervals (C#):
 

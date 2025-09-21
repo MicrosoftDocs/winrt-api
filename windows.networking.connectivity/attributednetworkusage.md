@@ -24,13 +24,13 @@ Usage considerations:
 * Lifetime: Re-query when you need fresh usage instead of holding instances long term.
 * Absence: Missing an expected identifier for a window means no recorded usage in that interval, not necessarily that an app was uninstalled.
 * Partial trailing interval: If your window ends mid-granularity, the last interval's values are provisional and may
-    increase on a later query.
+  increase on a later query.
 * Residual bytes: The difference between aggregate usage and the sum of attributed entries can represent system,
   background, or privacy-suppressed traffic; treat it as a separate "unattributed" bucket if you need completeness.
 * Identifier stability: AttributionId should not be persisted indefinitely as a stable device-unique key; plan for
-    rebasing after OS upgrades, reset, or policy changes.
+  rebasing after OS upgrades, reset, or policy changes.
 * Reconciliation: Periodically re-query the most recent closed bucket to pick up late accounting adjustments. Apply
-    deltas rather than replacing historical totals.
+  deltas rather than replacing historical totals.
 
 ## -examples
 

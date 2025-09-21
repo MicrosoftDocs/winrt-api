@@ -24,13 +24,13 @@ Common tasks:
 * Get adapter and network names (NetworkAdapter, ProfileName).
 * Retrieve per-profile usage statistics (GetNetworkUsageAsync, GetAttributedNetworkUsageAsync).
 * Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state
-     (WwanConnectionProfileDetails).
+  (WwanConnectionProfileDetails).
 * Determine if the profile can be deleted (e.g., user saved Wi-Fi profile) via CanDelete / TryDeleteAsync.
 
 Cost / data usage considerations:
 
 * Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers
-     unless initiated by the user.
+  unless initiated by the user.
 * If connectionCost.Roaming is true, avoid non-critical sync to prevent unexpected charges.
 * If OverDataLimit or ApproachingDataLimit, surface a UI warning or reduce quality (e.g., lower bitrate streaming).
 
@@ -43,7 +43,7 @@ gracefully.
 Performance tips:
 
 * Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for
-     telemetry.
+  telemetry.
 * Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
 * For background tasks, check cost state late (immediately before transfer) to ensure freshness.
 
@@ -53,14 +53,14 @@ the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for mo
 Connectivity level evolution:
 
 * A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
-     `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
-     decision point instead of assuming the level present when the profile was first retrieved.
+  `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
+  decision point instead of assuming the level present when the profile was first retrieved.
 
 Independent cost flag changes:
 
 * Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains
-     constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on
-     `NetworkCostType` transitions.
+  constant. Re-evaluate individual flags when functional behavior depends on them; do not rely solely on
+  `NetworkCostType` transitions.
 
 Domain authentication:
 

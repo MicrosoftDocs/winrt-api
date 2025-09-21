@@ -32,14 +32,14 @@ Use ConnectionProfile.GetConnectionCost to obtain the ConnectionCost object and 
 Scenario guidance:
 
 1. If NetworkCostType is Unrestricted you can perform full-fidelity sync operations. Still check Roaming to respect
-    user metering preferences when on certain enterprise or roaming scenarios that may not strictly enforce cost.
+   user metering preferences when on certain enterprise or roaming scenarios that may not strictly enforce cost.
 2. If NetworkCostType is Fixed set conservative background transfer sizes and respect MaxTransferSizeInMegabytes if
-    provided via the associated DataPlanStatus.
+   provided via the associated DataPlanStatus.
 3. If NetworkCostType is Variable treat the connection similarly to a fixed cost near its limit: batch
-    opportunistically and provide user controls to defer high-volume tasks.
+   opportunistically and provide user controls to defer high-volume tasks.
 4. Always gate large downloads on Roaming == false and OverDataLimit == false to avoid surprise charges.
 5. For real-time streaming, adapt bitrate based on NetworkCostType and remaining quota (if available) rather than
-    hard disabling features.
+   hard disabling features.
 
 ## -examples
 Decision pseudo-logic:
