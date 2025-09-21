@@ -24,11 +24,11 @@ The desired radio state.
 An asynchronous state setting operation. On successful completion, contains an enumeration value describing status of the state change request.
 
 ## -remarks
+The `radios` capability is required for all radios. If the radio Kind is **RadioKind.MobileBroadband**, then this also requires `cellularDeviceControl`, a restricted capability granted to Mobile Operators.
 
-The `radios` capability is required for all radios.
-If the radio Kind is **RadioKind.MobileBroadband**, then this also requires `cellularDeviceControl`, a restricted capability given to Mobile Operators.
+Only **On** and **Off** states are settable. A requested change can be superseded by system or user actions. Rapid internal transitions may not surface individually through events.
 
-The returned `IAsyncOperation<RadioAccessStatus>` can throw the ERROR_BUSY exception when retrieving the result, if the radio state is changed by another process simultaneously. This exception must be caught and the operation retried if necessary.
+If the state changes externally at the same time as the request, the operation can complete with a status indicating the final effective state rather than an intermediate step.
 
 ## -examples
 

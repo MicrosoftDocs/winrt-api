@@ -17,6 +17,7 @@ Gets the current state of the radio represented by this object.
 The current radio state.
 
 ## -remarks
+The value reflects the current effective state when accessed. Internal intermediate transitions may be coalesced and not all steps are observable. The state of one radio does not imply the state or availability of other radio technologies.
 
 ## -examples
 

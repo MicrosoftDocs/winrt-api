@@ -21,6 +21,7 @@ A string that identifies a particular radio device.
 An asynchronous retrieval operation. On successful completion, it contains a [Radio](radio.md) object that represents the specified radio device. Otherwise it throws an exception.
 
 ## -remarks
+This method retrieves the current representation of the specified radio by device identifier. If the underlying hardware has been removed or is unavailable, the returned object reflects the last known configuration and typically reports a Disabled state. A radio that no longer exists will not appear in new enumeration snapshots.
 
 ## -examples
 
