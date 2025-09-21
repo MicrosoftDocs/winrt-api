@@ -31,17 +31,29 @@ Common pitfalls:
 * Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
 * Setting multiple cost related constraints (for example NetworkCostType plus Roaming or OverDataLimit states) can lead to brittle logic—query the profile's ConnectionCost after selection instead.
 
+Avoid reusing and toggling properties on a single filter instance between calls—leftover state can unintentionally over‑constrain and yield zero results (see carrier / service provider filtering example below).
+
 ## -examples
-### Example (C#):
+Carrier / service provider filtering (C#):
 
 ```csharp
-var filter = new Windows.Networking.Connectivity.ConnectionProfileFilter
+var carrierId = new Guid("f68cd4bf-a388-4e8b-91ea-54dd6dd901c0");
+
+// WWAN profiles
+var wwanFilter = new ConnectionProfileFilter
+{
+    IsWwanConnectionProfile = true,
+    ServiceProviderGuid = carrierId
+};
+var wwanProfiles = await NetworkInformation.FindConnectionProfilesAsync(wwanFilter);
+
+// WLAN offload (create a new filter instead of mutating the prior one)
+var wlanFilter = new ConnectionProfileFilter
 {
     IsWlanConnectionProfile = true,
-    NetworkCostType = Windows.Networking.Connectivity.NetworkCostType.Unrestricted
+    ServiceProviderGuid = carrierId
 };
-
-var profiles = await Windows.Networking.Connectivity.NetworkInformation.FindConnectionProfilesAsync(filter);
+var wlanProfiles = await NetworkInformation.FindConnectionProfilesAsync(wlanFilter);
 ```
 
 ### Selecting a cellular profile with minimum connectivity level

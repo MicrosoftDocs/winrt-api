@@ -34,7 +34,34 @@ Deletion guidance:
 
 TryDeleteAsync only succeeds for user-removable profiles (e.g., some WLAN profiles) and when the caller has appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or UnknownError gracefully.
 
-Example: Summarize active internet profile (C#):
+Performance tips:
+
+* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for telemetry.
+* Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
+* For background tasks, check cost state late (immediately before transfer) to ensure freshness.
+
+Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly; the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
+
+Domain authentication:
+
+Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re‑query after network status change events rather than caching earlier results because authentication state can change with network transitions.
+
+Relationship to DomainConnectivityLevel:
+
+`GetDomainConnectivityLevel()` reports the broader domain trust state (None / Unauthenticated / Authenticated) while `IsDomainAuthenticatedBy(...)` identifies which mechanism (LDAP or TLS) established that trust. Typically you first ensure `GetDomainConnectivityLevel()` returns `Authenticated` and then branch on the authentication kind if you need to distinguish behavior or telemetry.
+
+For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1709 | 16299 | GetProviderNetworkUsageAsync |
+| 1809 | 17763 | CanDelete |
+| 1809 | 17763 | TryDeleteAsync |
+
+## -examples
+Summarize active internet profile (C#):
 
 ```csharp
 using Windows.Networking.Connectivity;
@@ -57,7 +84,7 @@ IAsyncAction LogUsage(ConnectionProfile const& profile)
 {
      auto endTime = DateTime::clock::now();
      auto startTime = endTime - std::chrono::hours(1);
-     auto granularity = NetworkUsageStates(); // default (all)
+     NetworkUsageStates states; // default (all)
      auto usages = co_await profile.GetNetworkUsageAsync(startTime, endTime, DataUsageGranularity::PerMinute, L"{}");
      for (auto const& u : usages)
      {
@@ -67,7 +94,7 @@ IAsyncAction LogUsage(ConnectionProfile const& profile)
 }
 ```
 
-C++/WinRT helper to log cost state:
+Log cost state (C++/WinRT):
 
 ```cpp
 void LogCost(ConnectionProfile const& profile)
@@ -81,29 +108,6 @@ void LogCost(ConnectionProfile const& profile)
 }
 ```
 
-Performance tips:
-
-* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (e.g., per 15 minutes) for telemetry.
-* Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
-* For background tasks, check cost state late (immediately before transfer) to ensure freshness.
-
-Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly; the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
-
-Domain authentication:
-
-Some enterprise networks can be domain‑authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method will report true (LDAP takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain authenticated". Re‑query after network status change events rather than caching earlier results because authentication state can change with network transitions.
-
-For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
-
-### Version history
-
-| Windows version | SDK version | Value added |
-| -- | -- | -- |
-| 1709 | 16299 | GetProviderNetworkUsageAsync |
-| 1809 | 17763 | CanDelete |
-| 1809 | 17763 | TryDeleteAsync |
-
-## -examples
 Delete a removable Wi-Fi profile if allowed (C#):
 
 ```csharp

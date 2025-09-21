@@ -31,6 +31,22 @@ Use this class to:
 4. Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
 5. Obtain localized names or signal / data plan information through the associated profile objects.
 
+Important guidance:
+
+* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
+* The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
+* If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
+* For power efficiency, unsubscribe from events when your foreground component is not active.
+* If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
+
+Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
+
+For broader scenario guidance, see:
+
+* Network connectivity UWP sample (linked below)
+* Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
+
+## -examples
 Event subscription pattern (C#):
 
 ```csharp
@@ -40,7 +56,6 @@ NetworkStatusChangedEventHandler handler = sender =>
 {
     var profile = NetworkInformation.GetInternetConnectionProfile();
     var level = profile?.GetNetworkConnectivityLevel();
-    // React only when connectivity allowing Internet access changes
     if (level == NetworkConnectivityLevel.InternetAccess)
     {
         // Safe to (re)try outbound requests
@@ -50,14 +65,32 @@ NetworkStatusChangedEventHandler handler = sender =>
 NetworkInformation.NetworkStatusChanged += handler;
 ```
 
-Important guidance:
+Selective re-query pattern (C# pseudo-code):
 
-* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it’s updated automatically.
-* The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
-* If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
-* For power efficiency, unsubscribe from events when your foreground component is not active.
+```csharp
+void OnNetworkStatusChanged(NetworkStateChangeEventDetails details)
+{
+    var profile = NetworkInformation.GetInternetConnectionProfile();
+    if (details.HasNewNetworkConnectivityLevel || details.HasNewInternetConnectionProfile)
+    {
+        var level = profile?.GetNetworkConnectivityLevel();
+    }
+    if (details.HasNewConnectionCost)
+    {
+        var cost = profile?.GetConnectionCost();
+    }
+    if (details.HasNewDomainConnectivityLevel)
+    {
+        bool tls = profile?.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) == true;
+    }
+    if (details.HasNewHostNameList)
+    {
+        // Refresh host name dependent routing logic
+    }
+}
+```
 
-Filtering examples:
+Filtering example (C#):
 
 ```csharp
 var filter = new ConnectionProfileFilter
@@ -68,14 +101,6 @@ var filter = new ConnectionProfileFilter
 var wifiProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
 ```
 
-Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
-
-For broader scenario guidance, see:
-
-* Network connectivity UWP sample (linked below)
-* Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
-
-## -examples
 Determine if the device currently has internet access and is on an unrestricted network (C#):
 
 ```csharp
