@@ -54,44 +54,48 @@ Decision pseudo-logic:
 var cost = profile.GetConnectionCost();
 
 bool unrestricted = cost.NetworkCostType == NetworkCostType.Unrestricted;
-bool fixedPlan   = cost.NetworkCostType == NetworkCostType.Fixed;
-bool variable    = cost.NetworkCostType == NetworkCostType.Variable;
 
 // Base operating mode
 if (unrestricted && !cost.Roaming && !cost.BackgroundDataUsageRestricted)
 {
-   EnableHighBandwidthFeatures();
+   // App-specific: enable high-bandwidth features (e.g., HD media sync)
 }
 else
 {
-   EnterConservativeMode();
+   // App-specific: enter conservative mode (reduced quality / deferred background work)
 }
 
 // Progressive constraints
 if (cost.ApproachingDataLimit)
 {
-   ThrottleBitrate(targetKbps: 1500); // example adaptive choice
+   // App-specific: reduce bitrate / quality to stay within plan (e.g., target ~1.5 Mbps)
 }
 
 if (cost.OverDataLimit)
 {
-   PauseNonEssentialBackgroundSync();
+   // App-specific: pause non-essential background synchronization
 }
 
 if (cost.BackgroundDataUsageRestricted)
 {
-   DeferBackgroundTelemetry();
+   // App-specific: defer background-only telemetry / analytics
 }
 
 if (cost.Roaming)
 {
-   CompressLargePayloads();
+   // App-specific: compress or batch large payload transfers while roaming
 }
 
 // Optional: adapt chunk sizing based on plan type
-if (fixedPlan || variable)
 {
-   SetMaxTransferChunkSize(cost.MaxTransferSizeInMegabytes ?? 8); // fallback chunk size
+   // Evaluate only when needed for this decision branch.
+   bool fixedPlan = cost.NetworkCostType == NetworkCostType.Fixed;
+   bool variable  = cost.NetworkCostType == NetworkCostType.Variable;
+   if (fixedPlan || variable)
+   {
+      var chunkSizeMb = cost.MaxTransferSizeInMegabytes ?? 8; // choose smaller transfer chunks
+      // App-specific: apply chunkSizeMb constraint to large uploads/downloads
+   }
 }
 ```
 

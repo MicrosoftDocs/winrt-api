@@ -49,11 +49,15 @@ NetworkInformation.NetworkStatusChanged += async (s) =>
     var details = NetworkInformation.GetNetworkStateChangeEventDetails();
     if (details?.HasNewTetheringOperationalState == true)
     {
-        var newState = await TetheringHelper.GetOperationalStateAsync(); // placeholder call
+        // Re-query current tethering (mobile hotspot) operational state.
+        var profile = NetworkInformation.GetInternetConnectionProfile();
+        if (profile == null) return; // No active profile to query
+        var tetheringManager = Windows.Networking.NetworkOperators.NetworkOperatorTetheringManager.CreateFromConnectionProfile(profile);
+        var newState = tetheringManager.TetheringOperationalState;
         if (newState != _cachedState)
         {
-            _cachedState = newState;
-            UpdateTetheringStateDisplay(newState);
+          _cachedState = newState;
+          // App-specific: update UI / logic to reflect new tethering state
         }
     }
 };

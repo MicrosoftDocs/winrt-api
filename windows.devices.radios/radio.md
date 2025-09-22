@@ -48,6 +48,7 @@ var access = await Radio.RequestAccessAsync();
 if (access == RadioAccessStatus.Allowed)
 {
     var radios = await Radio.GetRadiosAsync();
+    // Attach handlers before making any state changes so no events are missed.
     foreach (var r in radios)
     {
         r.StateChanged += (sender, _) => UpdateRadioDisplay(sender);

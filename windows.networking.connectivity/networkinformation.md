@@ -128,7 +128,7 @@ IAsyncAction ListWifiProfiles()
     ConnectionProfileFilter filter;
     filter.IsWlanConnectionProfile(true);
     filter.IsConnected(true);
-auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
+    auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
     for (auto const& p : profiles)
     {
         if (auto wlan = p.WlanConnectionProfileDetails())

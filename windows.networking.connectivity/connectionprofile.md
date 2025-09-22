@@ -128,10 +128,13 @@ void LogCost(ConnectionProfile const& profile)
 {
      if (!profile) return;
      auto cost = profile.GetConnectionCost();
-     // Example logging; replace with your telemetry mechanism
-     // (Pseudo logging macro) LOG_INFO << L"CostType=" << to_underlying(cost.NetworkCostType())
-     //           << L" roaming=" << cost.Roaming()
-     //           << L" overLimit=" << cost.OverDataLimit();
+
+     std::wcout << L"CostType=" << static_cast<int>(cost.NetworkCostType())
+                  << L" roaming=" << (cost.Roaming() ? L"true" : L"false")
+                  << L" overLimit=" << (cost.OverDataLimit() ? L"true" : L"false")
+                  << L" approachingLimit=" << (cost.ApproachingDataLimit() ? L"true" : L"false")
+                  << L" backgroundRestricted=" << (cost.BackgroundDataUsageRestricted() ? L"true" : L"false")
+                  << std::endl;
 }
 ```
 
@@ -179,11 +182,11 @@ Check domain authentication mechanism (C#):
 var profile = NetworkInformation.GetInternetConnectionProfile();
 if (profile != null)
 {
-     bool ldap = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap);
-     bool tls  = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls);
-     if (ldap || tls)
+     bool isLdap = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap);
+     bool isTls  = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls);
+     if (isLdap || isTls)
      {
-          // Enable enterprise-only resources; optionally branch on ldap vs tls
+          // Enable enterprise-only resources; optionally branch on LDAP vs TLS
      }
 }
 ```

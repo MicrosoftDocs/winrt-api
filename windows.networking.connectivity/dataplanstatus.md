@@ -47,14 +47,24 @@ if (status?.DataPlanUsage != null && status.DataLimitInMegabytes.HasValue)
 ```cpp
 auto profile = Windows::Networking::Connectivity::NetworkInformation::GetInternetConnectionProfile();
 auto status = profile ? profile.GetDataPlanStatus() : nullptr;
-auto usage = (status && status.DataPlanUsage()) ? status.DataPlanUsage() : nullptr;
-if (status && usage && status.DataLimitInMegabytes())
+if (!status)
 {
-    auto used = usage.MegabytesUsed();
-    auto limit = status.DataLimitInMegabytes().Value();
-    double pct = static_cast<double>(used) / limit;
-    if (pct > 0.8) {
-        // Enter reduced bandwidth mode
+    return; // No data plan info available.
+}
+
+auto usage    = status.DataPlanUsage();            // May be null
+auto limitRef = status.DataLimitInMegabytes();     // IReference<uint32_t>, may be null
+
+if (usage && limitRef)
+{
+    auto limit = limitRef.Value();
+    if (limit > 0) // Defensive: avoid divide-by-zero if a provider reports 0.
+    {
+        double pct = static_cast<double>(usage.MegabytesUsed()) / limit;
+        if (pct > 0.8)
+        {
+            // Enter reduced bandwidth mode
+        }
     }
 }
 ```

@@ -43,7 +43,7 @@ Functional selection notes:
 Carrier / service provider filtering (C#):
 
 ```csharp
-var carrierId = new Guid("f68cd4bf-a388-4e8b-91ea-54dd6dd901c0");
+var carrierId = Guid.Parse("f68cd4bf-a388-4e8b-91ea-54dd6dd901c0"); // Replace with your known service provider GUID
 
 // WWAN profiles
 var wwanFilter = new ConnectionProfileFilter
@@ -65,7 +65,7 @@ var wlanProfiles = await NetworkInformation.FindConnectionProfilesAsync(wlanFilt
 ### Selecting a cellular profile with minimum connectivity level
 
 ```csharp
-var filter = new Windows.Networking.Connectivity.ConnectionProfileFilter
+var filter = new ConnectionProfileFilter
 {
     IsWwanConnectionProfile = true,
     NetworkConnectivityLevel = Windows.Networking.Connectivity.NetworkConnectivityLevel.InternetAccess
