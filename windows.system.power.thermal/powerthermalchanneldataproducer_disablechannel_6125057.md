@@ -12,7 +12,7 @@ public void DisableChannel (Windows.System.Power.Thermal.PowerThermalChannelId c
 
 ## -description
 
-Disables publishing for the specified input channel so no further data from that channel is published by the producer.
+Disables the specified input channel so its value is not used by power/thermal algorithms that depend on it
 
 ## -parameters
 

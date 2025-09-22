@@ -12,7 +12,7 @@ public struct PowerThermalChannelData
 
 ## -description
 
-Represents a single data sample from a power/thermal channel, including channel identifier, measured value, and optional timestamp.
+Represents a single data sample from a power/thermal channel, including channel identifier, and measured value.
 
 ## -struct-fields
 

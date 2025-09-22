@@ -12,11 +12,11 @@ public Windows.System.Power.Thermal.PowerThermalChannelId Id { get; }
 
 ## -description
 
-Gets the unique identifier for this channel configuration.
+Gets the unique identifier for the channel associated with this configuration.
 
 ## -property-value
 
-A [PowerThermalChannelId](./powerthermalchannelid.md) that uniquely identifies the channel configuration.
+A [PowerThermalChannelId](./powerthermalchannelid.md) that uniquely identifies the channel.
 
 ## -remarks
 
