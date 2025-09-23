@@ -44,6 +44,8 @@ Functional behavior:
 ## -examples
 ### Enumerate, subscribe, and control radios (C#)
 ```csharp
+using Windows.Devices.Radios;
+
 var access = await Radio.RequestAccessAsync();
 if (access == RadioAccessStatus.Allowed)
 {

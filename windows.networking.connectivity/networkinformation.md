@@ -94,6 +94,8 @@ void OnNetworkStatusChanged(NetworkStateChangeEventDetails details)
 Filtering example (C#):
 
 ```csharp
+using Windows.Networking.Connectivity;
+
 var filter = new ConnectionProfileFilter
 {
     IsConnected = true,
@@ -105,6 +107,8 @@ var wifiProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
 Determine if the device currently has internet access and is on an unrestricted network (C#):
 
 ```csharp
+using Windows.Networking.Connectivity;
+
 var profile = NetworkInformation.GetInternetConnectionProfile();
 bool hasInternet = profile?.GetNetworkConnectivityLevel() == NetworkConnectivityLevel.InternetAccess;
 bool unrestricted = false;

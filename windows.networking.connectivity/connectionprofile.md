@@ -141,6 +141,8 @@ void LogCost(ConnectionProfile const& profile)
 Delete a removable Wi-Fi profile if allowed (C#):
 
 ```csharp
+using Windows.Networking.Connectivity;
+
 var profiles = await NetworkInformation.FindConnectionProfilesAsync(new ConnectionProfileFilter{ IsWlanConnectionProfile = true });
 foreach (var p in profiles)
 {
@@ -179,6 +181,8 @@ IAsyncAction LogAttributedUsage(ConnectionProfile const& profile)
 Check domain authentication mechanism (C#):
 
 ```csharp
+using Windows.Networking.Connectivity;
+
 var profile = NetworkInformation.GetInternetConnectionProfile();
 if (profile != null)
 {
