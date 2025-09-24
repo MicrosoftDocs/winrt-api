@@ -28,10 +28,6 @@ Before attempting to control any radio, you must request permission using
 [RequestAccessAsync](radio_requestaccessasync_380675631.md). This is essential because radio control may require explicit 
 user consent depending on regional settings and system configuration.
 
-> [!IMPORTANT]
-> Always call [RequestAccessAsync](radio_requestaccessasync_380675631.md) before attempting to change radio states. 
-> In some regions and configurations, radio control requires explicit user consent.
-
 ### Radio properties and control
 
 Once you have a Radio instance, you can examine its current state and properties. The [State](radio_state.md) property 

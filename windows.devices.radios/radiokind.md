@@ -27,7 +27,7 @@ A mobile broadband radio. Cellular radios for wide-area network connectivity (3G
 A Bluetooth radio. Short-range wireless communication for device pairing and data transfer.
 
 ### -field FM:4
-An FM radio. Radio reception hardware for future use - not currently available.
+An FM radio. Radio reception hardware.
 
 > [!NOTE]
 > This value is defined for future use, and is not currently available.
