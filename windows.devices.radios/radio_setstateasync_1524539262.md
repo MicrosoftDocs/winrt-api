@@ -37,8 +37,8 @@ internal transitions may be coalesced and not surface individually through event
 If the state changes externally while the request is in flight, the operation may complete with a status indicating
 the final effective state rather than an intermediate step.
 
- A radio can be present but not user-controllable if required capabilities or policies are missing; its reported state
- is observable but attempts to change it have no effect.
+A radio can be present but not user-controllable if required capabilities or policies are missing; its reported state
+is observable but attempts to change it have no effect.
 
 ## -examples
 
