@@ -34,7 +34,7 @@ Access was denied by the system. One common reason is insufficient permission to
 - **Allowed**: Application has permission to control radio states
 - **DeniedByUser**: User explicitly denied radio control permission through privacy settings
 - **DeniedBySystem**: System policy prevents radio control (insufficient privileges, group policy, etc.)
-- **Unspecified**: No specific access control is implemented for this radio
+- **Unspecified**: Access state cannot be determined; treat as denied for safety
 
 **User consent scenarios:**
 - First-time access requests may prompt the user
