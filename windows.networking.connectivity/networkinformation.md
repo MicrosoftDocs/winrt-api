@@ -29,20 +29,20 @@ For examples of how NetworkInformation class methods are implemented, see [Quick
 
 Use this class to:
 
-1. Query the current internet connection profile (GetInternetConnectionProfile).
-2. Enumerate all connection profiles that match specific criteria (FindConnectionProfilesAsync with ConnectionProfileFilter).
-3. Listen for network status changes (the NetworkStatusChanged event) instead of polling.
-4. Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
-5. Obtain localized names or signal / data plan information through the associated profile objects.
+1. Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
+2. Obtain localized names or signal / data plan information through the associated profile objects.
 
 Important guidance:
 
-* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
-* The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
-* If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
 * Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet profile reference changing. Re-check `GetNetworkConnectivityLevel()` inside each event invocation.
+
+Event handling best practices:
+
+* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+* The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
+* If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
 
 Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
 
