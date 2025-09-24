@@ -11,39 +11,39 @@ public event Windows.Foundation.TypedEventHandler StateChanged<Windows.Devices.R
 # Windows.Devices.Radios.Radio.StateChanged
 
 ## -description
-Event raised when the radio state changes.
+Occurs when a radio's operational state changes.
 
 ## -remarks
-The [StateChanged](radio_statechanged.md) event provides notification when a radio's operational state transitions between 
-[RadioState](radiostate.md) values, enabling applications to respond to both user-initiated and system-initiated changes.
+### Overview
+Raised for transitions between [RadioState](radiostate.md) values (for example: [On](radiostate.md), [Off](radiostate.md), [Disabled](radiostate.md), [Unknown](radiostate.md)). Lets apps adapt to user or system initiated changes (power policy, airplane mode, hardware switch, entitlement).
 
-### Event behavior and timing
+### Event semantics
+| Behavior | Details |
+| -- | -- |
+| Coalescing | Rapid intermediate transitions can be merged into a single notification. |
+| Removal | Physical removal normally yields no final event; subsequent enumeration omits the radio. |
+| Ordering | Multiple radios may report changes independently; no global ordering guarantee. |
 
-**State change detection:**
-- Event fires for all observable state transitions ([On](radiostate.md), [Off](radiostate.md), [Disabled](radiostate.md), [Unknown](radiostate.md))
-- Rapid intermediate transitions may be coalesced into single events
-- Physical radio removal typically results in no event - the radio disappears from subsequent enumerations
+### Threading
+Handlers run on a background thread. Marshal to the appropriate app thread for UI or thread-affine operations. Keep handlers short to avoid delaying subsequent notifications.
 
-**Threading considerations:**
-- Event handlers are invoked on background threads
-- Use appropriate thread marshalling when interfacing with thread-sensitive operations
-- Avoid long-running operations in event handlers to prevent blocking radio state monitoring
+### Recommended pattern
+1. Read current [Radio.State](radio_state.md) inside the handler (do not rely on cached state).
+2. Apply minimal conditional logic (only act when the new state changes app behavior).
+3. Queue or dispatch heavier work outside the handler if needed.
+4. Unsubscribe (`-=`) when the radio object is no longer required.
 
-### Event handling best practices
+### Best practices
+| Concern | Guidance |
+| -- | -- |
+| Missing intermediates | Always treat the observed state as authoritative; do not infer skipped states. |
+| Resource leaks | Unsubscribe when disposing long-lived consumers to prevent memory retention. |
+| Duplicate subscriptions | Guard against attaching the same handler multiple times. |
+| Resilience | Handle every defined [RadioState](radiostate.md) value (including future / unknown) gracefully. |
 
-**State reading:**
-- Always read [Radio.State](radio_state.md) property when handling events
-- Do not assume intermediate state transitions occurred
-- Handle all possible [RadioState](radiostate.md) values
+> [!NOTE]  
+> Handlers execute on background threads; marshal only the minimal data needed to the foreground/UI thread.
 
-**Resource management:**
-- Unsubscribe from events when radio objects are no longer needed
-- Avoid subscribing multiple handlers to the same radio
-- Consider using weak event patterns for long-lived objects
-
-> [!NOTE]
-> Event handlers are invoked on background threads. Use appropriate thread marshalling mechanisms when interfacing with 
-> thread-sensitive operations.
 
 ## -examples
 

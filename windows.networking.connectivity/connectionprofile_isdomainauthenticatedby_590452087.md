@@ -10,8 +10,7 @@ public bool IsDomainAuthenticatedBy (Windows.Networking.Connectivity.DomainAuthe
 -->
 
 ## -description
-
-Queries whether the specified domain authentication method succeeded for this connection profile.
+Determines whether the specified domain authentication mechanism succeeded for this connection profile.
 
 ## -parameters
 
@@ -20,34 +19,46 @@ Queries whether the specified domain authentication method succeeded for this co
 The specific domain authentication method to query about.
 
 ## -returns
-
-`true` if this connection profile has the same domain authentication kind as that specified in the *kind* parameter; `false` if this connection profile has a different domain authentication kind from that specified in *kind*.
+`true` if the connection profile is authenticated by the specified domain authentication kind; otherwise, `false`.
 
 ## -remarks
-Use this method to differentiate which enterprise domain authentication mechanism (if any) validated the current network for the associated `ConnectionProfile`.
+### Behavior
+Only one domain authentication mechanism reports true at a time (precedence applies). If both LDAP (Active Directory) and
+TLS-based validation could succeed, LDAP takes precedence and TLS returns false.
 
-Behavior and guidance:
+### Common queries
+* Any authenticated: `!profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.None)`
+* LDAP specifically: `profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap)`
+* TLS-based: `profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls)`
 
-* Precedence: Only one mechanism reports true. If both LDAP (Active Directory) and a TLS-based endpoint would succeed,
-  LDAP takes precedence and `IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap)` returns true while TLS returns false.
-* Negative check: `IsDomainAuthenticatedBy(DomainAuthenticationKind.None)` is logically equivalent to saying the profile is not domain authenticated.
-* Scope: This method is meaningful primarily when overall domain connectivity is established (for example when related connectivity level APIs indicate an authenticated enterprise domain context). It may transiently return `None` during network transitions or captive portal resolution.
-* Re-query strategy: Do not cache earlier results indefinitely. Re-query inside network status / domain change events to reflect changes when a device roams between corporate and public networks.
-* Policy dependency (TLS path): The TLS mode depends on device management policy defining allowed authentication endpoints. Absence or misconfiguration of policy causes the TLS value to remain false even if the network is otherwise trusted.
-* Telemetry / diagnostics: For logging, record both the boolean result and which kind you queried so you can measure adoption of newer TLS-based trust vs legacy LDAP.
-* Fallback logic: Prefer feature enabling based on any authenticated mechanism (LDAP or TLS) unless your scenario strictly requires the additional LDAP semantics.
+### Guidance
+- Use event-driven re-query (network status / domain change events). Do not poll aggressively.
+- Treat `None` as unauthenticated; transient `None` values can occur during transitions (roam, captive portal).
+- Prefer enabling enterprise features for either LDAP or TLS unless LDAP-specific semantics are required.
+- Log both the queried kind and the boolean result for telemetry.
 
-Edge cases:
+### TLS considerations
+TLS-based determination depends on device policy specifying trusted authentication endpoints. Missing or misconfigured
+policy yields `false` even on otherwise trusted networks.
 
-* VPN scenarios: Domain authentication kind may reflect the tunneled corporate trust rather than the local physical network.
-* Offline resume: After resume from sleep, revalidation may take time; defer critical enterprise-only actions until a positive result is observed.
+### Edge cases
+- VPN: Reported kind can reflect the tunneled corporate network rather than the local physical link.
+- Resume from low-power: Allow time for revalidation before gating critical enterprise actions.
 
-Performance:
+### Performance
+Lightweight call; suitable inside status handlers. Avoid tight polling loops—subscribe to change events instead.
 
-This call is lightweight (property-based) and can be invoked in response handlers; avoid polling in tight loops. Prefer event-driven updates.
+### Fallback logic
+If neither LDAP nor TLS returns true, treat the profile as not domain authenticated and apply default (non-enterprise)
+behavior.
+
+> [!NOTE]  
+> A future platform update could introduce additional domain authentication kinds. Code defensively by handling
+> unknown enum values gracefully.
+
 
 ## -see-also
-[DomainAuthenticationKind](domainauthenticationkind.md)
+[DomainAuthenticationKind](domainauthenticationkind.md)  
 [ConnectionProfile](connectionprofile.md)
 
 ## -examples

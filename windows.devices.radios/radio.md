@@ -92,7 +92,9 @@ private void ProcessRadio(Radio radio)
 }
 ```
 
-For comprehensive radio management examples including capability-aware control, state monitoring, and device enumeration patterns, see the [RadioManager sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/RadioManager).
+For comprehensive radio management examples including capability-aware control, state monitoring, and device enumeration  
+patterns, see the  
+[RadioManager sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/RadioManager).
 
 ## -see-also
 [DeviceInformation](../windows.devices.enumeration/deviceinformation.md),

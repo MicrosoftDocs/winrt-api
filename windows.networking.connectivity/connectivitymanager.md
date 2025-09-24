@@ -10,48 +10,69 @@ public class ConnectivityManager
 # Windows.Networking.Connectivity.ConnectivityManager
 
 ## -description
-Provides methods for acquiring cellular connections and managing HTTP traffic routing policies, enabling applications to control 
-network traffic flow and establish connections to specific cellular APNs.
+Provides APIs to (1) acquire cellular connections (custom APN contexts) and (2) add or remove per‑app HTTP route
+policies that direct HTTP traffic through specific connection profiles.
 
 ## -remarks
-[ConnectivityManager](connectivitymanager.md) is a static class that provides two primary capabilities:
+### Capabilities
+1. Acquire cellular connections for a specified APN via
+   [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) using a
+   [CellularApnContext](cellularapncontext.md).
+2. Apply / remove per‑app HTTP routing via
+   [AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy_1422666154.md) and
+   [RemoveHttpRoutePolicy](connectivitymanager_removehttproutepolicy_934323036.md) using a [RoutePolicy](routepolicy.md).
 
 ### Cellular connection acquisition
+Use when you need a data session with custom APN characteristics (billing / security / isolated channel).
+Typical scenarios:
+- Enterprise or managed line‑of‑business apps
+- IoT / telemetry agents needing a dedicated APN
+- Billing segregation or specialized carrier feature enablement
 
-The [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) method enables applications to establish 
-connections to specific cellular Access Point Names (APNs) using [CellularApnContext](cellularapncontext.md) configurations. 
-This is particularly useful for:
+> [!IMPORTANT]  
+> Declare required cellular capabilities in the app manifest. Dispose the returned
+> [ConnectionSession](connectionsession.md) promptly to release resources.
 
-- Enterprise applications requiring specific APN configurations
-- IoT devices needing dedicated data connections
-- Applications requiring connections with specific billing or security characteristics
+Acquisition checklist:
+- Construct a precise [CellularApnContext](cellularapncontext.md) (provider ID, APN, authentication).
+- Await the session; validate resulting [ConnectionProfile](connectionprofile.md) meets required
+  `NetworkConnectivityLevel`.
+- Inspect [ConnectionCost](connectionprofile_getconnectioncost_1946735978.md) (roaming / metering) before starting large transfers.
+- Dispose on failure paths and when no longer needed.
 
-> [!IMPORTANT]
-> Connection acquisition through [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) requires 
-> appropriate cellular capabilities to be declared in the application manifest. The returned [ConnectionSession](connectionsession.md) 
-> must be properly disposed when the connection is no longer needed.
+### HTTP route policies
+[AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy_1422666154.md) associates destination suffixes (host/domain) with
+a specific profile to influence outbound HTTP traffic from the calling app only.
 
-### HTTP traffic routing policies  
+Important characteristics:
+- Scope: Per‑app, HTTP only. Does not affect system‑wide routing or non‑HTTP protocols.
+- Precedence: Evaluated before default system routing for matching HTTP requests.
+- Lifetime: Active until removed or process termination.
 
-The [AddHttpRoutePolicy](connectivitymanager_addhttproutepolicy_1422666154.md) and 
-[RemoveHttpRoutePolicy](connectivitymanager_removehttproutepolicy_934323036.md) methods enable enforcement of traffic routing 
-on specific network adapters for designated destination suffixes. Once a [RoutePolicy](routepolicy.md) is set:
+Common scenarios:
+| Scenario | Benefit |
+| -- | -- |
+| Multi‑homed optimization | Pin specific domains (e.g., CDN) to higher bandwidth / lower latency interface |
+| Cost control | Route large / non‑critical endpoints over cheaper network (e.g., Wi‑Fi vs cellular) |
+| VPN split behavior | Force sensitive API calls through VPN while leaving other traffic on default path |
+| Diagnostics | Validate interface performance by isolating traffic to one profile |
 
-- HTTP traffic matching the policy criteria will be routed through the specified [ConnectionProfile](connectionprofile.md)
-- Traffic that doesn't match routing policies will use default system routing
-- Policies remain active until explicitly removed or the application terminates
+### Route policy guidance
+- Keep policies minimal; avoid broad suffixes that unintentionally capture excessive traffic.
+- Remove policies when conditions change (e.g., interface down, cost now metered).
+- Re‑add after network changes; profiles can become invalid following transitions.
+- Log applied policies for troubleshooting; include targeted suffix and profile name.
 
-### Policy-based networking scenarios
+### Security / privacy
+- Do not rely on route policies for strong isolation; they influence routing but do not alter TLS endpoint validation.
+- Avoid exposing internal target suffix lists in user‑visible logs.
 
-Routing policies are valuable for:
-- **Multi-homed devices**: Directing specific traffic through particular network interfaces
-- **VPN scenarios**: Routing traffic through VPN connections based on destination
-- **Cellular cost management**: Directing non-critical traffic away from expensive cellular connections
-- **Quality of Service**: Using high-quality connections for priority traffic
+### Error handling
+- Acquisition failure: retry with backoff only if carrier policies allow; inspect exception details.
+- Route policy add failure: verify profile still valid (not disconnected) and host name formatting.
 
-> [!NOTE]
-> Routing policies only affect HTTP traffic originating from the same application that set the policy. System-wide traffic 
-> routing requires administrative privileges and is not supported through [ConnectivityManager](connectivitymanager.md).
+> [!NOTE]  
+> Policies affect only HTTP traffic from the calling application. They do not alter OS global routing tables.
 
 ## -examples
 

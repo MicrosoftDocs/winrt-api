@@ -11,36 +11,54 @@ public class NetworkSecuritySettings : Windows.Networking.Connectivity.INetworkS
 # Windows.Networking.Connectivity.NetworkSecuritySettings
 
 ## -description
-Provides information about the authentication and encryption settings for a network connection, particularly relevant for 
-wireless networks where security configuration varies.
+Exposes the authentication and encryption types applied to a connection (primarily meaningful for Wi‑Fi and other wireless links).
 
 ## -remarks
-[NetworkSecuritySettings](networksecuritysettings.md) objects are obtained from the 
-[NetworkSecuritySettings](connectionprofile_networksecuritysettings.md) property of a [ConnectionProfile](connectionprofile.md). 
-This class provides detailed information about the security protocols used for the network connection.
+### Retrieval
+Access via [ConnectionProfile.NetworkSecuritySettings](connectionprofile_networksecuritysettings.md).
 
-### Security properties
+### Properties
+- **[NetworkAuthenticationType](networksecuritysettings_networkauthenticationtype.md)**: Link-layer / Wi‑Fi authentication (Open, WPA2, WPA3, enterprise, etc.)
+- **[NetworkEncryptionType](networksecuritysettings_networkencryptiontype.md)**: Data encryption algorithm (None, WEP, TKIP, CCMP, GCMP variants, etc.)
 
-The [NetworkSecuritySettings](networksecuritysettings.md) class provides two key properties:
+### Interpretation
+| Aspect | Guidance |
+| -- | -- |
+| Authentication = Open / None | Treat as unsecured; restrict sensitive traffic or elevate user warnings |
+| WPA/WPA2‑PSK vs WPA3‑SAE | Prefer WPA3‑SAE where available (stronger protections against offline attacks) |
+| Enterprise (802.1X) modes | Indicates credential / certificate based access (typically stronger identity assurance) |
+| Encryption = TKIP or WEP | Legacy / weak; recommend upgrade (surface advisory) |
+| Encryption = CCMP / GCMP | Modern strong encryption (AES) |
 
-- [NetworkAuthenticationType](networksecuritysettings_networkauthenticationtype.md): The authentication method used 
-  (None, Open 802.11, WPA, WPA2, WPA3, etc.)
-- [NetworkEncryptionType](networksecuritysettings_networkencryptiontype.md): The encryption protocol used 
-  (None, WEP, TKIP, CCMP, etc.)
+### Wireless vs wired
+> [!IMPORTANT]  
+> Ethernet profiles commonly report `None` for authentication and encryption. Do not interpret this as unsafe; link‑layer
+> security may not apply (security enforced at higher layers: TLS, IPsec, VPN).
 
-### Wireless security considerations
+### Policy & compliance usage
+- Enforce minimum bar (e.g., block WEP/TKIP for sensitive operations).
+- Offer degraded feature set or require user consent when encountering legacy or open networks.
+- Log anonymous metrics on encountered auth/encryption types to guide enterprise policy improvements.
 
-> [!IMPORTANT]
-> Security settings are most relevant for wireless connections where authentication and encryption are configurable. 
-Wired Ethernet connections typically report "None" for both authentication and encryption types, as security is handled 
-at different network layers.
+### Best practices
+- Cache briefly; re‑query after network status changes (roam, reconnect).
+- Combine with cost & domain authentication (e.g., [ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md),
+  [IsDomainAuthenticatedBy](connectionprofile_isdomainauthenticatedby_590452087.md)) for holistic trust decisions.
+- Avoid hard-coding specific enum values for future extensibility—handle unknown types conservatively.
 
-### Authentication and encryption types
+### Common pitfalls
+| Pitfall | Impact | Mitigation |
+| -- | -- | -- |
+| Assuming WPA2 == always strong | Miss WPA2/TKIP downgrade | Check both auth and encryption |
+| Treating Open Wi‑Fi as equivalent to authenticated network | Data exposure | Force TLS / limit sensitive ops |
+| Long-lived cached security snapshot | Stale decisions after roam | Re‑evaluate on status change events |
 
-Wireless networks use various authentication and encryption combinations:
-- Authentication types include Open, WPA-PSK, WPA2-PSK (RSNA-PSK), WPA3-SAE, and enterprise variants
-- Encryption types include None, WEP, TKIP, CCMP, and GCMP variants
-- The combination determines the overall security configuration of the network
+> [!NOTE]  
+> Application-layer encryption (TLS, QUIC) remains critical even on "secure" Wi‑Fi; do not remove transport security requirements.
+
+
+
+
 
 ## -examples
 
@@ -115,7 +133,6 @@ private void EnableMinimalFunctionality() { /* App-specific: minimal offline-cap
 private void DisableSensitiveOperations() { /* App-specific: disable data transmission */ }
 private void WarnAboutLimitedSecurity() { /* App-specific: show security warning */ }
 private void RequireAdditionalAuthentication() { /* App-specific: prompt for additional auth */ }
-```
 ```
 
 ## -see-also

@@ -10,12 +10,9 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Networking.Connectivity.ConnectionProfile.GetNetworkUsageAsync
 
 ## -description
-Gets a list of the estimated data traffic and connection duration over a specified period of time, for a specific
-network usage state.
-
-[DataUsageGranularity](datausagegranularity.md) is used to indicate the desired granularity of the returned data and
-affects the length of the returned list. [NetworkUsageStates](networkusagestates.md) is used to indicate the desired
-network usage configuration.
+Retrieves per-interval usage (bytes sent/received and connected duration) for this profile over a specified time
+window using the requested [DataUsageGranularity](datausagegranularity.md) and optional
+[NetworkUsageStates](networkusagestates.md) filters.
 
 ## -parameters
 
@@ -35,15 +32,14 @@ per the specified granularity; for example, usage per hour.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-When the method completes, it returns a list of [NetworkUsage](networkusage.md) objects, which indicate the sent and
-received values, in bytes, and the total amount of time the profile was connected during the corresponding time
-interval. The entries are in chronological order, starting at the startTime. If the time span is not an exact multiple
-of the granularity, then the last entry will report usage only up to the endTime.
+An ordered list (chronological) of [NetworkUsage](networkusage.md) entries. Each entry contains bytes sent, bytes
+received, and connected duration for its interval. If the span is not an exact multiple of the granularity the final
+entry is partial and ends at endTime.
 
 ## -remarks
 This method returns aggregate network usage data for the connection profile over the specified time window.
 
-### Usage API Best Practices
+### Usage API best practices
 
 **Time Window Management:**
 * Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute) to avoid extra leading or trailing partial buckets.
@@ -123,4 +119,6 @@ Key points:
 * Demonstrates aligning start boundary and skipping the partial trailing bucket.
 
 ## -see-also
-[DataUsageGranularity](datausagegranularity.md), [NetworkUsage](networkusage.md), [NetworkUsageStates](networkusagestates.md)
+[DataUsageGranularity](datausagegranularity.md),
+[NetworkUsage](networkusage.md),
+[NetworkUsageStates](networkusagestates.md)

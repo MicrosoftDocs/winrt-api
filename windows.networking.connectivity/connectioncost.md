@@ -10,59 +10,51 @@ public class ConnectionCost : Windows.Networking.Connectivity.IConnectionCost, W
 # Windows.Networking.Connectivity.ConnectionCost
 
 ## -description
-Provides access to property values that indicate the current cost characteristics of a network connection, enabling applications 
-to make intelligent decisions about network usage based on cost constraints.
+Exposes cost and data plan constraint information for a network connection so apps can adapt data usage behavior.
 
 ## -remarks
-[ConnectionCost](connectioncost.md) objects are obtained from [ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md) 
-and provide detailed information about the cost characteristics of a network connection. This information helps applications 
-optimize their network behavior based on the user's data plan and network conditions.
+[ConnectionCost](connectioncost.md) instances come from  
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md). They describe cost policies,  
+roaming state, plan limits, and background restrictions so applications can adjust transfer strategies.
 
-### Cost properties and decision making
+### Key properties
 
-The [ConnectionCost](connectioncost.md) class provides several key properties for cost assessment:
+**Core cost indicators:**
+- **[NetworkCostType](connectioncost_networkcosttype.md)**: Unrestricted, Fixed, or Variable plan classification
+- **[Roaming](connectioncost_roaming.md)**: Connection currently incurring roaming charges
+- **[OverDataLimit](connectioncost_overdatalimit.md)**: Plan cap exceeded
+- **[ApproachingDataLimit](connectioncost_approachingdatalimit.md)**: Nearing plan cap
 
-**Core cost information:**
-- [NetworkCostType](connectioncost_networkcosttype.md): Indicates whether the connection is unrestricted, fixed, or variable cost
-- [Roaming](connectioncost_roaming.md): Indicates if the connection is currently roaming
-- [OverDataLimit](connectioncost_overdatalimit.md): Indicates if the connection has exceeded its data limit
-- [ApproachingDataLimit](connectioncost_approachingdatalimit.md): Indicates if the connection is nearing its data limit
+**Background restriction:**
+- **[BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md)**: Background transfers limited by
+  policy or settings
 
-**Background data restrictions (Windows 10 and later):**
-- [BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md): Indicates if background data usage is 
-  restricted by user settings or system policies
+> [!IMPORTANT]  
+> Always evaluate cost properties before large or background transfers. Respecting constraints preserves user data
+> allowances and improves experience.
 
-> [!IMPORTANT]
-> Applications should always check [ConnectionCost](connectioncost.md) properties before performing large data transfers or 
-> background operations. Respecting cost constraints helps preserve user data allowances and provides a better user experience.
+### Adaptive behavior patterns
 
-### Cost-based application behavior
+| Condition | Recommended strategy |
+| -- | -- |
+| Unrestricted | Full-fidelity sync, media prefetch, normal background work |
+| Fixed | Regular operations; gate large optional downloads (offer user confirmation) |
+| Variable | Minimize non‑essential transfers; compress & batch user‑initiated large tasks |
+| ApproachingDataLimit | Warn before large downloads; lower streaming bitrate / quality |
+| OverDataLimit | Pause non‑critical background sync; require explicit user action for large transfers |
+| Roaming | Suppress large automatic updates; prefer incremental / compressed payloads |
+| BackgroundDataUsageRestricted | Restrict background-only telemetry & sync; allow user foreground actions |
+| Roaming + Variable/Fixed | Strict throttling; surface lightweight usage indicator |
 
-Based on the [NetworkCostType](connectioncost_networkcosttype.md), applications should adjust their behavior:
-
-**Unrestricted networks:**
-- Perform full synchronization and updates
-- Download large content and media
-- Execute all background tasks
-
-**Fixed cost networks:**
-- Perform regular operations but consider deferring large downloads
-- Respect user preferences for automatic updates
-
-**Variable cost networks:**
-- Minimize non-essential data usage
-- Defer large downloads unless user-initiated
-- Reduce sync frequency and content quality
-
-**Additional restrictions:**
-- When [OverDataLimit](connectioncost_overdatalimit.md) is true, minimize all non-critical operations
-- When [ApproachingDataLimit](connectioncost_approachingdatalimit.md) is true, warn users before large operations
-- When [BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md) is true, avoid background data usage
+### Implementation notes
+- Evaluate individual flags; do not rely solely on [NetworkCostType](connectioncost_networkcosttype.md) transitions.
+- Re-check cost just before initiating sizable transfers (state can change mid-session).
+- Prefer incremental chunking (smaller segments respect shifting policy constraints).
 
 ## -examples
 
 ## -see-also
 [ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md),
-[NetworkCostType](networkcosttype.md),
 [DataPlanStatus](dataplanstatus.md),
+[NetworkCostType](networkcosttype.md),
 [NetworkInformation](networkinformation.md)

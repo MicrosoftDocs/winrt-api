@@ -17,11 +17,14 @@ Provides access to network connection information for the local machine.
 NetworkInformation provides static methods to query network connectivity state and monitor changes:
 
 * Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() to get the current active connection profile (may return null if offline).
-* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)(filter) with a [ConnectionProfileFilter](connectionprofilefilter.md) to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
+* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)(filter) with a
+  [ConnectionProfileFilter](connectionprofilefilter.md) to enumerate additional profiles (for example, other WLAN interfaces,
+  WWAN, or prior connections).
 * Subscribe to the [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) event to be notified when connectivity changes instead of polling.
 
-The returned [ConnectionProfile](connectionprofile.md) instances expose cost, data plan, adapter, and technology-specific detail objects
-([WlanConnectionProfileDetails](wlanconnectionprofiledetails.md), [WwanConnectionProfileDetails](wwanconnectionprofiledetails.md)). Always re-query inside the status changed event handler
+The returned [ConnectionProfile](connectionprofile.md) instances expose cost, data plan, adapter, and technology-specific
+detail objects ([WlanConnectionProfileDetails](wlanconnectionprofiledetails.md),
+[WwanConnectionProfileDetails](wwanconnectionprofiledetails.md)). Always re-query inside the status changed event handler
 because previously cached profile objects are not live-updating.
 
 For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
@@ -33,9 +36,12 @@ Use this class to:
 
 Important guidance:
 
-* If your scenario depends on cost awareness (metered vs unrestricted), query connectionCost = profile?.GetConnectionCost() and check connectionCost.NetworkCostType before large background transfers.
+* If your scenario depends on cost awareness (metered vs unrestricted), query
+  `connectionCost = profile?.GetConnectionCost()` and check `connectionCost.NetworkCostType` before large background
+  transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
-* Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet profile reference changing. Re-check `GetNetworkConnectivityLevel()` inside each event invocation.
+* Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet
+  profile reference changing. Re-check `GetNetworkConnectivityLevel()` inside each event invocation.
 
 Event handling best practices:
 
@@ -45,7 +51,9 @@ Event handling best practices:
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
 
-Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
+Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription
+Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking
+classic APIs; consult classic samples only for desktop bridge or advanced diagnostics scenarios.
 
 For broader scenario guidance, see:
 
@@ -179,4 +187,6 @@ struct NetworkWatcher
 
 ## -see-also
 
-[NetworkingConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity), [Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager), [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost)
+[Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
+[Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager),
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)

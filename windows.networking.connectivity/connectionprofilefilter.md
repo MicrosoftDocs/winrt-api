@@ -10,36 +10,48 @@ public class ConnectionProfileFilter : Windows.Networking.Connectivity.IConnecti
 # Windows.Networking.Connectivity.ConnectionProfileFilter
 
 ## -description
-The ConnectionProfileFilter class defines a set of properties that are used to improve the relevance of [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) results.
-
-At least one property must be specified, otherwise the object is not used as for filtering.
+Defines properties used to filter results from [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md).
+At least one property must be set; otherwise the filter is ignored.
 
 ## -remarks
-Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the
-current profile returned by NetworkInformation.GetInternetConnectionProfile or the all-inclusive enumeration
-provided by [GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md) which includes all profiles including those which are offline.
+### Purpose
+Use `ConnectionProfileFilter` to narrow enumeration returned by
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) instead of processing the
+entire set from [GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md) or relying solely on
+the current internet profile.
 
-Usage guidance:
+### Guidance
+- Start minimal; add properties only as needed to avoid over‑constraining.
+- Prefer `IsWlanConnectionProfile` / `IsWwanConnectionProfile` over parsing names to detect technology.
+- Retrieve usage after filtering by calling
+  [ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) rather than inferring it
+  from filter inputs.
+- Combine cost and connectivity level constraints only when necessary; connectivity can fluctuate during transitions.
 
-* Start with the minimal set of properties. Many filters (for example IsWlanConnectionProfile and IsWwanConnectionProfile) are mutually exclusive or naturally reduce the result set to zero if over-constrained.
-* Use the PurposeGuid only when you know the target scenario (for example a specific WWAN profile or carrier-provisioned connection) and have obtained the GUID from carrier provisioning or enterprise policy infrastructure. An incorrect GUID will silently yield no matches.
-* Combine [NetworkCostType](networkcosttype.md) and [NetworkConnectivityLevel](networkconnectivitylevel.md) constraints only if you must; connectivity state can vary frequently (especially on mobile / metered connections) and may cause races if evaluated before connection stabilization.
-* If you need usage data after filtering, enumerate the resulting profiles and then call [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) on each rather than attempting to predict usage characteristics from filter inputs.
-* Prefer using IsWlanConnectionProfile or IsWwanConnectionProfile over examining the profile name string to determine access technology.
+### Purpose / Service provider GUID
+Use `PurposeGuid` (or `ServiceProviderGuid`) only when you possess a valid value (carrier provisioning / enterprise
+policy). An incorrect GUID silently yields zero results.
 
-Common pitfalls:
+### Cost / connectivity considerations
+Applying multiple cost states (for example forcing a specific [NetworkCostType](networkcosttype.md) plus roaming flags)
+can remove legitimate candidates. After selecting profiles, inspect each profile's
+[ConnectionCost](connectioncost.md) for adaptive behavior.
 
-* Setting both IsWlanConnectionProfile and IsWwanConnectionProfile to true expecting a union results in no profiles (they are treated as AND conditions). Leave both false for "any technology".
-* Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
-* Setting multiple cost related constraints (for example [NetworkCostType](networkcosttype.md) plus Roaming or OverDataLimit states) can lead to brittle logic; query the profile's [ConnectionCost](connectioncost.md) after selection instead.
+### Common pitfalls
+| Pitfall | Result | Recommendation |
+| -- | -- | -- |
+| Setting both `IsWlanConnectionProfile` and `IsWwanConnectionProfile` to true expecting OR | Empty result (AND logic) | Leave both false for "any technology" or run two queries |
+| Reusing a filter instance with leftover properties | Unexpectedly empty result | Create a new filter per query scenario |
+| Supplying invalid `PurposeGuid` | Silent no matches | Validate GUID presence beforehand |
+| Over‑constraining with multiple cost flags | Zero profiles | Filter broadly, refine post-selection |
 
-> [!NOTE]
-> Avoid reusing and toggling properties on a single filter instance between calls. Leftover state can unintentionally over-constrain and yield zero results (see carrier / service provider filtering example below).
+### Functional selection examples
+- All currently connected profiles across technologies: set `IsConnected = true`; leave technology flags unset.
+- Separate technology + provider logic: run distinct queries per technology when `ServiceProviderGuid` is involved (no OR across technologies in a single filter).
 
-Functional selection notes:
+> [!NOTE]  
+> Construct a fresh filter per query path; do not toggle properties on a shared instance between calls.
 
-* To enumerate all currently connected profiles across technologies (e.g., Ethernet and Wi-Fi), set `IsConnected = true` and leave `IsWlanConnectionProfile` / `IsWwanConnectionProfile` unset.
-* A single filter cannot express logical OR across technologies with `ServiceProviderGuid`; construct separate filters per technology when needed.
 
 ## -examples
 Carrier / service provider filtering (C#):

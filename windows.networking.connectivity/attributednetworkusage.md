@@ -10,27 +10,51 @@ public class AttributedNetworkUsage : Windows.Networking.Connectivity.IAttribute
 # Windows.Networking.Connectivity.AttributedNetworkUsage
 
 ## -description
-Provides access to property values containing information on current usage of the attributed network connection.
+Represents per-attribution usage statistics (bytes sent, bytes received, connected duration) returned by
+[ConnectionProfile.GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md).
 
 ## -remarks
-The AttributedNetworkUsage class is retrieved from a [ConnectionProfile](connectionprofile.md) by calling the
-[GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md) method.
+### Retrieval
+Instances are produced by calling
+[ConnectionProfile.GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md) on a
+[ConnectionProfile](connectionprofile.md) for a specified time window.
 
-Usage considerations:
+### Attribution identity
+- `AttributionId` can represent an app, a system/service bucket, or an aggregated classification.
+- Absence of an expected id in a window means no recorded usage (not necessarily uninstalled).
 
-* Identity: AttributionId can map to an app, a system bucket, or an aggregated service bucket.
-* Coverage: Some buckets can show only sent or only received bytes; zero values are valid.
-* Accounting: Values are aggregated for the requested window and reflect provider accounting latency (not real-time counters).
-* Lifetime: Re-query when you need fresh usage instead of holding instances long term.
-* Absence: Missing an expected identifier for a window means no recorded usage in that interval, not necessarily that an app was uninstalled.
-* Partial trailing interval: If your window ends mid-granularity, the last interval's values are provisional and may
-  increase on a later query.
-* Residual bytes: The difference between aggregate usage and the sum of attributed entries can represent system,
-  background, or privacy-suppressed traffic; treat it as a separate "unattributed" bucket if you need completeness.
-* Identifier stability: Do not persist AttributionId indefinitely as a stable device-unique key; plan for rebasing
-  after OS upgrades, reset, or policy changes.
-* Reconciliation: Periodically re-query the most recent closed bucket to pick up late accounting adjustments. Apply
-  deltas rather than replacing historical totals.
+### Data characteristics
+- Values are aggregated for the requested window; not real-time counters (provider accounting latency applies).
+- Some buckets may report only sent or only received bytes; zeros are valid.
+- A trailing partial interval (window ends mid-granularity) is provisional; values may grow on later queries.
+
+### Residual / unattributed usage
+The difference between aggregate usage (from
+[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) and the sum of attributed entries can
+represent system, privacy-suppressed, or otherwise unattributed traffic. Treat this as a logical "unattributed" bucket
+if full reconciliation is required.
+
+### Identifier stability
+Do not treat `AttributionId` as a permanent device-unique key. Rebase mappings after OS upgrade, device reset, or policy
+changes.
+
+### Refresh & lifetime
+Re-query when fresh numbers are needed; avoid holding instances long term. Use incremental collection patterns (closed
+bucket cursor) similar to aggregate usage.
+
+### Reconciliation & late adjustments
+Periodically re-query the most recent closed bucket(s) to pick up late accounting changes. Apply positive deltas only
+to your stored cumulative totals rather than overwriting historical values.
+
+> [!NOTE]  
+> Summed attributed usage may be less than (or equal to) aggregate usage; do not inflate attributed buckets to force
+> equality.
+
+### Recommended pattern
+1. Query aggregate and attributed usage for the same aligned window.
+2. Compute per-id deltas for fully closed buckets.
+3. Track residual bytes (aggregate − sum(attributed)) separately.
+4. Persist new cursor boundary and cumulative totals.
 
 ## -examples
 

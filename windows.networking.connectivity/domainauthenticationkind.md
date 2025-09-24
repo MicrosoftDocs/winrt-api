@@ -10,10 +10,7 @@ public enum DomainAuthenticationKind
 -->
 
 ## -description
-
-Defines constants that specify a domain authentication method.
-
-Only one of the listed constants is set for any instance of **DomainAuthenticationKind**. In some scenarios, the constant set will represent the most preferred protocol used to determine whether the domain was authenticated.
+Specifies the enterprise domain authentication mechanism (if any) associated with a network connection profile. Only one non-`None` value is reported at a time (precedence applies).
 
 ## -enum-fields
 
@@ -30,30 +27,53 @@ Specifies the domain authentication method for an Active Directory network; and/
 Specifies the Transport Layer Security (TLS) domain authentication method; and/or that the network connection was able to successfully complete a HTTPS connection with verified TLS authentication to an endpoint configured by the `AllowedTlsAuthenticationEndpoints` Mobile Device Management (MDM) policy.
 
 ## -remarks
-Use this enumeration to identify the mechanism (if any) that established enterprise domain authentication for a `ConnectionProfile`.
+### Semantics
+Use to determine which (if any) enterprise domain authentication mechanism validated a [ConnectionProfile](connectionprofile.md).
 
-Key points:
+### Key points
+- Mutually exclusive: Only one non-`None` value appears. If both LDAP and TLS criteria are satisfied, `Ldap` takes precedence.
+- Modern trust: `Tls` enables cloud / MDM managed devices to recognize corporate networks without legacy LDAP reachability.
+- Policy dependency: `Tls` requires an MDM policy defining allowed TLS authentication endpoints. Missing / misconfigured policy => `Tls` never reported.
+- Negative check: `IsDomainAuthenticatedBy(DomainAuthenticationKind.None)` precisely indicates no recognized enterprise domain authentication.
 
-* Exclusivity: Only one non-`None` value is active at a time. If both LDAP (Active Directory) and TLS trust conditions are satisfied, LDAP takes precedence.
-* Evolution: TLS-based domain authentication enables Azure AD joined or MDM-managed devices to recognize corporate networks without requiring traditional LDAP reachability.
-* Policy dependency: The `Tls` value depends on an MDM policy that defines allowed TLS authentication endpoints. If that policy is absent or misconfigured, `Tls` will remain unused.
-* Diagnostic flow: Query `IsDomainAuthenticatedBy(Ldap)` and, if false, optionally query `IsDomainAuthenticatedBy(Tls)` before concluding the device is not domain authenticated.
-* Negative form: Treat `IsDomainAuthenticatedBy(None)` as a precise statement that no recognized enterprise domain authentication mechanism has succeeded for the profile.
+### Diagnostic flow
+1. Test `IsDomainAuthenticatedBy(Ldap)`.
+2. If false, test `IsDomainAuthenticatedBy(Tls)`.
+3. If both false, treat as unauthenticated (None).
 
-Scenarios:
+### Scenarios
+| Scenario | Action |
+| -- | -- |
+| Enabling enterprise-only features | Accept either `Ldap` or `Tls` |
+| UI indicator | Show badge / label based on enum value |
+| Telemetry rollout tracking | Count occurrences of `Tls` vs `Ldap` to measure adoption |
+| Conditional policy | Relax constraints only when authenticated (not `None`) |
 
-* Conditional enterprise features (enable when LDAP or TLS is present).
-* UI indicators distinguishing classic (LDAP) vs modern (TLS) trust.
-* Telemetry to monitor rollout of TLS-based trust in mixed environments.
+### Best practices
+- Re-query on network status / domain change events (roam, resume, captive portal).
+- Allow a short stabilization delay after resume before making gating decisions.
+- Log both the enum value and profile identifier for support diagnostics.
+- Code defensively for potential future enum members (default case handling).
 
-Best practices:
+> [!NOTE]  
+> Do not infer authentication from DNS suffixes or SSID naming; rely on the explicit API result.
 
-* Always re-query on network status change events; do not assume stability across roam / resume.
-* Implement timeouts or retries after resume since authentication may lag physical connectivity.
-* Log both the enum value and network identifier (e.g., ProfileName) for support diagnostics.
+### Example (C#)
+```csharp
+var profile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
+if (profile != null)
+{
+    bool ldap = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap);
+    bool tls  = profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls);
+    bool any  = !profile.IsDomainAuthenticatedBy(DomainAuthenticationKind.None);
+
+    string mode = ldap ? "LDAP" : tls ? "TLS" : "None";
+    System.Diagnostics.Debug.WriteLine($"Domain authentication: {mode}");
+}
+```
 
 ## -see-also
-[ConnectionProfile.IsDomainAuthenticatedBy method](connectionprofile_isdomainauthenticatedby_590452087.md)
+[ConnectionProfile.IsDomainAuthenticatedBy method](connectionprofile_isdomainauthenticatedby_590452087.md)  
 [ConnectionProfile](connectionprofile.md)
 
 ## -examples

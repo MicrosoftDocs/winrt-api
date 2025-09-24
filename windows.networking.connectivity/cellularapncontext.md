@@ -10,57 +10,58 @@ public class CellularApnContext : Windows.Networking.Connectivity.ICellularApnCo
 # Windows.Networking.Connectivity.CellularApnContext
 
 ## -description
-This class contains properties used to specify an Access Point Name (APN) for a 3GPP based cellular Data Connection (PDP context). 
+Defines properties used to specify an Access Point Name (APN) for a cellular data connection request.
 
 ## -remarks
-A [CellularApnContext](cellularapncontext.md) object is passed with a 
-[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) call to establish a 
-connection to a specific cellular Access Point Name (APN).
+### Usage
+Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) to request a cellular data session with the specified APN parameters. The returned [ConnectionSession](connectionsession.md) encapsulates the acquired connection; dispose it to release resources.
 
-### APN configuration properties
-
-The [CellularApnContext](cellularapncontext.md) class provides comprehensive configuration for cellular data connections:
-
-**Core APN settings:**
-- [AccessPointName](cellularapncontext_accesspointname.md): The APN string provided by the carrier
-- [ProviderId](cellularapncontext_providerid.md): Identifier for the network service provider
-- [ProfileName](cellularapncontext_profilename.md): User-friendly name for the APN profile (Windows 10 version 1803 and later)
-
-**Authentication configuration:**
-- [UserName](cellularapncontext_username.md) and [Password](cellularapncontext_password.md): Credentials for APN authentication
-- [AuthenticationType](cellularapncontext_authenticationtype.md): Authentication method (None, PAP, CHAP, MSCHAPv2)
-
-**Connection options:**
-- [IsCompressionEnabled](cellularapncontext_iscompressionenabled.md): Whether data compression should be enabled
-
-> [!IMPORTANT]
-> APN configurations must match the settings provided by your cellular carrier. Incorrect APN settings will prevent successful 
-> cellular data connections. Contact your carrier for the correct APN configuration values.
-
-### APN connection lifecycle
-
-When using [CellularApnContext](cellularapncontext.md) with 
-[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md):
-
-1. Create and configure a [CellularApnContext](cellularapncontext.md) object with the appropriate APN settings
-2. Call [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) to request a connection
-3. Use the returned [ConnectionSession](connectionsession.md) to access the connection
-4. Dispose of the [ConnectionSession](connectionsession.md) when the connection is no longer needed
-
-### Carrier-specific considerations
-
-Different carriers may require different APN configurations:
-- Some carriers use empty or default APN names for standard data plans
-- Enterprise or special-purpose data plans may require specific APN configurations
-- International roaming may require different APN settings than domestic connections
-
-Always verify APN settings with your carrier before deployment.
-
-### Version history
-
-| Windows version | SDK version | Value added |
+### Properties
+| Category | Member | Purpose |
 | -- | -- | -- |
-| 1803 | 17134 | ProfileName |
+| Core | [AccessPointName](cellularapncontext_accesspointname.md) | APN string supplied by carrier (may be empty for default) |
+| Core | [ProviderId](cellularapncontext_providerid.md) | Carrier identifier (MCC+MNC) |
+| Core | [ProfileName](cellularapncontext_profilename.md) | Friendly label for the APN profile |
+| Auth | [UserName](cellularapncontext_username.md) / [Password](cellularapncontext_password.md) | Credentials (if required) |
+| Auth | [AuthenticationType](cellularapncontext_authenticationtype.md) | Auth protocol (None, Pap, Chap, Mschapv2) |
+| Option | [IsCompressionEnabled](cellularapncontext_iscompressionenabled.md) | Request link-layer compression (if supported) |
+
+### Lifecycle
+1. Construct and populate `CellularApnContext`.
+2. Call `AcquireConnectionAsync`.
+3. Validate resulting `ConnectionProfile` (e.g., `GetNetworkConnectivityLevel()`).
+4. Use connection (respect cost / roaming).
+5. Dispose `ConnectionSession`.
+
+### Best practices
+| Concern | Guidance |
+| -- | -- |
+| Incorrect APN | Connection acquisition fails silently or yields no Internet access—validate with carrier docs |
+| Authentication failures | Retry only with corrected credentials; avoid tight loops |
+| Roaming cost | Inspect `ConnectionProfile.GetConnectionCost()` before large transfers |
+| Resource cleanup | Always dispose `ConnectionSession` (including failure paths) |
+| Minimal config | Omit optional fields unless required (avoid sending empty credentials) |
+
+> [!IMPORTANT]  
+> Carrier provisioning rules determine success. Use only officially supplied APN values; guessing can cause repeated failures or account issues.
+
+### Carrier / deployment notes
+- Some networks accept an empty APN for default plans.
+- Specialized / enterprise plans may mandate unique APN plus credentials.
+- Roaming contexts can require different APN values—reacquire if registration state transitions.
+
+### Error handling
+- Capture exceptions from `AcquireConnectionAsync`; log APN (non-secret parts) and auth type, not credentials.
+- Provide user remediation path (e.g., prompt to correct credentials or confirm roaming charges).
+
+### Version additions
+| Windows version | Added |
+| -- | -- |
+| 1803 | ProfileName |
+
+> [!NOTE]  
+> Future platform updates may introduce new authentication types—treat unknown enum values conservatively (fail closed or prompt).
+
 
 ## -examples
 

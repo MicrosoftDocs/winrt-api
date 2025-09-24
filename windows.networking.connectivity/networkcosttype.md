@@ -26,9 +26,10 @@ The use of this connection is unrestricted up to a specific limit.
 The connection is costed on a per-byte basis.
 
 ## -remarks
-Use [ConnectionProfile](connectionprofile.md).[GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md) to obtain the [ConnectionCost](connectioncost.md) object and inspect its properties
-(NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit, BackgroundDataUsageRestricted) before deciding how
-aggressively to transfer data. Evaluate flags individually; do not rely solely on NetworkCostType transitions.
+Use [ConnectionProfile](connectionprofile.md).[GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md) to obtain the  
+[ConnectionCost](connectioncost.md) object and inspect its properties (NetworkCostType, Roaming, OverDataLimit,  
+ApproachingDataLimit, BackgroundDataUsageRestricted) before deciding how aggressively to transfer data. Evaluate flags  
+individually; do not rely solely on `NetworkCostType` transitions.
 
 Scenario guidance:
 
@@ -100,5 +101,8 @@ if (cost.Roaming)
 ```
 
 ## -see-also
-[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md), [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
+[ConnectionCost](connectioncost.md),
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md),
+[DataPlanStatus](dataplanstatus.md),
+[Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
 [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))

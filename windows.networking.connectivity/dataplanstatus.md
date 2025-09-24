@@ -10,21 +10,50 @@ public class DataPlanStatus : Windows.Networking.Connectivity.IDataPlanStatus
 # Windows.Networking.Connectivity.DataPlanStatus
 
 ## -description
-Represents the current status information for the data plan associated with a connection.
+Represents current data plan status (limits, usage, cycle metadata) for a connection profile.
 
 ## -remarks
-Obtain an instance using [ConnectionProfile](connectionprofile.md).[GetDataPlanStatus](connectionprofile_getdataplanstatus_1468491499.md) on a profile returned by [NetworkInformation](networkinformation.md).[GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md), [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md), or [GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md).
+### Obtaining an instance
+Call [ConnectionProfile.GetDataPlanStatus](connectionprofile_getdataplanstatus_1468491499.md) on a profile obtained via:
+- [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)
+- [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)
+- [NetworkInformation.GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md)
 
-Usage guidance:
+### Null handling
+> [!IMPORTANT]  
+> Always null‑check the returned `DataPlanStatus`. Some profiles (for example unmanaged Wi‑Fi hotspots) do not expose
+> plan information and return null.
 
-> [!IMPORTANT]
-> Always null-check the returned DataPlanStatus. Some profiles do not expose plan information (for example unmanaged Wi-Fi hotspots) and will return null.
+### Core elements
+| Property | Meaning / Guidance |
+| -- | -- |
+| [DataPlanUsage](dataplanusage.md) | Current measured usage (may lag real traffic) |
+| DataLimitInMegabytes | Plan cap (nullable). Null => unspecified limit (do not assume unlimited) |
+| MaxTransferSizeInMegabytes | Recommended maximum size for a single transfer (chunk large sync into segments) |
+| NextBillingCycle | Start of next cycle (nullable). Do not assume calendar month boundaries |
 
-* [DataPlanUsage](dataplanusage.md) and DataLimitInMegabytes should be interpreted together. If DataLimitInMegabytes is null you cannot enforce a hard cap based solely on usage trends.
-* MaxTransferSizeInMegabytes indicates the largest recommended chunk for a single network transfer to avoid excessive metered charges. Respect this when designing background sync logic that can batch work.
-* NextBillingCycle can be null; when present it allows you to compute remaining quota windows. Avoid assuming month boundaries. Operators can define custom cycles.
-* If you are implementing quota warnings, use both usage percentage and time remaining in the cycle to avoid overly aggressive throttling early in the period.
-* If `DataPlanStatus` is null or `DataLimitInMegabytes` is absent, treat the limit as unspecified (neither explicitly limited nor guaranteed unlimited). Avoid inferring an "unlimited" plan from missing values alone.
+### Quota logic guidelines
+- Interpret `DataPlanUsage` together with `DataLimitInMegabytes`. A missing limit means you cannot enforce a hard cap safely.
+- Use both percentage consumed and time remaining before throttling; early-cycle high usage does not always justify restriction.
+- Treat missing `DataLimitInMegabytes` as "unspecified" rather than "unlimited".
+
+### Transfer optimization
+- Honor `MaxTransferSizeInMegabytes` by batching work into chunks at or below the recommendation.
+- For background sync on metered or limited plans, schedule incremental commits instead of monolithic uploads.
+
+### Billing cycle handling
+- `NextBillingCycle` may be absent; fall back to rolling usage display without reset logic.
+- When present, derive remaining quota window precisely; operators define custom cycle boundaries.
+
+### Fallback behavior
+If `DataPlanStatus` is null or critical fields are missing:
+- Present generic usage UI without enforcement.
+- Allow user override for "treat as metered" or "treat as unrestricted" preferences if your app supports it.
+
+> [!NOTE]  
+> Defensive coding: Providers can report unexpected values (like zero or very small `MaxTransferSizeInMegabytes`). Clamp
+> to sensible minimums before applying heuristics.
+
 
 ## -examples
 ### Example (C#):

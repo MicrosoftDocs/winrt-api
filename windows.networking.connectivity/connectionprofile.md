@@ -10,7 +10,8 @@ public class ConnectionProfile : Windows.Networking.Connectivity.IConnectionProf
 # Windows.Networking.Connectivity.ConnectionProfile
 
 ## -description
-Represents a network connection, which includes either the currently connected network or prior network connections. Provides information about the connection status and connectivity statistics.
+Represents a network connection, including the currently connected network or prior connections.  
+Provides information about connection status and connectivity statistics.
 
 ## -remarks
 ConnectionProfile represents a snapshot of a specific network interface's connectivity attributes (WLAN, WWAN,
@@ -195,4 +196,6 @@ if (profile != null)
 ```
 
 ## -see-also
-[NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_), [Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager), [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost)
+[Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
+[Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager),
+[NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)

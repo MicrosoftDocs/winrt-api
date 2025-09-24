@@ -10,52 +10,43 @@ public class EndpointPair : Windows.Networking.IEndpointPair
 # Windows.Networking.EndpointPair
 
 ## -description
-Provides data for the local endpoint and remote endpoint for a network connection, encapsulating both the hostname/IP address and 
-service name/port information needed for network operations.
+Represents a pairing of local and remote host/service identifiers (host name or IP plus service name or port) used to initiate or describe a network connection.
 
 ## -remarks
-[EndpointPair](endpointpair.md) is used to initialize and provide data for endpoint pairs used in networking applications. 
-The [EndpointPair](endpointpair.md) object provides data for both local and remote endpoints for a network connection, 
-making it a fundamental building block for network connectivity scenarios.
+### Purpose
+Encapsulates the tuple of (local host, local service, remote host, remote service) used by higher-level networking APIs
+(e.g., sockets, Wi‑Fi Direct, connectivity helpers) to establish or describe a connection attempt.
 
-### Endpoint composition
+### Components
+| Role | Members | Notes |
+| -- | -- | -- |
+| Local endpoint | [LocalHostName](endpointpair_localhostname.md), [LocalServiceName](endpointpair_localservicename.md) | Either or both may be unspecified (null / empty) and resolved by the system |
+| Remote endpoint | [RemoteHostName](endpointpair_remotehostname.md), [RemoteServiceName](endpointpair_remoteservicename.md) | Must normally identify the target host + service/port |
 
-Each endpoint within an [EndpointPair](endpointpair.md) consists of two elements:
-- **Hostname or IP address**: Represented by a [HostName](hostname.md) object
-- **Service name or port number**: Represented as a string (e.g., "80", "http", "https")
+### Automatic resolution
+- If `LocalHostName` is null when a socket bind/connect starts, the system selects an appropriate local interface address.
+- If `LocalServiceName` is empty, an ephemeral (dynamic) port is allocated.
+Query the resulting bound socket properties after connect/bind to learn the chosen address/port.
 
-The [EndpointPair](endpointpair.md) combines these into:
-- **Local endpoint**: [LocalHostName](endpointpair_localhostname.md) and [LocalServiceName](endpointpair_localservicename.md)
-- **Remote endpoint**: [RemoteHostName](endpointpair_remotehostname.md) and [RemoteServiceName](endpointpair_remoteservicename.md)
+### Common usage
+| Scenario | API pattern |
+| -- | -- |
+| Establish UDP / TCP socket | Pass an `EndpointPair` to [DatagramSocket.ConnectAsync] or [StreamSocket.ConnectAsync] |
+| Ordered connection attempts (Happy Eyeballs / multi-path) | Use [NetworkInformation.GetSortedEndpointPairs](../windows.networking.connectivity/networkinformation_getsortedendpointpairs_1067659180.md) then iterate |
+| Wi‑Fi Direct connection endpoints | Retrieve list from [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md) |
 
-### Automatic endpoint resolution
+### Best practices
+- Avoid hard-coding numeric ports where a well-known service name (e.g., "https") conveys intent and may map correctly on non-standard configurations.
+- Reuse a resolved local endpoint only while the underlying interface remains valid; interface changes (roam / suspend) can invalidate prior local addresses.
+- Prefer specifying the remote service name (string) instead of resolving it separately to a port number—lets the platform apply service-specific policies.
+- For dual-stack (IPv4/IPv6) targets, obtain a ranked list with `GetSortedEndpointPairs` and attempt in order rather than guessing.
 
-The system provides automatic resolution for unspecified endpoint components:
+### Diagnostics
+Log both remote and resolved local endpoint information (host + port) when capturing connection telemetry to accelerate troubleshooting (e.g., NAT / firewall issues).
 
-> [!NOTE]
-> If the [LocalHostName](endpointpair_localhostname.md) is null before establishing a network connection, the system will 
-> automatically provide an appropriate local IP address for the application to use.
+> [!NOTE]  
+> Ephemeral local ports are automatically recycled by the OS after the socket closes; do not attempt manual reservation beyond the socket lifetime.
 
-> [!NOTE]
-> If the [LocalServiceName](endpointpair_localservicename.md) is an empty string before establishing a network connection, 
-> the system will automatically assign an available TCP or UDP port for the application to use.
-
-### Usage across networking APIs
-
-[EndpointPair](endpointpair.md) is used by many classes across Windows Runtime networking namespaces:
-
-**Socket operations:**
-- [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and 
-  [StreamSocket](../windows.networking.sockets/streamsocket.md) classes can establish network connections and transfer data 
-  using [EndpointPair](endpointpair.md) objects
-- [GetSortedEndpointPairs](../windows.networking.connectivity/networkinformation_getsortedendpointpairs_1067659180.md) 
-  returns optimized endpoint pairs for connection attempts
-
-**Network discovery and Wi-Fi Direct:**
-- [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md) 
-  returns [EndpointPair](endpointpair.md) objects for Wi-Fi Direct connections
-- [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class uses endpoint pairs for network 
-  optimization scenarios
 
 ## -examples
 

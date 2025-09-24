@@ -10,47 +10,54 @@ public class NetworkStateChangeEventDetails : Windows.Networking.Connectivity.IN
 # Windows.Networking.Connectivity.NetworkStateChangeEventDetails
 
 ## -description
-Provides detailed information about what network properties changed when a network state change event occurs, allowing applications 
-to respond appropriately to specific types of connectivity changes.
+Indicates which network-related properties changed for the current status change event so handlers can perform targeted (not full) refresh logic.
 
 ## -remarks
-[NetworkStateChangeEventDetails](networkstatechangeeventdetails.md) is used in conjunction with the 
-[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) event to provide detailed information about 
-what aspects of network connectivity have changed. This allows applications to respond selectively to different types of network 
-changes rather than re-evaluating all network conditions.
+### Retrieval
+Obtained inside a [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) handler (or related background trigger). The instance is system-supplied; apps do not construct it.
 
-> [!IMPORTANT]
-> When handling network state change events, always re-query current network information using 
-> [NetworkInformation](networkinformation.md) methods rather than caching previous state. The event details indicate what changed, 
-> but the current values should be obtained through fresh API calls.
+> [!IMPORTANT]  
+> Use the flags to decide what to refresh, then re-query current values (e.g., call
+> [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md)). Do not rely on cached objects.
 
-### Available change indicators
+### Change indicator flags
+Each Boolean property signals that the associated data MAY have changed; re-query only those areas.
 
-The class provides Boolean properties to indicate specific types of changes:
+| Property | Indicates possible change in |
+| -- | -- |
+| [HasNewInternetConnectionProfile](networkstatechangeeventdetails_hasnewinternetconnectionprofile.md) | Active Internet connection profile |
+| [HasNewNetworkConnectivityLevel](networkstatechangeeventdetails_hasnewnetworkconnectivitylevel.md) | Connectivity level (None / Local / Constrained / Internet) |
+| [HasNewConnectionCost](networkstatechangeeventdetails_hasnewconnectioncost.md) | Cost / metering / roaming state |
+| [HasNewDomainConnectivityLevel](networkstatechangeeventdetails_hasnewdomainconnectivitylevel.md) | Enterprise domain authentication status |
+| [HasNewHostNameList](networkstatechangeeventdetails_hasnewhostnamelist.md) | Host name list (DNS / local names) |
+| [HasNewWwanRegistrationState](networkstatechangeeventdetails_hasnewwwanregistrationstate.md) | Cellular (WWAN) registration state |
+| [HasNewTetheringOperationalState](networkstatechangeeventdetails_hasnewtetheringoperationalstate.md) | Mobile hotspot (tethering) operational state |
+| [HasNewTetheringClientCount](networkstatechangeeventdetails_hasnewtetheringclientcount.md) | Connected tethering client count |
 
-**Core connectivity changes:**
-- [HasNewInternetConnectionProfile](networkstatechangeeventdetails_hasnewinternetconnectionprofile.md): Internet connection 
-  profile availability changed
-- [HasNewNetworkConnectivityLevel](networkstatechangeeventdetails_hasnewnetworkconnectivitylevel.md): Network connectivity 
-  level changed (None, LocalAccess, ConstrainedInternetAccess, InternetAccess)
-- [HasNewConnectionCost](networkstatechangeeventdetails_hasnewconnectioncost.md): Network cost information changed
+### Usage pattern
+1. Event fires.
+2. Inspect flags; build a minimal refresh plan.
+3. Re-query only needed APIs (e.g., cost, connectivity level, domain auth).
+4. Update UI / policy accordingly.
+5. Defer heavyweight work (e.g., usage statistics) unless a relevant flag changed.
 
-**Extended connectivity information:**
-- [HasNewDomainConnectivityLevel](networkstatechangeeventdetails_hasnewdomainconnectivitylevel.md): Domain authentication 
-  status changed
-- [HasNewHostNameList](networkstatechangeeventdetails_hasnewhostnamelist.md): Available host names changed
-- [HasNewWwanRegistrationState](networkstatechangeeventdetails_hasnewwwanregistrationstate.md): Cellular registration 
-  state changed
+### Best practices
+- Coalesce bursts: if multiple events arrive quickly, debounce UI updates.
+- Avoid full refresh on every event; scale work to flags set.
+- Treat flags as hints—not guarantees; always trust fresh API return values.
+- When `HasNewNetworkConnectivityLevel` is true, re-validate gating features (online sync, telemetry, streaming).
+- When cost changed, reassess background transfer strategy.
+- When domain connectivity changed, re-check enterprise feature enablement.
 
-**Tethering and mobile hotspot (Windows 10 version 1511 and later):**
-- [HasNewTetheringOperationalState](networkstatechangeeventdetails_hasnewtetheringoperationalstate.md): Mobile hotspot 
-  state changed
-- [HasNewTetheringClientCount](networkstatechangeeventdetails_hasnewtetheringclientcount.md): Number of connected 
-  tethering clients changed
+### Tethering specifics
+Use tethering flags only in scenarios that surface hotspot status or manage tethered client features; ignore them otherwise to keep handlers lean.
 
-> [!NOTE]
-> The [NetworkStateChangeEventDetails](networkstatechangeeventdetails.md) object is not directly created by applications. It is 
-> provided by the system when network state change events occur through background tasks or event handlers.
+### Performance
+Flag-driven conditional logic minimizes CPU, battery, and network usage compared to unconditional re-enumeration.
+
+> [!NOTE]  
+> Lack of a flag does not promise stability forever—another event will fire when a future change occurs.
+
 
 ## -examples
 

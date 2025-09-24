@@ -11,7 +11,7 @@ public enum Windows.Devices.Radios.RadioState : int
 # RadioState
 
 ## -description
-Enumeration that describes possible radio states.
+Defines the operational states of a radio (power and controllability).
 
 ## -enum-fields
 ### -field Unknown:0
@@ -27,35 +27,31 @@ The radio is powered off.
 The radio is powered off and disabled by the device firmware or a hardware switch on the device.
 
 ## -remarks
-[RadioState](radiostate.md) represents the current operational state of a radio device, indicating both power status and 
-controllability.
+[RadioState](radiostate.md) combines power and control status. Only **On** and **Off** are transition targets; **Disabled**
+and **Unknown** indicate conditions outside app control.
 
-### State meanings and implications
+### Meaning summary
+| State | Meaning | Controllable via SetStateAsync |
+| -- | -- | -- |
+| On | Powered and operational | Yes (to Off) |
+| Off | Powered down, available for activation | Yes (to On) |
+| Disabled | Forced off (hardware switch / firmware / policy) | No |
+| Unknown | Indeterminate / error / transient hardware condition | No |
 
-**Operational states:**
-- **On**: Radio is powered and operational, can transmit and receive
-- **Off**: Radio is powered down but can be turned on programmatically
-- **Disabled**: Radio is off due to hardware switch or firmware, cannot be controlled by software
+### Transition rules
+- [SetStateAsync](radio_setstateasync_1524539262.md) accepts only **On** and **Off**.
+- Hardware switches or system policy can force **Disabled** regardless of prior request.
+- **Unknown** typically clears after hardware/driver stabilization; re-read after [StateChanged](radio_statechanged.md).
 
-**Special state:**
-- **Unknown**: Radio is in an indeterminate state, possibly due to hardware issues or driver problems
+> [!IMPORTANT]  
+> Do not attempt to "set" **Disabled** or **Unknown**; treat them as diagnostic states and adjust UI accordingly.
 
-### State transitions and control
+### Recommended pattern
+Request access, attempt change (if allowed), then confirm new state inside [StateChanged](radio_statechanged.md) rather
+than assuming immediate success.
 
-**Valid state changes:**
-- [SetStateAsync](radio_setstateasync_1524539262.md) accepts **On** and **Off** values only
-- **Disabled** cannot be set programmatically - indicates hardware-level control
-- **Unknown** cannot be set and suggests hardware or driver issues
-
-**State change considerations:**
-- State changes are asynchronous and may take time to complete
-- Hardware switches can override software state changes
-- System policies may block certain transitions
-- Some radios may not support all state transitions
-
-> [!IMPORTANT]
-> Never attempt to set [RadioState.Disabled](radiostate.md) or [RadioState.Unknown](radiostate.md) through 
-> [SetStateAsync](radio_setstateasync_1524539262.md). These states indicate conditions outside of software control.
+> [!NOTE]  
+> Rapid successive state change requests may coalesce; always observe the final reported state.
 
 ## -examples
 

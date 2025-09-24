@@ -10,45 +10,59 @@ public class ProxyConfiguration : Windows.Networking.Connectivity.IProxyConfigur
 # Windows.Networking.Connectivity.ProxyConfiguration
 
 ## -description
-Represents the proxy configuration for the current user. 
+Represents resolved proxy settings (proxy endpoints and direct-connect flag) for a specific target URI.
 
 ## -remarks
-A [ProxyConfiguration](proxyconfiguration.md) object is returned by calling the 
-[GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method on the 
-[NetworkInformation](networkinformation.md) object. If the 
-[GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method is successful, the 
-[IAsyncOperation(ProxyConfiguration)](../windows.foundation/iasyncoperation_1.md) handler for the method is passed a 
-[ProxyConfiguration](proxyconfiguration.md) object.
+### Retrieval
+Call [NetworkInformation.GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) with a
+target URI. The returned [ProxyConfiguration](proxyconfiguration.md) instance applies only to that URI (host + scheme /
+port context).
 
-The proxy configuration returned is for the *uri* parameter passed to the 
-[GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md) method. The *uri* parameter contains 
-a hostname or IP address for the target endpoint and a service name, port number, or protocol scheme.
+### Resolution scope
+The *uri* parameter can include a hostname or IP plus port/service or protocol scheme. Resolution accounts for:
+- User/system proxy settings
+- Auto‑config (PAC / WPAD) logic
+- Per‑protocol overrides
 
-> [!NOTE]
-> In UWP applications, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to remote 
-> endpoints when proxies are required to establish the connection. This support for proxies is automatic and transparent to the 
-> application, eliminating the need for manual proxy configuration in most scenarios.
+### Automatic handling
+> [!NOTE]  
+> Higher-level APIs (for example [StreamSocket](../windows.networking.sockets/streamsocket.md)) automatically honor
+> proxy settings; most apps do not need to manually resolve or apply proxies.
 
-### Proxy configuration properties
+### Properties
+- **[ProxyUris](proxyconfiguration_proxyuris.md)**: Ordered proxy candidates (may be empty).
+- **[CanConnectDirectly](proxyconfiguration_canconnectdirectly.md)**: Indicates direct connection is permitted if no proxy succeeds.
 
-The [ProxyConfiguration](proxyconfiguration.md) class provides the following properties:
+### Usage scenarios
+| Scenario | Rationale |
+| -- | -- |
+| Diagnostics tooling | Display active proxy chain and fallback logic |
+| Custom HTTP stack / legacy interop | Apply resolved proxy list manually |
+| Policy validation | Verify PAC script output or admin configuration |
+| User assistance UI | Show which proxy governs a failing connection |
 
-- [ProxyUris](proxyconfiguration_proxyuris.md): A collection of proxy server URIs that should be used for the target endpoint
-- [CanConnectDirectly](proxyconfiguration_canconnectdirectly.md): Indicates whether a direct connection to the target endpoint 
-  is possible without using a proxy
+### Handling results
+- Empty `ProxyUris` with `CanConnectDirectly = true`: connect directly.
+- Empty `ProxyUris` with `CanConnectDirectly = false`: treat as blocked (no route); surface appropriate error.
+- Multiple URIs: attempt in order; honor fail‑over semantics (stop after first successful tunnel).
 
-### When to use proxy configuration
+### Best practices
+- Cache only for short durations; proxy auto‑config can change during a session (network transitions).
+- Re‑resolve after network status changes, sign‑in events, or detection of repeated proxy failures.
+- Do not rewrite or reorder returned URIs; preserve precedence.
 
-Most applications do not need to manually handle proxy configuration because higher-level networking APIs handle proxy 
-resolution automatically. However, proxy configuration information may be useful for:
+### Failure / fallback
+If connection attempts through all proxies fail:
+1. Re‑resolve to detect configuration change.
+2. If unchanged and `CanConnectDirectly` is true, fall back to direct.
+3. Log proxy failure metrics (status codes / connection errors) for diagnostics.
 
-- Custom network implementations that need proxy awareness
-- Network diagnostic and troubleshooting tools
-- Applications that need to display proxy information to users
-- Low-level networking scenarios where automatic proxy handling is not available
+### Security considerations
+- Avoid exposing raw proxy credentials or PAC script internals in UI/logs.
+- Treat proxy URIs as potentially sensitive environment configuration.
 
-For detailed information about automatic proxy support, see the remarks section of the 
-[StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
+For additional automatic proxy behavior discussion, see
+[StreamSocket](../windows.networking.sockets/streamsocket.md).
 
 ## -examples
 

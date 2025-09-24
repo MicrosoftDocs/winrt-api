@@ -10,31 +10,48 @@ public class ConnectivityInterval : Windows.Networking.Connectivity.IConnectivit
 # Windows.Networking.Connectivity.ConnectivityInterval
 
 ## -description
-Provides the start time and duration for an established or prior connection.
+Represents a contiguous connectivity span (start timestamp plus duration) for a connection profile.
 
 ## -remarks
-`ConnectivityInterval` represents a contiguous span of time during which the underlying interface associated with a [ConnectionProfile](connectionprofile.md) was in a connected state.
+### Definition
+A `ConnectivityInterval` captures a span during which the interface for a [ConnectionProfile](connectionprofile.md) was
+in a connected state.
 
-Key characteristics:
+### Characteristics
+- **Presence vs. volume**: Indicates connectivity existed; does not convey bytes transferred. Pair with
+  [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) for volume metrics.
+- **Gaps**: Sleep, interface transitions, or disconnections create gaps. Do not assume continuous coverage.
+- **Partial boundaries**: Leading/trailing intervals may be truncated when the query window cuts through an active
+  connection.
+- **Coalescing**: Very brief disconnects may be hidden by higher-level accounting; sub‑second precision should not be
+  assumed.
+- **History limits**: Subject to the same retention constraints as usage APIs (for example, ~60 days).
 
-* Presence vs traffic: An interval indicates connectivity existed; it does not imply data transfer. Pair with usage APIs ([GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) if you need volume metrics.
-* Gaps: If the device disconnected, slept, or the interface transitioned, gaps appear between intervals. Do not assume back‑to‑back coverage of a query window.
-* Partial windows: The first or last interval in a query can be truncated if your start or end time falls mid‑interval.
-* Coalescing: Very brief disconnects may be absorbed by higher layer accounting; avoid relying on sub‑second precision.
-* Time bounds: Queries (via [GetConnectivityIntervalsAsync](connectionprofile_getconnectivityintervalsasync_105383692.md)) are subject to the same historical limits as usage APIs (for example 60 days of history).
+### Typical workflow
+1. Query intervals with
+   [GetConnectivityIntervalsAsync](connectionprofile_getconnectivityintervalsasync_105383692.md)(start, end, states).
+2. (Optional) Query usage over the same window.
+3. Correlate intervals + usage buckets to derive connected-but-idle vs active transfer periods.
 
-Common pattern:
+### Edge cases
+| Case | Interpretation |
+| -- | -- |
+| Empty list | No recorded connectivity in window (not an error) |
+| Overlapping stitched windows | Deduplicate by interval start time when merging |
+| Long active interval | May span entire query window; still valid |
 
-1. Call [GetConnectivityIntervalsAsync](connectionprofile_getconnectivityintervalsasync_105383692.md)(start, end, states) to obtain connected spans.
-2. Optionally call [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) over the same window.
-3. Intersect intervals with usage buckets to compute connected-but-idle time.
+### Incremental collection
+Persist the end timestamp of the last fully closed interval. On the next run, start from that point to avoid recounting
+an interval still in progress.
 
-Edge cases:
+### Performance
+Summarize promptly. Retaining large raw lists offers little value after computing aggregate connected duration or
+utilization.
 
-* Empty result set: No connectivity recorded in the window (device offline or history unavailable); treat as "no data", not failure.
-* Overlapping queries: You can stitch results from successive overlapping windows; deduplicate identical tail intervals by start time.
+> [!NOTE]  
+> To compute utilization, sum `ConnectionDuration` across intervals and divide by total wall‑clock span, then overlay
+> usage to calculate bytes per connected minute.
 
-Performance guidance: Summarize or aggregate intervals promptly. Storing large raw lists in memory provides little additional value once summarized.
 
 ## -examples
 Enumerate recent connectivity intervals (C#):
@@ -55,3 +72,8 @@ if (profile != null)
 ```
 
 ## -see-also
+[ConnectionProfile](connectionprofile.md),  
+[ConnectionProfile.GetConnectivityIntervalsAsync](connectionprofile_getconnectivityintervalsasync_105383692.md),  
+[ConnectivityInterval.StartTime](connectivityinterval_starttime.md),  
+[ConnectivityInterval.ConnectionDuration](connectivityinterval_connectionduration.md),  
+[ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)

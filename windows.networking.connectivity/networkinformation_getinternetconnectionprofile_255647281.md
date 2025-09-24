@@ -12,7 +12,9 @@ public Windows.Networking.Connectivity.ConnectionProfile GetInternetConnectionPr
 
 ## -description
 
-Retrieves the connection profile associated with the *preferred* interface currently used by the local machine. The *preferred* interface is the one most likely to send or receive internet traffic. This means that the returned profile might or might not have internet access.
+Retrieves the connection profile associated with the *preferred* interface currently used by the local machine.  
+The *preferred* interface is the one most likely to send or receive internet traffic.  
+This means that the returned profile might or might not have internet access.
 
 ## -returns
 The connection profile associated with the *preferred* interface, or **null** if there's no connection profile with a suitable connection.
@@ -71,3 +73,7 @@ If more than one connection profile is currently connecting the machine to the i
 ## -examples
 
 ## -see-also
+[ConnectionProfile](connectionprofile.md),
+[GetConnectionProfiles](networkinformation_getconnectionprofiles_582657984.md),
+[NetworkInformation](networkinformation.md),
+[NetworkStatusChanged](networkinformation_networkstatuschanged.md)

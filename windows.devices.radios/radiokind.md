@@ -11,7 +11,7 @@ public enum Windows.Devices.Radios.RadioKind : int
 # RadioKind
 
 ## -description
-Enumeration that represents the kinds of radio devices.
+Defines the kinds of radio devices.
 
 ## -enum-fields
 ### -field Other:0
@@ -55,8 +55,8 @@ Different radio kinds may have varying control restrictions:
 - **Hardware switches** can force any radio type into an uncontrollable disabled state
 
 > [!IMPORTANT]
-> MobileBroadband radios require the **cellularDeviceControl** restricted capability to change state. Applications 
-> without this capability can enumerate and monitor these radios but cannot control their state.
+> MobileBroadband radios require the **cellularDeviceControl** restricted capability to change state.  
+> Applications without this capability can enumerate and monitor these radios but cannot control their state.
 
 > [!NOTE]
 > The presence of a specific [RadioKind](radiokind.md) does not guarantee that its state can be changed. Always check 

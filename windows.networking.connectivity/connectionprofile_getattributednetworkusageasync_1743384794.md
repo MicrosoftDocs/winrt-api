@@ -10,7 +10,8 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Networking.Connectivity.ConnectionProfile.GetAttributedNetworkUsageAsync
 
 ## -description
-Gets network usage data for each individual application.
+Retrieves per-attribution (application or bucket) usage (bytes sent / received and connected duration) over a specified
+time window with optional [NetworkUsageStates](networkusagestates.md) filtering.
 
 ## -parameters
 
@@ -24,14 +25,15 @@ The end time of the usage window.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-When the method completes, it returns a list of [AttributedNetworkUsage](attributednetworkusage.md) objects, which indicate the sent and received values, in bytes, and the total amount of time the app was connected during the corresponding time interval.
+A list of [AttributedNetworkUsage](attributednetworkusage.md) entries. Each entry includes bytes sent, bytes received,
+and connected duration for its attribution context during the interval.
 
 ## -remarks
 This method returns per-application (or attribution bucket) usage over the specified window.
 
 For general usage API best practices (time window management, incremental collection, avoiding double counting), see [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
 
-### Attribution-Specific Considerations:
+### Attribution-specific considerations
 
 **Data Completeness:**
 * Empty result: Valid when no usage is recorded or attribution data is unavailable.
@@ -59,6 +61,12 @@ This pattern yields stable cumulative accounting without retroactive double coun
 ## -examples
 
 ## -see-also
+[AttributedNetworkUsage](attributednetworkusage.md),
+[ConnectionProfile](connectionprofile.md),
+[ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md),
+[DataUsageGranularity](datausagegranularity.md),
+[NetworkUsage](networkusage.md),
+[NetworkUsageStates](networkusagestates.md)
 
 ## -capabilities
 networkDataPlanProvisioning

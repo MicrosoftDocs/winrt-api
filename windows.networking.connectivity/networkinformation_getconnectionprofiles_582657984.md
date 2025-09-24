@@ -11,41 +11,86 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.Connectivit
 # Windows.Networking.Connectivity.NetworkInformation.GetConnectionProfiles
 
 ## -description
-Gets a list of profiles for connections, active or otherwise, on the local machine.
+Enumerates all connection profiles (active or not) currently known to the system for the local machine.
 
 ## -returns
-An array of [ConnectionProfile](connectionprofile.md) objects.
+A read‑only list of [ConnectionProfile](connectionprofile.md) objects. The list may be empty.
 
 ## -remarks
-The following example demonstrates how to retrieve a [ConnectionProfile](connectionprofile.md). The function calls [getConnectionProfiles](networkinformation_getinternetconnectionprofile_255647281.md) to retrieve all available connections on a device and display using a list. Alternatively, your app can call [getInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md) to retrieve the [ConnectionProfile](connectionprofile.md) representing the connection currently used for Internet connectivity.
+### Purpose
+Use when you need the full set of provisioned / known connection profiles (including those not currently connected).  
+For only the profile providing current Internet connectivity, call
+[GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md).
 
-**Note** For the implementation of the getConnectionProfileInfo method in the code below, and for additional examples of how [NetworkInformation](networkinformation.md) class methods are implemented to retrieve connection profiles, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
+### Characteristics
+- Includes connected, disconnected, and provisioned-but-idle profiles (e.g., remembered Wi‑Fi networks, cellular APN profiles).
+- May include profiles with limited or no present connectivity level.
+- Order is implementation-defined; do not rely on list ordering.
 
+### When to prefer filtering
+If you need only a subset (e.g., connected Wi‑Fi profiles), use
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md) with a
+[ConnectionProfileFilter](connectionprofilefilter.md) to reduce enumeration and post-processing cost.
+
+### Typical workflow
+1. Call `GetConnectionProfiles()`.
+2. Iterate profiles; inspect connectivity via `GetNetworkConnectivityLevel()`.
+3. For each desired profile, query additional details (cost: `GetConnectionCost()`, usage: `GetNetworkUsageAsync(...)`, data plan: `GetDataPlanStatus()`).
+
+### Performance guidance
+- Enumeration is lightweight but avoid calling in tight loops; cache results for a reasonable interval if your scenario allows.
+- Re-enumerate on network status change events rather than polling.
+
+### Comparison
+| Need | API |
+| -- | -- |
+| Current Internet-active profile | GetInternetConnectionProfile |
+| All known profiles (broad inventory) | GetConnectionProfiles |
+| Filtered subset (e.g., only connected WWAN) | FindConnectionProfilesAsync + ConnectionProfileFilter |
+
+### Example notes
+Use the examples in the -examples section for up-to-date patterns. Legacy samples that mutate global variables or rely on helper functions (e.g., `getConnectionProfileInfo`) are omitted for clarity.
+
+
+## -examples
+### List profile names and connectivity (C#)
+```csharp
+using Windows.Networking.Connectivity;
+using System.Linq;
+using System.Text;
+
+var sb = new StringBuilder();
+var profiles = NetworkInformation.GetConnectionProfiles();
+if (profiles.Count == 0)
+{
+    sb.AppendLine("No profiles found.");
+}
+else
+{
+    foreach (var p in profiles)
+    {
+        var level = p.GetNetworkConnectivityLevel();
+        sb.AppendLine($"{p.ProfileName} : {level}");
+    }
+}
+System.Diagnostics.Debug.WriteLine(sb.ToString());
+```
+
+### List profile names (JavaScript)
 ```javascript
-function DisplayConnectionProfileList() {
-    var profileList = "";
-    var ConnectionProfiles = networkInfo.getConnectionProfiles();
-        if (ConnectionProfiles.length !== 0) {
-            for (var i = 0; i < ConnectionProfiles.length; i++) {
-
-                //Display Connection profile info for each profile by passing it
-                //to a function that accesses and displays the connection properties
-                profileList += getConnectionProfileInfo(ConnectionProfiles[i]);
-                profileList += "-------------------------\n\r";
-            }
-            mySample.displayStatus(profileList);
-        }
-        else {
-            mySample.displayStatus("No profiles found");
-        }
-    }
-
-    catch (e) {
-        mySample.displayError("Exception Caught: " + e + "\n\r");
-    }
+const profiles = Windows.Networking.Connectivity.NetworkInformation.getConnectionProfiles();
+if (profiles.length === 0) {
+    console.log("No profiles found.");
+} else {
+    profiles.forEach(p => {
+        const level = p.getNetworkConnectivityLevel();
+        console.log(`${p.profileName} : ${level}`);
+    });
 }
 ```
 
-## -examples
-
 ## -see-also
+[NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md),  
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md),  
+[ConnectionProfileFilter](connectionprofilefilter.md),  
+[ConnectionProfile](connectionprofile.md)

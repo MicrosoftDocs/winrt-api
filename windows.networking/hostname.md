@@ -10,57 +10,58 @@ public class HostName : Windows.Foundation.IStringable, Windows.Networking.IHost
 # Windows.Networking.HostName
 
 ## -description
-Provides data for a hostname or an IP address, serving as a fundamental building block for network operations across 
-Windows Runtime networking APIs.
+Represents a host name or IP address (domain, IPv4, IPv6, or Bluetooth) used by Windows networking APIs.
 
 ## -remarks
-The [HostName](hostname.md) class is used to initialize and provide data for a hostname used in network applications. 
-A [HostName](hostname.md) object can represent a local hostname or a remote hostname used to establish a network connection.
+### Purpose
+Encapsulates a network host identifier (domain, literal IP, or Bluetooth address) for use by higher-level APIs (sockets, connectivity queries, Wi‑Fi Direct).
 
-### Usage across networking APIs
+### Types
+`[Type](hostname_type.md)` distinguishes:
+| Type | Example |
+| -- | -- |
+| DomainName | www.contoso.com |
+| Ipv4 | 192.168.1.1 |
+| Ipv6 | 2001:db8::1 |
+| Bluetooth | 12:34:56:78:9A:BC |
 
-The [HostName](hostname.md) object is used by many classes across Windows Runtime networking namespaces:
+### Key properties
+| Property | Meaning |
+| -- | -- |
+| [RawName](hostname_rawname.md) | Original input string |
+| [DisplayName](hostname_displayname.md) | Friendly / formatted representation |
+| [CanonicalName](hostname_canonicalname.md) | Normalized form (useful for comparisons / logging) |
+| [IPInformation](hostname_ipinformation.md) | Interface/IP metadata when bound to a local address |
 
-**Socket operations:**
-- [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and 
-  [StreamSocket](../windows.networking.sockets/streamsocket.md) classes use [HostName](hostname.md) objects to establish 
-  network connections and transfer data
-- [EndpointPair](endpointpair.md) uses [HostName](hostname.md) objects to represent local and remote endpoints
+### Usage patterns
+| Scenario | Guidance |
+| -- | -- |
+| Socket connect | Pass a `HostName` plus service name to `StreamSocket.ConnectAsync` / `DatagramSocket.ConnectAsync` |
+| Endpoint pairing | Combine in an [EndpointPair](endpointpair.md) for local/remote mapping |
+| Local enumeration | Use [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_1238522689.md) |
 
-**Network information:**
-- [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class in the 
-  [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace
-- [GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_1238522689.md) method returns collections 
-  of [HostName](hostname.md) objects
-
-### HostName properties and validation
-
-Key properties of [HostName](hostname.md) include:
-- **[Type](hostname_type.md)**: Indicates whether this is a domain name, IPv4 address, IPv6 address, or Bluetooth address
-- **[RawName](hostname_rawname.md)**: The original hostname string as provided
-- **[DisplayName](hostname_displayname.md)**: A formatted version suitable for display
-- **[CanonicalName](hostname_canonicalname.md)**: The standardized form of the hostname
-- **[IPInformation](hostname_ipinformation.md)**: Associated IP configuration when available
-
-> [!IMPORTANT]
-> Always validate [HostName](hostname.md) objects before using them in network operations. Use 
-> [IsEqual](hostname_isequal_1366077980.md) to compare [HostName](hostname.md) instances, and check the 
-> [Type](hostname_type.md) property to ensure you're working with the expected address format.
-
-### Creating HostName objects
-
-[HostName](hostname.md) objects are created using the constructor that takes a string parameter. The string can represent:
-- Domain names (e.g., "www.contoso.com")
-- IPv4 addresses (e.g., "192.168.1.1") 
-- IPv6 addresses (e.g., "2001:db8::1")
-- Bluetooth addresses (e.g., "12:34:56:78:9A:BC")
-
+### Creation
 ```csharp
-// Create HostName objects for different address types
-var domainName = new HostName("www.contoso.com");
-var ipv4Address = new HostName("192.168.1.1");
-var ipv6Address = new HostName("2001:db8::1");
+var domain  = new HostName("www.contoso.com");
+var ipv4    = new HostName("192.168.1.1");
+var ipv6    = new HostName("2001:db8::1");
 ```
+
+### Comparison
+Use [IsEqual](hostname_isequal_1366077980.md) instead of string comparison (canonicalization & type awareness).
+
+### Best practices
+- Validate expected `Type` before use (e.g., require literal IP vs domain if policy demands).
+- Prefer domain names over hard-coded IPs to benefit from DNS / load balancing.
+- Cache resolution results only briefly; allow the platform to re-resolve for failover.
+
+### Security considerations
+- Never assume a domain resolves to the same IP indefinitely; re-resolve for long-lived sessions as appropriate.
+- Log canonical + raw forms for diagnostics, excluding user-entered sensitive hostnames if privacy policy restricts.
+
+> [!NOTE]  
+> A `HostName` does not perform DNS resolution until used by an API that needs an address.
+
 
 ## -examples
 

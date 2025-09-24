@@ -10,41 +10,55 @@ public class ProviderNetworkUsage
 # Windows.Networking.Connectivity.ProviderNetworkUsage
 
 ## -description
-Represents network usage statistics grouped by provider, returned by the 
-[ConnectionProfile.GetProviderNetworkUsageAsync](connectionprofile_getprovidernetworkusageasync_1442391607.md) method.
+Represents per‑provider aggregated usage (bytes sent / bytes received) returned by
+[ConnectionProfile.GetProviderNetworkUsageAsync](connectionprofile_getprovidernetworkusageasync_1442391607.md).
 
 ## -remarks
-[ProviderNetworkUsage](providernetworkusage.md) provides network usage data aggregated by network service provider, allowing 
-applications to understand data consumption patterns across different providers. This is particularly useful for devices that may 
-connect through multiple cellular providers or for applications that need to track usage across different network services.
-
-For comprehensive usage tracking patterns and best practices, see 
-[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
+### Retrieval
+Created by calling
+[ConnectionProfile.GetProviderNetworkUsageAsync](connectionprofile_getprovidernetworkusageasync_1442391607.md) for a
+time window. Each instance aggregates all traffic attributed to a single provider id over that window.
 
 ### Properties
+- **[BytesSent](providernetworkusage_bytessent.md)**: Total transmitted bytes for the provider.
+- **[BytesReceived](providernetworkusage_bytesreceived.md)**: Total received bytes for the provider.
+- **[ProviderId](providernetworkusage_providerid.md)**: Provider identifier (may be empty / unavailable on networks that
+  do not supply provider metadata).
 
-- **[BytesSent](providernetworkusage_bytessent.md)**: Total bytes transmitted through this provider
-- **[BytesReceived](providernetworkusage_bytesreceived.md)**: Total bytes received through this provider
-- **[ProviderId](providernetworkusage_providerid.md)**: Identifier for the network service provider
+### Usage considerations
+- Not all connection types expose provider information; expect fewer (or zero) entries on unsupported networks.
+- Values are aggregated, not live counters; provider accounting latency can delay updates.
+- A missing expected provider id in a window usually means zero usage during that span (not necessarily removal).
+- When correlating with app / attribution usage, sums will not necessarily align; scopes differ (provider vs app).
 
-> [!NOTE]
-> Provider network usage statistics are only available for connections where provider information can be determined. Not all 
-> network connection types support provider-level usage tracking.
+### Scenarios
+| Scenario | Benefit |
+| -- | -- |
+| Multi‑carrier devices | Compare distribution of traffic across carriers |
+| Cost awareness | Identify providers incurring disproportionate usage |
+| Analytics | Trend shifts in provider utilization after policy changes |
+| Billing reconciliation | Cross‑check provider invoices against local accounting |
 
-### Usage scenarios
+### Polling guidance
+Query at a cadence aligned with your reporting granularity (hourly or longer for most apps). Avoid sub‑minute polling—no
+additional fidelity and increased power cost.
 
-Provider network usage data is valuable for:
-- **Multi-carrier device management**: Tracking usage across different cellular providers
-- **Cost optimization**: Understanding which providers are consuming more data
-- **Network analytics**: Analyzing usage patterns by provider
-- **Billing reconciliation**: Matching usage data with provider billing information
+### Residual / reconciliation
+If aggregate profile usage (see
+[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) differs from the sum across providers,
+treat the delta as unattributed system / non‑provider‑scoped traffic.
 
-### Data accuracy considerations
+> [!NOTE]  
+> Provider usage is only returned when provider metadata is available. Always handle an empty result gracefully.
 
-Like other usage statistics, provider network usage data may have limitations:
-- Data may be collected and reported at different intervals
-- Some connection types may not support detailed provider tracking
-- System-level network activities may not be included in application-specific queries
+### Recommended pattern
+1. Query provider usage and aggregate usage for the same aligned window.
+2. Sum per‑provider totals; compute residual = aggregate − sum(providers) (if positive).
+3. Persist per‑provider cumulative totals keyed by ProviderId (with versioning if identifiers can change).
+4. Periodically re‑query the most recent closed bucket to incorporate late adjustments (apply positive deltas only).
+
+For general incremental and reconciliation patterns, also review
+[ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) guidance.
 
 ## -examples
 
@@ -55,4 +69,3 @@ Like other usage statistics, provider network usage data may have limitations:
 [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md),
 [NetworkUsage](networkusage.md),
 [NetworkUsageStates](networkusagestates.md)
-

@@ -10,45 +10,45 @@ public bool HasNewTetheringClientCount { get; }
 # Windows.Networking.Connectivity.NetworkStateChangeEventDetails.HasNewTetheringClientCount
 
 ## -description
-Gets a value indicating whether the network state change event shows a new tethering client count.
+Indicates whether the tethering (mobile hotspot) client count may have changed for the current network status change event.
 
 ## -property-value
-When true, the tethering client count has changed.
+True if the tethering client count may have changed; otherwise false. Treat true as a hint to re-query the authoritative tethering / hotspot API for the current count.
 
 ## -remarks
-Use this flag inside a `NetworkInformation.NetworkStatusChanged` handler (after casting the event details) to decide
-whether you need to refresh the tethering client list or count.
+### Usage
+Check inside a [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) handler (after retrieving
+[NetworkStateChangeEventDetails](networkstatechangeeventdetails.md)) to decide whether to refresh displayed hotspot / tethering
+client counts.
 
-Guidance:
+### Guidance
+- Hint semantics: A true value signals you SHOULD re-query; it does not embed the new count.
+- Debounce: Avoid tight polling—rely on the event. Short propagation delays between attach/detach and this flag are expected.
+- Disabled scenarios: If policy disables tethering mid-session you may not receive further client count change flags; handle a
+  disabled / zero-client state defensively.
+- Reconciliation: Keep a cached last-known count. If the refreshed count equals the cache, treat as benign duplicate.
 
-* Event selectivity: Not every underlying link or session change produces this flag; it is raised when the effective
-  number of connected tethering clients differs from the previously reported value.
-* Race avoidance: Treat the flag as a prompt to re-query the authoritative tethering manager or hotspot API rather
-  than assuming you know the new count implicitly.
-* Aggregation latency: Short delays can occur between a client attaching or detaching and the flag being surfaced.
-  Avoid tight polling loops; rely on the event to minimize power and network scans.
-* Policy / entitlement: If policy disables tethering between two client transitions, this flag might not appear again
-  until tethering is re-enabled; handle a disabled feature even if the prior state reported active clients.
-* Reconciliation: Maintain your last committed count. If the flag is true but the re-queried count matches your cache,
-  treat it as a benign transient and keep listening.
+### Pattern
+1. Cache initial count during feature initialization (if feature needed).
+2. On status change:
+   - If `HasNewTetheringClientCount` true, query current count.
+   - If changed, update UI / telemetry.
+3. (Optional) Periodic slow cadence verification to cover rare missed events.
 
-Typical pattern (pseudo):
+> [!NOTE]  
+> Pair with [HasNewTetheringOperationalState](networkstatechangeeventdetails_hasnewtetheringoperationalstate.md) to determine
+> whether tethering remains active before surfacing client count changes.
 
-1. On startup, query current client count and cache it.
-2. On network status change, if `HasNewTetheringClientCount` is true, re-query count.
-3. If different, update UI / accounting; if identical, ignore (possible transient duplicate trigger).
-4. Periodically (optional) re-query on a long cadence (e.g., every few minutes) to cover rare missed events.
 
 ## -examples
 ### Example: Reacting to tethering client count changes (C#)
 ```csharp
 NetworkInformation.NetworkStatusChanged += async (s) =>
 {
-    var details = NetworkInformation.GetNetworkStateChangeEventDetails();
-    if (details?.HasNewTetheringClientCount == true)
+    var evt = NetworkInformation.GetNetworkStateChangeEventDetails();
+    if (evt?.HasNewTetheringClientCount == true)
     {
-        // Re-query authoritative source (placeholder API call)
-        int newCount = await TetheringHelper.GetCurrentClientCountAsync();
+        int newCount = await TetheringHelper.GetCurrentClientCountAsync(); // app-specific helper
         if (newCount != _cachedCount)
         {
             _cachedCount = newCount;
@@ -59,3 +59,6 @@ NetworkInformation.NetworkStatusChanged += async (s) =>
 ```
 
 ## -see-also
+[NetworkStateChangeEventDetails](networkstatechangeeventdetails.md),  
+[NetworkStateChangeEventDetails.HasNewTetheringOperationalState](networkstatechangeeventdetails_hasnewtetheringoperationalstate.md),  
+[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md)

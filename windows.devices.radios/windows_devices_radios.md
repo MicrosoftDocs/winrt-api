@@ -7,7 +7,8 @@
 
 ## -description
 
-The members of this namespace allow your app to find and control radio adapters, like Wi-Fi and Bluetooth, on the device where your app runs, and to query those radios for certain attributes.
+The members of this namespace allow your app to find and control radio adapters (Wi-Fi, Bluetooth, and others) on the device
+where your app runs, and to query those radios for certain attributes.
 
 ## -remarks
 

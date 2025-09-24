@@ -29,9 +29,9 @@ The [NetworkAdapter](networkadapter.md) class provides several important propert
 - **[NetworkItem](networkadapter_networkitem.md)**: Associated network information
 
 > [!IMPORTANT]
-> The bandwidth values returned by [OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md) and 
-[InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md) represent the maximum theoretical speeds of the network adapter 
-hardware, not the actual available bandwidth on the current connection.
+> The bandwidth values returned by [OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md) and
+> [InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md) represent the maximum theoretical speeds of the network adapter
+> hardware, not the actual available bandwidth on the current connection.
 
 ### Getting connection profile information
 
@@ -62,6 +62,6 @@ For a complete list, refer to the IANA Interface Types registry.
 ## -see-also
 [ConnectionProfile](connectionprofile.md),
 [ConnectionProfile.NetworkAdapter](connectionprofile_networkadapter.md),
+[NetworkConnectivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
 [NetworkInformation](networkinformation.md),
-[NetworkItem](networkitem.md),
-[NetworkConnectivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
+[NetworkItem](networkitem.md)

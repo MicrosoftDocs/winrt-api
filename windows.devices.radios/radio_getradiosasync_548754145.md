@@ -11,29 +11,67 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Devices.Radios.Radio.GetRadiosAsync
 
 ## -description
-Retrieves a collection of [Windows.Devices.Radios.Radio](radio.md) objects representing the radios present at the time
-the call is made.
+Retrieves a collection (snapshot) of [Radio](radio.md) objects representing the radios present when the call executes.
 
 ## -returns
-When complete, returns a list of [Windows.Devices.Radios.Radio](radio.md) objects describing the radios present at the
-time of the call.
+On successful completion, a read-only list of [Radio](radio.md) objects representing the radios present at call time.
 
 ## -remarks
-Platform notes:
-* **Xbox:** Not supported for UWP apps. Enumeration may return no radios, and state control APIs are unavailable.
+### Snapshot behavior
+Each invocation returns a fresh snapshot. Radios physically added or removed since the previous call will appear or
+disappear accordingly. Cache validity is therefore limited; re-enumerate when you receive hardware change signals or
+user actions implying device addition/removal.
 
-General guidance:
-* Each call returns a fresh snapshot; radios added or removed since the previous call appear or disappear in the new
-  result set.
-* Handle an empty result set gracefully; do not assume an error. Verify that required capabilities are declared before
-  retrying.
-* Re-enumerate after a device add or remove if you maintain a cached list.
+### Empty results
+An empty collection does not imply failure. It can mean:
+- Platform does not expose radio enumeration (for example, Xbox in many configurations).
+- The process architecture is incompatible (see Architecture considerations below).
+- The user/device has no radios currently enabled or present.
+Validate required capabilities (for APIs that require them) before retry logic.
 
-Architecture considerations:
-* UWP apps: Works for any app architecture (x86, x64, ARM64).
-* Desktop (Win32) apps: Radios are returned only when the process architecture matches the OS (for example, x64 on
-  x64, ARM64 on ARM64). An x86 desktop process on an x64 or ARM64 system typically returns no radios.
+### Re-enumeration guidance
+Re-query when:
+- A UI that lists radios is brought back to foreground after suspension.
+- You receive a radio state change and need to detect newly available hardware.
+- A device arrival/removal notification occurs (classic desktop companion component).
+
+Avoid excessive polling; enumerate on demand or event-driven triggers.
+
+### Architecture considerations
+- UWP apps: Works across x86, x64, and ARM64.
+- Desktop (Win32) processes: Enumeration returns radios only when process architecture matches the OS architecture
+  (x64 process on x64 OS, ARM64 on ARM64). An x86 process on x64/ARM64 commonly yields an empty list.
+
+> [!NOTE]
+> Architecture mismatch and platform restrictions are common reasons for an empty result. Handle the empty case
+> defensively instead of surfacing generic error messaging.
+
+### Platform notes
+- Xbox: Enumeration may return zero radios; state control operations may be unavailable.
+
+### Usage pattern (conceptual C#)
+```csharp
+var radios = await Radio.GetRadiosAsync();
+if (radios.Count == 0)
+{
+    // App-specific: disable radio-dependent UI or show a contextual message
+}
+foreach (var r in radios)
+{
+    // App-specific: aggregate by r.Kind or subscribe to r.StateChanged
+}
+```
 
 ## -examples
 
 ## -see-also
+[Radio](radio.md),
+[Radio.FromIdAsync](radio_fromidasync_1322863552.md),
+[Radio.GetDeviceSelector](radio_getdeviceselector_838466080.md),
+[Radio.RequestAccessAsync](radio_requestaccessasync_380675631.md),
+[Radio.SetStateAsync](radio_setstateasync_1524539262.md),
+[Radio.StateChanged](radio_statechanged.md),
+[RadioAccessStatus](radioaccessstatus.md),
+[RadioKind](radiokind.md),
+[RadioManager sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/RadioManager),
+[RadioState](radiostate.md)
