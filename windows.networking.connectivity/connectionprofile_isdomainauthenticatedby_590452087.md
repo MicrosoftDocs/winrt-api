@@ -39,7 +39,6 @@ Behavior and guidance:
 
 Edge cases:
 
-* Network transitions may temporarily surface `None` while wireless association precedes enterprise trust confirmation.
 * VPN scenarios: Domain authentication kind may reflect the tunneled corporate trust rather than the local physical network.
 * Offline resume: After resume from sleep, revalidation may take time; defer critical enterprise-only actions until a positive result is observed.
 
