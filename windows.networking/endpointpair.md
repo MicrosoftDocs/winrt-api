@@ -10,31 +10,60 @@ public class EndpointPair : Windows.Networking.IEndpointPair
 # Windows.Networking.EndpointPair
 
 ## -description
-Provides data for the local endpoint and remote endpoint for a network connection used by network apps.
+Provides data for the local endpoint and remote endpoint for a network connection, encapsulating both the hostname/IP address and 
+service name/port information needed for network operations.
 
 ## -remarks
-**EndpointPair** is used to initialize (and provide data for) an endpoint pair used in networking apps. The **EndpointPair** object provides data for the local and remote endpoints for a network connection. **EndpointPair** is also used by many classes in other related Windows Runtime namespaces for network apps; here are some examples of those.
+[EndpointPair](endpointpair.md) is used to initialize and provide data for endpoint pairs used in networking applications. 
+The [EndpointPair](endpointpair.md) object provides data for both local and remote endpoints for a network connection, 
+making it a fundamental building block for network connectivity scenarios.
 
-- Many classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace using sockets. Methods on the [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and [StreamSocket](../windows.networking.sockets/streamsocket.md) classes can be used to establish network connections and transfer data using an EndpointPair object.
-- The [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace.
+### Endpoint composition
 
-An endpoint consists of these two elements.
+Each endpoint within an [EndpointPair](endpointpair.md) consists of two elements:
+- **Hostname or IP address**: Represented by a [HostName](hostname.md) object
+- **Service name or port number**: Represented as a string (e.g., "80", "http", "https")
 
-- The hostname, or IP address.
-- The service name, or the TCP or UDP port number.
+The [EndpointPair](endpointpair.md) combines these into:
+- **Local endpoint**: [LocalHostName](endpointpair_localhostname.md) and [LocalServiceName](endpointpair_localservicename.md)
+- **Remote endpoint**: [RemoteHostName](endpointpair_remotehostname.md) and [RemoteServiceName](endpointpair_remoteservicename.md)
 
-And an endpoint pair consists of these two elements.
+### Automatic endpoint resolution
 
-- The local endpoint.
-- The remote endpoint.
+The system provides automatic resolution for unspecified endpoint components:
 
-If the local hostname is null for the local endpoint before a network connection is established by a client app, then the system will automatically provide the local IP address for the app to use.
+[!NOTE]
+If the [LocalHostName](endpointpair_localhostname.md) is null before establishing a network connection, the system will 
+automatically provide an appropriate local IP address for the application to use.
 
-If the local service name is an empty string for the local endpoint before a network connection is established by a client app, then the system will automatically provide a TCP or UDP port for the app to use.
+[!NOTE]
+If the [LocalServiceName](endpointpair_localservicename.md) is an empty string before establishing a network connection, 
+the system will automatically assign an available TCP or UDP port for the application to use.
 
-The [WiFiDirectDevice](../windows.devices.wifidirect/wifidirectdevice.md) class can be used to locate other devices that have a Wi-Fi Direct (WFD) capable device. The [WiFiDirectDevice.GetDeviceSelector](../windows.devices.wifidirect/wifidirectdevice_getdeviceselector_185243134.md) method gets the device identifier for a nearby WFD device. Once you have a reference to a nearby WFD device, you can call the [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md) method to get an EndpointPair object.
+### Usage across networking APIs
+
+[EndpointPair](endpointpair.md) is used by many classes across Windows Runtime networking namespaces:
+
+**Socket operations:**
+- [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and 
+  [StreamSocket](../windows.networking.sockets/streamsocket.md) classes can establish network connections and transfer data 
+  using [EndpointPair](endpointpair.md) objects
+- [GetSortedEndpointPairs](../windows.networking.connectivity/networkinformation_getsortedendpointpairs_1067659180.md) 
+  returns optimized endpoint pairs for connection attempts
+
+**Network discovery and Wi-Fi Direct:**
+- [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md) 
+  returns [EndpointPair](endpointpair.md) objects for Wi-Fi Direct connections
+- [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class uses endpoint pairs for network 
+  optimization scenarios
 
 ## -examples
 
 ## -see-also
-[DatagramSocket](../windows.networking.sockets/datagramsocket.md), [HostName](hostname.md), [NetworkInformation](../windows.networking.connectivity/networkinformation.md), [StreamSocket](../windows.networking.sockets/streamsocket.md), [Windows.Networking](windows_networking.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md), [WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md)
+[HostName](hostname.md),
+[NetworkInformation](../windows.networking.connectivity/networkinformation.md),
+[NetworkInformation.GetSortedEndpointPairs](../windows.networking.connectivity/networkinformation_getsortedendpointpairs_1067659180.md),
+[DatagramSocket](../windows.networking.sockets/datagramsocket.md),
+[StreamSocket](../windows.networking.sockets/streamsocket.md),
+[Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md),
+[WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md)
