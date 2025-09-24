@@ -150,5 +150,10 @@ IAsyncAction FindImsProfilesAsync()
 > If no profiles were provisioned with the IMS purpose GUID the result set is empty; this is expected and not an error.
 
 ## -see-also
+[CM_CellularEntries CSP](https://learn.microsoft.com/windows/client-management/mdm/cm-cellularentries-csp),
 [ConnectionProfile](connectionprofile.md),
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+[ConnectionProfileFilter.PurposeGuid](connectionprofilefilter_purposeguid.md),
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md),
+[PurposeGroupGuid](https://learn.microsoft.com/windows/win32/mbn/element-purposegroupguid),
+[PurposeGroups](https://learn.microsoft.com/windows/win32/mbn/element-purposegroups),
+[WwanConnectionProfileDetails.PurposeGuids](wwanconnectionprofiledetails_purposeguids.md)
