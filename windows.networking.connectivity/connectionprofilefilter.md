@@ -33,7 +33,8 @@ Common pitfalls:
 * Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
 * Setting multiple cost related constraints (for example [NetworkCostType](networkcosttype.md) plus Roaming or OverDataLimit states) can lead to brittle logic; query the profile's [ConnectionCost](connectioncost.md) after selection instead.
 
-Avoid reusing and toggling properties on a single filter instance between calls. Leftover state can unintentionally over-constrain and yield zero results (see carrier / service provider filtering example below).
+> [!NOTE]
+> Avoid reusing and toggling properties on a single filter instance between calls. Leftover state can unintentionally over-constrain and yield zero results (see carrier / service provider filtering example below).
 
 Functional selection notes:
 
