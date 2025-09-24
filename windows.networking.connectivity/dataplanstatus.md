@@ -13,7 +13,7 @@ public class DataPlanStatus : Windows.Networking.Connectivity.IDataPlanStatus
 Represents the current status information for the data plan associated with a connection.
 
 ## -remarks
-Obtain an instance using ConnectionProfile.GetDataPlanStatus on a profile returned by NetworkInformation.GetInternetConnectionProfile or FindConnectionProfilesAsync.
+Obtain an instance using ConnectionProfile.GetDataPlanStatus on a profile returned by NetworkInformation.GetInternetConnectionProfile, FindConnectionProfilesAsync, or GetConnectionProfiles.
 
 Usage guidance:
 
