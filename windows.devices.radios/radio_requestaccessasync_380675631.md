@@ -27,11 +27,9 @@ permission to control radios.
 Call once per app session (or when you suspect status may have changed due to settings/policy). Repeated calls waste
 cycles and can degrade user experience.
 
-### Returned statuses (see [RadioAccessStatus](radioaccessstatus.md))
-- **Allowed**: You may change radio states (subject to individual radio kind limitations).
-- **DeniedByUser**: The user explicitly denied permission (for example, privacy settings). Offer guidance, not repeated prompts.
-- **DeniedBySystem**: Blocked by system policy/admin restrictions; do not retry automatically.
-- **Unspecified**: Treat as denied; fall back to read-only scenarios if applicable.
+### Returned statuses
+Returns [RadioAccessStatus.Allowed](radioaccessstatus.md) on success, indicating permission to change radio states. 
+Any other status indicates failure - see [RadioAccessStatus](radioaccessstatus.md) for detailed meanings and handling guidance.
 
 Permission is only required for radio state changes via [SetStateAsync](radio_setstateasync_1524539262.md). Radio enumeration
 and state reading are always allowed regardless of access status.

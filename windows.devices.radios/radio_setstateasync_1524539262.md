@@ -22,8 +22,9 @@ The desired radio state. Pass [RadioState.On](radiostate.md) to enable or [Radio
 > [RadioState.Disabled](radiostate.md) is reserved for OS use and cannot be set programmatically.
 
 ## -returns
-A [RadioAccessStatus](radioaccessstatus.md) indicating whether the request was permitted. A result of **Allowed** means
-the request was accepted; the radio will then transition asynchronously to the final state, unless blocked by hardware.
+A [RadioAccessStatus](radioaccessstatus.md) indicating whether the request was permitted. [RadioAccessStatus.Allowed](radioaccessstatus.md) 
+means the request was accepted; any other value indicates failure. See [RadioAccessStatus](radioaccessstatus.md) for detailed meanings. 
+The radio will then transition asynchronously to the final state, unless blocked by hardware.
 
 ## -remarks
 ### Permission flow
