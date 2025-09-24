@@ -28,8 +28,8 @@ For examples of how NetworkInformation class methods are implemented, see [Quick
 
 Use this class to:
 
-1. Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
-2. Obtain localized names or signal / data plan information through the associated profile objects.
+* Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
+* Obtain localized names or signal / data plan information through the associated profile objects.
 
 Important guidance:
 
