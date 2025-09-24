@@ -54,4 +54,3 @@ if (profile != null)
 ```
 
 ## -see-also
-[How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10))

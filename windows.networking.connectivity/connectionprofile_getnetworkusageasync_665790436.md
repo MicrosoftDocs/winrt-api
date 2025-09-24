@@ -71,8 +71,6 @@ This method returns aggregate network usage data for the connection profile over
 
 This pattern minimizes overlap and handles late provider adjustments without double counting.
 
-Reference: [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
-
 ## -examples
 ### Sliding window (hourly) collection (C#)
 
