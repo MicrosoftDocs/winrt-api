@@ -36,7 +36,6 @@ Avoid reusing and toggling properties on a single filter instance between calls.
 Functional selection notes:
 
 * To enumerate all currently connected profiles across technologies (e.g., Ethernet and Wi-Fi), set `IsConnected = true` and leave `IsWlanConnectionProfile` / `IsWwanConnectionProfile` unset.
-* Setting both `IsWlanConnectionProfile` and `IsWwanConnectionProfile` never produces a union; it yields no results because both conditions must be true simultaneously.
 * A single filter cannot express logical OR across technologies with `ServiceProviderGuid`; construct separate filters per technology when needed.
 
 ## -examples
