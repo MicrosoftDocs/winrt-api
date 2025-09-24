@@ -33,9 +33,17 @@ This level of connectivity (limited internet access) is generally encountered wh
 Local and internet access.
 
 ## -remarks
-For an example of how these values are used to indicate connection changes, see [Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10)).
+
+> [!IMPORTANT]
+> Applications should not take a dependency on Windows Internet connectivity probes before attempting to connect to 
+> their backend services. When LocalAccess or higher connectivity is available, apps should attempt connections to their 
+> services.
+
+For a complete implementation demonstrating connection attempts with any level of local connectivity, see the 
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
 
 ## -examples
 
 ## -see-also
+[NetworkInformation](networkinformation.md),
 [Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10))

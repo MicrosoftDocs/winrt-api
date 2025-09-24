@@ -34,7 +34,16 @@ Use this class to:
 * Retrieve LAN/WLAN/WWAN specific details (for example, WlanConnectionProfileDetails, WwanConnectionProfileDetails).
 * Obtain localized names or signal / data plan information through the associated profile objects.
 
-Important guidance:
+### Connection attempt best practices
+
+> [!IMPORTANT]
+> Apps should not take a dependency on Windows Internet connectivity probes before attempting to connect to their 
+> backend services. When we report LocalAccess or higher connectivity, apps should attempt connections to their services.
+
+For a complete implementation demonstrating these principles, see the 
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
+
+### Additional guidance
 
 * If your scenario depends on cost awareness (metered vs unrestricted), query
   `connectionCost = profile?.GetConnectionCost()` and check `connectionCost.NetworkCostType` before large background

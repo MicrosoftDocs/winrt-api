@@ -18,11 +18,19 @@ ConnectionProfile represents a snapshot of a specific network interface's connec
 Ethernet, etc.). Re-query the profile when you receive a network status change event because cached profile objects
 may be obsolete or contain stale properties.
 
-Connectivity level evolution:
+### Connectivity level evolution and connection attempts
 
-* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
-  `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
-  decision point instead of assuming the level when the profile was first retrieved.
+A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
+`InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
+decision point instead of assuming the level when the profile was first retrieved.
+
+> [!IMPORTANT]
+> Applications should not take a dependency on Windows Internet connectivity probes before attempting to connect to 
+> their backend services. When we report LocalAccess or higher connectivity, apps should attempt connections to their 
+> services.
+
+For a complete implementation demonstrating these principles, see the 
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
 
 Common tasks:
 
@@ -198,4 +206,6 @@ if (profile != null)
 ## -see-also
 [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
 [Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager),
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
+[NetworkInformation](networkinformation.md),
 [NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)
