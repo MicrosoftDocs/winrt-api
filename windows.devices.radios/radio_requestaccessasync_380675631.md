@@ -11,15 +11,16 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Radios.RadioAccessStat
 # Windows.Devices.Radios.Radio.RequestAccessAsync
 
 ## -description
-An asynchronous method that retrieves a value indicating what access the current user has to the radio represented
-by this object. In circumstances where user permission is required to access the radio, this method prompts the
-user for permission. Consequently, always call this method on the UI thread.
+Retrieves a value indicating what access the current user has to the radio represented by this object.
 
 ## -returns
 An asynchronous status retrieval operation. On successful completion, contains an enumeration value describing the
 current user's access to this radio.
 
 ## -remarks
+> [!IMPORTANT]
+> This method may prompt the user for permission in circumstances where user permission is required to access the radio. Consequently, always call this method on the UI thread.
+
 Call this method before attempting to enumerate or change radio states. A typical sequence is:
 1. Request access (once per session or when status might have changed).
 2. Enumerate radios using [GetRadiosAsync](radio_getradiosasync_548754145.md) or device enumeration with
