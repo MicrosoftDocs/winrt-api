@@ -23,8 +23,7 @@ Guidance:
 
 * Trigger scope: The flag is raised for meaningful state transitions (for example, enable request accepted, active
   session termination, policy disable). Internal intermediate steps may be coalesced.
-* Re-query required: Retrieve the current tethering operational state from the authoritative API after seeing this
-  flag; do not infer the new state purely from context.
+* Re-query required: Retrieve the current tethering operational state from the [NetworkOperatorTetheringManager.TetheringOperationalState](../windows.networking.networkoperators/networkoperatortetheringmanager_tetheringoperationalstate.md) property after seeing this flag; do not infer the new state purely from context.
 * Latency: A small delay can exist between low-level adapter changes and the surfaced operational state transition;
   design UI to tolerate brief indeterminate states.
 * Policy gating: Transitions caused by policy or entitlement changes can occur without user initiation. Listen
