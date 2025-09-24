@@ -11,7 +11,7 @@ public enum Windows.Devices.Radios.RadioAccessStatus : int
 # RadioAccessStatus
 
 ## -description
-Enumeration that describes possible access states that a user can have to a given radio.
+Indicates the application's permission level for controlling radio devices, returned by both access requests and state change operations.
 
 ## -enum-fields
 ### -field Unspecified:0
@@ -26,10 +26,7 @@ Access was denied because of user action, usually through denying an operation t
 ### -field DeniedBySystem:3
 Access was denied by the system. One common reason is insufficient permission to manipulate the radio.
 
-
 ## -remarks
-[RadioAccessStatus](radioaccessstatus.md) indicates the application's permission level for controlling radio devices, 
-returned by both access requests and state change operations.
 
 ### Access status meanings
 
