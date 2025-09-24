@@ -37,11 +37,7 @@ Purpose GUIDs are standardized identifiers surfaced by the Windows WWAN stack (M
 appear on provisioned cellular profiles created by carrier/OEM provisioning or enterprise (MDM) policy. Do **not**
 invent or randomize values; use only those delivered through official provisioning channels.
 
-| Purpose | GUID |
-| -- | -- |
-| Internet | 7E5E2A7E-4E6F-7272-736B-656E7E5E2A7E |
-| IMS | 21610D01-3074-4BCE-9425-B53A07D697D6 |
-| SUPL | 64F65862-6954-4FB3-B6E1-807461ABEBA0 |
+For the complete list of purpose GUIDs, see [PurposeGroupGuid](https://learn.microsoft.com/windows/win32/mbn/element-purposegroupguid).
 
 > [!NOTE]  
 > These GUIDs map to underlying MBIM context types. If a profile was not provisioned with a given purpose, filtering
@@ -154,6 +150,5 @@ IAsyncAction FindImsProfilesAsync()
 [ConnectionProfile](connectionprofile.md),
 [ConnectionProfileFilter.PurposeGuid](connectionprofilefilter_purposeguid.md),
 [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md),
-[PurposeGroupGuid](https://learn.microsoft.com/windows/win32/mbn/element-purposegroupguid),
 [PurposeGroups](https://learn.microsoft.com/windows/win32/mbn/element-purposegroups),
 [WwanConnectionProfileDetails.PurposeGuids](wwanconnectionprofiledetails_purposeguids.md)

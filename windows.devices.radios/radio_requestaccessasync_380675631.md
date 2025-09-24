@@ -38,10 +38,11 @@ may still succeed and state can often be read.
 
 ### Typical sequence
 1. Request access.
-2. Enumerate radios via [GetRadiosAsync](radio_getradiosasync_548754145.md) or a device query using
+2. Check status - proceed only if **Allowed**.
+3. Enumerate radios via [GetRadiosAsync](radio_getradiosasync_548754145.md) or a device query using
    [GetDeviceSelector](radio_getdeviceselector_838466080.md).
-3. Subscribe to [StateChanged](radio_statechanged.md) for displayed radios.
-4. Invoke [SetStateAsync](radio_setstateasync_1524539262.md) only if status is **Allowed**.
+4. Subscribe to [StateChanged](radio_statechanged.md) for displayed radios.
+5. Invoke [SetStateAsync](radio_setstateasync_1524539262.md) (access already validated).
 
 ### Usage pattern (C#)
 ```csharp

@@ -27,18 +27,33 @@ Use the selector when you need to:
 - Receive device arrival/removal events through standard device watcher patterns.
 - Defer enumeration until a watcher signals changes.
 
-### Usage pattern (C#)
+### Usage patterns
+Use the selector for one-time enumeration or continuous monitoring:
+
 ```csharp
 using Windows.Devices.Enumeration;
 using Windows.Devices.Radios;
 
+// One-time enumeration
 string selector = Radio.GetDeviceSelector();
-var radios = await DeviceInformation.FindAllAsync(selector);
-// App-specific: project DeviceInformation.Id values back to Radio via FromIdAsync if needed
-```
+var devices = await DeviceInformation.FindAllAsync(selector);
+foreach (var device in devices)
+{
+    var radio = await Radio.FromIdAsync(device.Id);
+    // App-specific: use radio for state management
+}
 
-> [!NOTE]
-> The device selector is static; re-run the query to obtain updated results after hardware changes.
+// Continuous monitoring for hardware changes
+var watcher = DeviceInformation.CreateWatcher(selector);
+watcher.Added += async (sender, deviceInfo) => {
+    var radio = await Radio.FromIdAsync(deviceInfo.Id);
+    // App-specific: handle newly available radio
+};
+watcher.Removed += (sender, deviceInfoUpdate) => {
+    // App-specific: handle removed radio
+};
+watcher.Start();
+```
 
 ## -examples
 
