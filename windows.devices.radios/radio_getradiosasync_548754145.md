@@ -49,7 +49,9 @@ Avoid excessive polling; enumerate on demand or event-driven triggers.
 ### Platform notes
 - Xbox: Enumeration may return zero radios; state control operations may be unavailable.
 
-### Usage pattern (conceptual C#)
+## -examples
+Basic enumeration pattern (C#):
+
 ```csharp
 var radios = await Radio.GetRadiosAsync();
 if (radios.Count == 0)
@@ -61,8 +63,6 @@ foreach (var r in radios)
     // App-specific: aggregate by r.Kind or subscribe to r.StateChanged
 }
 ```
-
-## -examples
 
 ## -see-also
 [Radio](radio.md),

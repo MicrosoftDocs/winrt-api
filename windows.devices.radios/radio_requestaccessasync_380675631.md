@@ -43,7 +43,14 @@ and state reading are always allowed regardless of access status.
 3. Request access when user attempts to change radio state.
 4. Check status - invoke [SetStateAsync](radio_setstateasync_1524539262.md) only if **Allowed**.
 
-### Usage pattern (C#)
+
+> [!NOTE]  
+> Cache the result for the session. Re-check only after a settings change notification or when returning from a
+> system privacy page the user opened from your app.
+
+## -examples
+Permission-based radio control (C#):
+
 ```csharp
 using Windows.Devices.Radios;
 
@@ -71,12 +78,6 @@ private async Task ToggleRadio(Radio radio)
     await radio.SetStateAsync(newState);
 }
 ```
-
-> [!NOTE]  
-> Cache the result for the session. Re-check only after a settings change notification or when returning from a
-> system privacy page the user opened from your app.
-
-## -examples
 
 ## -see-also
 [Radio](radio.md),

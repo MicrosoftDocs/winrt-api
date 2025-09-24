@@ -28,7 +28,10 @@ Use the selector when you need to:
 - Defer enumeration until a watcher signals changes.
 
 ### Usage patterns
-Use the selector for one-time enumeration or continuous monitoring:
+Use the selector for one-time enumeration or continuous monitoring.
+
+## -examples
+One-time enumeration and continuous monitoring (C#):
 
 ```csharp
 using Windows.Devices.Enumeration;
@@ -54,8 +57,6 @@ watcher.Removed += (sender, deviceInfoUpdate) => {
 };
 watcher.Start();
 ```
-
-## -examples
 
 ## -see-also
 [DeviceInformation.FindAllAsync](../windows.devices.enumeration/deviceinformation_findallasync_1257462890.md),
