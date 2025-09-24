@@ -16,11 +16,10 @@ capabilities, and system policy.
 
 ## -parameters
 ### -param value
-The desired radio state. Only [RadioState.On](radiostate.md) and [RadioState.Off](radiostate.md) are valid values.
+The desired radio state. Pass [RadioState.On](radiostate.md) to enable or [RadioState.Off](radiostate.md) to disable the radio.
 
-> [!IMPORTANT]
-> Do not pass [RadioState.Disabled](radiostate.md) or [RadioState.Unknown](radiostate.md) to this method. These states 
-> represent hardware or system conditions that cannot be set programmatically.
+> [!NOTE]
+> [RadioState.Disabled](radiostate.md) is reserved for OS use and cannot be set programmatically.
 
 ## -returns
 A [RadioAccessStatus](radioaccessstatus.md) indicating whether the request was permitted. A result of **Allowed** means
@@ -36,9 +35,6 @@ Required capabilities:
 - radios
 - cellularDeviceControl (only for mobile broadband kinds; restricted)
 
-### Acceptable values
-Only pass [RadioState.On](radiostate.md) or [RadioState.Off](radiostate.md). Attempting to "set" [RadioState.Disabled](radiostate.md)
-or [RadioState.Unknown](radiostate.md) is invalid; those represent system / hardware conditions.
 
 > [!IMPORTANT]  
 > Hardware (for example, a physical kill switch) or policy can override an **Allowed** request, leaving the radio in
