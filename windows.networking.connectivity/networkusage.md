@@ -32,8 +32,9 @@ Usage considerations:
 * Reconciliation with attributed usage: Summing all [AttributedNetworkUsage](attributednetworkusage.md) entries for the
   same window can be less than or equal to the aggregate from `NetworkUsage`; residual bytes can represent
   unattributed system activity or accounting alignment.
-* Multi-interface scenarios: Query each relevant `ConnectionProfile` separately; this type does not merge across
-  interfaces. Aggregate in your code if you present a holistic device view.
+* Multi-interface and multi-profile scenarios: Query each relevant `ConnectionProfile` separately; this type does not
+  merge across interfaces or across different profiles for the same interface. Aggregate in your code if you present
+  a holistic device view.
 * Sliding cursor collection: Maintain the boundary of the last fully closed bucket (aligned to granularity) and commit
   only complete buckets to avoid double counting when polling.
 * Overflow safety: Use checked 64-bit accumulation when summing long historical ranges; do not downcast to 32-bit.
