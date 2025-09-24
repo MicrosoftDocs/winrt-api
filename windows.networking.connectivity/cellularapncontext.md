@@ -33,9 +33,9 @@ The [CellularApnContext](cellularapncontext.md) class provides comprehensive con
 **Connection options:**
 - [IsCompressionEnabled](cellularapncontext_iscompressionenabled.md): Whether data compression should be enabled
 
-[!IMPORTANT]
-APN configurations must match the settings provided by your cellular carrier. Incorrect APN settings will prevent successful 
-cellular data connections. Contact your carrier for the correct APN configuration values.
+> [!IMPORTANT]
+> APN configurations must match the settings provided by your cellular carrier. Incorrect APN settings will prevent successful 
+> cellular data connections. Contact your carrier for the correct APN configuration values.
 
 ### APN connection lifecycle
 

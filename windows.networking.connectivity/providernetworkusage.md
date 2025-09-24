@@ -27,9 +27,9 @@ For comprehensive usage tracking patterns and best practices, see
 - **[BytesReceived](providernetworkusage_bytesreceived.md)**: Total bytes received through this provider
 - **[ProviderId](providernetworkusage_providerid.md)**: Identifier for the network service provider
 
-[!NOTE]
-Provider network usage statistics are only available for connections where provider information can be determined. Not all 
-network connection types support provider-level usage tracking.
+> [!NOTE]
+> Provider network usage statistics are only available for connections where provider information can be determined. Not all 
+> network connection types support provider-level usage tracking.
 
 ### Usage scenarios
 

@@ -30,8 +30,8 @@ The [NetworkSecuritySettings](networksecuritysettings.md) class provides two key
 
 ### Wireless security considerations
 
-[!IMPORTANT]
-Security settings are most relevant for wireless connections where authentication and encryption are configurable. 
+> [!IMPORTANT]
+> Security settings are most relevant for wireless connections where authentication and encryption are configurable. 
 Wired Ethernet connections typically report "None" for both authentication and encryption types, as security is handled 
 at different network layers.
 

@@ -26,10 +26,10 @@ This is particularly useful for:
 - IoT devices needing dedicated data connections
 - Applications requiring connections with specific billing or security characteristics
 
-[!IMPORTANT]
-Connection acquisition through [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) requires 
-appropriate cellular capabilities to be declared in the application manifest. The returned [ConnectionSession](connectionsession.md) 
-must be properly disposed when the connection is no longer needed.
+> [!IMPORTANT]
+> Connection acquisition through [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md) requires 
+> appropriate cellular capabilities to be declared in the application manifest. The returned [ConnectionSession](connectionsession.md) 
+> must be properly disposed when the connection is no longer needed.
 
 ### HTTP traffic routing policies  
 
@@ -49,9 +49,9 @@ Routing policies are valuable for:
 - **Cellular cost management**: Directing non-critical traffic away from expensive cellular connections
 - **Quality of Service**: Using high-quality connections for priority traffic
 
-[!NOTE]
-Routing policies only affect HTTP traffic originating from the same application that set the policy. System-wide traffic 
-routing requires administrative privileges and is not supported through [ConnectivityManager](connectivitymanager.md).
+> [!NOTE]
+> Routing policies only affect HTTP traffic originating from the same application that set the policy. System-wide traffic 
+> routing requires administrative privileges and is not supported through [ConnectivityManager](connectivitymanager.md).
 
 ## -examples
 

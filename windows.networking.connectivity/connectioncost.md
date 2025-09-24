@@ -32,9 +32,9 @@ The [ConnectionCost](connectioncost.md) class provides several key properties fo
 - [BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md): Indicates if background data usage is 
   restricted by user settings or system policies
 
-[!IMPORTANT]
-Applications should always check [ConnectionCost](connectioncost.md) properties before performing large data transfers or 
-background operations. Respecting cost constraints helps preserve user data allowances and provides a better user experience.
+> [!IMPORTANT]
+> Applications should always check [ConnectionCost](connectioncost.md) properties before performing large data transfers or 
+> background operations. Respecting cost constraints helps preserve user data allowances and provides a better user experience.
 
 ### Cost-based application behavior
 

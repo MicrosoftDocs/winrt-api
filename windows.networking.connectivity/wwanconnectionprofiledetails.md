@@ -62,9 +62,9 @@ the current cellular technology:
 - **2G**: Gprs, Edge
 - **CDMA**: Various CDMA technologies
 
-[!NOTE]
-The data class returned represents the currently active technology, which may differ from the maximum capability of the 
-cellular radio or network coverage area.
+> [!NOTE]
+> The data class returned represents the currently active technology, which may differ from the maximum capability of the 
+> cellular radio or network coverage area.
 
 ### Version history
 

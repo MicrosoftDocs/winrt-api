@@ -42,10 +42,10 @@ Key properties of [HostName](hostname.md) include:
 - **[CanonicalName](hostname_canonicalname.md)**: The standardized form of the hostname
 - **[IPInformation](hostname_ipinformation.md)**: Associated IP configuration when available
 
-[!IMPORTANT]
-Always validate [HostName](hostname.md) objects before using them in network operations. Use 
-[IsEqual](hostname_isequal_1366077980.md) to compare [HostName](hostname.md) instances, and check the 
-[Type](hostname_type.md) property to ensure you're working with the expected address format.
+> [!IMPORTANT]
+> Always validate [HostName](hostname.md) objects before using them in network operations. Use 
+> [IsEqual](hostname_isequal_1366077980.md) to compare [HostName](hostname.md) instances, and check the 
+> [Type](hostname_type.md) property to ensure you're working with the expected address format.
 
 ### Creating HostName objects
 

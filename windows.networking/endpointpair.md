@@ -32,13 +32,13 @@ The [EndpointPair](endpointpair.md) combines these into:
 
 The system provides automatic resolution for unspecified endpoint components:
 
-[!NOTE]
-If the [LocalHostName](endpointpair_localhostname.md) is null before establishing a network connection, the system will 
-automatically provide an appropriate local IP address for the application to use.
+> [!NOTE]
+> If the [LocalHostName](endpointpair_localhostname.md) is null before establishing a network connection, the system will 
+> automatically provide an appropriate local IP address for the application to use.
 
-[!NOTE]
-If the [LocalServiceName](endpointpair_localservicename.md) is an empty string before establishing a network connection, 
-the system will automatically assign an available TCP or UDP port for the application to use.
+> [!NOTE]
+> If the [LocalServiceName](endpointpair_localservicename.md) is an empty string before establishing a network connection, 
+> the system will automatically assign an available TCP or UDP port for the application to use.
 
 ### Usage across networking APIs
 

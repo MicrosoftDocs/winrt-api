@@ -28,8 +28,8 @@ The [NetworkAdapter](networkadapter.md) class provides several important propert
 - **[NetworkAdapterId](networkadapter_networkadapterid.md)**: Unique identifier for the adapter
 - **[NetworkItem](networkadapter_networkitem.md)**: Associated network information
 
-[!IMPORTANT]
-The bandwidth values returned by [OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md) and 
+> [!IMPORTANT]
+> The bandwidth values returned by [OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md) and 
 [InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md) represent the maximum theoretical speeds of the network adapter 
 hardware, not the actual available bandwidth on the current connection.
 
