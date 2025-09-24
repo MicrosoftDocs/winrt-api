@@ -28,33 +28,26 @@ Call once per app session (or when you suspect status may have changed due to se
 cycles and can degrade user experience.
 
 ### Returned statuses (see [RadioAccessStatus](radioaccessstatus.md))
-- **Allowed**: You may enumerate and change radio states (subject to individual radio kind limitations).
+- **Allowed**: You may change radio states (subject to individual radio kind limitations).
 - **DeniedByUser**: The user explicitly denied permission (for example, privacy settings). Offer guidance, not repeated prompts.
 - **DeniedBySystem**: Blocked by system policy/admin restrictions; do not retry automatically.
 - **Unspecified**: Treat as denied; fall back to read-only scenarios if applicable.
 
-An access status other than **Allowed** does not imply radios are absent—only that control is restricted. Enumeration
-may still succeed and state can often be read.
+Permission is only required for radio state changes via [SetStateAsync](radio_setstateasync_1524539262.md). Radio enumeration
+and state reading are always allowed regardless of access status.
 
 ### Typical sequence
-1. Request access.
-2. Check status - proceed only if **Allowed**.
-3. Enumerate radios via [GetRadiosAsync](radio_getradiosasync_548754145.md) or a device query using
+1. Enumerate radios via [GetRadiosAsync](radio_getradiosasync_548754145.md) or a device query using
    [GetDeviceSelector](radio_getdeviceselector_838466080.md).
-4. Subscribe to [StateChanged](radio_statechanged.md) for displayed radios.
-5. Invoke [SetStateAsync](radio_setstateasync_1524539262.md) (access already validated).
+2. Subscribe to [StateChanged](radio_statechanged.md) for displayed radios.
+3. Request access when user attempts to change radio state.
+4. Check status - invoke [SetStateAsync](radio_setstateasync_1524539262.md) only if **Allowed**.
 
 ### Usage pattern (C#)
 ```csharp
 using Windows.Devices.Radios;
 
-var access = await Radio.RequestAccessAsync();
-if (access != RadioAccessStatus.Allowed)
-{
-    // App-specific: degrade functionality or show limited-controls message
-    return;
-}
-
+// Enumeration and state reading requires no permission
 var radios = await Radio.GetRadiosAsync();
 foreach (var r in radios)
 {
@@ -62,6 +55,20 @@ foreach (var r in radios)
     {
         // App-specific: refresh UI / logic based on sender.State
     };
+}
+
+// Request permission only when user wants to change state
+private async Task ToggleRadio(Radio radio)
+{
+    var access = await Radio.RequestAccessAsync();
+    if (access != RadioAccessStatus.Allowed)
+    {
+        // App-specific: show message that changes aren't allowed
+        return;
+    }
+    
+    var newState = radio.State == RadioState.On ? RadioState.Off : RadioState.On;
+    await radio.SetStateAsync(newState);
 }
 ```
 
