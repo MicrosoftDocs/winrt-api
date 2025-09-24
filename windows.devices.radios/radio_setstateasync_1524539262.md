@@ -26,15 +26,10 @@ A [RadioAccessStatus](radioaccessstatus.md) indicating whether the request was p
 the request was accepted; the radio may still transition asynchronously to the final state.
 
 ## -remarks
-### Capabilities and permission flow
+### Permission flow
 1. Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) early (once per session).
 2. Verify the returned [RadioAccessStatus](radioaccessstatus.md) is **Allowed**.
 3. Invoke SetStateAsync only when permission is granted.
-
-Required capabilities:
-- radios
-- cellularDeviceControl (only for mobile broadband kinds; restricted)
-
 
 > [!IMPORTANT]  
 > Hardware (for example, a physical kill switch) or policy can override an **Allowed** request, leaving the radio in
