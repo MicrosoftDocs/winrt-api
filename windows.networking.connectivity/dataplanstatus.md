@@ -17,7 +17,9 @@ Obtain an instance using [ConnectionProfile](connectionprofile.md).[GetDataPlanS
 
 Usage guidance:
 
-* Always null-check the returned DataPlanStatus. Some profiles do not expose plan information (for example unmanaged Wi-Fi hotspots) and will return null.
+> [!IMPORTANT]
+> Always null-check the returned DataPlanStatus. Some profiles do not expose plan information (for example unmanaged Wi-Fi hotspots) and will return null.
+
 * [DataPlanUsage](dataplanusage.md) and DataLimitInMegabytes should be interpreted together. If DataLimitInMegabytes is null you cannot enforce a hard cap based solely on usage trends.
 * MaxTransferSizeInMegabytes indicates the largest recommended chunk for a single network transfer to avoid excessive metered charges. Respect this when designing background sync logic that can batch work.
 * NextBillingCycle can be null; when present it allows you to compute remaining quota windows. Avoid assuming month boundaries. Operators can define custom cycles.

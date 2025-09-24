@@ -59,7 +59,9 @@ This method returns aggregate network usage data for the connection profile over
 * Periodically re-query recent closed buckets to capture late provider adjustments.
 
 **Incremental Collection:**
-* To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary rather than reusing prior `endTime` values.
+> [!NOTE]
+> To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary rather than reusing prior `endTime` values.
+
 * Maintain a cursor aligned to the usage granularity and only commit fully closed buckets.
 * Skip provisional/partial buckets that are still accumulating data.
 

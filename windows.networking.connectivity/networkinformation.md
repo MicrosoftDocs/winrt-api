@@ -39,7 +39,9 @@ Important guidance:
 
 Event handling best practices:
 
-* Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+> [!IMPORTANT]
+> Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
 
