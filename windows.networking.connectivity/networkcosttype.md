@@ -41,8 +41,8 @@ Scenario guidance:
 4. ApproachingDataLimit: Preemptively reduce quality (bitrate, resolution) and surface a subtle UI indicator. Offer a
    user override for critical tasks.
 5. OverDataLimit: Pause non-essential background sync. Require explicit user action to proceed with large transfers.
-6. BackgroundDataUsageRestricted: Defer background-only telemetry or sync; allow user-initiated foreground actions
-   with confirmation.
+6. BackgroundDataUsageRestricted: Defer background-only telemetry or sync; user-initiated foreground actions should
+   proceed normally.
 7. Roaming: Avoid silent large downloads; compress or batch where possible even if NetworkCostType is Unrestricted.
 8. Streaming / adaptive content: Dynamically target lower initial bitrate and ramp cautiously when any of
    ApproachingDataLimit, OverDataLimit, Roaming, or BackgroundDataUsageRestricted is active.
