@@ -18,7 +18,10 @@ This event signals that the effective observable state of the radio changed. Whe
 otherwise goes offline, no state change is reported. Intermediate transitions can be coalesced. Physical removal (for
 example unplugging a USB adapter) may result in no further events; the radio simply no longer appears in later
 enumerations. Always read the current state when handling the event rather than inferring unobserved intermediate
-values. Handlers may be invoked on a non-UI thread.
+values.
+
+> [!NOTE]
+> Handlers may be invoked on a non-UI thread.
 
 ## -examples
 
