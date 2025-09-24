@@ -15,7 +15,9 @@ The ConnectionProfileFilter class defines a set of properties that are used to i
 At least one property must be specified, otherwise the object is not used as for filtering.
 
 ## -remarks
-Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the current profile returned by NetworkInformation.GetInternetConnectionProfile.
+Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the
+current profile returned by NetworkInformation.GetInternetConnectionProfile or the all-inclusive enumeration
+provided by GetConnectionProfiles which includes all profiles including those which are offline.
 
 Usage guidance:
 
