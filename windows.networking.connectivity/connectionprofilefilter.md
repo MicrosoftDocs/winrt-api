@@ -21,7 +21,7 @@ entire set from [GetConnectionProfiles](networkinformation_getconnectionprofiles
 the current internet profile.
 
 ### Guidance
-- Start minimal; add properties only as needed to avoid over‑constraining.
+- Start minimal; add properties only as needed to avoid over-constraining.
 - Prefer `IsWlanConnectionProfile` / `IsWwanConnectionProfile` over parsing names to detect technology.
 - Retrieve usage after filtering by calling
   [ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) rather than inferring it
@@ -31,6 +31,28 @@ the current internet profile.
 ### Purpose / Service provider GUID
 Use `PurposeGuid` (or `ServiceProviderGuid`) only when you possess a valid value (carrier provisioning / enterprise
 policy). An incorrect GUID silently yields zero results.
+
+#### Purpose GUID sources
+Purpose GUIDs are standardized identifiers surfaced by the Windows WWAN stack (MBIM context type GUIDs) and
+appear on provisioned cellular profiles created by carrier/OEM provisioning or enterprise (MDM) policy. Do **not**
+invent or randomize values; use only those delivered through official provisioning channels.
+
+| Purpose | GUID |
+| -- | -- |
+| Internet | 7E5E2A7E-4E6F-7272-736B-656E7E5E2A7E |
+| IMS | 21610D01-3074-4BCE-9425-B53A07D697D6 |
+| SUPL | 64F65862-6954-4FB3-B6E1-807461ABEBA0 |
+
+> [!NOTE]  
+> These GUIDs map to underlying MBIM context types. If a profile was not provisioned with a given purpose, filtering
+> with that GUID returns no results (silent empty set).
+
+Typical usage scenarios:
+- Selecting a specialized IMS profile for voice/video service enablement
+- Isolating SUPL (assisted GPS) data contexts for cost or routing decisions
+
+Keep filtering logic narrow: specify `PurposeGuid` plus `IsWwanConnectionProfile` only; add other constraints
+(e.g., connectivity level) only if required.
 
 ### Cost / connectivity considerations
 Applying multiple cost states (for example forcing a specific [NetworkCostType](networkcosttype.md) plus roaming flags)
@@ -43,7 +65,7 @@ can remove legitimate candidates. After selecting profiles, inspect each profile
 | Setting both `IsWlanConnectionProfile` and `IsWwanConnectionProfile` to true expecting OR | Empty result (AND logic) | Leave both false for "any technology" or run two queries |
 | Reusing a filter instance with leftover properties | Unexpectedly empty result | Create a new filter per query scenario |
 | Supplying invalid `PurposeGuid` | Silent no matches | Validate GUID presence beforehand |
-| Over‑constraining with multiple cost flags | Zero profiles | Filter broadly, refine post-selection |
+| Over-constraining with multiple cost flags | Zero profiles | Filter broadly, refine post-selection |
 
 ### Functional selection examples
 - All currently connected profiles across technologies: set `IsConnected = true`; leave technology flags unset.
@@ -92,17 +114,41 @@ var filter = new ConnectionProfileFilter
 var cellularProfiles = await NetworkInformation.FindConnectionProfilesAsync(filter);
 ```
 
-After filtering, validate cost:
+### Filtering by IMS purpose GUID (C++/WinRT)
 
-```csharp
-using Windows.Networking.Connectivity;
+```cpp
+#include <winrt/Windows.Networking.Connectivity.h>
+using namespace winrt;
+using namespace Windows::Networking::Connectivity;
 
-foreach (var p in cellularProfiles)
+IAsyncAction FindImsProfilesAsync()
 {
-    var cost = p.GetConnectionCost();
-    if (cost.Roaming) { /* adjust behavior */ }
+    ConnectionProfileFilter filter;
+    filter.IsWwanConnectionProfile(true);
+    // IMS purpose GUID (authoritative WWAN context type)
+    filter.PurposeGuid(winrt::guid{ L"{21610D01-3074-4BCE-9425-B53A07D697D6}" });
+
+    auto profiles = co_await NetworkInformation::FindConnectionProfilesAsync(filter);
+
+    for (auto const& profile : profiles)
+    {
+        auto details = profile.WwanConnectionProfileDetails();
+        if (!details) continue;
+
+        for (auto const& g : details.PurposeGuids())
+        {
+            if (g == winrt::guid{ L"{21610D01-3074-4BCE-9425-B53A07D697D6}" })
+            {
+                // App-specific: prioritize or attach IMS services for this profile
+            }
+        }
+    }
 }
 ```
 
+> [!NOTE]  
+> If no profiles were provisioned with the IMS purpose GUID the result set is empty; this is expected and not an error.
+
 ## -see-also
-[ConnectionProfile](connectionprofile.md), [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+[ConnectionProfile](connectionprofile.md),
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
