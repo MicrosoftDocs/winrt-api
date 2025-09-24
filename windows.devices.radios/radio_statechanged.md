@@ -15,17 +15,12 @@ Occurs when a radio's operational state changes.
 
 ## -remarks
 ### Overview
-Raised for transitions between [RadioState](radiostate.md) values (for example: [On](radiostate.md), [Off](radiostate.md), [Disabled](radiostate.md), [Unknown](radiostate.md)). Lets apps adapt to user or system initiated changes (power policy, airplane mode, hardware switch, entitlement).
-
-### Event semantics
-| Behavior | Details |
-| -- | -- |
-| Coalescing | Rapid intermediate transitions can be merged into a single notification. |
-| Removal | Physical removal normally yields no final event; subsequent enumeration omits the radio. |
-| Ordering | Multiple radios may report changes independently; no global ordering guarantee. |
+Raised for transitions between [RadioState](radiostate.md) values. Lets apps adapt to user or system initiated
+changes (power policy, airplane mode, hardware switch, entitlement).
 
 ### Threading
-Handlers run on a background thread. Marshal to the appropriate app thread for UI or thread-affine operations. Keep handlers short to avoid delaying subsequent notifications.
+Handlers run on a background thread. Marshal to the appropriate app thread for UI or thread-affine operations. Keep
+handlers short to avoid delaying subsequent notifications.
 
 ### Recommended pattern
 1. Read current [Radio.State](radio_state.md) inside the handler (do not rely on cached state).
@@ -43,7 +38,6 @@ Handlers run on a background thread. Marshal to the appropriate app thread for U
 
 > [!NOTE]  
 > Handlers execute on background threads; marshal only the minimal data needed to the foreground/UI thread.
-
 
 ## -examples
 
