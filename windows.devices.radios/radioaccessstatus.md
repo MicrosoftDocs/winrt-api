@@ -24,7 +24,7 @@ Access is allowed.
 Access was denied because of user action, usually through denying an operation through the radio privacy settings page.
 
 ### -field DeniedBySystem:3
-Access was denied by the system. One common reason is insufficient permission to manipulate the radio.
+Access was denied by the system. One common reason is that the user does not have sufficient permission to manipulate the radio.
 
 ## -remarks
 
