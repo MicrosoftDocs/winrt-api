@@ -22,7 +22,7 @@ provided by GetConnectionProfiles which includes all profiles including those wh
 Usage guidance:
 
 1. Start with the minimal set of properties. Many filters (for example IsWlanConnectionProfile and IsWwanConnectionProfile) are mutually exclusive or naturally reduce the result set to zero if over-constrained.
-2. Use the PurposeGuid only when you know the target scenario (for example a VPN or specific provisioned profile) and have obtained the GUID from policy or management infrastructure. An incorrect GUID will silently yield no matches.
+2. Use the PurposeGuid only when you know the target scenario (for example a specific WWAN profile or carrier-provisioned connection) and have obtained the GUID from carrier provisioning or enterprise policy infrastructure. An incorrect GUID will silently yield no matches.
 3. Combine NetworkCostType and NetworkConnectivityLevel constraints only if you must; connectivity state can vary frequently (especially on mobile / metered connections) and may cause races if evaluated before connection stabilization.
 4. If you need usage data after filtering, enumerate the resulting profiles and then call GetNetworkUsageAsync on each rather than attempting to predict usage characteristics from filter inputs.
 5. Prefer using IsWlanConnectionProfile or IsWwanConnectionProfile over examining the profile name string to determine access technology.
