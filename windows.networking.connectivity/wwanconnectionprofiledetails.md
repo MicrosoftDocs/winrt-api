@@ -76,9 +76,9 @@ cellular radio or network coverage area.
 ## -examples
 
 ## -see-also
-[ConnectionProfile.WwanConnectionProfileDetails](connectionprofile_wwanconnectionprofiledetails.md),
 [ConnectionProfile.IsWwanConnectionProfile](connectionprofile_iswwanconnectionprofile.md),
-[WwanNetworkRegistrationState](wwannetworkregistrationstate.md),
+[ConnectionProfile.WwanConnectionProfileDetails](connectionprofile_wwanconnectionprofiledetails.md),
+[NetworkInformation](networkinformation.md),
 [WwanDataClass](wwandataclass.md),
 [WwanNetworkIPKind](wwannetworkipkind.md),
-[NetworkInformation](networkinformation.md)
+[WwanNetworkRegistrationState](wwannetworkregistrationstate.md)

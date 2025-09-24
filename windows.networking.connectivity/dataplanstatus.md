@@ -72,5 +72,7 @@ if (usage && limitRef)
 ```
 
 ## -see-also
-[ConnectionProfile](connectionprofile.md), [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md), [ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md),
+[ConnectionProfile](connectionprofile.md),
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md),
+[NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md),
 [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))

@@ -65,8 +65,8 @@ Always verify APN settings with your carrier before deployment.
 ## -examples
 
 ## -see-also
-[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md),
+[CellularApnAuthenticationType](cellularapnauthenticationtype.md),
+[ConnectionProfile](connectionprofile.md),
 [ConnectionSession](connectionsession.md),
 [ConnectivityManager](connectivitymanager.md),
-[CellularApnAuthenticationType](cellularapnauthenticationtype.md),
-[ConnectionProfile](connectionprofile.md)
+[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md)

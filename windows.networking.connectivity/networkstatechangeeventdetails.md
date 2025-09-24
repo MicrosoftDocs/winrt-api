@@ -81,9 +81,9 @@ private void OnNetworkStatusChanged(object sender)
 ```
 
 ## -see-also
-[NetworkInformation](networkinformation.md),
-[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md),
-[ConnectionProfile](connectionprofile.md),
-[NetworkConnectivityLevel](networkconnectivitylevel.md),
 [ConnectionCost](connectioncost.md),
-[NetworkConnectivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
+[ConnectionProfile](connectionprofile.md),
+[NetworkConnectivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
+[NetworkConnectivityLevel](networkconnectivitylevel.md),
+[NetworkInformation](networkinformation.md),
+[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md)

@@ -164,7 +164,7 @@ private void ManageRoutingPolicies()
 
 ## -see-also
 [CellularApnContext](cellularapncontext.md),
-[ConnectionSession](connectionsession.md),
-[RoutePolicy](routepolicy.md),
 [ConnectionProfile](connectionprofile.md),
-[NetworkInformation](networkinformation.md)
+[ConnectionSession](connectionsession.md),
+[NetworkInformation](networkinformation.md),
+[RoutePolicy](routepolicy.md)

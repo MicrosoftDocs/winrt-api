@@ -60,10 +60,10 @@ the system will automatically assign an available TCP or UDP port for the applic
 ## -examples
 
 ## -see-also
+[DatagramSocket](../windows.networking.sockets/datagramsocket.md),
 [HostName](hostname.md),
 [NetworkInformation](../windows.networking.connectivity/networkinformation.md),
 [NetworkInformation.GetSortedEndpointPairs](../windows.networking.connectivity/networkinformation_getsortedendpointpairs_1067659180.md),
-[DatagramSocket](../windows.networking.sockets/datagramsocket.md),
 [StreamSocket](../windows.networking.sockets/streamsocket.md),
-[Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md),
-[WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md)
+[WiFiDirectDevice.GetConnectionEndpointPairs](../windows.devices.wifidirect/wifidirectdevice_getconnectionendpointpairs_1958888015.md),
+[Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md)

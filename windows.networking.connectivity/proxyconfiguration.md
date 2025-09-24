@@ -53,10 +53,10 @@ For detailed information about automatic proxy support, see the remarks section 
 ## -examples
 
 ## -see-also
-[NetworkInformation.GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md),
+[ConnectionProfile](connectionprofile.md),
 [NetworkInformation](networkinformation.md),
-[StreamSocket](../windows.networking.sockets/streamsocket.md),
-[ConnectionProfile](connectionprofile.md)
+[NetworkInformation.GetProxyConfigurationAsync](networkinformation_getproxyconfigurationasync_1451648549.md),
+[StreamSocket](../windows.networking.sockets/streamsocket.md)
 
 ## -capabilities
 internetClient, privateNetworkClientServer
