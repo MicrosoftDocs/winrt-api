@@ -44,9 +44,9 @@ enumeration capabilities and individual radio control.
 
 ### Platform and policy considerations
 
-**Xbox platform notes:**
-- Radio enumeration may return empty results on Xbox
-- State change requests may be denied by system policy
+**Platform-specific behavior:**
+- On Xbox, radio enumeration typically returns no results, and state change requests are generally denied by system policy
+- On other platforms, similar restrictions may apply depending on system configuration, user permissions, or hardware capabilities
 
 **System behavior:**
 - Radios can appear or disappear during application lifetime
