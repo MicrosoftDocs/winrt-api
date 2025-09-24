@@ -14,15 +14,42 @@ public event Windows.Foundation.TypedEventHandler StateChanged<Windows.Devices.R
 Event raised when the radio state changes.
 
 ## -remarks
-This event signals that the effective observable state of the radio changed. When a USB Bluetooth radio is removed or
-otherwise goes offline, no state change is reported. Intermediate transitions can be coalesced. Physical removal (for
-example unplugging a USB adapter) may result in no further events; the radio simply no longer appears in later
-enumerations. Always read the current state when handling the event rather than inferring unobserved intermediate
-values.
+The [StateChanged](radio_statechanged.md) event provides notification when a radio's operational state transitions between 
+[RadioState](radiostate.md) values, enabling applications to respond to both user-initiated and system-initiated changes.
+
+### Event behavior and timing
+
+**State change detection:**
+- Event fires for all observable state transitions ([On](radiostate.md), [Off](radiostate.md), [Disabled](radiostate.md), [Unknown](radiostate.md))
+- Rapid intermediate transitions may be coalesced into single events
+- Physical radio removal typically results in no event - the radio disappears from subsequent enumerations
+
+**Threading considerations:**
+- Event handlers are invoked on background threads
+- Use appropriate thread marshalling when interfacing with thread-sensitive operations
+- Avoid long-running operations in event handlers to prevent blocking radio state monitoring
+
+### Event handling best practices
+
+**State reading:**
+- Always read [Radio.State](radio_state.md) property when handling events
+- Do not assume intermediate state transitions occurred
+- Handle all possible [RadioState](radiostate.md) values
+
+**Resource management:**
+- Unsubscribe from events when radio objects are no longer needed
+- Avoid subscribing multiple handlers to the same radio
+- Consider using weak event patterns for long-lived objects
 
 > [!NOTE]
-> Handlers may be invoked on a non-UI thread.
+> Event handlers are invoked on background threads. Use appropriate thread marshalling mechanisms when interfacing with 
+> thread-sensitive operations.
 
 ## -examples
 
+For complete radio enumeration and state monitoring examples, see [Radio class documentation](radio.md).
+
 ## -see-also
+[Radio](radio.md),
+[Radio.State](radio_state.md),
+[RadioState](radiostate.md)

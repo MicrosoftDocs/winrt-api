@@ -11,59 +11,92 @@ public class Radio : Windows.Devices.Radios.IRadio
 # Windows.Devices.Radios.Radio
 
 ## -description
-Represents a radio device on the system.
+Provides access to radio devices on the system, enabling applications to enumerate, monitor, and control radio states for 
+Wi-Fi, Bluetooth, mobile broadband, and other radio technologies.
 
 ## -remarks
-Platform notes:
-* **Xbox:** This API surface isn't supported for UWP apps on Xbox. Enumeration can return an empty set, and state
-  change requests may fail or be denied by the system.
+The [Radio](radio.md) class serves as the primary interface for radio management on Windows devices, providing both 
+enumeration capabilities and individual radio control.
 
-Use static members such as [GetRadiosAsync](radio_getradiosasync_548754145.md),
-[GetDeviceSelector](radio_getdeviceselector_838466080.md), and [FromIdAsync](radio_fromidasync_1322863552.md) to query for
-radios and retrieve instantiated Radio objects representing specific device radios.
+### Radio discovery and access
 
-Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) at least once from the UI thread before calling
-[SetStateAsync](radio_setstateasync_1524539262.md). In some regions, and with certain user settings, changing radio
-state requires user consent. Calling [RequestAccessAsync](radio_requestaccessasync_380675631.md) prompts the user to
-grant permission. If permission is required but not granted, [SetStateAsync](radio_setstateasync_1524539262.md) fails.
+**Static enumeration methods:**
+- **[GetRadiosAsync](radio_getradiosasync_548754145.md)**: Retrieves all available radios on the system
+- **[GetDeviceSelector](radio_getdeviceselector_838466080.md)**: Returns a device selector string for advanced device enumeration
+- **[FromIdAsync](radio_fromidasync_1322863552.md)**: Creates a Radio object from a specific device ID
 
-Functional behavior:
-* Radios can appear or disappear while your app runs; enumeration is not fixed after launch.
-* A newly discovered radio may already be On or Off based on prior configuration or policy.
-* Removing a radio (for example, unplugging a USB adapter) simply causes it to stop appearing in subsequent
-  enumerations; there is no transient "removed" state object.
-* Rapid internal state transitions may be coalesced; only a final observable state may surface through events.
-* Friendly names can change. Do not use a friendly name as a persistent identifier.
-* Different radio technologies (for example, Wi-Fi, Bluetooth, Mobile Broadband) are managed independently. The state
-  of one does not imply the presence or state of another.
-* Each enumeration call returns a snapshot of the radios known and active at that moment.
-* System or administrative policy can limit which radios are visible or which state changes are permitted.
-* Attach only one handler per component to a radio's [StateChanged](radio_statechanged.md) event to avoid duplicate
-  processing of the same transition.
+**Access control:**
+- **[RequestAccessAsync](radio_requestaccessasync_380675631.md)**: Requests permission to control radio states
+
+> [!IMPORTANT]
+> Always call [RequestAccessAsync](radio_requestaccessasync_380675631.md) before attempting to change radio states. 
+> In some regions and configurations, radio control requires explicit user consent.
+
+### Radio properties and control
+
+**Core properties:**
+- **[State](radio_state.md)**: Current radio state ([RadioState](radiostate.md))
+- **[Kind](radio_kind.md)**: Radio technology type ([RadioKind](radiokind.md))  
+- **[Name](radio_name.md)**: Human-readable radio name
+
+**State control:**
+- **[SetStateAsync](radio_setstateasync_1524539262.md)**: Changes radio state (On/Off)
+- **[StateChanged](radio_statechanged.md)**: Event fired when radio state changes
+
+### Platform and policy considerations
+
+**Xbox platform notes:**
+- Radio enumeration may return empty results on Xbox
+- State change requests may be denied by system policy
+
+**System behavior:**
+- Radios can appear or disappear during application lifetime
+- Different radio types operate independently
+- System policies may restrict radio visibility or control
+- Hardware switches can force radios into [RadioState.Disabled](radiostate.md) state
 
 ## -examples
-### Enumerate, subscribe, and control radios (C#)
+
+### Basic radio access and enumeration
+
 ```csharp
 using Windows.Devices.Radios;
 
-var access = await Radio.RequestAccessAsync();
-if (access == RadioAccessStatus.Allowed)
+private async Task<bool> CheckRadioAccessAsync()
 {
+    var accessStatus = await Radio.RequestAccessAsync();
+    if (accessStatus != RadioAccessStatus.Allowed)
+    {
+        // App-specific: handle access denial
+        return false;
+    }
+    
     var radios = await Radio.GetRadiosAsync();
-    // Attach handlers before making any state changes so no events are missed.
-    foreach (var r in radios)
+    foreach (var radio in radios)
     {
-        r.StateChanged += (sender, _) => UpdateRadioDisplay(sender);
+        // App-specific: process each radio based on kind and state
+        ProcessRadio(radio);
     }
-    // Example: turn on all Wi-Fi radios that are currently off.
-    foreach (var r in radios)
-    {
-        if (r.Kind == RadioKind.WiFi && r.State == RadioState.Off)
-        {
-            await r.SetStateAsync(RadioState.On);
-        }
-    }
+    
+    return true;
+}
+
+private void ProcessRadio(Radio radio)
+{
+    // Subscribe to state changes
+    radio.StateChanged += (sender, args) => {
+        // App-specific: respond to state changes
+    };
+    
+    // App-specific: radio management logic based on radio.Kind and radio.State
 }
 ```
 
+For comprehensive radio management examples including capability-aware control, state monitoring, and device enumeration patterns, see the [RadioManager sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/RadioManager).
+
 ## -see-also
+[DeviceInformation](../windows.devices.enumeration/deviceinformation.md),
+[DeviceWatcher](../windows.devices.enumeration/devicewatcher.md),
+[RadioAccessStatus](radioaccessstatus.md),
+[RadioKind](radiokind.md),
+[RadioState](radiostate.md)

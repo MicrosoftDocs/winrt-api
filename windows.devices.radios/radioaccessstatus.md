@@ -28,7 +28,38 @@ Access was denied by the system. One common reason for this result is that the u
 
 
 ## -remarks
+[RadioAccessStatus](radioaccessstatus.md) indicates the application's permission level for controlling radio devices, 
+returned by both access requests and state change operations.
+
+### Access status meanings
+
+**Permission levels:**
+- **Allowed**: Application has permission to control radio states
+- **DeniedByUser**: User explicitly denied radio control permission through privacy settings
+- **DeniedBySystem**: System policy prevents radio control (insufficient privileges, group policy, etc.)
+- **Unspecified**: No specific access control is implemented for this radio
+
+### Access management workflow
+
+**Typical access pattern:**
+1. Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) once per session
+2. Handle different access statuses appropriately
+3. Only attempt [SetStateAsync](radio_setstateasync_1524539262.md) when status is **Allowed**
+4. Re-check access if operations fail unexpectedly
+
+**User consent scenarios:**
+- First-time access requests may prompt the user
+- User can revoke permissions through system settings
+- Administrative policies can override user choices
+
+> [!NOTE]
+> An access status other than **Allowed** does not mean radios are absent from the system. Applications can still 
+> enumerate radios and read their current states, but cannot modify them.
 
 ## -examples
 
 ## -see-also
+[Radio](radio.md),
+[Radio.RequestAccessAsync](radio_requestaccessasync_380675631.md),
+[Radio.SetStateAsync](radio_setstateasync_1524539262.md),
+[RadioState](radiostate.md)

@@ -19,7 +19,8 @@ current user's access to this radio.
 
 ## -remarks
 > [!IMPORTANT]
-> This method may prompt the user for permission in circumstances where user permission is required to access the radio. Consequently, always call this method on the UI thread.
+> This method may prompt the user for permission in circumstances where user permission is required to access radio control. 
+> Call from an appropriate thread context where user interaction is possible.
 
 Call this method before attempting to enumerate or change radio states. A typical sequence is:
 1. Request access (once per session or when status might have changed).
