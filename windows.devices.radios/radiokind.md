@@ -18,16 +18,16 @@ Enumeration that represents the kinds of radio devices.
 An unspecified kind of radio device.
 
 ### -field WiFi:1
-A Wi-Fi radio.
+A Wi-Fi radio. 802.11 wireless networking radios for local area network connectivity.
 
 ### -field MobileBroadband:2
-A mobile broadband radio. This value became available in Windows 10 version 1703.
+A mobile broadband radio. Cellular radios for wide-area network connectivity (3G, 4G, 5G). This value became available in Windows 10 version 1703.
 
 ### -field Bluetooth:3
-A Bluetooth radio.
+A Bluetooth radio. Short-range wireless communication for device pairing and data transfer.
 
 ### -field FM:4
-An FM radio.
+An FM radio. Radio reception hardware for future use - not currently available.
 
 > [!NOTE]
 > This value is defined for future use, and is not currently available.
@@ -35,17 +35,6 @@ An FM radio.
 ## -remarks
 [RadioKind](radiokind.md) identifies the technology type of radio devices, enabling applications to filter and manage 
 specific radio types appropriately.
-
-### Radio technology characteristics
-
-**Common radio types:**
-- **WiFi**: 802.11 wireless networking radios for local area network connectivity
-- **Bluetooth**: Short-range wireless communication for device pairing and data transfer
-- **MobileBroadband**: Cellular radios for wide-area network connectivity (3G, 4G, 5G)
-
-**Special considerations:**
-- **Other**: Includes specialized radios not covered by specific categories
-- **FM**: Radio reception hardware (future use - not currently available)
 
 ### Control and policy implications
 
