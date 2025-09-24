@@ -61,26 +61,17 @@ enumeration capabilities and individual radio control.
 ```csharp
 using Windows.Devices.Radios;
 
-private async Task<bool> CheckRadioAccessAsync()
+// Request permission to control radios
+var accessStatus = await Radio.RequestAccessAsync();
+if (accessStatus != RadioAccessStatus.Allowed)
 {
-    var accessStatus = await Radio.RequestAccessAsync();
-    if (accessStatus != RadioAccessStatus.Allowed)
-    {
-        // App-specific: handle access denial
-        return false;
-    }
-    
-    var radios = await Radio.GetRadiosAsync();
-    foreach (var radio in radios)
-    {
-        // App-specific: process each radio based on kind and state
-        ProcessRadio(radio);
-    }
-    
-    return true;
+    // App-specific: handle access denial
+    return;
 }
 
-private void ProcessRadio(Radio radio)
+// Enumerate available radios and subscribe to state changes
+var radios = await Radio.GetRadiosAsync();
+foreach (var radio in radios)
 {
     // Subscribe to state changes
     radio.StateChanged += (sender, args) => {
