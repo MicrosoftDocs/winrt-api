@@ -51,7 +51,6 @@ specific radio types appropriately.
 
 Different radio kinds may have varying control restrictions:
 - **System policies** may limit which radio types can be controlled by applications
-- **MobileBroadband** radios require the **cellularDeviceControl** restricted capability for state control
 - **Hardware switches** can force any radio type into an uncontrollable disabled state
 
 > [!IMPORTANT]
