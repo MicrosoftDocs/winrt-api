@@ -29,19 +29,24 @@ When the method completes, it returns a list of [AttributedNetworkUsage](attribu
 ## -remarks
 This method returns per-application (or attribution bucket) usage over the specified window.
 
-Usage considerations:
+For general usage API best practices (time window management, incremental collection, avoiding double counting), see [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
 
+### Attribution-Specific Considerations:
+
+**Data Completeness:**
 * Empty result: Valid when no usage is recorded or attribution data is unavailable.
-* Time window: Partial final interval handling matches GetNetworkUsageAsync.
-* Filtering: Over-restricting NetworkUsageStates (for example forcing a roaming state) can hide legitimate usage.
-* Stability: Attribution identifiers can change across resets or provisioning changes; avoid treating them as permanent keys.
 * Aggregate reconciliation: Summing all attributed usage entries may not exactly equal the aggregate usage returned by `GetNetworkUsageAsync`; some traffic can reside in non-attributed or system buckets.
 * Residual usage: Treat (aggregate - sum(attributed)) as a separate logical bucket if you need a complete picture; do not force attribution of those bytes retroactively.
-* Incremental collection: Maintain a cursor aligned to the usage granularity (for example, hour) and only commit fully closed buckets; re-query recent closed buckets periodically to capture late adjustments.
-* Double counting avoidance: When reconciling, compute deltas per AttributionId between the last committed snapshot and the new snapshot of the same closed bucket range.
+
+**Attribution Stability:**
+* Attribution identifiers can change across resets or provisioning changes; avoid treating them as permanent keys.
 * Identifier churn: Implement a mapping layer so if an AttributionId disappears you can finalize its prior totals without assuming deletion implies uninstall.
 
-Reconciliation workflow (outline):
+**Reconciliation:**
+* Double counting avoidance: When reconciling, compute deltas per AttributionId between the last committed snapshot and the new snapshot of the same closed bucket range.
+* Apply the same incremental collection patterns as GetNetworkUsageAsync, but track per-attribution totals.
+
+**Attribution-Aggregate Reconciliation Workflow:**
 
 1. Query aggregate (`GetNetworkUsageAsync`) and attributed (`GetAttributedNetworkUsageAsync`) for the same aligned window.
 2. Compute per-id deltas since the previous snapshot for fully closed buckets only.

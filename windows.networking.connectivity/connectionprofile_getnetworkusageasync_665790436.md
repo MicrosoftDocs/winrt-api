@@ -41,31 +41,34 @@ interval. The entries are in chronological order, starting at the startTime. If 
 of the granularity, then the last entry will report usage only up to the endTime.
 
 ## -remarks
-Guidance:
+This method returns aggregate network usage data for the connection profile over the specified time window.
 
-* Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute)
-  to avoid extra leading or trailing partial buckets.
-* An empty vector is a valid result (no recorded usage or provider unavailable) - treat as "no data" rather than an
-  error and retry in the next collection cycle.
-* Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute). Aggregate in your own code
-  if you need rolled-up statistics.
-* NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them
-  unconstrained yields a complete view.
-* This API returns estimated usage, not real-time byte counts; provider accounting can lag actual traffic. For
-  near-real-time display, advance a sliding window but accept that the most recent bucket may later increase when
-  re-queried.
-* To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary
-  rather than reusing prior `endTime` values.
+### Usage API Best Practices
 
-Incremental (cursor) pattern:
+**Time Window Management:**
+* Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute) to avoid extra leading or trailing partial buckets.
+* An empty vector is a valid result (no recorded usage or provider unavailable) - treat as "no data" rather than an error and retry in the next collection cycle.
+* Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute). Aggregate in your own code if you need rolled-up statistics.
 
-1. Choose a granularity (e.g., PerHour). Compute an aligned initial `startTime` (floor to the granularity boundary) and
-  `endTime = startTime + granularity`.
-2. Query usage. Discard the last element if its interval end is after (now - granularity) because it's still
-  accumulating.
+**State Filtering:**
+* NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
+* Over-restricting state filters can hide legitimate usage data.
+
+**Data Accuracy:**
+* This API returns estimated usage, not real-time byte counts; provider accounting can lag actual traffic. For near-real-time display, advance a sliding window but accept that the most recent bucket may later increase when re-queried.
+* Periodically re-query recent closed buckets to capture late provider adjustments.
+
+**Incremental Collection:**
+* To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary rather than reusing prior `endTime` values.
+* Maintain a cursor aligned to the usage granularity and only commit fully closed buckets.
+* Skip provisional/partial buckets that are still accumulating data.
+
+**Incremental Collection Pattern:**
+
+1. Choose a granularity (e.g., PerHour). Compute an aligned initial `startTime` (floor to the granularity boundary) and `endTime = startTime + granularity`.
+2. Query usage. Discard the last element if its interval end is after (now - granularity) because it's still accumulating.
 3. Persist the boundary (end of the last fully closed bucket) as the new `startTime` for the next run.
-4. On the next invocation, set `endTime = now` (or `startTime + N*granularity` if batching) and repeat, summing only
-  newly closed buckets.
+4. On the next invocation, set `endTime = now` (or `startTime + N*granularity` if batching) and repeat, summing only newly closed buckets.
 5. Periodically (e.g., daily) re-query the recent past (one or two buckets) to reconcile late adjustments.
 
 This pattern minimizes overlap and handles late provider adjustments without double counting.

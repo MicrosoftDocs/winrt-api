@@ -28,7 +28,7 @@ When the method completes, it returns a list of [ConnectivityInterval](connectiv
 ## -remarks
 Guidance:
 
-* Combine with `GetNetworkUsageAsync` to correlate connected time and transferred bytes. Intervals capture presence; usage captures volume.
+* Combine with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) to correlate connected time and transferred bytes. Intervals capture presence; usage captures volume.
 * Align query bounds (start/end) with your reporting window. The API can return partial leading or trailing intervals if your bounds cut through an active connection.
 * Empty results are valid (no connectivity in that window); treat as "no data" not an error.
 * Avoid overly fine periodic polling (e.g., every few seconds). Typical aggregation windows are 15 minutes or larger.
