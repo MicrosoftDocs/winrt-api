@@ -19,13 +19,14 @@ enumeration capabilities and individual radio control.
 
 ### Radio discovery and access
 
-**Static enumeration methods:**
-- **[GetRadiosAsync](radio_getradiosasync_548754145.md)**: Retrieves all available radios on the system
-- **[GetDeviceSelector](radio_getdeviceselector_838466080.md)**: Returns a device selector string for advanced device enumeration
-- **[FromIdAsync](radio_fromidasync_1322863552.md)**: Creates a Radio object from a specific device ID
+Radio discovery begins with the static enumeration methods that allow you to find radios available on the system. You can 
+retrieve all radios at once with [GetRadiosAsync](radio_getradiosasync_548754145.md), use 
+[GetDeviceSelector](radio_getdeviceselector_838466080.md) for advanced device enumeration scenarios with DeviceWatcher, 
+or create a Radio instance from a known device ID using [FromIdAsync](radio_fromidasync_1322863552.md).
 
-**Access control:**
-- **[RequestAccessAsync](radio_requestaccessasync_380675631.md)**: Requests permission to control radio states
+Before attempting to control any radio, you must request permission using 
+[RequestAccessAsync](radio_requestaccessasync_380675631.md). This is essential because radio control may require explicit 
+user consent depending on regional settings and system configuration.
 
 > [!IMPORTANT]
 > Always call [RequestAccessAsync](radio_requestaccessasync_380675631.md) before attempting to change radio states. 
@@ -33,14 +34,13 @@ enumeration capabilities and individual radio control.
 
 ### Radio properties and control
 
-**Core properties:**
-- **[State](radio_state.md)**: Current radio state ([RadioState](radiostate.md))
-- **[Kind](radio_kind.md)**: Radio technology type ([RadioKind](radiokind.md))  
-- **[Name](radio_name.md)**: Human-readable radio name
+Once you have a Radio instance, you can examine its current state and properties. The [State](radio_state.md) property 
+indicates whether the radio is currently on, off, or disabled, while [Kind](radio_kind.md) tells you the radio 
+technology (Wi-Fi, Bluetooth, etc.), and [Name](radio_name.md) provides a human-readable identifier.
 
-**State control:**
-- **[SetStateAsync](radio_setstateasync_1524539262.md)**: Changes radio state (On/Off)
-- **[StateChanged](radio_statechanged.md)**: Event fired when radio state changes
+For state management, use [SetStateAsync](radio_setstateasync_1524539262.md) to turn radios on or off programmatically, 
+and subscribe to the [StateChanged](radio_statechanged.md) event to respond to state transitions that occur due to user 
+actions, system policies, or hardware switches.
 
 ### Platform and policy considerations
 
