@@ -10,7 +10,7 @@ public enum Windows.Networking.Connectivity.NetworkCostType : int
 # NetworkCostType
 
 ## -description
-Defines values for cost limits on a network connection.
+Defines values for cost policies on a network connection.
 
 ## -enum-fields
 ### -field Unknown:0
