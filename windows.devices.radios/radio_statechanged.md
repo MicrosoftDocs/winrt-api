@@ -26,8 +26,6 @@ changes (power policy, airplane mode, hardware switch, entitlement).
 
 ## -examples
 
-For complete radio enumeration and state monitoring examples, see [Radio](radio.md).
-
 ## -see-also
 [Radio](radio.md),
 [Radio.State](radio_state.md),
