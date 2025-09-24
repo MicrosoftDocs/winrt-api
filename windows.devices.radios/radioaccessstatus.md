@@ -39,14 +39,6 @@ returned by both access requests and state change operations.
 - **DeniedBySystem**: System policy prevents radio control (insufficient privileges, group policy, etc.)
 - **Unspecified**: No specific access control is implemented for this radio
 
-### Access management workflow
-
-**Typical access pattern:**
-1. Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) once per session
-2. Handle different access statuses appropriately
-3. Only attempt [SetStateAsync](radio_setstateasync_1524539262.md) when status is **Allowed**
-4. Re-check access if operations fail unexpectedly
-
 **User consent scenarios:**
 - First-time access requests may prompt the user
 - User can revoke permissions through system settings

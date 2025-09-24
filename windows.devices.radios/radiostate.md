@@ -46,12 +46,6 @@ and **Unknown** indicate conditions outside app control.
 > [!IMPORTANT]  
 > Do not attempt to "set" **Disabled** or **Unknown**; treat them as diagnostic states and adjust UI accordingly.
 
-### Recommended pattern
-Request access, attempt change (if allowed), then confirm new state inside [StateChanged](radio_statechanged.md) rather
-than assuming immediate success.
-
-> [!NOTE]  
-> Rapid successive state change requests may coalesce; always observe the final reported state.
 
 ## -examples
 
