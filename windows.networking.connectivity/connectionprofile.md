@@ -17,6 +17,12 @@ ConnectionProfile represents a snapshot of a specific network interface's connec
 Ethernet, etc.). Re-query the profile when you receive a network status change event because cached profile objects
 may be obsolete or contain stale properties.
 
+Connectivity level evolution:
+
+* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
+  `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
+  decision point instead of assuming the level when the profile was first retrieved.
+
 Common tasks:
 
 * Determine effective connectivity level (GetNetworkConnectivityLevel).
@@ -49,12 +55,6 @@ Performance tips:
 
 Interoperability note: Classic desktop components may still use NLM (INetworkListManager) or DUSM cost APIs directly;
 the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for most app scenarios.
-
-Connectivity level evolution:
-
-* A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
-  `InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel()` at the
-  decision point instead of assuming the level when the profile was first retrieved.
 
 Independent cost flag changes:
 
