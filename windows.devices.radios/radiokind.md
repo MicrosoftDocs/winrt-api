@@ -64,7 +64,7 @@ Different radio kinds may have varying control restrictions:
 
 ## -examples
 
-For comprehensive radio management examples including capability-aware control patterns, see [Radio class documentation](radio.md).
+For comprehensive radio management examples including capability-aware control patterns, see [Radio](radio.md).
 
 ## -see-also
 [Radio](radio.md),

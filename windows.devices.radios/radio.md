@@ -11,8 +11,7 @@ public class Radio : Windows.Devices.Radios.IRadio
 # Windows.Devices.Radios.Radio
 
 ## -description
-Provides access to radio devices on the system, enabling applications to enumerate, monitor, and control radio states for 
-Wi-Fi, Bluetooth, mobile broadband, and other radio technologies.
+Represents a radio device on the system.
 
 ## -remarks
 The [Radio](radio.md) class serves as the primary interface for radio management on Windows devices, providing both 
