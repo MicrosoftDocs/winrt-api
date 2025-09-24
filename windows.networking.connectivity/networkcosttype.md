@@ -100,5 +100,5 @@ if (cost.Roaming)
 ```
 
 ## -see-also
-[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md),
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md), [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
 [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))

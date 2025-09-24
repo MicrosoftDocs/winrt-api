@@ -48,7 +48,6 @@ Related classic (Win32) technologies include Network List Manager (NLM / INetwor
 For broader scenario guidance, see:
 
 * [Network connectivity UWP sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
-* Classic samples: Network List Manager, Network Cost (for background knowledge of cost events)
 
 ## -examples
 Event subscription pattern (C#):
@@ -178,4 +177,4 @@ struct NetworkWatcher
 
 ## -see-also
 
-[NetworkingConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)
+[NetworkingConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity), [Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager), [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost)
