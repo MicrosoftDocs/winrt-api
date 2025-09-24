@@ -17,13 +17,13 @@ At least one property must be specified, otherwise the object is not used as for
 ## -remarks
 Create an instance of ConnectionProfileFilter when you need a subset of profiles instead of relying only on the
 current profile returned by NetworkInformation.GetInternetConnectionProfile or the all-inclusive enumeration
-provided by GetConnectionProfiles which includes all profiles including those which are offline.
+provided by [GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md) which includes all profiles including those which are offline.
 
 Usage guidance:
 
 * Start with the minimal set of properties. Many filters (for example IsWlanConnectionProfile and IsWwanConnectionProfile) are mutually exclusive or naturally reduce the result set to zero if over-constrained.
 * Use the PurposeGuid only when you know the target scenario (for example a specific WWAN profile or carrier-provisioned connection) and have obtained the GUID from carrier provisioning or enterprise policy infrastructure. An incorrect GUID will silently yield no matches.
-* Combine NetworkCostType and NetworkConnectivityLevel constraints only if you must; connectivity state can vary frequently (especially on mobile / metered connections) and may cause races if evaluated before connection stabilization.
+* Combine [NetworkCostType](networkcosttype.md) and [NetworkConnectivityLevel](networkconnectivitylevel.md) constraints only if you must; connectivity state can vary frequently (especially on mobile / metered connections) and may cause races if evaluated before connection stabilization.
 * If you need usage data after filtering, enumerate the resulting profiles and then call [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) on each rather than attempting to predict usage characteristics from filter inputs.
 * Prefer using IsWlanConnectionProfile or IsWwanConnectionProfile over examining the profile name string to determine access technology.
 
@@ -31,7 +31,7 @@ Common pitfalls:
 
 * Setting both IsWlanConnectionProfile and IsWwanConnectionProfile to true expecting a union results in no profiles (they are treated as AND conditions). Leave both false for "any technology".
 * Providing a PurposeGuid without confirming its presence on the device yields an empty result and can mask bugs.
-* Setting multiple cost related constraints (for example NetworkCostType plus Roaming or OverDataLimit states) can lead to brittle logic; query the profile's ConnectionCost after selection instead.
+* Setting multiple cost related constraints (for example [NetworkCostType](networkcosttype.md) plus Roaming or OverDataLimit states) can lead to brittle logic; query the profile's [ConnectionCost](connectioncost.md) after selection instead.
 
 Avoid reusing and toggling properties on a single filter instance between calls. Leftover state can unintentionally over-constrain and yield zero results (see carrier / service provider filtering example below).
 

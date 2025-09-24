@@ -51,7 +51,7 @@ This method returns aggregate network usage data for the connection profile over
 * Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute). Aggregate in your own code if you need rolled-up statistics.
 
 **State Filtering:**
-* NetworkUsageStates roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
+* [NetworkUsageStates](networkusagestates.md) roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
 * Over-restricting state filters can hide legitimate usage data.
 
 **Data Accuracy:**

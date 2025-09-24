@@ -25,10 +25,10 @@ Connectivity level evolution:
 
 Common tasks:
 
-* Determine effective connectivity level (GetNetworkConnectivityLevel).
-* Inspect data plan and metering (GetConnectionCost, GetDataPlanStatus).
-* Get adapter and network names (NetworkAdapter, ProfileName).
-* Retrieve per-profile usage statistics (GetNetworkUsageAsync, GetAttributedNetworkUsageAsync).
+* Determine effective connectivity level ([GetNetworkConnectivityLevel](connectionprofile_getnetworkconnectivitylevel_1968047035.md)).
+* Inspect data plan and metering ([GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [GetDataPlanStatus](connectionprofile_getdataplanstatus_1468491499.md)).
+* Get adapter and network names ([NetworkAdapter](connectionprofile_networkadapter.md), [ProfileName](connectionprofile_profilename.md)).
+* Retrieve per-profile usage statistics ([GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md), [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md)).
 * Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state
   (WwanConnectionProfileDetails).
 * Determine if the profile can be deleted (e.g., user saved Wi-Fi profile) via CanDelete / TryDeleteAsync.
@@ -48,8 +48,7 @@ UnknownError gracefully.
 
 Performance tips:
 
-* Avoid calling usage APIs (GetNetworkUsageAsync) too frequently; aggregate intervals (for example, per 15 minutes) for
-  telemetry.
+* Avoid calling usage APIs ([GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) too frequently; aggregate intervals (for example, per 15 minutes) for telemetry.
 * Dispose of large usage collections promptly; enumerate and summarize rather than storing raw entries.
 * For background tasks, check cost state late (immediately before transfer) to ensure freshness.
 

@@ -26,7 +26,7 @@ The use of this connection is unrestricted up to a specific limit.
 The connection is costed on a per-byte basis.
 
 ## -remarks
-Use ConnectionProfile.GetConnectionCost to obtain the ConnectionCost object and inspect its properties
+Use [ConnectionProfile](connectionprofile.md).[GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md) to obtain the [ConnectionCost](connectioncost.md) object and inspect its properties
 (NetworkCostType, Roaming, OverDataLimit, ApproachingDataLimit, BackgroundDataUsageRestricted) before deciding how
 aggressively to transfer data. Evaluate flags individually; do not rely solely on NetworkCostType transitions.
 
@@ -100,5 +100,5 @@ if (cost.Roaming)
 ```
 
 ## -see-also
-ConnectionProfile.GetConnectionCost, [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md),
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [ConnectionCost](connectioncost.md), [DataPlanStatus](dataplanstatus.md),
 [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))

@@ -35,7 +35,7 @@ For general usage API best practices (time window management, incremental collec
 
 **Data Completeness:**
 * Empty result: Valid when no usage is recorded or attribution data is unavailable.
-* Aggregate reconciliation: Summing all attributed usage entries may not exactly equal the aggregate usage returned by `GetNetworkUsageAsync`; some traffic can reside in non-attributed or system buckets.
+* Aggregate reconciliation: Summing all attributed usage entries may not exactly equal the aggregate usage returned by [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md); some traffic can reside in non-attributed or system buckets.
 * Residual usage: Treat (aggregate - sum(attributed)) as a separate logical bucket if you need a complete picture; do not force attribution of those bytes retroactively.
 
 **Attribution Stability:**
@@ -44,11 +44,11 @@ For general usage API best practices (time window management, incremental collec
 
 **Reconciliation:**
 * Double counting avoidance: When reconciling, compute deltas per AttributionId between the last committed snapshot and the new snapshot of the same closed bucket range.
-* Apply the same incremental collection patterns as GetNetworkUsageAsync, but track per-attribution totals.
+* Apply the same incremental collection patterns as [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md), but track per-attribution totals.
 
 **Attribution-Aggregate Reconciliation Workflow:**
 
-1. Query aggregate (`GetNetworkUsageAsync`) and attributed (`GetAttributedNetworkUsageAsync`) for the same aligned window.
+1. Query aggregate ([GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) and attributed ([GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md)) for the same aligned window.
 2. Compute per-id deltas since the previous snapshot for fully closed buckets only.
 3. Sum attributed totals; compute residual = aggregateTotal - attributedTotal (if positive) and track it under an internal "unattributed" key.
 4. Persist updated per-id cumulative totals and new cursor boundary.

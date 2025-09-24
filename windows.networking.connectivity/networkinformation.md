@@ -16,12 +16,12 @@ Provides access to network connection information for the local machine.
 ## -remarks
 NetworkInformation provides static methods to query network connectivity state and monitor changes:
 
-* Call NetworkInformation.GetInternetConnectionProfile() to get the current active connection profile (may return null if offline).
-* Call NetworkInformation.FindConnectionProfilesAsync(filter) with a ConnectionProfileFilter to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
-* Subscribe to the NetworkInformation.NetworkStatusChanged event to be notified when connectivity changes instead of polling.
+* Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() to get the current active connection profile (may return null if offline).
+* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)(filter) with a [ConnectionProfileFilter](connectionprofilefilter.md) to enumerate additional profiles (e.g., other WLAN interfaces, WWAN, or prior connections).
+* Subscribe to the [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) event to be notified when connectivity changes instead of polling.
 
-The returned ConnectionProfile instances expose cost, data plan, adapter, and technology-specific detail objects
-(WlanConnectionProfileDetails, WwanConnectionProfileDetails). Always re-query inside the status changed event handler
+The returned [ConnectionProfile](connectionprofile.md) instances expose cost, data plan, adapter, and technology-specific detail objects
+([WlanConnectionProfileDetails](wlanconnectionprofiledetails.md), [WwanConnectionProfileDetails](wwanconnectionprofiledetails.md)). Always re-query inside the status changed event handler
 because previously cached profile objects are not live-updating.
 
 For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
@@ -39,7 +39,7 @@ Important guidance:
 
 Event handling best practices:
 
-* Always re-query GetInternetConnectionProfile() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+* Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
 
