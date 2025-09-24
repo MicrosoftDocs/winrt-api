@@ -11,7 +11,7 @@ public enum Windows.Devices.Radios.RadioKind : int
 # RadioKind
 
 ## -description
-Defines the kinds of radio devices.
+Enumeration that represents the kinds of radio devices.
 
 ## -enum-fields
 ### -field Other:0
