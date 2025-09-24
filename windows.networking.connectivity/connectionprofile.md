@@ -14,8 +14,8 @@ Represents a network connection, which includes either the currently connected n
 
 ## -remarks
 ConnectionProfile represents a snapshot of a specific network interface's connectivity attributes (WLAN, WWAN,
-Ethernet, etc.). Re-query the profile when you receive a network status change event because properties do not
-automatically update on previously cached instances.
+Ethernet, etc.). Re-query the profile when you receive a network status change event because cached profile objects
+may be obsolete or contain stale properties.
 
 Common tasks:
 
