@@ -29,7 +29,7 @@ The connection is costed on a per-byte basis.
 Use [ConnectionProfile](connectionprofile.md).[GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md) to obtain the  
 [ConnectionCost](connectioncost.md) object and inspect its properties (NetworkCostType, Roaming, OverDataLimit,  
 ApproachingDataLimit, BackgroundDataUsageRestricted) before deciding how aggressively to transfer data. Evaluate flags  
-individually; do not rely solely on `NetworkCostType` transitions.
+individually; do not rely solely on **NetworkCostType** transitions.
 
 Scenario guidance:
 

@@ -32,7 +32,7 @@ Access via [ConnectionProfile.NetworkSecuritySettings](connectionprofile_network
 
 ### Wireless vs wired
 > [!IMPORTANT]  
-> Ethernet profiles commonly report `None` for authentication and encryption. Do not interpret this as unsafe; link‑layer
+> Ethernet profiles commonly report **None** for authentication and encryption. Do not interpret this as unsafe; link‑layer
 > security may not apply (security enforced at higher layers: TLS, IPsec, VPN).
 
 ### Policy & compliance usage

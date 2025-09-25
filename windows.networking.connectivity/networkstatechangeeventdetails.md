@@ -45,7 +45,7 @@ Each Boolean property signals that the associated data MAY have changed; re-quer
 - Coalesce bursts: if multiple events arrive quickly, debounce UI updates.
 - Avoid full refresh on every event; scale work to flags set.
 - Treat flags as hints—not guarantees; always trust fresh API return values.
-- When `HasNewNetworkConnectivityLevel` is true, re-validate gating features (online sync, telemetry, streaming).
+- When **HasNewNetworkConnectivityLevel** is true, re-validate gating features (online sync, telemetry, streaming).
 - When cost changed, reassess background transfer strategy.
 - When domain connectivity changed, re-check enterprise feature enablement.
 

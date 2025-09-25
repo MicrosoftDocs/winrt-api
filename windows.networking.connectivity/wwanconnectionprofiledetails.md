@@ -28,7 +28,7 @@ Access via [ConnectionProfile.WwanConnectionProfileDetails](connectionprofile_ww
 | Purpose tagging | [PurposeGuids](wwanconnectionprofiledetails_purposeguids.md) | Scenario / policy identifiers applied to the profile |
 
 ### Registration states
-Returned by `GetNetworkRegistrationState`:
+Returned by **GetNetworkRegistrationState**:
 | State | Meaning |
 | -- | -- |
 | Home | Registered on home network |
@@ -39,7 +39,7 @@ Returned by `GetNetworkRegistrationState`:
 | None | Not registered / no capability |
 
 ### Data class (examples)
-`GetCurrentDataClass` returns a bitmask; common groupings:
+**GetCurrentDataClass** returns a bitmask; common groupings:
 | Generation | Flags (non exhaustive) |
 | -- | -- |
 | 5G | NewRadioNonStandalone, NewRadioStandalone |

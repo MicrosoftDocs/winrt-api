@@ -47,11 +47,11 @@ For a complete implementation demonstrating these principles, see the
 ### Additional guidance
 
 * If your scenario depends on cost awareness (metered vs unrestricted), query
-  `connectionCost = profile?.GetConnectionCost()` and check `connectionCost.NetworkCostType` before large background
+  connectionCost = profile?.**GetConnectionCost**() and check connectionCost.**NetworkCostType** before large background
   transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
-* Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet
-  profile reference changing. Re-check `GetNetworkConnectivityLevel()` inside each event invocation.
+* Connectivity level can upgrade (for example from **ConstrainedInternetAccess** to **InternetAccess**) without the internet
+  profile reference changing. Re-check **GetNetworkConnectivityLevel**() inside each event invocation.
 
 Event handling best practices:
 
@@ -59,7 +59,7 @@ Event handling best practices:
 > Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
 
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
-* If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (HasNewConnectionCost, HasNewNetworkConnectivityLevel, HasNewDomainConnectivityLevel, etc.) to selectively re-query only what changed.
+* If using background tasks with **NetworkStateChangeEventDetails**, inspect flags (**HasNewConnectionCost**, **HasNewNetworkConnectivityLevel**, **HasNewDomainConnectivityLevel**, etc.) to selectively re-query only what changed.
 
 Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription
 Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking

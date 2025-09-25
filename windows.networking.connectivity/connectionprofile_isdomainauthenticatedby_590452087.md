@@ -33,7 +33,7 @@ TLS-based validation could succeed, LDAP takes precedence and TLS returns false.
 
 ### Guidance
 - Use event-driven re-query (network status / domain change events). Do not poll aggressively.
-- Treat `None` as unauthenticated; transient `None` values can occur during transitions (roam, captive portal).
+- Treat **None** as unauthenticated; transient **None** values can occur during transitions (roam, captive portal).
 - Prefer enabling enterprise features for either LDAP or TLS unless LDAP-specific semantics are required.
 - Log both the queried kind and the boolean result for telemetry.
 

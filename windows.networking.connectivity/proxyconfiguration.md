@@ -42,8 +42,8 @@ The *uri* parameter can include a hostname or IP plus port/service or protocol s
 | User assistance UI | Show which proxy governs a failing connection |
 
 ### Handling results
-- Empty `ProxyUris` with `CanConnectDirectly = true`: connect directly.
-- Empty `ProxyUris` with `CanConnectDirectly = false`: treat as blocked (no route); surface appropriate error.
+- Empty **ProxyUris** with **CanConnectDirectly** = `true`: connect directly.
+- Empty **ProxyUris** with **CanConnectDirectly** = `false`: treat as blocked (no route); surface appropriate error.
 - Multiple URIs: attempt in order; honor fail‑over semantics (stop after first successful tunnel).
 
 ### Best practices
@@ -54,7 +54,7 @@ The *uri* parameter can include a hostname or IP plus port/service or protocol s
 ### Failure / fallback
 If connection attempts through all proxies fail:
 1. Re‑resolve to detect configuration change.
-2. If unchanged and `CanConnectDirectly` is true, fall back to direct.
+2. If unchanged and **CanConnectDirectly** is `true`, fall back to direct.
 3. Log proxy failure metrics (status codes / connection errors) for diagnostics.
 
 ### Security considerations

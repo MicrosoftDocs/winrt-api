@@ -27,19 +27,19 @@ Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivityman
 | Option | [IsCompressionEnabled](cellularapncontext_iscompressionenabled.md) | Request link-layer compression (if supported) |
 
 ### Lifecycle
-1. Construct and populate `CellularApnContext`.
-2. Call `AcquireConnectionAsync`.
-3. Validate resulting `ConnectionProfile` (e.g., `GetNetworkConnectivityLevel()`).
+1. Construct and populate **CellularApnContext**.
+2. Call **AcquireConnectionAsync**.
+3. Validate resulting **ConnectionProfile** (e.g., **GetNetworkConnectivityLevel**()).
 4. Use connection (respect cost / roaming).
-5. Dispose `ConnectionSession`.
+5. Dispose **ConnectionSession**.
 
 ### Best practices
 | Concern | Guidance |
 | -- | -- |
 | Incorrect APN | Connection acquisition fails silently or yields no Internet access—validate with carrier docs |
 | Authentication failures | Retry only with corrected credentials; avoid tight loops |
-| Roaming cost | Inspect `ConnectionProfile.GetConnectionCost()` before large transfers |
-| Resource cleanup | Always dispose `ConnectionSession` (including failure paths) |
+| Roaming cost | Inspect **ConnectionProfile.GetConnectionCost**() before large transfers |
+| Resource cleanup | Always dispose **ConnectionSession** (including failure paths) |
 | Minimal config | Omit optional fields unless required (avoid sending empty credentials) |
 
 > [!IMPORTANT]  
@@ -51,7 +51,7 @@ Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivityman
 - Roaming contexts can require different APN values—reacquire if registration state transitions.
 
 ### Error handling
-- Capture exceptions from `AcquireConnectionAsync`; log APN (non-secret parts) and auth type, not credentials.
+- Capture exceptions from **AcquireConnectionAsync**; log APN (non-secret parts) and auth type, not credentials.
 - Provide user remediation path (e.g., prompt to correct credentials or confirm roaming charges).
 
 ### Version additions

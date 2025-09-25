@@ -36,7 +36,7 @@ Typical scenarios:
 Acquisition checklist:
 - Construct a precise [CellularApnContext](cellularapncontext.md) (provider ID, APN, authentication).
 - Await the session; validate resulting [ConnectionProfile](connectionprofile.md) meets required
-  `NetworkConnectivityLevel`.
+  **NetworkConnectivityLevel**.
 - Inspect [ConnectionCost](connectionprofile_getconnectioncost_1946735978.md) (roaming / metering) before starting large transfers.
 - Dispose on failure paths and when no longer needed.
 

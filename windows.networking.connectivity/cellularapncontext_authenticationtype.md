@@ -13,7 +13,7 @@ public Windows.Networking.Connectivity.CellularApnAuthenticationType Authenticat
 Specifies the APN authentication method (see [CellularApnAuthenticationType](cellularapnauthenticationtype.md)).
 
 ## -property-value
-A [CellularApnAuthenticationType](cellularapnauthenticationtype.md) value indicating the protocol used; defaults to `None` if not set.
+A [CellularApnAuthenticationType](cellularapnauthenticationtype.md) value indicating the protocol used; defaults to **None** if not set.
 
 ## -remarks
 ### Supported values
@@ -26,7 +26,7 @@ A [CellularApnAuthenticationType](cellularapnauthenticationtype.md) value indica
 
 ### Guidance
 - Use the minimal required method published by the carrier; stronger methods are not always accepted.
-- Provide `UserName` / `Password` only when the authentication type requires them (avoid sending empty credentials).
+- Provide **UserName** / **Password** only when the authentication type requires them (avoid sending empty credentials).
 - Do not downgrade automatically (e.g., from MSCHAPv2 to PAP) without explicit user/carrier guidance.
 
 ### Security considerations

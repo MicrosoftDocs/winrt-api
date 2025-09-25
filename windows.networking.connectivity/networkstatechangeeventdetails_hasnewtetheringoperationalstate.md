@@ -44,7 +44,7 @@ Signals that the effective tethering (mobile hotspot) operational state (Disable
 | Logging | Log old -> new state transitions with timestamp for diagnostics |
 
 > [!NOTE]  
-> Pair with `HasNewTetheringClientCount` to refresh connected client metrics after confirming tethering remains active.
+> Pair with **HasNewTetheringClientCount** to refresh connected client metrics after confirming tethering remains active.
 
 
 ## -examples

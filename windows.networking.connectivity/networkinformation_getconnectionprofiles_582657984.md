@@ -33,9 +33,9 @@ If you need only a subset (e.g., connected Wi‑Fi profiles), use
 [ConnectionProfileFilter](connectionprofilefilter.md) to reduce enumeration and post-processing cost.
 
 ### Typical workflow
-1. Call `GetConnectionProfiles()`.
-2. Iterate profiles; inspect connectivity via `GetNetworkConnectivityLevel()`.
-3. For each desired profile, query additional details (cost: `GetConnectionCost()`, usage: `GetNetworkUsageAsync(...)`, data plan: `GetDataPlanStatus()`).
+1. Call **GetConnectionProfiles**().
+2. Iterate profiles; inspect connectivity via **GetNetworkConnectivityLevel**().
+3. For each desired profile, query additional details (cost: **GetConnectionCost**(), usage: **GetNetworkUsageAsync**(...), data plan: **GetDataPlanStatus**()).
 
 ### Performance guidance
 - Enumeration is lightweight but avoid calling in tight loops; cache results for a reasonable interval if your scenario allows.

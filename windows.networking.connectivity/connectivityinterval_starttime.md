@@ -13,7 +13,7 @@ public Windows.Foundation.DateTime StartTime { get; }
 Start timestamp of this connectivity interval.
 
 ## -property-value
-A `DateTime` (UTC) marking when the interval began. If the query window starts mid‑interval this value can precede the
+A **DateTime** (UTC) marking when the interval began. If the query window starts mid‑interval this value can precede the
 window's start; the returned duration will be truncated accordingly.
 
 ## -remarks
@@ -22,10 +22,10 @@ window's start; the returned duration will be truncated accordingly.
 - Represents the moment the interface entered a connected state for this contiguous interval.
 - May lie earlier than the query's `startTime` if the interval was already in progress (truncation scenario).
 - Use together with successive intervals to reconstruct a connectivity timeline and detect gaps (offline / transition periods).
-- For incremental processing, advance a cursor using `StartTime + ConnectionDuration` of the last fully closed interval.
+- For incremental processing, advance a cursor using **StartTime** + **ConnectionDuration** of the last fully closed interval.
 
 > [!TIP]  
-> When stitching results from overlapping queries, de‑duplicate intervals by `StartTime`.
+> When stitching results from overlapping queries, de‑duplicate intervals by **StartTime**.
 
 ## -examples
 Enumerate recent interval start times (C#):

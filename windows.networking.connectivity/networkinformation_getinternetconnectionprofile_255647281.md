@@ -12,8 +12,8 @@ public Windows.Networking.Connectivity.ConnectionProfile GetInternetConnectionPr
 
 ## -description
 
-Retrieves the connection profile associated with the *preferred* interface currently used by the local machine.  
-The *preferred* interface is the one most likely to send or receive internet traffic.  
+Retrieves the connection profile associated with the *preferred* interface currently used by the local machine.
+The *preferred* interface is the one most likely to send or receive internet traffic.
 This means that the returned profile might or might not have internet access.
 
 ## -returns

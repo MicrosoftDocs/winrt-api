@@ -14,7 +14,7 @@ Represents a contiguous connectivity span (start timestamp plus duration) for a 
 
 ## -remarks
 ### Definition
-A `ConnectivityInterval` captures a span during which the interface for a [ConnectionProfile](connectionprofile.md) was
+A **ConnectivityInterval** captures a span during which the interface for a [ConnectionProfile](connectionprofile.md) was
 in a connected state.
 
 ### Characteristics
@@ -49,7 +49,7 @@ Summarize promptly. Retaining large raw lists offers little value after computin
 utilization.
 
 > [!NOTE]  
-> To compute utilization, sum `ConnectionDuration` across intervals and divide by total wall‑clock span, then overlay
+> To compute utilization, sum **ConnectionDuration** across intervals and divide by total wall‑clock span, then overlay
 > usage to calculate bytes per connected minute.
 
 

@@ -13,7 +13,7 @@ public Windows.Foundation.TimeSpan ConnectionDuration { get; }
 Length of this connectivity interval.
 
 ## -property-value
-A `TimeSpan` representing how long the interface remained connected during this interval. May be shorter than the
+A **TimeSpan** representing how long the interface remained connected during this interval. May be shorter than the
 actual live connection if the queried window started or ended mid‑interval.
 
 ## -remarks
@@ -23,9 +23,9 @@ actual live connection if the queried window started or ended mid‑interval.
   [ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) for volume metrics.
 - Can be truncated when your query window (start/end) slices through an active connection.
 - Multiple intervals for a profile can have gaps (device sleep, transition, disconnect).
-- Summing all `ConnectionDuration` values from a query window yields total connected time; divide by wall‑clock span to
+- Summing all **ConnectionDuration** values from a query window yields total connected time; divide by wall‑clock span to
   compute utilization.
-- For incremental processing, persist the end (`StartTime + ConnectionDuration`) of the last fully closed interval and
+- For incremental processing, persist the end (**StartTime** + **ConnectionDuration**) of the last fully closed interval and
   resume from there to avoid recounting an interval still in progress.
 
 > [!TIP]  

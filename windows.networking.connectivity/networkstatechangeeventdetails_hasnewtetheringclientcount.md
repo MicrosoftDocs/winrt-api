@@ -31,7 +31,7 @@ client counts.
 ### Pattern
 1. Cache initial count during feature initialization (if feature needed).
 2. On status change:
-   - If `HasNewTetheringClientCount` true, query current count.
+   - If **HasNewTetheringClientCount** true, query current count.
    - If changed, update UI / telemetry.
 3. (Optional) Periodic slow cadence verification to cover rare missed events.
 
