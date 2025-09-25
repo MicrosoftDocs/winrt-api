@@ -48,7 +48,7 @@ Signals that the effective tethering (mobile hotspot) operational state (Disable
 
 
 ## -examples
-### Example: Reacting to tethering operational state changes (C#)
+### Example: reacting to tethering operational state changes (C#)
 ```csharp
 NetworkInformation.NetworkStatusChanged += (s) =>
 {

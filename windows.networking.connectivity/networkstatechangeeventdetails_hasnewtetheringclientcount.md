@@ -41,7 +41,7 @@ client counts.
 
 
 ## -examples
-### Example: Reacting to tethering client count changes (C#)
+### Example: reacting to tethering client count changes (C#)
 ```csharp
 NetworkInformation.NetworkStatusChanged += async (s) =>
 {

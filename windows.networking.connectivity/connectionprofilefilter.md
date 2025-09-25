@@ -28,7 +28,7 @@ the current internet profile.
   from filter inputs.
 - Combine cost and connectivity level constraints only when necessary; connectivity can fluctuate during transitions.
 
-### Purpose / Service provider GUID
+### Purpose / service provider GUID
 Use **PurposeGuid** (or **ServiceProviderGuid**) only when you possess a valid value (carrier provisioning / enterprise
 policy). An incorrect GUID silently yields zero results.
 
