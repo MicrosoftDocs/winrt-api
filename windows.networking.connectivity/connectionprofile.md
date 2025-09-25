@@ -25,9 +25,9 @@ A single `ConnectionProfile` instance can progress through `LocalAccess`, `Const
 decision point instead of assuming the level when the profile was first retrieved.
 
 > [!IMPORTANT]
-> Applications should not take a dependency on Windows Internet connectivity probes before attempting to connect to 
-> their backend services. When we report LocalAccess or higher connectivity, apps should attempt connections to their 
-> services.
+> The network status reported by Windows APIs is only a hint - its accuracy may vary depending on the local network
+> topology and conditions. Apps should attempt to connect to their services whenever LocalAccess or higher connectivity
+> is reported.
 
 For a complete implementation demonstrating these principles, see the 
 [NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
