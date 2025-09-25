@@ -16,8 +16,8 @@ Provides access to network connection information for the local machine.
 ## -remarks
 NetworkInformation provides static methods to query network connectivity state and monitor changes:
 
-* Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() to get the current active connection profile (may return null if offline).
-* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)(filter) with a
+* Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md) to get the current active connection profile (may return null if offline).
+* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md) with a
   [ConnectionProfileFilter](connectionprofilefilter.md) to enumerate additional profiles (for example, other WLAN interfaces,
   WWAN, or prior connections).
 * Subscribe to the [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) event to be notified when connectivity changes instead of polling.
@@ -47,16 +47,16 @@ For a complete implementation demonstrating these principles, see the
 ### Additional guidance
 
 * If your scenario depends on cost awareness (metered vs unrestricted), query
-  connectionCost = profile?.**GetConnectionCost**() and check connectionCost.**NetworkCostType** before large background
+  connectionCost = profile?.**GetConnectionCost** and check connectionCost.**NetworkCostType** before large background
   transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
 * Connectivity level can upgrade (for example from **ConstrainedInternetAccess** to **InternetAccess**) without the internet
-  profile reference changing. Re-check **GetNetworkConnectivityLevel**() inside each event invocation.
+  profile reference changing. Re-check **GetNetworkConnectivityLevel** inside each event invocation.
 
 Event handling best practices:
 
 > [!IMPORTANT]
-> Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)() inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+> Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md) inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
 
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
 * If using background tasks with **NetworkStateChangeEventDetails**, inspect flags (**HasNewConnectionCost**, **HasNewNetworkConnectivityLevel**, **HasNewDomainConnectivityLevel**, etc.) to selectively re-query only what changed.

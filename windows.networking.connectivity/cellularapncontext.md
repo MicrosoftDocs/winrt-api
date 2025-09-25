@@ -29,7 +29,7 @@ Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivityman
 ### Lifecycle
 1. Construct and populate **CellularApnContext**.
 2. Call **AcquireConnectionAsync**.
-3. Validate resulting **ConnectionProfile** (e.g., **GetNetworkConnectivityLevel**()).
+3. Validate resulting **ConnectionProfile** (e.g., **GetNetworkConnectivityLevel**).
 4. Use connection (respect cost / roaming).
 5. Dispose **ConnectionSession**.
 
@@ -38,7 +38,7 @@ Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivityman
 | -- | -- |
 | Incorrect APN | Connection acquisition fails silently or yields no Internet access—validate with carrier docs |
 | Authentication failures | Retry only with corrected credentials; avoid tight loops |
-| Roaming cost | Inspect **ConnectionProfile.GetConnectionCost**() before large transfers |
+| Roaming cost | Inspect **ConnectionProfile.GetConnectionCost** before large transfers |
 | Resource cleanup | Always dispose **ConnectionSession** (including failure paths) |
 | Minimal config | Omit optional fields unless required (avoid sending empty credentials) |
 

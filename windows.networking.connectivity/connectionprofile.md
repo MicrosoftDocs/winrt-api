@@ -21,7 +21,7 @@ may be obsolete or contain stale properties.
 ### Connectivity level evolution and connection attempts
 
 A single **ConnectionProfile** instance can progress through **LocalAccess**, **ConstrainedInternetAccess**, and
-**InternetAccess** states as the network becomes fully usable. Always call **GetNetworkConnectivityLevel**() at the
+**InternetAccess** states as the network becomes fully usable. Always call **GetNetworkConnectivityLevel** at the
 decision point instead of assuming the level when the profile was first retrieved.
 
 > [!IMPORTANT]
@@ -80,9 +80,9 @@ state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:
 
-**GetDomainConnectivityLevel**() reports the broader domain trust state (None / Unauthenticated / Authenticated) while
-**IsDomainAuthenticatedBy**(…) identifies which mechanism (LDAP or TLS) established that trust. Typically you first
-ensure **GetDomainConnectivityLevel**() returns **Authenticated** and then branch on the authentication kind if you need to
+**GetDomainConnectivityLevel** reports the broader domain trust state (None / Unauthenticated / Authenticated) while
+**IsDomainAuthenticatedBy** identifies which mechanism (LDAP or TLS) established that trust. Typically you first
+ensure **GetDomainConnectivityLevel** returns **Authenticated** and then branch on the authentication kind if you need to
 distinguish behavior or telemetry.
 
 For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
