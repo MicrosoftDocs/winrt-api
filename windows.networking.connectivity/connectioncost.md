@@ -20,14 +20,14 @@ roaming state, plan limits, and background restrictions so applications can adju
 ### Key properties
 
 **Core cost indicators:**
-- **[NetworkCostType](connectioncost_networkcosttype.md)**: Unrestricted, Fixed, or Variable plan classification
-- **[Roaming](connectioncost_roaming.md)**: Connection currently incurring roaming charges
-- **[OverDataLimit](connectioncost_overdatalimit.md)**: Plan cap exceeded
-- **[ApproachingDataLimit](connectioncost_approachingdatalimit.md)**: Nearing plan cap
+- **[NetworkCostType](connectioncost_networkcosttype.md)**: Unrestricted, Fixed, or Variable plan classification.
+- **[Roaming](connectioncost_roaming.md)**: Connection currently incurring roaming charges.
+- **[OverDataLimit](connectioncost_overdatalimit.md)**: Plan cap exceeded.
+- **[ApproachingDataLimit](connectioncost_approachingdatalimit.md)**: Nearing plan cap.
 
 **Background restriction:**
 - **[BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md)**: Background transfers limited by
-  policy or settings
+  policy or settings.
 
 > [!IMPORTANT]  
 > Always evaluate cost properties before large or background transfers. Respecting constraints preserves user data

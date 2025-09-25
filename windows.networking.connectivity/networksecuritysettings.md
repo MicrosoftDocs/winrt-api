@@ -18,8 +18,8 @@ Exposes the authentication and encryption types applied to a connection (primari
 Access via [ConnectionProfile.NetworkSecuritySettings](connectionprofile_networksecuritysettings.md).
 
 ### Properties
-- **[NetworkAuthenticationType](networksecuritysettings_networkauthenticationtype.md)**: Link-layer / Wi‑Fi authentication (Open, WPA2, WPA3, enterprise, etc.)
-- **[NetworkEncryptionType](networksecuritysettings_networkencryptiontype.md)**: Data encryption algorithm (None, WEP, TKIP, CCMP, GCMP variants, etc.)
+- **[NetworkAuthenticationType](networksecuritysettings_networkauthenticationtype.md)**: Link-layer / Wi‑Fi authentication (Open, WPA2, WPA3, enterprise, etc.).
+- **[NetworkEncryptionType](networksecuritysettings_networkencryptiontype.md)**: Data encryption algorithm (None, WEP, TKIP, CCMP, GCMP variants, etc.).
 
 ### Interpretation
 | Aspect | Guidance |

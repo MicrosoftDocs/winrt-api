@@ -23,10 +23,10 @@ network interface, including bandwidth capabilities, interface type, and associa
 The [NetworkAdapter](networkadapter.md) class provides several important properties:
 
 - **[OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md)** and 
-  **[InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md)**: Maximum theoretical bandwidth capabilities
-- **[IanaInterfaceType](networkadapter_ianainterfacetype.md)**: Standard interface type classification 
-- **[NetworkAdapterId](networkadapter_networkadapterid.md)**: Unique identifier for the adapter
-- **[NetworkItem](networkadapter_networkitem.md)**: Associated network information
+  **[InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md)**: Maximum theoretical bandwidth capabilities.
+- **[IanaInterfaceType](networkadapter_ianainterfacetype.md)**: Standard interface type classification.
+- **[NetworkAdapterId](networkadapter_networkadapterid.md)**: Unique identifier for the adapter.
+- **[NetworkItem](networkadapter_networkitem.md)**: Associated network information.
 
 > [!IMPORTANT]
 > The bandwidth values returned by [OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md) and

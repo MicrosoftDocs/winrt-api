@@ -25,9 +25,9 @@ policies that direct HTTP traffic through specific connection profiles.
 ### Cellular connection acquisition
 Use when you need a data session with custom APN characteristics (billing / security / isolated channel).
 Typical scenarios:
-- Enterprise or managed line‑of‑business apps
-- IoT / telemetry agents needing a dedicated APN
-- Billing segregation or specialized carrier feature enablement
+- Enterprise or managed line‑of‑business apps.
+- IoT / telemetry agents needing a dedicated APN.
+- Billing segregation or specialized carrier feature enablement.
 
 > [!IMPORTANT]  
 > Declare required cellular capabilities in the app manifest. Dispose the returned

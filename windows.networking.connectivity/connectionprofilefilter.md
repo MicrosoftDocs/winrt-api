@@ -44,8 +44,8 @@ For the complete list of purpose GUIDs, see [PurposeGroupGuid](https://learn.mic
 > with that GUID returns no results (silent empty set).
 
 Typical usage scenarios:
-- Selecting a specialized IMS profile for voice/video service enablement
-- Isolating SUPL (assisted GPS) data contexts for cost or routing decisions
+- Selecting a specialized IMS profile for voice/video service enablement.
+- Isolating SUPL (assisted GPS) data contexts for cost or routing decisions.
 
 Keep filtering logic narrow: specify **PurposeGuid** plus **IsWwanConnectionProfile** only; add other constraints
 (e.g., connectivity level) only if required.
