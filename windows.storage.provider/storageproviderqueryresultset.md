@@ -11,7 +11,7 @@ public sealed class StorageProviderQueryResultSet
 
 ## -description
 
-The class that the storage provider uses to return the set of search results.
+The class that the storage provider uses to return the set of query results.
 
 ## -remarks
 
