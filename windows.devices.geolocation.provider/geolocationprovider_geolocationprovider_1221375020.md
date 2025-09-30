@@ -21,7 +21,7 @@ Constructs a new instance of [GeolocationProvider](geolocationprovider.md).
 
 ## -remarks
 
-See **Remarks** in [GeolocationProvider](geolocationprovider.md).
+See the remarks in [GeolocationProvider](geolocationprovider.md).
 
 ## -see-also
 

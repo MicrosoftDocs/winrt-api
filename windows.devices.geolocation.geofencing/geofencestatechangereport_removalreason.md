@@ -16,9 +16,9 @@ Indicates the reason a [Geofence](geofence.md) was removed.
 Indicates the reason a geofence was removed.
 
 ## -remarks
-This property defaults to a value of **Used**. You should ignore this property unless the Geofence has changed state to being **Removed**.
+This property defaults to `GeofenceRemovalReason.Used`. Ignore this property unless the geofence state has changed to `GeofenceState.Removed`.
 
-Removal event notifications can happen when the app is in the foreground or the background. However, removal events themselves do not fire the trigger when the app is in the background. This means that background apps cannot use the removal event to wake up the app. When an app comes back from being in the background, it can see the removal event that occurred waiting in the [GeofenceStateChangeReports.](geofencestatechangereport.md)
+Removal event notifications can happen when the app is in the foreground or the background. However, removal events themselves do not fire the trigger when the app is in the background. This means that background apps cannot use the removal event to wake up the app. When an app comes back from being in the background, it can see the removal event that occurred waiting in the [GeofenceStateChangeReport](geofencestatechangereport.md) collection.
 
 ## -examples
 

@@ -16,7 +16,7 @@ The altitude reference system of the geographic circle.
 The altitude reference system of the geographic circle.
 
 ## -remarks
-Windows supports the **Ellipsoid** altitude reference system.
+Windows supports the `Ellipsoid` altitude reference system.
 
 ## -examples
 

@@ -4,7 +4,7 @@
 ---
 
 <!-- Interface syntax.
-public interface IGeoshape : 
+public interface IGeoshape :
 -->
 
 # Windows.Devices.Geolocation.IGeoshape

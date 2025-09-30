@@ -11,7 +11,7 @@ public event System.EventHandler<object> IsOverriddenChanged;
 
 ## -description
 
-An event that's raised when the value of the [GeolocationProvider.IsOverridden](geolocationprovider_isoverridden.md) property changes. You can register to handle this event, and access the current value of **GeolocationProvider.IsOverridden** in response.
+An event that's raised when the value of the [GeolocationProvider.IsOverridden](geolocationprovider_isoverridden.md) property changes. You can register to handle this event and access the current value of `GeolocationProvider.IsOverridden` in response.
 
 > [!NOTE]
 > To call location-override APIs, an app must declare the `runFullTrust` [restricted capability](/windows/uwp/packaging/app-capability-declarations#custom-capabilities).
@@ -21,12 +21,12 @@ An event that's raised when the value of the [GeolocationProvider.IsOverridden](
 
 ## -remarks
 
-See **Remarks** in [GeolocationProvider](geolocationprovider.md).
+See the remarks in [GeolocationProvider](geolocationprovider.md).
+
+## -examples
 
 ## -see-also
 [GeolocationProvider.IsOverridden](geolocationprovider_isoverridden.md)
-
-## -examples
 
 ## -capabilities
 runFullTrust

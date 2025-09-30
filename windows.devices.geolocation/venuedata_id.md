@@ -16,9 +16,7 @@ Gets the identifier (ID) of the venue.
 The identifier (ID) of the venue.
 
 ## -remarks
-The **Id** property value and string format is determined by the data provider.
-
-
+The `Id` property value and string format is determined by the data provider.
 
 > [!NOTE]
 > This property is equivalent to the ID of a Bing venue map.

@@ -16,7 +16,7 @@ The accuracy of the altitude, in meters.
 The accuracy of the altitude.
 
 ## -remarks
-This optional property will be set if it is available. If the property is not available, the value will be **NULL**.
+This optional property will be set if it is available. If the property is not available, the value will be `null`.
 
 ## -examples
 

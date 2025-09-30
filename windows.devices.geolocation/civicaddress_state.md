@@ -21,6 +21,5 @@ Unsupported API.
 
 ## -see-also
 
-
 ## -capabilities
 location

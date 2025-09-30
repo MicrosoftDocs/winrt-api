@@ -7,28 +7,28 @@
 public enum Windows.Devices.Geolocation.Geofencing.GeofenceMonitorStatus : int
 -->
 
-# GeofenceMonitorStatus
+# Windows.Devices.Geolocation.Geofencing.GeofenceMonitorStatus
 
 ## -description
 Indicates the current state of a [GeofenceMonitor](geofencemonitor.md).
 
 ## -enum-fields
-### -field Ready:0
+### -field Ready: 0
 The monitor is ready and active.
 
-### -field Initializing:1
+### -field Initializing: 1
 The monitor is in the process of initializing.
 
-### -field NoData:2
+### -field NoData: 2
 There is no data on the status of the monitor.
 
-### -field Disabled:3
+### -field Disabled: 3
 Access to location is denied.
 
-### -field NotInitialized:4
+### -field NotInitialized: 4
 The geofence monitor has not been initialized.
 
-### -field NotAvailable:5
+### -field NotAvailable: 5
 The geofence monitor is not available.
 
 
@@ -37,6 +37,7 @@ The geofence monitor is not available.
 ## -examples
 
 ## -see-also
+
 [GeofenceMonitor](geofencemonitor.md)
 ## -capabilities
 location

@@ -10,29 +10,38 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Geolocation.Geolocatio
 # Windows.Devices.Geolocation.Geolocator.RequestAccessAsync
 
 ## -description
-
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
+Requests permission to access location data.
 
 > [!IMPORTANT]
-> This API will be affected by upcoming changes to operating system behavior, planned for fall 2024. For more info, see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
-
-Requests permission to access location data.
+> Location consent is now required for Wi-Fi BSSID access. For details on how this affects apps using Wi-Fi or location APIs,
+> see [Changes to API behavior for Wi-Fi access and location](/windows/win32/nativewifi/wi-fi-access-location-changes).
 
 ## -returns
 A [GeolocationAccessStatus](geolocationaccessstatus.md) that indicates if permission to location data has been granted.
 
 ## -remarks
-The RequestAccessAsync method prompts the user for permission to access their location. The user is only prompted once (per app). After the first time they grant or deny permission, this method no longer prompts for permission. To help the user change location permissions after they've been prompted, we recommend providing a link to the location settings on their device. When the user has given the app some kind of location permissions, your app can work as intended; to determine which type of location tracking is being used, query the **[PositionSource](geocoordinate_positionsource.md)** property of a retrieved **[Geocoordinate](Geocoordinate.md)** object. 
+Call RequestAccessAsync before accessing the user's location. At that time, your app must be in the foreground and
+RequestAccessAsync must be called from the UI thread. Until the user grants your app permission to their location, your
+app can't access location data.
 
-> [!TIP]
-> To link to location settings from your app, call the [LaunchUriAsync](../windows.system/launcher_launchuriasync_53691900.md) method with the URI `ms-settings:privacy-location`. For more info, see [Launch Windows Settings](/windows/apps/develop/launch/launch-settings).
+You must call this method on the UI thread, otherwise an exception will occur.
 
-
+When you first call this method, it prompts the user to give permission. The prompt is displayed for each app (per app).
+After the first time they grant or deny permission, this method no longer prompts for permission. Provide an in-app link
+to the device's location privacy settings so users can revisit their choice later. When the user has given the app any
+level of location permission, your app can work as intended.
 
 ## -examples
 
 ## -see-also
-[Get current location](/windows/uwp/maps-and-location/get-location), [Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
+[GeolocationAccessStatus](geolocationaccessstatus.md)
+
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1507 | 10240 | RequestAccessAsync |
+| 24H2 | 26100 | Location consent required for Wi-Fi BSSIDs |
+
 ## -capabilities
 location

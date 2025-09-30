@@ -18,7 +18,7 @@ The minimum time that a position has to be inside or outside of the geofence in 
 ## -remarks
 When creating geofences that use a dwell time, the time span must be greater than 0.
 
-The **DwellTime** value is used for monitoring both the **Entered** and **Exited** states of a single geofence. If you want to provide different dwell time values for entering and exiting, you should create two [Geofence](geofence.md) objects, using one to track the **Entered** state and another to track the **Exited** state. Then you can specify a different dwell time for each object.
+The `DwellTime` value is used for monitoring both the `MonitoredGeofenceStates.Entered` and `MonitoredGeofenceStates.Exited` flags of a single geofence. If you want to provide different dwell time values for entering and exiting, create two [Geofence](geofence.md) objects—one to track the `MonitoredGeofenceStates.Entered` state and another to track the `MonitoredGeofenceStates.Exited` state. Then you can specify a different dwell time for each object.
 
 ## -examples
 

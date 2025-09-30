@@ -10,14 +10,13 @@ public GeovisitMonitor.GeovisitMonitor()
 # Windows.Devices.Geolocation.GeovisitMonitor.GeovisitMonitor
 
 ## -description
-Initializes an instance of [GeovisitMonitor](GeovisitMonitor.md).
+Initializes an instance of [GeovisitMonitor](geovisitmonitor.md).
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location
