@@ -14,10 +14,9 @@ Stops monitoring for Visit-related events.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

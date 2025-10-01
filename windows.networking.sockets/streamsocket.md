@@ -47,8 +47,6 @@ In a UWP app, the [ConnectAsync](streamsocket_connectasync_13692504.md) methods 
 
 There may be cases where [CanConnectDirectly](../windows.networking.connectivity/proxyconfiguration_canconnectdirectly.md) returns **false**, yet it does not mean you cannot access the resource directly. A local network could be configured to have support for both a proxy and network address translation (NAT). The WPAD script used to supply proxy information to a web browser or [HttpClient](../windows.web.http/httpclient.md) tells Windows that it should use the proxy. This can cause problems when the remote endpoint is not expecting a proxy connection (an HTTP CONNECT request, for example). An app can use the [GetProxyConfigurationAsync](../windows.networking.connectivity/networkinformation_getproxyconfigurationasync_1451648549.md) method on the [NetworkInformation](../windows.networking.connectivity/networkinformation.md) object passing the remote endpoint and port for the *uri* parameter to retrieve proxy information to help determine when this condition is suspected. A way to avoid proxy connection requests from being sent when a server can only handle direct connections is to use the [ConnectAsync(HostName, String, SocketProtectionLevel, NetworkAdapter)](streamsocket_connectasync_238604852.md) method, since the proxy-related logic is disabled when a specific network adapter is selected.
 
-In a Windows Phone 8.x app, the StreamSocket does not provide automatic support for proxies since the [ProxyConfiguration](../windows.networking.connectivity/proxyconfiguration.md) class is not supported on Windows Phone.
-
 ### Handling exceptions
 
 You must write code to handle exceptions when you call asynchronous methods on the StreamSocket class. Exceptions can result from parameter validation errors, name resolutions failures, and network errors. Exceptions from network errors (loss of connectivity, connection failures, and server failures, for example) can happen at any time. These errors result in exceptions being thrown. If not handled by your app, an exception can cause your entire app to be terminated by the runtime.
@@ -126,4 +124,4 @@ Sample applications that use this class include [Bluetooth RFCOMM chat sample](/
 
 ## -capabilities
 
-internetClient, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone], bluetooth.rfcomm
+internetClient, privateNetworkClientServer, bluetooth.rfcomm

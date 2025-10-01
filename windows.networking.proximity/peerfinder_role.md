@@ -32,4 +32,3 @@ In a multi-peer app scenario, the Role identifies the capability of the apps to 
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_NETWORKING [Windows Phone], ID_CAP_NETWORKING [Windows Phone]

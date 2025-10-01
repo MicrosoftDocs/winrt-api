@@ -13,15 +13,10 @@ public Windows.Devices.Geolocation.CivicAddress CivicAddress { get; }
 Unsupported API.
 
 ## -property-value
-Unsupported API. This property always returns **null**.
+Unsupported API. This property always returns `null`.
 
 ## -remarks
-Civic address is no longer available. Even when a Civic Address provider is installed, Geoposition.CivicAddress will always return **NULL**.
-
-
-
-> [!NOTE]
-> This API is backwards compatible. When used in apps compiled for Windows 8.1 and Windows Phone 8.1, this API will continue to provide the civic address when it’s available.
+Civic address is no longer available. Even when a Civic Address provider is installed, Geoposition.CivicAddress will always return `null`.
 
 ## -examples
 
@@ -30,4 +25,3 @@ Civic address is no longer available. Even when a Civic Address provider is inst
 
 ## -capabilities
 location
-ID_CAP_LOCATION [Windows Phone]

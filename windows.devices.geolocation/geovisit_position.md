@@ -17,10 +17,9 @@ The location of the Visit-related state change.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

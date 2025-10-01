@@ -12,9 +12,6 @@ public void UsingTransport(System.Object transport)
 ## -description
 Sets the transport connection to be used by a control channel trigger by class elements in the [Windows.Networking.Sockets](windows_networking_sockets.md) and related namespaces. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -parameters
 ### -param transport
 The instance of the network class that represents the network transport.

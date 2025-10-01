@@ -12,9 +12,6 @@ public void Close()
 ## -description
 Closes the [ControlChannelTrigger](controlchanneltrigger.md) object. 
 
-> [!NOTE]
-> This method is not supported on Windows Phone.
-
 ## -remarks
 The Close method aborts any pending operations and releases all unmanaged resources associated with the [ControlChannelTrigger](controlchanneltrigger.md) object. Calling this method frees any hardware resources allocated for the [ControlChannelTrigger](controlchanneltrigger.md).
 

@@ -17,7 +17,7 @@ Returns a collection of all available OCR languages on the device.
 A collection of all available OCR languages on the device.
 
 > [!NOTE]
-> A language pack must be installed on the device to be used. A user can install new OCR language packs through the Settings app.
+> A language pack must be installed on the device to be used. A user can install new OCR language packs through Windows Settings.
 
 ## -remarks
 

@@ -23,5 +23,3 @@ The DatagramSocketMessageReceivedEventArgs.RemotePort property gets the UDP port
 ## -see-also
 [BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), [ConnectAsync](datagramsocket_connectasync_13692504.md), [DatagramSocket](datagramsocket.md), [DatagramSocketInformation.LocalAddress](datagramsocketinformation_localaddress.md), [DatagramSocketInformation.LocalPort](datagramsocketinformation_localport.md), [DatagramSocketInformation.RemoteAddress](datagramsocketinformation_remoteaddress.md), [DatagramSocketInformation.RemotePort](datagramsocketinformation_remoteport.md), [DatagramSocketMessageReceivedEventArgs.LocalAddress](datagramsocketmessagereceivedeventargs_localaddress.md), [DatagramSocketMessageReceivedEventArgs.RemoteAddress](datagramsocketmessagereceivedeventargs_remoteaddress.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

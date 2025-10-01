@@ -32,6 +32,3 @@ There are two primary methods to read data when a message has been received:
 
 [DatagramSocket](datagramsocket.md), [DatagramSocket.BindServiceNameAsync](datagramsocket_bindservicenameasync_440542334.md), [DatagramSocket.BindEndpointAsync](datagramsocket_bindendpointasync_1396029045.md), [DatagramSocket.MessageReceived](datagramsocket_messagereceived.md), [Streams.DataReader](../windows.storage.streams/datareader.md), [Streams.IInputStream](../windows.storage.streams/iinputstream.md), [DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
-## -capabilities
-
-ID_CAP_NETWORKING [Windows Phone]

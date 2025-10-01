@@ -11,11 +11,11 @@ public string QueryId { get; }
 
 ## -description
 
-Gets the unique identifier for the search query. This is a telemetry ID provided by the caller that allows the request to be tracked across the client and service for reliability proposes.
+Gets the unique identifier for the query. This is a telemetry ID provided by the caller that allows the request to be tracked across the client and service for reliability proposes.
 
 ## -property-value
 
-The unique identifier for the search query.
+The unique identifier for the query.
 
 ## -remarks
 

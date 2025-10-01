@@ -16,7 +16,7 @@ Returns a collection of pending downloads that are not associated with a Backgro
 A collection of pending downloads for the current application instance.
 
 ## -remarks
-On Windows Phone, this method will return the error code HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG) if the Internet capability is not declared in your app manifest. On Windows, this method will return the error code HRESULT: 0x80070005 (E_ACCESSDENIED) if the Internet capability is not declared in your app manifest. This capability is enabled by default in all Store app project templates.
+On Windows, this method will return the error code HRESULT: 0x80070005 (E_ACCESSDENIED) if the Internet capability is not declared in your app manifest. This capability is enabled by default in all Store app project templates.
 
 ## -examples
 

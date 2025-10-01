@@ -10,17 +10,16 @@ public VisitMonitoringScope MonitoringScope { get; }
 # Windows.Devices.Geolocation.GeovisitMonitor.MonitoringScope
 
 ## -description
-Gets and the scope of Visits to monitor.
+Gets the scope of visits to monitor.
 
 ## -property-value
-A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the desired scope of location changes to monitor.
+A [VisitMonitoringScope](visitmonitoringscope.md) value representing the desired scope of location changes to monitor.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

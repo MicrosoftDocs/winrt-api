@@ -11,13 +11,17 @@ public string RemoteFileId { get; set; }
 
 ## -description
 
-Gets or sets the unique identifier for the remote file.
+Gets or sets the remote file ID of the query result.
 
 ## -property-value
 
-The unique identifier for the remote file.
+The remote file ID of the query result.
 
 ## -remarks
+
+This identifier is expected to be unique across all query results and items in the provider's sync root.
+
+The cloud storage provider should set this property to the same value as the [System.StorageProviderFileIdentifier](/windows/desktop/properties/props-system-storageproviderfileidentifier) property for the item. This ensures a consistent file identifier across query results and items in the provider's sync root.
 
 ## -see-also
 

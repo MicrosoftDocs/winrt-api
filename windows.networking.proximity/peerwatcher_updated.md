@@ -16,9 +16,6 @@ Occurs when the [DisplayName](peerinformation_displayname.md) or [DiscoveryData]
 ## -remarks
 The Updated event is raised when the [DisplayName](peerinformation_displayname.md) or [DiscoveryData](peerinformation_discoverydata.md) for a peer app changes. You can use the [Id](peerinformation_id.md) property to uniquely identify the peer app and update your UI.
 
-> > [!IMPORTANT]
-> For Windows Phone 8.x apps, calling [PeerFinder.ConnectAsync](peerfinder_connectasync_380619906.md) from within an Updated event handler will fail. Instead, call it outside of this event handler, for example, when the user has explicitly chosen to connect to a peer.
-
 [!code-csharp[_StartPeerWatcher](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_StartPeerWatcher)]
 
 [!code-csharp[_PeerWatcherUpdated](../windows.networking.proximity/code/Proximity_PeerWatcher/cs/MainPage.xaml.cs#Snippet_PeerWatcherUpdated)]

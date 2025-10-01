@@ -11,7 +11,7 @@ public void ShowSmsSettings()
 # Windows.ApplicationModel.Chat.ChatMessageManager.ShowSmsSettings
 
 ## -description
-Launches the device's SMS settings app.
+Launches the device's SMS settings.
 
 ## -remarks
 The ShowSmsSettings method allows a chat application to launch the SMS settings pane attached to the current UI thread.

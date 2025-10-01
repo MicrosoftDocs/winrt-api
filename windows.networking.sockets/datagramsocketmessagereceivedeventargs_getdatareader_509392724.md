@@ -22,5 +22,3 @@ A [DataReader](../windows.storage.streams/datareader.md) object to read incoming
 ## -see-also
 [DatagramSocket](datagramsocket.md), [DataReader](../windows.storage.streams/datareader.md), [GetDataStream](datagramsocketmessagereceivedeventargs_getdatastream_1357691687.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

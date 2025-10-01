@@ -36,4 +36,3 @@ You can enumerate proximity devices by passing the class selection string return
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

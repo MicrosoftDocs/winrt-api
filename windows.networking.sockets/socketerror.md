@@ -20,5 +20,3 @@ An error encountered on socket operation is returned as **HRESULT** value. The [
 ## -see-also
 [DatagramSocket](datagramsocket.md), [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

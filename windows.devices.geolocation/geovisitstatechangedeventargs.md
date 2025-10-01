@@ -4,22 +4,21 @@
 ---
 
 <!-- Class syntax.
-public class GeovisitStateChangedEventArgs 
+public class GeovisitStateChangedEventArgs
 -->
 
 # Windows.Devices.Geolocation.GeovisitStateChangedEventArgs
 
 ## -description
-Contains information about a [VisitStateChanged](GeovisitMonitor_VisitStateChanged.md) event.
+Contains information about a [VisitStateChanged](geovisitmonitor_visitstatechanged.md) event.
 
 ## -remarks
-This class is instantiated when a [VisitStateChanged](GeovisitMonitor_VisitStateChanged.md) event is raised.
-
-## -see-also
-[Geovisit](Geovisit.md)
+This class is instantiated when a [VisitStateChanged](geovisitmonitor_visitstatechanged.md) event is raised.
 
 ## -examples
 
+## -see-also
+[Geovisit](geovisit.md)
 
 ## -capabilities
 location

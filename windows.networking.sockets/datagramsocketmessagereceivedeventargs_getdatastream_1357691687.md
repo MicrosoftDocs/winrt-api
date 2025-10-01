@@ -22,5 +22,3 @@ An [IInputStream](../windows.storage.streams/iinputstream.md) object that repres
 ## -see-also
 [DatagramSocket](datagramsocket.md), [GetDataReader](datagramsocketmessagereceivedeventargs_getdatareader_509392724.md), [IInputStream](../windows.storage.streams/iinputstream.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

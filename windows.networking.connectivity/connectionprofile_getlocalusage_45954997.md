@@ -31,7 +31,6 @@ The roaming state to scope the request to.
 The requested local data usage information.
 
 ## -remarks
-For an example of how this method is used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10)).
 
 ## -examples
 

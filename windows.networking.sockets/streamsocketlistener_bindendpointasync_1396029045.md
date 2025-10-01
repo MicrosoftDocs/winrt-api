@@ -33,4 +33,4 @@ The BindEndpointAsync method will fail if another app using TCP (another [Stream
 [BindServiceNameAsync](streamsocketlistener_bindservicenameasync_1713574846.md), [HostName](../windows.networking/hostname.md), [StreamSocketListenerInformation](streamsocketlistenerinformation.md)
 
 ## -capabilities
-internetClientServer, privateNetworkClientServer, ID_CAP_NETWORKING [Windows Phone]
+internetClientServer, privateNetworkClientServer

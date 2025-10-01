@@ -151,4 +151,3 @@ The message data is an untyped NDEF message (TNF field value of 0x05).This proto
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

@@ -25,5 +25,3 @@ See [StreamSocket class](/uwp/api/windows.networking.sockets.streamsocket).
 ## -see-also
 [DataReader](../windows.storage.streams/datareader.md), [IInputStream](../windows.storage.streams/iinputstream.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

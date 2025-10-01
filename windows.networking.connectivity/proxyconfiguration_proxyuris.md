@@ -12,9 +12,6 @@ public Windows.Foundation.Collections.IVectorView<Windows.Foundation.Uri> ProxyU
 ## -description
 Gets a list of URIs for the proxies from the proxy configuration. 
 
-> [!NOTE]
-> This class property is not supported on Windows Phone.
-
 ## -property-value
 A list of URIs for the proxy configuration.
 

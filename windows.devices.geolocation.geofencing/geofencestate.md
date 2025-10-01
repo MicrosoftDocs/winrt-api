@@ -7,22 +7,22 @@
 public enum Windows.Devices.Geolocation.Geofencing.GeofenceState : uint
 -->
 
-# GeofenceState
+# Windows.Devices.Geolocation.Geofencing.GeofenceState
 
 ## -description
 Indicates the current state of a [Geofence](geofence.md).
 
 ## -enum-fields
-### -field None:0
+### -field None: 0
 No flag is set.
 
-### -field Entered:1
+### -field Entered: 1
 The device has entered the geofence area.
 
-### -field Exited:2
+### -field Exited: 2
 The device has left the geofence area.
 
-### -field Removed:4
+### -field Removed: 4
 The geofence was removed.
 
 
@@ -31,6 +31,7 @@ The geofence was removed.
 ## -examples
 
 ## -see-also
+
 [Geofence](geofence.md)
 ## -capabilities
 location

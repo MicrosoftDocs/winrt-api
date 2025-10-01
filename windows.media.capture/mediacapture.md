@@ -16,7 +16,7 @@ Provides functionality for capturing photos, audio, and videos from a capture de
 
 ## -remarks
 
-The MediaCapture class is used to capture audio, video, and images from a camera. For how-to guidance for displaying the camera preview, see [Display the camera preview](/windows/uwp/audio-video-camera/simple-camera-preview-access). To quickly get started capturing photos, audio, or video, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+The MediaCapture class is used to capture audio, video, and images from a camera. For how-to guidance for displaying the camera preview, see [Show the camera preview in a WinUI 3 app](/windows/apps/develop/camera/camera-quickstart-winui3). To quickly get started capturing photos, audio, or video, see [Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture).
 
 The [Camera](/windows/uwp/audio-video-camera/camera) page is the main hub for how-to guidance for using **MediaCapture** in your app. In addition to the basic camera tasks, this page links to how-to articles for advanced scenarios including:
 

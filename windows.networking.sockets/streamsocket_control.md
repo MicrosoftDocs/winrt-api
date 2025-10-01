@@ -36,5 +36,3 @@ Any changes to the property values on the [StreamSocketControl](streamsocketcont
 ## -see-also
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [IgnorableServerCertificateErrors](streamsocketcontrol_ignorableservercertificateerrors.md), [KeepAlive](streamsocketcontrol_keepalive.md), [NoDelay](streamsocketcontrol_nodelay.md), [OutboundBufferSizeInBytes](streamsocketcontrol_outboundbuffersizeinbytes.md), [OutboundUnicastHopLimit](streamsocketcontrol_outboundunicasthoplimit.md), [QualityOfService](streamsocketcontrol_qualityofservice.md), [StreamSocketControl](streamsocketcontrol.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

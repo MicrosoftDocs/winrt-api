@@ -24,5 +24,3 @@ To unregister the [MessageReceived  event, the [DatagramSocket](datagramsocket.m
 ## -see-also
 [DatagramSocket sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

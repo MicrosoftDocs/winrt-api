@@ -18,6 +18,3 @@ Creates a new [StreamSocketListener](streamsocketlistener.md) object.
 
 ## -see-also
 
-
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

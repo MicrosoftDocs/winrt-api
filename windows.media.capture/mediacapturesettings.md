@@ -15,7 +15,7 @@ Contains read-only configuration settings for the [MediaCapture](mediacapture.md
 ## -remarks
 To get an instance of this class, retrieve the [MediaCapture.MediaCaptureSettings](mediacapture_mediacapturesettings.md) property.
 
-For how-to guidance for using the [MediaCapture](mediacapture.md) object to capture audio, photos, and video, see [Camera](/windows/uwp/audio-video-camera/camera).
+For how-to guidance for using the [MediaCapture](mediacapture.md) object to capture audio, photos, and video, see [Camera](/windows/apps/develop/camera/camera).
 
 <!-- confirmed -->
 > [!NOTE]

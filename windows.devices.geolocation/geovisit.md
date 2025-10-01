@@ -4,7 +4,7 @@
 ---
 
 <!-- Class syntax.
-public class Geovisit 
+public class Geovisit
 -->
 
 # Windows.Devices.Geolocation.Geovisit
@@ -15,13 +15,12 @@ Represents a Visit-related state change. See [Guidelines for using Visits tracki
 ## -remarks
 This class is instantiated whenever a Visit-related state change has been obtained by the app.
 
-## -see-also
-[GeovisitMonitor](GeovisitMonitor.md)
-[GeovisitTrigger](/uwp/api/windows.applicationmodel.background.geovisittrigger)
-[Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits)
-
 ## -examples
 
+## -see-also
+[GeovisitMonitor](geovisitmonitor.md),
+[GeovisitTrigger](/uwp/api/windows.applicationmodel.background.geovisittrigger),
+[Guidelines for using Visits tracking](/windows/uwp/maps-and-location/guidelines-for-visits)
 
 ## -capabilities
 location

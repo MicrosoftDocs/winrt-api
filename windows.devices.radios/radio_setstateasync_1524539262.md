@@ -11,28 +11,68 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.Radios.RadioAccessStat
 # Windows.Devices.Radios.Radio.SetStateAsync
 
 ## -description
-An asynchronous operation that attempts to set the state of the radio represented by this object.
+Attempts to change the operational state of the radio (On / Off) asynchronously, subject to user permission, hardware
+capabilities, and system policy.
 
 ## -parameters
 ### -param value
-The desired radio state. 
+The desired radio state. Pass [RadioState.On](radiostate.md) to enable or [RadioState.Off](radiostate.md) to disable the radio.
 
 > [!NOTE]
-> Only **RadioState.On** and **RadioState.Off** may be set using SetStateAsync.
+> [RadioState.Disabled](radiostate.md) is reserved for OS use and cannot be set programmatically.
 
 ## -returns
-An asynchronous state setting operation. On successful completion, contains an enumeration value describing status of the state change request.
+A [RadioAccessStatus](radioaccessstatus.md) indicating whether the request was permitted. [RadioAccessStatus.Allowed](radioaccessstatus.md) 
+means the request was accepted; any other value indicates failure. See [RadioAccessStatus](radioaccessstatus.md) for detailed meanings. 
+The radio will then transition asynchronously to the final state, unless blocked by hardware.
 
 ## -remarks
+### Permission flow
+1. Call [RequestAccessAsync](radio_requestaccessasync_380675631.md) early (once per session).
+2. Verify the returned [RadioAccessStatus](radioaccessstatus.md) is **Allowed**.
+3. Invoke SetStateAsync only when permission is granted.
 
-The `radios` capability is required for all radios.
-If the radio Kind is **RadioKind.MobileBroadband**, then this also requires `cellularDeviceControl`, a restricted capability given to Mobile Operators.
+> [!IMPORTANT]  
+> Hardware (for example, a physical kill switch) or policy can override an **Allowed** request, leaving the radio in
+> its prior state. Always observe the subsequent [StateChanged](radio_statechanged.md) event (or re-read [State](radio_state.md))
+> to confirm the effective state.
 
-The returned `IAsyncOperation<RadioAccessStatus>` can throw the ERROR_BUSY exception when retrieving the result, if the radio state is changed by another process simultaneously. This exception must be caught and the operation retried if necessary.
+### Asynchronous behavior
+The API returns after the request is queued; the observable transition may complete later. Avoid chaining multiple
+rapid On/Off requests—coalesce user interactions.
+
+### Xbox / platform note
+> [!NOTE]  
+> Many Xbox configurations do not permit programmatic radio control; requests commonly return DeniedBySystem.
 
 ## -examples
+Toggle a radio safely (C#):
+
+```csharp
+async Task<bool> ToggleAsync(Radio r)
+{
+    if (r == null) return false;
+
+    var access = await Radio.RequestAccessAsync();
+    if (access != RadioAccessStatus.Allowed) return false;
+
+    var target = r.State == RadioState.On ? RadioState.Off : RadioState.On;
+    var status = await r.SetStateAsync(target);
+    if (status != RadioAccessStatus.Allowed) return false;
+
+    // App-specific: optionally wait for StateChanged to confirm final state
+    return true;
+}
+```
 
 ## -see-also
+[Radio](radio.md),
+[Radio.GetRadiosAsync](radio_getradiosasync_548754145.md),
+[Radio.RequestAccessAsync](radio_requestaccessasync_380675631.md),
+[Radio.SetStateAsync](radio_setstateasync_1524539262.md),
+[Radio.StateChanged](radio_statechanged.md),
+[RadioAccessStatus](radioaccessstatus.md),
+[RadioState](radiostate.md)
 
 ## -capabilities
 radios, cellularDeviceControl

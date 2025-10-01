@@ -12,9 +12,6 @@ public uint ServerKeepAliveIntervalInMinutes { get;  set; }
 ## -description
 Get or set the server keep-alive interval, in minutes, registered with the system to indicate when the app and associated network connections used should wake up. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -property-value
 The server keep-alive interval, in minutes, registered with the system to indicate when the app and associated network connections used should wake up.
 

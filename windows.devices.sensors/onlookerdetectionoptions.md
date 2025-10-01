@@ -16,7 +16,7 @@ Provides the ability to manage the onlooker detection behavior of the PC.
 
 ## -remarks
 
-The user can specify their preferred onlooker detection behavior in the System settings (see [Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app#system)).
+The user can specify their preferred onlooker detection behavior in the System settings (see [Launch Windows Settings](/windows/apps/develop/launch/launch-settings#system)).
 
 ## -see-also
 

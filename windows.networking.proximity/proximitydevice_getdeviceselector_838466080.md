@@ -33,4 +33,3 @@ If your computer supports Proximity and has an NFC device installed, which is co
 
 ## -capabilities
 proximity
-ID_CAP_PROXIMITY [Windows Phone], ID_CAP_PROXIMITY [Windows Phone]

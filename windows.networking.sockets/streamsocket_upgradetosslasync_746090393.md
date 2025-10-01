@@ -44,5 +44,3 @@ The UpgradeToSslAsync method can only be used for client connections. This metho
 ## -see-also
 [HostName](../windows.networking/hostname.md), [How to secure socket connections with TLS/SSL](/previous-versions/windows/apps/hh780595(v=win.10)), [SocketProtectionLevel](socketprotectionlevel.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

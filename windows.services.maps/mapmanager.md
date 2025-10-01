@@ -35,4 +35,4 @@ See [Request a maps authentication key](/windows/uwp/maps-and-location/authentic
 ## -examples
 
 ## -see-also
-[Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app)
+[Launch Windows Settings](/windows/apps/develop/launch/launch-settings)

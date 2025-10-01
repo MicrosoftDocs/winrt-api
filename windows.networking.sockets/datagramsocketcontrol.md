@@ -78,6 +78,3 @@ For more information on using DatagramSocketControl, see [How to use advanced so
 
 [How to use advanced socket controls](/previous-versions/windows/apps/jj150598(v=win.10)), [DatagramSocket](datagramsocket.md), [DatagramSocket.Control](datagramsocket_control.md), [DatagramSocketInformation](datagramsocketinformation.md), [DatagramSocket sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/DatagramSocket%20sample), [DatagramSocket sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DatagramSocket)
 
-## -capabilities
-
-ID_CAP_NETWORKING [Windows Phone]

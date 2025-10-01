@@ -48,7 +48,7 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
 
         if (navView.PaneDisplayMode == NavigationViewPaneDisplayMode.Top)
         {
-            // Set back button key tip placement mode.
+            // Set back button keytip placement mode.
             navigationViewBackButton.KeyTipPlacementMode = Windows.UI.Xaml.Input.KeyTipPlacementMode.Bottom;
 
             // Find the settings item and set properties.
@@ -62,7 +62,7 @@ private void NavigationView_Loaded(object sender, RoutedEventArgs e)
         }
         else
         {
-            // Set back button key tip placement mode.
+            // Set back button keytip placement mode.
             navigationViewBackButton.KeyTipPlacementMode = Windows.UI.Xaml.Input.KeyTipPlacementMode.Right;
 
             // Find the settings item and set properties.

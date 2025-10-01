@@ -24,7 +24,7 @@ Use PrepareLowLagPhotoCaptureAsync to initialize the capture. This is an asynchr
 
 PrepareLowLagPhotoCaptureAsync must be called before [LowLagPhotoCapture.CaptureAsync](lowlagphotocapture_captureasync_2078018041.md).
 
-For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capture a photo, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance on using [LowLagPhotoCapture](lowlagphotocapture.md) to capture a photo, see [Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture).
 
 ## -examples
 

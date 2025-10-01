@@ -10,19 +10,36 @@ public Windows.Networking.Connectivity.CellularApnAuthenticationType Authenticat
 # Windows.Networking.Connectivity.CellularApnContext.AuthenticationType
 
 ## -description
-Indicates the authentication method, as defined by [CellularApnAuthenticationType](cellularapnauthenticationtype.md), that is used by the access point.
+Specifies the APN authentication method (see [CellularApnAuthenticationType](cellularapnauthenticationtype.md)).
 
 ## -property-value
-The authentication type.
+A [CellularApnAuthenticationType](cellularapnauthenticationtype.md) value indicating the protocol used; defaults to **None** if not set.
 
 ## -remarks
-This property can have one of the following values:<table>
-   <tr><th>Value</th><th>Description</th></tr>
-   <tr><td>NONE</td><td>No authentication protocol.</td></tr>
-   <tr><td>PAP</td><td>Unencrypted password authentication.</td></tr>
-   <tr><td>CHAP</td><td>Challenge Handshake Authentication Protocol(CHAP).</td></tr>
-   <tr><td>MsCHAPv2</td><td>Use Microsoft’s Challenge Handshake Authentication Protocol(CHAP) v2.0.</td></tr>
-</table>
+### Supported values
+| Value | Meaning |
+| -- | -- |
+| None | No authentication (open / default APN) |
+| Pap | Password Authentication Protocol (cleartext password exchange) |
+| Chap | Challenge Handshake Authentication Protocol (shared secret challenge) |
+| Mschapv2 | Microsoft CHAP v2 (mutual authentication improvements over CHAP) |
+
+### Guidance
+- Use the minimal required method published by the carrier; stronger methods are not always accepted.
+- Provide **UserName** / **Password** only when the authentication type requires them (avoid sending empty credentials).
+- Do not downgrade automatically (e.g., from MSCHAPv2 to PAP) without explicit user/carrier guidance.
+
+### Security considerations
+| Method | Relative security | Notes |
+| -- | -- | -- |
+| None | Lowest | Suitable only for carrier plans that mandate unauthenticated APN |
+| Pap | Low | Cleartext password (inside lower-layer encryption if present) |
+| Chap | Moderate | Challenge/response avoids sending password directly |
+| Mschapv2 | Higher | Mutual auth aspects; still rely on secure transport for confidentiality |
+
+> [!NOTE]  
+> Even with an authentication method set, transport encryption of user payloads (TLS / VPN) is still recommended.
+
 
 ## -examples
 

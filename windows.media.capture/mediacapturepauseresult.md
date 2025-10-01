@@ -15,7 +15,7 @@ Provides the last frame captured and the recorded duration of a media capture op
 ## -remarks
 Get an instance of this class by calling [PauseRecordWithResultAsync](mediacapture_pauserecordwithresultasync_97197073.md).
 
-For how-to guidance for pausing and resuming while recording video, see [Basic photo, video, and audio capture with MediaCapture](/windows/uwp/audio-video-camera/basic-photo-video-and-audio-capture-with-mediacapture).
+For how-to guidance for pausing and resuming while recording video, see [Basic photo, video, and audio capture with MediaCapture in a WinUI 3 app](/windows/apps/develop/camera/basic-photo-capture).
 
 ## -examples
 

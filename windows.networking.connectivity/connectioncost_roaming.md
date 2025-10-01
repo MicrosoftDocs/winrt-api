@@ -15,9 +15,6 @@ Gets a value that indicates whether the connection is connected to a network out
 ## -property-value
 TRUE if the connection on a roaming network; otherwise, FALSE.
 
-## -remarks
-> On Windows Phone 8.1, the Roaming property indicates roaming for international roaming only.
-
 ## -examples
 
 ## -see-also

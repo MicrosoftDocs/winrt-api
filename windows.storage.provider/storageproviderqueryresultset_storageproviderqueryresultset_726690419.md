@@ -17,7 +17,7 @@ Creates a new instance of the [StorageProviderQueryResultSet](storageproviderque
 
 ### -param results
 
-An array of [IStorageProviderQueryResult](istorageproviderqueryresult.md) objects that represent the search results.
+An array of [IStorageProviderQueryResult](istorageproviderqueryresult.md) objects that represent the query results.
 
 ## -remarks
 

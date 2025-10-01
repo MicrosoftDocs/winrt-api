@@ -26,7 +26,7 @@ Heading elements organize the user interface and make it easier to navigate. Som
 
 ![Mouse settings page in Windows Ease of Access settings](images/MouseSettings.png)
 
-Examples of headings would be section titles within the Windows Settings app. For instance, under the **Ease of Access** -> **Mouse** page, **Pointer size**, **Pointer color**, and **Mouse keys** would be a heading of level 1.
+Examples of headings would be section titles within Windows Settings. For instance, under the **Ease of Access** -> **Mouse** page, **Pointer size**, **Pointer color**, and **Mouse keys** would be a heading of level 1.
 
 ## -see-also
 [HeadingLevel](automationproperties_headinglevel.md), [GetHeadingLevel](automationproperties_getheadinglevel_655629781.md), [Landmarks and Headings](/windows/uwp/design/accessibility/landmarks-and-headings), [Attached properties overview](/windows/uwp/xaml-platform/attached-properties-overview)

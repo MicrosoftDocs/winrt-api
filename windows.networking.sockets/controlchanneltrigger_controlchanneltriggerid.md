@@ -12,9 +12,6 @@ public string ControlChannelTriggerId { get; }
 ## -description
 Gets a string that can be used to differentiate various control channel triggers on the local computer. 
 
-> [!NOTE]
-> The ControlChannelTrigger class is not supported on Windows Phone.
-
 ## -property-value
 A string that can be used to differentiate various control channel triggers.
 

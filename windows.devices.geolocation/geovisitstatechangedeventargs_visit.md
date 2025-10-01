@@ -10,17 +10,16 @@ public Geovisit Visit { get; }
 # Windows.Devices.Geolocation.GeovisitStateChangedEventArgs.Visit
 
 ## -description
-Gets the Visit-related event corresponding to a [VisitStateChanged](GeovisitMonitor_VisitStateChanged.md) event that was raised.
+Gets the Visit-related event corresponding to a [VisitStateChanged](geovisitmonitor_visitstatechanged.md) event that was raised.
 
 ## -property-value
-A [Geovisit](Geovisit.md) instance representing the Visit-related event that denotes a change in state.
+A [Geovisit](geovisit.md) instance representing the Visit-related event that denotes a change in state.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

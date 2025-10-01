@@ -26,5 +26,3 @@ A [StreamSocketListener.ConnectionReceived](streamsocketlistener_connectionrecei
 ## -see-also
 [StreamSocket](streamsocket.md), [StreamSocketListener](streamsocketlistener.md), [ConnectionReceived](streamsocketlistener_connectionreceived.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

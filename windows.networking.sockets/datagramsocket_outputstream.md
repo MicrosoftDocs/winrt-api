@@ -25,5 +25,3 @@ Every write to the OutputStream results in a network packet being sent.
 ## -see-also
 [DataWriter](../windows.storage.streams/datawriter.md), [IOutputStream](../windows.storage.streams/ioutputstream.md)
 
-## -capabilities
-ID_CAP_NETWORKING [Windows Phone]

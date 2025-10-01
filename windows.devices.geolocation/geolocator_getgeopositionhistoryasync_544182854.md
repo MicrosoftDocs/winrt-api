@@ -12,7 +12,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 ## -description
 
 > [!IMPORTANT]
-> The **Geolocator.GetGeopositionHistoryAsync** method is deprecated, and it may not be available in future versions of Windows.
+> The `Geolocator.GetGeopositionHistoryAsync` method is deprecated as of SDK version 10.0.26100.3037 and will be removed entirely in a future version.
 
 Starts an asynchronous operation to retrieve the location history of the device.
 
@@ -37,11 +37,21 @@ Positions (of type [Geoposition](geoposition.md)) that were collected during the
 
 Only positions that were collected during the specified *duration* after *startTime* will be returned.
 
+### Version history
+
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 24H2 | 26100.3037 | Method deprecated |
+| 24H2 | 26100.3323 | Returns errors |
+
 ## -examples
 
 ## -see-also
 
-[Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [GetGeopositionHistoryAsync(DateTime)](geolocator_getgeopositionhistoryasync_1254824286.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
+[Geolocation sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/Geolocation),
+[Get current location](/windows/uwp/maps-and-location/get-location),
+[GetGeopositionHistoryAsync(DateTime)](geolocator_getgeopositionhistoryasync_1254824286.md),
+[Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence)
 
 ## -capabilities
 
