@@ -16,7 +16,7 @@ Gets the network interface type as defined by the Internet Assigned Numbers Auth
 The table lists common values; many other values are possible (see Remarks).
 
 ## -property-value
-The interface type as defined by the Internet Assigned Names Authority (IANA). The table below lists common values for the interface type, although many other values are possible (see **Remarks**).
+The interface type as defined by the Internet Assigned Names Authority (IANA). The table below lists common values for the interface type, although many other values are possible (see Remarks).
 
 |Value|Description|
 |-|-|
@@ -34,13 +34,13 @@ The interface type as defined by the Internet Assigned Names Authority (IANA). T
 This property represents the interface type as defined by the Internet Assigned Numbers Authority (IANA).  
 For the complete, current list of possible values, see the IANA ifType registry:  
 <https://www.iana.org/assignments/ianaiftype-mib/ianaiftype-mib>.  
-> [!NOTE]  
+> [!NOTE]
 > Values outside the table may appear as new interface types are assigned. Handle unknown values defensively.
 
 ## -examples
 
 ## -see-also
-[NetworkAdapter](networkadapter.md),
+
 [NetworkAdapter.InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md),
 [NetworkAdapter.NetworkAdapterId](networkadapter_networkadapterid.md),
 [NetworkAdapter.OutboundMaxBitsPerSecond](networkadapter_outboundmaxbitspersecond.md)

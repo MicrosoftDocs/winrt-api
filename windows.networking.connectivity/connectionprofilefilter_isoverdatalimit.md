@@ -13,10 +13,11 @@ public Windows.Foundation.IReference<bool> IsOverDataLimit { get;  set; }
 Gets or sets whether the data limit has been exceeded under the current connection profile filter.
 
 ## -property-value
-True when the data limit has been exceeded. False otherwise.v
+Returns `true` when the data limit has been exceeded; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

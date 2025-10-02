@@ -14,7 +14,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.Connectivit
 Enumerates all connection profiles (active or not) currently known to the system for the local machine.
 
 ## -returns
-A read‑only list of [ConnectionProfile](connectionprofile.md) objects. The list may be empty.
+A read-only list of [ConnectionProfile](connectionprofile.md) objects. The list may be empty.
 
 ## -remarks
 ### Purpose
@@ -23,19 +23,19 @@ For only the profile providing current Internet connectivity, call
 [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md).
 
 ### Characteristics
-- Includes connected, disconnected, and provisioned-but-idle profiles (e.g., remembered Wi‑Fi networks, cellular APN profiles).
+- Includes connected, disconnected, and provisioned-but-idle profiles (for example, remembered Wi-Fi networks, cellular APN profiles).
 - May include profiles with limited or no present connectivity level.
 - Order is implementation-defined; do not rely on list ordering.
 
 ### When to prefer filtering
-If you need only a subset (e.g., connected Wi‑Fi profiles), use
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md) with a
+If you need only a subset (for example, connected Wi-Fi profiles), use
+[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) with a
 [ConnectionProfileFilter](connectionprofilefilter.md) to reduce enumeration and post-processing cost.
 
 ### Typical workflow
-1. Call **GetConnectionProfiles**.
-2. Iterate profiles; inspect connectivity via **GetNetworkConnectivityLevel**.
-3. For each desired profile, query additional details (cost: **GetConnectionCost**, usage: **GetNetworkUsageAsync**, data plan: **GetDataPlanStatus**).
+1. Call the `GetConnectionProfiles` method.
+2. Iterate profiles; inspect connectivity via `GetNetworkConnectivityLevel`.
+3. For each desired profile, query additional details (cost: `GetConnectionCost`, usage: `GetNetworkUsageAsync`, data plan: `GetDataPlanStatus`).
 
 ### Performance guidance
 - Enumeration is lightweight but avoid calling in tight loops; cache results for a reasonable interval if your scenario allows.
@@ -44,9 +44,9 @@ If you need only a subset (e.g., connected Wi‑Fi profiles), use
 ### Comparison
 | Need | API |
 | -- | -- |
-| Current Internet-active profile | GetInternetConnectionProfile |
-| All known profiles (broad inventory) | GetConnectionProfiles |
-| Filtered subset (e.g., only connected WWAN) | FindConnectionProfilesAsync + ConnectionProfileFilter |
+| Current Internet-active profile | `GetInternetConnectionProfile` |
+| All known profiles (broad inventory) | `GetConnectionProfiles` |
+| Filtered subset (e.g., only connected WWAN) | `FindConnectionProfilesAsync` + `ConnectionProfileFilter` |
 
 ### Example notes
 Use the examples in the -examples section for up-to-date patterns. Legacy samples that mutate global variables or rely on helper functions (e.g., `getConnectionProfileInfo`) are omitted for clarity.
@@ -54,6 +54,7 @@ Use the examples in the -examples section for up-to-date patterns. Legacy sample
 
 ## -examples
 ### List profile names and connectivity (C#)
+
 ```csharp
 using Windows.Networking.Connectivity;
 using System.Linq;
@@ -77,6 +78,7 @@ System.Diagnostics.Debug.WriteLine(sb.ToString());
 ```
 
 ### List profile names (JavaScript)
+
 ```javascript
 const profiles = Windows.Networking.Connectivity.NetworkInformation.getConnectionProfiles();
 if (profiles.length === 0) {
@@ -90,7 +92,8 @@ if (profiles.length === 0) {
 ```
 
 ## -see-also
-[NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md),  
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md),  
-[ConnectionProfileFilter](connectionprofilefilter.md),  
-[ConnectionProfile](connectionprofile.md)
+
+[ConnectionProfile](connectionprofile.md),
+[ConnectionProfileFilter](connectionprofilefilter.md),
+[NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+

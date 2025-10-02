@@ -19,17 +19,17 @@ roaming state, plan limits, and background restrictions so applications can adju
 
 ### Key properties
 
-**Core cost indicators:**
-- **[NetworkCostType](connectioncost_networkcosttype.md)**: Unrestricted, Fixed, or Variable plan classification.
-- **[Roaming](connectioncost_roaming.md)**: Connection currently incurring roaming charges.
-- **[OverDataLimit](connectioncost_overdatalimit.md)**: Plan cap exceeded.
-- **[ApproachingDataLimit](connectioncost_approachingdatalimit.md)**: Nearing plan cap.
+#### Core cost indicators
+- [NetworkCostType](connectioncost_networkcosttype.md): Unrestricted, Fixed, or Variable plan classification.
+- [Roaming](connectioncost_roaming.md): Connection currently incurring roaming charges.
+- [OverDataLimit](connectioncost_overdatalimit.md): Plan cap exceeded.
+- [ApproachingDataLimit](connectioncost_approachingdatalimit.md): Nearing plan cap.
 
-**Background restriction:**
-- **[BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md)**: Background transfers limited by
+#### Background restriction
+- [BackgroundDataUsageRestricted](connectioncost_backgrounddatausagerestricted.md): Background transfers limited by
   policy or settings.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Always evaluate cost properties before large or background transfers. Respecting constraints preserves user data
 > allowances and improves experience.
 
@@ -39,9 +39,9 @@ roaming state, plan limits, and background restrictions so applications can adju
 | -- | -- |
 | Unrestricted | Full-fidelity sync, media prefetch, normal background work |
 | Fixed | Regular operations; gate large optional downloads (offer user confirmation) |
-| Variable | Minimize non‑essential transfers; compress & batch user‑initiated large tasks |
+| Variable | Minimize non-essential transfers; compress & batch user-initiated large tasks |
 | ApproachingDataLimit | Warn before large downloads; lower streaming bitrate / quality |
-| OverDataLimit | Pause non‑critical background sync; require explicit user action for large transfers |
+| OverDataLimit | Pause non-critical background sync; require explicit user action for large transfers |
 | Roaming | Suppress large automatic updates; prefer incremental / compressed payloads |
 | BackgroundDataUsageRestricted | Restrict background-only telemetry & sync; allow user foreground actions |
 | Roaming + Variable/Fixed | Strict throttling; surface lightweight usage indicator |
@@ -54,7 +54,7 @@ roaming state, plan limits, and background restrictions so applications can adju
 ## -examples
 
 ## -see-also
-[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md),
+
 [DataPlanStatus](dataplanstatus.md),
 [NetworkCostType](networkcosttype.md),
 [NetworkInformation](networkinformation.md)

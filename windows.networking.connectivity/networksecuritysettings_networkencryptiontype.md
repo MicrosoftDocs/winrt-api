@@ -21,4 +21,5 @@ The network encryption type.
 ## -examples
 
 ## -see-also
+
 [NetworkEncryptionType (Enumeration)](networkencryptiontype.md)

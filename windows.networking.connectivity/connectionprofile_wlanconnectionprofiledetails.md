@@ -20,4 +20,4 @@ Defines a method to access information specific to a WLAN connection.
 ## -examples
 
 ## -see-also
-[WlanConnectionProfileDetails](wlanconnectionprofiledetails.md)
+

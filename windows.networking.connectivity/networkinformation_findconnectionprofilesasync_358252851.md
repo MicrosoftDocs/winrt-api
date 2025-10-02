@@ -25,4 +25,4 @@ An array of [ConnectionProfile](connectionprofile.md) objects.
 ## -examples
 
 ## -see-also
-[ConnectionProfileFilter](connectionprofilefilter.md), [ConnectionProfile](connectionprofile.md)
+

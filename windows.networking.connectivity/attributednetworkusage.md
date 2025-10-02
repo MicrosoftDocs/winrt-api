@@ -20,7 +20,7 @@ Instances are produced by calling
 [ConnectionProfile](connectionprofile.md) for a specified time window.
 
 ### Attribution identity
-- **AttributionId** can represent an app, a system/service bucket, or an aggregated classification.
+- `AttributionId` can represent an app, a system/service bucket, or an aggregated classification.
 - Absence of an expected id in a window means no recorded usage (not necessarily uninstalled).
 
 ### Data characteristics
@@ -35,7 +35,7 @@ represent system, privacy-suppressed, or otherwise unattributed traffic. Treat t
 if full reconciliation is required.
 
 ### Identifier stability
-Do not treat **AttributionId** as a permanent device-unique key. Rebase mappings after OS upgrade, device reset, or policy
+Do not treat `AttributionId` as a permanent device-unique key. Rebase mappings after OS upgrade, device reset, or policy
 changes.
 
 ### Refresh & lifetime
@@ -46,7 +46,7 @@ bucket cursor) similar to aggregate usage.
 Periodically re-query the most recent closed bucket(s) to pick up late accounting changes. Apply positive deltas only
 to your stored cumulative totals rather than overwriting historical values.
 
-> [!NOTE]  
+> [!NOTE]
 > Summed attributed usage may be less than (or equal to) aggregate usage; do not inflate attributed buckets to force
 > equality.
 
@@ -59,5 +59,4 @@ to your stored cumulative totals rather than overwriting historical values.
 ## -examples
 
 ## -see-also
-[ConnectionProfile](connectionprofile.md),
-[GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md)
+

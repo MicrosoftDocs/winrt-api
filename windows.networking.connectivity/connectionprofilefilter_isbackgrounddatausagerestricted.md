@@ -13,10 +13,11 @@ public Windows.Foundation.IReference<bool> IsBackgroundDataUsageRestricted { get
 Gets or sets whether background data usage is restricted by this connection profile filter.
 
 ## -property-value
-True when background data usage is restricted. False if background data usage is not restricted.
+Returns `true` when background data usage is restricted; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

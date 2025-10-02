@@ -31,5 +31,4 @@ The deletion failed because it was denied by the system.
 ## -see-also
 
 [TryDeleteAsync](connectionprofile_trydeleteasync_41251962.md)
-
 ## -examples

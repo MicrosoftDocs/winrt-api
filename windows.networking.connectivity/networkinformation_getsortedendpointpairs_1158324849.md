@@ -28,3 +28,4 @@ A sorted array of [EndpointPair](../windows.networking/endpointpair.md) objects.
 ## -examples
 
 ## -see-also
+

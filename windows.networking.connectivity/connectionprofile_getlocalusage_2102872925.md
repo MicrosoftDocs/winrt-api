@@ -11,9 +11,9 @@ public Windows.Networking.Connectivity.DataUsage GetLocalUsage(Windows.Foundatio
 
 ## -description
 > [!NOTE]
-> GetLocalUsage may be altered or unavailable for releases after Windows 8.1. Instead, use [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)
+> GetLocalUsage may be altered or unavailable for releases after Windows 8.1. Instead, use [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md).
 
-Gets the estimated data usage for a connection during over a specific period of time.
+Gets the estimated data usage for a connection during a specific period of time.
 
 ## -parameters
 ### -param StartTime
@@ -30,4 +30,5 @@ The requested local data usage information.
 ## -examples
 
 ## -see-also
+
 [GetLocalUsage(DateTime, DateTime, RoamingStates)](connectionprofile_getlocalusage_45954997.md)

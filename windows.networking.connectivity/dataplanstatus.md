@@ -14,44 +14,45 @@ Represents current data plan status (limits, usage, cycle metadata) for a connec
 
 ## -remarks
 ### Obtaining an instance
-Call [ConnectionProfile.GetDataPlanStatus](connectionprofile_getdataplanstatus_1468491499.md) on a profile obtained via:
-- [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md)
-- [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md)
-- [NetworkInformation.GetConnectionProfiles](networkinformation_getconnectionprofiles_1348266395.md)
+Call [ConnectionProfile.GetDataPlanStatus](connectionprofile_getdataplanstatus_2024938217.md) on a profile obtained via:
+
+- [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md)
+- [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+- [NetworkInformation.GetConnectionProfiles](networkinformation_getconnectionprofiles_582657984.md)
 
 ### Null handling
-> [!IMPORTANT]  
-> Always null‑check the returned **DataPlanStatus**. Some profiles (for example unmanaged Wi‑Fi hotspots) do not expose
+> [!IMPORTANT]
+> Always null-check the returned `DataPlanStatus`. Some profiles (for example unmanaged Wi-Fi hotspots) do not expose
 > plan information and return null.
 
 ### Core elements
 | Property | Meaning / Guidance |
 | -- | -- |
 | [DataPlanUsage](dataplanusage.md) | Current measured usage (may lag real traffic) |
-| DataLimitInMegabytes | Plan cap (nullable). Null => unspecified limit (do not assume unlimited) |
-| MaxTransferSizeInMegabytes | Recommended maximum size for a single transfer (chunk large sync into segments) |
-| NextBillingCycle | Start of next cycle (nullable). Do not assume calendar month boundaries |
+| [DataLimitInMegabytes](dataplanstatus_datalimitinmegabytes.md) | Plan cap (nullable). Null => unspecified limit (do not assume unlimited). |
+| [MaxTransferSizeInMegabytes](dataplanstatus_maxtransfersizeinmegabytes.md) | Recommended maximum size for a single transfer (chunk large sync into segments). |
+| [NextBillingCycle](dataplanstatus_nextbillingcycle.md) | Start of next cycle (nullable). Do not assume calendar month boundaries. |
 
 ### Quota logic guidelines
-- Interpret **DataPlanUsage** together with **DataLimitInMegabytes**. A missing limit means you cannot enforce a hard cap safely.
+- Interpret `DataPlanUsage` together with `DataLimitInMegabytes`. A missing limit means you cannot enforce a hard cap safely.
 - Use both percentage consumed and time remaining before throttling; early-cycle high usage does not always justify restriction.
-- Treat missing **DataLimitInMegabytes** as "unspecified" rather than "unlimited".
+- Treat missing `DataLimitInMegabytes` as "unspecified" rather than "unlimited".
 
 ### Transfer optimization
-- Honor **MaxTransferSizeInMegabytes** by batching work into chunks at or below the recommendation.
+- Honor `MaxTransferSizeInMegabytes` by batching work into chunks at or below the recommendation.
 - For background sync on metered or limited plans, schedule incremental commits instead of monolithic uploads.
 
 ### Billing cycle handling
-- **NextBillingCycle** may be absent; fall back to rolling usage display without reset logic.
+- `NextBillingCycle` may be absent; fall back to rolling usage display without reset logic.
 - When present, derive remaining quota window precisely; operators define custom cycle boundaries.
 
 ### Fallback behavior
-If **DataPlanStatus** is null or critical fields are missing:
+If `DataPlanStatus` is null or critical fields are missing:
 - Present generic usage UI without enforcement.
 - Allow user override for "treat as metered" or "treat as unrestricted" preferences if your app supports it.
 
-> [!NOTE]  
-> Defensive coding: Providers can report unexpected values (like zero or very small **MaxTransferSizeInMegabytes**). Clamp
+> [!NOTE]
+> Defensive coding: Providers can report unexpected values (like zero or very small `MaxTransferSizeInMegabytes`). Clamp
 > to sensible minimums before applying heuristics.
 
 
@@ -101,7 +102,7 @@ if (usage && limitRef)
 ```
 
 ## -see-also
+
 [ConnectionProfile](connectionprofile.md),
-[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md),
-[NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md),
-[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
+[ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md),
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)

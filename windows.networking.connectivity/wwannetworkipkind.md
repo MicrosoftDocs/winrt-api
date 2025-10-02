@@ -31,6 +31,6 @@ Indicates support for 464XLAT (which allows clients on IPv6-only networks to acc
 ## -remarks
 
 ## -see-also
-[WwanConnectionProfileDetails.IPKind](wwanconnectionprofiledetails_ipkind.md)
 
+[WwanConnectionProfileDetails.IPKind](wwanconnectionprofiledetails_ipkind.md)
 ## -examples

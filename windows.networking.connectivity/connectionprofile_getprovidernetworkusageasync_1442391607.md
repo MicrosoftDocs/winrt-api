@@ -10,7 +10,7 @@ public IAsyncOperation<ProviderNetworkUsage>> ConnectionProfile.GetProviderNetwo
 # Windows.Networking.Connectivity.ConnectionProfile.GetProviderNetworkUsageAsync
 
 ## -description
-Returns the bytes sent and bytes received for each MCC and MNC combination (the combination is represented by a [ProviderId](providernetworkusage_providerid.md)). 
+Returns the bytes sent and bytes received for each MCC and MNC combination (the combination is represented by a [ProviderId](providernetworkusage_providerid.md)).
 
 ## -parameters
 
@@ -24,11 +24,16 @@ The end time over which to retrieve data.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-Returns a single object containing the bytes send and bytes received for the [ProviderId](providernetworkusage_providerid.md).
+Returns an immutable list where each entry contains the bytes sent and bytes received for a specific [ProviderId](providernetworkusage_providerid.md).
 
 ## -examples
 
 ## -remarks
 
+The returned collection contains one [ProviderNetworkUsage](providernetworkusage.md) entry per detected provider (MCC/MNC
+combination) within the requested window. Sum the entries if you need aggregate roaming usage. The method returns an empty
+list when no provider usage is available (for example, Wi-Fi only connections).
+
 ## -see-also
-[ConnectionProfile](connectionprofile.md), [ProviderId](providernetworkusage_providerid.md)
+
+[ConnectionProfile](connectionprofile.md)

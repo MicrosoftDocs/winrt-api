@@ -13,11 +13,12 @@ public bool HasNewWwanRegistrationState { get; }
 Indicates if the network state change event represents a change to the registration state of a WWAN connection. The current registration state can be retrieved from [WwanConnectionProfileDetails.GetNetworkRegistrationState](wwanconnectionprofiledetails_getnetworkregistrationstate_277836897.md).
 
 ## -property-value
-true if the registration state has changed; otherwise, false.
+Returns `true` when the WWAN registration state changed; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[WwanConnectionProfileDetails.GetNetworkRegistrationState](wwanconnectionprofiledetails_getnetworkregistrationstate_277836897.md), [WwanNetworkRegistrationState enumeration](wwannetworkregistrationstate.md)
+
+[WwanNetworkRegistrationState enumeration](wwannetworkregistrationstate.md)

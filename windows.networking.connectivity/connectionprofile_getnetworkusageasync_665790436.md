@@ -41,27 +41,27 @@ This method returns aggregate network usage data for the connection profile over
 
 ### Usage API best practices
 
-**Time Window Management:**
+#### Time window management
 * Align startTime and endTime to the granularity boundary (for PerMinute, round down the start to the previous minute) to avoid extra leading or trailing partial buckets.
 * An empty vector is a valid result (no recorded usage or provider unavailable) - treat as "no data" rather than an error and retry in the next collection cycle.
 * Avoid querying very large spans at fine granularity (e.g., multiple days with PerMinute). Aggregate in your own code if you need rolled-up statistics.
 
-**State Filtering:**
+#### State filtering
 * [NetworkUsageStates](networkusagestates.md) roaming and shared properties should only be constrained when necessary; leaving them unconstrained yields a complete view.
 * Over-restricting state filters can hide legitimate usage data.
 
-**Data Accuracy:**
+#### Data accuracy
 * This API returns estimated usage, not real-time byte counts; provider accounting can lag actual traffic. For near-real-time display, advance a sliding window but accept that the most recent bucket may later increase when re-queried.
 * Periodically re-query recent closed buckets to capture late provider adjustments.
 
-**Incremental Collection:**
+#### Incremental collection
 > [!NOTE]
 > To avoid double counting when doing periodic collection, use a cursor of the last fully closed bucket boundary rather than reusing prior `endTime` values.
 
 * Maintain a cursor aligned to the usage granularity and only commit fully closed buckets.
 * Skip provisional/partial buckets that are still accumulating data.
 
-**Incremental Collection Pattern:**
+#### Incremental collection pattern
 
 1. Choose a granularity (e.g., PerHour). Compute an aligned initial `startTime` (floor to the granularity boundary) and `endTime = startTime + granularity`.
 2. Query usage. Discard the last element if its interval end is after (now - granularity) because it's still accumulating.
@@ -75,40 +75,57 @@ This pattern minimizes overlap and handles late provider adjustments without dou
 ### Sliding window (hourly) collection (C#)
 
 ```csharp
-// Maintains a cursor to avoid overlapping queries.
-DateTimeOffset now = DateTimeOffset.UtcNow;
-// Load persisted cursor; if none, seed to (now - 24h) aligned to hour.
-DateTimeOffset cursor = LoadCursor() ?? new DateTimeOffset(
-    now.UtcDateTime.AddHours(-24)).AddMinutes(-(now.Minute)).AddSeconds(-now.Second).AddMilliseconds(-now.Millisecond);
+using System;
+using System.Threading.Tasks;
+using Windows.Networking.Connectivity;
 
-// Always align cursor to the hour boundary.
-cursor = new DateTimeOffset(cursor.Year, cursor.Month, cursor.Day, cursor.Hour, 0, 0, TimeSpan.Zero);
+private DateTimeOffset? _usageCursor;
 
-// Query up to now; API will return partial last hour which we will treat as provisional.
-var usage = await profile.GetNetworkUsageAsync(cursor, now, DataUsageGranularity.PerHour, new NetworkUsageStates());
-
-long bytesReceivedCommitted = 0;
-long bytesSentCommitted = 0;
-
-foreach (var entry in usage)
+private async Task CollectHourlyUsageAsync()
 {
-    // Determine the interval represented by this entry.
-    DateTimeOffset intervalStart = cursor;
-    DateTimeOffset intervalEnd = intervalStart.AddHours(1);
-
-    // If intervalEnd extends past (now - 1 hour) this bucket is still "open" and subject to change.
-    if (intervalEnd > now.AddHours(-1))
+    var profile = NetworkInformation.GetInternetConnectionProfile();
+    if (profile == null)
     {
-        break; // Skip provisional bucket; will be included on a future run.
+        // App-specific: no active profile. Reschedule collection and exit.
+        return;
     }
 
-    bytesReceivedCommitted += (long)entry.BytesReceived;
-    bytesSentCommitted += (long)entry.BytesSent;
-    cursor = intervalEnd; // advance cursor
+    var now = DateTimeOffset.UtcNow;
+
+    // Seed cursor to 24 hours ago (aligned) if no persisted value exists yet.
+    var cursor = AlignToHour(_usageCursor ?? now.AddHours(-24));
+
+    var usage = await profile.GetNetworkUsageAsync(cursor, now, DataUsageGranularity.PerHour, new NetworkUsageStates());
+
+    long committedRcv = 0;
+    long committedSend = 0;
+
+    foreach (var entry in usage)
+    {
+        var intervalStart = cursor;
+        var intervalEnd = intervalStart.AddHours(1);
+
+        // Skip provisional bucket that may still change on provider reconciliation.
+        if (intervalEnd > now.AddHours(-1))
+        {
+            break;
+        }
+
+        committedRcv += (long)entry.BytesReceived;
+        committedSend += (long)entry.BytesSent;
+        cursor = intervalEnd;
+    }
+
+    _usageCursor = cursor;
+
+    // App-specific: persist committed totals and the updated cursor to durable storage for next collection.
+    // Example: usageRepository.Save(committedRcv, committedSend, cursor);
 }
 
-PersistCursor(cursor);
-Console.WriteLine($"Committed usage since last run: Rcv={bytesReceivedCommitted}B Sent={bytesSentCommitted}B");
+private static DateTimeOffset AlignToHour(DateTimeOffset timestamp)
+{
+    return new DateTimeOffset(timestamp.Year, timestamp.Month, timestamp.Day, timestamp.Hour, 0, 0, timestamp.Offset);
+}
 ```
 
 Key points:
@@ -117,6 +134,4 @@ Key points:
 * Demonstrates aligning start boundary and skipping the partial trailing bucket.
 
 ## -see-also
-[DataUsageGranularity](datausagegranularity.md),
-[NetworkUsage](networkusage.md),
-[NetworkUsageStates](networkusagestates.md)
+
