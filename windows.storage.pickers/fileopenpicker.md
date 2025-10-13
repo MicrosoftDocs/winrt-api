@@ -19,6 +19,9 @@ In a desktop app, before using an instance of this class in a way that displays 
 
 To get started accessing files and folders file picker, see [Quickstart: Accessing files with File Pickers](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
+> [!NOTE]
+> To use a file open picker in a WinUI app (or other desktop app), see the [FileOpenPicker class](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers.fileopenpicker) documentation for the Windows App SDK.
+
 For information about how to use this API outside of UWP apps, see [Call interop APIs from a .NET app](/windows/apps/desktop/modernize/winrt-com-interop-csharp).
 
 ### Version history

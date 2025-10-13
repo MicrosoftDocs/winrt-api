@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides classes for creating and managing user interface (UI) elements that let the user browse files, choose files to open, and to choose the name, extension, and location when storing files.
+The **Windows.Storage.Pickers** namespace contains classes that create file and folder picker dialogs. Use these classes to let users browse, select files to open, and choose where to save files with specific names and extensions.
 
 ## -remarks
 
