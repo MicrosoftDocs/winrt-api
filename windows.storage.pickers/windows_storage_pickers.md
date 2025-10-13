@@ -11,6 +11,8 @@ Provides classes for creating and managing user interface (UI) elements that let
 
 ## -remarks
 
+The file and folder picker APIs (Windows.Storage.Pickers) in the Windows SDK don't work when apps run as administrator (elevated mode). To address this gap, the [Microsoft.Windows.Storage.Pickers](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers) APIs are added to the Windows App SDK and support file and folder selection in elevated mode. It's designed for desktop apps and uses a WindowId property to link the picker to its host window.
+
 ## -examples
 
 > [!TIP]
@@ -23,4 +25,4 @@ Provides classes for creating and managing user interface (UI) elements that let
 
 ## -see-also
 
-[HomeGroup sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HomeGroup), [File picker sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts), [Blobs sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/MsBlobBuilder)
+[HomeGroup sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/HomeGroup), [File picker sample (Windows 10)](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePicker), [Basic face detection sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620512), [File picker contracts sample](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/FilePickerContracts), [Blobs sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/MsBlobBuilder), [Microsoft.Windows.Storage.Pickers](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers)
