@@ -11,7 +11,7 @@ The **Windows.Storage.Pickers** namespace contains classes that create file and 
 
 ## -remarks
 
-The file and folder picker APIs (Windows.Storage.Pickers) in the Windows SDK don't work when apps run as administrator (elevated mode). To address this gap, the [Microsoft.Windows.Storage.Pickers](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers) APIs are added to the Windows App SDK and support file and folder selection in elevated mode. It's designed for desktop apps and uses a WindowId property to link the picker to its host window.
+The file and folder picker APIs (Windows.Storage.Pickers) in the Windows SDK don't work when apps run as administrator (elevated mode). To address this gap, the [Microsoft.Windows.Storage.Pickers](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers) APIs are added to the Windows App SDK and support file and folder selection in elevated mode. They are designed for desktop apps and use a WindowId property to link the picker to its host window.
 
 ## -examples
 
