@@ -20,6 +20,9 @@ In a desktop app, before using an instance of this class in a way that displays 
 
 To get started accessing files and folders with a picker, see [Open files and folders with a picker](/windows/uwp/files/quickstart-using-file-and-folder-pickers).
 
+> [!NOTE]
+> To use a folder picker in a WinUI 3 app (or other desktop app), see the [FolderPicker class](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers.folderpicker) documentation for the Windows App SDK.
+
 ### Version history
 
 | Windows version | SDK version | Value added |
