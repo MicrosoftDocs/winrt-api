@@ -10,7 +10,8 @@ public Windows.Foundation.IAsyncAction WriteBytesAsync(System.String absolutePat
 # Windows.Storage.PathIO.WriteBytesAsync
 
 ## -description
-Writes a single byte of data to the file at the specified path or Uniform Resource Identifier (URI).
+
+Writes an array of bytes of data to the file at the specified path or Uniform Resource Identifier (URI).
 
 ## -parameters
 ### -param absolutePath
