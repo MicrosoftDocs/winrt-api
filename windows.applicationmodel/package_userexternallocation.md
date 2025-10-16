@@ -15,7 +15,7 @@ Gets the location of the per-user external folder specified in the package manif
 
 ## -property-value
 
-The location of the per-user external folder specified in the package manifest for the current package.
+The location of the per-user external folder specified in the package manifest for the current package. If the package doesn't have the path requested, then gets `null`.
 
 ## -remarks
 
@@ -34,4 +34,3 @@ To set the external folder, use one of the following combinations of [PackageMan
 [AddPackageByUriAsync](../windows.management.deployment/packagemanager_addpackagebyuriasync_797417417.md),[RegisterPackageByUriAsync](../windows.management.deployment/packagemanager_registerpackagebyuriasync_1415074502.md),[StagePackageByUriAsync](../windows.management.deployment/packagemanager_stagepackagebyuriasync_446584280.md)
 
 ## -examples
-

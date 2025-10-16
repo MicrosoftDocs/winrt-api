@@ -18,9 +18,12 @@ In a desktop app, before using an instance of this class in a way that displays 
 ## -remarks
 
 > [!IMPORTANT]
-> You must use the [FileTypeChoices property](filesavepicker_filetypechoices.md) property to specify one or more file types before you call the PickSaveFileAsync method, or the picker will thrown an exception. 
+> You must use the [FileTypeChoices property](filesavepicker_filetypechoices.md) property to specify one or more file types before you call the **PickSaveFileAsync** method, or the picker will thrown an exception. 
 
 To learn how to save files through the file picker, see [How to save files through file pickers](/windows/uwp/files/quickstart-save-a-file-with-a-picker).
+
+> [!NOTE]
+> To use a file save picker in a WinUI app, see the [FileSavePicker class](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers.filesavepicker) documentation for the Windows App SDK.
 
 To get started accessing files and folders file picker, see [Files, folders, and libraries ](/windows/uwp/files/index).
 
@@ -29,7 +32,12 @@ To get started accessing files and folders file picker, see [Files, folders, and
 
 ### In a desktop app that requires elevation
 
-In a desktop app (which includes WinUI 3 apps), you can use **FileSavePicker** (and other types from **Windows.Storage.Pickers**). But if the desktop app requires elevation to run, then you'll need a different approach (that's because these APIs aren't designed to be used in an elevated app). The code snippet below illustrates how you can use the [C#/Win32 P/Invoke Source Generator](https://github.com/microsoft/CsWin32) (CsWin32) to call the Win32 picking APIs instead. To learn how to use CsWin32, follow that link for the documentation.
+> [!IMPORTANT]
+> The file and folder picker APIs (Windows.Storage.Pickers) in the Windows SDK don't work when apps run as administrator (elevated mode). To address this gap, the [Microsoft.Windows.Storage.Pickers](/windows/windows-app-sdk/api/winrt/microsoft.windows.storage.pickers) APIs are added to the Windows App SDK and support file and folder selection in elevated mode. It's designed for desktop apps and uses a WindowId property to link the picker to its host window.
+>
+> If you must use the Windows.Storage.Pickers APIs in an elevated desktop app, you can follow example below.
+
+You can use **FileSavePicker** (and other types from **Windows.Storage.Pickers**) in a desktop app. However, if the desktop app requires elevation to run, then you'll need a different approach (that's because these APIs aren't designed to be used in an elevated app). The code snippet below illustrates how you can use the [C#/Win32 P/Invoke Source Generator](https://github.com/microsoft/CsWin32) (CsWin32) to call the Win32 picking APIs instead. To learn how to use CsWin32, follow that link for the documentation.
 
 ```csharp
 // NativeMethods.txt

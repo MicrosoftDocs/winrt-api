@@ -15,7 +15,7 @@ Gets the location of the machine-wide external folder specified in the package m
 
 ## -property-value
 
-The location of the machine-wide external folder specified in the package manifest for the current package.
+The location of the machine-wide external folder specified in the package manifest for the current package. If the package doesn't have the path requested, then gets `null`.
 
 ## -remarks
 
