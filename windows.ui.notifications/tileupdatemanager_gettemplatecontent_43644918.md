@@ -37,6 +37,11 @@ var tileTemplate = Windows.UI.Notifications.TileTemplateType.tileWide310x150Text
 var tileXml = Windows.UI.Notifications.TileUpdateManager.getTemplateContent(tileTemplate);
 ```
 
+```csharp
+var tileTemplate = TileTemplateType.TileWide310x150Text03;
+var tileXml = TileUpdateManager.GetTemplateContent(tileTemplate);
+```
+
 
 
 ## -see-also

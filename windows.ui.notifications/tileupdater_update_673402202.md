@@ -43,6 +43,15 @@ function sendTileTextNotification() {
 }
 ```
 
+    ```csharp
+    var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileWide310x150Text03);
+    var tileAttributes = tileXml.GetElementsByTagName("text");
+    tileAttributes[0].AppendChild(tileXml.CreateTextNode("Hello World!"));
+
+    var tileNotification = new TileNotification(tileXml);
+    TileUpdateManager.CreateTileUpdaterForApplication().Update(tileNotification);
+    ```
+
 
 
 ## -see-also

@@ -54,6 +54,23 @@ var tileUpdater = Notifications.TileUpdateManager.createTileUpdaterForSecondaryT
 tileUpdater.update(tileNotification);
 ```
 
+```csharp
+var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileWide310x150Text04);
+var tileTextAttributes = tileXml.GetElementsByTagName("text");
+tileTextAttributes[0].AppendChild(tileXml.CreateTextNode("Sent to a secondary tile!"));
+
+var squareTileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileSquare150x150Text04);
+var squareTileTextAttributes = squareTileXml.GetElementsByTagName("text");
+squareTileTextAttributes[0].AppendChild(squareTileXml.CreateTextNode("Sent to a secondary tile!"));
+
+var node = tileXml.ImportNode(squareTileXml.GetElementsByTagName("binding").Item(0), true);
+tileXml.GetElementsByTagName("visual").Item(0).AppendChild(node);
+
+var tileNotification = new TileNotification(tileXml);
+var tileUpdater = TileUpdateManager.CreateTileUpdaterForSecondaryTile("SecondaryTile.Dynamic");
+tileUpdater.Update(tileNotification);
+```
+
 
 
 ## -see-also

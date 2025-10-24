@@ -57,6 +57,36 @@ futureTile.id = "Tile" + idNumber;
 Notifications.TileUpdateManager.createTileUpdaterForApplication().addToSchedule(futureTile);
 ```
 
+```csharp
+var currentTime = DateTime.Now;
+var seconds = 60;
+var dueTime = currentTime.AddSeconds(seconds * 60);
+var idNumber = 123456789;
+
+var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileWide310x150Text09);
+
+// Set up the wide tile text.
+var tileTextAttributes = tileXml.GetElementsByTagName("text");
+tileTextAttributes[0].AppendChild(tileXml.CreateTextNode("This is a scheduled notification"));
+tileTextAttributes[1].AppendChild(tileXml.CreateTextNode("Received: " + dueTime.ToLocalTime().ToString()));
+
+// Set up the medium tile text.
+var squareTileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileSquare150x150Text04);
+var squareTileTextAttributes = squareTileXml.GetElementsByTagName("text");
+squareTileTextAttributes[0].AppendChild(squareTileXml.CreateTextNode("This is a scheduled notification"));
+
+// Include the medium tile in the notification.
+var node = tileXml.ImportNode(squareTileXml.GetElementsByTagName("binding").Item(0), true);
+tileXml.GetElementsByTagName("visual").Item(0).AppendChild(node);
+
+// Create the notification object.
+var futureTile = new ScheduledTileNotification(tileXml, dueTime);
+futureTile.Id = "Tile" + idNumber;
+
+// Add to the schedule.
+TileUpdateManager.CreateTileUpdaterForApplication().AddToSchedule(futureTile);
+```
+
 
 
 ## -see-also

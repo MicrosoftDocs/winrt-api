@@ -44,6 +44,22 @@ Notifications.BadgeUpdateManager.createBadgeUpdaterForSecondaryTile("SecondaryTi
 tileUpdater.update(tileNotification);
 ```
 
+```csharp
+// Define the badge content
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "6";
+
+// Create the notification based on the XML content.
+var badge = new BadgeNotification(badgeXml);
+
+// Create a secondary tile updater, passing it the ID of the tile.
+var tileUpdater = BadgeUpdateManager.CreateBadgeUpdaterForSecondaryTile("SecondaryTile.Dynamic");
+
+// Send the notification to the secondary tile.
+tileUpdater.Update(badge);
+```
+
 
 
 ## -see-also

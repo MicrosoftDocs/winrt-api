@@ -40,6 +40,17 @@ for (var i = 0, len = scheduled.length; i < len; i++) {
 }
 ```
 
+```csharp
+var notifier = ToastNotificationManager.CreateToastNotifier();
+var scheduled = notifier.GetScheduledToastNotifications();
+
+for (int i = 0; i < scheduled.Count; i++) {
+    if (scheduled[i].Id == itemId) {
+        notifier.RemoveFromSchedule(scheduled[i]);
+    }
+}
+```
+
 
 
 ## -see-also

@@ -35,6 +35,16 @@ badgeAttributes[0].setAttribute("value", "26");
 var badgeNotification = new Notifications.badgeNotification(badgeXml);
 ```
 
+```csharp
+// Create a numeric badge notification
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "26";
+
+// Create a badge notification from XML
+var badgeNotification = new BadgeNotification(badgeXml);
+```
+
 
 
 ## -see-also

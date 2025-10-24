@@ -38,6 +38,13 @@ var notificationManager = notifications.ToastNotificationManager;
 // The getTemplateContent method returns a Windows.Data.Xml.Dom.XmlDocument object
 // that contains the toast notification XML content.
 var template = notifications.toastTemplateType.toastImageAndText01;
+
+```csharp
+// C# Example for using GetTemplateContent
+var notificationManager = ToastNotificationManager;
+var template = ToastTemplateType.ToastImageAndText01;
+var toastXml = notificationManager.GetTemplateContent(template);
+```
 var toastXml = notificationManager.getTemplateContent(notifications.ToastTemplateType[template]);
 
 // You can use the methods from the XML document to specify the required elements for the toast.

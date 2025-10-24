@@ -44,6 +44,19 @@ function sendBadgeNotification() {
 }
 ```
 
+```csharp
+// Get an XML DOM version of a specific template by using GetTemplateContent.
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "7";
+
+// Create a badge notification from the XML content.
+var badgeNotification = new BadgeNotification(badgeXml);
+
+// Send the badge notification to the app's tile.
+BadgeUpdateManager.CreateBadgeUpdaterForApplication().Update(badgeNotification);
+```
+
 
 
 ## -see-also

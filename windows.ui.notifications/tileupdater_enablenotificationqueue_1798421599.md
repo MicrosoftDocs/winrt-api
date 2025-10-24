@@ -44,6 +44,10 @@ The following line of code enables the notification queue for the calling app's 
 Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
 ```
 
+```csharp
+TileUpdateManager.CreateTileUpdaterForApplication().EnableNotificationQueue(true);
+```
+
 
 
 ## -see-also

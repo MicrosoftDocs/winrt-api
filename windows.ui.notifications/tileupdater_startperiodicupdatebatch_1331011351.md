@@ -32,6 +32,10 @@ To use the notification queue, you must first enable it for your tile with this 
 Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
 ```
 
+```csharp
+TileUpdateManager.CreateTileUpdaterForApplication().EnableNotificationQueue(true);
+```
+
 This API only needs to be called once in your app's lifetime, but there is no harm in calling it each time the app launches.
 
 In the case of periodic notifications, a unique URL is provided for each notification. Each URL is polled on a periodic basis by Windows for updated notification content. The content payload returned from each URL should contain versions of the notification XML for all supported tile sizes. Each polled URL also can optionally return its own unique expiration time and tag value.

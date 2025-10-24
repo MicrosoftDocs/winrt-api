@@ -38,6 +38,24 @@ yourToastNotification.addEventListener("dismissed", function (e) {
 }
 ```
 
+```csharp
+yourToastNotification.Dismissed += (s, e) =>
+{
+    switch (e.Reason)
+    {
+        case ToastDismissalReason.ApplicationHidden:
+            // The application hid the toast using ToastNotifier.Hide.
+            break;
+        case ToastDismissalReason.UserCanceled:
+            // The user dismissed the toast.
+            break;
+        case ToastDismissalReason.TimedOut:
+            // The toast has expired.
+            break;
+    }
+};
+```
+
 
 
 ## -see-also

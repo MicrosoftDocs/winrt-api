@@ -47,6 +47,23 @@ toast.id = "Toast" + idNumber;
 Notifications.ToastNotificationManager.createToastNotifier().addToSchedule(toast);
 ```
 
+```csharp
+var currentTime = DateTime.Now;
+var seconds = 60;
+var dueTime = currentTime.AddSeconds(seconds * 60);
+var idNumber = new Random().Next(0, 100000000);
+
+var toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastText02);
+var strings = toastXml.GetElementsByTagName("text");
+strings[0].AppendChild(toastXml.CreateTextNode("This is a scheduled toast notification"));
+strings[1].AppendChild(toastXml.CreateTextNode("Received: " + dueTime.ToLocalTime().ToString()));
+
+var toast = new ScheduledToastNotification(toastXml, dueTime);
+toast.Id = "Toast" + idNumber;
+
+ToastNotificationManager.CreateToastNotifier().AddToSchedule(toast);
+```
+
 
 
 ## -see-also

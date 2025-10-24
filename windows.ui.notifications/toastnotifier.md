@@ -62,6 +62,21 @@ var toast = new notifications.ToastNotification(toastXml);
 notificationManager.createToastNotifier().show(toast);
 ```
 
+```csharp
+var notificationManager = ToastNotificationManager;
+var template = ToastTemplateType.ToastImageAndText01;
+var toastXml = notificationManager.GetTemplateContent(template);
+
+var images = toastXml.GetElementsByTagName("image");
+images[0].SetAttribute("src", "images/toastImageAndText.png");
+
+var textNodes = toastXml.GetElementsByTagName("text");
+textNodes[0].AppendChild(toastXml.CreateTextNode("Text input 1"));
+
+var toast = new ToastNotification(toastXml);
+notificationManager.CreateToastNotifier().Show(toast);
+```
+
 The following example shows the use of the [GetScheduledToastNotifications](toastnotifier_getscheduledtoastnotifications_1959697028.md) and [RemoveFromSchedule](toastnotifier_removefromschedule_833207209.md) methods.
 
 ```javascript
@@ -75,6 +90,17 @@ for (var i = 0, len = scheduled.length; i < len; i++) {
     // notification when it was created.
     if (scheduled[i].id === itemId) {
         notifier.removeFromSchedule(scheduled[i]);
+    }
+}
+```
+
+```csharp
+var notifier = ToastNotificationManager.CreateToastNotifier();
+var scheduled = notifier.GetScheduledToastNotifications();
+
+for (int i = 0; i < scheduled.Count; i++) {
+    if (scheduled[i].Id == itemId) {
+        notifier.RemoveFromSchedule(scheduled[i]);
     }
 }
 ```

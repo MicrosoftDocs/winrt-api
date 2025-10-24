@@ -40,6 +40,20 @@ function tileNotificationExpiration() {
 }
 ```
 
+    ```csharp
+    var Notifications = TileUpdateManager;
+    var currentTime = DateTime.Now;
+    var seconds = 30;
+
+    var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileWide310x150Text04);
+    var tileTextAttributes = tileXml.GetElementsByTagName("text");
+    tileTextAttributes[0].AppendChild(tileXml.CreateTextNode("This notification will expire at " + currentTime.AddSeconds(seconds).ToLocalTime().ToString()));
+
+    var tileNotification = new TileNotification(tileXml);
+    tileNotification.ExpirationTime = currentTime.AddSeconds(seconds);
+    TileUpdateManager.CreateTileUpdaterForApplication().Update(tileNotification);
+    ```
+
 
 
 ## -see-also

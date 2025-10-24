@@ -30,6 +30,16 @@ badgeAttributes[0].setAttribute("value", "26");
 var badgeNotification = new Notifications.badgeNotification(badgeXml);
 ```
 
+```csharp
+// Create a numeric badge notification
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "26";
+
+// Create a badge notification from XML
+var badgeNotification = new BadgeNotification(badgeXml);
+```
+
 The following example code uses the [BadgeNotification](badgenotification_badgenotification_93177318.md) method to create a glyph badge notification. If you used this method to set the value to "none", it would clear the badge.
 
 ```javascript
@@ -42,6 +52,16 @@ badgeAttributes[0].setAttribute("value", "alert");
 
 // Create a badge notification from XML
 var badgeNotification = new Notifications.badgeNotification(badgeXml);
+```
+
+```csharp
+// Create a glyph badge notification
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "alert";
+
+// Create a badge notification from XML
+var badgeNotification = new BadgeNotification(badgeXml);
 ```
 
 

@@ -57,6 +57,21 @@ var toast = new notifications.ToastNotification(toastXml);
 notificationManager.createToastNotifier().show(toast);
 ```
 
+```csharp
+var notificationManager = ToastNotificationManager;
+var template = ToastTemplateType.ToastImageAndText01;
+var toastXml = notificationManager.GetTemplateContent(template);
+
+var images = toastXml.GetElementsByTagName("image");
+images[0].SetAttribute("src", "images/toastImageAndText.png");
+
+var textNodes = toastXml.GetElementsByTagName("text");
+textNodes[0].AppendChild(toastXml.CreateTextNode("Text input 1"));
+
+var toast = new ToastNotification(toastXml);
+notificationManager.CreateToastNotifier().Show(toast);
+```
+
 
 
 ## -see-also

@@ -42,11 +42,24 @@ function sendTileTextNotification() {
 }
 ```
 
+```csharp
+var tileXml = TileUpdateManager.GetTemplateContent(TileTemplateType.TileWide310x150Text03);
+var tileAttributes = tileXml.GetElementsByTagName("text");
+tileAttributes[0].AppendChild(tileXml.CreateTextNode("Hello World!"));
+
+var tileNotification = new TileNotification(tileXml);
+TileUpdateManager.CreateTileUpdaterForApplication().Update(tileNotification);
+```
+
 The following line of code uses [EnableNotificationQueue](tileupdater_enablenotificationqueue_1798421599.md) to enable the notification queue for the calling app's tile.
 
 ```javascript
 
 Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
+```
+
+```csharp
+TileUpdateManager.CreateTileUpdaterForApplication().EnableNotificationQueue(true);
 ```
 
 The following example shows the use of the [RemoveFromSchedule](tileupdater_removefromschedule_928610118.md) method.
@@ -62,6 +75,17 @@ for (var i = 0, len = scheduled.length; i < len; i++) {
     // notification when it was created.
     if (scheduled[i].id === itemId) {
         notifier.removeFromSchedule(scheduled[i]);
+    }
+}
+```
+
+```csharp
+var notifier = TileUpdateManager.CreateTileUpdaterForApplication();
+var scheduled = notifier.GetScheduledTileNotifications();
+
+for (int i = 0; i < scheduled.Count; i++) {
+    if (scheduled[i].Id == itemId) {
+        notifier.RemoveFromSchedule(scheduled[i]);
     }
 }
 ```

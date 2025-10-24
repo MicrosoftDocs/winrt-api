@@ -8,6 +8,17 @@
 public void RemoveFromSchedule(Windows.UI.Notifications.ScheduledTileNotification scheduledTile)
 -->
 
+```csharp
+var notifier = TileUpdateManager.CreateTileUpdaterForApplication();
+var scheduled = notifier.GetScheduledTileNotifications();
+
+for (var i = 0; i < scheduled.Count; i++) {
+    if (scheduled[i].Id == itemId) {
+        notifier.RemoveFromSchedule(scheduled[i]);
+    }
+}
+```
+
 # Windows.UI.Notifications.TileUpdater.RemoveFromSchedule
 
 ## -description

@@ -53,6 +53,11 @@ An example is shown here:
 X-WNS-Tag: stockMSFT
 ```
 
+```csharp
+// Example header for X-WNS-Tag in C# (HTTP header usage shown for server responses)
+// X-WNS-Tag is provided by the server in the response; client code does not set it.
+```
+
 ### Setting an expiration time for periodic updates
 
 Tiles expire by default after three days. If your notification content has a significantly different useful lifespan— shorter or longer— you should explicitly set an expiration time for each notification. This prevents stale or irrelevant content from remaining in the queue. This is especially important if the user's machine loses Internet connectivity for a long period of time.

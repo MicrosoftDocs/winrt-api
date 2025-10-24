@@ -37,6 +37,12 @@ var badgeAttributes = badgeXml.getElementsByTagName("badge");
 badgeAttributes[0].setAttribute("value", "7");
 ```
 
+```csharp
+var badgeXml = BadgeUpdateManager.GetTemplateContent(BadgeTemplateType.BadgeNumber);
+var badgeAttributes = badgeXml.GetElementsByTagName("badge");
+badgeAttributes[0].Attributes.Where(a => a.LocalName.ToString() == "value").First().NodeValue = "7";
+```
+
 
 
 ## -see-also
