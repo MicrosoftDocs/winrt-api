@@ -27,27 +27,7 @@ Create and initialize a new instance of this object by calling [ScheduledToastNo
 ## -examples
 The following example shows a toast notification scheduled to display in one hour.
 
-```javascript
 
-var Notifications = Windows.UI.Notifications;
-var currentTime = new Date();
-var seconds = 60;
-var dueTime = new Date(currentTime.getTime() + seconds * 60 * 1000);
-var idNumber = Math.floor(Math.random() * 100000000);  // Generates a unique ID number for the notification.
-
-// Set up the notification text.
-var toastXml = Notifications.ToastNotificationManager.getTemplateContent(Notifications.ToastTemplateType.toastText02);
-var strings = toastXml.getElementsByTagName("text");
-strings[0].appendChild(toastXml.createTextNode(This is a scheduled toast notification));
-strings[1].appendChild(toastXml.createTextNode("Received: " + dueTime.toLocaleTimeString()));
-
-// Create the toast notification object.
-var toast = new Notifications.ScheduledToastNotification(toastXml, dueTime);
-toast.id = "Toast" + idNumber;
-
-// Add to the schedule.
-Notifications.ToastNotificationManager.createToastNotifier().addToSchedule(toast);
-```
 
 ```csharp
 var currentTime = DateTime.Now;
@@ -70,3 +50,4 @@ ToastNotificationManager.CreateToastNotifier().AddToSchedule(toast);
 
 ## -see-also
 [Scheduled notifications sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20Store%20app%20samples/99866-Windows%208.1%20Store%20app%20samples/Scheduled%20notifications%20sample), [Toast schema](/uwp/schemas/tiles/toastschema/schema-root), [Guidelines and checklist for scheduled notifications](/windows/uwp/controls-and-patterns/tiles-and-notifications-choosing-a-notification-delivery-method)
+

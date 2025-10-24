@@ -24,20 +24,7 @@ The collection of scheduled toast notifications that the app bound to this notif
 ## -examples
 The following example shows the use of the GetScheduledToastNotifications method.
 
-```javascript
 
-var notifier = Notifications.ToastNotificationManager.createToastNotifier();
-var scheduled = notifier.getScheduledToastNotifications();                    
-
-for (var i = 0, len = scheduled.length; i < len; i++) {
-    
-    // The itemId value is the unique ScheduledTileNotification.Id assigned to the 
-    // notification when it was created.
-    if (scheduled[i].id === itemId) {
-        notifier.removeFromSchedule(scheduled[i]);
-    }
-}
-```
 
 ```csharp
 var notifier = ToastNotificationManager.CreateToastNotifier();
@@ -54,3 +41,4 @@ for (int i = 0; i < scheduled.Count; i++) {
 
 
 ## -see-also
+
