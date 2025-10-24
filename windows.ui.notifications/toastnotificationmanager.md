@@ -69,6 +69,29 @@ var toast = new notifications.ToastNotification(toastXml);
 notificationManager.createToastNotifier().show(toast);
 ```
 
+```csharp
+// The GetTemplateContent method returns a Windows.Data.Xml.Dom.XmlDocument object
+// that contains the toast notification XML content.
+var toastXml = ToastNotificationManager.GetTemplateContent(ToastTemplateType.ToastImageAndText01);
+
+// You can use the methods from the XML document to specify the required elements for the toast.
+var images = toastXml.GetElementsByTagName("image");
+images[0].Attributes.Where( a => a.LocalName.ToString() == "src").First().NodeValue = "images/toastImageAndText.png";
+
+var textNodes = toastXml.GetElementsByTagName("text");
+for(var index = 0; index < textNodes.Count; index++) 
+{
+    var text = $"Text element {index}. ";
+    textNodes[index].AppendChild(toastXml.CreateTextNode(text));
+};
+
+// Create a toast notification from the XML, then create a ToastNotifier object
+// to send the toast.
+
+var toast = new ToastNotification(toastXml);
+
+ToastNotificationManager.CreateToastNotifier().Show(toast);
+```
 
 
 ## -see-also
