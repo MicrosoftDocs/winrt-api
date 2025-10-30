@@ -203,6 +203,10 @@ The app was activated in response to a phone call.
 
 The app is a VPN foreground app that was activated by the plugin. For more details, see [VpnChannel.ActivateForeground](../windows.networking.vpn/ivpnplugin_encapsulate_494498240.md).
 
+### -field PrintSupportEnterpriseManagementUI: 1027
+
+The app is a print support app that was activated by the Print Management Console.
+
 ## -remarks
 
 Values are mutually exclusive and cannot be combined. Each one relates to a different type of activation, and an app instance can be activated in only one way at a time.
