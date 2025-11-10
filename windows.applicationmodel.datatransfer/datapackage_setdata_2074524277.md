@@ -31,7 +31,7 @@ Use this method when you use a delegate function to share data. For more informa
 
 ## -examples
 
-The following example demonstrates how to use the `SetData` method to serialize a custom C# object into a `RandomAccessStream` and pass it to the DataPackage. It also shows how to deserialize the data back to the original object type by using [GetDataAsync](datapackageview_getdataasync_225712847.md).
+The following example demonstrates how to use the **SetData** method to serialize a custom C# object into a **RandomAccessStream** and pass it to the **DataPackage**. It also shows how to deserialize the data back to the original object type by using [GetDataAsync](datapackageview_getdataasync_225712847.md).
 
 ```csharp
 using System;
@@ -164,15 +164,14 @@ private async Task ExampleUsageAsync()
 
 This example shows how to:
 
-1. **Serialization**: Use `DataContractSerializer` to serialize a custom object and convert it to an `InMemoryRandomAccessStream` suitable for `SetData`.
-
-1. **Setting Data**: Call `SetData` with a custom format identifier and the serialized stream.
-
-1. **Deserialization**: Retrieve the data by using `GetDataAsync` and deserialize it back to the original object type.
-
+1. **Serialization**: Use **DataContractSerializer** to serialize a custom object and convert it to an **InMemoryRandomAccessStream** suitable for **SetData**.
+1. **Setting Data**: Call **SetData** with a custom format identifier and the serialized stream.
+1. **Deserialization**: Retrieve the data by using **GetDataAsync** and deserialize it back to the original object type.
 1. **Error Handling**: Implement basic error handling for serialization and deserialization operations.
 
 > [!NOTE]
-> This example uses `DataContractSerializer`, which is safer and more modern than the deprecated `BinaryFormatter`. To ensure proper serialization support, add the `[DataContract]` and `[DataMember]` attributes to your custom classes.
+> This example uses **DataContractSerializer**, which is safer and more modern than the deprecated **BinaryFormatter**. To ensure proper serialization support, add the `[DataContract]` and `[DataMember]` attributes to your custom classes.
 
 ## -see-also
+
+[GetDataAsync](datapackageview_getdataasync_225712847.md)
