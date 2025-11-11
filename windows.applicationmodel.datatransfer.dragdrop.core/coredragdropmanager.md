@@ -65,7 +65,7 @@ public sealed partial class MainPage : Page
 }
 
 // Example of a specified control handling the drop
-public class SpecifiedControl
+public class SpecifiedControl : UserControl
 {
     public void HandleDrop(CoreDragInfo dragInfo)
     {
