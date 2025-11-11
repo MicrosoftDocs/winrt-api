@@ -33,7 +33,7 @@ The `OpenAsync` method retrieves an existing key credential. The retrieved key c
 The key is an RSA 2048-bit key. It supports operations like:
 
 - Generating signatures in PKCS #1 RSA PSS format with SHA256.
-- Encrypting data securely.
+- Encrypting data using appropriate padding schemes such as PKCS #1 OAEP.
 
 ## -examples
 

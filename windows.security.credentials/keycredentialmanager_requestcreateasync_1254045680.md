@@ -41,6 +41,6 @@ The public key can be exported in a binary format. To parse the parameters of th
 
 ## -examples
 
-Refer to the [KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/KeyCredentialManager) for an example of exporting and parsing the public key.
+Refer to the [KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/KeyCredentialManager) for an example of exporting and parsing the public key.
 
 ## -see-also
