@@ -39,10 +39,10 @@ To verify the attestation data:
 1. Use the certificate chain to validate the authenticity of the attestation.
 1. Ensure the metadata matches the expected properties of the key.
 
-For more details, refer to the [KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/KeyCredentialManager).
+For more details, refer to the [KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/KeyCredentialManager).
 
 ## -examples
 
 ## -see-also
 
-[KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/KeyCredentialManager)
+[KeyCredentialManager sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/KeyCredentialManager)
