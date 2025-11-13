@@ -67,7 +67,7 @@ class Program
             }
             else
             {
-                Console.WriteLine($"Process ID: {process.ProcessId} is not associated with a UWP package.");
+                Console.WriteLine($"Process ID: {process.ProcessId} is not associated with an app package.");
             }
         }
     }
