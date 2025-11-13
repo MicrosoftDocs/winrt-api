@@ -26,6 +26,8 @@ The number of columns in the table. The system determines the number of rows by 
 
 ## -returns
 
+A new **TableActionEntity**.
+
 ## -remarks
 
 ## -see-also
