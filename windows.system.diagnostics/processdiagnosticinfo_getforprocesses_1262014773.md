@@ -45,14 +45,17 @@ class Program
 
         foreach (var process in processes)
         {
-            var appDiagnosticInfos = AppDiagnosticInfo.TryGetForProcess(process);
-
-            if (appDiagnosticInfos != null)
+            if (process.IsPackaged)
             {
-                foreach (var appDiagnosticInfo in appDiagnosticInfos)
+                var appDiagnosticInfos = AppDiagnosticInfo.TryGetForProcess(process);
+
+                if (appDiagnosticInfos != null)
                 {
-                    var appInfo = appDiagnosticInfo.AppInfo;
-                    Console.WriteLine($"Process ID: {process.ProcessId}, Package Name: {appInfo.PackageFamilyName}");
+                    foreach (var appDiagnosticInfo in appDiagnosticInfos)
+                    {
+                        var appInfo = appDiagnosticInfo.AppInfo;
+                        Console.WriteLine($"Process ID: {process.ProcessId}, Package Name: {appInfo.PackageFamilyName}");
+                    }
                 }
             }
             else
