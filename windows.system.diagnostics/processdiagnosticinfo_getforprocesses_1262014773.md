@@ -53,8 +53,15 @@ class Program
                 {
                     foreach (var appDiagnosticInfo in appDiagnosticInfos)
                     {
-                        var appInfo = appDiagnosticInfo.AppInfo;
+                    var appInfo = appDiagnosticInfo.AppInfo;
+                    if (appInfo != null)
+                    {
                         Console.WriteLine($"Process ID: {process.ProcessId}, Package Name: {appInfo.PackageFamilyName}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Process ID: {process.ProcessId} has no associated AppInfo.");
+                    }}");
                     }
                 }
             }
