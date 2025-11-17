@@ -50,6 +50,8 @@ The entity is a [TableActionEntity](tableactionentity.md).
 
 ### -field Contact: 8
 
+The entity is a [ContactActionEntity](contactactionentity.md).
+
 ### -field Uri: 9
 
 The entity is a [UriActionEntity](uriactionentity.md).
