@@ -46,7 +46,23 @@ The entity is a [RemoteFileActionEntity](remotefileactionentity.md).
 
 ### -field Table: 7
 
+The entity is a [TableActionEntity](tableactionentity.md).
+
 ### -field Contact: 8
+
+The entity is a [ContactActionEntity](contactactionentity.md).
+
+### -field Uri: 9
+
+The entity is a [UriActionEntity](uriactionentity.md).
+
+### -field Array: 10
+
+### -field Appointment: 11
+
+### -field Date: 12
+
+### -field CustomText: 13
 
 ## -remarks
 
