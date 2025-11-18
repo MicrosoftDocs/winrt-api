@@ -40,10 +40,13 @@ var icon = transferTarget.DisplayIcon;
 if (icon != null)
 {
     // Use the icon in the UI
-    Console.WriteLine("Icon retrieved successfully.");
+    var bitmapImage = new BitmapImage();
+    bitmapImage.SetSource(await icon.OpenReadAsync());
+    myImageControl.Source = bitmapImage;
 }
 else
 {
-    Console.WriteLine("No icon available for this target.");
+    // Handle the case where no icon is available
+    myImageControl.Source = null;
 }
 ```
