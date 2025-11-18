@@ -12,19 +12,19 @@ public sealed class TransferTargetWatcher
 
 ## -description
 
-The `TransferTargetWatcher` class enables applications to discover and monitor available transfer targets, such as apps or devices, in real time. It provides events and methods to manage the discovery process and interact with transfer targets dynamically.
+The `TransferTargetWatcher` class enables applications to discover and monitor available transfer targets (other apps) in real time. It provides events and methods to manage the discovery process and interact with transfer targets dynamically.
 
 ## -remarks
 
 The `TransferTargetWatcher` is a key component of the Transfer Target Platform API. It supports asynchronous discovery of transfer targets and notifies applications about changes in the available targets through events.
 
-#### Key Features:
+#### Key features
 
-- **Real-Time Discovery**: Dynamically discovers transfer targets at runtime.
-- **Event Notifications**: Provides events such as `Added`, `Removed`, `Updated`, `Stopped`, and `EnumerationCompleted` to keep applications informed about changes.
-- **Seamless Integration**: Simplifies the process of integrating sharing functionalities into applications.
+- **Real-time discovery**: Dynamically discovers transfer targets at runtime.
+- **Event notifications**: Provides events such as `Added`, `Removed`, `Updated`, `Stopped`, and `EnumerationCompleted` to keep applications informed about changes.
+- **Seamless integration**: Simplifies the process of integrating sharing functionalities into applications.
 
-#### Events:
+#### Events
 
 - `Added`: Triggered when a new transfer target is discovered.
 - `Removed`: Triggered when a transfer target is no longer available.
@@ -38,7 +38,7 @@ The `TransferTargetWatcher` is a key component of the Transfer Target Platform A
 
 ## -examples
 
-#### Initializing and Configuring a TransferTargetWatcher
+#### Initializing and configuring a TransferTargetWatcher
 
 This code sample shows how to initialize and configure a `TransferTargetWatcher` to discover five app targets and manage them based on a provided data package. It also sets up event handlers to track the addition, removal, and updating of transfer targets, and to handle the completion of the enumeration process.
 
@@ -98,7 +98,7 @@ public class TransferTargetWatcherInitializer
 }
 ```
 
-#### Invoking a Transfer Target
+#### Invoking a transfer target
 
 This code sample demonstrates how to use properties of `TransferTarget` and invoke a transfer target by using the `InvokeAsync` method on a `TransferTargetWatcher`. The `OnTargetButtonClick` method takes a `TransferTarget` and a `DataPackage` as parameters. It ensures that the `TransferTargetWatcher` is initialized before proceeding. The method handles the progress and completion of the invoke operation, providing feedback on the progress percentage and the final status of the invocation. If the invocation completes successfully, it prints the invoke status; otherwise, it indicates that the operation didn't complete successfully.
 
