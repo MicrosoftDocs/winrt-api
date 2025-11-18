@@ -24,7 +24,7 @@ The `Id` property provides a way to uniquely identify a transfer target. This is
 
 #### Usage Notes:
 
-- The `Id` is guaranteed to be unique for each transfer target.
+- The `Id` is guaranteed to be unique for each transfer target in a given session.
 - Applications can use this property to store or compare transfer targets.
 
 ## -see-also
