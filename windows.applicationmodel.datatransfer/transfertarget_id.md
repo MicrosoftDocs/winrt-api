@@ -37,5 +37,5 @@ The `Id` property provides a way to uniquely identify a transfer target. This is
 
 ```csharp
 var targetId = transferTarget.Id;
-Console.WriteLine($"Transfer Target ID: {targetId}");
+System.Diagnostics.Debug.WriteLine($"Transfer Target ID: {targetId}");
 ```
