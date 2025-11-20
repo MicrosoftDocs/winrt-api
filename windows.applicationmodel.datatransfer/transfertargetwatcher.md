@@ -59,9 +59,8 @@ public class TransferTargetWatcherInitializer
         m_transferTargets = new List<TransferTarget>();
 
         // Create a filter to customize the transfer targets discovery
-        var transferTargetDiscoveryOptions = new TransferTargetDiscoveryOptions
+        var transferTargetDiscoveryOptions = new TransferTargetDiscoveryOptions(dataPackageView)
         {
-            DataPackage = dataPackage.GetView(),
             MaxAppTargets = 5
         };
 

@@ -37,7 +37,7 @@ The `TransferTargetDiscoveryOptions` class is passed to the `TransferTargetWatch
 #### Example: Configuring TransferTargetWatcher with Discovery Options
 
 ```csharp
-var options = new TransferTargetDiscoveryOptions
+var options = new TransferTargetDiscoveryOptions(dataPackageView)
 {
     AllowedTargetAppIds = new List<string> { "App1", "App2" },
     MaxAppTargets = 5

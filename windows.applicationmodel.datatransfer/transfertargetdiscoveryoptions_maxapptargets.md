@@ -24,7 +24,7 @@ The `MaxAppTargets` property provides a way to control the number of transfer ta
 
 #### Usage Notes:
 
-- If this property is not set, all available transfer targets are discovered.
+- If this property is not set, no transfer targets will be discovered.
 - Use this property to limit the discovery process to a specific number of targets.
 
 ## -see-also
