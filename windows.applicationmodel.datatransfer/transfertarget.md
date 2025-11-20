@@ -9,16 +9,15 @@
 public sealed class TransferTarget
 -->
 
-
 ## -description
 
-The `TransferTarget` class represents a target for sharing data, such as an application or device. It provides properties and methods to interact with and invoke the target for data transfer operations.
+The `TransferTarget` class represents an application target for sharing data. It provides properties and methods to interact with and invoke the target for data transfer operations.
 
 ## -remarks
 
 The `TransferTarget` class is part of the Transfer Target Platform API, which is designed to streamline the process of discovering and invoking transfer targets asynchronously. This API supports multiple providers and includes comprehensive filter options to ensure relevant targets are discovered efficiently.
 
-#### Key Features:
+#### Key Features
 
 - **Asynchronous Target Discovery**: Ensures a responsive user experience by discovering targets asynchronously.
 - **Invocation Support**: Allows invoking transfer targets with a data package for seamless sharing.
@@ -30,18 +29,23 @@ The `TransferTarget` class is part of the Transfer Target Platform API, which is
 
 ## -examples
 
-#### Example: Discovering and Invoking a Transfer Target
+#### Example - Discovering and Invoking a Transfer Target
 
 ```csharp
 var watcher = TransferTarget.CreateWatcher();
+TransferTarget discoveredTarget = null;
+
 watcher.Added += (sender, args) =>
 {
     Console.WriteLine($"Target added: {args.Target.Label}");
+    discoveredTarget = args.Target;
 };
 watcher.Start();
 
-// Invoke a target with a data package
-var dataPackage = new DataPackage();
-dataPackage.SetText("Hello, World!");
-await watcher.TransferToAsync(target, dataPackage);
+// Invoke a target with the parent window handle
+if (discoveredTarget != null)
+{
+    var parentWindowId = Windows.UI.WindowId.CreateFromWindowHandle(hwnd);
+    var result = await discoveredTarget.TransferToAsync(discoveredTarget, parentWindowId);
+}
 ```
