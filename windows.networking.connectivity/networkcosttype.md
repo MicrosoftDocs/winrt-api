@@ -100,6 +100,50 @@ if (cost.Roaming)
 }
 ```
 
+// Base operating mode
+if (unrestricted && !cost.Roaming && !cost.BackgroundDataUsageRestricted)
+{
+   // App-specific: enable high-bandwidth features (e.g., HD media sync)
+}
+else
+{
+   // App-specific: enter conservative mode (reduced quality / deferred background work)
+}
+
+// Progressive constraints
+if (cost.ApproachingDataLimit)
+{
+   // App-specific: reduce bitrate / quality to stay within plan (e.g., target ~1.5 Mbps)
+}
+
+if (cost.OverDataLimit)
+{
+   // App-specific: pause non-essential background synchronization
+}
+
+if (cost.BackgroundDataUsageRestricted)
+{
+   // App-specific: defer background-only telemetry / analytics
+}
+
+if (cost.Roaming)
+{
+   // App-specific: compress or batch large payload transfers while roaming
+}
+
+// Optional: adapt chunk sizing based on plan type
+{
+   // Evaluate only when needed for this decision branch.
+   bool fixedPlan = cost.NetworkCostType == NetworkCostType.Fixed;
+   bool variable  = cost.NetworkCostType == NetworkCostType.Variable;
+   if (fixedPlan || variable)
+   {
+      var chunkSizeMb = cost.MaxTransferSizeInMegabytes ?? 8; // choose smaller transfer chunks
+      // App-specific: apply chunkSizeMb constraint to large uploads/downloads
+   }
+}
+```
+
 ## -see-also
 
 [DataPlanStatus](dataplanstatus.md),

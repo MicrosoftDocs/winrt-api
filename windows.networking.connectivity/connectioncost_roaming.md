@@ -17,6 +17,7 @@ Returns `true` when the connection is roaming on a network outside the home prov
 
 ## -remarks
 
+
 ## -examples
 
 ## -see-also

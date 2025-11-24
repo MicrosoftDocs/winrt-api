@@ -58,6 +58,8 @@ behavior.
 
 
 ## -see-also
+[DomainAuthenticationKind](domainauthenticationkind.md)  
+[ConnectionProfile](connectionprofile.md)
 
 [ConnectionProfile](connectionprofile.md),
 [DomainAuthenticationKind](domainauthenticationkind.md)

@@ -24,7 +24,7 @@ Specifies the domain authentication method for an Active Directory network; and/
 
 ### -field Tls: 2
 
-Specifies the Transport Layer Security (TLS) domain authentication method; and/or that the network connection was able to successfully complete a HTTPS connection with verified TLS authentication to an endpoint configured by the `AllowedTlsAuthenticationEndpoints` Mobile Device Management (MDM) policy.
+Specifies the Transport Layer Security (TLS) domain authentication method; and/or that the network connection was able to successfully complete a HTTPS connection with verified TLS authentication to an endpoint configured by the **AllowedTlsAuthenticationEndpoints** Mobile Device Management (MDM) policy.
 
 ## -remarks
 ### Semantics
