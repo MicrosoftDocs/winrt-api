@@ -20,4 +20,4 @@ Indicates if the connection profile represents a WLAN (WiFi) connection.
 ## -examples
 
 ## -see-also
-[WlanConnectionProfileDetails](connectionprofile_wlanconnectionprofiledetails.md)
+

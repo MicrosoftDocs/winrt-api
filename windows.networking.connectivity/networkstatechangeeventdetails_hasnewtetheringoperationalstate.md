@@ -13,27 +13,28 @@ public bool HasNewTetheringOperationalState { get; }
 Indicates whether the mobile hotspot (tethering) operational state may have changed for this network status change event.
 
 ## -property-value
-True if the operational state may have changed; otherwise false. Treat true as a hint to re-query the authoritative tethering manager for the current state.
+Returns `true` when the tethering operational state may have changed; otherwise, `false`.
+Treat a `true` value as a hint to re-query the authoritative tethering manager for the current state.
 
 ## -remarks
 ### Semantics
 Signals that the effective tethering (mobile hotspot) operational state (Disabled, Enabling, Enabled/Active, DisabledByPolicy, etc.) may have transitioned.
 
 ### Guidance
-- Hint, not value: This property does not embed the new state—always re-query
+- Hint, not value: This property does not embed the new state; always re-query
   [NetworkOperatorTetheringManager.TetheringOperationalState](../windows.networking.networkoperators/networkoperatortetheringmanager_tetheringoperationalstate.md).
 - Meaningful transitions only: Intermediate internal steps can be coalesced; design UI to tolerate brief indeterminate periods.
-- Policy transitions: State can change due to policy / entitlement without user action—listen continuously.
+- Policy transitions: State can change due to policy / entitlement without user action; listen continuously.
 - Duplicate notifications: If re-queried state equals your cached state, treat as benign duplicate.
 - Ordering: May fire before or after
   [HasNewTetheringClientCount](networkstatechangeeventdetails_hasnewtetheringclientcount.md); handle independently.
-- Failure scenarios: If enable attempt reverts back to Disabled (or policy-disabled), surface the final state to users rather than leaving a perpetual “enabling” indicator.
+- Failure scenarios: If enable attempt reverts back to Disabled (or policy-disabled), surface the final state to users rather than leaving a perpetual "enabling" indicator.
 
 ### Recommended pattern
 1. Cache initial state during feature initialization.
-2. On status change: if true, re-query operational state.
+2. On status change: if `HasNewTetheringOperationalState` is `true`, re-query the operational state.
 3. If changed, update UI / telemetry; else ignore.
-4. Apply a timeout for “Enabling” -> if exceeded, re-query and reconcile (show failure if reverted).
+4. Apply a timeout for "Enabling"; if it exceeds the threshold, re-query and reconcile (show failure if reverted).
 
 ### Best practices
 | Concern | Recommendation |
@@ -43,8 +44,8 @@ Signals that the effective tethering (mobile hotspot) operational state (Disable
 | Policy override clarity | Distinguish DisabledByPolicy (or equivalent) from user-disabled |
 | Logging | Log old -> new state transitions with timestamp for diagnostics |
 
-> [!NOTE]  
-> Pair with **HasNewTetheringClientCount** to refresh connected client metrics after confirming tethering remains active.
+> [!NOTE]
+> Pair with [HasNewTetheringClientCount](networkstatechangeeventdetails_hasnewtetheringclientcount.md) to refresh connected client metrics after confirming tethering remains active.
 
 
 ## -examples
@@ -73,6 +74,6 @@ NetworkInformation.NetworkStatusChanged += (s) =>
 ```
 
 ## -see-also
-[NetworkStateChangeEventDetails](networkstatechangeeventdetails.md),  
-[NetworkStateChangeEventDetails.HasNewTetheringClientCount](networkstatechangeeventdetails_hasnewtetheringclientcount.md),  
-[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md)
+
+[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md),
+[NetworkStateChangeEventDetails](networkstatechangeeventdetails.md)

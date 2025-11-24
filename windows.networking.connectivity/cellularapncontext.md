@@ -27,47 +27,46 @@ Pass an instance to [ConnectivityManager.AcquireConnectionAsync](connectivityman
 | Option | [IsCompressionEnabled](cellularapncontext_iscompressionenabled.md) | Request link-layer compression (if supported) |
 
 ### Lifecycle
-1. Construct and populate **CellularApnContext**.
-2. Call **AcquireConnectionAsync**.
-3. Validate resulting **ConnectionProfile** (e.g., **GetNetworkConnectivityLevel**).
-4. Use connection (respect cost / roaming).
-5. Dispose **ConnectionSession**.
+1. Construct and populate the `CellularApnContext` instance.
+2. Call [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md).
+3. Validate the resulting [ConnectionProfile](connectionprofile.md) (for example, [GetNetworkConnectivityLevel](connectionprofile_getnetworkconnectivitylevel_33807014.md)).
+4. Use the connection while respecting cost and roaming constraints.
+5. Dispose the returned [ConnectionSession](connectionsession.md).
 
 ### Best practices
 | Concern | Guidance |
 | -- | -- |
-| Incorrect APN | Connection acquisition fails silently or yields no Internet access—validate with carrier docs |
+| Incorrect APN | Connection acquisition fails silently or yields no Internet access. Validate with carrier documentation. |
 | Authentication failures | Retry only with corrected credentials; avoid tight loops |
-| Roaming cost | Inspect **ConnectionProfile.GetConnectionCost** before large transfers |
-| Resource cleanup | Always dispose **ConnectionSession** (including failure paths) |
+| Roaming cost | Inspect [ConnectionProfile.GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md) before large transfers |
+| Resource cleanup | Always dispose the [ConnectionSession](connectionsession.md) (including failure paths) |
 | Minimal config | Omit optional fields unless required (avoid sending empty credentials) |
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Carrier provisioning rules determine success. Use only officially supplied APN values; guessing can cause repeated failures or account issues.
 
 ### Carrier / deployment notes
 - Some networks accept an empty APN for default plans.
 - Specialized / enterprise plans may mandate unique APN plus credentials.
-- Roaming contexts can require different APN values—reacquire if registration state transitions.
+- Roaming contexts can require different APN values. Reacquire if the registration state transitions.
 
 ### Error handling
-- Capture exceptions from **AcquireConnectionAsync**; log APN (non-secret parts) and auth type, not credentials.
+- Capture exceptions from [AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md); log APN (non-secret parts) and auth type, not credentials.
 - Provide user remediation path (e.g., prompt to correct credentials or confirm roaming charges).
 
-### Version additions
-| Windows version | Added |
-| -- | -- |
-| 1803 | ProfileName |
+### Version history
+| Windows version | SDK version | Value added |
+| -- | -- | -- |
+| 1803 | 17134 | ProfileName |
 
-> [!NOTE]  
-> Future platform updates may introduce new authentication types—treat unknown enum values conservatively (fail closed or prompt).
+> [!NOTE]
+> Future platform updates may introduce new authentication types. Treat unknown enum values conservatively (fail closed or prompt).
 
 
 ## -examples
 
 ## -see-also
+
 [CellularApnAuthenticationType](cellularapnauthenticationtype.md),
 [ConnectionProfile](connectionprofile.md),
-[ConnectionSession](connectionsession.md),
-[ConnectivityManager](connectivitymanager.md),
-[ConnectivityManager.AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md)
+[ConnectivityManager](connectivitymanager.md)

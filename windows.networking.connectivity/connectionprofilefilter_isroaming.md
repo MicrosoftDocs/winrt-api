@@ -13,10 +13,11 @@ public Windows.Foundation.IReference<bool> IsRoaming { get;  set; }
 Gets or sets whether roaming is active in the connection profile filter.
 
 ## -property-value
-True when roaming, false otherwise.
+Returns `true` when filtered profiles are roaming; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

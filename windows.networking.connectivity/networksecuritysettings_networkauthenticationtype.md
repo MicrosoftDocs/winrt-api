@@ -21,4 +21,5 @@ The network authentication type.
 ## -examples
 
 ## -see-also
+
 [NetworkAuthenticationType (Enumeration)](networkauthenticationtype.md)

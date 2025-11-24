@@ -30,4 +30,4 @@ In a UWP app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) 
 ## -examples
 
 ## -see-also
-[ProxyConfiguration](proxyconfiguration.md), [StreamSocket](../windows.networking.sockets/streamsocket.md)
+

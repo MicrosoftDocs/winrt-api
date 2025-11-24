@@ -10,7 +10,7 @@ public enum DomainAuthenticationKind
 -->
 
 ## -description
-Specifies the enterprise domain authentication mechanism (if any) associated with a network connection profile. Only one non-**None** value is reported at a time (precedence applies).
+Specifies the enterprise domain authentication mechanism (if any) associated with a network connection profile. Only one non-`None` value is reported at a time (precedence applies).
 
 ## -enum-fields
 
@@ -31,23 +31,23 @@ Specifies the Transport Layer Security (TLS) domain authentication method; and/o
 Use to determine which (if any) enterprise domain authentication mechanism validated a [ConnectionProfile](connectionprofile.md).
 
 ### Key points
-- Mutually exclusive: Only one non-**None** value appears. If both LDAP and TLS criteria are satisfied, **Ldap** takes precedence.
-- Modern trust: **Tls** enables cloud / MDM managed devices to recognize corporate networks without legacy LDAP reachability.
-- Policy dependency: **Tls** requires an MDM policy defining allowed TLS authentication endpoints. Missing / misconfigured policy => **Tls** never reported.
-- Negative check: **IsDomainAuthenticatedBy**(**DomainAuthenticationKind.None**) precisely indicates no recognized enterprise domain authentication.
+- Mutually exclusive: Only one non-`None` value appears. If both LDAP and TLS criteria are satisfied, `Ldap` takes precedence.
+- Modern trust: `Tls` enables cloud / MDM managed devices to recognize corporate networks without legacy LDAP reachability.
+- Policy dependency: `Tls` requires an MDM policy defining allowed TLS authentication endpoints. Missing or misconfigured policy means `Tls` is never reported.
+- Negative check: [ConnectionProfile.IsDomainAuthenticatedBy](connectionprofile_isdomainauthenticatedby_590452087.md) with `DomainAuthenticationKind.None` precisely indicates no recognized enterprise domain authentication.
 
 ### Diagnostic flow
-1. Test **IsDomainAuthenticatedBy**(**Ldap**).
-2. If false, test **IsDomainAuthenticatedBy**(**Tls**).
-3. If both false, treat as unauthenticated (None).
+1. Test [ConnectionProfile.IsDomainAuthenticatedBy](connectionprofile_isdomainauthenticatedby_590452087.md) with `DomainAuthenticationKind.Ldap`.
+2. If false, test [ConnectionProfile.IsDomainAuthenticatedBy](connectionprofile_isdomainauthenticatedby_590452087.md) with `DomainAuthenticationKind.Tls`.
+3. If both checks return false, treat the profile as unauthenticated (`None`).
 
 ### Scenarios
 | Scenario | Action |
 | -- | -- |
-| Enabling enterprise-only features | Accept either **Ldap** or **Tls** |
-| UI indicator | Show badge / label based on enum value |
-| Telemetry rollout tracking | Count occurrences of **Tls** vs **Ldap** to measure adoption |
-| Conditional policy | Relax constraints only when authenticated (not **None**) |
+| Enabling enterprise-only features | Accept either `Ldap` or `Tls` |
+| UI indicator | Show badge or label based on enum value |
+| Telemetry rollout tracking | Count occurrences of `Tls` vs `Ldap` to measure adoption |
+| Conditional policy | Relax constraints only when authenticated (not `None`) |
 
 ### Best practices
 - Re-query on network status / domain change events (roam, resume, captive portal).
@@ -55,7 +55,7 @@ Use to determine which (if any) enterprise domain authentication mechanism valid
 - Log both the enum value and profile identifier for support diagnostics.
 - Code defensively for potential future enum members (default case handling).
 
-> [!NOTE]  
+> [!NOTE]
 > Do not infer authentication from DNS suffixes or SSID naming; rely on the explicit API result.
 
 ### Example (C#)
@@ -72,8 +72,8 @@ if (profile != null)
 }
 ```
 
-## -see-also
-[ConnectionProfile.IsDomainAuthenticatedBy method](connectionprofile_isdomainauthenticatedby_590452087.md)  
-[ConnectionProfile](connectionprofile.md)
-
 ## -examples
+
+## -see-also
+
+[ConnectionProfile.IsDomainAuthenticatedBy method](connectionprofile_isdomainauthenticatedby_590452087.md)

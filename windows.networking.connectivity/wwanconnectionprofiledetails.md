@@ -22,13 +22,13 @@ Access via [ConnectionProfile.WwanConnectionProfileDetails](connectionprofile_ww
 | -- | -- | -- |
 | Carrier ID | [HomeProviderId](wwanconnectionprofiledetails_homeproviderid.md) | MCC+MNC identifying the home carrier |
 | APN | [AccessPointName](wwanconnectionprofiledetails_accesspointname.md) | APN used for this data session |
-| Registration | [GetNetworkRegistrationState](wwanconnectionprofiledetails_getnetworkregistrationstate_117061146.md) | Current network registration state |
-| Data technology | [GetCurrentDataClass](wwanconnectionprofiledetails_getcurrentdataclass_1355956130.md) | Active cellular data class (flags) |
-| IP protocol | [IPKind](wwanconnectionprofiledetails_ipkind.md) | IPv4 / IPv6 / dual‑stack configuration |
+| Registration | [GetNetworkRegistrationState](wwanconnectionprofiledetails_getnetworkregistrationstate_277836897.md) | Current network registration state |
+| Data technology | [GetCurrentDataClass](wwanconnectionprofiledetails_getcurrentdataclass_462456223.md) | Active cellular data class (flags) |
+| IP protocol | [IPKind](wwanconnectionprofiledetails_ipkind.md) | IPv4 / IPv6 / dual-stack configuration |
 | Purpose tagging | [PurposeGuids](wwanconnectionprofiledetails_purposeguids.md) | Scenario / policy identifiers applied to the profile |
 
 ### Registration states
-Returned by **GetNetworkRegistrationState**:
+Returned by [GetNetworkRegistrationState](wwanconnectionprofiledetails_getnetworkregistrationstate_277836897.md):
 | State | Meaning |
 | -- | -- |
 | Home | Registered on home network |
@@ -39,7 +39,7 @@ Returned by **GetNetworkRegistrationState**:
 | None | Not registered / no capability |
 
 ### Data class (examples)
-**GetCurrentDataClass** returns a bitmask; common groupings:
+`GetCurrentDataClass` returns a bitmask; common groupings:
 | Generation | Flags (non exhaustive) |
 | -- | -- |
 | 5G | NewRadioNonStandalone, NewRadioStandalone |
@@ -48,13 +48,13 @@ Returned by **GetNetworkRegistrationState**:
 | 2G | Gprs, Edge |
 | CDMA | (Various CDMA flags) |
 
-> [!NOTE]  
+> [!NOTE]
 > Reported value is the currently active technology, not necessarily the modem's peak capability.
 
 ### Usage patterns
 | Scenario | Relevant members | Notes |
 | -- | -- | -- |
-| Show carrier + technology badge | HomeProviderId, GetCurrentDataClass | Map bitmask to UI string (e.g., 5G / LTE) |
+| Show carrier + technology badge | HomeProviderId, GetCurrentDataClass | Map bitmask to a UI string (for example, 5G or LTE) |
 | Enforce roaming policy | GetNetworkRegistrationState, ConnectionCost | Combine roaming state + metering |
 | APN diagnostics | AccessPointName, PurposeGuids | PurposeGuids distinguishes specialized carrier profiles |
 | IPv6 readiness | IPKind | Decide whether to prefer IPv6 endpoints |
@@ -93,7 +93,7 @@ if (profile?.IsWwanConnectionProfile == true)
 }
 ```
 
-### Check dual‑stack capability (C#)
+### Check dual-stack capability (C#)
 ```csharp
 var p = NetworkInformation.GetInternetConnectionProfile();
 if (p?.IsWwanConnectionProfile == true)
@@ -106,8 +106,7 @@ if (p?.IsWwanConnectionProfile == true)
 ```
 
 ## -see-also
-[ConnectionProfile.IsWwanConnectionProfile](connectionprofile_iswwanconnectionprofile.md),
-[ConnectionProfile.WwanConnectionProfileDetails](connectionprofile_wwanconnectionprofiledetails.md),
+
 [NetworkInformation](networkinformation.md),
 [WwanDataClass](wwandataclass.md),
 [WwanNetworkIPKind](wwannetworkipkind.md),

@@ -18,3 +18,4 @@ Represents the port specific data that enables LAN locality capabilities.
 ## -examples
 
 ## -see-also
+

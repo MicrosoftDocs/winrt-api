@@ -13,11 +13,13 @@ public bool HasNewInternetConnectionProfile { get; }
 Indicates if the local machine has a new connection profile associated with the current internet connection.
 
 ## -property-value
-true if the connection has changed; otherwise, false.
+Returns `true` when the current internet connection profile changed; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
-[NetworkInformation_GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md), [ConnectionProfile](connectionprofile.md)
+
+[ConnectionProfile](connectionprofile.md),
+[NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md)

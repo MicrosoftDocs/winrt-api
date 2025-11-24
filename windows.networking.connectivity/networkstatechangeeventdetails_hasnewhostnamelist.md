@@ -13,10 +13,11 @@ public bool HasNewHostNameList { get; }
 Indicates if the list of host names returned by [GetHostNames](networkinformation_gethostnames_136280557.md) has changed.
 
 ## -property-value
-true if a new Host Name list was provided; otherwise, false.
+Returns `true` when a new host name list is available; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

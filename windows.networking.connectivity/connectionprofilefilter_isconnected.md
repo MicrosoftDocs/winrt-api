@@ -20,4 +20,5 @@ A [Boolean](/dotnet/api/system.boolean?view=dotnet-uwp-10.0&preserve-view=true) 
 ## -examples
 
 ## -see-also
+
 [FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)

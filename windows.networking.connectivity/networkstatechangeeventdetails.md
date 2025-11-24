@@ -16,7 +16,7 @@ Indicates which network-related properties changed for the current status change
 ### Retrieval
 Obtained inside a [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) handler (or related background trigger). The instance is system-supplied; apps do not construct it.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > Use the flags to decide what to refresh, then re-query current values (e.g., call
 > [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md)). Do not rely on cached objects.
 
@@ -44,8 +44,8 @@ Each Boolean property signals that the associated data MAY have changed; re-quer
 ### Best practices
 - Coalesce bursts: if multiple events arrive quickly, debounce UI updates.
 - Avoid full refresh on every event; scale work to flags set.
-- Treat flags as hints—not guarantees; always trust fresh API return values.
-- When **HasNewNetworkConnectivityLevel** is true, re-validate gating features (online sync, telemetry, streaming).
+- Treat flags as hints, not guarantees; always trust fresh API return values.
+- When `HasNewNetworkConnectivityLevel` is `true`, re-validate gating features (online sync, telemetry, streaming).
 - When cost changed, reassess background transfer strategy.
 - When domain connectivity changed, re-check enterprise feature enablement.
 
@@ -55,8 +55,8 @@ Use tethering flags only in scenarios that surface hotspot status or manage teth
 ### Performance
 Flag-driven conditional logic minimizes CPU, battery, and network usage compared to unconditional re-enumeration.
 
-> [!NOTE]  
-> Lack of a flag does not promise stability forever—another event will fire when a future change occurs.
+> [!NOTE]
+> Lack of a flag does not promise stability forever - another event will fire when a future change occurs.
 
 
 ## -examples
@@ -88,9 +88,9 @@ private void OnNetworkStatusChanged(object sender)
 ```
 
 ## -see-also
+
 [ConnectionCost](connectioncost.md),
 [ConnectionProfile](connectionprofile.md),
 [NetworkConnectivity sample](https://github.com/Microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
 [NetworkConnectivityLevel](networkconnectivitylevel.md),
-[NetworkInformation](networkinformation.md),
-[NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md)
+[NetworkInformation](networkinformation.md)

@@ -22,4 +22,5 @@ This property represents the current speed in bits per second of the transmit li
 ## -examples
 
 ## -see-also
+
 [InboundMaxBitsPerSecond](networkadapter_inboundmaxbitspersecond.md)

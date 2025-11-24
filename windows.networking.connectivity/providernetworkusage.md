@@ -10,7 +10,7 @@ public class ProviderNetworkUsage
 # Windows.Networking.Connectivity.ProviderNetworkUsage
 
 ## -description
-Represents per‑provider aggregated usage (bytes sent / bytes received) returned by
+Represents per-provider aggregated usage (bytes sent / bytes received) returned by
 [ConnectionProfile.GetProviderNetworkUsageAsync](connectionprofile_getprovidernetworkusageasync_1442391607.md).
 
 ## -remarks
@@ -20,9 +20,9 @@ Created by calling
 time window. Each instance aggregates all traffic attributed to a single provider id over that window.
 
 ### Properties
-- **[BytesSent](providernetworkusage_bytessent.md)**: Total transmitted bytes for the provider.
-- **[BytesReceived](providernetworkusage_bytesreceived.md)**: Total received bytes for the provider.
-- **[ProviderId](providernetworkusage_providerid.md)**: Provider identifier (may be empty / unavailable on networks that
+- [BytesSent](providernetworkusage_bytessent.md): Total transmitted bytes for the provider.
+- [BytesReceived](providernetworkusage_bytesreceived.md): Total received bytes for the provider.
+- [ProviderId](providernetworkusage_providerid.md): Provider identifier (may be empty or unavailable on networks that
   do not supply provider metadata).
 
 ### Usage considerations
@@ -34,28 +34,28 @@ time window. Each instance aggregates all traffic attributed to a single provide
 ### Scenarios
 | Scenario | Benefit |
 | -- | -- |
-| Multi‑carrier devices | Compare distribution of traffic across carriers |
+| Multi-carrier devices | Compare distribution of traffic across carriers |
 | Cost awareness | Identify providers incurring disproportionate usage |
 | Analytics | Trend shifts in provider utilization after policy changes |
-| Billing reconciliation | Cross‑check provider invoices against local accounting |
+| Billing reconciliation | Cross-check provider invoices against local accounting |
 
 ### Polling guidance
-Query at a cadence aligned with your reporting granularity (hourly or longer for most apps). Avoid sub‑minute polling—no
+Query at a cadence aligned with your reporting granularity (hourly or longer for most apps). Avoid sub-minute polling - no
 additional fidelity and increased power cost.
 
 ### Residual / reconciliation
 If aggregate profile usage (see
 [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md)) differs from the sum across providers,
-treat the delta as unattributed system / non‑provider‑scoped traffic.
+treat the delta as unattributed system / non-provider-scoped traffic.
 
-> [!NOTE]  
+> [!NOTE]
 > Provider usage is only returned when provider metadata is available. Always handle an empty result gracefully.
 
 ### Recommended pattern
 1. Query provider usage and aggregate usage for the same aligned window.
-2. Sum per‑provider totals; compute residual = aggregate − sum(providers) (if positive).
-3. Persist per‑provider cumulative totals keyed by ProviderId (with versioning if identifiers can change).
-4. Periodically re‑query the most recent closed bucket to incorporate late adjustments (apply positive deltas only).
+2. Sum per-provider totals; compute residual = aggregate - sum(providers) (if positive).
+3. Persist per-provider cumulative totals keyed by ProviderId (with versioning if identifiers can change).
+4. Periodically re-query the most recent closed bucket to incorporate late adjustments (apply positive deltas only).
 
 For general incremental and reconciliation patterns, also review
 [ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) guidance.
@@ -63,9 +63,8 @@ For general incremental and reconciliation patterns, also review
 ## -examples
 
 ## -see-also
+
 [AttributedNetworkUsage](attributednetworkusage.md),
-[ConnectionProfile.GetProviderNetworkUsageAsync](connectionprofile_getprovidernetworkusageasync_1442391607.md),
 [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md),
-[GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md),
 [NetworkUsage](networkusage.md),
 [NetworkUsageStates](networkusagestates.md)

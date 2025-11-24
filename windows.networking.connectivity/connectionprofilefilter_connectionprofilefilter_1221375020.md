@@ -17,4 +17,4 @@ Creates an instance of [ConnectionProfileFilter](connectionprofilefilter.md), wh
 ## -examples
 
 ## -see-also
-[FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)
+

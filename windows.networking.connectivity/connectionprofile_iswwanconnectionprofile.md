@@ -20,4 +20,4 @@ Indicates if the connection profile represents a WWAN (mobile) connection.
 ## -examples
 
 ## -see-also
-[WwanConnectionProfileDetails](connectionprofile_wwanconnectionprofiledetails.md)
+

@@ -20,13 +20,13 @@ may be obsolete or contain stale properties.
 
 ### Connectivity level evolution and connection attempts
 
-A single **ConnectionProfile** instance can progress through **LocalAccess**, **ConstrainedInternetAccess**, and
-**InternetAccess** states as the network becomes fully usable. Always call **GetNetworkConnectivityLevel** at the
+A single `ConnectionProfile` instance can progress through `LocalAccess`, `ConstrainedInternetAccess`, and
+`InternetAccess` states as the network becomes fully usable. Always call `GetNetworkConnectivityLevel` at the
 decision point instead of assuming the level when the profile was first retrieved.
 
 > [!IMPORTANT]
 > The network status reported by Windows APIs is only a hint - its accuracy may vary depending on the local network
-> topology and conditions. Apps should attempt to connect to their services whenever LocalAccess or higher connectivity
+> topology and conditions. Apps should attempt to connect to their services whenever `LocalAccess` or higher connectivity
 > is reported.
 
 For a complete implementation demonstrating these principles, see the 
@@ -34,26 +34,26 @@ For a complete implementation demonstrating these principles, see the
 
 Common tasks:
 
-* Determine effective connectivity level ([GetNetworkConnectivityLevel](connectionprofile_getnetworkconnectivitylevel_1968047035.md)).
-* Inspect data plan and metering ([GetConnectionCost](connectionprofile_getconnectioncost_1946735978.md), [GetDataPlanStatus](connectionprofile_getdataplanstatus_1468491499.md)).
+* Determine effective connectivity level ([GetNetworkConnectivityLevel](connectionprofile_getnetworkconnectivitylevel_33807014.md)).
+* Inspect data plan and metering ([GetConnectionCost](connectionprofile_getconnectioncost_2051899034.md), [GetDataPlanStatus](connectionprofile_getdataplanstatus_2024938217.md)).
 * Get adapter and network names ([NetworkAdapter](connectionprofile_networkadapter.md), [ProfileName](connectionprofile_profilename.md)).
 * Retrieve per-profile usage statistics ([GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md), [GetAttributedNetworkUsageAsync](connectionprofile_getattributednetworkusageasync_1743384794.md)).
-* Identify WLAN SSID (WlanConnectionProfileDetails.GetConnectedSsid) or WWAN home/roaming state
-  (WwanConnectionProfileDetails).
-* Determine if the profile can be deleted (e.g., user saved Wi-Fi profile) via CanDelete / TryDeleteAsync.
+* Identify WLAN SSID ([WlanConnectionProfileDetails.GetConnectedSsid](wlanconnectionprofiledetails_getconnectedssid_233332726.md)) or WWAN home/roaming state
+  ([WwanConnectionProfileDetails](connectionprofile_wwanconnectionprofiledetails.md)).
+* Determine if the profile can be deleted (for example, a user-saved Wi-Fi profile) via `CanDelete` / `TryDeleteAsync`.
 
 Cost / data usage considerations:
 
-* Respect metered networks: If connectionCost.NetworkCostType is not Unrestricted, delay large background transfers
+* Respect metered networks: If `connectionCost.NetworkCostType` is not `NetworkCostType.Unrestricted`, delay large background transfers
   unless the user initiates them.
-* If connectionCost.Roaming is true, avoid non-critical sync to prevent unexpected charges.
-* If OverDataLimit or ApproachingDataLimit is set, surface a UI warning or reduce quality (for example, lower bitrate streaming).
+* If `connectionCost.Roaming` is `true`, avoid non-critical sync to prevent unexpected charges.
+* If `connectionCost.OverDataLimit` or `connectionCost.ApproachingDataLimit` is set, surface a UI warning or reduce quality (for example, lower bitrate streaming).
 
 Deletion guidance:
 
-TryDeleteAsync succeeds only for user-removable profiles (for example, some WLAN profiles) and when the caller has
-appropriate permissions. Always check the returned ConnectionProfileDeleteStatus and handle DeniedBySystem or
-UnknownError gracefully.
+`TryDeleteAsync` succeeds only for user-removable profiles (for example, some WLAN profiles) and when the caller has
+appropriate permissions. Always check the returned [ConnectionProfileDeleteStatus](connectionprofiledeletestatus.md) and handle `DeniedBySystem` or
+`UnknownError` gracefully.
 
 Performance tips:
 
@@ -66,26 +66,27 @@ the WinRT surface (ConnectionProfile, NetworkInformation) abstracts these for mo
 
 Independent cost flag changes:
 
-* Flags such as **Roaming**, **OverDataLimit**, or **ApproachingDataLimit** may change while **NetworkCostType** remains
-  constant. Re-evaluate individual flags when behavior depends on them; do not rely solely on **NetworkCostType** transitions.
+* Flags such as `Roaming`, `OverDataLimit`, or `ApproachingDataLimit` may change while `NetworkCostType` remains
+  constant. Re-evaluate individual flags when behavior depends on them; do not rely solely on `NetworkCostType` transitions.
 
 Domain authentication:
 
 Some enterprise networks can be domain-authenticated via classic Active Directory (LDAP) or via a TLS-based mechanism
-configured through device management policy. Use IsDomainAuthenticatedBy(DomainAuthenticationKind.Ldap) or
-IsDomainAuthenticatedBy(DomainAuthenticationKind.Tls) to differentiate the method. Only one method reports true (LDAP
-takes precedence when both could succeed). Treat IsDomainAuthenticatedBy(DomainAuthenticationKind.None) as "not domain
+configured through device management policy. Use `IsDomainAuthenticatedBy` with `DomainAuthenticationKind.Ldap` or
+`DomainAuthenticationKind.Tls` to differentiate the method. Only one method reports true (LDAP takes precedence when
+both could succeed). Treat `IsDomainAuthenticatedBy` returning `DomainAuthenticationKind.None` as "not domain
 authenticated". Re-query after network status change events rather than caching earlier results because authentication
 state can change with network transitions.
 
 Relationship to DomainConnectivityLevel:
 
-**GetDomainConnectivityLevel** reports the broader domain trust state (None / Unauthenticated / Authenticated) while
-**IsDomainAuthenticatedBy** identifies which mechanism (LDAP or TLS) established that trust. Typically you first
-ensure **GetDomainConnectivityLevel** returns **Authenticated** and then branch on the authentication kind if you need to
+`GetDomainConnectivityLevel` reports the broader domain trust state (`None` / `Unauthenticated` / `Authenticated`) while
+`IsDomainAuthenticatedBy` identifies which mechanism (LDAP or TLS) established that trust. Typically you first
+ensure `GetDomainConnectivityLevel` returns `Authenticated` and then branch on the authentication kind if you need to
 distinguish behavior or telemetry.
 
-For more examples, see: [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)) and the connectivity samples referenced below.
+For more examples, see the
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
 
 ### Version history
 
@@ -117,15 +118,15 @@ Enumerate usage over last hour (C++/WinRT):
 ```cpp
 IAsyncAction LogUsage(ConnectionProfile const& profile)
 {
-     auto endTime = DateTime::clock::now();
-     auto startTime = endTime - std::chrono::hours(1);
-     NetworkUsageStates states; // default (all)
-     auto usages = co_await profile.GetNetworkUsageAsync(startTime, endTime, DataUsageGranularity::PerMinute, L"{}");
-     for (auto const& u : usages)
-     {
-          auto bytes = u.BytesSent() + u.BytesReceived();
-          // Aggregate or log bytes
-     }
+    auto endTime = DateTime::clock::now();
+    auto startTime = endTime - std::chrono::hours(1);
+    NetworkUsageStates states; // default (all)
+    auto usages = co_await profile.GetNetworkUsageAsync(startTime, endTime, DataUsageGranularity::PerMinute, states);
+    for (auto const& u : usages)
+    {
+        auto bytes = u.BytesSent() + u.BytesReceived();
+        // Aggregate or log bytes
+    }
 }
 ```
 
@@ -138,11 +139,11 @@ void LogCost(ConnectionProfile const& profile)
      auto cost = profile.GetConnectionCost();
 
      std::wcout << L"CostType=" << static_cast<int>(cost.NetworkCostType())
-                  << L" roaming=" << (cost.Roaming() ? L"true" : L"false")
-                  << L" overLimit=" << (cost.OverDataLimit() ? L"true" : L"false")
-                  << L" approachingLimit=" << (cost.ApproachingDataLimit() ? L"true" : L"false")
-                  << L" backgroundRestricted=" << (cost.BackgroundDataUsageRestricted() ? L"true" : L"false")
-                  << std::endl;
+          << L" roaming=" << (cost.Roaming() ? L"true" : L"false")
+          << L" overLimit=" << (cost.OverDataLimit() ? L"true" : L"false")
+          << L" approachingLimit" << (cost.ApproachingDataLimit() ? L"true" : L"false")
+          << L" backgroundRestricted" << (cost.BackgroundDataUsageRestricted() ? L"true" : L"false")
+          << std::endl;
 }
 ```
 
@@ -173,7 +174,7 @@ IAsyncAction LogAttributedUsage(ConnectionProfile const& profile)
      NetworkUsageStates states; // no roaming/shared constraints
 
      // Optional: attribute by a set of host names (e.g., your service endpoints)
-     std::vector<HostName> hosts { HostName{ L"api.contoso.com" }, HostName{ L"cdn.contoso.com" } };
+     std::vector<HostName> hosts{ HostName{ L"api.contoso.com" }, HostName{ L"cdn.contoso.com" } };
      auto hostView = single_threaded_vector(std::move(hosts)).GetView();
 
      // Per-app usage
@@ -204,8 +205,9 @@ if (profile != null)
 ```
 
 ## -see-also
+
 [Network Cost sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkCost),
 [Network List Manager sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/NetworkListManager),
 [NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
 [NetworkInformation](networkinformation.md),
-[NetworkInformation.FindConnectionProfilesAsync](/uwp/api/windows.networking.connectivity.networkinformation#Windows_Networking_Connectivity_NetworkInformation_FindConnectionProfilesAsync_Windows_Networking_Connectivity_ConnectionProfileFilter_)
+[NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md)

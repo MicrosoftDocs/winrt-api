@@ -18,4 +18,5 @@ Represents the association between an IP address and an adapter on the network.
 ## -examples
 
 ## -see-also
+
 [NetworkAdapter](networkadapter.md)

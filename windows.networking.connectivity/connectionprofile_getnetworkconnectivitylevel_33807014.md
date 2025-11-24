@@ -21,4 +21,4 @@ The GetNetworkConnectivityLevel method may take time in some cases to determine 
 ## -examples
 
 ## -see-also
-[GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md), [NetworkInformation](networkinformation.md), [NetworkStatusChanged](networkinformation_networkstatuschanged.md)
+

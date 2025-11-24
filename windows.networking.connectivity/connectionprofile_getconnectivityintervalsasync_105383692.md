@@ -27,14 +27,14 @@ A list of [ConnectivityInterval](connectivityinterval.md) objects, each providin
 
 ## -remarks
 ### Usage considerations
-* Correlate with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) for volume metrics. Intervals = presence; usage = bytes.
+* Correlate with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) for volume metrics. Intervals represent presence; usage tracks bytes.
 * Align start/end times to reporting boundaries. Leading or trailing partial intervals are returned when the window cuts through an active connection.
 * Empty result = no connectivity recorded in the window (not an error).
 * Poll no more frequently than needed (typical aggregation windows: ≥ 15 minutes). Very fine polling wastes power.
-* Utilization: Sum **ConnectionDuration** across intervals; divide by total wall‑clock span to derive connected ratio. Overlay usage data to compute bytes per connected minute.
-* Historical limits (≤ 60 days) mirror usage API limits. Partition longer look‑backs into allowed segments.
+* Utilization: Sum `ConnectionDuration` across intervals; divide by total wall-clock span to derive connected ratio. Overlay usage data to compute bytes per connected minute.
+* Historical limits (≤ 60 days) mirror usage API limits. Partition longer look-backs into allowed segments.
 
-> [!NOTE]  
+> [!NOTE]
 > For incremental collection, persist the end of the last fully closed interval boundary and resume from there to avoid recounting a still-active interval.
 
 ## -examples
@@ -54,3 +54,4 @@ if (profile != null)
 ```
 
 ## -see-also
+

@@ -13,11 +13,12 @@ public bool HasNewDomainConnectivityLevel { get; }
 Indicates a connected network has a new domain connectivity level.
 
 ## -property-value
-true if the connectivity level changed; otherwise, false.
+Returns `true` when the domain connectivity level changed; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [DomainConnectivityLevel](domainconnectivitylevel.md)

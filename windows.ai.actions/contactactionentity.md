@@ -12,7 +12,7 @@ public sealed class ContactActionEntity : Windows.AI.Actions.ActionEntity
 
 ## -description
 
-A subtype of [ActionEntity](actionentity.md) that represents a document.
+A subtype of [ActionEntity](actionentity.md) that represents a contact.
 
 ## -remarks
 

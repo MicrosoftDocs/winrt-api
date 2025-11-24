@@ -21,4 +21,4 @@ The type of a network.
 ## -examples
 
 ## -see-also
-[NetworkTypes](networktypes.md)
+

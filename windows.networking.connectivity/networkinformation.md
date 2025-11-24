@@ -16,8 +16,8 @@ Provides access to network connection information for the local machine.
 ## -remarks
 NetworkInformation provides static methods to query network connectivity state and monitor changes:
 
-* Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md) to get the current active connection profile (may return null if offline).
-* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_649346237.md) with a
+* Call [NetworkInformation.GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md) to get the current active connection profile (may return null if offline).
+* Call [NetworkInformation.FindConnectionProfilesAsync](networkinformation_findconnectionprofilesasync_358252851.md) with a
   [ConnectionProfileFilter](connectionprofilefilter.md) to enumerate additional profiles (for example, other WLAN interfaces,
   WWAN, or prior connections).
 * Subscribe to the [NetworkInformation.NetworkStatusChanged](networkinformation_networkstatuschanged.md) event to be notified when connectivity changes instead of polling.
@@ -27,7 +27,8 @@ detail objects ([WlanConnectionProfileDetails](wlanconnectionprofiledetails.md),
 [WwanConnectionProfileDetails](wwanconnectionprofiledetails.md)). Always re-query inside the status changed event handler
 because previously cached profile objects are not live-updating.
 
-For examples of how NetworkInformation class methods are implemented, see [Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)).
+For examples of how `NetworkInformation` class methods are implemented, see the
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
 
 Use this class to:
 
@@ -38,7 +39,7 @@ Use this class to:
 
 > [!IMPORTANT]
 > The network status reported by Windows APIs is only a hint - its accuracy may vary depending on the local network
-> topology and conditions. Apps should attempt to connect to their services whenever LocalAccess or higher connectivity
+> topology and conditions. Apps should attempt to connect to their services whenever `LocalAccess` or higher connectivity
 > is reported.
 
 For a complete implementation demonstrating these principles, see the 
@@ -47,19 +48,19 @@ For a complete implementation demonstrating these principles, see the
 ### Additional guidance
 
 * If your scenario depends on cost awareness (metered vs unrestricted), query
-  connectionCost = profile?.**GetConnectionCost** and check connectionCost.**NetworkCostType** before large background
+  `connectionCost = profile?.GetConnectionCost()` and check `connectionCost.NetworkCostType` before large background
   transfers.
 * For power efficiency, unsubscribe from events when your foreground component is not active.
-* Connectivity level can upgrade (for example from **ConstrainedInternetAccess** to **InternetAccess**) without the internet
-  profile reference changing. Re-check **GetNetworkConnectivityLevel** inside each event invocation.
+* Connectivity level can upgrade (for example from `ConstrainedInternetAccess` to `InternetAccess`) without the internet
+  profile reference changing. Re-check `GetNetworkConnectivityLevel` inside each event invocation.
 
 Event handling best practices:
 
 > [!IMPORTANT]
-> Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_1892430619.md) inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
+> Always re-query [GetInternetConnectionProfile](networkinformation_getinternetconnectionprofile_255647281.md) inside the event handler. Do not cache an old profile instance and assume it's updated automatically.
 
 * The event can fire frequently (for example, captive portal transitions, cost policy changes). Keep handlers lightweight and debounce expensive work.
-* If using background tasks with **NetworkStateChangeEventDetails**, inspect flags (**HasNewConnectionCost**, **HasNewNetworkConnectivityLevel**, **HasNewDomainConnectivityLevel**, etc.) to selectively re-query only what changed.
+* If using background tasks with `NetworkStateChangeEventDetails`, inspect flags (`HasNewConnectionCost`, `HasNewNetworkConnectivityLevel`, `HasNewDomainConnectivityLevel`, etc.) to selectively re-query only what changed.
 
 Related classic (Win32) technologies include Network List Manager (NLM / INetworkListManager) and Data Usage & Subscription
 Management (DUSM). Most UWP / WinRT apps should prefer NetworkInformation and ConnectionProfile over directly invoking
@@ -147,7 +148,8 @@ Enumerate all connected WLAN profiles (C++/WinRT):
 
 ```cpp
 #include <winrt/Windows.Networking.Connectivity.h>
-using namespace winrt; using namespace Windows::Networking::Connectivity;
+using namespace winrt;
+using namespace Windows::Networking::Connectivity;
 
 IAsyncAction ListWifiProfiles()
 {
@@ -171,7 +173,8 @@ Subscribe to network status change (C++/WinRT):
 ```cpp
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.Networking.Connectivity.h>
-using namespace winrt; using namespace Windows::Networking::Connectivity;
+using namespace winrt;
+using namespace Windows::Networking::Connectivity;
 
 struct NetworkWatcher
 {

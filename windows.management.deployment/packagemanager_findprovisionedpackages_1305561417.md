@@ -13,6 +13,8 @@ The list of all installed packages on the device.
 
 ## -remarks
 
+The caller of this method must have administrator privilege.
+
 ## -see-also
 
 [Package](/uwp/api/windows.applicationmodel.package)
