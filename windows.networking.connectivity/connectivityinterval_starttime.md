@@ -27,9 +27,6 @@ window's start; the returned duration will be truncated accordingly.
 > [!TIP]
 > When stitching results from overlapping queries, de-duplicate intervals by `StartTime`.
 
-> [!TIP]  
-> When stitching results from overlapping queries, de‑duplicate intervals by **StartTime**.
-
 ## -examples
 Enumerate recent interval start times (C#):
 
