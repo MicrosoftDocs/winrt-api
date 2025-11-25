@@ -10,6 +10,7 @@ Provides types and members you can use to access and manage Microsoft Store-rela
 
 > [!NOTE]
 > This namespace was introduced in Windows 10, version 1607, and it can only be used in projects that target **Windows 10 Anniversary Edition (10.0; Build 14393)** or a later release in Visual Studio. If your project targets an earlier version of Windows 10, you must use the [Windows.ApplicationModel.Store](../windows.applicationmodel.store/windows_applicationmodel_store.md) namespace instead of the Windows.Services.Store namespace. For more information, see [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials).
+> In-app purchase and in-app ratings functionalities are not currently supported in elevated applications.
 
 ## -remarks
 The [StoreContext](storecontext.md) class is the main entry point to the Windows.Services.Store namespace. Use members of this class to perform tasks such as getting Microsoft Store listing and license info for the current app, purchasing the current app or add-ons that are offered by the app, or downloading and installing package updates for the app. Other classes and types in this namespace represent items such as add-ons for the app, licenses for the app and its add-ons, and Microsoft Store listing info for the app.
