@@ -15,6 +15,9 @@ Requests the purchase of the product SKU and displays the UI that is used to com
 > [!IMPORTANT]
 > This method must be called on the UI thread.
 
+> [!IMPORTANT]
+> In-app purchase functionality is not supported in evelated applications.
+
 ## -parameters
 ### -param storePurchaseProperties
 An object that specifies additional info for the purchase request, including the product name to display to the user during the purchase.
