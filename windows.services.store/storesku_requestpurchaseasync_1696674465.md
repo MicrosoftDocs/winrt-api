@@ -14,7 +14,8 @@ Requests the purchase of the product SKU and displays the UI that is used to com
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.
-> [!Note]
+
+> [!NOTE]
 > In-app purchase functionality is not supported in evelated applications.
 
 ## -returns

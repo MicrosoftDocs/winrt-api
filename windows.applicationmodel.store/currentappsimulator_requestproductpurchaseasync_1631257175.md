@@ -12,7 +12,8 @@ public Windows.Foundation.IAsyncOperation<string> RequestProductPurchaseAsync(Sy
 ## -description
 > [!NOTE]
 > [RequestProductPurchaseAsync(String, Boolean) may be altered or unavailable for releases after Windows 8.1. Instead, use [RequestProductPurchaseAsync(String)](currentappsimulator_requestproductpurchaseasync_2091240017.md).
-> [!Note]
+
+> [!NOTE]
 > In-app purchase functionality is not supported in evelated applications.
 
 Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Microsoft Store.
