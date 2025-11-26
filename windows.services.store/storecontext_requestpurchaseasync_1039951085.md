@@ -15,7 +15,7 @@ Requests the purchase for the specified app or add-on and displays the UI that i
 > [!IMPORTANT]
 > This method must be called on the UI thread.
 
-> [!NOTE]
+> [!IMPORTANT]
 > In-app purchase functionality is not supported in evelated applications.
 
 ## -parameters

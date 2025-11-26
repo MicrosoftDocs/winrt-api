@@ -15,7 +15,7 @@ Requests the purchase of the default SKU and availability for the product and di
 > [!IMPORTANT]
 > This method must be called on the UI thread.
 
-> [!NOTE]
+> [!IMPORTANT]
 > In-app purchase functionality is not supported in evelated applications.
 
 ## -returns
