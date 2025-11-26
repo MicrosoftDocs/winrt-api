@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<string> RequestAppPurchaseAsync(System
 # Windows.ApplicationModel.Store.CurrentApp.RequestAppPurchaseAsync
 
 ## -description
+> [!Note]
+> In-app purchase functionality is not supported in evelated applications.
+
 Requests the purchase of a full app license.
 
 ## -parameters

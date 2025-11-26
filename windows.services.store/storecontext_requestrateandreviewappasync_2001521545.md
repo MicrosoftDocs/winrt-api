@@ -15,6 +15,8 @@ Requests the user to rate and review the app. This method will display the UI fo
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.
+> [!Note]
+> In-app rate and review functionality is not supported in evelated applications.
 
 ## -returns
 An asynchronous operation that, on successful completion, returns a [StoreRateAndReviewResult](storerateandreviewresult.md) object that provides status and error info.

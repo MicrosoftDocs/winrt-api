@@ -14,6 +14,8 @@ Requests the purchase of the current SKU availability and displays the UI that i
 
 > [!IMPORTANT]
 > This method must be called on the UI thread.
+> [!Note]
+> In-app purchase functionality is not supported in evelated applications.
 
 ## -returns
 An asynchronous operation that, on successful completion, returns a [StorePurchaseResult](storepurchaseresult.md) object that provides status and error info about the purchase.
