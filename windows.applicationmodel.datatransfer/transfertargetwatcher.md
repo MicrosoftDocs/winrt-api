@@ -38,6 +38,8 @@ The `TransferTargetWatcher` is a key component of the Transfer Target Platform A
 
 ## -examples
 
+For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Watcher Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTarget).
+
 #### Initializing and configuring a TransferTargetWatcher
 
 This code sample shows how to initialize and configure a `TransferTargetWatcher` to discover five app targets and manage them based on a provided data package. It also sets up event handlers to track the addition, removal, and updating of transfer targets, and to handle the completion of the enumeration process.

@@ -29,6 +29,8 @@ The `TransferTarget` class is part of the Transfer Target Platform API, which is
 
 ## -examples
 
+For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Watcher Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTarget).
+
 #### Example - Discovering and Invoking a Transfer Target
 
 ```csharp
