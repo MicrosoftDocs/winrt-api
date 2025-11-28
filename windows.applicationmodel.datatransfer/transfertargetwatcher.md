@@ -38,7 +38,7 @@ The `TransferTargetWatcher` is a key component of the Transfer Target Platform A
 
 ## -examples
 
-For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Watcher Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTargetWatcherAPI/).
+For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Watcher Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTarget).
 
 #### Initializing and configuring a TransferTargetWatcher
 
