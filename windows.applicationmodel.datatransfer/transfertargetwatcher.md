@@ -78,7 +78,13 @@ public class TransferTargetWatcherInitializer
         // Add a callback for the Removed event to handle removed transfer targets
         transferTargetWatcher.Removed += (sender, args) =>
         {
-            m_transferTargets.Remove(args.Target);
+            var removedId = args.Target.Id;
+            // Find the matching target by Id
+            var targetToRemove = m_transferTargets.FirstOrDefault(t => t.Id == removedId);
+            if (targetToRemove != null)
+            {
+                m_transferTargets.Remove(targetToRemove);
+            }
         };
 
         // Add a callback for the Updated event to handle updated transfer targets
