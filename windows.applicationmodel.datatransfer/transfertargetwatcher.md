@@ -148,7 +148,7 @@ This code sample demonstrates how to use properties of `TransferTarget` and invo
 
 ```csharp
 // Invoking a transfer target
-public async Task OnTargetButtonClick(TransferTarget target)
+public async Task OnTargetButtonClick(object sender, TransferTarget target)
 {
     if (m_transferTargetWatcher == null)
     {
