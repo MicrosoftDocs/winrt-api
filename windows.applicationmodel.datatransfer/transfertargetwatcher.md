@@ -38,7 +38,7 @@ The `TransferTargetWatcher` is a key component of the Transfer Target Platform A
 
 ## -examples
 
-For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Watcher Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTarget).
+For a complete sample demonstrating the use of the `TransferTargetWatcher` and related APIs, refer to the [Transfer Target Sample](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/TransferTarget).
 
 #### Initializing and configuring a TransferTargetWatcher
 
@@ -78,19 +78,26 @@ public class TransferTargetWatcherInitializer
         // Add a callback for the Removed event to handle removed transfer targets
         transferTargetWatcher.Removed += (sender, args) =>
         {
-            m_transferTargets.Remove(args.Target);
+            var removedId = args.Target.Id;
+            // Find the matching target by Id
+            var targetToRemove = m_transferTargets.FirstOrDefault(t => t.Id == removedId);
+            if (targetToRemove != null)
+            {
+                m_transferTargets.Remove(targetToRemove);
+            }
         };
 
         // Add a callback for the Updated event to handle updated transfer targets
         transferTargetWatcher.Updated += (sender, args) =>
         {
-            // Handle the update of targets to allow targets to change their display over time
+            // You can use the args.Target.Id to find the previously-added TransferTarget which is being updated.
         };
 
         // Add a callback for the EnumerationCompleted event to handle the completion of the enumeration process
         transferTargetWatcher.EnumerationCompleted += (sender, args) =>
         {
-            // The enumeration process has completed, and the application can now display the discovered transfer targets in the UI.
+            // A program may opt to delay showing the transfer targets
+            // until the initial enumeration has completed.
         };
 
         // Start the TransferTargetWatcher to begin discovering transfer targets
@@ -141,18 +148,15 @@ This code sample demonstrates how to use properties of `TransferTarget` and invo
 
 ```csharp
 // Invoking a transfer target
-public async Task OnTargetButtonClick(TransferTarget target)
+public async Task OnTargetButtonClick(object sender, TransferTarget target)
 {
     if (m_transferTargetWatcher == null)
     {
         throw new InvalidOperationException("TransferTargetWatcher is not initialized.");
     }
 
-    IntPtr handle = GetForegroundWindow();
-    WindowId windowId = WindowId.FromWindowHandle(handle);
-
-    var invokeOperation = m_transferTargetWatcher.TransferToAsync(target, windowId).AsTask();
-    var result = await invokeOperation;
+    var windowId = sender.XamlRoot.ContentIslandEnvironment.AppWindowId;
+    var result = await m_transferTargetWatcher.TransferToAsync(target, windowId);
 
     if (result.Succeeded)
     {
