@@ -20,4 +20,4 @@ The domain type of the [HostName](../windows.networking/hostname.md) object.
 ## -examples
 
 ## -see-also
-[DomainNameType](../windows.networking/domainnametype.md)
+

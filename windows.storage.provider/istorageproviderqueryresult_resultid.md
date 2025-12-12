@@ -11,11 +11,11 @@ public string ResultId { get; set; }
 
 ## -description
 
-A unique identifier for the query result that will be passed to the **SendFeedback** method
+Gets or sets a unique identifier for the query result that will be passed to the **ReportUsage** method.
 
 ## -property-value
 
-Gets or sets the unique identifier for the query result.
+The unique identifier for the query result.
 
 ## -remarks
 

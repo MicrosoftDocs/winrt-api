@@ -26,7 +26,7 @@ The states to monitor the geofence for.
 True indicates the geofence should be monitored only for one use. False indicates the geofence should be monitored for multiple uses.
 
 ### -param dwellTime
-The time that a position has to be in or out of the geofence in order for the notification to be triggered.This object must represent a positive value.
+The time that a position has to be in or out of the geofence in order for the notification to be triggered. This object must represent a positive value.
 
 ### -param startTime
 The time to start monitoring the geofence.
@@ -35,7 +35,7 @@ The time to start monitoring the geofence.
 The duration of time to monitor the geofence for. The duration begins at the *startTime*. This object must represent a positive value.
 
 ## -remarks
-You must specify the **Entered** or **Exited** states, or both, for a geofence to be monitored. It is not possible to create a geofence that only monitors the **Removed** state.
+You must specify the `MonitoredGeofenceStates.Entered` or `MonitoredGeofenceStates.Exited` flags, or both, for a geofence to be monitored. It is not possible to create a geofence that only monitors the `MonitoredGeofenceStates.Removed` flag.
 
 The *id* value must be non-null and less than 64 characters.
 
@@ -46,6 +46,8 @@ If the expiration date for the geofence - which is the start time plus the durat
 ## -examples
 
 ## -see-also
-[Geofencing, start to finish](/previous-versions/windows/apps/dn263199(v=win.10)), [Geofence(String, IGeoshape)](geofence_geofence_161909132.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md), [Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md)
+[Geofence(String, IGeoshape)](geofence_geofence_161909132.md),
+[Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean)](geofence_geofence_1541426940.md),
+[Geofence(String, IGeoshape, MonitoredGeofenceStates, Boolean, TimeSpan)](geofence_geofence_247731772.md)
 ## -capabilities
 location

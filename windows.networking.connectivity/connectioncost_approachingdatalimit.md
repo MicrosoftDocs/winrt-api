@@ -13,10 +13,11 @@ public bool ApproachingDataLimit { get; }
 Gets a value that indicates if a connection is approaching the data usage allowance specified by the data plan.
 
 ## -property-value
-TRUE if the connection profile is close to the data limit threshold; otherwise, FALSE.
+Returns `true` when the connection profile is close to the data limit threshold; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

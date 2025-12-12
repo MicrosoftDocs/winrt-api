@@ -11,7 +11,7 @@ public class ContentIndexer : Windows.Storage.Search.IContentIndexer, Windows.St
 
 ## -description
 
-Enables UWP apps to make private content searchable by using the system index.
+Enables Windows apps to make private content searchable by using the system index.
 
 ## -remarks
 

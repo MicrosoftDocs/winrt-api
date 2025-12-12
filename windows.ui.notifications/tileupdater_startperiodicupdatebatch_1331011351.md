@@ -28,8 +28,10 @@ The frequency with which the Uniform Resource Identifier (URI) is polled for new
 
 To use the notification queue, you must first enable it for your tile with this line of code:
 
-```javascript
-Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
+
+
+```csharp
+TileUpdateManager.CreateTileUpdaterForApplication().EnableNotificationQueue(true);
 ```
 
 This API only needs to be called once in your app's lifetime, but there is no harm in calling it each time the app launches.
@@ -70,3 +72,4 @@ For an example of a full implementation of periodic notifications used in conjun
 
 ## -see-also
 [StartPeriodicUpdateBatch(IIterable(Uri), DateTime, PeriodicUpdateRecurrence)](tileupdater_startperiodicupdatebatch_1807273799.md), [StartPeriodicUpdate](tileupdater_startperiodicupdate_1369986471.md), [How to set up periodic notifications for tiles](/previous-versions/windows/apps/hh761476(v=win.10)), [Guidelines and checklist for periodic notifications](/windows/uwp/controls-and-patterns/tiles-and-notifications-periodic-notification-overview), [Tile and tile notification overview](/previous-versions/windows/apps/hh779724(v=win.10))
+

@@ -11,11 +11,11 @@ public Windows.Foundation.Collections.PropertySet RequestedProperties { get; }
 
 ## -description
 
-Gets the properties that were requested in the query options.
+Gets the additional properties that were requested in [StorageProviderSearchQueryOptions.PropertiesToFetch](storageprovidersearchqueryoptions_propertiestofetch.md) for the search result.
 
 ## -property-value
 
-The properties that were requested in the query options.
+The additional properties that were requested for the search result.
 
 ## -remarks
 

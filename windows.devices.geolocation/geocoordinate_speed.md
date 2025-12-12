@@ -16,12 +16,11 @@ The speed in meters per second.
 The speed in meters per second.
 
 ## -remarks
-This optional property will be set if it is available. If the property is not available, the value will be **NULL** or **NaN** (depending on the operating system version). We recommend that your app checks for both of these possibilities.
+This optional property will be set if it is available. If the property is not available, the value will be `null` or `NaN` (depending on the operating system version). We recommend that your app checks for both of these possibilities.
 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 location

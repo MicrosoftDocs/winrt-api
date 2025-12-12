@@ -28,7 +28,7 @@ Some devices, such as Xbox, permit multiple users to sign in for a single intera
 
 Universal Windows Platform (UWP) app that access user information must declare the [userAccountInformation capability](/uwp/schemas/appxpackage/uapmanifestschema/element-uap-capability) ([Windows.System.UserDeviceAssociation.FindUserFromDeviceId](../windows.system/userdeviceassociation_finduserfromdeviceid_1383143459.md), [Windows.System.User.FindAllAsync](../windows.system/user_findallasync_1333355945.md) and [User.GetPropertiesAsync](../windows.system/user_getpropertiesasync_1952817514.md) can be used to get the data).
 
-When this capability is declared, users installing the app are prompted to allow access to their information. If the user permits the app to access the information, the app appears listed in the **Privacy** page of the Windows 10 Settings app (**Settings &gt; Privacy &gt; Account info**). 
+When this capability is declared, users installing the app are prompted to allow access to their information. If the user permits the app to access the information, the app appears listed in the **Privacy** page of Windows Settings (**Settings &gt; Privacy &gt; Account info**).
 
 ```csharp
 private async void OnKeyDown(object sender, KeyRoutedEventArgs e)
@@ -39,10 +39,7 @@ private async void OnKeyDown(object sender, KeyRoutedEventArgs e)
     (string)await user.GetPropertyAsync(KnownUserProperties.DisplayName);
   System.Diagnostics.Debug.WriteLine(displayName);
 }
-
 ```
-
-
 
 Sometimes, an [OnKeyDown](../windows.ui.xaml.controls/control_onkeydown_1048103922.md) event might not fire because the event was already handled by a control. In this case, call the [GetCurrentKeyEventDeviceId](../windows.ui.core/corewindow_getcurrentkeyeventdeviceid_498768106.md) method from the [KeyDown](../windows.ui.core/corewindow_keydown.md) handler of [CoreWindow](../windows.ui.core/corewindow.md), as shown here.
 

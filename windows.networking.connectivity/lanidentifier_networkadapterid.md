@@ -21,3 +21,4 @@ The adapter ID for the network adapter associated with the [LanIdentifier](lanid
 ## -examples
 
 ## -see-also
+

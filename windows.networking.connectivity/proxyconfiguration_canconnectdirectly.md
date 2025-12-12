@@ -10,17 +10,24 @@ public bool CanConnectDirectly { get; }
 # Windows.Networking.Connectivity.ProxyConfiguration.CanConnectDirectly
 
 ## -description
-Gets a value that indicates if this configuration can connect directly. 
+Gets a value that indicates whether this configuration can connect directly.
 
 ## -property-value
-TRUE if this configuration can connect directly; otherwise, FALSE.
+Returns `true` when this configuration can connect directly; otherwise, `false`.
 
 ## -remarks
-There may be cases where CanConnectDirectly returns **false**, yet it does not mean you cannot access the resource directly. A local network could be configured to have support for both a proxy and network address translation (NAT). The WPAD script used to supply proxy information to a web browser or [HttpClient](../windows.web.http/httpclient.md) tells Windows that it should use the proxy. But if you disregard the policy you can still go directly through NAT. This can cause problems when the remote endpoint is not expecting a connection from a proxy.
+There may be cases where `CanConnectDirectly` returns `false`, yet the resource remains reachable directly. A local
+network can support both a proxy and network address translation (NAT). The WPAD script used to supply proxy
+information to a web browser or [HttpClient](../windows.web.http/httpclient.md) tells Windows to use the proxy.
+Disregarding that policy and going directly through NAT can cause problems when the remote endpoint is not expecting a
+proxy-less connection.
 
-In a UWP app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote endpoint when proxies are required to complete the connection. This support for proxies is automatic and transparent to the app. For more detailed information, see the remarks on *Support for proxies* in the [StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
+In a UWP app, the [StreamSocket](../windows.networking.sockets/streamsocket.md) class supports connecting to a remote
+endpoint when proxies are required to complete the connection. This proxy support is automatic and transparent to the
+app. For more detailed information, see the remarks on *Support for proxies* in the
+[StreamSocket](../windows.networking.sockets/streamsocket.md) class reference.
 
 ## -examples
 
 ## -see-also
-[StreamSocket](../windows.networking.sockets/streamsocket.md)
+

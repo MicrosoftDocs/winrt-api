@@ -25,12 +25,12 @@ A Boolean value indicating whether the owning [GeolocationProvider](geolocationp
 
 ## -remarks
 
-See **Remarks** in [GeolocationProvider](geolocationprovider.md).
+See the remarks in [GeolocationProvider](geolocationprovider.md).
+
+## -examples
 
 ## -see-also
 [GeolocationProvider.IsOverriddenChanged](geolocationprovider_isoverriddenchanged.md)
-
-## -examples
 
 ## -capabilities
 runFullTrust

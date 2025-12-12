@@ -15,7 +15,7 @@ Returns the query results as an array of [IStorageProviderQueryResult](istoragep
 
 ## -returns
 
-An array of IStorageProviderQueryResult objects.
+An array of [IStorageProviderQueryResult](istorageproviderqueryresult.md) objects that represent the query results.
 
 ## -remarks
 

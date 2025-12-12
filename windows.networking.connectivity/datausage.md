@@ -16,9 +16,14 @@ public class DataUsage : Windows.Networking.Connectivity.IDataUsage
 Represents data usage information returned by the [ConnectionProfile.GetLocalUsage](connectionprofile_getlocalusage_2102872925.md) method.
 
 ## -remarks
-For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
+`DataUsage` values are available only when the platform implements `GetLocalUsage`. For Windows 10 and later you should
+prefer [ConnectionProfile.GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md), which returns
+richer [NetworkUsage](networkusage.md) data and supports per-app attribution.
+
+When `GetLocalUsage` succeeds, treat the result as a coarse aggregate for the requested time range. The reported bytes may
+lag behind real traffic and might not match the current metered plan counters exposed by the network operator.
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
+

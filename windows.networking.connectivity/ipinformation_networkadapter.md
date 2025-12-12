@@ -21,4 +21,5 @@ The associated network adapter.
 ## -examples
 
 ## -see-also
+
 [NetworkAdapter](networkadapter.md)

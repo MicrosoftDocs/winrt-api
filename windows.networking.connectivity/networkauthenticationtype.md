@@ -75,4 +75,5 @@ Specifies a Wi-Fi Protected Access (WPA) algorithm that uses pre-shared keys (PS
 ## -examples
 
 ## -see-also
+
 [NetworkAuthenticationType (Property)](networksecuritysettings_networkauthenticationtype.md)

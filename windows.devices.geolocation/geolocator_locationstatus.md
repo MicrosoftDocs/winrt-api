@@ -16,7 +16,7 @@ The status that indicates the ability of the [Geolocator](geolocator.md) to prov
 The status of the [Geolocator](geolocator.md).
 
 ## -remarks
-The **LocationStatus** property is updated dynamically only when a tracking session is active. Otherwise, it is either **NotInitialized** or **Disabled**.
+The `LocationStatus` property is updated dynamically only when a tracking session is active. Otherwise, it is either `NotInitialized` or `Disabled`.
 
 ## -examples
 

@@ -20,4 +20,5 @@ The network cost of the connection.
 ## -examples
 
 ## -see-also
+
 [NetworkCostType (enum)](networkcosttype.md)

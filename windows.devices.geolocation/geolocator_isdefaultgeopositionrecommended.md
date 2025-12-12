@@ -13,7 +13,7 @@ public bool IsDefaultGeopositionRecommended { get; }
 Indicates whether the user should be prompted to set a default location manually.
 
 ## -property-value
-**true** if the app would benefit from a manually-set location, **false** if a better option is available.
+`true` if the app would benefit from a manually-set location, `false` if a better option is available.
 
 ## -remarks
 

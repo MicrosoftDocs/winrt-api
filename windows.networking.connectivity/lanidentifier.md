@@ -11,14 +11,29 @@ public class LanIdentifier : Windows.Networking.Connectivity.ILanIdentifier
 # Windows.Networking.Connectivity.LanIdentifier
 
 ## -description
-Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. For a code example showing how to retrieve data represented by a LanIdentifier object, see [How to retrieve network adapter and locality information (XAML)](/previous-versions/windows/apps/hh465168(v=win.10)).
+Represents physical identification data for a specific [NetworkAdapter](networkadapter.md) object. Retrieve
+`LanIdentifier` instances through [NetworkInformation.GetLanIdentifiers](networkinformation_getlanidentifiers_1178330225.md).
 
 
 ## -remarks
 Location data is expressed either as a BSSID if the network adapter media type is Wireless LAN, or as a tuple &lt;ChassisId, Port Number&gt; if the network adapter type is Ethernet. The data is represented according to the LLDP protocol.
 
 ## -examples
+Enumerate LAN identifiers (C#):
 
-[How to retrieve network adapter and locality information (XAML)](/previous-versions/windows/apps/hh465168(v=win.10))
+```csharp
+using Windows.Networking.Connectivity;
+
+var identifiers = NetworkInformation.GetLanIdentifiers();
+foreach (var id in identifiers)
+{
+    var infra = id.InfrastructureId;
+    var port = id.PortId;
+    var type = id.NetworkAdapterId;
+    // App-specific: correlate infra/port values with diagnostics telemetry.
+}
+```
 
 ## -see-also
+
+[LanIdentifierData](lanidentifierdata.md)

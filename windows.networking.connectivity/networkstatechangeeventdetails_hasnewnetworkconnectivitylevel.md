@@ -13,11 +13,12 @@ public bool HasNewNetworkConnectivityLevel { get; }
 Indicates if the network connectivity level for any connection profiles has changed.
 
 ## -property-value
-true if the network connectivity level changed; otherwise, false.
+Returns `true` when the network connectivity level changed; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [NetworkConnectivityLevel](networkconnectivitylevel.md)

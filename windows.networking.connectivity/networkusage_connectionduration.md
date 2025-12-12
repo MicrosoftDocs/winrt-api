@@ -21,3 +21,4 @@ The period of time that represents the duration of connectivity.
 ## -examples
 
 ## -see-also
+

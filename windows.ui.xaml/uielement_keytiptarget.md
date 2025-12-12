@@ -10,17 +10,21 @@ public DependencyObject KeyTipTarget { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipTarget
 
 ## -description
-Gets or sets a value that indicates the element targeted by the access key Key Tip.
 
-
+Gets or sets a value that indicates the element targeted by the access key keytip.
 
 ## -property-value
-The element targeted by the Key Tip.
+
+The element targeted by the keytip.
 
 ## -remarks
-The [KeyTipPlacementMode](uielement_keytipplacementmode.md) property is used to specify the location of the access key Key Tip relative to the boundary of the targeted element.
+
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
+The [KeyTipPlacementMode](uielement_keytipplacementmode.md) property is used to specify the location of the access key keytip relative to the boundary of the targeted element.
 
 ## -examples
+
 In this example, we specify the access key for a Grid element, but we target the text heading of the Grid.
 
 ```xaml
@@ -44,5 +48,6 @@ In this example, we specify the access key for a Grid element, but we target the
 ```
 
 ## -see-also
-[KeyTipPlacementMode](uielement_keytipplacementmode.md)
+
+[Access keys](/windows/apps/design/input/access-keys), [KeyTipPlacementMode](uielement_keytipplacementmode.md)
 

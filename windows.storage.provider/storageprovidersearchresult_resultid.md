@@ -11,11 +11,11 @@ public string ResultId { get; set; }
 
 ## -description
 
-Gets or sets the result ID of the search result.
+Gets or sets a unique identifier for the search query result that will be passed to the [ReportUsage](istorageprovidersearchhandler_reportusage_1684874227.md) method.
 
 ## -property-value
 
-The result ID of the search result.
+The unique identifier for the search query result.
 
 ## -remarks
 

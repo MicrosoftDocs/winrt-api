@@ -13,10 +13,11 @@ public bool BackgroundDataUsageRestricted { get; }
 Gets a value that indicates whether background data usage has been restricted.
 
 ## -property-value
-True if background data usage is restricted.
+Returns `true` when background data usage is restricted; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+

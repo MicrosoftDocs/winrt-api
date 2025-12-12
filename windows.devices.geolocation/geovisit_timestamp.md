@@ -17,10 +17,9 @@ A [DateTime](/uwp/api/windows.foundation.datetime) instance representing the tim
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

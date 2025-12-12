@@ -11,11 +11,11 @@ public Windows.Storage.Provider.StorageProviderSearchQueryStatus Status { get; s
 
 ## -description
 
-The status of the search operation.
+The status of the query operation.
 
 ## -property-value
 
-Gets or sets the [StorageProviderSearchQueryStatus](storageprovidersearchquerystatus.md) of the search operation.
+Gets or sets the [StorageProviderSearchQueryStatus](storageprovidersearchquerystatus.md) of the query operation.
 
 ## -remarks
 

@@ -11,8 +11,16 @@ Retrieves connection profiles that provide connectivity, usage, and data plan in
 
 ## -remarks
 
+Use this namespace to assess connectivity across WLAN, WWAN, and Ethernet interfaces, read cost and data plan metadata,
+and react to network state changes. Key entry points include:
+
+- [NetworkInformation](networkinformation.md) for discovering active and historical connection profiles and subscribing to status changes.
+- [ConnectionProfile](connectionprofile.md) for inspecting cost, adapter, and plan details on a specific interface.
+- [ConnectionCost](connectioncost.md) and [DataPlanStatus](dataplanstatus.md) for making cost-aware decisions before transferring data.
+
 ## -examples
 
 ## -see-also
 
-[Quickstart: Retrieving network connection information](/previous-versions/windows/apps/hh452990(v=win.10)), [Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10)), [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)), [RSS reader end-to-end (JavaScript) sample](https://github.com/microsoft/Windows-universal-samples/tree/main/archived/FeedReader)
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
+[NetworkCostType](networkcosttype.md)

@@ -18,4 +18,5 @@ The ConnectionSession class is used to represent a connection to an access point
 ## -examples
 
 ## -see-also
-[AcquireConnectionAsync](connectivitymanager_acquireconnectionasync_1960335865.md), [IClosable](../windows.foundation/iclosable.md)
+
+[IClosable](../windows.foundation/iclosable.md)

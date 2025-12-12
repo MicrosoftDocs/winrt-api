@@ -14,14 +14,13 @@ Begins monitoring for Visit-related events.
 
 ## -parameters
 ### -param value
-A [VisitMonitoringScope](VisitMonitoringScope.md) value representing the desired scope of location changes to monitor.
+A [VisitMonitoringScope](visitmonitoringscope.md) value representing the desired scope of location changes to monitor.
 
 ## -remarks
 
-## -see-also
-
 ## -examples
 
+## -see-also
 
 ## -capabilities
 location

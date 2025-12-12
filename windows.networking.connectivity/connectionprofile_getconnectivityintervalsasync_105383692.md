@@ -10,7 +10,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Foundation.Collections.IVector
 # Windows.Networking.Connectivity.ConnectionProfile.GetConnectivityIntervalsAsync
 
 ## -description
-Gets a list of [ConnectivityInterval](connectivityinterval.md) objects, which indicate the timestamp for when the network connection began, and a time-span for the duration of that connection.
+Retrieves connectivity intervals (start timestamp plus duration) for this profile within the specified time window.
 
 ## -parameters
 ### -param startTime
@@ -23,11 +23,35 @@ The end time over which to retrieve data.
 The state of the connection profile for which usage data should be returned.
 
 ## -returns
-When the method completes, it returns a list of [ConnectivityInterval](connectivityinterval.md) objects, which indicate the start time and duration for the current or prior connections.
+A list of [ConnectivityInterval](connectivityinterval.md) objects, each providing the connection start time and its duration.
 
 ## -remarks
-For an example of how these methods are used, see [How to retrieve connection usage data for a specific period of time](/previous-versions/windows/apps/hh465162(v=win.10))
+### Usage considerations
+* Correlate with [GetNetworkUsageAsync](connectionprofile_getnetworkusageasync_665790436.md) for volume metrics. Intervals represent presence; usage tracks bytes.
+* Align start/end times to reporting boundaries. Leading or trailing partial intervals are returned when the window cuts through an active connection.
+* Empty result = no connectivity recorded in the window (not an error).
+* Poll no more frequently than needed (typical aggregation windows: ≥ 15 minutes). Very fine polling wastes power.
+* Utilization: Sum `ConnectionDuration` across intervals; divide by total wall-clock span to derive connected ratio. Overlay usage data to compute bytes per connected minute.
+* Historical limits (≤ 60 days) mirror usage API limits. Partition longer look-backs into allowed segments.
+
+> [!NOTE]
+> For incremental collection, persist the end of the last fully closed interval boundary and resume from there to avoid recounting a still-active interval.
 
 ## -examples
+Example pattern (C#):
+
+```csharp
+var profile = Windows.Networking.Connectivity.NetworkInformation.GetInternetConnectionProfile();
+if (profile != null)
+{
+    var end = DateTime.UtcNow;
+    var start = end - TimeSpan.FromHours(24);
+    var states = new Windows.Networking.Connectivity.NetworkUsageStates();
+    var intervals = await profile.GetConnectivityIntervalsAsync(start, end, states);
+    double connectedMinutes = intervals.Sum(i => i.ConnectionDuration.TotalMinutes);
+    // Optionally fetch usage and compute bytes per connected minute
+}
+```
 
 ## -see-also
+

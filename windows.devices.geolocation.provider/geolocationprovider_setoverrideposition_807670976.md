@@ -35,17 +35,17 @@ The accuracy of the override position, in meters.
 
 ## -returns
 
-A status indicating the result of the call.
+Returns [LocationOverrideStatus](locationoverridestatus.md), which indicates whether the override was applied. The method returns `LocationOverrideStatus.Success` when the platform accepts the new position; values such as `LocationOverrideStatus.AccessDenied` or `LocationOverrideStatus.AlreadyStarted` indicate the request was rejected.
 
 ## -remarks
 
-See **Remarks** in [GeolocationProvider](geolocationprovider.md).
+See the remarks in [GeolocationProvider](geolocationprovider.md).
+
+## -examples
 
 ## -see-also
 
 [GeolocationProvider.ClearOverridePosition](geolocationprovider_clearoverrideposition_399430586.md)
-
-## -examples
 
 ## -capabilities
 runFullTrust

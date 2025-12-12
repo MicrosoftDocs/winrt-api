@@ -13,8 +13,12 @@ public bool Roaming { get; }
 Gets a value that indicates whether the connection is connected to a network outside of the home provider.
 
 ## -property-value
-TRUE if the connection on a roaming network; otherwise, FALSE.
+Returns `true` when the connection is roaming on a network outside the home provider; otherwise, `false`.
+
+## -remarks
+
 
 ## -examples
 
 ## -see-also
+

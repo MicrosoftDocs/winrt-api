@@ -26,7 +26,8 @@ Supported values for the *attributeNames* parameter are potentially endless. The
 * AppVer  
 * DeviceFamily  
 * FlightRing  
-* OSVersionFull  
+* OSVersionFull
+* n:TriggeredFlightIds
 
 The intention of this method is to use this information only for analytics and not rely on a particular value on the client. Support for these values will change over time.
 

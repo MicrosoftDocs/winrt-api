@@ -14,9 +14,30 @@ public class DataPlanUsage : Windows.Networking.Connectivity.IDataPlanUsage
 Represents data plan specific data usage information for a connection.
 
 ## -remarks
-For more information on using cost data to manage connectivity, see [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10)).
+Retrieve this object from [ConnectionProfile.GetDataPlanStatus](connectionprofile_getdataplanstatus_2024938217.md). The
+reported values reflect data that the operator exposes to Windows and can lag behind real-time traffic. Treat the
+numbers as guidance instead of an absolute truth when deciding whether to throttle transfers.
+
+> [!IMPORTANT]
+> `DataPlanUsage` can be `null` even when `DataPlanStatus` is present. Guard for a missing value before reading
+> `MegabytesUsed` to avoid null reference exceptions.
 
 ## -examples
+Check monthly usage (C#):
+
+```csharp
+using Windows.Networking.Connectivity;
+
+var profile = NetworkInformation.GetInternetConnectionProfile();
+var status = profile?.GetDataPlanStatus();
+var usage = status?.DataPlanUsage;
+if (usage != null)
+{
+    // App-specific: compare usage.MegabytesUsed against your alert threshold.
+}
+```
 
 ## -see-also
-[Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
+
+[DataPlanStatus](dataplanstatus.md),
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity)

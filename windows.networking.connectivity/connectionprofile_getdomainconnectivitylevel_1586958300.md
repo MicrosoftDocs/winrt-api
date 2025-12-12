@@ -20,4 +20,4 @@ A value indicating the authentication status for a connection to a network domai
 ## -examples
 
 ## -see-also
-[DomainConnectivityLevel](domainconnectivitylevel.md)
+

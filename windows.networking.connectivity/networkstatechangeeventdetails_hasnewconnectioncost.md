@@ -13,11 +13,12 @@ public bool HasNewConnectionCost { get; }
 Indicates if a connected network has a new connection cost.
 
 ## -property-value
-true if there is a new connection cost; otherwise, false.
+Returns `true` when the connection cost may have changed; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
 [NetworkCostType](networkcosttype.md)

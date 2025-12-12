@@ -10,16 +10,63 @@ public class HostName : Windows.Foundation.IStringable, Windows.Networking.IHost
 # Windows.Networking.HostName
 
 ## -description
-Provides data for a hostname or an IP address.
+Represents a host name or IP address (domain, IPv4, IPv6, or Bluetooth) used by Windows networking APIs.
 
 ## -remarks
-The HostName class is used to initialize and provide data for a hostname used in network apps. A HostName object can be used for a local hostname or a remote hostname used to establish a network connection.
+### Purpose
+Encapsulates a network host identifier (domain, literal IP, or Bluetooth address) for use by higher-level APIs (sockets, connectivity queries, Wi‑Fi Direct).
 
-The HostName object is used by many classes in other related namespaces for network apps. These include the following:
+### Types
+`[Type](hostname_type.md)` distinguishes:
+| Type | Example |
+| -- | -- |
+| DomainName | www.contoso.com |
+| Ipv4 | 192.168.1.1 |
+| Ipv6 | 2001:db8::1 |
+| Bluetooth | 12:34:56:78:9A:BC |
 
-+ Many classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace using sockets. Methods on the [DatagramSocket](../windows.networking.sockets/datagramsocket.md) and [StreamSocket](../windows.networking.sockets/streamsocket.md) classes can be used to establish network connections and transfer data to a remote HostName object.
-+ The [NetworkInformation](../windows.networking.connectivity/networkinformation.md) class in the [Windows.Networking.Connectivity](../windows.networking.connectivity/windows_networking_connectivity.md) namespace.
-The following example creates a HostName and then tries to connect to the HostName using a [StreamSocket](../windows.networking.sockets/streamsocket.md).
+### Key properties
+| Property | Meaning |
+| -- | -- |
+| [RawName](hostname_rawname.md) | Original input string |
+| [DisplayName](hostname_displayname.md) | Friendly / formatted representation |
+| [CanonicalName](hostname_canonicalname.md) | Normalized form (useful for comparisons / logging) |
+| [IPInformation](hostname_ipinformation.md) | Interface/IP metadata when bound to a local address |
+
+### Usage patterns
+| Scenario | Guidance |
+| -- | -- |
+| Socket connect | Pass a `HostName` plus service name to `StreamSocket.ConnectAsync` / `DatagramSocket.ConnectAsync` |
+| Endpoint pairing | Combine in an [EndpointPair](endpointpair.md) for local/remote mapping |
+| Local enumeration | Use [NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_1238522689.md) |
+
+### Creation
+```csharp
+var domain  = new HostName("www.contoso.com");
+var ipv4    = new HostName("192.168.1.1");
+var ipv6    = new HostName("2001:db8::1");
+```
+
+### Comparison
+Use [IsEqual](hostname_isequal_1366077980.md) instead of string comparison (canonicalization & type awareness).
+
+### Best practices
+- Validate expected `Type` before use (e.g., require literal IP vs domain if policy demands).
+- Prefer domain names over hard-coded IPs to benefit from DNS / load balancing.
+- Cache resolution results only briefly; allow the platform to re-resolve for failover.
+
+### Security considerations
+- Never assume a domain resolves to the same IP indefinitely; re-resolve for long-lived sessions as appropriate.
+- Log canonical + raw forms for diagnostics, excluding user-entered sensitive hostnames if privacy policy restricts.
+
+> [!NOTE]  
+> A `HostName` does not perform DNS resolution until used by an API that needs an address.
+
+
+## -examples
+
+The following example creates a [HostName](hostname.md) and then tries to connect to the [HostName](hostname.md) using a 
+[StreamSocket](../windows.networking.sockets/streamsocket.md).
 
 ```csharp
 using Windows.Networking;
@@ -58,10 +105,14 @@ StreamSocket^ clientSocket = ref new StreamSocket();
 clientSocket->ConnectAsync(serverHost, "http");
 ```
 
-## -examples
-
 ## -see-also
-[DatagramSocket](../windows.networking.sockets/datagramsocket.md), [EndpointPair](endpointpair.md), [IStringable](../windows.foundation/istringable.md), [NetworkInformation](../windows.networking.connectivity/networkinformation.md), [StreamSocket](../windows.networking.sockets/streamsocket.md), [Windows.Networking](windows_networking.md), [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md)
+[EndpointPair](endpointpair.md),
+[IPInformation](../windows.networking.connectivity/ipinformation.md),
+[NetworkInformation](../windows.networking.connectivity/networkinformation.md),
+[NetworkInformation.GetHostNames](../windows.networking.connectivity/networkinformation_gethostnames_1238522689.md),
+[DatagramSocket](../windows.networking.sockets/datagramsocket.md),
+[StreamSocket](../windows.networking.sockets/streamsocket.md),
+[Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md)
 
 ## -capabilities
 internetClient, privateNetworkClientServer

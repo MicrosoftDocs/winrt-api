@@ -27,15 +27,24 @@ This value is an indication that the connection is constrained, possibly due to 
 This level of connectivity (limited internet access) is generally encountered when using connections hosted in public locations (for example, coffee shops and book stores).
 
 > [!NOTE]
-> As mentioned, this doesn't necessarily mean that a captive portal has been detected. You should also test whether the captive portal can be reached by using a URL for the captive portal, or by attempting access to a public web site, which will then redirect to the captive portal when Windows reports **LocalAccess** as the current NetworkConnectivityLevel.
+> As mentioned, this doesn't necessarily mean that a captive portal has been detected. You should also test whether the captive portal can be reached by using a URL for the captive portal, or by attempting access to a public web site, which will then redirect to the captive portal when Windows reports `LocalAccess` as the current `NetworkConnectivityLevel`.
 
 ### -field InternetAccess:3
 Local and internet access.
 
 ## -remarks
-For an example of how these values are used to indicate connection changes, see [Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10)).
+
+> [!IMPORTANT]
+> The network status reported by Windows APIs is only a hint - its accuracy may vary depending on the local network
+> topology and conditions. Apps should attempt to connect to their services whenever `LocalAccess` or higher connectivity
+> is reported.
+
+For a complete implementation demonstrating connection attempts with any level of local connectivity, see the 
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity).
 
 ## -examples
 
 ## -see-also
-[Quickstart: Managing connection events and changes in availability](/previous-versions/windows/apps/hh700376(v=win.10))
+
+[NetworkConnectivity sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/NetworkConnectivity),
+[NetworkInformation](networkinformation.md)

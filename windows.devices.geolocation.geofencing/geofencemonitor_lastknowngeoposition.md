@@ -16,7 +16,7 @@ Last reading of the device's location.
 Last reading of the device's location.
 
 ## -remarks
-Before using the value from this property, the application must first check that the value is not **NULL**.
+Before using the value from this property, the application must first check that the value is not `null`.
 
 ## -examples
 

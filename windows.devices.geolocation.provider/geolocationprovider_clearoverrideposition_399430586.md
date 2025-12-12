@@ -21,12 +21,12 @@ Clears (or resets) an override position that was set previously by a call to [Ge
 
 ## -remarks
 
-See **Remarks** in [GeolocationProvider](geolocationprovider.md).
+See the remarks in [GeolocationProvider](geolocationprovider.md).
+
+## -examples
 
 ## -see-also
 [GeolocationProvider.SetOverridePosition](geolocationprovider_setoverrideposition_807670976.md)
-
-## -examples
 
 ## -capabilities
 runFullTrust

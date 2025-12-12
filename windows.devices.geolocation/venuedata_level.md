@@ -16,9 +16,7 @@ Gets the identifier (ID) of the building level.
 The identifier (ID) of the building level.
 
 ## -remarks
-The **Level** property value and string format is determined by the data provider.
-
-
+The `Level` property value and string format is determined by the data provider.
 
 > [!NOTE]
 > This property is equivalent to the name of a floor in a Bing venue map.

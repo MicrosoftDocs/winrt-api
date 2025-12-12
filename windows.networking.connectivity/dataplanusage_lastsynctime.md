@@ -14,7 +14,7 @@ public Windows.Foundation.DateTime LastSyncTime { get; }
 Gets a [DateTime](../windows.foundation/datetime.md) object indicating the date and time when the [MegabytesUsed](dataplanusage_megabytesused.md) property was last updated.
 
 ## -property-value
-The date and time when the **MegabytesUsed** property was last updated.
+The date and time when the `MegabytesUsed` property was last updated.
 
 ## -remarks
 
@@ -22,3 +22,4 @@ The date and time when the **MegabytesUsed** property was last updated.
 ## -examples
 
 ## -see-also
+

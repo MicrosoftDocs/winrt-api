@@ -27,7 +27,7 @@ When an onlooker is detected the screen will dim and a windows notification will
 ## -remarks
 The action taken on onlooker detection can be disabled through the top level toggle for this feature. 
 
-The user can specify their preferred onlooker detection behavior in the System settings (see [Launch the Windows Settings app](/windows/uwp/launch-resume/launch-settings-app#system)).
+The user can specify their preferred onlooker detection behavior in the System settings (see [Launch Windows Settings](/windows/apps/develop/launch/launch-settings#system)).
 
 ## -see-also
 

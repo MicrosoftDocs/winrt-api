@@ -10,9 +10,8 @@ public double KeyTipVerticalOffset { get;  set; }
 # Windows.UI.Xaml.UIElement.KeyTipVerticalOffset
 
 ## -description
-Gets or sets a value that indicates how far up or down the Key Tip is placed in relation to the UI element.
 
-
+Gets or sets a value that indicates how far up or down the keytip is placed in relation to the UI element.
 
 ## -xaml-syntax
 ```xaml
@@ -20,11 +19,15 @@ Gets or sets a value that indicates how far up or down the Key Tip is placed in 
 ```
 
 ## -property-value
-The number of pixels to move the Key Tip. Positive values move it down. Negative values move it up.
+
+The number of pixels to move the keytip. Positive values move it down. Negative values move it up.
 
 ## -remarks
 
+Keytips are badges displayed next to controls that support access keys when the user presses the Alt key. Each keytip contains the alphanumeric keys that activate the associated control.
+
 ## -see-also
 
-## -examples
+[Access keys](/windows/apps/design/input/access-keys)
 
+## -examples

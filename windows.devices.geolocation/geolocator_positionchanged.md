@@ -21,7 +21,10 @@ You can access information about the event with the [PositionChangedEventArgs](p
 ## -examples
 
 ## -see-also
-[Get current location](/windows/uwp/maps-and-location/get-location), [Get current location](/windows/uwp/maps-and-location/get-location), [Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence), [PositionChangedEventArgs](positionchangedeventargs.md), [geolocation sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Geolocation)
+[Geolocation sample](https://github.com/microsoft/Windows-universal-samples/tree/main/Samples/Geolocation),
+[Get current location](/windows/uwp/maps-and-location/get-location),
+[PositionChangedEventArgs](positionchangedeventargs.md),
+[Set up a geofence](/windows/uwp/maps-and-location/set-up-a-geofence)
 
 ## -capabilities
 location

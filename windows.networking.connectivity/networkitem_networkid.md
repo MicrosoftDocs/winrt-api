@@ -17,8 +17,9 @@ Gets the network ID.
 The network ID.
 
 ## -remarks
-This value can be used to retrieve the unique ID of a network if [NetworkTypes](networktypes.md) is **Private**.
+This value can be used to retrieve the unique ID of a network if [NetworkTypes](networktypes.md) is `Private`.
 
 ## -examples
 
 ## -see-also
+

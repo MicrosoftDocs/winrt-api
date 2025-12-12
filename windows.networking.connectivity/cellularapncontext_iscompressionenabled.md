@@ -13,10 +13,11 @@ public bool IsCompressionEnabled { get;  set; }
 Indicates if data compression will be used at the data link for header and data transfer.
 
 ## -property-value
-A Boolean value. TRUE if enabled; otherwise FALSE.
+Returns `true` when compression is enabled; otherwise, `false`.
 
 ## -remarks
 
 ## -examples
 
 ## -see-also
+
