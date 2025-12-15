@@ -25,6 +25,23 @@ After you call GetAppAndOptionalStorePackageUpdatesAsync to determine which pack
 > [!IMPORTANT]
 > Optional packages and downloadable content (DLC) packages are not available to all developer accounts.
 
+## Update availability
+
+The time before this method detects a newly published update can vary. Most updates appear within a few hours, but some publishing and distribution steps may take longer to finish in certain cases. Because of this variability, the maximum detection time can reach up to a day.
+
+After you certify and publish an app update in Partner Center, the update goes through a short propagation period before this method can recognize it. During this period, the update may not appear immediately.
+
+### Detection frequency
+
+This API limits how often it checks for new updates. When an app calls the method more frequently than the allowed rate, the method returns the last known status instead of performing a new check.
+
+The current limits are:
+
+- No more than one check every 30 minutes.
+- No more than ten checks within any 24-hour period.
+
+If an app exceeds these limits, the method continues returning the previous status until the applicable time window passes.
+
 ## -examples
 
 ## -see-also
