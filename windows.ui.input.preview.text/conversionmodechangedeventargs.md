@@ -35,34 +35,3 @@ The conversion mode determines how keyboard input is processed and converted by 
 [NewConversionMode](conversionmodechangedeventargs_newconversionmode.md), [KeyboardInputProcessor.ConversionModeChanged](keyboardinputprocessor_conversionmodechanged.md)
 
 ## -examples
-
-```cpp
-// Example with KeyboardInputProcessor
-keyboardIme.ConversionModeChanged(auto_revoke, [](const KeyboardInputProcessor& sender, const ConversionModeChangedEventArgs& args) {
-    TextConversionMode newMode = args.NewConversionMode();
-    
-    // Update IME UI or behavior based on the new conversion mode
-    switch (newMode)
-    {
-        case TextConversionMode::NativeHalfWidth:
-            // Handle native half-width character mode
-            break;
-        case TextConversionMode::AlphanumericHalfWidth:
-            // Handle alphanumeric half-width character mode
-            break;
-        default:
-            // Handle other conversion modes
-            break;
-    }
-});
-
-// Example with TextInputProvider
-textInputProvider.ConversionModeChanged(auto_revoke, [](const TextInputProvider& sender, const ConversionModeChangedEventArgs& args) {
-    TextConversionMode newMode = args.NewConversionMode();
-    
-    // Adjust text input provider behavior based on conversion mode
-    printf("Conversion mode changed to: %d\n", static_cast<int>(newMode));
-});
-```
-
-

@@ -41,27 +41,3 @@ The conversion mode change can occur due to:
 [ConversionModeChangedEventArgs](conversionmodechangedeventargs.md), [TextConversionMode](textconversionmode.md), [KeyboardInputProcessor](keyboardinputprocessor.md), [TextInputProvider](textinputprovider.md)
 
 ## -examples
-
-```cpp
-// Subscribe to conversion mode changes in a KeyboardInputProcessor
-keyboardIme.ConversionModeChanged(auto_revoke, [](const KeyboardInputProcessor& sender, const ConversionModeChangedEventArgs& args) {
-    // Get the new conversion mode
-    TextConversionMode newMode = args.NewConversionMode();
-    
-    // Update IME behavior based on the new conversion mode
-    switch (newMode)
-    {
-        case TextConversionMode::NativeHalfWidth:
-            // Configure IME for native half-width character input
-            break;
-        case TextConversionMode::AlphanumericHalfWidth:
-            // Configure IME for alphanumeric half-width character input
-            break;
-        default:
-            // Handle other conversion modes
-            break;
-    }
-});
-```
-
-
