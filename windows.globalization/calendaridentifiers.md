@@ -27,7 +27,7 @@ Contains the calendar identifiers for the supported calendars, as static propert
 
 ## -examples
 
-The following example shows how to specify a [Calendar](calendar.md) system using the [ChangeCalendarSystem](changecalendarsystem.md) method.
+The following example shows how to specify a [Calendar](calendar.md) system using the [ChangeCalendarSystem](calendar_changecalendarsystem_1371050862.md) method.
 
 ```
 winrt::Windows::Globalization::Calendar calendar;
