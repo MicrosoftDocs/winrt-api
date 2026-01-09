@@ -74,7 +74,7 @@ Animations will support this.FinalValue keyword as a valid keyword to signify th
 
 ImplicitAnimationCollection lets you add triggers which implicit animation will monitor for changes and kick off related animations as provided by the developer. ImplicitAnimationCollection supports all Visual animatable properties which are also used as target properties for animations. Target has to be defined on the animation or it will throw an exception.
 
-```
+```csharp
 
 implicitAnimationCollection["Offset"] = offsetAnimationGroup;            
             
@@ -82,7 +82,7 @@ implicitAnimationCollection["Offset"] = offsetAnimationGroup;
 
 [CompositionAnimationGroup](compositionanimationgroup.md) contains a list of [CompositionAnimation](compositionanimation.md) where they can be triggered as a single logical unit. Each [CompositionAnimation](compositionanimation.md) in the group should have the target property set.
 
-```
+```csharp
 
 CompositionAnimationGroup.Add(opacityKeyFrameAnimation);
 CompositionAnimationGroup.Insert(sizeKeyFrameAnimation);
