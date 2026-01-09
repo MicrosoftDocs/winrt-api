@@ -76,7 +76,7 @@ ImplicitAnimationCollection lets you add triggers which implicit animation will 
 
 ```
 
-implicitAnimationCollection[“Offset”] = offsetAnimationGroup;            
+implicitAnimationCollection["Offset"] = offsetAnimationGroup;            
             
 ```
 
@@ -132,7 +132,7 @@ class PropertyAnimation
     Vector3KeyFrameAnimation animation = compositor.CreateVector3KeyFrameAnimation(); 
     animation.InsertExpressionKeyFrame(0f, "this.StartingValue"); 
     animation.InsertExpressionKeyFrame(1f, "this.FinalValue"); 
-    animation.Target = “Offset”; 
+    animation.Target = "Offset"; 
     animation.Duration = TimeSpan.FromSeconds(0.25); 
     return animation; 
   } 
