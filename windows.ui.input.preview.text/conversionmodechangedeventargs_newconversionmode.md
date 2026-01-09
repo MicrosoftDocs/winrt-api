@@ -1,6 +1,7 @@
 ---
 -api-id: P:Windows.UI.Input.Preview.Text.ConversionModeChangedEventArgs.NewConversionMode
 -api-type: winrt property
+prerelease: true
 ---
 
 # Windows.UI.Input.Preview.Text.ConversionModeChangedEventArgs.NewConversionMode
