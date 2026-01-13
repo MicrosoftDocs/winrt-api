@@ -51,7 +51,7 @@ When constructing the mathematical equation, there are a number of different com
 
 
 + Operators, Precedence and Associativity
-   + The Expression string supports usage of typical mathematical operators (+, -, /, , etc.) you would expect to use in any equation.
+   + The Expression string supports usage of typical mathematical operators (+, -, /, *, etc.) you would expect to use in any equation.
    + When the expression is evaluated, it will adhere to operator precedence and associativity as defined in the C# language specification.
 
 + Property Parameters
@@ -64,7 +64,7 @@ When constructing the mathematical equation, there are a number of different com
    + A list of the functions per type is listed further below
 
 + Keywords
-   + The Expression also can take advantage of a number of keywords that are treated differently when the Expression String Is evaluated. Consider these keywords and cannot be used as a string key in property references.
+   + The Expression can also take advantage of a number of keywords that are treated differently when the Expression String is evaluated. These keywords cannot be used as a string key in property references.
    + List of available keywords listed further below
 
 + Conditionals
