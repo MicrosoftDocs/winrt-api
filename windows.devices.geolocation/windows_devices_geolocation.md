@@ -56,6 +56,13 @@ choosing accuracy settings:
 - Use [PositionAccuracy.High](positionaccuracy.md) only when precise location is required.
 - Respect user privacy preferences and handle denied permissions gracefully.
 
+### Service throttling and diagnostics
+
+> [!IMPORTANT]
+> Microsoft's location web service (Orion) may throttle Geolocation API requests according to service policy. This throttling applies to both single-shot and periodic location requests. When throttling occurs, the API continues to return normal values without indicating throttled status. To confirm whether requests are being throttled, you can check the Windows Event Logs.
+
+To detect throttling, open **Event Viewer** > **Applications and Services Logs** > **Microsoft** > **Windows** > **LocationServiceProvider** > **Operational**, then filter for Event ID 320 (message format: "HTTP [status] for report type [value]"). The status code indicates the HTTP response from the Orion service, and the report type value identifies the workload (1 = location API, 2 = tile API).
+
 ## -examples
 
 Sample applications that use classes from this namespace include the
