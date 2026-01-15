@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<string> RequestProductPurchaseAsync(Sy
 # Windows.ApplicationModel.Store.CurrentAppSimulator.RequestProductPurchaseAsync
 
 ## -description
+> [!IMPORTANT]
+> In-app purchase functionality is not supported in evelated applications.
+
 > [!NOTE]
 > [RequestProductPurchaseAsync(String, Boolean) may be altered or unavailable for releases after Windows 8.1. Instead, use [RequestProductPurchaseAsync(String)](currentappsimulator_requestproductpurchaseasync_2091240017.md).
 

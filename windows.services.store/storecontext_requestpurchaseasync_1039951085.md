@@ -15,6 +15,9 @@ Requests the purchase for the specified app or add-on and displays the UI that i
 > [!IMPORTANT]
 > This method must be called on the UI thread.
 
+> [!IMPORTANT]
+> In-app purchase functionality is not supported in evelated applications.
+
 ## -parameters
 ### -param storeId
 The Store ID of the app or the add-on that you want to purchase for the current user.

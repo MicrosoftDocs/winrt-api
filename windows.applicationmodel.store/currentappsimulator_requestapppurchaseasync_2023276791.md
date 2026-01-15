@@ -10,6 +10,9 @@ public Windows.Foundation.IAsyncOperation<string> RequestAppPurchaseAsync(System
 # Windows.ApplicationModel.Store.CurrentAppSimulator.RequestAppPurchaseAsync
 
 ## -description
+> [!IMPORTANT]
+> In-app purchase functionality is not supported in evelated applications.
+
 Creates the async operation that simulates a user request to buy a full license for the current app.
 
 ## -parameters
