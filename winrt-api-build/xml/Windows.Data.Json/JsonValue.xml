@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Type Name="JsonValue" FullName="Windows.Data.Json.JsonValue">
+  <Members>
+    <Member MemberName="TryParse">
+      <MemberSignature Language="C#" Value="public static bool TryParse (string input, out Windows.Data.Json.JsonValue result);" />
+      <MemberSignature Language="C++/WinRT" Value="static bool TryParse(winrt::hstring const&amp; input, JsonValue&amp; result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Windows.Data.Json</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+        <Parameter Name="result" Type="Windows.Data.Json.JsonValue" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="input">The specified string.</param>
+        <param name="result">The new JsonValue object.</param>
+        <summary>Parses the specified string into a JsonValue.</summary>
+        <returns>True if the JsonValue object was successfully created; otherwise, false.</returns>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
