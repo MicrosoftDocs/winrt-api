@@ -19,7 +19,7 @@
         <param name="input">The specified string.</param>
         <param name="result">The new JsonArray object.</param>
         <summary>Parses the provided string into a JsonArray.</summary>
-        <returns>True if the JsonValue object was successfully created; otherwise, false.</returns>
+        <returns>True if the JsonArray object was successfully created; otherwise, false.</returns>
       </Docs>
     </Member>
   </Members>

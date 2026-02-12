@@ -19,7 +19,7 @@
         <param name="input">The specified JSON string.</param>
         <param name="result">The resultant JsonObject.</param>
         <summary>Parses the specified string that represents a JSON object into a JsonObject.</summary>
-        <returns>True if the JsonValue object was successfully created; otherwise, false.</returns>
+        <returns>True if the JsonObject object was successfully created; otherwise, false.</returns>
       </Docs>
     </Member>
   </Members>
