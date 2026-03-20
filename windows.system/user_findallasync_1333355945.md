@@ -31,4 +31,5 @@ On desktop platforms, this method returns at most one user—the interactive use
 ## -examples
 
 ## -see-also
-[FindAllAsync](user_findallasync_326280522.md), [FindAllAsync(UserType)](user_findallasync_711678667.md)
+| [FindAllAsync](user_findallasync_326280522.md)
+| [FindAllAsync(UserType)](user_findallasync_711678667.md)
