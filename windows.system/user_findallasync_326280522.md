@@ -23,4 +23,4 @@ To get the user running the current process directly, use [GetDefault](user_getd
 ## -examples
 
 ## -see-also
-[FindAllAsync(UserType)](user_findallasync_711678667.md), [FindAllAsync(UserType, UserAuthenticationStatus)](user_findallasync_1333355945.md)
+| [FindAllAsync(UserType)](user_findallasync_711678667.md), [FindAllAsync(UserType, UserAuthenticationStatus)](user_findallasync_1333355945.md)
