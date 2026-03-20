@@ -20,14 +20,16 @@ The [User](../windows.system/user.md) data to use for creating the system ID. If
 A [SystemIdentificationInfo](systemidentificationinfo.md) object for this system, based on the user ID.
 
 ## -remarks
-The identifier returned by this method is specific to a user on the current device and allows for correlation of usage across different applications running on the same device for a particular user. Apps that are not multi-user-aware should only pass `null` into this method, which gets the current user's ID. 
+The identifier returned by this method is specific to a user on the current device and allows for correlation of usage across different applications running on the same device for a particular user. Apps that are not multi-user-aware should only pass `null` into this method, which gets the current user's ID.
 
 Use of this method is restricted by the **userSystemId** capability, which is a restricted capability requiring Microsoft approval. Please note that most callers should instead use the [Windows.System.Profile.SystemIdentification.GetSystemIdForPublisher](systemidentification_getsystemidforpublisher_728928815.md) method instead as it is more appropriate for the large majority of use cases and does not require a restricted capability. If you do not need to obtain an ID that is shared across apps built by different publishers, you should not use this method.
+
+> [!NOTE]
+> This method returns a hardware-based identifier intended for device correlation. To access the properties of the current user (such as display name or account name), use [Windows.System.User.GetDefault](../windows.system/user_getdefault_846721868.md) (available from Windows 10, version 2104) instead.
 
 ## -examples
 
 ## -see-also
-
 
 ## -capabilities
 userSystemId
