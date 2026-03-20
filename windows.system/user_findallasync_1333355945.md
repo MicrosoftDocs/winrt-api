@@ -26,10 +26,11 @@ When this method completes successfully, it returns a list (type [IVectorView](.
 > [!WARNING]
 > This overload is deprecated. Use [FindAllAsync](user_findallasync_326280522.md) or [GetDefault](user_getdefault_846721868.md) instead.
 
-On desktop platforms, this method returns at most one user—the interactive user associated with the caller's current session. On Xbox, the list may contain multiple users when more than one user is signed in simultaneously. The method does not enumerate all accounts stored on the device.
+This method returns users who are currently signed in to the same session as the calling application. It does not enumerate all accounts stored on the device.
+
+To get the user running the current process directly, use [GetDefault](user_getdefault_846721868.md) (available from Windows 10, version 2104).
 
 ## -examples
 
 ## -see-also
-| [FindAllAsync](user_findallasync_326280522.md)
-| [FindAllAsync(UserType)](user_findallasync_711678667.md)
+[FindAllAsync](user_findallasync_326280522.md), [FindAllAsync(UserType)](user_findallasync_711678667.md)
