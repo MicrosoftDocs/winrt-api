@@ -23,6 +23,4 @@ The value of the override token.
 
 ## -see-also
 
-[InputHapticsManager.SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md), [InputHapticsManager.ClearOverrideHapticsController](inputhapticsmanager_clearoverridehapticscontroller_456612938.md)
-
 ## -examples

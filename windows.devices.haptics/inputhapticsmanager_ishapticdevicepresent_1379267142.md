@@ -9,7 +9,6 @@
 public static bool IsHapticDevicePresent ();
 -->
 
-
 ## -description
 
 Indicates whether a device that supports haptics is present on the system, irrespective of the device that most recently delivered input to the calling thread.
@@ -25,5 +24,3 @@ Indicates whether a device that supports haptics is present on the system, irres
 [InputHapticsManager.IsSupported](inputhapticsmanager_issupported_930300905.md)
 
 ## -examples
-
-

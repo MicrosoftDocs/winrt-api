@@ -9,16 +9,17 @@
 public static Windows.Devices.Haptics.InputHapticsManager GetForCurrentThread ();
 -->
 
-
 ## -description
 
-Returns the [InputHapticsManager](inputhapticsmanager.md) object for the current thread. Multiple calls to this method on the same thread return the same object, even if the object returned by earlier calls has its reference dropped.
+Returns the [InputHapticsManager](inputhapticsmanager.md) object for the current thread.
 
 ## -returns
 
 The [InputHapticsManager](inputhapticsmanager.md) for the current thread.
 
 ## -remarks
+
+Multiple calls to this method on the same thread return the same object, even if the object returned by earlier calls has its reference dropped.
 
 ## -see-also
 

@@ -9,7 +9,6 @@
 public static bool IsSupported ();
 -->
 
-
 ## -description
 
 Indicates whether the [InputHapticsManager](inputhapticsmanager.md) functionality is supported on the system.
@@ -25,5 +24,3 @@ Indicates whether the [InputHapticsManager](inputhapticsmanager.md) functionalit
 [InputHapticsManager.GetForCurrentThread](inputhapticsmanager_getforcurrentthread_1771949562.md), [InputHapticsManager.IsHapticDevicePresent](inputhapticsmanager_ishapticdevicepresent_1379267142.md)
 
 ## -examples
-
-

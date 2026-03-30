@@ -9,10 +9,9 @@
 public Windows.Devices.Haptics.SimpleHapticsController CurrentHapticsController { get; }
 -->
 
-
 ## -description
 
-Gets the [SimpleHapticsController](simplehapticscontroller.md) object for the input device that most recently delivered input to the thread, or the controller set by [SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md) if an override is active.
+Gets the [SimpleHapticsController](simplehapticscontroller.md) object for the input device that most recently delivered input to the thread (or the controller set by [SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md) if an override is active).
 
 ## -property-value
 
@@ -22,6 +21,6 @@ The [SimpleHapticsController](simplehapticscontroller.md) for the most recent in
 
 ## -see-also
 
-[InputHapticsManager.CurrentHapticsControllerDeviceType](inputhapticsmanager_currenthapticscontrollerdevicetype.md), [SimpleHapticsController](simplehapticscontroller.md)
+[InputHapticsManager.CurrentHapticsControllerDeviceType](inputhapticsmanager_currenthapticscontrollerdevicetype.md)
 
 ## -examples

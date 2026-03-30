@@ -9,7 +9,6 @@
 public static Windows.Devices.Haptics.InputHapticsManager TryGetForThread (uint ThreadId);
 -->
 
-
 ## -description
 
 Retrieves the [InputHapticsManager](inputhapticsmanager.md) for the specified thread, if one exists.
@@ -31,5 +30,3 @@ The [InputHapticsManager](inputhapticsmanager.md) for the specified thread, or *
 [InputHapticsManager.GetForCurrentThread](inputhapticsmanager_getforcurrentthread_1771949562.md), [InputHapticsManager.ThreadId](inputhapticsmanager_threadid.md)
 
 ## -examples
-
-

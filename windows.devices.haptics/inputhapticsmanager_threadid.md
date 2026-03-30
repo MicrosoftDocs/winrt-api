@@ -9,7 +9,6 @@
 public uint ThreadId { get; }
 -->
 
-
 ## -description
 
 Gets the ID of the thread that owns this [InputHapticsManager](inputhapticsmanager.md) object.
@@ -25,5 +24,3 @@ The thread ID.
 [InputHapticsManager.GetForCurrentThread](inputhapticsmanager_getforcurrentthread_1771949562.md), [InputHapticsManager.TryGetForThread](inputhapticsmanager_trygetforthread_453675118.md)
 
 ## -examples
-
-
