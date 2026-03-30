@@ -18,11 +18,11 @@ Attempts to trigger the specified waveform, with the specified intensity and dur
 
 ### -param waveform
 
-The waveform to trigger. If 0, a default waveform is chosen for known device types.
+The waveform to trigger. If 0, a default waveform is chosen for known device types (see Remarks). If *waveform* is 0, *waveformFallback* must also be 0.
 
 ### -param waveformFallback
 
-The fallback waveform to use if *waveform* is not supported. If 0, a default waveform is chosen for known device types.
+The fallback waveform to use if *waveform* is not supported. If 0, a default waveform that matches the category of *waveform* is chosen for known device types (see Remarks).
 
 ### -param intensity
 
@@ -34,14 +34,18 @@ The duration for which to play the waveform. Must be greater than zero. Applicab
 
 ## -returns
 
-**true** if the waveform was successfully triggered; otherwise, **false**.
+**true** if the waveform was successfully triggered; **false** if no input has been received recently, the most recent input device does not support haptics, or the device does not support either waveform or other parameters.
 
 ## -remarks
+
+When both *waveform* and *waveformFallback* are 0, a default continuous waveform is chosen: [InkContinuous](knownsimplehapticscontrollerwaveforms_inkcontinuous.md) for pen devices. Mouse and touchpad devices do not have a default continuous waveform. When only *waveformFallback* is 0, the default fallback attempts to match the discrete or continuous category of *waveform*. Default discrete waveforms are [Hover](knownsimplehapticscontrollerwaveforms_hover.md) for mouse and touchpad devices, or [Click](knownsimplehapticscontrollerwaveforms_click.md) for pen devices.
+
+The method returns **false** if specifying an intensity other than 1.0 and the device does not support configuring intensity.
+
+The duration must be greater than zero. Specifying durations is only applicable to continuous waveforms (which do not have a predetermined duration).
 
 ## -see-also
 
 [InputHapticsManager.TrySendHapticWaveform(UInt16, UInt16)](inputhapticsmanager_trysendhapticwaveform_1961563947.md), [InputHapticsManager.TrySendHapticWaveform(UInt16, UInt16, Double)](inputhapticsmanager_trysendhapticwaveform_1337779939.md), [InputHapticsManager.TrySendHapticWaveformForPlayCount](inputhapticsmanager_trysendhapticwaveformforplaycount_22977135.md), [InputHapticsManager.TryStopFeedback](inputhapticsmanager_trystopfeedback_152765558.md), [KnownSimpleHapticsControllerWaveforms](knownsimplehapticscontrollerwaveforms.md)
 
 ## -examples
-
-

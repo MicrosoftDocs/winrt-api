@@ -23,10 +23,6 @@ No haptic device is currently identified.
 
 A device has been identified, but it does not match any of the other enum values.
 
-### -field Unknown: 1
-
-The device cannot be identified. This value maps to **Generic**.
-
 ### -field Pen: 2
 
 Pen/stylus device.
@@ -45,6 +41,6 @@ Future SDK versions may expand the set of identifiable device types. Application
 
 ## -see-also
 
-[InputHapticsManager.CurrentDeviceType](inputhapticsmanager_currentdevicetype.md), [InputHapticsManager.CurrentHapticsControllerDeviceType](inputhapticsmanager_currenthapticscontrollerdevicetype.md), [InputHapticsManager.SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md), [InputHapticsManagerController.SetHapticsController](inputhapticsmanagercontroller_sethapticscontroller_1539115380.md)
+[InputHapticsManager.CurrentHapticsControllerDeviceType](inputhapticsmanager_currenthapticscontrollerdevicetype.md), [InputHapticsManager.SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md)
 
 ## -examples

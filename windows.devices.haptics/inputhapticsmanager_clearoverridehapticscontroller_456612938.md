@@ -12,7 +12,7 @@ public void ClearOverrideHapticsController (Windows.Devices.Haptics.HapticsContr
 
 ## -description
 
-Clears the overriding [SimpleHapticsController](simplehapticscontroller.md) that was previously set with the specified token. If this was the only override, the manager returns to its default behavior of determining the controller based on the latest input received by the thread.
+Clears the overriding [SimpleHapticsController](simplehapticscontroller.md) that was previously set with the specified token. Other overrides previously set on the manager still have an effect, if they were set recently enough. If this was the only override, the manager returns to its default behavior of determining the controller based on the latest input received by the thread.
 
 ## -parameters
 
@@ -27,5 +27,3 @@ The token previously returned by [SetOverrideHapticsController](inputhapticsmana
 [InputHapticsManager.SetOverrideHapticsController](inputhapticsmanager_setoverridehapticscontroller_1943473886.md), [HapticsControllerOverrideToken](hapticscontrolleroverridetoken.md)
 
 ## -examples
-
-
