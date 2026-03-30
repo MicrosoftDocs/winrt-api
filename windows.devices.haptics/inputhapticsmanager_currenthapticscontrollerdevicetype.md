@@ -15,7 +15,7 @@ Gets the type of haptic device for the input device from which input was most re
 
 ## -property-value
 
-The [HapticDeviceType](hapticdevicetype.md) of the most recent input device, or **None** if the device does not support haptics, no input has been received recently, or no override has been set.
+The [HapticDeviceType](hapticdevicetype.md) of the most recent input device, or [HapticDeviceType.None](hapticdevicetype.md) if the device does not support haptics, no input has been received recently, or no override has been set.
 
 ## -remarks
 
