@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Type Name="JsonObject" FullName="Windows.Data.Json.JsonObject">
+  <Members>
+    <Member MemberName="TryParse">
+      <MemberSignature Language="C#" Value="public static bool TryParse (string input, out Windows.Data.Json.JsonObject result);" />
+      <MemberSignature Language="C++/WinRT" Value="static bool TryParse(winrt::hstring const&amp; input, JsonObject&amp; result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Windows.Data.Json</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+        <Parameter Name="result" Type="Windows.Data.Json.JsonObject" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="input">The specified JSON string.</param>
+        <param name="result">The resultant JsonObject.</param>
+        <summary>Parses the specified string that represents a JSON object into a JsonObject.</summary>
+        <returns>True if the JsonObject object was successfully created; otherwise, false.</returns>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
