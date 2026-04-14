@@ -13,7 +13,11 @@ public IAsyncOperation<AppInstallItem>> AppInstallManager.StartProductInstallFor
 Starts the installation of the specified app or app bundle for the specified user, with the ability to specify additional install options such as whether to allow a forced app restart.
 
 > [!NOTE]
-> Please note that the `AppInstallManager.StartProductInstallAsync` and `AppInstallManager.StartProductInstallForUserAsync` methods are not officially supported during OOBE. This is because it is not guaranteed for dependent services to be ready during OOBE. 
+> Avoid calling `AppInstallManager.StartProductInstallAsync` or `AppInstallManager.StartProductInstallForUserAsync` during the Windows Out of Box Experience (OOBE).
+>
+> Installation requests made before OOBE has completed may not behave as expected because Store-related services might not yet be fully initialized.
+>
+> For best results, call these methods after the first user sign-in.
 
 ## -parameters
 ### -param user

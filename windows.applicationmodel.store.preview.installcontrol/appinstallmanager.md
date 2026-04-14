@@ -18,7 +18,11 @@ Provides members for programmatically installing apps, including the ability to 
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.
 
 > [!NOTE]
-> Please note that the `AppInstallManager.StartProductInstallAsync` and `AppInstallManager.StartProductInstallForUserAsync` methods are not officially supported during OOBE. This is because it is not guaranteed for dependent services to be ready during OOBE. 
+> Avoid calling `AppInstallManager.StartProductInstallAsync` or `AppInstallManager.StartProductInstallForUserAsync` during the Windows Out of Box Experience (OOBE).
+>
+> Installation requests made before OOBE has completed may not behave as expected because Store-related services might not yet be fully initialized.
+>
+> For best results, call these methods after the first user sign-in.
 
 ### Version history
 
