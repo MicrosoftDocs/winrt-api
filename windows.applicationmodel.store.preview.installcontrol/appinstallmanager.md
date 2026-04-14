@@ -17,6 +17,9 @@ Provides members for programmatically installing apps, including the ability to 
 > [!IMPORTANT]
 > Access to this API is protected by a private capability that is restricted to apps that are developed by Microsoft.
 
+> [!NOTE]
+> Please note that the `AppInstallManager.StartProductInstallAsync` and `AppInstallManager.StartProductInstallForUserAsync` methods are not officially supported during OOBE. This is because it is not guaranteed for dependent services to be ready during OOBE. 
+
 ### Version history
 
 | Windows version | SDK version | Value added |
