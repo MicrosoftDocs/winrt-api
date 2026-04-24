@@ -16,6 +16,9 @@ Finds all users asynchronously.
 When this method completes successfully, it returns a list (type [IVectorView](../windows.foundation.collections/ivectorview_1.md)) of [Users](user.md).
 
 ## -remarks
+This method returns users who are currently signed in to the same session as the calling application. It does not enumerate all accounts stored on the device.
+
+To get the user running the current process directly, use [GetDefault](user_getdefault_846721868.md) (available from Windows 10, version 2104).
 
 ## -examples
 

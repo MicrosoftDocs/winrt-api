@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<string> RequestAppPurchaseAsync(System
 
 ## -description
 > [!IMPORTANT]
-> In-app purchase functionality is not supported in evelated applications.
+> In-app purchase functionality is not supported in elevated applications.
 
 Requests the purchase of a full app license.
 

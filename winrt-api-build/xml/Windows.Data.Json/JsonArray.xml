@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Type Name="JsonArray" FullName="Windows.Data.Json.JsonArray">
+  <Members>
+    <Member MemberName="TryParse">
+      <MemberSignature Language="C#" Value="public static bool TryParse (string input, out Windows.Data.Json.JsonArray result);" />
+      <MemberSignature Language="C++/WinRT" Value="static bool TryParse(winrt::hstring const&amp; input, JsonArray&amp; result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Windows.Data.Json</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="input" Type="System.String" />
+        <Parameter Name="result" Type="Windows.Data.Json.JsonArray" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="input">The specified string.</param>
+        <param name="result">The new JsonArray object.</param>
+        <summary>Parses the provided string into a JsonArray.</summary>
+        <returns>True if the JsonArray object was successfully created; otherwise, false.</returns>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

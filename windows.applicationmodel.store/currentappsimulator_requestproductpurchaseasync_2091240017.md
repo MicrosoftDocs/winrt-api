@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.ApplicationModel.Store.Purchas
 
 ## -description
 > [!IMPORTANT]
-> In-app purchase functionality is not supported in evelated applications.
+> In-app purchase functionality is not supported in elevated applications.
 
 Creates the async operation that displays the UI that is used to simulate the purchase of an add-on (also called an in-app product or IAP) from the Microsoft Store.
 
