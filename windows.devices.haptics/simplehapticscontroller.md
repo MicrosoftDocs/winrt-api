@@ -17,7 +17,7 @@ Provides access to a single haptic input device that can be used to enumerate th
 
 ## -see-also
 
-[PenDevice.SimpleHapticsController](../windows.devices.input/pendevice_simplehapticscontroller.md), [RawGameController.SimpleHapticsControllers](../windows.gaming.input/rawgamecontroller_simplehapticscontrollers.md), [SpatialInteractionController.SimpleHapticsController](../windows.ui.input.spatial/spatialinteractioncontroller_simplehapticscontroller.md), [VibrationDevice.SimpleHapticsController](vibrationdevice_simplehapticscontroller.md), [RadialController](../windows.ui.input/radialcontroller.md), [Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions), [Input Device Haptics Implementation Guide](windows-hardware/design/component-guidelines/input-haptics-implementation-guide), [Haptic Usage Page HID specification](https://aka.ms/hid-haptics)
+[PenDevice.SimpleHapticsController](../windows.devices.input/pendevice_simplehapticscontroller.md), [RawGameController.SimpleHapticsControllers](../windows.gaming.input/rawgamecontroller_simplehapticscontrollers.md), [SpatialInteractionController.SimpleHapticsController](../windows.ui.input.spatial/spatialinteractioncontroller_simplehapticscontroller.md), [VibrationDevice.SimpleHapticsController](vibrationdevice_simplehapticscontroller.md), [RadialController](../windows.ui.input/radialcontroller.md), [Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions), [Haptic Usage Page HID specification](https://aka.ms/hid-haptics)
 
 ## -examples
 

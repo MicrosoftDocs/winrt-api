@@ -23,6 +23,4 @@ The value of the override token.
 
 ## -see-also
 
-[Input Device Haptics Implementation Guide](windows-hardware/design/component-guidelines/input-haptics-implementation-guide)
-
 ## -examples

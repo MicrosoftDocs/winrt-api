@@ -17,7 +17,7 @@ Provides functionality to trigger haptic feedback on the input device that most 
 
 ## -see-also
 
-[SimpleHapticsController](simplehapticscontroller.md), [HapticDeviceType](hapticdevicetype.md), [HapticsControllerOverrideToken](hapticscontrolleroverridetoken.md), [KnownSimpleHapticsControllerWaveforms](knownsimplehapticscontrollerwaveforms.md), [Input Device Haptics Implementation Guide](windows-hardware/design/component-guidelines/input-haptics-implementation-guide)
+[SimpleHapticsController](simplehapticscontroller.md), [HapticDeviceType](hapticdevicetype.md), [HapticsControllerOverrideToken](hapticscontrolleroverridetoken.md), [KnownSimpleHapticsControllerWaveforms](knownsimplehapticscontrollerwaveforms.md)
 
 ## -examples
 

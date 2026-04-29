@@ -17,7 +17,7 @@ Provides support for basic, non-directional haptic feedback such as clicks, buzz
 
 ## -see-also
 
-[Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions), [Input Device Haptics Implementation Guide](windows-hardware/design/component-guidelines/input-haptics-implementation-guide)
+[Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions)
 
 ## -examples
 
