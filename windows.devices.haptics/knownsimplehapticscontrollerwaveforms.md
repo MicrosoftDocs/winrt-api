@@ -17,7 +17,7 @@ Provides a set of well-known haptic waveform types (based on the [HapticÂ UsageÂ
 
 ## -see-also
 
-[Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions)
+[Pen interactions and haptic (tactile) feedback](/windows/apps/design/input/pen-haptics), [Surface Dial interactions](/windows/apps/design/input/windows-wheel-interactions), [Input Device Haptics Implementation Guide](windows-hardware/design/component-guidelines/input-haptics-implementation-guide)
 
 ## -examples
 
