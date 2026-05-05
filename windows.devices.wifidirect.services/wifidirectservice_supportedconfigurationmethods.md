@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Devices.WiFiDirect.Ser
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.SupportedConfigurationMethods
 
 ## -description
-Gets a list of supported configuration methods, ordered by preference. Your code uses [IVector](../windows.foundation.collections/ivector_1.md) operations to modify the contents of the list.
+**Deprecated.** Gets a list of supported configuration methods, ordered by preference. Your code uses [IVector](../windows.foundation.collections/ivector_1.md) operations to modify the contents of the list.
 
 ## -property-value
 Ordered list of configuration method enumeration values.
