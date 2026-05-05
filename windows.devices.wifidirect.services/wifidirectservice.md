@@ -11,6 +11,9 @@ public class WiFiDirectService : Windows.Devices.WiFiDirect.Services.IWiFiDirect
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService
 
 ## -description
+> [!Important]
+> The Windows.Devices.WiFiDirect.Services Namespace is deprecated.
+
 Represents a Wi-Fi Direct service. This class is used by code on a device that seeks to use a Wi-Fi Direct Service, to establish a Wi-Fi Direct Service session with the service provider.
 
 ## -remarks
