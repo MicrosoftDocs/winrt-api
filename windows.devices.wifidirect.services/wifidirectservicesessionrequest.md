@@ -11,7 +11,7 @@ public class WiFiDirectServiceSessionRequest : Windows.Devices.WiFiDirect.Servic
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionRequest
 
 ## -description
-Describes a Wi-Fi Direct Service session request.
+**Deprecated.** Describes a Wi-Fi Direct Service session request.
 
 ## -remarks
 Your code does not instantiate this class directly. An instance of this class is inside the [WiFiDirectServiceSessionRequestedEventArgs](wifidirectservicesessionrequestedeventargs.md) object passed to your [WiFiDirectServiceAdvertiser.SessionRequested](wifidirectserviceadvertiser_sessionrequested.md) event handler.
