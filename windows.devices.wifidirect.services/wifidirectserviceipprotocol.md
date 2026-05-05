@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceIPProtocol : in
 # WiFiDirectServiceIPProtocol
 
 ## -description
-Defines constants that specify the IP protocol of the new port when a [WiFiDirectServiceSession.RemotePortAdded](wifidirectservicesession_remoteportadded.md) event is raised.
+**Deprecated.** Defines constants that specify the IP protocol of the new port when a [WiFiDirectServiceSession.RemotePortAdded](wifidirectservicesession_remoteportadded.md) event is raised.
 
 ## -enum-fields
 
