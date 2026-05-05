@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFiDirect.Services.Wi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.ConnectAsync
 
 ## -description
-Initiates the establishment of a service session with the Wi-Fi Direct Service represented by this instance.
+**Deprecated.** Initiates the establishment of a service session with the Wi-Fi Direct Service represented by this instance.
 
 ## -returns
 An asynchronous connection operation. When successfully completed, returns an object that represents the session that has been established.
