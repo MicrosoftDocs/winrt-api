@@ -11,7 +11,7 @@ public class WiFiDirectServiceAutoAcceptSessionConnectedEventArgs : Windows.Devi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAutoAcceptSessionConnectedEventArgs
 
 ## -description
-Returned when a [WiFiDirectServiceAdvertiser.AutoAcceptSessionConnected](wifidirectserviceadvertiser_autoacceptsessionconnected.md) event is raised.
+**Deprecated.** Returned when a [WiFiDirectServiceAdvertiser.AutoAcceptSessionConnected](wifidirectserviceadvertiser_autoacceptsessionconnected.md) event is raised.
 
 ## -remarks
 Your code does not instantiate this class directly. An instance is passed as an argument to your [WiFiDirectServiceAdvertiser.AutoAcceptSessionConnected](wifidirectserviceadvertiser_autoacceptsessionconnected.md) event handler.
