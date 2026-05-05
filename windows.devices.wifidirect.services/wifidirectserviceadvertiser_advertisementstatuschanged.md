@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler AdvertisementStatusChanged<Win
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.AdvertisementStatusChanged
 
 ## -description
-Event raised when the [AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md) property value changes.
+**Deprecated.** Event raised when the [AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md) property value changes.
 
 ## -remarks
 
