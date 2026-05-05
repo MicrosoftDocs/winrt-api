@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler AutoAcceptSessionConnected<Win
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.AutoAcceptSessionConnected
 
 ## -description
-Event raised when the service has automatically accepted a session request. Your event handler should establish socket connections for the endpoint pairs listed in the event arguments object.
+**Deprecated.** Event raised when the service has automatically accepted a session request. Your event handler should establish socket connections for the endpoint pairs listed in the event arguments object.
 
 ## -remarks
 
