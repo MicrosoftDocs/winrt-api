@@ -6,6 +6,8 @@
 # Windows.Devices.WiFiDirect.Services
 
 ## -description
+> [!Important]
+> The Windows.Devices.WiFiDirect.Services Namespace is deprecated.
 
 Provides support for implementing your own Wi-Fi Direct Services.
 
