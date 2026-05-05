@@ -11,7 +11,7 @@ public void Start()
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.Start
 
 ## -description
-Starts advertising the service, using current property values to set the parameters of the advertisement.
+**Deprecated.** Starts advertising the service, using current property values to set the parameters of the advertisement.
 
 ## -remarks
 
