@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler SessionStatusChanged<Windows.D
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.SessionStatusChanged
 
 ## -description
-Event raised when the session status changes.
+**Deprecated.** Event raised when the session status changes.
 
 ## -remarks
 
