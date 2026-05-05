@@ -11,7 +11,7 @@ public uint AdvertisementId { get; }
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.AdvertisementId
 
 ## -description
-Gets the advertisement ID for the session.
+**Deprecated.** Gets the advertisement ID for the session.
 
 ## -property-value
 The advertisement ID.
