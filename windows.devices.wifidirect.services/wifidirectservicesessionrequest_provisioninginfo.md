@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceProvisioningInfo Pro
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionRequest.ProvisioningInfo
 
 ## -description
-Gets information about how provisioning should be performed if the session is established.
+**Deprecated.** Gets information about how provisioning should be performed if the session is established.
 
 ## -property-value
 Provisioning information.
