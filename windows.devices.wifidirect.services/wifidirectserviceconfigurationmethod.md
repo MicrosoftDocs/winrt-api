@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceConfigurationMe
 # WiFiDirectServiceConfigurationMethod
 
 ## -description
-Values describing how service configuration is performed when a session is being established. Typically, either no input is required, or one device in the session displays a PIN and the other device requires that the PIN be entered.
+**Deprecated.** Values describing how service configuration is performed when a session is being established. Typically, either no input is required, or one device in the session displays a PIN and the other device requires that the PIN be entered.
 
 ## -enum-fields
 ### -field Default:0
