@@ -11,7 +11,7 @@ public string GetSelector(System.String serviceName, Windows.Storage.Streams.IBu
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.GetSelector
 
 ## -description
-Gets an Advanced Query Syntax (AQS) string to be used to find Wi-Fi Direct Service advertisers for a particular service, where a given byte sequence appears in the advertiser's service information blob.
+**Deprecated.** Gets an Advanced Query Syntax (AQS) string to be used to find Wi-Fi Direct Service advertisers for a particular service, where a given byte sequence appears in the advertiser's service information blob.
 
 ## -parameters
 ### -param serviceName
