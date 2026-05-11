@@ -11,7 +11,7 @@ public void Close()
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.Close
 
 ## -description
-Closes the session.
+**Deprecated.** Closes the session.
 
 ## -remarks
 

@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceError : int
 # WiFiDirectServiceError
 
 ## -description
-Values used for the [WiFiDirectServiceAdvertiser.ServiceError](wifidirectserviceadvertiser_serviceerror.md) property.
+**Deprecated.** Values used for the [WiFiDirectServiceAdvertiser.ServiceError](wifidirectserviceadvertiser_serviceerror.md) property.
 
 ## -enum-fields
 ### -field Success:0

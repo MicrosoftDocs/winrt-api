@@ -11,7 +11,7 @@ public class WiFiDirectServiceSessionRequestedEventArgs : Windows.Devices.WiFiDi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionRequestedEventArgs
 
 ## -description
-Returned when a [WiFiDirectServiceAdvertiser.SessionRequested](wifidirectserviceadvertiser_sessionrequested.md) event is raised.
+**Deprecated.** Returned when a [WiFiDirectServiceAdvertiser.SessionRequested](wifidirectserviceadvertiser_sessionrequested.md) event is raised.
 
 ## -remarks
 Your code does not instantiate this class directly. An instance is passed as an argument to your [WiFiDirectServiceAdvertiser.SessionRequested](wifidirectserviceadvertiser_sessionrequested.md) event handler.

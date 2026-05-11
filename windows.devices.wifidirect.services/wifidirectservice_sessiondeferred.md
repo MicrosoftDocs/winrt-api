@@ -11,6 +11,7 @@ public event Windows.Foundation.TypedEventHandler SessionDeferred<Windows.Device
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.SessionDeferred
 
 ## -description
+**Deprecated.** 
 Event raised when a session request has been deferred. Note that this does not mean that the request has failed or been denied. It is a notification that the server is performing a long operation, such as waiting for a user to enter a PIN. The seeker that receives this message should begin a 120-second wait before it times out the session request, to give the server time to complete its operation. The event arguments include a buffer supplied by the server in the deferral notification with additional information.
 
 ## -remarks

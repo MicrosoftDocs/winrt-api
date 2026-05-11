@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionStatus Status
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.Status
 
 ## -description
-Gets the session status.
+**Deprecated.** Gets the session status.
 
 ## -property-value
 An enumeration value describing the current session status.

@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionErrorSta
 # WiFiDirectServiceSessionErrorStatus
 
 ## -description
-Values used in the [WiFiDirectServiceSession.ErrorStatus](wifidirectservicesession_errorstatus.md) property.
+**Deprecated.** Values used in the [WiFiDirectServiceSession.ErrorStatus](wifidirectservicesession_errorstatus.md) property.
 
 ## -enum-fields
 ### -field Ok:0

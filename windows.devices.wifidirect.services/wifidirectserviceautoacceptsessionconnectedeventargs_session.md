@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession Session { ge
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAutoAcceptSessionConnectedEventArgs.Session
 
 ## -description
-Gets the [WiFiDirectServiceSession](wifidirectservicesession.md) that was created when the connection was automatically accepted.
+**Deprecated.** Gets the [WiFiDirectServiceSession](wifidirectservicesession.md) that was created when the connection was automatically accepted.
 
 ## -property-value
 The session object corresponding to this automatically accepted connection.

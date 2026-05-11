@@ -11,7 +11,7 @@ public string SessionAddress { get; }
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.SessionAddress
 
 ## -description
-Gets the session address for the session.
+**Deprecated.** Gets the session address for the session.
 
 ## -property-value
 The session address.

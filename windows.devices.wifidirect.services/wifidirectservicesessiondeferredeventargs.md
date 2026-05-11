@@ -11,7 +11,7 @@ public class WiFiDirectServiceSessionDeferredEventArgs : Windows.Devices.WiFiDir
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionDeferredEventArgs
 
 ## -description
-Returned when a [WiFiDirectService.SessionDeferred](wifidirectservice_sessiondeferred.md) event is raised.
+**Deprecated.** Returned when a [WiFiDirectService.SessionDeferred](wifidirectservice_sessiondeferred.md) event is raised.
 
 ## -remarks
 Your code does not instantiate this class directly. An instance of this class is passed as an argument to your [WiFiDirectService.SessionDeferred](wifidirectservice_sessiondeferred.md) event handler.

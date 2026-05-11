@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceConfigurationMethod 
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceProvisioningInfo.SelectedConfigurationMethod
 
 ## -description
-Gets a value describing the configuration method in use.
+**Deprecated.** Gets a value describing the configuration method in use.
 
 ## -property-value
 Enumeration value representing the configuration method in use.

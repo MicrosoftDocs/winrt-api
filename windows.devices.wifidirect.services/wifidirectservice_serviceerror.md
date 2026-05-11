@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceError ServiceError {
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.ServiceError
 
 ## -description
-Error information about the latest attempt to connect to the service.
+**Deprecated.** Error information about the latest attempt to connect to the service.
 
 ## -property-value
 An enumeration value specifying the detailed reason for the failure.

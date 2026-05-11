@@ -11,7 +11,7 @@ public class WiFiDirectServiceAdvertiser : Windows.Devices.WiFiDirect.Services.I
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser
 
 ## -description
-Represents a Service Advertiser. This class is used by code on a device that advertises Wi-Fi Direct Services, to advertise the service.
+**Deprecated.** Represents a Service Advertiser. This class is used by code on a device that advertises Wi-Fi Direct Services, to advertise the service.
 
 ## -remarks
 This is one of several classes that support connecting two devices with a preference for which device should be the Group Owner. See the [Windows.Devices.WiFiDirect.Service](windows_devices_wifidirect_services.md) topic for a discussion of device pairing and how it can cause the Group Owner preference to be ignored (and how to fix that.)
