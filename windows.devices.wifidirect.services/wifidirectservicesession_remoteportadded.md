@@ -11,7 +11,7 @@ public event Windows.Foundation.TypedEventHandler RemotePortAdded<Windows.Device
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.RemotePortAdded
 
 ## -description
-Event raised when a new remote port is added to the session. Your event handler should respond by establishing the appropriate socket connection to the new remote port.
+**Deprecated.** Event raised when a new remote port is added to the session. Your event handler should respond by establishing the appropriate socket connection to the new remote port.
 
 ## -remarks
 

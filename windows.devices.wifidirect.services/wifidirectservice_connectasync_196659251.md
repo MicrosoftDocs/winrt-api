@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFiDirect.Services.Wi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.ConnectAsync
 
 ## -description
-Initiates the establishment of a service session with the Wi-Fi Direct Service represented by this instance, using a PIN to configure the session.
+**Deprecated.** Initiates the establishment of a service session with the Wi-Fi Direct Service represented by this instance, using a PIN to configure the session.
 
 ## -parameters
 ### -param pin

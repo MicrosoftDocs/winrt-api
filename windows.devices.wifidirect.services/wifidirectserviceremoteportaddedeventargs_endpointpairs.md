@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.EndpointPai
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceRemotePortAddedEventArgs.EndpointPairs
 
 ## -description
-Gets the endpoint pairs associated with the new remote port.
+**Deprecated.** Gets the endpoint pairs associated with the new remote port.
 
 ## -property-value
 New endpoint pairs.

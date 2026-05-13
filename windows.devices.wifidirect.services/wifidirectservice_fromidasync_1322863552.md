@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFiDirect.Services.Wi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.FromIdAsync
 
 ## -description
-Static method that retrieves a WiFiDirectService instance for a Wi-Fi Direct Service offered by the device with a given device ID.
+**Deprecated.** Static method that retrieves a WiFiDirectService instance for a Wi-Fi Direct Service offered by the device with a given device ID.
 
 ## -parameters
 ### -param deviceId

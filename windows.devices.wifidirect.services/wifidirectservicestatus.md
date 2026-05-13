@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceStatus : int
 # WiFiDirectServiceStatus
 
 ## -description
-Values used to describe the service status.
+**Deprecated.** Values used to describe the service status.
 
 ## -enum-fields
 ### -field Available:0

@@ -11,7 +11,7 @@ public Windows.Foundation.Collections.IVectorView<Windows.Networking.EndpointPai
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.GetConnectionEndpointPairs
 
 ## -description
-Gets a list of connection endpoint pairs for the session. Your code uses [IVectorView](../windows.foundation.collections/ivectorview_1.md) operations to enumerate the endpoint pairs in the list.
+**Deprecated.** Gets a list of connection endpoint pairs for the session. Your code uses [IVectorView](../windows.foundation.collections/ivectorview_1.md) operations to enumerate the endpoint pairs in the list.
 
 ## -returns
 An immutable snapshot list of endpoint pairs involved in the session.

@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFiDirect.Services.Wi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.GetProvisioningInfoAsync
 
 ## -description
-Asynchronously retrieves Wi-Fi Direct Service session provisioning information.
+**Deprecated.** Asynchronously retrieves Wi-Fi Direct Service session provisioning information.
 
 ## -parameters
 ### -param selectedConfigurationMethod

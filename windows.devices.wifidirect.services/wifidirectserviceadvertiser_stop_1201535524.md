@@ -11,7 +11,7 @@ public void Stop()
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.Stop
 
 ## -description
-Stops advertising the service. This does not affect existing sessions that are connected to the service.
+**Deprecated.** Stops advertising the service. This does not affect existing sessions that are connected to the service.
 
 ## -remarks
 

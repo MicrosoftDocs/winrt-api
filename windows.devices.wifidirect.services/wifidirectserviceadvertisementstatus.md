@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertisementSt
 # WiFiDirectServiceAdvertisementStatus
 
 ## -description
-Values used for [WiFiDirectServiceAdvertiser.AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md).
+**Deprecated.** Values used for [WiFiDirectServiceAdvertiser.AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md).
 
 ## -enum-fields
 ### -field Created:0

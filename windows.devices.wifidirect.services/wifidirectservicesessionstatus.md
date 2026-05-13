@@ -11,7 +11,7 @@ public enum Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionStatus :
 # WiFiDirectServiceSessionStatus
 
 ## -description
-Values used to describe the status of a Wi-Fi Direct Service Session.
+**Deprecated.** Values used to describe the status of a Wi-Fi Direct Service Session.
 
 ## -enum-fields
 ### -field Closed:0

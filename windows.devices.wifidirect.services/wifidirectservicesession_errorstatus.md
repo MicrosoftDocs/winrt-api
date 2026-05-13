@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSessionErrorStatus E
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.ErrorStatus
 
 ## -description
-Gets the error status of the session.
+**Deprecated.** Gets the error status of the session.
 
 ## -property-value
 An enumeration value giving session error status.

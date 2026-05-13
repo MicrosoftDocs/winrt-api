@@ -11,7 +11,7 @@ public string ServiceName { get; }
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceSession.ServiceName
 
 ## -description
-Gets the service name of the advertiser service involved in the session.
+**Deprecated.** Gets the service name of the advertiser service involved in the session.
 
 ## -property-value
 The service name of the advertiser service.

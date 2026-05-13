@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertisementStatus 
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.AdvertisementStatus
 
 ## -description
-Gets a value that describes the current status of the advertisement.
+**Deprecated.** Gets a value that describes the current status of the advertisement.
 
 ## -property-value
 An enumeration value that describes current status.

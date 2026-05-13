@@ -11,7 +11,7 @@ public Windows.Storage.Streams.IBuffer RemoteServiceInfo { get; }
 # Windows.Devices.WiFiDirect.Services.WiFiDirectService.RemoteServiceInfo
 
 ## -description
-Gets the service information blob from this service instance.
+**Deprecated.** Gets the service information blob from this service instance.
 
 ## -property-value
 A buffer of up to 255 bytes with information from the server. The format of this blob is determined by the individual service.

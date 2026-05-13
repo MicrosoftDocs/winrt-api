@@ -11,7 +11,7 @@ public Windows.Foundation.IAsyncOperation<Windows.Devices.WiFiDirect.Services.Wi
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.ConnectAsync
 
 ## -description
-Accepts a session request by connecting with the given PIN.
+**Deprecated.** Accepts a session request by connecting with the given PIN.
 
 ## -parameters
 ### -param deviceInfo

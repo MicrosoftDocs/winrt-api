@@ -11,7 +11,7 @@ public Windows.Devices.WiFiDirect.Services.WiFiDirectServiceError ServiceError {
 # Windows.Devices.WiFiDirect.Services.WiFiDirectServiceAdvertiser.ServiceError
 
 ## -description
-Gets a specific error code when [AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md) is **Aborted**.
+**Deprecated.** Gets a specific error code when [AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md) is **Aborted**.
 
 ## -property-value
 An enumeration value that gives a more specific cause for [AdvertisementStatus](wifidirectserviceadvertiser_advertisementstatus.md) being **Aborted**.
