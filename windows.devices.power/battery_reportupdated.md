@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ReportUpdated<Windows.Devices.
 # Windows.Devices.Power.Battery.ReportUpdated
 
 ## -description
-<!--***in what increments does this change? Can it return a battery  aggregate?***-->
+
 Occurs when the charge, capacity, or status of a battery changes.
 
 ## -remarks
