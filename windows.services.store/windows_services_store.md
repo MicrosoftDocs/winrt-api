@@ -12,7 +12,7 @@ Provides types and members you can use to access and manage Microsoft Store-rela
 > In-app purchase and in-app rate and review functionalities are not currently supported in elevated applications.
 
 > [!IMPORTANT]
-> APIs in this namespace require that the calling app has a valid retail license issued by the Microsoft Store. Other license states (unlicensed, developer license, etc.) are not supported and may result in unexpected errors or application crashes.
+> APIs in this namespace require a valid retail license issued by the Microsoft Store. A developer license is not a retail license and is not supported; using one may result in errors or crashes. Apps that declare the [appLicensing](https://learn.microsoft.com/windows/uwp/packaging/app-capability-declarations#restricted-capability-list) restricted capability may launch without a license present locally; the system acquires one automatically when [StoreContext](storecontext.md) is initialized. See [StoreContext](storecontext.md) for details.
 
 > [!NOTE]
 > This namespace was introduced in Windows 10, version 1607, and it can only be used in projects that target **Windows 10 Anniversary Edition (10.0; Build 14393)** or a later release in Visual Studio. If your project targets an earlier version of Windows 10, you must use the [Windows.ApplicationModel.Store](../windows.applicationmodel.store/windows_applicationmodel_store.md) namespace instead of the Windows.Services.Store namespace. For more information, see [In-app purchases and trials](/windows/uwp/monetize/in-app-purchases-and-trials).
