@@ -11,12 +11,14 @@ public Windows.UI.Notifications.ToastNotifier CreateToastNotifier()
 # Windows.UI.Notifications.ToastNotificationManager.CreateToastNotifier
 
 ## -description
-Creates and initializes a new instance of the [ToastNotification](toastnotification.md), bound to the calling application, that lets you raise a toast notification to that app.
+Creates and initializes a new instance of the [ToastNotifier](toastnotifier.md), bound to the calling application, that lets you raise a toast notification to that app.
 
 ## -returns
 The object you will use to send the toast notification to the app.
 
 ## -remarks
+This method throws an exception if the app's manifest does not declare toast-capable, or if the caller doesn't have a valid AppUserModelID.
+
 Do not use this overload when creating a toast notifier for a desktop app. Use [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) to supply the required [AppUserModelID](/windows/desktop/shell/appids).
 
 If your app uses a background voice-over-Internet protocol (VOIP) agent, it must specify the app ID to show a toast. Use the [CreateToastNotifier(appID)](toastnotificationmanager_createtoastnotifier_163337301.md) method overload.
