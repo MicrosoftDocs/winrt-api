@@ -81,7 +81,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ### Using sockets and WebSockets with network isolation
 
-Network isolation in Windows lets you fully control the security profile of a packaged app (including UWP and packaged WinAppSDK desktop apps).
+Network isolation in Windows lets you fully control the security profile of a packaged app (including UWP and packaged Windows App SDK (WinUI 3) desktop apps).
 
 Network isolation lets you define the network access needed for each app by choosing the appropriate capabilities. An app without the appropriate capabilities set is prevented from using specific network types (Internet or Home/Work Network) and specific network requests (outbound client-initiated requests, or both inbound unsolicited requests and outbound client-initiated requests). The ability to enforce network isolation ensures that even if an app becomes compromised, the app can only use features (network types and network requests, for example) that the app was granted as capabilities. This significantly reduces the possible impact on other apps and on the operating system.
 
