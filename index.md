@@ -15,7 +15,7 @@ The Windows Runtime (WinRT) is a type system and API surface built into Windows.
 > [!IMPORTANT]
 > **WinRT APIs are not limited to UWP apps.** While WinRT was originally introduced alongside the Universal Windows Platform (UWP), the WinRT API surface is available to:
 >
-> - **Windows App SDK (WinUI 3) apps** — The modern recommended framework for Windows desktop development. WinAppSDK apps can call WinRT APIs directly.
+> - **Windows App SDK (WinUI 3) apps** — The modern recommended framework for Windows desktop development. Windows App SDK apps can call WinRT APIs directly.
 > - **Win32 desktop apps** — Traditional desktop apps (WPF, WinForms, or unpackaged Win32) can call most WinRT APIs using C++/WinRT or C#/WinRT without requiring a UWP project or app container.
 > - **UWP apps** — The original app model for WinRT APIs, still supported but no longer the recommended path for new development.
 >
