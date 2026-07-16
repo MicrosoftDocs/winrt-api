@@ -7,7 +7,7 @@
 
 ## -description
 
-The **Windows.Devices.Bluetooth** namespace defines a set of Windows Runtime APIs that allows apps to interact with Bluetooth devices. These APIs are available to UWP apps, Windows App SDK (WinUI 3) desktop apps, and Win32 desktop apps. For more information, see [Bluetooth](/windows/uwp/devices-sensors/bluetooth).
+The **Windows.Devices.Bluetooth** namespace defines a set of Windows Runtime APIs that allow apps to interact with Bluetooth devices. These APIs are available to UWP apps, Windows App SDK (WinUI 3) desktop apps, and Win32 desktop apps. For more information, see [Bluetooth](/windows/uwp/devices-sensors/bluetooth).
 
 ## -remarks
 
