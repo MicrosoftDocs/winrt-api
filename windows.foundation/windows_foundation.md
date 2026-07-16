@@ -11,6 +11,11 @@ Enables fundamental Windows Runtime functionality, including managing asynchrono
 
 ## -remarks
 
+Windows.Foundation is the core namespace of the Windows Runtime type system. It provides the fundamental types — such as asynchronous operation interfaces, URI, DateTime, and property value converters — that all other WinRT namespaces build on.
+
+> [!NOTE]
+> **App framework compatibility:** Windows.Foundation types are available to all app frameworks that support WinRT, including Windows App SDK (WinUI 3), Win32 desktop apps (via C#/WinRT or C++/WinRT), and UWP apps. You do not need a UWP project to use these types.
+
 ## -examples
 
 ## -see-also

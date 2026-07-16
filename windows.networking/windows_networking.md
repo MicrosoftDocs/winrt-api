@@ -11,6 +11,9 @@ Provides access to hostnames and endpoints used by network apps.
 
 ## -remarks
 
+> [!NOTE]
+> **App framework compatibility:** The Windows.Networking APIs are available to Windows App SDK (WinUI 3) apps and Win32 desktop apps, not only UWP apps. Desktop apps can use [HostName](hostname.md) and [EndpointPair](endpointpair.md) objects through C#/WinRT or C++/WinRT. For packaged desktop apps, network capabilities are declared in the app manifest the same way as for UWP apps. Unpackaged desktop apps have unrestricted network access by default. For details, see [Call Windows Runtime APIs in desktop apps](/windows/apps/desktop/modernize/desktop-to-uwp-enhance).
+
 The Windows.Networking namespace provides classes that are used to initialize and provide data for a hostname or IP address and for a network endpoint pair used in network apps. The [HostName](hostname.md) and [EndpointPair](endpointpair.md) objects are used by many classes in other related namespaces. These include the following:
 
 + Classes in the [Windows.Networking.Sockets](../windows.networking.sockets/windows_networking_sockets.md) namespace used for network apps using sockets and WebSockets.
@@ -24,7 +27,7 @@ The Media Foundation feature can be enabled on Windows Server 2012 using Server
 
 ### Using network isolation
 
-The network isolation feature in Windows 8 enables a developer to fully control the network access of a UWP app. Not all apps may require access to the network. However for those apps that do, the Windows 8 provides different levels of access to the network that can be enabled by selecting appropriate capabilities.
+The network isolation feature in Windows enables a developer to fully control the network access of a packaged app (including UWP and packaged WinAppSDK desktop apps). Not all apps may require access to the network. However for those apps that do, Windows provides different levels of access to the network that can be enabled by selecting appropriate capabilities.
 
 Network isolation allows a developer to define for each app the scope of required network access. An app without the appropriate scope defined is prevented from accessing the specified type of network, and specific type of network request (outbound client-initiated requests or both inbound unsolicited requests and outbound client-initiated requests). The ability to set and enforce network isolation ensures that if an app does get compromised, it can only access networks where the app has explicitly been granted access. This significantly reduces the scope of the impact on other apps and on Windows.
 

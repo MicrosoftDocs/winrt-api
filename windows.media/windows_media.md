@@ -11,6 +11,9 @@ Provides classes for creating and working with media such as photos, audio recor
 
 ## -remarks
 
+> [!NOTE]
+> **App framework compatibility:** The Windows.Media APIs are available to Windows App SDK (WinUI 3) apps and Win32 desktop apps, not only UWP apps. Desktop apps can use media playback, capture, and processing APIs through C#/WinRT or C++/WinRT projections. For guidance on calling WinRT APIs from desktop apps, see [Call Windows Runtime APIs in desktop apps](/windows/apps/desktop/modernize/desktop-to-uwp-enhance).
+
 ## -examples
 
 ## -see-also

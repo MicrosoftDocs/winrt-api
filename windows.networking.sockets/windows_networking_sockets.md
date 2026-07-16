@@ -7,9 +7,12 @@
 
 ## -description
 
-Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for UWP apps.
+Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for packaged Windows apps (including UWP and WinAppSDK desktop apps).
 
 ## -remarks
+
+> [!NOTE]
+> **App framework compatibility:** The Windows.Networking.Sockets APIs are available to Windows App SDK (WinUI 3) desktop apps and Win32 desktop apps, not only UWP apps. Packaged desktop apps use the same network capability declarations as UWP apps. Unpackaged desktop apps have unrestricted network access and do not need to declare capabilities. For guidance, see [Call Windows Runtime APIs in desktop apps](/windows/apps/desktop/modernize/desktop-to-uwp-enhance).
 
 The Windows.Networking.Sockets namespace provides classes and interfaces for networking that use sockets and WebSockets. Here are the primary classes.
 
@@ -78,13 +81,13 @@ The Media Foundation feature can be enabled on Windows Server 2012 or Windows S
 
 ### Using sockets and WebSockets with network isolation
 
-Network isolation in Windows 8 lets you fully control the security profile of a UWP app.
+Network isolation in Windows lets you fully control the security profile of a packaged app (including UWP and packaged WinAppSDK desktop apps).
 
 Network isolation lets you define the network access needed for each app by choosing the appropriate capabilities. An app without the appropriate capabilities set is prevented from using specific network types (Internet or Home/Work Network) and specific network requests (outbound client-initiated requests, or both inbound unsolicited requests and outbound client-initiated requests). The ability to enforce network isolation ensures that even if an app becomes compromised, the app can only use features (network types and network requests, for example) that the app was granted as capabilities. This significantly reduces the possible impact on other apps and on the operating system.
 
-Windows 8 actively enforces network isolation. A call to a method or any access to a property in the Windows.Networking.Sockets namespace (or related namespaces that require network access) may fail if the appropriate network capability has not been enabled.
+Windows actively enforces network isolation. A call to a method or any access to a property in the Windows.Networking.Sockets namespace (or related namespaces that require network access) may fail if the appropriate network capability has not been enabled.
 
-The network capabilities for an app are configured in the app manifest when the app is built. Network capabilities are usually added using Visual Studio when you develop your app. They may also be set manually in the app manifest file using a text editor.
+The network capabilities for an app are configured in the app manifest when the app is built. Network capabilities are usually added using Visual Studio when you develop your app. They may also be set manually in the app manifest file using a text editor. Unpackaged desktop apps are not subject to network isolation and do not need to declare network capabilities.
 
 For more detailed information on network isolation, see [How to configure network isolation capabilities](/previous-versions/windows/apps/hh770532(v=win.10)).
 
