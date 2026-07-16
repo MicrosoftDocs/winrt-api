@@ -7,7 +7,7 @@
 
 ## -description
 
-Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for packaged Windows apps (including UWP and WinAppSDK desktop apps).
+Provides sockets and WebSockets classes to use for network communications and classes for real-time network notifications received in the background for packaged Windows apps (including UWP and Windows App SDK (WinUI 3) desktop apps).
 
 ## -remarks
 
