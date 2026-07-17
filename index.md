@@ -1,6 +1,7 @@
 ---
 -api-id: TP:winrt-api
 -api-name: Windows Runtime (WinRT) namespaces
+title: Windows Runtime (WinRT) API namespaces - Windows apps
 ---
 # Windows Runtime (WinRT) Namespaces
  
