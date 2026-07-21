@@ -43,9 +43,9 @@ By default, a data item is displayed in the ListView as the string representatio
 If you use the ListView to display large sets of data, see [Optimize ListView and GridView](/windows/uwp/debug-test-perf/optimize-gridview-and-listview) for tips to maintain a smooth and responsive user experience.
 
 > [!IMPORTANT]
-> **UI virtualization requires bounded height.** ListView uses UI virtualization to efficiently render large lists by only creating item containers for items that are near the viewport. This optimization requires the ListView to have a constrained height. If you place a ListView inside a container that provides unconstrained (infinite) height—such as a **StackPanel** or a **ScrollViewer**—the ListView cannot determine which items are visible and will create containers for *all* items, defeating virtualization and potentially causing severe performance problems.
+> **UI virtualization requires a bounded layout in the scrolling direction.** ListView uses UI virtualization to efficiently render large lists by only creating item containers for items that are near the viewport. This optimization requires the ListView to be constrained in its scrolling direction (height for vertical lists, width for horizontal lists). If you place a ListView inside a container that provides unconstrained (infinite) space in that direction—such as a [StackPanel](stackpanel.md) or a [ScrollViewer](scrollviewer.md)—the ListView cannot determine which items are visible and will create containers for *all* items, defeating virtualization and potentially causing severe performance problems.
 >
-> To preserve virtualization, place the ListView in a layout container that constrains its height, such as a **Grid** row with a defined height or `*` sizing.
+> To preserve virtualization, place the ListView in a layout container that constrains its size, such as a **Grid** row with a defined height or `*` sizing.
 
 > <div id="main">
 > <strong>Windows 10, version 1709 (SDK 16299) - Behavior change</strong>
