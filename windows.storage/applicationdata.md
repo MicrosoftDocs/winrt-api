@@ -36,7 +36,8 @@ These are the main types of app data:
 + a user drawing for an art app
 + daily exercise history for a fitness app
 + a shopping list for a todo app
- By storing information in the [LocalFolder](applicationdata_localfolder.md), the user will not lose data after resetting the device or switching to a new device. For other types of local data that are easy to recreate and not necessary for backup and restore, use the [LocalCacheFolder](applicationdata_localcachefolder.md) or [TemporaryFolder](applicationdata_temporaryfolder.md).
+
+By storing information in the [LocalFolder](applicationdata_localfolder.md), the user will not lose data after resetting the device or switching to a new device. For other types of local data that are easy to recreate and not necessary for backup and restore, use the [LocalCacheFolder](applicationdata_localcachefolder.md) or [TemporaryFolder](applicationdata_temporaryfolder.md).
 
 [LocalCacheFolder](applicationdata_localcachefolder.md) and [TemporaryFolder](applicationdata_temporaryfolder.md) are both stored locally and are not backed up to the cloud. [LocalCacheFolder](applicationdata_localcachefolder.md) is under control of that app and is persistent across app sessions. [LocalCacheFolder](applicationdata_localcachefolder.md) should be used for generated content needed across app sessions, such as cached files, logs, or authentication tokens. [TemporaryFolder](applicationdata_temporaryfolder.md) is not guaranteed to be persistent across sessions and can be deleted by the system at any time.
 
