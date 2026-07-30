@@ -13,7 +13,11 @@ public class HardwareIdentification
 Provides the ability to obtain a hardware identifier that represents the current hardware.
 
 ## -remarks
-See [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](/previous-versions/windows/apps/jj553431(v=win.10)) for more information.
+The Application Specific Hardware ID (ASHWID) encodes characteristics of up to nine hardware component types: processor, memory, disk device, network adapter, audio adapter, docking station, mobile broadband, Bluetooth, and system BIOS. The byte stream uses 4-byte groups where the first 2 bytes identify the component type and the next 2 bytes contain its value.
+
+The ASHWID **can contain multiple records of the same component type**. For example, a device with three physical disk drives produces three disk-device records; a docked tablet may produce additional network adapter and audio adapter records. Your cloud service should account for this variation when comparing ASHWIDs across sessions.
+
+The ASHWID format is described in detail in [Guidance on using the App Specific Hardware ID (ASHWID) to implement per-device app logic](/previous-versions/windows/apps/jj553431(v=win.10)).
 
 <!-- confirmed -->
 > [!NOTE]
