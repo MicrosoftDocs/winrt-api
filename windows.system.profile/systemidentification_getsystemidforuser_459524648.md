@@ -25,7 +25,7 @@ The identifier returned by this method is specific to a user on the current devi
 Use of this method is restricted by the **userSystemId** capability, which is a restricted capability requiring Microsoft approval. Please note that most callers should instead use the [Windows.System.Profile.SystemIdentification.GetSystemIdForPublisher](systemidentification_getsystemidforpublisher_728928815.md) method instead as it is more appropriate for the large majority of use cases and does not require a restricted capability. If you do not need to obtain an ID that is shared across apps built by different publishers, you should not use this method.
 
 > [!NOTE]
-> This method returns a hardware-based identifier intended for device correlation. To access the properties of the current user (such as display name or account name), use [Windows.System.User.GetDefault](../windows.system/user_getdefault_846721868.md) (available from Windows 10, version 2104) instead.
+> This method returns an identifier intended for correlation and does not provide a `User` object. To access properties of the current user (such as display name or account name), use [Windows.System.User.GetDefault](../windows.system/user_getdefault_846721868.md) (Windows 10, version 2104+) and then query properties via [User.GetPropertyAsync](../windows.system/user_getpropertyasync_1561087689.md) with [KnownUserProperties](../windows.system/knownuserproperties.md) (requires the **userAccountInformation** capability).
 
 ## -examples
 
