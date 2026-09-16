@@ -10,7 +10,7 @@ public string Arguments { get; }
 # Windows.ApplicationModel.Activation.LaunchActivatedEventArgs.Arguments
 
 ## -description
-Gets the argument that is passed to the app during its launch activation.
+Gets the launch arguments that are passed to the app during its launch activation.
 
 ## -property-value
 The launch arguments as a single string. This value can be used to control the behavior of the app when it is launched through a secondary tile or through a toast.
