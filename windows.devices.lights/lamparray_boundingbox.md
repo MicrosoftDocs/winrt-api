@@ -23,7 +23,14 @@ The value of the bounding box.
 
 Values are measured in meters.
 
+The coordinate system is left-handed, with the origin at the front-top-left corner of the bounding box:
+- **+X** extends to the right.
+- **+Y** extends downward.
+- **+Z** extends away from the user (into the device).
+
 Origin of [Positions](lampinfo_position.md) is the upmost, top, left corner of the box.
+
+Bounding box extents are derived from the device's HID LampArray descriptor, which reports dimensions in micrometers (µm). The WinRT API converts these values to meters (µm ÷ 1,000,000).
 
 ## -examples
 
