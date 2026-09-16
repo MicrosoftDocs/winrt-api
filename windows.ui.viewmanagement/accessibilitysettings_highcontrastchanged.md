@@ -15,7 +15,7 @@ Occurs when the system high contrast feature turns on or off.
 ## -remarks
 
 > [!WARNING]
-> This event relies on **CoreWindow**, which isn't available in WinUI 3 desktop apps. To detect High Contrast changes in a WinUI 3 app, use the [ThemeSettings.Changed](/windows/windows-app-sdk/api/winrt/microsoft.ui.system.themesettings.changed) event. Create a **ThemeSettings** object for your app window by calling [ThemeSettings.CreateForWindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.system.themesettings.createforwindowid), and retain a reference to the object for as long as you want to receive change notifications.
+> This event depends on a [CoreWindow](/uwp/api/windows.ui.core.corewindow) for the current thread. WinUI 3 desktop windows aren't backed by **CoreWindow**, so don't use this event in a WinUI 3 desktop app. In Windows App SDK 1.4 and later, use the [ThemeSettings.Changed](/windows/windows-app-sdk/api/winrt/microsoft.ui.system.themesettings.changed) event instead. Create a **ThemeSettings** object for your app window by calling [ThemeSettings.CreateForWindowId](/windows/windows-app-sdk/api/winrt/microsoft.ui.system.themesettings.createforwindowid), and retain a reference to the object for as long as you want to receive change notifications.
 
 ## -examples
 
