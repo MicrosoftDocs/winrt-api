@@ -32,4 +32,6 @@ The identifier returned from this API can be passed to [CancelRestartRequest](./
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

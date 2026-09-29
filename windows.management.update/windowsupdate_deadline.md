@@ -20,8 +20,10 @@ The underlying deadline associated with the [WindowsUpdate](./windowsupdate.md) 
 
 ## -remarks
 
-The deadline for an update is a specific time that it should be installed by, and will influence how aggressive USO is in ensuring that the update is downloaded and installed in order to meet the deadline.
+The deadline for an update is a specific time that it should be installed by, and will influence how aggressive the update orchestrator is in ensuring that the update is downloaded and installed in order to meet the deadline.
 
 ## -see-also
+
+[WindowsUpdate](./windowsupdate.md)
 
 ## -examples

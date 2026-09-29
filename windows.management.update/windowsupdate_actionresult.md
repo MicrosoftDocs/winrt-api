@@ -21,4 +21,6 @@ The underlying [WindowsUpdateActionResult](./windowsupdateactionresult.md) assoc
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

@@ -22,4 +22,6 @@ Gets a value indicating whether the [WindowsUpdateManager](./windowsupdatemanage
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

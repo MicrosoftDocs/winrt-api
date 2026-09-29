@@ -12,12 +12,18 @@ public System.Collections.Generic.IReadOnlyDictionary<string,object> Properties 
 
 ## -description
 
+Gets the collection of additional provider-defined properties attached to the update.
+
 ## -property-value
+
+A read-only map of property names to values.
 
 ## -remarks
 
+
 ## -see-also
 
-## -examples
+[WindowsSoftwareUpdate](./windowssoftwareupdate.md)
 
+## -examples
 

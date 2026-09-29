@@ -38,4 +38,6 @@ The organization name used at registration is required to acquire the **WindowsU
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

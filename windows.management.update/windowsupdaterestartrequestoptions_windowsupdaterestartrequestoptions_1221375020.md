@@ -20,4 +20,6 @@ Before you pass the object to [RequestRestart](./windowsupdateadministrator_requ
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

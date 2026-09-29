@@ -22,4 +22,6 @@ A URL that links to detailed information regarding the update.
 
 ## -see-also
 
+[WindowsUpdateItem](./windowsupdateitem.md)
+
 ## -examples

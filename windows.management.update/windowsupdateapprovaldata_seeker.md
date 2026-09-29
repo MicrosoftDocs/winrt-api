@@ -24,4 +24,6 @@ When an update is seeker, it won't be surfaced in the normal list of applicable 
 
 ## -see-also
 
+[WindowsUpdateApprovalData](./windowsupdateapprovaldata.md)
+
 ## -examples

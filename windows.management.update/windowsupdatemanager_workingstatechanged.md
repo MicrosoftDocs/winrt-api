@@ -18,4 +18,6 @@ Raised when the working state changes.
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

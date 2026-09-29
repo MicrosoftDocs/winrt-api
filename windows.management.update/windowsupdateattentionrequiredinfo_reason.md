@@ -22,4 +22,6 @@ A value indicating the specific reason that attention is required for an update 
 
 ## -see-also
 
+[WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequiredinfo.md)
+
 ## -examples

@@ -21,4 +21,6 @@ The underlying [WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequ
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

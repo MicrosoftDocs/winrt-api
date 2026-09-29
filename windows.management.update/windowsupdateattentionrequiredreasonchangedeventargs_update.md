@@ -20,4 +20,6 @@ Gets the [WindowsUpdate](./windowsupdate.md) associated with the attention-requi
 
 ## -see-also
 
+[WindowsUpdateAttentionRequiredReasonChangedEventArgs](./windowsupdateattentionrequiredreasonchangedeventargs.md)
+
 ## -examples

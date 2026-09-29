@@ -35,4 +35,6 @@ Indicates the compliance grace period in days before a reboot must occur in orde
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

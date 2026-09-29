@@ -12,12 +12,18 @@ public Windows.Management.Update.WindowsSoftwareUpdateIdentity UpdateIdentity { 
 
 ## -description
 
+Gets the identity of the installed product that the update targets.
+
 ## -property-value
+
+A [WindowsSoftwareUpdateIdentity](./windowssoftwareupdateidentity.md).
 
 ## -remarks
 
+
 ## -see-also
 
-## -examples
+[WindowsSoftwareUpdate](./windowssoftwareupdate.md)
 
+## -examples
 

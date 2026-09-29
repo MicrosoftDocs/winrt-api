@@ -24,4 +24,6 @@ If the action completed successfully, then the value is **S_OK** (0). Otherwise,
 
 ## -see-also
 
+[WindowsUpdateActionCompletedEventArgs](./windowsupdateactioncompletedeventargs.md)
+
 ## -examples

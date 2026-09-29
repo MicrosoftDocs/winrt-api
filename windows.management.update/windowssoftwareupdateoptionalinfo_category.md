@@ -12,12 +12,18 @@ public System.Nullable<Windows.Management.Update.WindowsSoftwareUpdateCategory> 
 
 ## -description
 
+Gets the category that classifies the update.
+
 ## -property-value
+
+A [WindowsSoftwareUpdateCategory](./windowssoftwareupdatecategory.md) value, or `null` if not specified.
 
 ## -remarks
 
+
 ## -see-also
 
-## -examples
+[WindowsSoftwareUpdateOptionalInfo](./windowssoftwareupdateoptionalinfo.md)
 
+## -examples
 

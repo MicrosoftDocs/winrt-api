@@ -12,12 +12,19 @@ public bool IsSeeker { get; }
 
 ## -description
 
+Gets a value that indicates whether the update is a seeker update.
+
 ## -property-value
+
+`true` if the update is a seeker update; otherwise, `false`.
 
 ## -remarks
 
+A seeker update isn't surfaced in the normal list of applicable updates and requires explicit user action to proceed.
+
 ## -see-also
 
-## -examples
+[WindowsSoftwareUpdate](./windowssoftwareupdate.md)
 
+## -examples
 

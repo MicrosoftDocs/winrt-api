@@ -18,4 +18,6 @@ Constructs a new **WindowsUpdateApprovalData** instance with all underlying prop
 
 ## -see-also
 
+[WindowsUpdateApprovalData](./windowsupdateapprovaldata.md)
+
 ## -examples

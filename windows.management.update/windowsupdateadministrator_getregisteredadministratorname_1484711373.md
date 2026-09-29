@@ -24,4 +24,6 @@ If there is no registered update administrator on the device, then the call will
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

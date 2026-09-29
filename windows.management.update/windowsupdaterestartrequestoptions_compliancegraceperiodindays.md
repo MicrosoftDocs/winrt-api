@@ -28,4 +28,6 @@ If an update doesn't require a reboot to complete, then this field will have no 
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

@@ -22,4 +22,6 @@ The title for the [WindowsUpdate](./windowsupdate.md) object.
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

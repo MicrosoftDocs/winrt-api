@@ -20,4 +20,6 @@ Unlike the [ScanCompleted](./windowsupdatemanager_scancompleted.md) event, this 
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

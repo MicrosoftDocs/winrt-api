@@ -24,4 +24,6 @@ This will most commonly be "Download" or "Install". Other possible actions inclu
 
 ## -see-also
 
+[WindowsUpdateActionResult](./windowsupdateactionresult.md)
+
 ## -examples

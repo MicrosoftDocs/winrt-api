@@ -24,4 +24,6 @@ The end user will have the number of days specified by **ComplianceDeadlineInDay
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

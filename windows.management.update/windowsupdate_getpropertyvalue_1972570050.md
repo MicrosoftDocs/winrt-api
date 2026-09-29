@@ -28,4 +28,6 @@ If the property exists in the update metadata, then it is returned as an Object.
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

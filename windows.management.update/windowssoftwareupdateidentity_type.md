@@ -12,12 +12,18 @@ public Windows.Management.Update.WindowsSoftwareUpdateIdentityType Type { get; }
 
 ## -description
 
+Gets the kind of identifier represented by this identity.
+
 ## -property-value
+
+A [WindowsSoftwareUpdateIdentityType](./windowssoftwareupdateidentitytype.md) value.
 
 ## -remarks
 
+
 ## -see-also
 
-## -examples
+[WindowsSoftwareUpdateIdentity](./windowssoftwareupdateidentity.md)
 
+## -examples
 

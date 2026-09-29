@@ -32,4 +32,6 @@ This call fails if the *updateId* provided doesn't match any updates found by a 
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

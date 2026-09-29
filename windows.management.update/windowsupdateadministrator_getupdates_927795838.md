@@ -24,4 +24,6 @@ The returned list is a superset of the updates that can be retrieved with [Windo
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples
