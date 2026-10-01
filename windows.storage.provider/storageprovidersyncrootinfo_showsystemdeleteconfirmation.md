@@ -7,23 +7,27 @@
 public bool ShowSystemDeleteConfirmation { get; set; }
 -->
 
-# Windows.Storage.Provider.StorageProviderSyncRootInfo.ShowSystemDeleteConfirmation
+# StorageProviderSyncRootInfo.ShowSystemDeleteConfirmation
 
 ## -description
-Gets or sets whether Windows shows the system delete confirmation dialog when the user deletes items from the sync root in File Explorer.
+Gets or sets whether Windows displays a system delete confirmation dialog when the user deletes items from the storage provider sync root in File Explorer.
 
 ## -property-value
-**True** if Windows shows the system delete confirmation dialog for deleted items in the sync root; **False** if Windows suppresses the system delete confirmation dialog. The default value is **True**.
+Type: **Boolean**
+
+**True** if the system delete confirmation dialog is enabled and displayed by Windows when items are deleted in the sync root. **False** if the system delete confirmation dialog is disabled and not displayed by Windows. The default value is **True**.
 
 ## -remarks
 
-Set this property when registering a sync root with [StorageProviderSyncRootManager.Register](storageprovidersyncrootmanager_register_1146790023.md).
+Set this property before registering a sync root by calling [StorageProviderSyncRootManager.Register](storageprovidersyncrootmanager_register_1146790023.md).
 
-Set **ShowSystemDeleteConfirmation** to **False** when your cloud storage provider shows its own delete confirmation UI or has another user-confirmation model and the additional Windows confirmation dialog would be redundant or confusing. For example, a provider that asks the user to confirm deletion after it receives delete notifications can suppress the Windows dialog so users see only the provider-owned confirmation experience.
+Set **ShowSystemDeleteConfirmation** to `false` if your cloud storage provider displays its own delete confirmation experience. Disabling the Windows confirmation dialog can help avoid presenting multiple confirmation prompts for the same delete operation.
 
-When this property is **False**, the provider is responsible for giving users any required confirmation, undo, restore, or recovery experience. Suppressing the Windows confirmation dialog does not change how items are deleted, recycled, restored, or synchronized by the provider. It only controls whether Windows shows its built-in confirmation dialog for delete operations in the sync root.
+When this property is `false`, the provider is responsible for any confirmation, undo, restore, or recovery experience associated with deleting items.
 
-Existing apps should check for this property before setting it so they can continue to run on versions of Windows that do not support it.
+This property affects only whether Windows displays its built-in delete confirmation dialog for delete operations in the sync root. It does not change how items are deleted, synchronized, restored, or recycled by the provider.
+
+Apps should check for this property before setting it to ensure compatibility with versions of Windows that do not support it.
 
 ## -see-also
 
