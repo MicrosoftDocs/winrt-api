@@ -34,6 +34,9 @@ Access social media feeds.
 ### -field Share:32
 Share the contact.
 
+### -field Activity:64
+Record an interaction with the contact.
+
 ## -remarks
 Use the OR operator to combine these values together into a single bit field.
 
