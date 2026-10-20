@@ -10,7 +10,7 @@ public Windows.UI.Xaml.DataTemplate FooterTemplate { get;  set; }
 # Windows.UI.Xaml.Controls.ItemsPresenter.FooterTemplate
 
 ## -description
-Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the items header.
+Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to display the content of the items footer.
 
 
 
@@ -31,7 +31,7 @@ Gets or sets the [DataTemplate](../windows.ui.xaml/datatemplate.md) used to disp
 <dt>resourceReferenceToDataTemplate</dt><dd>resourceReferenceToDataTemplateA resource reference to an existing DataTemplate from a resources collection. The resource reference must specify the desired DataTemplate by key through a {StaticResource} markup extension usage.</dd>
 </dl>
 ## -property-value
-The template that specifies the visualization of the header object. The default is **null**.
+The template that specifies the visualization of the footer object. The default is **null**.
 
 ## -remarks
 

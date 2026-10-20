@@ -16,6 +16,9 @@ For info about how to use the objects in the Windows.Storage namespace, see the 
 
 ## -remarks
 
+> [!NOTE]
+> **App framework compatibility:** The Windows.Storage APIs are available to Windows App SDK (WinUI 3) desktop apps and Win32 desktop apps, not only UWP apps. Desktop apps can use classes like [StorageFile](storagefile.md), [StorageFolder](storagefolder.md), and [ApplicationData](applicationdata.md) through C#/WinRT or C++/WinRT. Some APIs (such as the file picker) require additional configuration in unpackaged desktop apps. For details, see [Call Windows Runtime APIs in desktop apps](/windows/apps/desktop/modernize/desktop-to-uwp-enhance).
+
 ## -examples
 
 ## -see-also

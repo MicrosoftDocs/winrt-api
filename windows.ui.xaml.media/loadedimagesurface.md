@@ -41,6 +41,18 @@ no max size is specified, then the image will decode to its natural size.
 * [StartLoadFromStream(IRandomAccessStream)](loadedimagesurface_startloadfromstream_1253534602.md)
 * [StartLoadFromStream(IRandomAccessStream, Size)](loadedimagesurface_startloadfromstream_1850726798.md)
 
+### Surface allocation and the desiredMaxSize threshold
+
+When you specify a `desiredMaxSize`, the system uses it to determine the surface allocation strategy:
+
+- **desiredMaxSize ≤ 2340 pixels** (per dimension): The surface is allocated as a non-virtual (performance-optimized) hardware surface. The image decodes up to `desiredMaxSize × currentDPIScale`, capped at approximately 16,380 pixels. This path is faster for typical UI images.
+- **desiredMaxSize > 2340 pixels** (per dimension): The surface is allocated as a virtual surface, which supports resizing up to the hardware texture limit (typically 16,384 pixels per dimension). Initial allocation is slower but allows larger images.
+
+The 2340-pixel threshold is derived from the maximum hardware texture size (16,384) divided by the maximum supported DPI scale factor (7). If you pass a `desiredMaxSize` between 2340 and 16,384 pixels expecting the image to decode at exactly that resolution on a non-virtual surface, the image may be downscaled without warning. To ensure full-resolution decoding for large images, pass a `desiredMaxSize` greater than 2340 pixels per dimension so a virtual surface is allocated.
+
+> [!NOTE]
+> The maximum hardware texture size (16,384 pixels) is determined by the graphics hardware and DirectComposition. The 2340-pixel threshold is an internal optimization heuristic and may change in future Windows releases.
+
 ### Lifetime management
 When a **LoadedImageSurface** is created using one of the factory methods, the underlying surface is immediately initialized to a size of 0x0 and the image content begins
 downloading and decoding off of the UI thread. When the image source has been successfully decoded, it then gets loaded onto the surface and the [LoadCompleted](loadedimagesurface_loadcompleted.md) event gets fired

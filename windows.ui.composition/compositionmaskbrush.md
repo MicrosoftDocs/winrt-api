@@ -18,7 +18,38 @@ Paints a SpriteVisual with a CompositionBrush with an opacity mask applied to it
 CompositionMaskBrush can not be set as the source parameter to a [CompositionEffectBrush](compositioneffectbrush.md). If you wish to apply an IGraphicsEffect to your masked content, use a [CompositionEffectBrush](compositioneffectbrush.md) with the [Composite effect](/windows/uwp/graphics/composition-effects?f=255&amp;MSPPError=-2147217396) instead.
 
 ## -examples
-Apply a star-shaped mask to an image.
+
+### Complete example: Apply a mask from an image file
+
+The following example shows how to create a CompositionMaskBrush end-to-end, including loading the mask image. The mask image should be a grayscale PNG where white areas are fully visible and black areas are fully masked (transparent). Gray values produce partial transparency.
+
+```csharp
+// Get the Compositor from a XAML element
+Compositor compositor = ElementCompositionPreview.GetElementVisual(myElement).Compositor;
+
+// Create the mask brush
+CompositionMaskBrush maskBrush = compositor.CreateMaskBrush();
+
+// Create the source (the content to be masked)
+CompositionColorBrush colorBrush = compositor.CreateColorBrush(Colors.Blue);
+maskBrush.Source = colorBrush;
+
+// Load a mask image and create a surface brush from it
+// The mask image is a grayscale PNG (white = visible, black = transparent)
+LoadedImageSurface maskSurface = LoadedImageSurface.StartLoadFromUri(new Uri("ms-appx:///Assets/CircleMask.png"));
+CompositionSurfaceBrush maskSurfaceBrush = compositor.CreateSurfaceBrush(maskSurface);
+maskBrush.Mask = maskSurfaceBrush;
+
+// Apply to a SpriteVisual and add it to the XAML tree
+SpriteVisual visual = compositor.CreateSpriteVisual();
+visual.Brush = maskBrush;
+visual.Size = new System.Numerics.Vector2(200, 200);
+ElementCompositionPreview.SetElementChildVisual(myElement, visual);
+```
+
+### Apply a star-shaped mask to an image
+
+The following examples show various ways to use CompositionMaskBrush. Each example receives pre-created [ICompositionSurface](/uwp/api/windows.ui.composition.icompositionsurface) instances. You can create these surfaces using [LoadedImageSurface](/uwp/api/windows.ui.xaml.media.loadedimagesurface) as shown in the example above, or through [Win2D](https://microsoft.github.io/Win2D/WinUI2/html/T_Microsoft_Graphics_Canvas_UI_Composition_CanvasComposition.htm).
 
 ```csharp
 
@@ -51,7 +82,7 @@ private SpriteVisual CreateCircleImage(ICompositionSurface myImageSurface, IComp
       
 ```
 
-Applying an opacity mask to solid color fill to create a shape; animate the transform property on the opacity mask [CompositionSurfaceBrush](compositionsurfacebrush.md) to create a color bloom animation
+### Animate an opacity mask to create a color bloom effect
 
 ```csharp
 
@@ -100,9 +131,7 @@ private void BloomAnimation()
       
 ```
 
-Applying a rounded rectangle mask to create a solid color rounded rectangle whose corner radius does not increase upon resizing (use [CompositionNineGridBrush](compositionninegridbrush.md) as input to a 
-    **CompositionMaskBrush**
-  ).
+### Use a NineGridBrush mask for a rounded rectangle
 
 ```csharp
 

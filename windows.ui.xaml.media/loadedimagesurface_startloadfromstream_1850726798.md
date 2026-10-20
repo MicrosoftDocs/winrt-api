@@ -32,8 +32,9 @@ An instance of [LoadedImageSurface](loadedimagesurface.md) with the image loaded
 
 ## -remarks
 
-By default, [LoadedImageSurface](loadedimagesurface.md) will fill up as much of the **desiredMaxSize** as possible while preserving the aspect ratio and image content
-of the incoming source. This may result in a decodedsize that differs from the input **desiredMaxSize**
+By default, [LoadedImageSurface](loadedimagesurface.md) will fill up as much of the **desiredMaxSize** as possible while preserving the aspect ratio and image content of the incoming source. This may result in a decoded size that differs from the input **desiredMaxSize**.
+
+The **desiredMaxSize** parameter also determines the surface allocation strategy. If either dimension of **desiredMaxSize** is 2340 pixels or less, the system allocates a non-virtual (performance-optimized) surface where the effective decode resolution is capped at `desiredMaxSize × currentDPIScale` (up to approximately 16,380 pixels). If either dimension exceeds 2340 pixels, a virtual surface is allocated that supports the full hardware texture limit (typically 16,384 pixels per dimension). For more information, see [LoadedImageSurface remarks](loadedimagesurface.md#surface-allocation-and-the-desiredmaxsize-threshold).
 
 ## -see-also
 

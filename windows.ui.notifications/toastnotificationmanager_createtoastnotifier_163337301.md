@@ -11,7 +11,7 @@ public Windows.UI.Notifications.ToastNotifier CreateToastNotifier(System.String 
 # Windows.UI.Notifications.ToastNotificationManager.CreateToastNotifier
 
 ## -description
-Creates and initializes a new instance of the [ToastNotification](toastnotification.md), bound to a specified app, usually another app in the same package.
+Creates and initializes a new instance of the [ToastNotifier](toastnotifier.md), bound to a specified app, usually another app in the same package.
 
 ## -parameters
 ### -param applicationId

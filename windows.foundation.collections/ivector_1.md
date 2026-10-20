@@ -47,4 +47,4 @@ IVector inherits [IIterable](iiterable_1.md). Types that implement IVector also 
 
 ## -see-also
 
-[Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList\<T\>](/dotnet/api/system.collections.generic.ilist-1)
+[Collections (C++/CX)](/cpp/cppcx/collections-c-cx), [System.Collections.Generic.IList&lt;T&gt;](/dotnet/api/system.collections.generic.ilist-1)

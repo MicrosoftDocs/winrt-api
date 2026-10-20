@@ -12,6 +12,25 @@ public enum Windows.UI.Xaml.Controls.Symbol : int
 ## -description
 Defines constants that specify a glyph from the **Segoe MDL2 Assets** font to use as the content of a [SymbolIcon](symbolicon.md).
 
+> [!IMPORTANT]
+> The numeric value shown for each constant is the **enum member value**, not necessarily the recommended font glyph code point for that icon. For example, `Setting` has the value 57621 (0xE115), but the maintained icon catalogs recommend the code point **E713** for the settings glyph.
+>
+> Some legacy code points in the E0xx–E5xx range can render as garbled characters in certain contexts, such as CJK locales, and are not recommended for direct use. Prefer referencing a glyph by its `Symbol` name, or use a maintained code point from the catalogs below.
+>
+> To reference a glyph by name with a [SymbolIcon](symbolicon.md):
+>
+> ```xaml
+> <SymbolIcon Symbol="Setting"/>
+> ```
+>
+> To use a maintained code point directly with a [FontIcon](fonticon.md):
+>
+> ```xaml
+> <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE713;"/>
+> ```
+>
+> For the current, maintained glyph catalogs, see [Segoe Fluent Icons font](/windows/apps/design/style/segoe-fluent-icons-font) and [Segoe MDL2 Assets](/windows/apps/design/style/segoe-ui-symbol-font).
+
 
 
 ## -xaml-syntax
@@ -87,6 +106,8 @@ E114 <img alt="Camera icon" src="images/segoe-mdl/e114.png" />
 
 ### -field Setting:57621
 E115 <img alt="Setting icon" src="images/segoe-mdl/e115.png" />
+
+The enum member value is 57621 (0xE115). The maintained font catalogs recommend the code point **E713** for the settings glyph. To reference the glyph code point directly, use `<FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE713;"/>`. Referencing `Symbol="Setting"` in a [SymbolIcon](symbolicon.md) resolves the correct glyph automatically.
 
 ### -field Video:57622
 E116 <img alt="Video icon" src="images/segoe-mdl/e116.png" />
@@ -635,7 +656,7 @@ If you would like to use a glyph from the **Segoe MDL2 Assets** font that is not
 ## -examples
 
 ## -see-also
-[Guidelines for Segoe MDL2 icons](/windows/uwp/style/segoe-ui-symbol-font), [Quickstart: Adding app bar buttons (Windows 8)](/previous-versions/windows/apps/jj662743(v=win.10))
+[Guidelines for Segoe MDL2 icons](/windows/uwp/style/segoe-ui-symbol-font), [Segoe Fluent Icons font](/windows/apps/design/style/segoe-fluent-icons-font), [Quickstart: Adding app bar buttons (Windows 8)](/previous-versions/windows/apps/jj662743(v=win.10))
 
 
 

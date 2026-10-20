@@ -16,9 +16,6 @@ Represents an app task that can be displayed in the Windows Shell.
 
 ## -remarks
 
-> [!IMPORTANT]
-> **App task support will start gradually rolling out to Windows 11 starting May, 2026.** The experiences enabled by `Windows.UI.Shell.Tasks` APIs require that the corresponding app task feature be present in the version of Windows where the app runs. Otherwise, these APIs will not have any effect.
-
 This class supports creating, updating, and removing task representations. Tasks are persisted across app sessions and system reboots.
 
 For each task, create a new `AppTaskInfo` instance and modify it to represent the task state. When a task is no longer relevant, call [Remove](apptaskinfo_remove_13687727.md) to remove it from the Shell.

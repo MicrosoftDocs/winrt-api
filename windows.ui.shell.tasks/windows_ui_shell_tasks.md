@@ -13,9 +13,6 @@ Provides APIs that allow apps to represent long-running tasks in the Windows She
 
 ## -remarks
 
-> [!IMPORTANT]
-> **App task support will start gradually rolling out to Windows 11 starting May, 2026.** The experiences enabled by `Windows.UI.Shell.Tasks` APIs require that the corresponding app task feature be present in the version of Windows where the app runs. Otherwise, these APIs will not have any effect.
-
 ### Using shell tasks APIs
 
 Apps that use these APIs need to be packaged. See [Packaging overview](/windows/apps/package-and-deploy/packaging/) for more info.
