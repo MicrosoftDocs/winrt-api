@@ -22,4 +22,6 @@ A collection of [WindowsUpdate](./windowsupdate.md) objects discovered by the sc
 
 ## -see-also
 
+[WindowsUpdateScanCompletedEventArgs](./windowsupdatescancompletedeventargs.md)
+
 ## -examples

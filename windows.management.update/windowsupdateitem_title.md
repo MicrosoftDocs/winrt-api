@@ -22,4 +22,6 @@ A string value containing the title of the update.
 
 ## -see-also
 
+[WindowsUpdateItem](./windowsupdateitem.md)
+
 ## -examples

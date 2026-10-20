@@ -24,4 +24,6 @@ If a [WindowsUpdateAdministrator](./windowsupdateadministrator.md) has been regi
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

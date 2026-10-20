@@ -26,4 +26,6 @@ If a Boolean value of `false` is specified, then the device won't automatically 
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

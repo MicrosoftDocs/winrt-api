@@ -26,4 +26,6 @@ The token required to cancel a restart request is returned by [RequestRestart](.
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

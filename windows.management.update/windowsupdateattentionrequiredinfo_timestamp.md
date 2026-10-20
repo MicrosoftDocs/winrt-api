@@ -24,4 +24,6 @@ The time is reported in the local time of the device.
 
 ## -see-also
 
+[WindowsUpdateAttentionRequiredInfo](./windowsupdateattentionrequiredinfo.md)
+
 ## -examples

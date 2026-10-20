@@ -30,4 +30,6 @@ The organization name provided must match the one provided when the Windows upda
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

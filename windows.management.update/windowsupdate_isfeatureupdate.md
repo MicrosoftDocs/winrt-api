@@ -22,4 +22,6 @@ Indicates whether the [WindowsUpdate](./windowsupdate.md) object is classified a
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

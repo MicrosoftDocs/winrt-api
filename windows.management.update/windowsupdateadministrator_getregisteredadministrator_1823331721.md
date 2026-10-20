@@ -33,4 +33,6 @@ This call will fail if:
 
 ## -see-also
 
+[WindowsUpdateAdministrator](./windowsupdateadministrator.md)
+
 ## -examples

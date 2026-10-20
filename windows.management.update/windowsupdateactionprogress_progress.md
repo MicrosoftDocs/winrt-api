@@ -24,4 +24,6 @@ This value is reported as a double in the range [0.0, 1.0], where 0.0 maps to 0%
 
 ## -see-also
 
+[WindowsUpdateActionProgress](./windowsupdateactionprogress.md)
+
 ## -examples

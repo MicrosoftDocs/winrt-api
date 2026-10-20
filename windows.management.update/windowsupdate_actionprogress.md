@@ -21,4 +21,6 @@ The underlying [WindowsUpdateActionProgress](./windowsupdateactionprogress.md) a
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

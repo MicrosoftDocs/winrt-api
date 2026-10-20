@@ -112,6 +112,18 @@ Corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020**.
 
 Corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P709**.
 
+### -field RgbFullG10NoneP2020:25
+
+Corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G10_NONE_P2020**.
+
+### -field RgbFullG22ExtNoneP709:26
+
+Corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G22EXT_NONE_P709**.
+
+### -field RgbFullG22NoneP3:27
+
+Corresponds to **DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P3**.
+
 ### -field Reserved:4
 
 Corresponds to **DXGI_COLOR_SPACE_RESERVED**.

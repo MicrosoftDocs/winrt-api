@@ -24,4 +24,6 @@ The timestamp is reported in the local time of the device. If there has not yet 
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

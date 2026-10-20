@@ -20,4 +20,6 @@ Gets the [WindowsUpdateAttentionRequiredReason](./windowsupdateattentionrequired
 
 ## -see-also
 
+[WindowsUpdateAttentionRequiredReasonChangedEventArgs](./windowsupdateattentionrequiredreasonchangedeventargs.md)
+
 ## -examples

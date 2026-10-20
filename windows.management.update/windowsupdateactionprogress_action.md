@@ -24,4 +24,6 @@ This will most commonly be "Download" or "Install". Other possible actions inclu
 
 ## -see-also
 
+[WindowsUpdateActionProgress](./windowsupdateactionprogress.md)
+
 ## -examples

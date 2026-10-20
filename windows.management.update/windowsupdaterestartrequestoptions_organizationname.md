@@ -24,4 +24,6 @@ The organization name provided will be used in any notifications associated with
 
 ## -see-also
 
+[WindowsUpdateRestartRequestOptions](./windowsupdaterestartrequestoptions.md)
+
 ## -examples

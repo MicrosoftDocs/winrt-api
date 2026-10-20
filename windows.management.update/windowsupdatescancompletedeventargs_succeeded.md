@@ -24,4 +24,6 @@ This property affords quick reference as to whether a scan was successful. If th
 
 ## -see-also
 
+[WindowsUpdateScanCompletedEventArgs](./windowsupdatescancompletedeventargs.md)
+
 ## -examples

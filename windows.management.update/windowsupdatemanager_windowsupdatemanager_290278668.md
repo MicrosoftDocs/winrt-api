@@ -23,4 +23,6 @@ Identifier used to distinguish the update manager instance.
 
 ## -see-also
 
+[WindowsUpdateManager](./windowsupdatemanager.md)
+
 ## -examples

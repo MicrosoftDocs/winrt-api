@@ -24,4 +24,6 @@ If the scan completed successfully, then the value is **S_OK** (0). Otherwise, t
 
 ## -see-also
 
+[WindowsUpdateScanCompletedEventArgs](./windowsupdatescancompletedeventargs.md)
+
 ## -examples

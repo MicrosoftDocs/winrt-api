@@ -32,5 +32,3 @@ Before attempting to create a **GraphicsCaptureItem** with this method, you must
 ## -see-also
 
 ## -examples
-
-

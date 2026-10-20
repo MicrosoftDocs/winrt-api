@@ -24,4 +24,6 @@ The update ID will generally be a GUID, but it can be any string that uniquely i
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

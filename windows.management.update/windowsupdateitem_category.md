@@ -22,4 +22,6 @@ A value indicating the categoric classification of an update. Classifications in
 
 ## -see-also
 
+[WindowsUpdateItem](./windowsupdateitem.md)
+
 ## -examples

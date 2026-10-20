@@ -22,4 +22,6 @@ A string value indicating the operation associated with the update item. Can be 
 
 ## -see-also
 
+[WindowsUpdateItem](./windowsupdateitem.md)
+
 ## -examples

@@ -22,4 +22,6 @@ The underlying description metadata string associated with the [WindowsUpdate](.
 
 ## -see-also
 
+[WindowsUpdate](./windowsupdate.md)
+
 ## -examples

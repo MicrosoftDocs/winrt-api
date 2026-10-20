@@ -22,4 +22,6 @@ The [WindowsUpdate](./windowsupdate.md) associated with the progress change even
 
 ## -see-also
 
+[WindowsUpdateProgressChangedEventArgs](./windowsupdateprogresschangedeventargs.md)
+
 ## -examples

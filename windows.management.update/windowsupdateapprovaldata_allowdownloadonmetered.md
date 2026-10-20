@@ -21,4 +21,6 @@ Gets or sets a value indicating whether the update is permitted to download over
 
 ## -see-also
 
+[WindowsUpdateApprovalData](./windowsupdateapprovaldata.md)
+
 ## -examples

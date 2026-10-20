@@ -22,4 +22,6 @@ The unique ID associated with an update (in order to identify it).
 
 ## -see-also
 
+[WindowsUpdateItem](./windowsupdateitem.md)
+
 ## -examples
