@@ -22,6 +22,9 @@ A list of **RemoteDesktopInfo** objects.
 
 When the URI `ms-remotedesktop:setup` is invoked, remote desktop client apps should call **Append** on the **DesktopInfos** collection to register Windows 365 Cloud PCs to the Windows shell.
 
+> [!NOTE]
+> This API requires full trust. The calling app must not run in an app container; it must be a full-trust Win32 desktop app.
+
 ## -see-also
 
 ## -examples
