@@ -22,6 +22,9 @@ If the method succeeds, an enumerable collection of package objects with the sam
 ## -remarks
 This method requires administrative privileges. Each package in the [IIterable(Package)](../windows.foundation.collections/iiterable_1.md) collection may be installed for the current user or for another user. This method differs from [FindPackages(String packageName, String pulisherName)](packagemanager_findpackages_1597689551.md) method. Here the *packageFamilyName* parameter is a single string, comprised of the package name and package publisher hash.
 
+> [!NOTE]
+> The *packageFamilyName* parameter corresponds to [Package.Id.FamilyName](/uwp/api/windows.applicationmodel.packageid.familyname) — for example, `Microsoft.WindowsCalculator_8wekyb3d8bbwe`. This is **not** the same as [Package.Id.Name](/uwp/api/windows.applicationmodel.packageid.name) (e.g., `Microsoft.WindowsCalculator`) or [Package.Id.FullName](/uwp/api/windows.applicationmodel.packageid.fullname) (which includes version and architecture). Passing an incorrect format silently returns an empty collection.
+
 ## -examples
 
 ## -see-also

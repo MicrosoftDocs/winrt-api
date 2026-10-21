@@ -10,13 +10,15 @@ public Windows.Foundation.Collections.IIterable<Windows.ApplicationModel.Package
 # Windows.Management.Deployment.PackageManager.FindPackages
 
 ## -description
-Retrieves information about a specified family of [Packages](/uwp/api/windows.applicationmodel.package) installed across all users.
+Retrieves information about all [Packages](/uwp/api/windows.applicationmodel.package) installed across all users.
 
 ## -returns
 If the method succeeds, an enumerable collection of package objects is returned. Each Package object in this collection contains information about the package, including but not limited to its name, publisher, version, and install location.
 
 ## -remarks
 This method requires administrative privileges. Otherwise, an **AccessDeniedException** is thrown.
+
+This method returns packages installed for **all users** on the device. To retrieve packages for a specific user only, use [FindPackagesForUser](packagemanager_findpackagesforuser_292215772.md).
 
 ## -examples
 This example uses FindPackages() to enumerate the installed packages for all users.
