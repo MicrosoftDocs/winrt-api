@@ -14,6 +14,8 @@ Identifies the method as an overload in a language that supports overloading.
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[overload("Name")]`, where `Name` is the projected method name.
+
 ## -examples
 
 ## -see-also

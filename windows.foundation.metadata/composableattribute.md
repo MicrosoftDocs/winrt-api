@@ -14,6 +14,8 @@ Indicates how a programming element is composed.
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[composable(...)]`.
+
 ## -examples
 
 ## -see-also

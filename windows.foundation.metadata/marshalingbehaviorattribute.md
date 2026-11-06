@@ -14,6 +14,8 @@ Indicates the marshaling behavior of a Windows Runtime component.
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[marshaling_behavior(...)]`.
+
 ## -examples
 
 ## -see-also

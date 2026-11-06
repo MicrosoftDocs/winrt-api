@@ -14,6 +14,8 @@ Indicates that the interface contains overridable methods.
 
 ## -remarks
 
+In MIDL 3.0, overridable-interface metadata is expressed with the `[overridable(InterfaceName)]` attribute. For an example, see [Synthesizing interfaces (MIDL 3.0)](https://learn.microsoft.com/uwp/midl-3/synthesizing-interfaces).
+
 ## -examples
 
 ## -see-also

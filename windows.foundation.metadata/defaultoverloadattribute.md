@@ -14,6 +14,8 @@ Indicates that a method is the default overload method. This attribute must be u
 
 ## -remarks
 
+In MIDL 3.0, this attribute is written as `[default_overload]`. For usage guidance, see [Predefined attributes (MIDL 3.0)](https://learn.microsoft.com/uwp/midl-3/predefined-attributes#the-default_overload-attribute).
+
 ## -examples
 
 ## -see-also
