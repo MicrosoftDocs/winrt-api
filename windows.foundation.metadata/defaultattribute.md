@@ -14,6 +14,8 @@ Indicates the default interface for a runtime class.
 
 ## -remarks
 
+In MIDL 3.0, apply the `[default]` attribute to the interface selected as the default interface. For details, see [Advanced topics, and shorthand](https://learn.microsoft.com/uwp/midl-3/advanced#specify-the-default-interface).
+
 ## -examples
 
 ## -see-also

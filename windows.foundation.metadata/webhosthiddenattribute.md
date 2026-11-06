@@ -14,6 +14,8 @@ Identifies the type as one whose functionality is not projected into the specifi
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[webhosthidden]`.
+
 ## -examples
 
 ## -see-also

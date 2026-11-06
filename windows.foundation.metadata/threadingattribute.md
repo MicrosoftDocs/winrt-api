@@ -14,6 +14,8 @@ Indicates the threading model of a Windows Runtime class.
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[threading(...)]`.
+
 ## -examples
 
 ## -see-also
