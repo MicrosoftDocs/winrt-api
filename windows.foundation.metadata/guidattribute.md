@@ -14,6 +14,8 @@ Indicates the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) for the interfa
 
 ## -remarks
 
+In MIDL 3.0, an interface's identifier is specified with the `[uuid(...)]` attribute. For an example, see [Advanced topics, and shorthand](https://learn.microsoft.com/uwp/midl-3/advanced#empty-interfaces).
+
 ## -examples
 
 ## -see-also

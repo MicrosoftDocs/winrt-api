@@ -14,6 +14,8 @@ Enables developers to expose a native Windows Runtime object as a global paramet
 
 ## -remarks
 
+In MIDL 3.0, this attribute is written as `[allowforweb]`. For details, see [Predefined attributes (MIDL 3.0)](https://learn.microsoft.com/uwp/midl-3/predefined-attributes#the-allowforweb-attribute).
+
 ## -examples
 
 ## -see-also

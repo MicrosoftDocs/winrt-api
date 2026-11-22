@@ -13,6 +13,9 @@ public class StaticAttribute : System.Attribute
 Indicates an interface that contains only static methods.
 
 ## -remarks
+
+In MIDL 3.0, static-interface metadata is expressed with the `[static(InterfaceName)]` attribute. For an example, see [Synthesizing interfaces (MIDL 3.0)](https://learn.microsoft.com/uwp/midl-3/synthesizing-interfaces).
+
 The StaticAttribute specifies an interface with methods that language projections supply as static methods of the class. A runtime class may specify zero or more static attributes.
 
 A runtime class may have an [ActivatableAttribute](activatableattribute.md) to indicate that instances of the class can be constructed. Also, a runtime class may have instance interfaces, which indicate the instance methods that language projections supply on each object instance.

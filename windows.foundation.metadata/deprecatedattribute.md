@@ -14,6 +14,8 @@ Indicates that a type or member should be marked in metadata as deprecated. Comp
 
 ## -remarks
 
+In WinRT IDL, this attribute is written as `[deprecated(...)]`.
+
 ## -examples
 
 ## -see-also
