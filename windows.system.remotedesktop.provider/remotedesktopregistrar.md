@@ -19,8 +19,11 @@ Provides methods for querying the status of the remote desktop features enabled 
 
 ## -remarks
 
+## -events
 
-
+| Event | Description |
+|-------|-------------|
+| [ConnectionCenterRequested](remotedesktopregistrar_connectioncenterrequested.md) | Raised when the user requests the boot to cloud Connection Center. |
 
 ## -see-also
 
