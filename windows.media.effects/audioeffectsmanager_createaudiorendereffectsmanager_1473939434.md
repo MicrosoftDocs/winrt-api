@@ -10,7 +10,7 @@ public Windows.Media.Effects.AudioRenderEffectsManager CreateAudioRenderEffectsM
 # Windows.Media.Effects.AudioEffectsManager.CreateAudioRenderEffectsManager
 
 ## -description
-Creates a [AudioRenderEffectsManager](audiorendereffectsmanager.md) object for the specified device for a specific media category and audio processing mode.
+Creates a [AudioRenderEffectsManager](audiorendereffectsmanager.md) object for the specified device for a specific media category.
 
 ## -parameters
 ### -param deviceId
